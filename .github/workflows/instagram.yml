@@ -1,0 +1,30 @@
+name: Instagram automático
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'publicar o diagnostico'
+        default: 'publicar'
+permissions:
+  contents: write
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Publicar lo programado
+        env:
+          MODO: ${{ github.event.inputs.modo || 'publicar' }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node instagram/publicar.mjs
