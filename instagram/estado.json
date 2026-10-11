@@ -1,5 +1,5 @@
 {
- "chequeado": "2026-10-11T02:22:39.834Z",
+ "chequeado": "2026-10-11T11:49:45.153Z",
  "ok": false,
  "error": "Faltan los secrets IG_USER_ID y/o IG_ACCESS_TOKEN en GitHub."
 }
