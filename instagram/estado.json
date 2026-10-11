@@ -1,0 +1,5 @@
+{
+ "chequeado": "2026-10-11T02:22:39.834Z",
+ "ok": false,
+ "error": "Faltan los secrets IG_USER_ID y/o IG_ACCESS_TOKEN en GitHub."
+}
