@@ -3,20 +3,26 @@
     "18491257435105006": {
       "t": "2026-10-12T00:33:21+0000",
       "tipo": "VIDEO",
-      "a": 23,
-      "v": 26
+      "a": 32,
+      "v": 35
     },
     "18117572665992027": {
       "t": "2026-10-11T18:28:31+0000",
       "tipo": "VIDEO",
-      "a": 37,
-      "v": 42
+      "a": 44,
+      "v": 49
     },
     "18127365982859137": {
       "t": "2026-10-11T18:27:03+0000",
       "tipo": "VIDEO",
-      "a": 40,
-      "v": 47
+      "a": 48,
+      "v": 55
+    },
+    "18114861587007109": {
+      "t": "2026-10-12T12:15:50+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -29,11 +35,11 @@
     "follows_count": 634,
     "media_count": 571,
     "id": "28888466970748824",
-    "el": "2026-10-12T06:34:34.895Z"
+    "el": "2026-10-12T12:15:58.092Z"
   },
   "res30": {
-    "reach": 903,
-    "views": 3477,
+    "reach": 906,
+    "views": 3508,
     "profile_views": 36,
     "accounts_engaged": 36
   },
@@ -46,8 +52,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 127,
-      "views": 148,
+      "reach": 128,
+      "views": 151,
       "saved": 0,
       "shares": 0
     },
@@ -59,8 +65,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés renovar tu cocina antes de que vuelvan a volar? 🍳 Mirá todo lo que trae este video de la Bateria de cocina Clarin: tapas de vidrio templado con borde de silicona anti-impactos, súper antiadherentes, libre de PFOA y re fáciles de limpiar para esos días caóticos. 🏃‍♂️ ¡Vuelan, no te duermas! Reservá la tuya o consultá por WhatsApp acá: ¿Ya sabés cuál vas a usar primero? Guardá el reel para no olvidarte.\n#CarlosCasares #BateriadecocinaClarin #ollasantiadherentes #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 19,
+      "reach": 17,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -85,8 +91,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Sos del óvalo o del chivo? 🚗 Arrancá la colección Ford vs Chevrolet por solo $9.990 y armá tu propia joya a escala 1:18. Reservala ahora por acá. #FordvsChevrolet\n\n📲 WhatsApp: 2395 41-7834",
-      "reach": 40,
-      "views": 77,
+      "reach": 41,
+      "views": 79,
       "saved": 0,
       "shares": 0
     },
@@ -176,8 +182,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya está en tu kiosco la entrega N° 1! 🔪📚 Lleva el cuchillo Santoku + recetario de Cocina en Familia por Santiago Giorgini a un precio increíble de $8499,90. 👨‍🍳🔥 \n\nPasá a buscarlo por Maipú 175 en la agencia Albor o mandanos un WhatsApp al 2395417834 para reservar el tuyo. 📲 Run\n\n#ColeccionesClarin #CocinaEnFamilia #SantiagoGiorgini #CuchilloSantoku",
-      "reach": 42,
-      "views": 72,
+      "reach": 43,
+      "views": 74,
       "saved": 0,
       "shares": 0
     },
@@ -364,7 +370,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-12T06:34:51.852Z",
+  "actualizado": "2026-10-12T12:16:11.231Z",
   "aud": {
     "edad": [
       {
@@ -935,6 +941,54 @@
     "2026-09-30": {
       "a": 17,
       "v": 107
+    },
+    "2026-09-29": {
+      "a": 28,
+      "v": 78
+    },
+    "2026-09-28": {
+      "a": 0,
+      "v": 0
+    },
+    "2026-09-27": {
+      "a": 1,
+      "v": 1
+    },
+    "2026-09-26": {
+      "a": 122,
+      "v": 358
+    },
+    "2026-09-25": {
+      "a": 79,
+      "v": 209
+    },
+    "2026-09-24": {
+      "a": 1,
+      "v": 1
+    },
+    "2026-09-23": {
+      "a": 0,
+      "v": 0
+    },
+    "2026-09-22": {
+      "a": 0,
+      "v": 0
+    },
+    "2026-09-21": {
+      "a": 0,
+      "v": 0
+    },
+    "2026-09-20": {
+      "a": 5,
+      "v": 6
+    },
+    "2026-09-19": {
+      "a": 2,
+      "v": 2
+    },
+    "2026-09-18": {
+      "a": 2,
+      "v": 3
     }
   }
 }
