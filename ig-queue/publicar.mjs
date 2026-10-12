@@ -1,4 +1,4 @@
-// ig-motor-v3
+// ig-motor-v4
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -163,10 +163,33 @@ async function estadisticas(estado, token, uid) {
   try { const p = await ig('GET', uid, { fields: 'username,followers_count,follows_count,media_count' }, token); D.cuenta = { ...p, el: new Date().toISOString() }; D.seguidores[ahoraAR().dia] = p.followers_count; } catch (e) { errs.push('cuenta: ' + e.message); }
   try { const fin = Math.floor(ahora / 1000); D.res30 = await insights(uid, ['reach,views,profile_views,accounts_engaged', 'reach,views', 'reach'], { period: 'day', metric_type: 'total_value', since: fin - 30 * 86400, until: fin }); } catch (e) { errs.push('alcance: ' + e.message); }
   try {
-    const md = (await ig('GET', uid + '/media', { fields: 'id,timestamp,media_type,permalink,like_count,comments_count', limit: 25 }, token)).data || [];
+    const md = (await ig('GET', uid + '/media', { fields: 'id,timestamp,media_type,permalink,like_count,comments_count,caption', limit: 25 }, token)).data || [];
     D.posts = [];
     for (const p of md) { const m = await insights(p.id, ['reach,views,saved,shares', 'reach']); D.posts.push({ ...p, ...m }); }
   } catch (e) { errs.push('publicaciones: ' + e.message); }
+  try {
+    if (!D.aud || ahora - Date.parse(D.aud.el) > 20 * 3600000) {
+      const dem = {};
+      for (const [k, br] of [['edad', 'age,gender'], ['ciudades', 'city'], ['paises', 'country']]) {
+        const r = await ig('GET', uid + '/insights', { metric: 'follower_demographics', period: 'lifetime', metric_type: 'total_value', breakdown: br }, token);
+        const bd = ((((r.data || [])[0] || {}).total_value || {}).breakdowns || [])[0];
+        dem[k] = ((bd && bd.results) || []).map((x) => ({ d: x.dimension_values, v: x.value }));
+      }
+      D.aud = { ...dem, el: new Date().toISOString() };
+    }
+  } catch (e) { errs.push('audiencia: ' + e.message); }
+  try {
+    D.dias = D.dias || {}; let n = 0;
+    for (let i = 1; i <= 30 && n < 12; i++) {
+      const dia = new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date(ahora - i * 86400000));
+      if (D.dias[dia]) continue;
+      const since = Date.parse(dia + 'T03:00:00Z') / 1000;
+      const m = await insights(uid, ['reach,views', 'reach'], { period: 'day', metric_type: 'total_value', since, until: since + 86400 });
+      n++;
+      if (m.reach != null) D.dias[dia] = { a: m.reach, v: m.views };
+    }
+    for (const k of Object.keys(D.dias)) if (ahora - Date.parse(k) > 400 * 86400000) delete D.dias[k];
+  } catch (e) { errs.push('días: ' + e.message); }
   D.actualizado = new Date().toISOString(); escribir(f, D); estado.statsEl = D.actualizado;
   if (errs.length) estado.errorStats = errs.slice(0, 2).join(' | '); else delete estado.errorStats;
 }
