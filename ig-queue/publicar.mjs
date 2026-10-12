@@ -1,3 +1,4 @@
+// ig-motor-v3
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -54,28 +55,120 @@ async function renovarToken(token, estado) {
   }
 }
 
-async function publicar(d, token, uid) {
-  if (!d.media || !fs.existsSync(d.media)) throw new Error('El archivo de la publicación ya no está en el repositorio.');
-  const url = 'https://raw.githubusercontent.com/' + REPO + '/' + BRANCH + '/' + d.media;
-  for (let i = 0; i < 6; i++) { try { const h = await fetch(url, { method: 'HEAD' }); if (h.ok) break; } catch (e) { break; } await dormir(2000); }
-  const esVideo = d.tipo === 'video';
-  const params = { caption: d.fmt === 'historia' ? '' : (d.caption || '') };
-  if (esVideo) { params.video_url = url; params.media_type = d.fmt === 'historia' ? 'STORIES' : 'REELS'; if (d.fmt !== 'historia') params.share_to_feed = 'true'; }
-  else { params.image_url = url; if (d.fmt === 'historia') params.media_type = 'STORIES'; }
-  const cont = await ig('POST', uid + '/media', params, token);
-  const intentos = esVideo ? 60 : 12;
-  let listo = false;
+async function esperarListo(id, token, intentos, pausa) {
   for (let n = 0; n < intentos; n++) {
-    const st = await ig('GET', cont.id, { fields: 'status_code' }, token);
-    if (st.status_code === 'FINISHED') { listo = true; break; }
-    if (st.status_code === 'ERROR' || st.status_code === 'EXPIRED') throw new Error('Instagram no pudo procesar el archivo (' + st.status_code + ').');
-    await dormir(esVideo ? 3000 : 1500);
+    const st = await ig('GET', id, { fields: 'status_code' }, token);
+    if (st.status_code === 'FINISHED') return;
+    if (st.status_code === 'ERROR' || st.status_code === 'EXPIRED') {
+      const e = new Error('Instagram no pudo procesar el archivo (' + st.status_code + ').');
+      e.expirado = st.status_code === 'EXPIRED';
+      throw e;
+    }
+    await dormir(pausa);
   }
-  if (!listo) throw new Error('Instagram tardó demasiado en procesar el archivo.');
-  const pub = await ig('POST', uid + '/media_publish', { creation_id: cont.id }, token);
+  throw new Error('Instagram tardó demasiado en procesar el archivo.');
+}
+const urlPublica = (m) => 'https://raw.githubusercontent.com/' + REPO + '/' + BRANCH + '/' + m;
+async function esperarArchivo(url) {
+  for (let i = 0; i < 6; i++) { try { const h = await fetch(url, { method: 'HEAD' }); if (h.ok) return; } catch (e) { return; } await dormir(2000); }
+}
+function borrarMedias(d) {
+  for (const m of (d.medias || (d.media ? [d.media] : []))) { try { fs.unlinkSync(m); } catch (e) {} }
+}
+
+async function publicar(d, token, uid, guardar) {
+  const esCar = d.tipo === 'carousel';
+  const medias = esCar ? (d.medias || []) : [d.media];
+  if (!medias.length || medias.some((m) => !m || !fs.existsSync(m))) throw new Error('El archivo de la publicación ya no está en el repositorio.');
+  const esVideo = d.tipo === 'video';
+  let creationId = d.creationId || '';
+  if (!creationId) {
+    let params;
+    if (esCar) {
+      const hijos = [];
+      for (const m of medias) {
+        const u = urlPublica(m); await esperarArchivo(u);
+        const h = await ig('POST', uid + '/media', { image_url: u, is_carousel_item: 'true' }, token);
+        await esperarListo(h.id, token, 12, 1500);
+        hijos.push(h.id);
+      }
+      params = { media_type: 'CAROUSEL', children: hijos.join(','), caption: d.caption || '' };
+    } else {
+      const url = urlPublica(d.media); await esperarArchivo(url);
+      params = { caption: d.fmt === 'historia' ? '' : (d.caption || '') };
+      if (esVideo) { params.video_url = url; params.media_type = d.fmt === 'historia' ? 'STORIES' : 'REELS'; if (d.fmt !== 'historia') params.share_to_feed = 'true'; }
+      else { params.image_url = url; if (d.fmt === 'historia') params.media_type = 'STORIES'; }
+    }
+    const cont = await ig('POST', uid + '/media', params, token);
+    creationId = cont.id; d.creationId = creationId; if (guardar) guardar(d);
+  }
+  try { await esperarListo(creationId, token, esVideo ? 60 : 12, esVideo ? 3000 : 1500); }
+  catch (e) { if (e.expirado) { delete d.creationId; if (guardar) guardar(d); } throw e; }
+  // Si el contenedor ya se había publicado en un intento anterior, Instagram rechaza publicarlo de nuevo: no hay duplicados.
+  const pub = await ig('POST', uid + '/media_publish', { creation_id: creationId }, token);
   let permalink = '';
   try { permalink = (await ig('GET', pub.id, { fields: 'permalink' }, token)).permalink || ''; } catch (e) {}
   return { id: pub.id, permalink };
+}
+
+const TZ = 'America/Argentina/Buenos_Aires';
+const ahoraAR = () => { const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date()).map((x) => [x.type, x.value])); return { dia: p.year + '-' + p.month + '-' + p.day, min: +p.hour * 60 + +p.minute }; };
+const mezclar = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+
+// Cola de historias: a cada franja horaria publica N historias al azar del conjunto elegido en el panel.
+async function colaHistorias(estado, token, uid) {
+  const cfg = leer(path.join(BASE, 'stories', 'config.json'), null);
+  if (!cfg || cfg.pausada || !(cfg.franjas || []).length || !(cfg.pool || []).length) return;
+  const { dia, min } = ahoraAR();
+  const hechas = (estado.stFranjas = estado.stFranjas || {});
+  for (const k of Object.keys(hechas)) if (k.slice(0, 10) < dia) delete hechas[k];
+  estado.stUsados = (estado.stUsados || []).filter((id) => cfg.pool.some((p) => p.id === id));
+  const franjas = cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  for (const fr of franjas) {
+    const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
+    if (hechas[clave] || min < ini) continue;
+    if (min - ini > 180) { hechas[clave] = 'omitida'; continue; }
+    const n = Math.min(Number(fr.n) || 1, 10);
+    const existe = (p) => fs.existsSync(p.media);
+    let libres = cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id));
+    if (libres.length < n && cfg.reciclar !== false) { estado.stUsados = []; libres = cfg.pool.filter(existe); }
+    const elegidas = mezclar(libres).slice(0, n);
+    let ok = 0, fallos = 0;
+    for (const p of elegidas) {
+      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media }, token, uid, null); estado.stUsados.push(p.id); ok++; }
+      catch (e) { fallos++; estado.stError = e.message; console.log('Historia falló', p.id, e.message); }
+    }
+    hechas[clave] = 'ok';
+    estado.stUltima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
+    if (ok) delete estado.stError;
+    if (!elegidas.length) estado.stAviso = 'La cola de historias está vacía: agregá fotos o videos.';
+    else if (cfg.reciclar === false && cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
+    else delete estado.stAviso;
+  }
+}
+
+// Estadísticas: una vez por hora guarda historias (mientras están activas), cuenta y últimas publicaciones.
+async function estadisticas(estado, token, uid) {
+  const ahora = Date.now();
+  if (estado.statsEl && ahora - Date.parse(estado.statsEl) < 55 * 60000) return;
+  const f = path.join(BASE, 'stats', 'datos.json');
+  const D = leer(f, {}); D.historias = D.historias || {}; D.seguidores = D.seguidores || {};
+  const errs = [], val = (x) => (x.total_value ? x.total_value.value : x.values && x.values[0] ? x.values[0].value : 0);
+  const insights = async (id, lista, extra) => { for (const m of lista) { try { const r = await ig('GET', id + '/insights', { metric: m, ...(extra || {}) }, token); const o = {}; for (const x of r.data || []) o[x.name] = val(x); return o; } catch (e) { if (m === lista[lista.length - 1]) errs.push(e.message); } } return {}; };
+  try {
+    const l = (await ig('GET', uid + '/stories', { fields: 'id,timestamp,media_type', limit: 50 }, token)).data || [];
+    for (const s of l) { const m = await insights(s.id, ['reach,views', 'reach']); const a = D.historias[s.id] || {}; D.historias[s.id] = { t: s.timestamp, tipo: s.media_type, a: m.reach != null ? m.reach : a.a, v: m.views != null ? m.views : a.v }; }
+    for (const id of Object.keys(D.historias)) if (ahora - Date.parse(D.historias[id].t) > 120 * 86400000) delete D.historias[id];
+  } catch (e) { errs.push('historias: ' + e.message); }
+  try { const p = await ig('GET', uid, { fields: 'username,followers_count,follows_count,media_count' }, token); D.cuenta = { ...p, el: new Date().toISOString() }; D.seguidores[ahoraAR().dia] = p.followers_count; } catch (e) { errs.push('cuenta: ' + e.message); }
+  try { const fin = Math.floor(ahora / 1000); D.res30 = await insights(uid, ['reach,views,profile_views,accounts_engaged', 'reach,views', 'reach'], { period: 'day', metric_type: 'total_value', since: fin - 30 * 86400, until: fin }); } catch (e) { errs.push('alcance: ' + e.message); }
+  try {
+    const md = (await ig('GET', uid + '/media', { fields: 'id,timestamp,media_type,permalink,like_count,comments_count', limit: 25 }, token)).data || [];
+    D.posts = [];
+    for (const p of md) { const m = await insights(p.id, ['reach,views,saved,shares', 'reach']); D.posts.push({ ...p, ...m }); }
+  } catch (e) { errs.push('publicaciones: ' + e.message); }
+  D.actualizado = new Date().toISOString(); escribir(f, D); estado.statsEl = D.actualizado;
+  if (errs.length) estado.errorStats = errs.slice(0, 2).join(' | '); else delete estado.errorStats;
 }
 
 export async function main() {
@@ -102,23 +195,27 @@ export async function main() {
     for (const { f, d } of vencidos) {
       const archivo = path.join(pendDir, f);
       try {
-        const r = await publicar(d, token, uid);
+        const r = await publicar(d, token, uid, (x) => escribir(archivo, x));
         escribir(path.join(BASE, 'done', f), { ...d, estado: 'publicada', publicadoEl: new Date().toISOString(), permalink: r.permalink });
         fs.unlinkSync(archivo);
-        try { fs.unlinkSync(d.media); } catch (e) {}
+        borrarMedias(d);
         console.log('Publicada', d.id, r.permalink);
       } catch (e) {
         d.intentos = (d.intentos || 0) + 1; d.ultimoError = e.message;
         if (d.intentos >= MAX_INTENTOS) {
           escribir(path.join(BASE, 'failed', f), { ...d, estado: 'fallida' });
           fs.unlinkSync(archivo);
-          try { fs.unlinkSync(d.media); } catch (e2) {}
+          borrarMedias(d);
         } else escribir(archivo, d);
         console.log('Falló', d.id, e.message);
       }
     }
   } else if (estado.tokenRenovado) {
     token = await renovarToken(token || '', estado);
+  }
+  if (token && uid) {
+    try { await colaHistorias(estado, token, uid); } catch (e) { estado.stError = e.message; }
+    try { await estadisticas(estado, token, uid); } catch (e) { estado.errorStats = e.message; }
   }
   if (JSON.stringify(estado) !== JSON.stringify(estado0)) escribir(estadoF, estado);
 }
