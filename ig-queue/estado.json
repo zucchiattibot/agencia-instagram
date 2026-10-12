@@ -2,8 +2,18 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-12 05:00": "omitida"
+    "2026-10-12 05:00": "omitida",
+    "2026-10-12 12:00": "ok"
   },
-  "stUsados": [],
-  "statsEl": "2026-10-12T12:16:11.231Z"
+  "stUsados": [
+    "mv4luc4dey1",
+    "mv4lua53c45"
+  ],
+  "statsEl": "2026-10-12T16:02:24.440Z",
+  "stUltima": {
+    "cuando": "2026-10-12T16:02:09.217Z",
+    "franja": "12:00",
+    "ok": 2,
+    "fallos": 0
+  }
 }

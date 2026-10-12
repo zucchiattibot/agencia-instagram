@@ -3,23 +3,47 @@
     "18491257435105006": {
       "t": "2026-10-12T00:33:21+0000",
       "tipo": "VIDEO",
-      "a": 32,
-      "v": 35
+      "a": 52,
+      "v": 59
     },
     "18117572665992027": {
       "t": "2026-10-11T18:28:31+0000",
       "tipo": "VIDEO",
-      "a": 44,
-      "v": 49
+      "a": 60,
+      "v": 67
     },
     "18127365982859137": {
       "t": "2026-10-11T18:27:03+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 55
+      "a": 64,
+      "v": 75
     },
     "18114861587007109": {
       "t": "2026-10-12T12:15:50+0000",
+      "tipo": "VIDEO",
+      "a": 30,
+      "v": 34
+    },
+    "18332910517263266": {
+      "t": "2026-10-12T16:02:06+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
+    },
+    "18114891944019216": {
+      "t": "2026-10-12T16:01:58+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
+    },
+    "18128889634888705": {
+      "t": "2026-10-12T16:01:48+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
+    },
+    "18132023449755240": {
+      "t": "2026-10-12T16:01:04+0000",
       "tipo": "VIDEO",
       "a": 0,
       "v": 0
@@ -35,13 +59,13 @@
     "follows_count": 634,
     "media_count": 571,
     "id": "28888466970748824",
-    "el": "2026-10-12T12:15:58.092Z"
+    "el": "2026-10-12T16:02:12.293Z"
   },
   "res30": {
-    "reach": 906,
-    "views": 3508,
+    "reach": 909,
+    "views": 3604,
     "profile_views": 36,
-    "accounts_engaged": 36
+    "accounts_engaged": 38
   },
   "posts": [
     {
@@ -52,8 +76,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 128,
-      "views": 151,
+      "reach": 132,
+      "views": 156,
       "saved": 0,
       "shares": 0
     },
@@ -283,11 +307,11 @@
       "timestamp": "2026-09-29T18:28:59+0000",
       "media_type": "IMAGE",
       "permalink": "https://www.instagram.com/p/Dd4Z5kqusAr/",
-      "like_count": 19,
+      "like_count": 20,
       "comments_count": 0,
       "caption": "¡Llevá tu cocina a otro nivel con el nuevo set premium de ollas y sartenes Titanium! 🍳✨ Diseñadas con la mejor tecnología para cocinar como un profesional a solo $39.999,90 cada entrega. 🍲 Pasá a reservarla por Maipú 175 en agencia Albor o escribinos por WhatsApp al 2395417834. 📲\n\n#OllasYSartenes #ColeccionesClarin #CocinaFacil #Maipu175",
-      "reach": 267,
-      "views": 69,
+      "reach": 270,
+      "views": 70,
       "saved": 0,
       "shares": 3
     },
@@ -370,7 +394,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-12T12:16:11.231Z",
+  "actualizado": "2026-10-12T16:02:24.440Z",
   "aud": {
     "edad": [
       {
@@ -989,6 +1013,30 @@
     "2026-09-18": {
       "a": 2,
       "v": 3
+    },
+    "2026-09-17": {
+      "a": 1,
+      "v": 3
+    },
+    "2026-09-16": {
+      "a": 71,
+      "v": 138
+    },
+    "2026-09-15": {
+      "a": 174,
+      "v": 407
+    },
+    "2026-09-14": {
+      "a": 0,
+      "v": 0
+    },
+    "2026-09-13": {
+      "a": 0,
+      "v": 0
+    },
+    "2026-09-12": {
+      "a": 0,
+      "v": 0
     }
   }
 }
