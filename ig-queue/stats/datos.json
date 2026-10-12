@@ -1,0 +1,342 @@
+{
+  "historias": {
+    "18491257435105006": {
+      "t": "2026-10-12T00:33:21+0000",
+      "tipo": "VIDEO",
+      "a": 12,
+      "v": 16
+    },
+    "18117572665992027": {
+      "t": "2026-10-11T18:28:31+0000",
+      "tipo": "VIDEO",
+      "a": 30,
+      "v": 34
+    },
+    "18127365982859137": {
+      "t": "2026-10-11T18:27:03+0000",
+      "tipo": "VIDEO",
+      "a": 32,
+      "v": 37
+    }
+  },
+  "seguidores": {
+    "2026-10-11": 1387
+  },
+  "cuenta": {
+    "username": "agenciaalbor",
+    "followers_count": 1387,
+    "follows_count": 634,
+    "media_count": 571,
+    "id": "28888466970748824",
+    "el": "2026-10-12T02:05:02.634Z"
+  },
+  "res30": {
+    "reach": 819,
+    "views": 3346,
+    "profile_views": 36,
+    "accounts_engaged": 35
+  },
+  "posts": [
+    {
+      "id": "17913969612500169",
+      "timestamp": "2026-10-12T01:14:29+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeYBzNKjTX-/",
+      "like_count": 1,
+      "comments_count": 0,
+      "reach": 42,
+      "views": 119,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "17893135347438765",
+      "timestamp": "2026-10-10T21:41:40+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeVErHAPHlE/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 16,
+      "views": 19,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18632006092010203",
+      "timestamp": "2026-10-10T13:42:10+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeUNzDBOkME/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 26,
+      "views": 29,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18112997918592317",
+      "timestamp": "2026-10-09T16:22:15+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DeR7WJLOt8w/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 38,
+      "views": 76,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "17987283251880354",
+      "timestamp": "2026-10-09T16:00:18+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeR40efu9TY/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 57,
+      "views": 77,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18285637633295367",
+      "timestamp": "2026-10-09T12:16:56+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DeRfRY4OH8y/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 38,
+      "views": 66,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18030436493683208",
+      "timestamp": "2026-10-08T18:31:49+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DePlW8UuoWB/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 20,
+      "views": 27,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18140300836611226",
+      "timestamp": "2026-10-08T15:54:35+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DePTV70OBEM/",
+      "like_count": 2,
+      "comments_count": 1,
+      "reach": 40,
+      "views": 65,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18193565830353710",
+      "timestamp": "2026-10-08T11:30:00+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeO1Fn9OKPv/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 18,
+      "views": 24,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18014252762954462",
+      "timestamp": "2026-10-08T11:25:52+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DeO0ognu6Sp/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 24,
+      "views": 50,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18118541638978861",
+      "timestamp": "2026-10-07T17:58:25+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DeM8wuoOxaH/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 42,
+      "views": 72,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18410533261086927",
+      "timestamp": "2026-10-07T17:57:39+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DeM8rGFu24j/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 31,
+      "views": 42,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18001249448809336",
+      "timestamp": "2026-10-07T15:22:19+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeMq4fVORVP/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 19,
+      "views": 21,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18161322907442968",
+      "timestamp": "2026-10-07T14:54:38+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeMnr10OteA/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 22,
+      "views": 40,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18078580307426491",
+      "timestamp": "2026-10-01T18:16:33+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dd9iCRshFOw/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 46,
+      "views": 58,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18120689713911305",
+      "timestamp": "2026-09-29T18:59:50+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dd4dadVOKmG/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 20,
+      "views": 23,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18223389250339258",
+      "timestamp": "2026-09-29T18:40:10+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dd4bKYduICr/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 34,
+      "views": 46,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18025086959873479",
+      "timestamp": "2026-09-29T18:38:47+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dd4bAVUOtYH/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 31,
+      "views": 31,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18126810106861394",
+      "timestamp": "2026-09-29T18:28:59+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Dd4Z5kqusAr/",
+      "like_count": 19,
+      "comments_count": 0,
+      "reach": 267,
+      "views": 69,
+      "saved": 0,
+      "shares": 3
+    },
+    {
+      "id": "18108615302274045",
+      "timestamp": "2026-09-15T19:35:06+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DdUeT61P9Gu/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 45,
+      "views": 74,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "17975191488075697",
+      "timestamp": "2026-06-27T14:46:45+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DaF9v2nNl_5/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 88,
+      "views": 169,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18325440022302098",
+      "timestamp": "2026-03-14T11:41:41+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DV3REPFDeoC/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 188,
+      "views": 230,
+      "saved": 0,
+      "shares": 1
+    },
+    {
+      "id": "17922043191268151",
+      "timestamp": "2026-03-12T13:55:48+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DVyW2TXDed-/",
+      "like_count": 1,
+      "comments_count": 0,
+      "reach": 110,
+      "views": 136,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "17931854880049662",
+      "timestamp": "2026-03-12T13:54:34+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DVyWs14jRO6/",
+      "like_count": 3,
+      "comments_count": 0,
+      "reach": 164,
+      "views": 251,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18563474722061245",
+      "timestamp": "2026-03-04T14:38:44+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DVd1aYVDcSd/",
+      "like_count": 0,
+      "comments_count": 0,
+      "reach": 47,
+      "views": 56,
+      "saved": 0,
+      "shares": 1
+    }
+  ],
+  "actualizado": "2026-10-12T02:05:13.014Z"
+}
