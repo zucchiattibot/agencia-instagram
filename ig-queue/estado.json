@@ -1,15 +1,19 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-10-13 05:00": "ok"
+  },
   "stUsados": [
     "mv4luc4dey1",
-    "mv4lua53c45"
+    "mv4lua53c45",
+    "mv4luqi3vfl",
+    "mv4luh4ksr2"
   ],
-  "statsEl": "2026-10-13T03:15:16.230Z",
+  "statsEl": "2026-10-13T10:38:23.883Z",
   "stUltima": {
-    "cuando": "2026-10-12T16:02:09.217Z",
-    "franja": "12:00",
+    "cuando": "2026-10-13T10:38:11.513Z",
+    "franja": "05:00",
     "ok": 2,
     "fallos": 0
   }
