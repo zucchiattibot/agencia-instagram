@@ -99,26 +99,32 @@
     "18149082592557918": {
       "t": "2026-10-14T01:18:04+0000",
       "tipo": "VIDEO",
-      "a": 53,
-      "v": 62
+      "a": 66,
+      "v": 75
     },
     "17982524454107243": {
       "t": "2026-10-14T10:33:59+0000",
       "tipo": "VIDEO",
-      "a": 35,
-      "v": 42
+      "a": 49,
+      "v": 58
     },
     "18177529483453552": {
       "t": "2026-10-14T10:33:28+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 56
+      "a": 59,
+      "v": 71
     },
     "18097084526535375": {
       "t": "2026-10-14T15:25:25+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 23,
+      "v": 27
+    },
+    "17976216944935378": {
+      "t": "2026-10-14T17:43:58+0000",
+      "tipo": "IMAGE",
+      "a": 10,
+      "v": 11
     }
   },
   "seguidores": {
@@ -131,29 +137,55 @@
     "username": "agenciaalbor",
     "followers_count": 1388,
     "follows_count": 634,
-    "media_count": 575,
+    "media_count": 577,
     "id": "28888466970748824",
-    "el": "2026-10-14T15:25:30.687Z"
+    "el": "2026-10-14T19:32:19.408Z"
   },
   "res30": {
-    "reach": 980,
-    "views": 5088,
-    "profile_views": 40,
-    "accounts_engaged": 40
+    "reach": 996,
+    "views": 5297,
+    "profile_views": 42,
+    "accounts_engaged": 42
   },
   "posts": [
+    {
+      "id": "18452634274120048",
+      "timestamp": "2026-10-14T19:32:11+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DefJBEECq7c/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18089127428265786",
+      "timestamp": "2026-10-14T17:43:12+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Dee8lA1CRJN/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
+      "reach": 9,
+      "views": 31,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17890450506616999",
       "timestamp": "2026-10-14T01:14:11+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DedLYqdNLGB/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés volver a enamorarte de la lectura con una autora que te atrapa desde la primera línea? ❤️📖\nMuy pronto llega algo pensado para disfrutar de las tardes de mate con una gran historia en las manos. \nConsejo: estate atenta a las novedades para no quedarte sin el tuyo. \nQueda muy poco para lo que se viene 👀\nMandanos un mensaje o escribinos al WhatsApp para reservarlo antes de que vuele. 📲\n¿Cuál fue el último libro que te hizo desvelarte?\n#colecciondelectura #carloscasares #literaturaargentina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 22,
+      "reach": 29,
+      "views": 46,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "17863560099696938",
@@ -163,8 +195,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 24,
+      "reach": 19,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -176,10 +208,10 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sentí la potencia de los Rolling Stones girando en tu bandeja. 🎸 La colección oficial de vinilos ya se puede encargar en el local. Mandanos un WhatsApp al 2395417834 o pasá por Maipú 175 para reservar el tuyo en Carlos Casares.\n#vinilos #carloscasares #therollingstonesvinilos\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 39,
-      "views": 49,
+      "reach": 46,
+      "views": 62,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "17993673270043722",
@@ -189,8 +221,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que guardamos cada alegría de la Scaloneta en la memoria, este libro es un viaje directo a la gloria eterna. ⚽🇦🇷\n\n\"Inmortal: Messi de Colección\" de La Nación ya se puede señar en el local para no quedarte sin tu ejemplar. Pasá a verlo por Maipú 175 o mandanos un mensaje directo al WhatsApp 2395 41-7834. \n\n¿Cuál es tu momento favorito de Leo con la celeste y blanca? Contanos acá abajo. 👇\n\n#InmortalLaNacionMessidecoleccion #CarlosCasares #Messi #Coleccionables",
-      "reach": 34,
-      "views": 49,
+      "reach": 35,
+      "views": 51,
       "saved": 0,
       "shares": 0
     },
@@ -202,8 +234,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 140,
-      "views": 166,
+      "reach": 141,
+      "views": 168,
       "saved": 0,
       "shares": 0
     },
@@ -216,7 +248,7 @@
       "comments_count": 0,
       "caption": "¿Querés renovar tu cocina antes de que vuelvan a volar? 🍳 Mirá todo lo que trae este video de la Bateria de cocina Clarin: tapas de vidrio templado con borde de silicona anti-impactos, súper antiadherentes, libre de PFOA y re fáciles de limpiar para esos días caóticos. 🏃‍♂️ ¡Vuelan, no te duermas! Reservá la tuya o consultá por WhatsApp acá: ¿Ya sabés cuál vas a usar primero? Guardá el reel para no olvidarte.\n#CarlosCasares #BateriadecocinaClarin #ollasantiadherentes #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 19,
-      "views": 23,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -229,7 +261,7 @@
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 29,
-      "views": 33,
+      "views": 34,
       "saved": 0,
       "shares": 0
     },
@@ -254,8 +286,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Esa cancha verde y esos botines ya nos despiertan mil recuerdos ⚽ Hacé tu reserva hoy mismo por $11.590 y asegurá tu ejemplar de Silmar. Pasá por el kiosco o mandanos un mensaje para no quedarte sin el tuyo.\n#SuperCampeones #Coleccionables #Silmar #KioscoDeDiarios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 63,
-      "views": 85,
+      "reach": 64,
+      "views": 86,
       "saved": 0,
       "shares": 0
     },
@@ -267,8 +299,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Toda la magia de Leo en la Selección reunida en esta edición especial de Olé con póster doble incluido ⚽🇦🇷\nGuardá la tuya mandándonos un mensaje antes de que se agoten.\nReservá la tuya o consultá por WhatsApp acá: https://wa.me/5492395417834?text=Hola!%20Quiero%20reservar%20o%20consultar%20por%20la%20colecci%C3%B3n%20%22Ole%2046%20millones%20de%20gracias%22%20%F0%9F%99%8C\n#Ole46millonesdegracias #Clarin #Coleccionables\n\n📲 WhatsApp: 23 9541-7834\n🔗 Link directo en la bio",
-      "reach": 42,
-      "views": 72,
+      "reach": 43,
+      "views": 73,
       "saved": 0,
       "shares": 0
     },
@@ -358,8 +390,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Llegó el video que estabas esperando para armar tu propia granja! 🚜🏡 Divertitete armando cada detalle con esta increíble colección. 🐥 \nPasá a buscarlo por Maipú 175, agencia Albor, o mandanos un WhatsApp al 2395417834 y reservá el tuyo antes de que vuele. 📲✨\n\n#Coleccionables #DiariosYRevistas #GranjaDeMadera #Maipú175 #AgenciaAlbor",
-      "reach": 23,
-      "views": 27,
+      "reach": 25,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -371,8 +403,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Llevá tu cocina a otro nivel con este set premium de ollas y sartenes Titanium! 🍳✨ Mirá el video para conocer todos los detalles y renová tus platos como un profesional. 👨‍🍳🔥 \n\nReservá el tuyo escribiendo al WhatsApp 2395417834 o pasá a buscarlo por Maipú 175, agencia Albor. 📍\n\n#OllasYSartenes #CocinaFacil #ColeccionesClarin #Maipu175",
-      "reach": 25,
-      "views": 43,
+      "reach": 26,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -436,39 +468,13 @@
       "like_count": 20,
       "comments_count": 0,
       "caption": "¡Llevá tu cocina a otro nivel con el nuevo set premium de ollas y sartenes Titanium! 🍳✨ Diseñadas con la mejor tecnología para cocinar como un profesional a solo $39.999,90 cada entrega. 🍲 Pasá a reservarla por Maipú 175 en agencia Albor o escribinos por WhatsApp al 2395417834. 📲\n\n#OllasYSartenes #ColeccionesClarin #CocinaFacil #Maipu175",
-      "reach": 298,
+      "reach": 299,
       "views": 72,
       "saved": 0,
       "shares": 3
-    },
-    {
-      "id": "18108615302274045",
-      "timestamp": "2026-09-15T19:35:06+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DdUeT61P9Gu/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Whatsaap 2395417834",
-      "reach": 45,
-      "views": 74,
-      "saved": 0,
-      "shares": 0
-    },
-    {
-      "id": "17975191488075697",
-      "timestamp": "2026-06-27T14:46:45+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/DaF9v2nNl_5/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Pelotas futbol argentina varios modelos.\nPrecio por mayor 8000$$ \nAgencia Albor \nMaipú 175 \nWhatsaap 2395417834",
-      "reach": 88,
-      "views": 169,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-14T15:25:38.170Z",
+  "actualizado": "2026-10-14T19:32:27.517Z",
   "aud": {
     "edad": [
       {
