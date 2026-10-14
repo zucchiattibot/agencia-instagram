@@ -69,20 +69,20 @@
     "18369145015213975": {
       "t": "2026-10-13T17:47:59+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 49
+      "a": 68,
+      "v": 75
     },
     "18419784757153282": {
       "t": "2026-10-13T17:47:18+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 53
+      "a": 70,
+      "v": 81
     },
     "17933760837145222": {
       "t": "2026-10-13T16:48:40+0000",
       "tipo": "IMAGE",
-      "a": 53,
-      "v": 61
+      "a": 77,
+      "v": 91
     },
     "17951721723326318": {
       "t": "2026-10-13T21:58:51+0000",
@@ -93,24 +93,30 @@
     "18436484680194537": {
       "t": "2026-10-13T18:56:37+0000",
       "tipo": "IMAGE",
-      "a": 42,
-      "v": 45
+      "a": 64,
+      "v": 73
     },
     "18149082592557918": {
       "t": "2026-10-14T01:18:04+0000",
       "tipo": "VIDEO",
-      "a": 17,
-      "v": 21
+      "a": 53,
+      "v": 62
     },
     "17982524454107243": {
       "t": "2026-10-14T10:33:59+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 35,
+      "v": 42
     },
     "18177529483453552": {
       "t": "2026-10-14T10:33:28+0000",
       "tipo": "VIDEO",
+      "a": 43,
+      "v": 56
+    },
+    "18097084526535375": {
+      "t": "2026-10-14T15:25:25+0000",
+      "tipo": "IMAGE",
       "a": 0,
       "v": 0
     }
@@ -127,13 +133,13 @@
     "follows_count": 634,
     "media_count": 575,
     "id": "28888466970748824",
-    "el": "2026-10-14T10:34:07.025Z"
+    "el": "2026-10-14T15:25:30.687Z"
   },
   "res30": {
-    "reach": 972,
-    "views": 4836,
+    "reach": 980,
+    "views": 5088,
     "profile_views": 40,
-    "accounts_engaged": 39
+    "accounts_engaged": 40
   },
   "posts": [
     {
@@ -144,8 +150,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés volver a enamorarte de la lectura con una autora que te atrapa desde la primera línea? ❤️📖\nMuy pronto llega algo pensado para disfrutar de las tardes de mate con una gran historia en las manos. \nConsejo: estate atenta a las novedades para no quedarte sin el tuyo. \nQueda muy poco para lo que se viene 👀\nMandanos un mensaje o escribinos al WhatsApp para reservarlo antes de que vuele. 📲\n¿Cuál fue el último libro que te hizo desvelarte?\n#colecciondelectura #carloscasares #literaturaargentina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 17,
+      "reach": 15,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -183,8 +189,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que guardamos cada alegría de la Scaloneta en la memoria, este libro es un viaje directo a la gloria eterna. ⚽🇦🇷\n\n\"Inmortal: Messi de Colección\" de La Nación ya se puede señar en el local para no quedarte sin tu ejemplar. Pasá a verlo por Maipú 175 o mandanos un mensaje directo al WhatsApp 2395 41-7834. \n\n¿Cuál es tu momento favorito de Leo con la celeste y blanca? Contanos acá abajo. 👇\n\n#InmortalLaNacionMessidecoleccion #CarlosCasares #Messi #Coleccionables",
-      "reach": 31,
-      "views": 46,
+      "reach": 34,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -248,8 +254,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Esa cancha verde y esos botines ya nos despiertan mil recuerdos ⚽ Hacé tu reserva hoy mismo por $11.590 y asegurá tu ejemplar de Silmar. Pasá por el kiosco o mandanos un mensaje para no quedarte sin el tuyo.\n#SuperCampeones #Coleccionables #Silmar #KioscoDeDiarios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 62,
-      "views": 84,
+      "reach": 63,
+      "views": 85,
       "saved": 0,
       "shares": 0
     },
@@ -314,7 +320,7 @@
       "comments_count": 0,
       "caption": "¡Vuelven los cuchillos más elegidos por los argentinos con Cocina en familia por Santiago Giorgini! 🔪 Ya está en tu kiosco la Entrega N°1 con el cuchillo Santoku a $18499,90. 👨‍🍳 Reservá tu ejemplar por WhatsApp al 2395417834 o pasá a buscarlo por Maipú 175, agencia Albor. \n\n#ColeccionesClarin #CocinaEnFamilia #SantiagoGiorgini #Soklingen",
       "reach": 26,
-      "views": 52,
+      "views": 56,
       "saved": 0,
       "shares": 0
     },
@@ -430,7 +436,7 @@
       "like_count": 20,
       "comments_count": 0,
       "caption": "¡Llevá tu cocina a otro nivel con el nuevo set premium de ollas y sartenes Titanium! 🍳✨ Diseñadas con la mejor tecnología para cocinar como un profesional a solo $39.999,90 cada entrega. 🍲 Pasá a reservarla por Maipú 175 en agencia Albor o escribinos por WhatsApp al 2395417834. 📲\n\n#OllasYSartenes #ColeccionesClarin #CocinaFacil #Maipu175",
-      "reach": 294,
+      "reach": 298,
       "views": 72,
       "saved": 0,
       "shares": 3
@@ -462,7 +468,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-14T10:34:14.144Z",
+  "actualizado": "2026-10-14T15:25:38.170Z",
   "aud": {
     "edad": [
       {

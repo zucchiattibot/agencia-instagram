@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-14 05:00": "ok"
+    "2026-10-14 05:00": "ok",
+    "2026-10-14 12:00": "ok"
   },
   "stUsados": [
     "mv4luc4dey1",
@@ -13,13 +14,15 @@
     "mv4lu6j9198",
     "mv4lv6gc958",
     "mv4lut9q9cp",
-    "mv4luix3bjm"
+    "mv4luix3bjm",
+    "mv4lu4kptzb"
   ],
-  "statsEl": "2026-10-14T10:34:14.144Z",
+  "statsEl": "2026-10-14T15:25:38.170Z",
   "stUltima": {
-    "cuando": "2026-10-14T10:34:04.363Z",
-    "franja": "05:00",
-    "ok": 2,
+    "cuando": "2026-10-14T15:25:28.285Z",
+    "franja": "12:00",
+    "ok": 1,
     "fallos": 0
-  }
+  },
+  "stAviso": "Ya salieron todas las historias de la cola: agregá más o activá repetir."
 }
