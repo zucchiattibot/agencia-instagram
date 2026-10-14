@@ -63,8 +63,8 @@
     "18349683589266151": {
       "t": "2026-10-13T10:37:59+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 81
+      "a": 71,
+      "v": 82
     },
     "18369145015213975": {
       "t": "2026-10-13T17:47:59+0000",
@@ -94,13 +94,25 @@
       "t": "2026-10-13T18:56:37+0000",
       "tipo": "IMAGE",
       "a": 42,
-      "v": 44
+      "v": 45
     },
     "18149082592557918": {
       "t": "2026-10-14T01:18:04+0000",
       "tipo": "VIDEO",
-      "a": 15,
-      "v": 17
+      "a": 17,
+      "v": 21
+    },
+    "17982524454107243": {
+      "t": "2026-10-14T10:33:59+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
+    },
+    "18177529483453552": {
+      "t": "2026-10-14T10:33:28+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -115,11 +127,11 @@
     "follows_count": 634,
     "media_count": 575,
     "id": "28888466970748824",
-    "el": "2026-10-14T05:34:00.291Z"
+    "el": "2026-10-14T10:34:07.025Z"
   },
   "res30": {
     "reach": 972,
-    "views": 4831,
+    "views": 4836,
     "profile_views": 40,
     "accounts_engaged": 39
   },
@@ -132,8 +144,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés volver a enamorarte de la lectura con una autora que te atrapa desde la primera línea? ❤️📖\nMuy pronto llega algo pensado para disfrutar de las tardes de mate con una gran historia en las manos. \nConsejo: estate atenta a las novedades para no quedarte sin el tuyo. \nQueda muy poco para lo que se viene 👀\nMandanos un mensaje o escribinos al WhatsApp para reservarlo antes de que vuele. 📲\n¿Cuál fue el último libro que te hizo desvelarte?\n#colecciondelectura #carloscasares #literaturaargentina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 16,
+      "reach": 13,
+      "views": 17,
       "saved": 0,
       "shares": 0
     },
@@ -146,7 +158,7 @@
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 16,
-      "views": 23,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -450,7 +462,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-14T05:34:10.311Z",
+  "actualizado": "2026-10-14T10:34:14.144Z",
   "aud": {
     "edad": [
       {
