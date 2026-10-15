@@ -129,44 +129,50 @@
     "18034408214667139": {
       "t": "2026-10-15T14:35:11+0000",
       "tipo": "IMAGE",
-      "a": 51,
-      "v": 59
+      "a": 56,
+      "v": 67
     },
     "18084222032703485": {
       "t": "2026-10-15T14:34:41+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 56
+      "a": 57,
+      "v": 67
     },
     "18115588097026983": {
       "t": "2026-10-15T12:25:16+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 73
+      "a": 70,
+      "v": 81
     },
     "18154064758479348": {
       "t": "2026-10-15T11:13:12+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 83
+      "a": 75,
+      "v": 93
     },
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 16,
-      "v": 21
+      "a": 26,
+      "v": 31
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
       "tipo": "VIDEO",
-      "a": 40,
-      "v": 45
+      "a": 46,
+      "v": 52
     },
     "18449745766192507": {
       "t": "2026-10-15T15:30:58+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 46
+      "a": 48,
+      "v": 53
+    },
+    "17877690294567781": {
+      "t": "2026-10-15T23:06:09+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -182,12 +188,12 @@
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-15T21:55:15.860Z"
+    "el": "2026-10-15T23:06:16.425Z"
   },
   "res30": {
-    "reach": 1041,
-    "views": 5687,
-    "profile_views": 44,
+    "reach": 1044,
+    "views": 5752,
+    "profile_views": 45,
     "accounts_engaged": 42
   },
   "posts": [
@@ -199,8 +205,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 3,
-      "views": 2,
+      "reach": 8,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -213,7 +219,7 @@
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 18,
-      "views": 41,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -238,8 +244,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Rasti! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 52,
+      "reach": 33,
+      "views": 54,
       "saved": 0,
       "shares": 0
     },
@@ -251,8 +257,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 30,
+      "reach": 17,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -264,8 +270,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
-      "reach": 25,
-      "views": 30,
+      "reach": 26,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -277,8 +283,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
-      "reach": 21,
-      "views": 49,
+      "reach": 22,
+      "views": 52,
       "saved": 0,
       "shares": 0
     },
@@ -517,7 +523,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-15T21:55:27.946Z",
+  "actualizado": "2026-10-15T23:06:24.384Z",
   "aud": {
     "edad": [
       {
