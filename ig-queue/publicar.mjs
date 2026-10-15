@@ -1,4 +1,4 @@
-// ig-motor-v4
+// ig-motor-v5
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -124,12 +124,17 @@ async function colaHistorias(estado, token, uid) {
   for (const k of Object.keys(hechas)) if (k.slice(0, 10) < dia) delete hechas[k];
   estado.stUsados = (estado.stUsados || []).filter((id) => cfg.pool.some((p) => p.id === id));
   const franjas = cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  const existe = (p) => fs.existsSync(p.media);
+  const enRepo = cfg.pool.filter(existe).length;
+  // Diagnóstico visible en el panel: cuándo miró el motor, cuántas historias hay de verdad en el repositorio y qué franjas faltan.
+  const pendientes = franjas.filter((fr) => { const [h, m] = String(fr.h).split(':').map(Number); const ini = h * 60 + m; return !['ok', 'omitida', 'vacia'].includes(hechas[dia + ' ' + fr.h]) && min >= ini && min - ini <= 180; }).map((fr) => fr.h);
+  estado.stChequeo = { cuando: new Date().toISOString(), cola: cfg.pool.length, enRepo, pendientes };
   for (const fr of franjas) {
     const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
-    if (hechas[clave] || min < ini) continue;
+    if (min < ini) continue;
+    if (hechas[clave] === 'ok' || hechas[clave] === 'omitida' || hechas[clave] === 'vacia') continue;
     if (min - ini > 180) { hechas[clave] = 'omitida'; continue; }
     const n = Math.min(Number(fr.n) || 1, 10);
-    const existe = (p) => fs.existsSync(p.media);
     let libres = cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id));
     if (libres.length < n && cfg.reciclar !== false) { estado.stUsados = []; libres = cfg.pool.filter(existe); }
     const elegidas = mezclar(libres).slice(0, n);
@@ -138,10 +143,13 @@ async function colaHistorias(estado, token, uid) {
       try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media }, token, uid, null); estado.stUsados.push(p.id); ok++; }
       catch (e) { fallos++; estado.stError = e.message; console.log('Historia falló', p.id, e.message); }
     }
-    hechas[clave] = 'ok';
+    // Si no salió ninguna por un error, se vuelve a intentar en la próxima corrida (hasta 3 veces); antes se daba la franja por hecha y quedaba sin publicar.
+    const intentos = (typeof hechas[clave] === 'object' && hechas[clave] ? hechas[clave].intentos : 0) + 1;
+    if (elegidas.length && !ok && intentos < 3) hechas[clave] = { intentos };
+    else hechas[clave] = elegidas.length ? 'ok' : 'vacia';
     estado.stUltima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
     if (ok) delete estado.stError;
-    if (!elegidas.length) estado.stAviso = 'La cola de historias está vacía: agregá fotos o videos.';
+    if (!elegidas.length) estado.stAviso = 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
     else if (cfg.reciclar === false && cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
     else delete estado.stAviso;
   }
@@ -240,6 +248,9 @@ export async function main() {
     try { await colaHistorias(estado, token, uid); } catch (e) { estado.stError = e.message; }
     try { await estadisticas(estado, token, uid); } catch (e) { estado.errorStats = e.message; }
   }
+  // El chequeo cambia en cada corrida: solo se guarda si pasaron 30 min o si hay algo nuevo, para no llenar el repositorio de commits.
+  const soloChequeo = JSON.stringify({ ...estado, stChequeo: 0 }) === JSON.stringify({ ...estado0, stChequeo: 0 });
+  if (soloChequeo && estado0.stChequeo && estado.stChequeo && Date.parse(estado.stChequeo.cuando) - Date.parse(estado0.stChequeo.cuando) < 30 * 60000) estado.stChequeo = estado0.stChequeo;
   if (JSON.stringify(estado) !== JSON.stringify(estado0)) escribir(estadoF, estado);
 }
 
