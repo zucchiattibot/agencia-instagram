@@ -4,19 +4,8 @@
   "stFranjas": {
     "2026-10-15 05:00": "ok"
   },
-  "stUsados": [
-    "mv4luc4dey1",
-    "mv4lua53c45",
-    "mv4luqi3vfl",
-    "mv4luh4ksr2",
-    "mv4luow3tll",
-    "mv4lu6j9198",
-    "mv4lv6gc958",
-    "mv4lut9q9cp",
-    "mv4luix3bjm",
-    "mv4lu4kptzb"
-  ],
-  "statsEl": "2026-10-15T10:00:59.430Z",
+  "stUsados": [],
+  "statsEl": "2026-10-15T14:53:28.572Z",
   "stUltima": {
     "cuando": "2026-10-15T10:00:43.483Z",
     "franja": "05:00",

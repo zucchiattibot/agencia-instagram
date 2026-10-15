@@ -117,14 +117,38 @@
     "18097084526535375": {
       "t": "2026-10-14T15:25:25+0000",
       "tipo": "IMAGE",
-      "a": 47,
-      "v": 52
+      "a": 69,
+      "v": 82
     },
     "17976216944935378": {
       "t": "2026-10-14T17:43:58+0000",
       "tipo": "IMAGE",
-      "a": 37,
-      "v": 39
+      "a": 54,
+      "v": 60
+    },
+    "18034408214667139": {
+      "t": "2026-10-15T14:35:11+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 6
+    },
+    "18084222032703485": {
+      "t": "2026-10-15T14:34:41+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 6
+    },
+    "18115588097026983": {
+      "t": "2026-10-15T12:25:16+0000",
+      "tipo": "VIDEO",
+      "a": 24,
+      "v": 33
+    },
+    "18154064758479348": {
+      "t": "2026-10-15T11:13:12+0000",
+      "tipo": "IMAGE",
+      "a": 29,
+      "v": 36
     }
   },
   "seguidores": {
@@ -138,17 +162,69 @@
     "username": "agenciaalbor",
     "followers_count": 1389,
     "follows_count": 635,
-    "media_count": 577,
+    "media_count": 581,
     "id": "28888466970748824",
-    "el": "2026-10-15T10:00:46.526Z"
+    "el": "2026-10-15T14:53:17.881Z"
   },
   "res30": {
-    "reach": 1013,
-    "views": 5078,
+    "reach": 1021,
+    "views": 5251,
     "profile_views": 41,
     "accounts_engaged": 42
   },
   "posts": [
+    {
+      "id": "17994948036028138",
+      "timestamp": "2026-10-15T14:37:22+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DehMHE_jh1y/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 1,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18119459944990545",
+      "timestamp": "2026-10-15T14:16:11+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DehJnQRDoWK/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Volver a mirar la tele de tubo con la merienda y esperar toda la tarde para verlos pelear contra Mumm-Ra. ⚔️ Si querés completar toda la serie en casa, empezá hoy con el primer fascículo y el cómic a $34.990. Reservalo por WhatsApp o pasá a buscarlo por Agencia Albor, Carlos Casares. \n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 4,
+      "views": 9,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18136288777658030",
+      "timestamp": "2026-10-15T12:00:51+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Deg6MkqldWp/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¡Ya llegó Rasti! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 23,
+      "views": 36,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "18130217497764521",
+      "timestamp": "2026-10-15T11:47:19+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Deg4pZrFe00/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 10,
+      "views": 19,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18452634274120048",
       "timestamp": "2026-10-14T19:32:11+0000",
@@ -157,8 +233,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
-      "reach": 24,
-      "views": 29,
+      "reach": 25,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -170,8 +246,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
-      "reach": 19,
-      "views": 44,
+      "reach": 21,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -183,8 +259,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés volver a enamorarte de la lectura con una autora que te atrapa desde la primera línea? ❤️📖\nMuy pronto llega algo pensado para disfrutar de las tardes de mate con una gran historia en las manos. \nConsejo: estate atenta a las novedades para no quedarte sin el tuyo. \nQueda muy poco para lo que se viene 👀\nMandanos un mensaje o escribinos al WhatsApp para reservarlo antes de que vuele. 📲\n¿Cuál fue el último libro que te hizo desvelarte?\n#colecciondelectura #carloscasares #literaturaargentina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 46,
-      "views": 63,
+      "reach": 50,
+      "views": 66,
       "saved": 0,
       "shares": 1
     },
@@ -209,8 +285,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sentí la potencia de los Rolling Stones girando en tu bandeja. 🎸 La colección oficial de vinilos ya se puede encargar en el local. Mandanos un WhatsApp al 2395417834 o pasá por Maipú 175 para reservar el tuyo en Carlos Casares.\n#vinilos #carloscasares #therollingstonesvinilos\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 59,
-      "views": 73,
+      "reach": 62,
+      "views": 76,
       "saved": 0,
       "shares": 1
     },
@@ -235,8 +311,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 141,
-      "views": 168,
+      "reach": 142,
+      "views": 170,
       "saved": 0,
       "shares": 0
     },
@@ -261,8 +337,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
-      "views": 35,
+      "reach": 31,
+      "views": 36,
       "saved": 0,
       "shares": 0
     },
@@ -274,7 +350,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Sos del óvalo o del chivo? 🚗 Arrancá la colección Ford vs Chevrolet por solo $9.990 y armá tu propia joya a escala 1:18. Reservala ahora por acá. #FordvsChevrolet\n\n📲 WhatsApp: 2395 41-7834",
-      "reach": 44,
+      "reach": 45,
       "views": 87,
       "saved": 0,
       "shares": 0
@@ -421,61 +497,9 @@
       "views": 58,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18120689713911305",
-      "timestamp": "2026-09-29T18:59:50+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/Dd4dadVOKmG/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "¡Llega el thriller psicológico más adictivo y viral de Freida McFadden: La Asistenta! 📖✨ Gran lanzamiento este jueves 20 de agosto a solo $15.999. Reservá tu ejemplar por WhatsApp al 2395417834 o pasá a buscarlo por Maipú 175, agencia Albor. ¡No te lo pierdas! \n\n#LaAsistenta #FreidaMcFadden #ColeccionesClarin #ThrillerPsicologico #LibrosRecomendados",
-      "reach": 20,
-      "views": 23,
-      "saved": 0,
-      "shares": 0
-    },
-    {
-      "id": "18223389250339258",
-      "timestamp": "2026-09-29T18:40:10+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/Dd4bKYduICr/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Conseguilo en Maipú 175 agencia Albor whatsaap 2395417834",
-      "reach": 35,
-      "views": 47,
-      "saved": 0,
-      "shares": 0
-    },
-    {
-      "id": "18025086959873479",
-      "timestamp": "2026-09-29T18:38:47+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/Dd4bAVUOtYH/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Conseguilo en Maipú 175 agencia Albor whatsaap 2395417834",
-      "reach": 31,
-      "views": 31,
-      "saved": 0,
-      "shares": 0
-    },
-    {
-      "id": "18126810106861394",
-      "timestamp": "2026-09-29T18:28:59+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/Dd4Z5kqusAr/",
-      "like_count": 20,
-      "comments_count": 0,
-      "caption": "¡Llevá tu cocina a otro nivel con el nuevo set premium de ollas y sartenes Titanium! 🍳✨ Diseñadas con la mejor tecnología para cocinar como un profesional a solo $39.999,90 cada entrega. 🍲 Pasá a reservarla por Maipú 175 en agencia Albor o escribinos por WhatsApp al 2395417834. 📲\n\n#OllasYSartenes #ColeccionesClarin #CocinaFacil #Maipu175",
-      "reach": 301,
-      "views": 72,
-      "saved": 0,
-      "shares": 3
     }
   ],
-  "actualizado": "2026-10-15T10:00:59.430Z",
+  "actualizado": "2026-10-15T14:53:28.572Z",
   "aud": {
     "edad": [
       {
