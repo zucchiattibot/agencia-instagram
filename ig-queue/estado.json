@@ -11,7 +11,7 @@
     "mv9nlwimjd4",
     "mv9nlyvd0i6"
   ],
-  "statsEl": "2026-10-15T19:32:54.261Z",
+  "statsEl": "2026-10-15T20:50:48.142Z",
   "stUltima": {
     "cuando": "2026-10-15T19:32:39.351Z",
     "franja": "16:00",
@@ -19,11 +19,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-15T19:32:00.308Z",
+    "cuando": "2026-10-15T20:50:37.675Z",
     "cola": 4,
     "enRepo": 4,
-    "pendientes": [
-      "16:00"
-    ]
+    "pendientes": []
   }
 }
