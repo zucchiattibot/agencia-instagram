@@ -105,45 +105,46 @@
     "17982524454107243": {
       "t": "2026-10-14T10:33:59+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 70
+      "a": 65,
+      "v": 75
     },
     "18177529483453552": {
       "t": "2026-10-14T10:33:28+0000",
       "tipo": "VIDEO",
-      "a": 67,
-      "v": 82
+      "a": 73,
+      "v": 88
     },
     "18097084526535375": {
       "t": "2026-10-14T15:25:25+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 45
+      "a": 47,
+      "v": 52
     },
     "17976216944935378": {
       "t": "2026-10-14T17:43:58+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 32
+      "a": 37,
+      "v": 39
     }
   },
   "seguidores": {
     "2026-10-11": 1387,
     "2026-10-12": 1388,
     "2026-10-13": 1388,
-    "2026-10-14": 1388
+    "2026-10-14": 1388,
+    "2026-10-15": 1389
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1388,
-    "follows_count": 634,
+    "followers_count": 1389,
+    "follows_count": 635,
     "media_count": 577,
     "id": "28888466970748824",
-    "el": "2026-10-15T00:47:47.961Z"
+    "el": "2026-10-15T05:18:09.026Z"
   },
   "res30": {
-    "reach": 1019,
-    "views": 5426,
+    "reach": 1028,
+    "views": 5482,
     "profile_views": 42,
     "accounts_engaged": 42
   },
@@ -156,8 +157,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
-      "reach": 19,
-      "views": 23,
+      "reach": 23,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -169,8 +170,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
-      "reach": 16,
-      "views": 39,
+      "reach": 19,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -182,8 +183,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés volver a enamorarte de la lectura con una autora que te atrapa desde la primera línea? ❤️📖\nMuy pronto llega algo pensado para disfrutar de las tardes de mate con una gran historia en las manos. \nConsejo: estate atenta a las novedades para no quedarte sin el tuyo. \nQueda muy poco para lo que se viene 👀\nMandanos un mensaje o escribinos al WhatsApp para reservarlo antes de que vuele. 📲\n¿Cuál fue el último libro que te hizo desvelarte?\n#colecciondelectura #carloscasares #literaturaargentina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 39,
-      "views": 57,
+      "reach": 45,
+      "views": 63,
       "saved": 0,
       "shares": 1
     },
@@ -195,7 +196,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
+      "reach": 20,
       "views": 33,
       "saved": 0,
       "shares": 0
@@ -208,8 +209,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sentí la potencia de los Rolling Stones girando en tu bandeja. 🎸 La colección oficial de vinilos ya se puede encargar en el local. Mandanos un WhatsApp al 2395417834 o pasá por Maipú 175 para reservar el tuyo en Carlos Casares.\n#vinilos #carloscasares #therollingstonesvinilos\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 55,
-      "views": 69,
+      "reach": 58,
+      "views": 73,
       "saved": 0,
       "shares": 1
     },
@@ -377,8 +378,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Vuelven los cuchillos más elegidos por los argentinos con Cocina en familia por Santiago Giorgini! 🔪✨ Cada semana encontrá un cuchillo profesional de acero inoxidable en tu kiosco. \n\nReservá el tuyo pasándonos un mensaje por WhatsApp al 2395417834 o vinito a buscar a Maipú 175, agencia Albor. 📍🏃‍♂️\n\n#ColeccionesClarin #CocinaEnFamilia #SantiagoGiorgini #CuchillosSoklingen #Maipu",
-      "reach": 35,
-      "views": 48,
+      "reach": 36,
+      "views": 50,
       "saved": 0,
       "shares": 0
     },
@@ -403,7 +404,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Llevá tu cocina a otro nivel con este set premium de ollas y sartenes Titanium! 🍳✨ Mirá el video para conocer todos los detalles y renová tus platos como un profesional. 👨‍🍳🔥 \n\nReservá el tuyo escribiendo al WhatsApp 2395417834 o pasá a buscarlo por Maipú 175, agencia Albor. 📍\n\n#OllasYSartenes #CocinaFacil #ColeccionesClarin #Maipu175",
-      "reach": 26,
+      "reach": 27,
       "views": 45,
       "saved": 0,
       "shares": 0
@@ -468,13 +469,13 @@
       "like_count": 20,
       "comments_count": 0,
       "caption": "¡Llevá tu cocina a otro nivel con el nuevo set premium de ollas y sartenes Titanium! 🍳✨ Diseñadas con la mejor tecnología para cocinar como un profesional a solo $39.999,90 cada entrega. 🍲 Pasá a reservarla por Maipú 175 en agencia Albor o escribinos por WhatsApp al 2395417834. 📲\n\n#OllasYSartenes #ColeccionesClarin #CocinaFacil #Maipu175",
-      "reach": 299,
+      "reach": 301,
       "views": 72,
       "saved": 0,
       "shares": 3
     }
   ],
-  "actualizado": "2026-10-15T00:47:55.833Z",
+  "actualizado": "2026-10-15T05:18:18.177Z",
   "aud": {
     "edad": [
       {
@@ -1125,6 +1126,10 @@
     "2026-10-13": {
       "a": 135,
       "v": 633
+    },
+    "2026-10-14": {
+      "a": 159,
+      "v": 650
     }
   }
 }
