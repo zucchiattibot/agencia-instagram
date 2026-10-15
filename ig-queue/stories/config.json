@@ -1,19 +1,55 @@
 {
   "franjas": [
     {
-      "h": "05:00",
-      "n": 2
-    },
-    {
       "h": "12:00",
       "n": 2
     },
     {
       "h": "16:00",
       "n": 1
+    },
+    {
+      "h": "20:00",
+      "n": 1
     }
   ],
   "reciclar": false,
   "pausada": false,
-  "pool": []
+  "pool": [
+    {
+      "id": "mv9nlwimjd4",
+      "media": "ig-queue/stories/pool/mv9nlwimjd4.mp4",
+      "tipo": "video",
+      "nombre": "1000874929.mp4",
+      "origen": "rcmv2x2z35zuzmp6"
+    },
+    {
+      "id": "mv9nlyvd0i6",
+      "media": "ig-queue/stories/pool/mv9nlyvd0i6.mp4",
+      "tipo": "video",
+      "nombre": "1000878207.mp4",
+      "origen": "rcmv7ex8d580yz8k"
+    },
+    {
+      "id": "mv9nm1drw4c",
+      "media": "ig-queue/stories/pool/mv9nm1drw4c.mp4",
+      "tipo": "video",
+      "nombre": "1000874511.mp4",
+      "origen": "rcmv2ft88gjwzd2s"
+    },
+    {
+      "id": "mv9nm4b1xxo",
+      "media": "ig-queue/stories/pool/mv9nm4b1xxo.mp4",
+      "tipo": "video",
+      "nombre": "1000872059.mp4",
+      "origen": "rcmuzgczy9it3ekp"
+    },
+    {
+      "id": "mv9nm7b2bg7",
+      "media": "ig-queue/stories/pool/mv9nm7b2bg7.mp4",
+      "tipo": "video",
+      "nombre": "1000867817.mp4",
+      "origen": "rcmusbnv3ebt1r6k"
+    }
+  ]
 }
