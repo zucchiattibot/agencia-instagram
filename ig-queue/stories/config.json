@@ -15,13 +15,5 @@
   ],
   "reciclar": false,
   "pausada": false,
-  "pool": [
-    {
-      "id": "mv4lv6gc958",
-      "media": "ig-queue/stories/pool/mv4lv6gc958.jpg",
-      "tipo": "image",
-      "nombre": "1000836161.jpg",
-      "origen": "rcmthjuwpesqte1h"
-    }
-  ]
+  "pool": []
 }
