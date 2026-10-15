@@ -1,7 +1,8 @@
+# ig-horario-v2: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
 name: Publicar en Instagram
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
