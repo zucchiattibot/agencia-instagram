@@ -3,24 +3,28 @@
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
     "2026-10-16 08:00": "ok",
-    "2026-10-16 12:00": "ok"
+    "2026-10-16 12:00": "ok",
+    "2026-10-16 16:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
-    "mvaxdx6w9e3"
+    "mvaxdx6w9e3",
+    "mvax97qpv4t"
   ],
-  "statsEl": "2026-10-16T18:03:03.414Z",
+  "statsEl": "2026-10-16T19:01:49.633Z",
   "stUltima": {
-    "cuando": "2026-10-16T15:02:37.283Z",
-    "franja": "12:00",
-    "ok": 2,
+    "cuando": "2026-10-16T19:01:37.933Z",
+    "franja": "16:00",
+    "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-16T18:02:52.449Z",
+    "cuando": "2026-10-16T19:01:28.718Z",
     "cola": 93,
     "enRepo": 93,
-    "pendientes": []
+    "pendientes": [
+      "16:00"
+    ]
   }
 }

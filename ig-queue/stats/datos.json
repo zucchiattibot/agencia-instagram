@@ -153,8 +153,8 @@
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 72,
-      "v": 83
+      "a": 73,
+      "v": 84
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
@@ -171,32 +171,38 @@
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 70
+      "a": 60,
+      "v": 72
     },
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 41,
-      "v": 43
+      "a": 46,
+      "v": 49
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 24,
-      "v": 26
+      "a": 28,
+      "v": 35
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 25,
-      "v": 27
+      "a": 29,
+      "v": 34
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 12,
-      "v": 20
+      "a": 19,
+      "v": 32
+    },
+    "18101738726381938": {
+      "t": "2026-10-16T19:01:35+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -213,11 +219,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-16T18:02:54.641Z"
+    "el": "2026-10-16T19:01:40.601Z"
   },
   "res30": {
-    "reach": 1064,
-    "views": 6080,
+    "reach": 1069,
+    "views": 6131,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -230,8 +236,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 6,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -243,8 +249,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 2,
+      "views": 8,
       "saved": 0,
       "shares": 0
     },
@@ -256,8 +262,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renovar las hornallas con ollas que distribuyen bien el calor cambia por completo el almuerzo de todos los días. 🍳 ¿Cuál es tu receta infalible para arrancar el fin de semana?\n#bateria #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 1,
+      "views": 4,
       "saved": 0,
       "shares": 0
     },
@@ -282,7 +288,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
+      "reach": 23,
       "views": 49,
       "saved": 0,
       "shares": 0
@@ -348,7 +354,7 @@
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
       "reach": 22,
-      "views": 52,
+      "views": 54,
       "saved": 0,
       "shares": 0
     },
@@ -373,7 +379,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
+      "reach": 21,
       "views": 33,
       "saved": 0,
       "shares": 0
@@ -412,8 +418,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 154,
-      "views": 183,
+      "reach": 155,
+      "views": 184,
       "saved": 0,
       "shares": 0
     },
@@ -548,7 +554,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T18:03:03.414Z",
+  "actualizado": "2026-10-16T19:01:49.633Z",
   "aud": {
     "edad": [
       {
