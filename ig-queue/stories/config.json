@@ -1,6 +1,10 @@
 {
   "franjas": [
     {
+      "h": "08:00",
+      "n": 1
+    },
+    {
       "h": "12:00",
       "n": 2
     },
@@ -11,9 +15,189 @@
     {
       "h": "20:00",
       "n": 1
+    },
+    {
+      "h": "23:00",
+      "n": 1
     }
   ],
   "reciclar": false,
   "pausada": false,
-  "pool": []
+  "pool": [
+    {
+      "id": "mvauysj4nml",
+      "media": "ig-queue/stories/pool/mvauysj4nml.mp4",
+      "tipo": "video",
+      "nombre": "1000880097.mp4",
+      "origen": "rcmv9rmtxtjcqwi6"
+    },
+    {
+      "id": "mvauzcv45l7",
+      "media": "ig-queue/stories/pool/mvauzcv45l7.mp4",
+      "tipo": "video",
+      "nombre": "1000872059.mp4",
+      "origen": "rcmuzgczy9it3ekp"
+    },
+    {
+      "id": "mvauzqglzc1",
+      "media": "ig-queue/stories/pool/mvauzqglzc1.mp4",
+      "tipo": "video",
+      "nombre": "1000856965.mp4",
+      "origen": "rcmud1emfbr2u2yq"
+    },
+    {
+      "id": "mvauzxv7pts",
+      "media": "ig-queue/stories/pool/mvauzxv7pts.mp4",
+      "tipo": "video",
+      "nombre": "1000854690.mp4",
+      "origen": "rcmu7baspw3u542y"
+    },
+    {
+      "id": "mvav0oa8fbt",
+      "media": "ig-queue/stories/pool/mvav0oa8fbt.mp4",
+      "tipo": "video",
+      "nombre": "1000830508.mp4",
+      "origen": "rcmt8yv0ggjfakbg"
+    },
+    {
+      "id": "mvav19r44ch",
+      "media": "ig-queue/stories/pool/mvav19r44ch.mp4",
+      "tipo": "video",
+      "nombre": "1000835371.mp4",
+      "origen": "rcmtgbd74373prfs"
+    },
+    {
+      "id": "mvav1rzg992",
+      "media": "ig-queue/stories/pool/mvav1rzg992.jpg",
+      "tipo": "image",
+      "nombre": "1000879954.jpg",
+      "origen": "rcmv9n2oavee95vd"
+    },
+    {
+      "id": "mvav1xa6vql",
+      "media": "ig-queue/stories/pool/mvav1xa6vql.jpg",
+      "tipo": "image",
+      "nombre": "1000871576.jpg",
+      "origen": "rcmuyes5fg0eb6x1"
+    },
+    {
+      "id": "mvav2077bfh",
+      "media": "ig-queue/stories/pool/mvav2077bfh.jpg",
+      "tipo": "image",
+      "nombre": "1000871574.jpg",
+      "origen": "rcmuyerx6ghl7lge"
+    },
+    {
+      "id": "mvav23euybu",
+      "media": "ig-queue/stories/pool/mvav23euybu.jpg",
+      "tipo": "image",
+      "nombre": "1000879953.jpg",
+      "origen": "rcmv9n2jdnjt394s"
+    },
+    {
+      "id": "mvav25z397s",
+      "media": "ig-queue/stories/pool/mvav25z397s.jpg",
+      "tipo": "image",
+      "nombre": "1000879655.jpg",
+      "origen": "rcmv9fvoxgd6t2zw"
+    },
+    {
+      "id": "mvav28500sf",
+      "media": "ig-queue/stories/pool/mvav28500sf.mp4",
+      "tipo": "video",
+      "nombre": "1000875104.mp4",
+      "origen": "rcmv36143fdosign"
+    },
+    {
+      "id": "mvav2qo0aoq",
+      "media": "ig-queue/stories/pool/mvav2qo0aoq.mp4",
+      "tipo": "video",
+      "nombre": "1000874929.mp4",
+      "origen": "rcmv2x2z35zuzmp6"
+    },
+    {
+      "id": "mvav2wa2rnm",
+      "media": "ig-queue/stories/pool/mvav2wa2rnm.mp4",
+      "tipo": "video",
+      "nombre": "1000873511.mp4",
+      "origen": "rcmv19l73osu7uks"
+    },
+    {
+      "id": "mvav334jbhg",
+      "media": "ig-queue/stories/pool/mvav334jbhg.jpg",
+      "tipo": "image",
+      "nombre": "1000871389.jpg",
+      "origen": "rcmuy7p0k17bxqdn"
+    },
+    {
+      "id": "mvav35pcbg3",
+      "media": "ig-queue/stories/pool/mvav35pcbg3.jpg",
+      "tipo": "image",
+      "nombre": "1000871390.jpg",
+      "origen": "rcmuy7p6n52xx31k"
+    },
+    {
+      "id": "mvav38nnp8l",
+      "media": "ig-queue/stories/pool/mvav38nnp8l.jpg",
+      "tipo": "image",
+      "nombre": "1000871391.jpg",
+      "origen": "rcmuy7pe88r36qcc"
+    },
+    {
+      "id": "mvav3bkvpbp",
+      "media": "ig-queue/stories/pool/mvav3bkvpbp.jpg",
+      "tipo": "image",
+      "nombre": "1000871392.jpg",
+      "origen": "rcmuy7plq3kj057s"
+    },
+    {
+      "id": "mvav3h2hthm",
+      "media": "ig-queue/stories/pool/mvav3h2hthm.jpg",
+      "tipo": "image",
+      "nombre": "1000871388.jpg",
+      "origen": "rcmuy7ou332y9d45"
+    },
+    {
+      "id": "mvav3jk1jb5",
+      "media": "ig-queue/stories/pool/mvav3jk1jb5.mp4",
+      "tipo": "video",
+      "nombre": "1000871350.mp4",
+      "origen": "rcmuy733pxpz9y2j"
+    },
+    {
+      "id": "mvav42tkyqy",
+      "media": "ig-queue/stories/pool/mvav42tkyqy.jpg",
+      "tipo": "image",
+      "nombre": "1000865710.jpg",
+      "origen": "rcmupihw3ltlkkmw"
+    },
+    {
+      "id": "mvav45r8u5u",
+      "media": "ig-queue/stories/pool/mvav45r8u5u.jpg",
+      "tipo": "image",
+      "nombre": "1000863568.jpg",
+      "origen": "rcmumxkvto6vefxs"
+    },
+    {
+      "id": "mvav48hwweb",
+      "media": "ig-queue/stories/pool/mvav48hwweb.mp4",
+      "tipo": "video",
+      "nombre": "1000853158.mp4",
+      "origen": "rcmu5hbnhvr2wn56"
+    },
+    {
+      "id": "mvav4wx15w7",
+      "media": "ig-queue/stories/pool/mvav4wx15w7.jpg",
+      "tipo": "image",
+      "nombre": "1000878961.jpg",
+      "origen": "rcmv8eda0vv3hhhl"
+    },
+    {
+      "id": "mvav4zenvid",
+      "media": "ig-queue/stories/pool/mvav4zenvid.mp4",
+      "tipo": "video",
+      "nombre": "1000878207.mp4",
+      "origen": "rcmv7ex8d580yz8k"
+    }
+  ]
 }
