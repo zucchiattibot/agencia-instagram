@@ -1,25 +1,26 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {},
-  "stUsados": [
-    "mv9nm1drw4c",
-    "mv9nlwimjd4",
-    "mv9nlyvd0i6",
-    "mv9nm4b1xxo"
-  ],
+  "stFranjas": {
+    "2026-10-16 08:00": {
+      "intentos": 1
+    }
+  },
+  "stUsados": [],
   "statsEl": "2026-10-16T11:01:36.800Z",
   "stUltima": {
-    "cuando": "2026-10-15T23:06:13.250Z",
-    "franja": "20:00",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-10-16T11:53:43.842Z",
+    "franja": "08:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-10-16T10:01:28.619Z",
-    "cola": 4,
-    "enRepo": 4,
-    "pendientes": []
+    "cuando": "2026-10-16T11:53:39.216Z",
+    "cola": 25,
+    "enRepo": 25,
+    "pendientes": [
+      "08:00"
+    ]
   },
-  "stAviso": "Ya salieron todas las historias de la cola: agregá más o activá repetir."
+  "stError": "The media with 18,133,057,936,670,222 cannot be found. (código 24)"
 }
