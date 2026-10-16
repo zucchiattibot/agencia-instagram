@@ -17,13 +17,6 @@
   "pausada": false,
   "pool": [
     {
-      "id": "mv9nlwimjd4",
-      "media": "ig-queue/stories/pool/mv9nlwimjd4.mp4",
-      "tipo": "video",
-      "nombre": "1000874929.mp4",
-      "origen": "rcmv2x2z35zuzmp6"
-    },
-    {
       "id": "mv9nlyvd0i6",
       "media": "ig-queue/stories/pool/mv9nlyvd0i6.mp4",
       "tipo": "video",
