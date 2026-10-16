@@ -129,50 +129,50 @@
     "18034408214667139": {
       "t": "2026-10-15T14:35:11+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 84
+      "a": 75,
+      "v": 85
     },
     "18084222032703485": {
       "t": "2026-10-15T14:34:41+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 84
+      "a": 78,
+      "v": 85
     },
     "18115588097026983": {
       "t": "2026-10-15T12:25:16+0000",
       "tipo": "VIDEO",
-      "a": 88,
-      "v": 98
+      "a": 89,
+      "v": 99
     },
     "18154064758479348": {
       "t": "2026-10-15T11:13:12+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 118
+      "a": 98,
+      "v": 120
     },
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 49,
-      "v": 53
+      "a": 51,
+      "v": 55
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
       "tipo": "VIDEO",
-      "a": 61,
-      "v": 68
+      "a": 63,
+      "v": 69
     },
     "18449745766192507": {
       "t": "2026-10-15T15:30:58+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 70
+      "a": 66,
+      "v": 71
     },
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 33,
-      "v": 37
+      "a": 34,
+      "v": 40
     }
   },
   "seguidores": {
@@ -189,11 +189,11 @@
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-16T10:01:31.012Z"
+    "el": "2026-10-16T11:01:30.237Z"
   },
   "res30": {
-    "reach": 1044,
-    "views": 5833,
+    "reach": 1048,
+    "views": 5853,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -206,8 +206,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 12,
-      "views": 16,
+      "reach": 14,
+      "views": 18,
       "saved": 0,
       "shares": 1
     },
@@ -232,8 +232,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a mirar la tele de tubo con la merienda y esperar toda la tarde para verlos pelear contra Mumm-Ra. ⚔️ Si querés completar toda la serie en casa, empezá hoy con el primer fascículo y el cómic a $34.990. Reservalo por WhatsApp o pasá a buscarlo por Agencia Albor, Carlos Casares. \n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 24,
+      "reach": 17,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -524,7 +524,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T10:01:38.152Z",
+  "actualizado": "2026-10-16T11:01:36.800Z",
   "aud": {
     "edad": [
       {
