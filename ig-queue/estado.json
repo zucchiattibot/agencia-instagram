@@ -7,7 +7,7 @@
   "stUsados": [
     "mvav42tkyqy"
   ],
-  "statsEl": "2026-10-16T13:02:13.543Z",
+  "statsEl": "2026-10-16T14:02:00.973Z",
   "stUltima": {
     "cuando": "2026-10-16T12:01:48.003Z",
     "franja": "08:00",
@@ -15,7 +15,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-16T13:02:02.813Z",
+    "cuando": "2026-10-16T14:01:49.811Z",
     "cola": 93,
     "enRepo": 93,
     "pendientes": []
