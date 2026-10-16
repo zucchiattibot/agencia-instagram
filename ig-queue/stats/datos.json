@@ -153,8 +153,8 @@
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 68
+      "a": 64,
+      "v": 80
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
@@ -171,26 +171,26 @@
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 57
+      "a": 54,
+      "v": 68
     },
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 15,
-      "v": 18
+      "a": 30,
+      "v": 32
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 9,
+      "v": 13
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 11,
+      "v": 17
     }
   },
   "seguidores": {
@@ -207,11 +207,11 @@
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-16T15:02:40.226Z"
+    "el": "2026-10-16T16:01:58.159Z"
   },
   "res30": {
-    "reach": 1054,
-    "views": 5917,
+    "reach": 1059,
+    "views": 5997,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -224,8 +224,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 16,
-      "views": 20,
+      "reach": 17,
+      "views": 21,
       "saved": 0,
       "shares": 1
     },
@@ -263,7 +263,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Rasti! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 36,
+      "reach": 37,
       "views": 60,
       "saved": 0,
       "shares": 0
@@ -276,8 +276,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 41,
+      "reach": 24,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -367,7 +367,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 152,
+      "reach": 153,
       "views": 183,
       "saved": 0,
       "shares": 0
@@ -406,7 +406,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Sos del óvalo o del chivo? 🚗 Arrancá la colección Ford vs Chevrolet por solo $9.990 y armá tu propia joya a escala 1:18. Reservala ahora por acá. #FordvsChevrolet\n\n📲 WhatsApp: 2395 41-7834",
-      "reach": 47,
+      "reach": 48,
       "views": 87,
       "saved": 0,
       "shares": 0
@@ -542,7 +542,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T15:02:51.422Z",
+  "actualizado": "2026-10-16T16:02:08.486Z",
   "aud": {
     "edad": [
       {
@@ -1063,7 +1063,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-15T19:32:54.258Z"
+    "el": "2026-10-16T16:02:08.483Z"
   },
   "dias": {
     "2026-10-11": {
