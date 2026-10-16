@@ -153,8 +153,8 @@
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 80
+      "a": 71,
+      "v": 82
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
@@ -171,26 +171,32 @@
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 54,
-      "v": 68
+      "a": 57,
+      "v": 69
     },
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 30,
-      "v": 32
+      "a": 38,
+      "v": 42
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 9,
-      "v": 13
+      "a": 21,
+      "v": 23
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 11,
-      "v": 17
+      "a": 23,
+      "v": 26
+    },
+    "18653326396043794": {
+      "t": "2026-10-16T16:25:55+0000",
+      "tipo": "VIDEO",
+      "a": 6,
+      "v": 12
     }
   },
   "seguidores": {
@@ -207,11 +213,11 @@
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-16T16:01:58.159Z"
+    "el": "2026-10-16T17:01:51.729Z"
   },
   "res30": {
-    "reach": 1059,
-    "views": 5997,
+    "reach": 1064,
+    "views": 6056,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -224,8 +230,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 17,
-      "views": 21,
+      "reach": 19,
+      "views": 23,
       "saved": 0,
       "shares": 1
     },
@@ -237,8 +243,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 46,
+      "reach": 21,
+      "views": 48,
       "saved": 0,
       "shares": 0
     },
@@ -251,7 +257,7 @@
       "comments_count": 0,
       "caption": "Volver a mirar la tele de tubo con la merienda y esperar toda la tarde para verlos pelear contra Mumm-Ra. ⚔️ Si querés completar toda la serie en casa, empezá hoy con el primer fascículo y el cómic a $34.990. Reservalo por WhatsApp o pasá a buscarlo por Agencia Albor, Carlos Casares. \n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 20,
-      "views": 27,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -367,7 +373,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 153,
+      "reach": 154,
       "views": 183,
       "saved": 0,
       "shares": 0
@@ -542,7 +548,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T16:02:08.486Z",
+  "actualizado": "2026-10-16T17:02:02.525Z",
   "aud": {
     "edad": [
       {
