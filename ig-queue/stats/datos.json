@@ -129,50 +129,50 @@
     "18034408214667139": {
       "t": "2026-10-15T14:35:11+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 80
+      "a": 71,
+      "v": 81
     },
     "18084222032703485": {
       "t": "2026-10-15T14:34:41+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 80
+      "a": 74,
+      "v": 81
     },
     "18115588097026983": {
       "t": "2026-10-15T12:25:16+0000",
       "tipo": "VIDEO",
-      "a": 84,
-      "v": 93
+      "a": 85,
+      "v": 95
     },
     "18154064758479348": {
       "t": "2026-10-15T11:13:12+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 110
+      "a": 94,
+      "v": 114
     },
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 48
+      "a": 46,
+      "v": 49
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 64
+      "a": 59,
+      "v": 65
     },
     "18449745766192507": {
       "t": "2026-10-15T15:30:58+0000",
       "tipo": "VIDEO",
-      "a": 61,
-      "v": 66
+      "a": 62,
+      "v": 67
     },
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 27,
-      "v": 30
+      "a": 28,
+      "v": 31
     }
   },
   "seguidores": {
@@ -189,13 +189,13 @@
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-16T03:01:28.728Z"
+    "el": "2026-10-16T04:01:31.914Z"
   },
   "res30": {
-    "reach": 1054,
-    "views": 5924,
+    "reach": 1059,
+    "views": 5943,
     "profile_views": 45,
-    "accounts_engaged": 43
+    "accounts_engaged": 44
   },
   "posts": [
     {
@@ -206,10 +206,10 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 10,
-      "views": 12,
+      "reach": 11,
+      "views": 16,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "17994948036028138",
@@ -245,8 +245,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Rasti! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 56,
+      "reach": 36,
+      "views": 59,
       "saved": 0,
       "shares": 0
     },
@@ -346,11 +346,11 @@
       "timestamp": "2026-10-12T01:14:29+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DeYBzNKjTX-/",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 147,
-      "views": 177,
+      "reach": 149,
+      "views": 179,
       "saved": 0,
       "shares": 0
     },
@@ -375,8 +375,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 36,
+      "reach": 32,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -524,7 +524,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T03:01:35.928Z",
+  "actualizado": "2026-10-16T04:01:41.159Z",
   "aud": {
     "edad": [
       {
