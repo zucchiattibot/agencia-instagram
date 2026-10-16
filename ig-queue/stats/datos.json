@@ -129,20 +129,20 @@
     "18034408214667139": {
       "t": "2026-10-15T14:35:11+0000",
       "tipo": "IMAGE",
-      "a": 75,
-      "v": 85
+      "a": 76,
+      "v": 86
     },
     "18084222032703485": {
       "t": "2026-10-15T14:34:41+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 85
+      "a": 79,
+      "v": 86
     },
     "18115588097026983": {
       "t": "2026-10-15T12:25:16+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 99
+      "a": 90,
+      "v": 100
     },
     "18154064758479348": {
       "t": "2026-10-15T11:13:12+0000",
@@ -153,26 +153,32 @@
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 51,
-      "v": 55
+      "a": 54,
+      "v": 58
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
       "tipo": "VIDEO",
-      "a": 63,
-      "v": 69
+      "a": 64,
+      "v": 70
     },
     "18449745766192507": {
       "t": "2026-10-15T15:30:58+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 71
+      "a": 67,
+      "v": 72
     },
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 34,
-      "v": 40
+      "a": 36,
+      "v": 44
+    },
+    "17886004779502672": {
+      "t": "2026-10-16T12:01:45+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -189,11 +195,11 @@
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-16T11:01:30.237Z"
+    "el": "2026-10-16T12:01:50.522Z"
   },
   "res30": {
-    "reach": 1048,
-    "views": 5853,
+    "reach": 1049,
+    "views": 5866,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -206,8 +212,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 14,
-      "views": 18,
+      "reach": 15,
+      "views": 19,
       "saved": 0,
       "shares": 1
     },
@@ -232,7 +238,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a mirar la tele de tubo con la merienda y esperar toda la tarde para verlos pelear contra Mumm-Ra. ⚔️ Si querés completar toda la serie en casa, empezá hoy con el primer fascículo y el cómic a $34.990. Reservalo por WhatsApp o pasá a buscarlo por Agencia Albor, Carlos Casares. \n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
+      "reach": 18,
       "views": 25,
       "saved": 0,
       "shares": 0
@@ -258,8 +264,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 38,
+      "reach": 23,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -524,7 +530,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T11:01:36.800Z",
+  "actualizado": "2026-10-16T12:01:59.699Z",
   "aud": {
     "edad": [
       {

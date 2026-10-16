@@ -2,25 +2,24 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-16 08:00": {
-      "intentos": 1
-    }
+    "2026-10-16 08:00": "ok"
   },
-  "stUsados": [],
-  "statsEl": "2026-10-16T11:01:36.800Z",
+  "stUsados": [
+    "mvav42tkyqy"
+  ],
+  "statsEl": "2026-10-16T12:01:59.699Z",
   "stUltima": {
-    "cuando": "2026-10-16T11:53:43.842Z",
+    "cuando": "2026-10-16T12:01:48.003Z",
     "franja": "08:00",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-16T11:53:39.216Z",
+    "cuando": "2026-10-16T12:01:39.088Z",
     "cola": 25,
     "enRepo": 25,
     "pendientes": [
       "08:00"
     ]
-  },
-  "stError": "The media with 18,133,057,936,670,222 cannot be found. (código 24)"
+  }
 }
