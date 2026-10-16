@@ -153,32 +153,44 @@
     "18144527893597947": {
       "t": "2026-10-15T19:32:34+0000",
       "tipo": "VIDEO",
-      "a": 57,
-      "v": 63
+      "a": 58,
+      "v": 68
     },
     "17952525966278976": {
       "t": "2026-10-15T15:31:30+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 74
+      "a": 68,
+      "v": 76
     },
     "18449745766192507": {
       "t": "2026-10-15T15:30:58+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 76
+      "a": 71,
+      "v": 79
     },
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 51
+      "a": 45,
+      "v": 57
     },
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 11,
-      "v": 11
+      "a": 15,
+      "v": 18
+    },
+    "18108035651626991": {
+      "t": "2026-10-16T15:02:32+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
+    },
+    "18193312618403784": {
+      "t": "2026-10-16T15:02:02+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -187,19 +199,19 @@
     "2026-10-13": 1388,
     "2026-10-14": 1388,
     "2026-10-15": 1389,
-    "2026-10-16": 1390
+    "2026-10-16": 1391
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1390,
+    "followers_count": 1391,
     "follows_count": 636,
     "media_count": 582,
     "id": "28888466970748824",
-    "el": "2026-10-16T14:01:52.042Z"
+    "el": "2026-10-16T15:02:40.226Z"
   },
   "res30": {
-    "reach": 1053,
-    "views": 5905,
+    "reach": 1054,
+    "views": 5917,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -238,8 +250,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a mirar la tele de tubo con la merienda y esperar toda la tarde para verlos pelear contra Mumm-Ra. ⚔️ Si querés completar toda la serie en casa, empezá hoy con el primer fascículo y el cómic a $34.990. Reservalo por WhatsApp o pasá a buscarlo por Agencia Albor, Carlos Casares. \n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 26,
+      "reach": 20,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -252,7 +264,7 @@
       "comments_count": 0,
       "caption": "¡Ya llegó Rasti! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 36,
-      "views": 59,
+      "views": 60,
       "saved": 0,
       "shares": 0
     },
@@ -265,7 +277,7 @@
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 39,
+      "views": 41,
       "saved": 0,
       "shares": 0
     },
@@ -356,7 +368,7 @@
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 152,
-      "views": 182,
+      "views": 183,
       "saved": 0,
       "shares": 0
     },
@@ -530,7 +542,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T14:02:00.973Z",
+  "actualizado": "2026-10-16T15:02:51.422Z",
   "aud": {
     "edad": [
       {
