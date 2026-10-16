@@ -15,13 +15,5 @@
   ],
   "reciclar": false,
   "pausada": false,
-  "pool": [
-    {
-      "id": "mv9nm4b1xxo",
-      "media": "ig-queue/stories/pool/mv9nm4b1xxo.mp4",
-      "tipo": "video",
-      "nombre": "1000872059.mp4",
-      "origen": "rcmuzgczy9it3ekp"
-    }
-  ]
+  "pool": []
 }
