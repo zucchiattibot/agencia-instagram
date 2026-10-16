@@ -1,19 +1,14 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {
-    "2026-10-15 05:00": "ok",
-    "2026-10-15 12:00": "ok",
-    "2026-10-15 16:00": "ok",
-    "2026-10-15 20:00": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mv9nm1drw4c",
     "mv9nlwimjd4",
     "mv9nlyvd0i6",
     "mv9nm4b1xxo"
   ],
-  "statsEl": "2026-10-16T02:01:41.178Z",
+  "statsEl": "2026-10-16T03:01:35.928Z",
   "stUltima": {
     "cuando": "2026-10-15T23:06:13.250Z",
     "franja": "20:00",
@@ -21,7 +16,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-16T02:01:30.317Z",
+    "cuando": "2026-10-16T03:01:26.421Z",
     "cola": 4,
     "enRepo": 4,
     "pendientes": []
