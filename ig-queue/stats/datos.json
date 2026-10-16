@@ -171,38 +171,38 @@
     "17877690294567781": {
       "t": "2026-10-15T23:06:09+0000",
       "tipo": "VIDEO",
-      "a": 60,
-      "v": 72
+      "a": 63,
+      "v": 76
     },
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 49
+      "a": 49,
+      "v": 54
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 35
+      "a": 36,
+      "v": 43
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 34
+      "a": 36,
+      "v": 43
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 19,
-      "v": 32
+      "a": 28,
+      "v": 44
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 7,
+      "v": 13
     }
   },
   "seguidores": {
@@ -219,11 +219,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-16T19:01:40.601Z"
+    "el": "2026-10-16T20:01:31.694Z"
   },
   "res30": {
     "reach": 1069,
-    "views": 6131,
+    "views": 6200,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -236,8 +236,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 10,
+      "reach": 13,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -249,8 +249,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 2,
-      "views": 8,
+      "reach": 5,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -262,7 +262,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renovar las hornallas con ollas que distribuyen bien el calor cambia por completo el almuerzo de todos los días. 🍳 ¿Cuál es tu receta infalible para arrancar el fin de semana?\n#bateria #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1,
+      "reach": 3,
       "views": 4,
       "saved": 0,
       "shares": 0
@@ -554,7 +554,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T19:01:49.633Z",
+  "actualizado": "2026-10-16T20:01:37.891Z",
   "aud": {
     "edad": [
       {
