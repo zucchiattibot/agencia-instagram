@@ -1,4 +1,4 @@
-// ig-motor-v7
+// ig-motor-v9
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -144,6 +144,13 @@ async function publicar(d, token, uid, guardar) {
   const medias = esCar ? (d.medias || []) : [d.media];
   if (!medias.length || medias.some((m) => !m || !fs.existsSync(m))) throw new Error('El archivo de la publicación ya no está en el repositorio.');
   const esVideo = d.tipo === 'video';
+  // d.ig === 0: solo Facebook (no toca Instagram).
+  if (d.ig === 0) {
+    if (!(process.env.FB_PAGE_ID && process.env.FB_PAGE_TOKEN)) throw new Error('Faltan los secretos FB_PAGE_ID y FB_PAGE_TOKEN en GitHub.');
+    for (const m of medias) await esperarArchivo(urlPublica(m));
+    const fbLink = await publicarFb(d, medias, esCar, esVideo);
+    return { id: '', permalink: '', fbLink, fbError: '' };
+  }
   let creationId = d.creationId || '';
   if (!creationId) {
     let params;
@@ -214,7 +221,7 @@ async function colaHistorias(estado, token, uid) {
     }
     let ok = 0, fallos = 0;
     for (const p of elegidas) {
-      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media, fb: cfg.fb ? 1 : 0 }, token, uid, null); estado.stUsados.push(p.id); ok++; }
+      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media, fb: cfg.fb ? 1 : 0, ig: cfg.ig === 0 ? 0 : 1 }, token, uid, null); estado.stUsados.push(p.id); ok++; }
       catch (e) { fallos++; estado.stError = e.message; console.log('Historia falló', p.id, e.message); }
     }
     // Si no salió ninguna por un error, se vuelve a intentar en la próxima corrida (hasta 3 veces); antes se daba la franja por hecha y quedaba sin publicar.
