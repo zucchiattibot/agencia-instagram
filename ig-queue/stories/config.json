@@ -749,5 +749,10 @@
       "nombre": "1000881342.jpg",
       "origen": "rcmvb35y3pklyd9c"
     }
-  ]
+  ],
+  "autoNuevas": false,
+  "destino": "fb",
+  "autoBase": false,
+  "fb": 1,
+  "ig": 0
 }
