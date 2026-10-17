@@ -177,44 +177,44 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 84,
-      "v": 94
+      "a": 85,
+      "v": 96
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 78,
-      "v": 88
+      "a": 79,
+      "v": 89
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 89
+      "a": 79,
+      "v": 90
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
       "a": 72,
-      "v": 89
+      "v": 90
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 62,
-      "v": 70
+      "a": 63,
+      "v": 71
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 38
+      "a": 36,
+      "v": 42
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 12,
-      "v": 14
+      "a": 15,
+      "v": 21
     }
   },
   "seguidores": {
@@ -232,11 +232,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T04:01:38.218Z"
+    "el": "2026-10-17T05:01:33.893Z"
   },
   "res30": {
     "reach": 1152,
-    "views": 6658,
+    "views": 6672,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -366,8 +366,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
-      "reach": 22,
-      "views": 54,
+      "reach": 23,
+      "views": 56,
       "saved": 0,
       "shares": 0
     },
@@ -567,7 +567,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T04:01:46.668Z",
+  "actualizado": "2026-10-17T05:01:40.203Z",
   "aud": {
     "edad": [
       {
