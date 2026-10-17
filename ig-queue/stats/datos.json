@@ -177,44 +177,44 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 83,
-      "v": 93
+      "a": 84,
+      "v": 94
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 87
+      "a": 78,
+      "v": 88
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 88
+      "a": 78,
+      "v": 89
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 87
+      "a": 72,
+      "v": 89
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 59,
-      "v": 68
+      "a": 62,
+      "v": 70
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 35
+      "a": 34,
+      "v": 38
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 9,
-      "v": 11
+      "a": 12,
+      "v": 14
     }
   },
   "seguidores": {
@@ -232,11 +232,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T03:01:31.719Z"
+    "el": "2026-10-17T04:01:38.218Z"
   },
   "res30": {
-    "reach": 1150,
-    "views": 6635,
+    "reach": 1152,
+    "views": 6658,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -262,8 +262,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 77,
-      "views": 98,
+      "reach": 79,
+      "views": 99,
       "saved": 0,
       "shares": 0
     },
@@ -275,7 +275,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renovar las hornallas con ollas que distribuyen bien el calor cambia por completo el almuerzo de todos los días. 🍳 ¿Cuál es tu receta infalible para arrancar el fin de semana?\n#bateria #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
+      "reach": 10,
       "views": 9,
       "saved": 0,
       "shares": 0
@@ -288,7 +288,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 28,
+      "reach": 29,
       "views": 33,
       "saved": 0,
       "shares": 1
@@ -567,7 +567,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T03:01:39.687Z",
+  "actualizado": "2026-10-17T04:01:46.668Z",
   "aud": {
     "edad": [
       {
