@@ -177,50 +177,56 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 89,
-      "v": 100
+      "a": 92,
+      "v": 103
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 83,
-      "v": 93
+      "a": 86,
+      "v": 96
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 83,
-      "v": 94
+      "a": 86,
+      "v": 97
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 77,
-      "v": 94
+      "a": 80,
+      "v": 97
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 78
+      "a": 72,
+      "v": 81
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 49
+      "a": 47,
+      "v": 51
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 24,
-      "v": 29
+      "a": 27,
+      "v": 32
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 6,
-      "v": 9
+      "a": 11,
+      "v": 11
+    },
+    "18115597064113781": {
+      "t": "2026-10-17T11:01:53+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -238,11 +244,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T10:01:33.192Z"
+    "el": "2026-10-17T11:01:59.585Z"
   },
   "res30": {
-    "reach": 1154,
-    "views": 6719,
+    "reach": 1155,
+    "views": 6748,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -268,8 +274,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 81,
-      "views": 101,
+      "reach": 82,
+      "views": 102,
       "saved": 0,
       "shares": 0
     },
@@ -307,8 +313,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
-      "views": 57,
+      "reach": 28,
+      "views": 58,
       "saved": 0,
       "shares": 0
     },
@@ -573,7 +579,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T10:01:40.977Z",
+  "actualizado": "2026-10-17T11:02:07.061Z",
   "aud": {
     "edad": [
       {
