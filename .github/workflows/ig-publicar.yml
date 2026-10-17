@@ -1,4 +1,4 @@
-# ig-horario-v3: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
+# ig-horario-v4: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
 name: Publicar en Instagram
 on:
   schedule:
