@@ -213,38 +213,44 @@
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 102
+      "a": 100,
+      "v": 118
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 84,
-      "v": 98
+      "a": 90,
+      "v": 112
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 79,
-      "v": 89
+      "a": 84,
+      "v": 101
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 69
+      "a": 71,
+      "v": 81
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 67
+      "a": 65,
+      "v": 79
     },
     "17977421498932336": {
       "t": "2026-10-17T19:02:09+0000",
       "tipo": "VIDEO",
-      "a": 34,
-      "v": 39
+      "a": 45,
+      "v": 52
+    },
+    "18035566520890259": {
+      "t": "2026-10-17T23:01:48+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -262,11 +268,11 @@
     "follows_count": 636,
     "media_count": 587,
     "id": "28888466970748824",
-    "el": "2026-10-17T22:01:34.155Z"
+    "el": "2026-10-17T23:01:55.114Z"
   },
   "res30": {
-    "reach": 1175,
-    "views": 7436,
+    "reach": 1177,
+    "views": 7514,
     "profile_views": 45,
     "accounts_engaged": 45
   },
@@ -279,8 +285,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
-      "views": 40,
+      "reach": 30,
+      "views": 51,
       "saved": 0,
       "shares": 0
     },
@@ -306,7 +312,7 @@
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 34,
-      "views": 44,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -357,8 +363,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
-      "views": 61,
+      "reach": 31,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -526,8 +532,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sos del óvalo o del chivo? 🚗 Arrancá la colección Ford vs Chevrolet por solo $9.990 y armá tu propia joya a escala 1:18. Reservala ahora por acá. #FordvsChevrolet\n\n📲 WhatsApp: 2395 41-7834",
-      "reach": 50,
-      "views": 89,
+      "reach": 51,
+      "views": 90,
       "saved": 0,
       "shares": 0
     },
@@ -597,7 +603,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T22:01:42.762Z",
+  "actualizado": "2026-10-17T23:02:05.233Z",
   "aud": {
     "edad": [
       {
