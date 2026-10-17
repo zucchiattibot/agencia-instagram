@@ -1,4 +1,4 @@
-// ig-motor-v6
+// ig-motor-v7
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -32,6 +32,69 @@ async function ig(metodo, ruta, params, token) {
     throw new Error((e.error_user_msg || e.message || 'HTTP ' + r.status) + (e.code ? ' (código ' + e.code + ')' : ''));
   }
   return j;
+}
+
+
+// ---- Facebook (Página): publica lo mismo que en Instagram si el item trae fb:1 y están los secretos FB_PAGE_ID y FB_PAGE_TOKEN ----
+const FBVER = process.env.FB_API_VERSION || VER;
+async function fb(metodo, ruta, params, token) {
+  const p = new URLSearchParams();
+  for (const [k, v] of Object.entries(params || {})) if (v !== undefined && v !== null && v !== '') p.set(k, String(v));
+  p.set('access_token', token);
+  let url = 'https://graph.facebook.com/' + FBVER + '/' + ruta;
+  const opt = { method: metodo };
+  if (metodo === 'GET') url += '?' + p.toString();
+  else { opt.headers = { 'Content-Type': 'application/x-www-form-urlencoded' }; opt.body = p.toString(); }
+  const r = await fetch(url, opt);
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || j.error) {
+    const e = j.error || {};
+    throw new Error('Facebook: ' + (e.error_user_msg || e.message || 'HTTP ' + r.status) + (e.code ? ' (código ' + e.code + ')' : ''));
+  }
+  return j;
+}
+async function esperarVideoFb(id, token) {
+  for (let n = 0; n < 60; n++) {
+    const j = await fb('GET', id, { fields: 'status' }, token);
+    const s = (j.status && j.status.video_status) || '';
+    if (s === 'ready' || s === 'published') return;
+    if (s === 'error') throw new Error('Facebook no pudo procesar el video.');
+    await dormir(5000);
+  }
+  throw new Error('Facebook tardó demasiado en procesar el video.');
+}
+// Reels e historias en video: subida en 3 fases (start, subir por URL, finish).
+async function subirVideoFb(tipo, pg, url, descripcion, token) {
+  const ini = await fb('POST', pg + '/' + tipo, { upload_phase: 'start' }, token);
+  const r = await fetch(ini.upload_url, { method: 'POST', headers: { Authorization: 'OAuth ' + token, file_url: url } });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || j.success === false) throw new Error('Facebook no pudo descargar el video (' + ((j.debug_info && j.debug_info.message) || j.message || 'HTTP ' + r.status) + ').');
+  const fin = { video_id: ini.video_id, upload_phase: 'finish' };
+  if (tipo === 'video_reels') { fin.video_state = 'PUBLISHED'; fin.description = descripcion || ''; }
+  await fb('POST', pg + '/' + tipo, fin, token);
+  return ini.video_id;
+}
+async function publicarFb(d, medias, esCar, esVideo) {
+  const pg = process.env.FB_PAGE_ID, tk = process.env.FB_PAGE_TOKEN, txt = d.fmt === 'historia' ? '' : (d.caption || '');
+  const urls = [];
+  for (const m of medias) { const u = urlPublica(m); await esperarArchivo(u); urls.push(u); }
+  if (esCar) {
+    const params = { message: txt };
+    let i = 0;
+    for (const u of urls) { const f = await fb('POST', pg + '/photos', { url: u, published: 'false' }, tk); params['attached_media[' + (i++) + ']'] = JSON.stringify({ media_fbid: f.id }); }
+    const r = await fb('POST', pg + '/feed', params, tk);
+    return 'https://www.facebook.com/' + r.id;
+  }
+  const u = urls[0];
+  if (d.fmt === 'historia') {
+    if (esVideo) { const id = await subirVideoFb('video_stories', pg, u, '', tk); await esperarVideoFb(id, tk); return ''; }
+    const f = await fb('POST', pg + '/photos', { url: u, published: 'false' }, tk);
+    await fb('POST', pg + '/photo_stories', { photo_id: f.id }, tk);
+    return '';
+  }
+  if (esVideo) { const id = await subirVideoFb('video_reels', pg, u, txt, tk); await esperarVideoFb(id, tk); return 'https://www.facebook.com/reel/' + id; }
+  const r = await fb('POST', pg + '/photos', { url: u, caption: txt, published: 'true' }, tk);
+  return 'https://www.facebook.com/' + (r.post_id || r.id);
 }
 
 async function renovarToken(token, estado) {
@@ -108,7 +171,13 @@ async function publicar(d, token, uid, guardar) {
   const pub = await ig('POST', uid + '/media_publish', { creation_id: creationId }, token);
   let permalink = '';
   try { permalink = (await ig('GET', pub.id, { fields: 'permalink' }, token)).permalink || ''; } catch (e) {}
-  return { id: pub.id, permalink };
+  // Facebook va aparte: si falla, Instagram ya salió y no se reintenta (así no hay duplicados).
+  let fbLink = '', fbError = '';
+  if (d.fb && process.env.FB_PAGE_ID && process.env.FB_PAGE_TOKEN) {
+    try { fbLink = await publicarFb(d, medias, esCar, esVideo); }
+    catch (e) { fbError = e.message; console.log('Facebook falló', d.id, e.message); }
+  } else if (d.fb) { fbError = 'Faltan los secretos FB_PAGE_ID y FB_PAGE_TOKEN en GitHub.'; }
+  return { id: pub.id, permalink, fbLink, fbError };
 }
 
 const TZ = 'America/Argentina/Buenos_Aires';
@@ -145,7 +214,7 @@ async function colaHistorias(estado, token, uid) {
     }
     let ok = 0, fallos = 0;
     for (const p of elegidas) {
-      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media }, token, uid, null); estado.stUsados.push(p.id); ok++; }
+      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media, fb: cfg.fb ? 1 : 0 }, token, uid, null); estado.stUsados.push(p.id); ok++; }
       catch (e) { fallos++; estado.stError = e.message; console.log('Historia falló', p.id, e.message); }
     }
     // Si no salió ninguna por un error, se vuelve a intentar en la próxima corrida (hasta 3 veces); antes se daba la franja por hecha y quedaba sin publicar.
@@ -232,7 +301,7 @@ export async function main() {
       const archivo = path.join(pendDir, f);
       try {
         const r = await publicar(d, token, uid, (x) => escribir(archivo, x));
-        escribir(path.join(BASE, 'done', f), { ...d, estado: 'publicada', publicadoEl: new Date().toISOString(), permalink: r.permalink });
+        escribir(path.join(BASE, 'done', f), { ...d, estado: 'publicada', publicadoEl: new Date().toISOString(), permalink: r.permalink, fbPermalink: r.fbLink || '', fbError: r.fbError || '' });
         fs.unlinkSync(archivo);
         borrarMedias(d);
         console.log('Publicada', d.id, r.permalink);
