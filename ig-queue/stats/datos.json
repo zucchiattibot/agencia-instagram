@@ -183,50 +183,50 @@
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 88,
-      "v": 101
+      "a": 92,
+      "v": 105
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 103
+      "a": 91,
+      "v": 107
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 82,
-      "v": 100
+      "a": 84,
+      "v": 103
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 75,
-      "v": 86
+      "a": 78,
+      "v": 90
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 58
+      "a": 56,
+      "v": 63
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 38
+      "a": 39,
+      "v": 44
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 16,
-      "v": 19
+      "a": 27,
+      "v": 37
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 9,
-      "v": 16
+      "a": 18,
+      "v": 29
     }
   },
   "seguidores": {
@@ -244,11 +244,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T12:01:32.364Z"
+    "el": "2026-10-17T13:01:31.641Z"
   },
   "res30": {
-    "reach": 1157,
-    "views": 6814,
+    "reach": 1159,
+    "views": 6882,
     "profile_views": 44,
     "accounts_engaged": 44
   },
@@ -261,8 +261,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 29,
-      "views": 39,
+      "reach": 31,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -274,8 +274,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 83,
-      "views": 105,
+      "reach": 84,
+      "views": 107,
       "saved": 0,
       "shares": 0
     },
@@ -314,7 +314,7 @@
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 29,
-      "views": 59,
+      "views": 60,
       "saved": 0,
       "shares": 0
     },
@@ -579,7 +579,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T12:01:43.086Z",
+  "actualizado": "2026-10-17T13:01:39.542Z",
   "aud": {
     "edad": [
       {
@@ -1100,7 +1100,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-16T16:02:08.483Z"
+    "el": "2026-10-17T13:01:39.539Z"
   },
   "dias": {
     "2026-10-11": {
