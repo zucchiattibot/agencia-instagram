@@ -751,8 +751,8 @@
     }
   ],
   "autoNuevas": false,
-  "destino": "fb",
+  "destino": "ambos",
   "autoBase": false,
   "fb": 1,
-  "ig": 0
+  "ig": 1
 }
