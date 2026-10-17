@@ -177,38 +177,44 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 85
+      "a": 80,
+      "v": 90
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 78
+      "a": 74,
+      "v": 82
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 80
+      "a": 74,
+      "v": 83
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 80
+      "a": 68,
+      "v": 84
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 61
+      "a": 56,
+      "v": 65
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 24
+      "a": 24,
+      "v": 28
+    },
+    "18145117333598512": {
+      "t": "2026-10-17T02:01:32+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -225,11 +231,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T01:01:32.192Z"
+    "el": "2026-10-17T02:01:37.428Z"
   },
   "res30": {
     "reach": 1147,
-    "views": 6556,
+    "views": 6582,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -242,8 +248,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 32,
+      "reach": 25,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -255,8 +261,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 72,
-      "views": 94,
+      "reach": 76,
+      "views": 97,
       "saved": 0,
       "shares": 0
     },
@@ -347,7 +353,7 @@
       "comments_count": 0,
       "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
       "reach": 26,
-      "views": 31,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -425,7 +431,7 @@
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 155,
-      "views": 184,
+      "views": 185,
       "saved": 0,
       "shares": 0
     },
@@ -560,7 +566,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T01:01:41.301Z",
+  "actualizado": "2026-10-17T02:01:46.798Z",
   "aud": {
     "edad": [
       {
