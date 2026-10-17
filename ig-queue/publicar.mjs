@@ -1,4 +1,4 @@
-// ig-motor-v9
+// ig-motor-v10
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -74,8 +74,26 @@ async function subirVideoFb(tipo, pg, url, descripcion, token) {
   await fb('POST', pg + '/' + tipo, fin, token);
   return ini.video_id;
 }
+/* Texto para Facebook: sin hashtags y sin frases propias de Instagram (link en la bio, "comentá QUIERO"). */
+function fbTexto(c){
+  c = String(c == null ? '' : c).replace(/\r/g, '');
+  if (!c.trim()) return '';
+  var cierre = 'Escribinos por mensaje privado y te contamos.', out = [], puesto = false, L = c.split('\n');
+  for (var i = 0; i < L.length; i++){
+    var s = L[i];
+    if (/^\s*(#[\p{L}\p{N}_]+[\s,.]*)+$/u.test(s)) continue;
+    if (/\b(link|enlace)\s+(en|de)\s+(la\s+|mi\s+)?(bio|biograf[ií]a|perfil)\b|\ben\s+la\s+bio\b|[Cc]oment[aáeé][^\n]*[A-ZÁÉÍÓÚÑ]{4,}/.test(s)){
+      if (!puesto){ out.push(cierre); puesto = true; }
+      continue;
+    }
+    s = s.replace(/(^|\s)#[\p{L}\p{N}_]+/gu, '$1').replace(/[ \t]{2,}/g, ' ').replace(/[ \t]+$/g, '');
+    out.push(s);
+  }
+  return out.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+
 async function publicarFb(d, medias, esCar, esVideo) {
-  const pg = process.env.FB_PAGE_ID, tk = process.env.FB_PAGE_TOKEN, txt = d.fmt === 'historia' ? '' : (d.caption || '');
+  const pg = process.env.FB_PAGE_ID, tk = process.env.FB_PAGE_TOKEN, txt = d.fmt === 'historia' ? '' : (d.caption_fb != null ? String(d.caption_fb) : fbTexto(d.caption));
   const urls = [];
   for (const m of medias) { const u = urlPublica(m); await esperarArchivo(u); urls.push(u); }
   if (esCar) {
