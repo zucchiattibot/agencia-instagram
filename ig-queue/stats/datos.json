@@ -177,38 +177,38 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 70
+      "a": 71,
+      "v": 77
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 54,
-      "v": 63
+      "a": 59,
+      "v": 69
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 65
+      "a": 61,
+      "v": 72
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 65
+      "a": 54,
+      "v": 71
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 36,
-      "v": 44
+      "a": 42,
+      "v": 52
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 8,
+      "v": 13
     }
   },
   "seguidores": {
@@ -225,11 +225,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-16T23:01:41.183Z"
+    "el": "2026-10-17T00:01:37.603Z"
   },
   "res30": {
-    "reach": 1133,
-    "views": 6423,
+    "reach": 1138,
+    "views": 6473,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -255,8 +255,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 69,
-      "views": 87,
+      "reach": 72,
+      "views": 89,
       "saved": 0,
       "shares": 0
     },
@@ -281,8 +281,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 22,
-      "views": 26,
+      "reach": 23,
+      "views": 28,
       "saved": 0,
       "shares": 1
     },
@@ -295,7 +295,7 @@
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 24,
-      "views": 50,
+      "views": 51,
       "saved": 0,
       "shares": 0
     },
@@ -560,7 +560,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-16T23:01:49.834Z",
+  "actualizado": "2026-10-17T00:01:51.279Z",
   "aud": {
     "edad": [
       {
