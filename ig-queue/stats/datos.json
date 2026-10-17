@@ -177,50 +177,50 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 87,
-      "v": 98
+      "a": 88,
+      "v": 99
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 91
+      "a": 82,
+      "v": 92
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 92
+      "a": 82,
+      "v": 93
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 75,
-      "v": 92
+      "a": 76,
+      "v": 93
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 73
+      "a": 66,
+      "v": 74
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 44
+      "a": 41,
+      "v": 45
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 24
+      "a": 21,
+      "v": 25
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
       "a": 0,
-      "v": 2
+      "v": 4
     }
   },
   "seguidores": {
@@ -238,11 +238,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T07:01:29.232Z"
+    "el": "2026-10-17T08:01:26.989Z"
   },
   "res30": {
-    "reach": 1152,
-    "views": 6693,
+    "reach": 1154,
+    "views": 6702,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -269,7 +269,7 @@
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 79,
-      "views": 99,
+      "views": 100,
       "saved": 0,
       "shares": 0
     },
@@ -573,7 +573,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T07:01:36.490Z",
+  "actualizado": "2026-10-17T08:01:33.994Z",
   "aud": {
     "edad": [
       {
