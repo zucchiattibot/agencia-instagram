@@ -177,50 +177,50 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 86,
-      "v": 97
+      "a": 87,
+      "v": 98
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 80,
-      "v": 90
+      "a": 81,
+      "v": 91
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 80,
-      "v": 91
+      "a": 81,
+      "v": 92
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 91
+      "a": 75,
+      "v": 92
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 72
+      "a": 65,
+      "v": 73
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 43
+      "a": 40,
+      "v": 44
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 18,
-      "v": 23
+      "a": 20,
+      "v": 24
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
       "a": 0,
-      "v": 0
+      "v": 2
     }
   },
   "seguidores": {
@@ -238,11 +238,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T06:02:15.451Z"
+    "el": "2026-10-17T07:01:29.232Z"
   },
   "res30": {
     "reach": 1152,
-    "views": 6684,
+    "views": 6693,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -307,8 +307,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 56,
+      "reach": 27,
+      "views": 57,
       "saved": 0,
       "shares": 0
     },
@@ -463,8 +463,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 44,
+      "reach": 36,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -573,7 +573,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T06:02:21.975Z",
+  "actualizado": "2026-10-17T07:01:36.490Z",
   "aud": {
     "edad": [
       {

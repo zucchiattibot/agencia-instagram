@@ -13,7 +13,7 @@
     "mvax1stqxmo",
     "mvax4489ece"
   ],
-  "statsEl": "2026-10-17T06:02:21.975Z",
+  "statsEl": "2026-10-17T07:01:36.490Z",
   "stUltima": {
     "cuando": "2026-10-17T06:02:13.545Z",
     "franja": "03:00",
@@ -21,11 +21,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-17T06:01:25.886Z",
+    "cuando": "2026-10-17T07:01:26.811Z",
     "cola": 93,
     "enRepo": 93,
-    "pendientes": [
-      "03:00"
-    ]
+    "pendientes": []
   }
 }
