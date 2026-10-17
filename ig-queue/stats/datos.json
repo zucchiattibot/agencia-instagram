@@ -201,44 +201,44 @@
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 98
+      "a": 90,
+      "v": 101
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 75
+      "a": 72,
+      "v": 78
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 58,
-      "v": 63
+      "a": 61,
+      "v": 66
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 57
+      "a": 51,
+      "v": 60
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 40,
-      "v": 50
+      "a": 45,
+      "v": 53
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 15,
-      "v": 21
+      "a": 28,
+      "v": 30
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 10,
-      "v": 14
+      "a": 20,
+      "v": 23
     }
   },
   "seguidores": {
@@ -256,12 +256,12 @@
     "follows_count": 636,
     "media_count": 586,
     "id": "28888466970748824",
-    "el": "2026-10-17T16:01:34.835Z"
+    "el": "2026-10-17T17:01:33.181Z"
   },
   "res30": {
     "reach": 1168,
-    "views": 7052,
-    "profile_views": 44,
+    "views": 7102,
+    "profile_views": 45,
     "accounts_engaged": 44
   },
   "posts": [
@@ -273,8 +273,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 19,
+      "reach": 11,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -442,8 +442,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sentí la potencia de los Rolling Stones girando en tu bandeja. 🎸 La colección oficial de vinilos ya se puede encargar en el local. Mandanos un WhatsApp al 2395417834 o pasá por Maipú 175 para reservar el tuyo en Carlos Casares.\n#vinilos #carloscasares #therollingstonesvinilos\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 66,
-      "views": 81,
+      "reach": 67,
+      "views": 82,
       "saved": 0,
       "shares": 1
     },
@@ -468,8 +468,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 159,
-      "views": 195,
+      "reach": 160,
+      "views": 196,
       "saved": 0,
       "shares": 0
     },
@@ -507,7 +507,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sos del óvalo o del chivo? 🚗 Arrancá la colección Ford vs Chevrolet por solo $9.990 y armá tu propia joya a escala 1:18. Reservala ahora por acá. #FordvsChevrolet\n\n📲 WhatsApp: 2395 41-7834",
-      "reach": 49,
+      "reach": 50,
       "views": 89,
       "saved": 0,
       "shares": 0
@@ -591,7 +591,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T16:01:44.763Z",
+  "actualizado": "2026-10-17T17:01:43.480Z",
   "aud": {
     "edad": [
       {
