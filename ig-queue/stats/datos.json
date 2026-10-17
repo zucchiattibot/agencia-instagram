@@ -177,38 +177,38 @@
     "17886004779502672": {
       "t": "2026-10-16T12:01:45+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 77
+      "a": 78,
+      "v": 85
     },
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 69
+      "a": 70,
+      "v": 78
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 72
+      "a": 70,
+      "v": 80
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 54,
-      "v": 71
+      "a": 65,
+      "v": 80
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 42,
-      "v": 52
+      "a": 55,
+      "v": 61
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 8,
-      "v": 13
+      "a": 20,
+      "v": 24
     }
   },
   "seguidores": {
@@ -225,11 +225,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T00:01:37.603Z"
+    "el": "2026-10-17T01:01:32.192Z"
   },
   "res30": {
-    "reach": 1138,
-    "views": 6473,
+    "reach": 1147,
+    "views": 6556,
     "profile_views": 43,
     "accounts_engaged": 44
   },
@@ -242,8 +242,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 30,
+      "reach": 23,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -256,7 +256,7 @@
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 72,
-      "views": 89,
+      "views": 94,
       "saved": 0,
       "shares": 0
     },
@@ -281,8 +281,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 23,
-      "views": 28,
+      "reach": 26,
+      "views": 30,
       "saved": 0,
       "shares": 1
     },
@@ -294,8 +294,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
-      "views": 51,
+      "reach": 25,
+      "views": 55,
       "saved": 0,
       "shares": 0
     },
@@ -450,8 +450,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
-      "views": 40,
+      "reach": 35,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -560,7 +560,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T00:01:51.279Z",
+  "actualizado": "2026-10-17T01:01:41.301Z",
   "aud": {
     "edad": [
       {
