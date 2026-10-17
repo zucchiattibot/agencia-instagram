@@ -15,7 +15,7 @@
     "mvax4489ece",
     "mvav28500sf"
   ],
-  "statsEl": "2026-10-17T11:02:07.061Z",
+  "statsEl": "2026-10-17T12:01:43.086Z",
   "stUltima": {
     "cuando": "2026-10-17T11:01:57.295Z",
     "franja": "08:00",
@@ -23,11 +23,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-17T11:01:27.532Z",
+    "cuando": "2026-10-17T12:01:29.670Z",
     "cola": 93,
     "enRepo": 93,
-    "pendientes": [
-      "08:00"
-    ]
+    "pendientes": []
   }
 }
