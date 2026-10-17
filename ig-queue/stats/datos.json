@@ -183,50 +183,56 @@
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 92,
-      "v": 105
+      "a": 94,
+      "v": 107
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 91,
-      "v": 107
+      "a": 94,
+      "v": 111
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 84,
-      "v": 103
+      "a": 88,
+      "v": 106
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 90
+      "a": 81,
+      "v": 93
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 56,
-      "v": 63
+      "a": 61,
+      "v": 67
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 44
+      "a": 46,
+      "v": 51
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 27,
-      "v": 37
+      "a": 35,
+      "v": 46
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 18,
-      "v": 29
+      "a": 28,
+      "v": 39
+    },
+    "18100925123562760": {
+      "t": "2026-10-17T14:01:42+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -244,11 +250,11 @@
     "follows_count": 636,
     "media_count": 585,
     "id": "28888466970748824",
-    "el": "2026-10-17T13:01:31.641Z"
+    "el": "2026-10-17T14:01:46.939Z"
   },
   "res30": {
-    "reach": 1159,
-    "views": 6882,
+    "reach": 1162,
+    "views": 6932,
     "profile_views": 44,
     "accounts_engaged": 44
   },
@@ -261,8 +267,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 40,
+      "reach": 32,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -274,7 +280,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 84,
+      "reach": 85,
       "views": 107,
       "saved": 0,
       "shares": 0
@@ -579,7 +585,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T13:01:39.542Z",
+  "actualizado": "2026-10-17T14:01:55.571Z",
   "aud": {
     "edad": [
       {
