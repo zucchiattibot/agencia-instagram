@@ -1,4 +1,4 @@
-// ig-motor-v5
+// ig-motor-v6
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -135,9 +135,14 @@ async function colaHistorias(estado, token, uid) {
     if (hechas[clave] === 'ok' || hechas[clave] === 'omitida' || hechas[clave] === 'vacia') continue;
     if (min - ini > 180) { hechas[clave] = 'omitida'; continue; }
     const n = Math.min(Number(fr.n) || 1, 10);
-    let libres = cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id));
-    if (libres.length < n && cfg.reciclar !== false) { estado.stUsados = []; libres = cfg.pool.filter(existe); }
-    const elegidas = mezclar(libres).slice(0, n);
+    const libres = cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id));
+    let elegidas = mezclar(libres).slice(0, n);
+    // Si quedan menos de N sin publicar y se puede repetir: primero salen las que sobraban y recién después empieza otra vuelta (sin repetir las que acaban de salir).
+    if (elegidas.length < n && cfg.reciclar !== false) {
+      const tomadas = elegidas.map((p) => p.id);
+      estado.stUsados = []; estado.stVueltas = (estado.stVueltas || 0) + 1;
+      elegidas = elegidas.concat(mezclar(cfg.pool.filter((p) => existe(p) && !tomadas.includes(p.id))).slice(0, n - elegidas.length));
+    }
     let ok = 0, fallos = 0;
     for (const p of elegidas) {
       try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media }, token, uid, null); estado.stUsados.push(p.id); ok++; }
@@ -149,7 +154,7 @@ async function colaHistorias(estado, token, uid) {
     else hechas[clave] = elegidas.length ? 'ok' : 'vacia';
     estado.stUltima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
     if (ok) delete estado.stError;
-    if (!elegidas.length) estado.stAviso = 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
+    if (!elegidas.length) estado.stAviso = (cfg.reciclar === false && enRepo > 0) ? 'Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.' : 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
     else if (cfg.reciclar === false && cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
     else delete estado.stAviso;
   }
