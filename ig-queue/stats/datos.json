@@ -201,44 +201,44 @@
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 101
+      "a": 93,
+      "v": 107
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 78
+      "a": 74,
+      "v": 84
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 66
+      "a": 65,
+      "v": 73
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 51,
-      "v": 60
+      "a": 53,
+      "v": 67
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 53
+      "a": 51,
+      "v": 60
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 30
+      "a": 31,
+      "v": 39
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 23
+      "a": 27,
+      "v": 34
     }
   },
   "seguidores": {
@@ -256,13 +256,13 @@
     "follows_count": 636,
     "media_count": 586,
     "id": "28888466970748824",
-    "el": "2026-10-17T17:01:33.181Z"
+    "el": "2026-10-17T18:01:29.538Z"
   },
   "res30": {
     "reach": 1168,
-    "views": 7102,
+    "views": 7140,
     "profile_views": 45,
-    "accounts_engaged": 44
+    "accounts_engaged": 45
   },
   "posts": [
     {
@@ -273,8 +273,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 26,
+      "reach": 16,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -591,7 +591,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T17:01:43.480Z",
+  "actualizado": "2026-10-17T18:01:38.424Z",
   "aud": {
     "edad": [
       {
