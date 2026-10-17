@@ -183,53 +183,59 @@
     "18108035651626991": {
       "t": "2026-10-16T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 94,
+      "a": 95,
       "v": 107
     },
     "18193312618403784": {
       "t": "2026-10-16T15:02:02+0000",
       "tipo": "IMAGE",
-      "a": 94,
-      "v": 111
+      "a": 97,
+      "v": 112
     },
     "18653326396043794": {
       "t": "2026-10-16T16:25:55+0000",
       "tipo": "VIDEO",
-      "a": 88,
+      "a": 89,
       "v": 106
     },
     "18101738726381938": {
       "t": "2026-10-16T19:01:35+0000",
       "tipo": "IMAGE",
-      "a": 81,
+      "a": 82,
       "v": 93
     },
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 67
+      "a": 62,
+      "v": 68
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 51
+      "a": 49,
+      "v": 54
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 35,
-      "v": 46
+      "a": 40,
+      "v": 50
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 39
+      "a": 35,
+      "v": 43
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
+      "tipo": "IMAGE",
+      "a": 7,
+      "v": 9
+    },
+    "18191236861360196": {
+      "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
       "a": 0,
       "v": 0
@@ -248,17 +254,30 @@
     "username": "agenciaalbor",
     "followers_count": 1391,
     "follows_count": 636,
-    "media_count": 585,
+    "media_count": 586,
     "id": "28888466970748824",
-    "el": "2026-10-17T14:01:46.939Z"
+    "el": "2026-10-17T15:01:41.113Z"
   },
   "res30": {
     "reach": 1162,
-    "views": 6932,
+    "views": 6963,
     "profile_views": 44,
     "accounts_engaged": 44
   },
   "posts": [
+    {
+      "id": "17954422320266583",
+      "timestamp": "2026-10-17T14:44:15+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DemWe8clUM8/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 2,
+      "views": 3,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17984045907093781",
       "timestamp": "2026-10-16T18:02:49+0000",
@@ -307,7 +326,7 @@
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
       "reach": 30,
-      "views": 35,
+      "views": 36,
       "saved": 0,
       "shares": 1
     },
@@ -570,22 +589,9 @@
       "views": 57,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18118541638978861",
-      "timestamp": "2026-10-07T17:58:25+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/DeM8wuoOxaH/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "¡Ya está en tu kiosco la entrega N° 1! 🔪📚 Lleva el cuchillo Santoku + recetario de Cocina en Familia por Santiago Giorgini a un precio increíble de $8499,90. 👨‍🍳🔥 \n\nPasá a buscarlo por Maipú 175 en la agencia Albor o mandanos un WhatsApp al 2395417834 para reservar el tuyo. 📲 Run\n\n#ColeccionesClarin #CocinaEnFamilia #SantiagoGiorgini #CuchilloSantoku",
-      "reach": 44,
-      "views": 75,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T14:01:55.571Z",
+  "actualizado": "2026-10-17T15:01:48.373Z",
   "aud": {
     "edad": [
       {
