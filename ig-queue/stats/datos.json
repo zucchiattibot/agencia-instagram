@@ -207,38 +207,44 @@
     "18127763980873927": {
       "t": "2026-10-16T23:01:36+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 84
+      "a": 80,
+      "v": 89
     },
     "18145117333598512": {
       "t": "2026-10-17T02:01:32+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 73
+      "a": 69,
+      "v": 80
     },
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 53,
-      "v": 67
+      "a": 60,
+      "v": 74
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 51,
-      "v": 60
+      "a": 55,
+      "v": 67
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 31,
-      "v": 39
+      "a": 40,
+      "v": 48
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 34
+      "a": 32,
+      "v": 43
+    },
+    "17977421498932336": {
+      "t": "2026-10-17T19:02:09+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -254,17 +260,30 @@
     "username": "agenciaalbor",
     "followers_count": 1391,
     "follows_count": 636,
-    "media_count": 586,
+    "media_count": 587,
     "id": "28888466970748824",
-    "el": "2026-10-17T18:01:29.538Z"
+    "el": "2026-10-17T19:02:17.914Z"
   },
   "res30": {
     "reach": 1168,
-    "views": 7140,
+    "views": 7192,
     "profile_views": 45,
     "accounts_engaged": 45
   },
   "posts": [
+    {
+      "id": "18132811498664573",
+      "timestamp": "2026-10-17T19:01:38+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Demz8N4j_ol/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 1,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17954422320266583",
       "timestamp": "2026-10-17T14:44:15+0000",
@@ -273,8 +292,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 31,
+      "reach": 18,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -494,8 +513,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
-      "views": 47,
+      "reach": 38,
+      "views": 48,
       "saved": 0,
       "shares": 0
     },
@@ -576,22 +595,9 @@
       "views": 26,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18014252762954462",
-      "timestamp": "2026-10-08T11:25:52+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/DeO0ognu6Sp/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "¡Vuelven los cuchillos más elegidos por los argentinos con Cocina en familia por Santiago Giorgini! 🔪 Ya está en tu kiosco la Entrega N°1 con el cuchillo Santoku a $18499,90. 👨‍🍳 Reservá tu ejemplar por WhatsApp al 2395417834 o pasá a buscarlo por Maipú 175, agencia Albor. \n\n#ColeccionesClarin #CocinaEnFamilia #SantiagoGiorgini #Soklingen",
-      "reach": 27,
-      "views": 57,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-17T18:01:38.424Z",
+  "actualizado": "2026-10-17T19:02:32.364Z",
   "aud": {
     "edad": [
       {
