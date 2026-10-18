@@ -14,5 +14,6 @@
   ],
   "proveedor": "Carrusel",
   "creado": "2026-10-18T02:11:16.365Z",
-  "intentos": 0
+  "intentos": 1,
+  "ultimoError": "Facebook: (#200) The permission(s) pages_manage_posts are not available. It could because either they are deprecated or need to be approved by App Review. (código 200)"
 }
