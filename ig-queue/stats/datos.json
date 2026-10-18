@@ -225,44 +225,50 @@
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 133,
-      "v": 150
+      "a": 135,
+      "v": 153
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 118,
-      "v": 127
+      "a": 120,
+      "v": 129
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 111,
-      "v": 122
+      "a": 112,
+      "v": 123
     },
     "17977421498932336": {
       "t": "2026-10-17T19:02:09+0000",
       "tipo": "VIDEO",
-      "a": 94,
-      "v": 103
+      "a": 96,
+      "v": 105
     },
     "18035566520890259": {
       "t": "2026-10-17T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 71
+      "a": 68,
+      "v": 73
     },
     "18127219618868940": {
       "t": "2026-10-18T02:01:59+0000",
       "tipo": "VIDEO",
-      "a": 40,
-      "v": 45
+      "a": 43,
+      "v": 48
     },
     "17952034716051577": {
       "t": "2026-10-18T06:01:39+0000",
       "tipo": "IMAGE",
+      "a": 6,
+      "v": 7
+    },
+    "18079536392757574": {
+      "t": "2026-10-18T11:01:38+0000",
+      "tipo": "IMAGE",
       "a": 0,
-      "v": 4
+      "v": 0
     }
   },
   "seguidores": {
@@ -281,11 +287,11 @@
     "follows_count": 636,
     "media_count": 588,
     "id": "28888466970748824",
-    "el": "2026-10-18T10:01:30.836Z"
+    "el": "2026-10-18T11:01:44.600Z"
   },
   "res30": {
-    "reach": 1240,
-    "views": 8077,
+    "reach": 1243,
+    "views": 8098,
     "profile_views": 47,
     "accounts_engaged": 47
   },
@@ -298,8 +304,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 64,
-      "views": 82,
+      "reach": 66,
+      "views": 90,
       "saved": 0,
       "shares": 0
     },
@@ -519,8 +525,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 163,
-      "views": 201,
+      "reach": 164,
+      "views": 202,
       "saved": 0,
       "shares": 0
     },
@@ -616,7 +622,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-18T10:01:38.876Z",
+  "actualizado": "2026-10-18T11:01:52.374Z",
   "aud": {
     "edad": [
       {
