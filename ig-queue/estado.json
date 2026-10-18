@@ -23,7 +23,7 @@
     "mvcdr8huwgc",
     "mvawy2kceaa"
   ],
-  "statsEl": "2026-10-18T15:02:01.461Z",
+  "statsEl": "2026-10-18T16:01:43.075Z",
   "stUltima": {
     "cuando": "2026-10-18T15:01:47.529Z",
     "franja": "12:00",
@@ -31,11 +31,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-18T15:01:34.062Z",
+    "cuando": "2026-10-18T16:01:29.438Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   }
 }
