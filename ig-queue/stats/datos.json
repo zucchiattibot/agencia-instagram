@@ -249,38 +249,44 @@
     "18035566520890259": {
       "t": "2026-10-17T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 110,
-      "v": 120
+      "a": 115,
+      "v": 130
     },
     "18127219618868940": {
       "t": "2026-10-18T02:01:59+0000",
       "tipo": "VIDEO",
-      "a": 96,
-      "v": 103
+      "a": 104,
+      "v": 112
     },
     "17952034716051577": {
       "t": "2026-10-18T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 75,
-      "v": 79
+      "a": 83,
+      "v": 89
     },
     "18079536392757574": {
       "t": "2026-10-18T11:01:38+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 73
+      "a": 74,
+      "v": 87
     },
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 46
+      "a": 49,
+      "v": 65
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 26,
+      "v": 32
+    },
+    "17903255478600748": {
+      "t": "2026-10-18T19:03:43+0000",
+      "tipo": "VIDEO",
+      "a": 26,
+      "v": 30
     }
   },
   "seguidores": {
@@ -297,17 +303,30 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 636,
-    "media_count": 589,
+    "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-18T19:01:47.016Z"
+    "el": "2026-10-18T20:01:42.528Z"
   },
   "res30": {
     "reach": 1312,
-    "views": 8640,
+    "views": 8746,
     "profile_views": 48,
     "accounts_engaged": 50
   },
   "posts": [
+    {
+      "id": "17986112268083077",
+      "timestamp": "2026-10-18T19:04:34+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DepZBfUjK4M/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 6,
+      "views": 9,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18033234377675212",
       "timestamp": "2026-10-18T11:59:15+0000",
@@ -317,7 +336,7 @@
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 30,
-      "views": 40,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -460,7 +479,7 @@
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 29,
-      "views": 50,
+      "views": 52,
       "saved": 0,
       "shares": 0
     },
@@ -619,22 +638,9 @@
       "views": 76,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18030436493683208",
-      "timestamp": "2026-10-08T18:31:49+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DePlW8UuoWB/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "¡Mirá lo que es la nueva colección de Hello Kitty and Friends! 💖 Lleva la magia de tus personajes favoritos directo a tu casa. Pasá a buscarlo por Maipú 175, en la agencia Albor, o escribinos al WhatsApp 2395417834 para asegurarte el tuyo. 📲 ¡No te lo pierdas! \n\n#HelloKitty #Coleccionables #AgenciaAlbor #Maipu175 #SanAndresDeGiles",
-      "reach": 25,
-      "views": 31,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-18T19:01:56.406Z",
+  "actualizado": "2026-10-18T20:01:53.370Z",
   "aud": {
     "edad": [
       {

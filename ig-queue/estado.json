@@ -25,7 +25,7 @@
     "mvawy2kceaa",
     "mvcdpl107ri"
   ],
-  "statsEl": "2026-10-18T19:01:56.406Z",
+  "statsEl": "2026-10-18T20:01:53.370Z",
   "stUltima": {
     "cuando": "2026-10-18T19:01:43.830Z",
     "franja": "16:00",
@@ -33,11 +33,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-18T19:01:29.460Z",
+    "cuando": "2026-10-18T20:01:39.680Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": [
-      "16:00"
-    ]
+    "pendientes": []
   }
 }
