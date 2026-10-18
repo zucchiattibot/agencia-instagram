@@ -219,38 +219,44 @@
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 107,
-      "v": 127
+      "a": 110,
+      "v": 132
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 100,
-      "v": 115
+      "a": 104,
+      "v": 119
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 96
+      "a": 94,
+      "v": 100
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 84,
-      "v": 95
+      "a": 90,
+      "v": 99
     },
     "17977421498932336": {
       "t": "2026-10-17T19:02:09+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 70
+      "a": 69,
+      "v": 74
     },
     "18035566520890259": {
       "t": "2026-10-17T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 36
+      "a": 38,
+      "v": 43
+    },
+    "18127219618868940": {
+      "t": "2026-10-18T02:01:59+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -268,12 +274,12 @@
     "follows_count": 636,
     "media_count": 587,
     "id": "28888466970748824",
-    "el": "2026-10-18T01:01:32.430Z"
+    "el": "2026-10-18T02:02:05.637Z"
   },
   "res30": {
-    "reach": 1184,
-    "views": 7701,
-    "profile_views": 46,
+    "reach": 1185,
+    "views": 7746,
+    "profile_views": 47,
     "accounts_engaged": 45
   },
   "posts": [
@@ -324,8 +330,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 88,
-      "views": 115,
+      "reach": 89,
+      "views": 116,
       "saved": 0,
       "shares": 0
     },
@@ -364,7 +370,7 @@
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 31,
-      "views": 68,
+      "views": 72,
       "saved": 0,
       "shares": 0
     },
@@ -520,7 +526,7 @@
       "comments_count": 0,
       "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 38,
-      "views": 48,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -603,7 +609,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-18T01:01:47.532Z",
+  "actualizado": "2026-10-18T02:02:13.201Z",
   "aud": {
     "edad": [
       {
