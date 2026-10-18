@@ -219,44 +219,44 @@
     "18120761945002128": {
       "t": "2026-10-17T06:02:10+0000",
       "tipo": "VIDEO",
-      "a": 131,
-      "v": 152
+      "a": 135,
+      "v": 160
     },
     "18115597064113781": {
       "t": "2026-10-17T11:01:53+0000",
       "tipo": "VIDEO",
-      "a": 123,
-      "v": 139
+      "a": 124,
+      "v": 144
     },
     "18100925123562760": {
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
-      "a": 111,
-      "v": 120
+      "a": 112,
+      "v": 124
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
-      "a": 104,
-      "v": 114
+      "a": 105,
+      "v": 119
     },
     "17977421498932336": {
       "t": "2026-10-17T19:02:09+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 93
+      "a": 87,
+      "v": 99
     },
     "18035566520890259": {
       "t": "2026-10-17T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 59
+      "a": 57,
+      "v": 66
     },
     "18127219618868940": {
       "t": "2026-10-18T02:01:59+0000",
       "tipo": "VIDEO",
-      "a": 25,
-      "v": 31
+      "a": 29,
+      "v": 38
     }
   },
   "seguidores": {
@@ -275,11 +275,11 @@
     "follows_count": 636,
     "media_count": 588,
     "id": "28888466970748824",
-    "el": "2026-10-18T04:02:06.853Z"
+    "el": "2026-10-18T05:01:37.196Z"
   },
   "res30": {
-    "reach": 1194,
-    "views": 7917,
+    "reach": 1200,
+    "views": 7950,
     "profile_views": 47,
     "accounts_engaged": 45
   },
@@ -289,11 +289,11 @@
       "timestamp": "2026-10-18T04:01:57+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DenxvLGAp5G/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 11,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -318,8 +318,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
-      "views": 52,
+      "reach": 27,
+      "views": 57,
       "saved": 0,
       "shares": 0
     },
@@ -331,8 +331,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 38,
-      "views": 51,
+      "reach": 39,
+      "views": 52,
       "saved": 0,
       "shares": 0
     },
@@ -610,7 +610,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-18T04:02:16.103Z",
+  "actualizado": "2026-10-18T05:01:45.718Z",
   "aud": {
     "edad": [
       {
