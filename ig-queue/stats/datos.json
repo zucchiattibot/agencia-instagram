@@ -249,44 +249,50 @@
     "18035566520890259": {
       "t": "2026-10-17T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 115,
-      "v": 130
+      "a": 123,
+      "v": 142
     },
     "18127219618868940": {
       "t": "2026-10-18T02:01:59+0000",
       "tipo": "VIDEO",
-      "a": 104,
-      "v": 112
+      "a": 111,
+      "v": 121
     },
     "17952034716051577": {
       "t": "2026-10-18T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 83,
-      "v": 89
+      "a": 87,
+      "v": 98
     },
     "18079536392757574": {
       "t": "2026-10-18T11:01:38+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 87
+      "a": 83,
+      "v": 97
     },
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 65
+      "a": 64,
+      "v": 77
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 26,
-      "v": 32
+      "a": 43,
+      "v": 48
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 26,
-      "v": 30
+      "a": 36,
+      "v": 45
+    },
+    "18097060628413441": {
+      "t": "2026-10-18T21:01:38+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -305,11 +311,11 @@
     "follows_count": 636,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-18T20:01:42.528Z"
+    "el": "2026-10-18T21:01:43.396Z"
   },
   "res30": {
-    "reach": 1312,
-    "views": 8746,
+    "reach": 1320,
+    "views": 8833,
     "profile_views": 48,
     "accounts_engaged": 50
   },
@@ -322,8 +328,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 9,
+      "reach": 10,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -335,8 +341,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
-      "views": 43,
+      "reach": 35,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -375,7 +381,7 @@
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 31,
-      "views": 72,
+      "views": 73,
       "saved": 0,
       "shares": 0
     },
@@ -478,7 +484,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 29,
+      "reach": 30,
       "views": 52,
       "saved": 0,
       "shares": 0
@@ -640,7 +646,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-18T20:01:53.370Z",
+  "actualizado": "2026-10-18T21:01:50.743Z",
   "aud": {
     "edad": [
       {
