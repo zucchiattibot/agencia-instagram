@@ -21,7 +21,7 @@
     "mvaxdvil269",
     "mvcdr8huwgc"
   ],
-  "statsEl": "2026-10-18T11:01:52.374Z",
+  "statsEl": "2026-10-18T12:01:43.022Z",
   "stUltima": {
     "cuando": "2026-10-18T11:01:42.155Z",
     "franja": "08:00",
@@ -29,11 +29,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-18T11:01:31.822Z",
+    "cuando": "2026-10-18T12:01:31.782Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": [
-      "08:00"
-    ]
+    "pendientes": []
   }
 }

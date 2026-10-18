@@ -232,43 +232,43 @@
       "t": "2026-10-17T14:01:42+0000",
       "tipo": "IMAGE",
       "a": 120,
-      "v": 129
+      "v": 130
     },
     "18191236861360196": {
       "t": "2026-10-17T15:01:36+0000",
       "tipo": "IMAGE",
       "a": 112,
-      "v": 123
+      "v": 124
     },
     "17977421498932336": {
       "t": "2026-10-17T19:02:09+0000",
       "tipo": "VIDEO",
-      "a": 96,
-      "v": 105
+      "a": 98,
+      "v": 108
     },
     "18035566520890259": {
       "t": "2026-10-17T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 73
+      "a": 74,
+      "v": 81
     },
     "18127219618868940": {
       "t": "2026-10-18T02:01:59+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 48
+      "a": 50,
+      "v": 54
     },
     "17952034716051577": {
       "t": "2026-10-18T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 6,
-      "v": 7
+      "a": 13,
+      "v": 13
     },
     "18079536392757574": {
       "t": "2026-10-18T11:01:38+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 6,
+      "v": 6
     }
   },
   "seguidores": {
@@ -285,27 +285,40 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 636,
-    "media_count": 588,
+    "media_count": 589,
     "id": "28888466970748824",
-    "el": "2026-10-18T11:01:44.600Z"
+    "el": "2026-10-18T12:01:34.460Z"
   },
   "res30": {
-    "reach": 1243,
-    "views": 8098,
+    "reach": 1260,
+    "views": 8134,
     "profile_views": 47,
-    "accounts_engaged": 47
+    "accounts_engaged": 48
   },
   "posts": [
+    {
+      "id": "18033234377675212",
+      "timestamp": "2026-10-18T11:59:15+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DeooXKQDItq/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18114456197521483",
       "timestamp": "2026-10-18T04:01:57+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DenxvLGAp5G/",
-      "like_count": 3,
+      "like_count": 4,
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 66,
-      "views": 90,
+      "reach": 74,
+      "views": 101,
       "saved": 0,
       "shares": 0
     },
@@ -317,8 +330,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 44,
-      "views": 70,
+      "reach": 45,
+      "views": 71,
       "saved": 0,
       "shares": 0
     },
@@ -344,7 +357,7 @@
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 39,
-      "views": 52,
+      "views": 54,
       "saved": 0,
       "shares": 0
     },
@@ -607,22 +620,9 @@
       "views": 31,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18140300836611226",
-      "timestamp": "2026-10-08T15:54:35+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DePTV70OBEM/",
-      "like_count": 2,
-      "comments_count": 1,
-      "caption": "¡Llegó a casa la nueva colección de Clarín, MAGNETIX, animales en acción! 🦁✨\nMirá qué divertido es armar y jugar con los chicos. 🧩\nNo te quedes sin el tuyo y consultanos por WhatsApp al 2395417834 o pasá a buscarlo por Maipú 175, agencia Albor. 🏃‍♂️💨\nTambién realizamos ventas por mayor. 📦📲\n\n#Magnetix #ColeccionClarin #AnimalesEnAccion #AgenciaAlbor #Maipu175",
-      "reach": 44,
-      "views": 70,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-18T11:01:52.374Z",
+  "actualizado": "2026-10-18T12:01:43.022Z",
   "aud": {
     "edad": [
       {
