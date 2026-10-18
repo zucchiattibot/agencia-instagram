@@ -9,5 +9,6 @@
   "media": "ig-queue/media/20261018110111-75dus.mp4",
   "proveedor": "Clarín",
   "creado": "2026-10-18T14:01:15.555Z",
-  "intentos": 0
+  "intentos": 1,
+  "ultimoError": "Facebook: Unsupported get request. Object with ID '4469883593250186' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api (código 100)"
 }
