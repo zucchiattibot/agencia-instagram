@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-19 03:00": "ok"
+    "2026-10-19 03:00": "ok",
+    "2026-10-19 08:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -23,19 +24,22 @@
     "mvcdpl107ri",
     "mvav25z397s",
     "mvawy5n3r6p",
-    "mvaxcsa24la"
+    "mvaxcsa24la",
+    "mvav1xa6vql"
   ],
-  "statsEl": "2026-10-19T10:01:45.673Z",
+  "statsEl": "2026-10-19T11:02:04.315Z",
   "stUltima": {
-    "cuando": "2026-10-19T06:01:47.564Z",
-    "franja": "03:00",
+    "cuando": "2026-10-19T11:01:52.150Z",
+    "franja": "08:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-19T10:01:32.376Z",
+    "cuando": "2026-10-19T11:01:38.293Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": []
+    "pendientes": [
+      "08:00"
+    ]
   }
 }

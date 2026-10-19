@@ -273,20 +273,20 @@
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 134,
-      "v": 153
+      "a": 145,
+      "v": 163
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 126,
-      "v": 139
+      "a": 138,
+      "v": 148
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 122,
-      "v": 136
+      "a": 131,
+      "v": 145
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,20 +297,26 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 91,
-      "v": 109
+      "a": 106,
+      "v": 124
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 37,
-      "v": 45
+      "a": 53,
+      "v": 68
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 8,
-      "v": 13
+      "a": 31,
+      "v": 38
+    },
+    "18630242914062004": {
+      "t": "2026-10-19T11:01:44+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -330,12 +336,12 @@
     "follows_count": 635,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-19T10:01:36.504Z"
+    "el": "2026-10-19T11:01:55.770Z"
   },
   "res30": {
     "reach": 1349,
-    "views": 9564,
-    "profile_views": 54,
+    "views": 9665,
+    "profile_views": 55,
     "accounts_engaged": 52
   },
   "posts": [
@@ -360,8 +366,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
-      "views": 56,
+      "reach": 45,
+      "views": 57,
       "saved": 0,
       "shares": 0
     },
@@ -386,8 +392,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 57,
-      "views": 85,
+      "reach": 58,
+      "views": 87,
       "saved": 0,
       "shares": 0
     },
@@ -399,8 +405,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 82,
+      "reach": 36,
+      "views": 83,
       "saved": 0,
       "shares": 0
     },
@@ -465,7 +471,7 @@
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 33,
-      "views": 73,
+      "views": 74,
       "saved": 0,
       "shares": 0
     },
@@ -665,7 +671,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T10:01:45.673Z",
+  "actualizado": "2026-10-19T11:02:04.315Z",
   "aud": {
     "edad": [
       {
