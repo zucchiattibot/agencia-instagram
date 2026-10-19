@@ -261,32 +261,32 @@
     "17952034716051577": {
       "t": "2026-10-18T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 133,
-      "v": 144
+      "a": 139,
+      "v": 149
     },
     "18079536392757574": {
       "t": "2026-10-18T11:01:38+0000",
       "tipo": "IMAGE",
-      "a": 122,
-      "v": 137
+      "a": 128,
+      "v": 142
     },
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 111,
-      "v": 123
+      "a": 117,
+      "v": 129
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 101,
-      "v": 107
+      "a": 109,
+      "v": 114
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 106
+      "a": 102,
+      "v": 113
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,8 +297,14 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 70
+      "a": 69,
+      "v": 77
+    },
+    "18026649437869552": {
+      "t": "2026-10-19T02:02:02+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -317,13 +323,13 @@
     "follows_count": 635,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-19T01:01:33.366Z"
+    "el": "2026-10-19T02:02:38.036Z"
   },
   "res30": {
-    "reach": 1339,
-    "views": 9278,
-    "profile_views": 50,
-    "accounts_engaged": 50
+    "reach": 1341,
+    "views": 9340,
+    "profile_views": 52,
+    "accounts_engaged": 51
   },
   "posts": [
     {
@@ -334,8 +340,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 18,
+      "reach": 14,
+      "views": 19,
       "saved": 0,
       "shares": 0
     },
@@ -373,7 +379,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 56,
+      "reach": 57,
       "views": 85,
       "saved": 0,
       "shares": 0
@@ -399,8 +405,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 41,
-      "views": 60,
+      "reach": 42,
+      "views": 61,
       "saved": 0,
       "shares": 0
     },
@@ -630,11 +636,11 @@
       "timestamp": "2026-10-09T16:00:18+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DeR40efu9TY/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Esa cancha verde y esos botines ya nos despiertan mil recuerdos ⚽ Hacé tu reserva hoy mismo por $11.590 y asegurá tu ejemplar de Silmar. Pasá por el kiosco o mandanos un mensaje para no quedarte sin el tuyo.\n#SuperCampeones #Coleccionables #Silmar #KioscoDeDiarios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 66,
-      "views": 89,
+      "reach": 67,
+      "views": 91,
       "saved": 0,
       "shares": 0
     },
@@ -652,7 +658,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T01:01:40.483Z",
+  "actualizado": "2026-10-19T02:02:44.654Z",
   "aud": {
     "edad": [
       {
