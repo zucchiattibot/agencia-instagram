@@ -279,14 +279,14 @@
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 198,
-      "v": 216
+      "a": 203,
+      "v": 221
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 185,
-      "v": 200
+      "a": 190,
+      "v": 205
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,32 +297,32 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 162,
-      "v": 177
+      "a": 170,
+      "v": 184
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 127,
-      "v": 140
+      "a": 134,
+      "v": 149
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 104,
-      "v": 114
+      "a": 116,
+      "v": 126
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 99
+      "a": 93,
+      "v": 113
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 48
+      "a": 55,
+      "v": 67
     }
   },
   "seguidores": {
@@ -342,11 +342,11 @@
     "follows_count": 636,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-19T17:01:53.649Z"
+    "el": "2026-10-19T18:01:49.546Z"
   },
   "res30": {
-    "reach": 1364,
-    "views": 10204,
+    "reach": 1366,
+    "views": 10284,
     "profile_views": 58,
     "accounts_engaged": 53
   },
@@ -359,8 +359,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 6,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -385,8 +385,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 45,
-      "views": 57,
+      "reach": 46,
+      "views": 60,
       "saved": 0,
       "shares": 0
     },
@@ -658,7 +658,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sos del óvalo o del chivo? 🚗 Arrancá la colección Ford vs Chevrolet por solo $9.990 y armá tu propia joya a escala 1:18. Reservala ahora por acá. #FordvsChevrolet\n\n📲 WhatsApp: 2395 41-7834",
-      "reach": 51,
+      "reach": 52,
       "views": 91,
       "saved": 0,
       "shares": 0
@@ -677,7 +677,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T17:02:02.974Z",
+  "actualizado": "2026-10-19T18:01:58.512Z",
   "aud": {
     "edad": [
       {
