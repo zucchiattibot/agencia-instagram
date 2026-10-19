@@ -303,32 +303,38 @@
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 178,
-      "v": 195
+      "a": 184,
+      "v": 204
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 156,
-      "v": 170
+      "a": 163,
+      "v": 181
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 136,
-      "v": 157
+      "a": 142,
+      "v": 165
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 104,
-      "v": 116
+      "a": 111,
+      "v": 124
     },
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 64
+      "a": 67,
+      "v": 73
+    },
+    "17898868212395323": {
+      "t": "2026-10-19T23:02:54+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -348,11 +354,11 @@
     "follows_count": 636,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-19T22:01:39.307Z"
+    "el": "2026-10-19T23:03:23.215Z"
   },
   "res30": {
-    "reach": 1378,
-    "views": 10622,
+    "reach": 1380,
+    "views": 10701,
     "profile_views": 58,
     "accounts_engaged": 53
   },
@@ -366,7 +372,7 @@
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 17,
-      "views": 28,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -443,8 +449,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 46,
-      "views": 65,
+      "reach": 47,
+      "views": 67,
       "saved": 0,
       "shares": 0
     },
@@ -495,7 +501,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El secreto para cortar el asado sin renegar con el filo está en tener las herramientas justas en la mesa. 🥩 \nReservá tu set en Agencia Albor y disfrutá cada corte como se debe. Mandanos un mensaje para asegurar el tuyo.\n\n#cuchillo #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
+      "reach": 34,
       "views": 77,
       "saved": 0,
       "shares": 0
@@ -683,7 +689,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T22:01:47.505Z",
+  "actualizado": "2026-10-19T23:03:31.184Z",
   "aud": {
     "edad": [
       {
