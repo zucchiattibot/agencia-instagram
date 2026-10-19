@@ -285,8 +285,8 @@
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 190,
-      "v": 205
+      "a": 198,
+      "v": 215
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,32 +297,38 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 170,
-      "v": 184
+      "a": 180,
+      "v": 194
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 134,
-      "v": 149
+      "a": 150,
+      "v": 161
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 116,
-      "v": 126
+      "a": 128,
+      "v": 140
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 93,
-      "v": 113
+      "a": 106,
+      "v": 126
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 67
+      "a": 69,
+      "v": 79
+    },
+    "18123454597977848": {
+      "t": "2026-10-19T19:02:29+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -342,11 +348,11 @@
     "follows_count": 636,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-19T18:01:49.546Z"
+    "el": "2026-10-19T19:02:46.852Z"
   },
   "res30": {
-    "reach": 1366,
-    "views": 10284,
+    "reach": 1368,
+    "views": 10385,
     "profile_views": 58,
     "accounts_engaged": 53
   },
@@ -359,8 +365,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 13,
+      "reach": 10,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -424,8 +430,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
-      "views": 85,
+      "reach": 38,
+      "views": 87,
       "saved": 0,
       "shares": 0
     },
@@ -476,8 +482,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 37,
-      "views": 43,
+      "reach": 38,
+      "views": 44,
       "saved": 0,
       "shares": 1
     },
@@ -677,7 +683,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T18:01:58.512Z",
+  "actualizado": "2026-10-19T19:02:58.142Z",
   "aud": {
     "edad": [
       {
