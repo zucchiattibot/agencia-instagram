@@ -273,20 +273,20 @@
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 145,
-      "v": 163
+      "a": 159,
+      "v": 176
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 138,
-      "v": 148
+      "a": 146,
+      "v": 166
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 131,
-      "v": 145
+      "a": 141,
+      "v": 156
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,26 +297,26 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 124
+      "a": 116,
+      "v": 130
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 53,
-      "v": 68
+      "a": 69,
+      "v": 77
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 31,
-      "v": 38
+      "a": 45,
+      "v": 47
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 15,
+      "v": 19
     }
   },
   "seguidores": {
@@ -336,11 +336,11 @@
     "follows_count": 635,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-19T11:01:55.770Z"
+    "el": "2026-10-19T12:01:40.477Z"
   },
   "res30": {
     "reach": 1349,
-    "views": 9665,
+    "views": 9770,
     "profile_views": 55,
     "accounts_engaged": 52
   },
@@ -392,8 +392,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 58,
-      "views": 87,
+      "reach": 60,
+      "views": 92,
       "saved": 0,
       "shares": 0
     },
@@ -523,7 +523,7 @@
       "comments_count": 0,
       "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
       "reach": 31,
-      "views": 36,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -671,7 +671,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T11:02:04.315Z",
+  "actualizado": "2026-10-19T12:01:50.291Z",
   "aud": {
     "edad": [
       {
