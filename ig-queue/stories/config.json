@@ -750,9 +750,17 @@
       "origen": "rcmvb35y3pklyd9c"
     }
   ],
-  "autoNuevas": false,
+  "autoNuevas": true,
   "destino": "ambos",
-  "autoBase": false,
+  "autoBase": true,
   "fb": 1,
-  "ig": 1
+  "ig": 1,
+  "autoOmitidas": [
+    "rcmvfdnf1z46k96g",
+    "rcmve6y43cdtlttu",
+    "rcmvci9pceylop46",
+    "rcmvci9ksis1jatx",
+    "rcmvci9gcg9fb3h3",
+    "rcmvci9b9wxht7er"
+  ]
 }
