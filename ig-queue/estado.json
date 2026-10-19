@@ -27,7 +27,7 @@
     "mvcdpl107ri",
     "mvav25z397s"
   ],
-  "statsEl": "2026-10-19T00:01:48.259Z",
+  "statsEl": "2026-10-19T01:01:40.483Z",
   "stUltima": {
     "cuando": "2026-10-18T23:02:02.950Z",
     "franja": "20:00",
@@ -35,7 +35,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-19T00:01:38.467Z",
+    "cuando": "2026-10-19T01:01:30.798Z",
     "cola": 103,
     "enRepo": 103,
     "pendientes": []

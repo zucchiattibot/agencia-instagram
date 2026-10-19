@@ -255,38 +255,38 @@
     "18127219618868940": {
       "t": "2026-10-18T02:01:59+0000",
       "tipo": "VIDEO",
-      "a": 140,
-      "v": 153
+      "a": 149,
+      "v": 162
     },
     "17952034716051577": {
       "t": "2026-10-18T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 123,
-      "v": 133
+      "a": 133,
+      "v": 144
     },
     "18079536392757574": {
       "t": "2026-10-18T11:01:38+0000",
       "tipo": "IMAGE",
-      "a": 111,
-      "v": 129
+      "a": 122,
+      "v": 137
     },
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 113
+      "a": 111,
+      "v": 123
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 93
+      "a": 101,
+      "v": 107
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 79,
-      "v": 92
+      "a": 95,
+      "v": 106
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,8 +297,8 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 46
+      "a": 61,
+      "v": 70
     }
   },
   "seguidores": {
@@ -309,20 +309,20 @@
     "2026-10-15": 1389,
     "2026-10-16": 1391,
     "2026-10-17": 1390,
-    "2026-10-18": 1389
+    "2026-10-18": 1388
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1389,
+    "followers_count": 1388,
     "follows_count": 635,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-19T00:01:40.939Z"
+    "el": "2026-10-19T01:01:33.366Z"
   },
   "res30": {
-    "reach": 1337,
-    "views": 9164,
-    "profile_views": 48,
+    "reach": 1339,
+    "views": 9278,
+    "profile_views": 50,
     "accounts_engaged": 50
   },
   "posts": [
@@ -347,8 +347,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 38,
-      "views": 49,
+      "reach": 39,
+      "views": 50,
       "saved": 0,
       "shares": 0
     },
@@ -374,7 +374,7 @@
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 56,
-      "views": 84,
+      "views": 85,
       "saved": 0,
       "shares": 0
     },
@@ -386,8 +386,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 77,
+      "reach": 34,
+      "views": 79,
       "saved": 0,
       "shares": 0
     },
@@ -652,7 +652,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T00:01:48.259Z",
+  "actualizado": "2026-10-19T01:01:40.483Z",
   "aud": {
     "edad": [
       {
