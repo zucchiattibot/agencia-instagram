@@ -273,20 +273,20 @@
     "17947723953071574": {
       "t": "2026-10-18T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 165,
-      "v": 185
+      "a": 179,
+      "v": 196
     },
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 161,
-      "v": 175
+      "a": 173,
+      "v": 185
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 149,
-      "v": 165
+      "a": 162,
+      "v": 177
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,26 +297,26 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 125,
-      "v": 140
+      "a": 138,
+      "v": 152
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 89
+      "a": 98,
+      "v": 107
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 54,
-      "v": 62
+      "a": 75,
+      "v": 81
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 38
+      "a": 44,
+      "v": 59
     }
   },
   "seguidores": {
@@ -328,20 +328,20 @@
     "2026-10-16": 1391,
     "2026-10-17": 1390,
     "2026-10-18": 1388,
-    "2026-10-19": 1388
+    "2026-10-19": 1389
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1388,
+    "followers_count": 1389,
     "follows_count": 635,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-19T13:01:35.335Z"
+    "el": "2026-10-19T13:59:24.892Z"
   },
   "res30": {
-    "reach": 1351,
-    "views": 9853,
-    "profile_views": 55,
+    "reach": 1353,
+    "views": 9969,
+    "profile_views": 56,
     "accounts_engaged": 53
   },
   "posts": [
@@ -418,7 +418,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
+      "reach": 44,
       "views": 63,
       "saved": 0,
       "shares": 0
@@ -509,7 +509,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
+      "reach": 32,
       "views": 54,
       "saved": 0,
       "shares": 0
@@ -561,7 +561,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
+      "reach": 26,
       "views": 38,
       "saved": 0,
       "shares": 0
@@ -600,8 +600,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 168,
-      "views": 207,
+      "reach": 169,
+      "views": 208,
       "saved": 0,
       "shares": 0
     },
@@ -671,7 +671,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T13:01:42.008Z",
+  "actualizado": "2026-10-19T13:59:31.545Z",
   "aud": {
     "edad": [
       {
