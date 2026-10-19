@@ -297,38 +297,38 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 180,
-      "v": 194
+      "a": 185,
+      "v": 209
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 150,
-      "v": 161
+      "a": 157,
+      "v": 172
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 128,
-      "v": 140
+      "a": 136,
+      "v": 147
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 126
+      "a": 116,
+      "v": 134
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 79
+      "a": 75,
+      "v": 92
     },
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 16,
+      "v": 28
     }
   },
   "seguidores": {
@@ -348,11 +348,11 @@
     "follows_count": 636,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-19T19:02:46.852Z"
+    "el": "2026-10-19T20:01:39.631Z"
   },
   "res30": {
     "reach": 1368,
-    "views": 10385,
+    "views": 10462,
     "profile_views": 58,
     "accounts_engaged": 53
   },
@@ -365,8 +365,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 18,
+      "reach": 13,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -561,7 +561,7 @@
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
       "reach": 25,
-      "views": 58,
+      "views": 59,
       "saved": 0,
       "shares": 0
     },
@@ -683,7 +683,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T19:02:58.142Z",
+  "actualizado": "2026-10-19T20:01:50.305Z",
   "aud": {
     "edad": [
       {
