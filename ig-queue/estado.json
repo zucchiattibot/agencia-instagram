@@ -29,7 +29,7 @@
     "mvav1xa6vql",
     "mvav1rzg992"
   ],
-  "statsEl": "2026-10-19T15:02:07.365Z",
+  "statsEl": "2026-10-19T16:01:50.638Z",
   "stUltima": {
     "cuando": "2026-10-19T15:01:57.278Z",
     "franja": "12:00",
@@ -37,11 +37,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-19T15:01:44.033Z",
+    "cuando": "2026-10-19T16:01:35.998Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   }
 }

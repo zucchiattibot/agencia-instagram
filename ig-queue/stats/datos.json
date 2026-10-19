@@ -279,14 +279,14 @@
     "17950411344306131": {
       "t": "2026-10-18T19:01:36+0000",
       "tipo": "IMAGE",
-      "a": 175,
-      "v": 187
+      "a": 184,
+      "v": 201
     },
     "17903255478600748": {
       "t": "2026-10-18T19:03:43+0000",
       "tipo": "VIDEO",
-      "a": 166,
-      "v": 180
+      "a": 173,
+      "v": 190
     },
     "18097060628413441": {
       "t": "2026-10-18T21:01:38+0000",
@@ -297,32 +297,32 @@
     "18102319382456864": {
       "t": "2026-10-18T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 146,
-      "v": 160
+      "a": 153,
+      "v": 168
     },
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 107,
-      "v": 118
+      "a": 118,
+      "v": 130
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 91
+      "a": 91,
+      "v": 100
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 70
+      "a": 66,
+      "v": 82
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 16,
+      "v": 25
     }
   },
   "seguidores": {
@@ -342,12 +342,12 @@
     "follows_count": 636,
     "media_count": 590,
     "id": "28888466970748824",
-    "el": "2026-10-19T15:01:59.464Z"
+    "el": "2026-10-19T16:01:39.661Z"
   },
   "res30": {
-    "reach": 1353,
-    "views": 10015,
-    "profile_views": 56,
+    "reach": 1357,
+    "views": 10094,
+    "profile_views": 58,
     "accounts_engaged": 53
   },
   "posts": [
@@ -386,7 +386,7 @@
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 125,
-      "views": 160,
+      "views": 162,
       "saved": 0,
       "shares": 0
     },
@@ -463,8 +463,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 36,
-      "views": 42,
+      "reach": 37,
+      "views": 43,
       "saved": 0,
       "shares": 1
     },
@@ -581,7 +581,7 @@
       "comments_count": 0,
       "caption": "Sentí la potencia de los Rolling Stones girando en tu bandeja. 🎸 La colección oficial de vinilos ya se puede encargar en el local. Mandanos un WhatsApp al 2395417834 o pasá por Maipú 175 para reservar el tuyo en Carlos Casares.\n#vinilos #carloscasares #therollingstonesvinilos\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 70,
-      "views": 86,
+      "views": 87,
       "saved": 0,
       "shares": 1
     },
@@ -677,7 +677,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-19T15:02:07.365Z",
+  "actualizado": "2026-10-19T16:01:50.638Z",
   "aud": {
     "edad": [
       {
