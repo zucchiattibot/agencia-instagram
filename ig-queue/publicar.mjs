@@ -1,4 +1,4 @@
-// ig-motor-v10
+// ig-motor-v11
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -78,7 +78,7 @@ async function subirVideoFb(tipo, pg, url, descripcion, token) {
 function fbTexto(c){
   c = String(c == null ? '' : c).replace(/\r/g, '');
   if (!c.trim()) return '';
-  var cierre = 'Escribinos por mensaje privado y te contamos.', out = [], puesto = false, L = c.split('\n');
+  var cierre = 'Escribinos por mensaje privado y te contamos.', out = [], puesto = /whatsapp|escribinos|mensaje privado|\d{4}[ -]?\d{2}[ -]?\d{4}/i.test(c), L = c.split('\n');
   for (var i = 0; i < L.length; i++){
     var s = L[i];
     if (/^\s*(#[\p{L}\p{N}_]+[\s,.]*)+$/u.test(s)) continue;
@@ -92,7 +92,19 @@ function fbTexto(c){
   return out.join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
-async function publicarFb(d, medias, esCar, esVideo) {
+// Sube el video a Facebook UNA sola vez: apenas se publica se guarda su id (d.fbVideoId); si hay un reintento no se vuelve a subir.
+// Si Facebook tarda en confirmar, se da por publicado (ya salió); solo se reintenta si Facebook dice que no pudo procesarlo.
+async function subirVideoFbUnaVez(tipo, d, pg, u, txt, tk, guardar) {
+  let id = d.fbVideoId || '';
+  if (!id) { id = await subirVideoFb(tipo, pg, u, txt, tk); d.fbVideoId = id; if (guardar) guardar(d); }
+  try { await esperarVideoFb(id, tk); }
+  catch (e) {
+    if (/no pudo procesar/.test(e.message)) { delete d.fbVideoId; if (guardar) guardar(d); throw e; }
+    console.log('Facebook no confirmó a tiempo; se da por publicado', id, e.message);
+  }
+  return id;
+}
+async function publicarFb(d, medias, esCar, esVideo, guardar) {
   const pg = process.env.FB_PAGE_ID, tk = process.env.FB_PAGE_TOKEN, txt = d.fmt === 'historia' ? '' : (d.caption_fb != null ? String(d.caption_fb) : fbTexto(d.caption));
   const urls = [];
   for (const m of medias) { const u = urlPublica(m); await esperarArchivo(u); urls.push(u); }
@@ -105,12 +117,12 @@ async function publicarFb(d, medias, esCar, esVideo) {
   }
   const u = urls[0];
   if (d.fmt === 'historia') {
-    if (esVideo) { const id = await subirVideoFb('video_stories', pg, u, '', tk); await esperarVideoFb(id, tk); return ''; }
+    if (esVideo) { await subirVideoFbUnaVez('video_stories', d, pg, u, '', tk, guardar); return ''; }
     const f = await fb('POST', pg + '/photos', { url: u, published: 'false' }, tk);
     await fb('POST', pg + '/photo_stories', { photo_id: f.id }, tk);
     return '';
   }
-  if (esVideo) { const id = await subirVideoFb('video_reels', pg, u, txt, tk); await esperarVideoFb(id, tk); return 'https://www.facebook.com/reel/' + id; }
+  if (esVideo) { const id = await subirVideoFbUnaVez('video_reels', d, pg, u, txt, tk, guardar); return 'https://www.facebook.com/reel/' + id; }
   const r = await fb('POST', pg + '/photos', { url: u, caption: txt, published: 'true' }, tk);
   return 'https://www.facebook.com/' + (r.post_id || r.id);
 }
@@ -166,7 +178,7 @@ async function publicar(d, token, uid, guardar) {
   if (d.ig === 0) {
     if (!(process.env.FB_PAGE_ID && process.env.FB_PAGE_TOKEN)) throw new Error('Faltan los secretos FB_PAGE_ID y FB_PAGE_TOKEN en GitHub.');
     for (const m of medias) await esperarArchivo(urlPublica(m));
-    const fbLink = await publicarFb(d, medias, esCar, esVideo);
+    const fbLink = await publicarFb(d, medias, esCar, esVideo, guardar);
     return { id: '', permalink: '', fbLink, fbError: '' };
   }
   let creationId = d.creationId || '';
@@ -199,7 +211,7 @@ async function publicar(d, token, uid, guardar) {
   // Facebook va aparte: si falla, Instagram ya salió y no se reintenta (así no hay duplicados).
   let fbLink = '', fbError = '';
   if (d.fb && process.env.FB_PAGE_ID && process.env.FB_PAGE_TOKEN) {
-    try { fbLink = await publicarFb(d, medias, esCar, esVideo); }
+    try { fbLink = await publicarFb(d, medias, esCar, esVideo, guardar); }
     catch (e) { fbError = e.message; console.log('Facebook falló', d.id, e.message); }
   } else if (d.fb) { fbError = 'Faltan los secretos FB_PAGE_ID y FB_PAGE_TOKEN en GitHub.'; }
   return { id: pub.id, permalink, fbLink, fbError };
