@@ -35,7 +35,7 @@
     "mvcdpo2r63f",
     "mvax2softk3"
   ],
-  "statsEl": "2026-10-20T15:03:27.835Z",
+  "statsEl": "2026-10-20T16:01:45.821Z",
   "stUltima": {
     "cuando": "2026-10-20T15:03:18.582Z",
     "franja": "12:00",
@@ -43,11 +43,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-20T15:01:37.398Z",
+    "cuando": "2026-10-20T16:01:35.420Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   }
 }
