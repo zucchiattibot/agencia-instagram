@@ -309,38 +309,38 @@
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 218,
-      "v": 256
+      "a": 222,
+      "v": 260
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 195,
-      "v": 230
+      "a": 198,
+      "v": 233
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 164,
-      "v": 187
+      "a": 168,
+      "v": 189
     },
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 138,
-      "v": 157
+      "a": 142,
+      "v": 160
     },
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 100,
-      "v": 118
+      "a": 105,
+      "v": 122
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 72
+      "a": 58,
+      "v": 76
     }
   },
   "seguidores": {
@@ -361,11 +361,11 @@
     "follows_count": 637,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-20T04:01:39.072Z"
+    "el": "2026-10-20T05:01:33.826Z"
   },
   "res30": {
-    "reach": 1406,
-    "views": 11284,
+    "reach": 1408,
+    "views": 11312,
     "profile_views": 65,
     "accounts_engaged": 54
   },
@@ -391,8 +391,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 43,
+      "reach": 34,
+      "views": 44,
       "saved": 0,
       "shares": 1
     },
@@ -405,7 +405,7 @@
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 48,
-      "views": 62,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -696,7 +696,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T04:01:46.807Z",
+  "actualizado": "2026-10-20T05:01:39.898Z",
   "aud": {
     "edad": [
       {
