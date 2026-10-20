@@ -327,38 +327,38 @@
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 209,
-      "v": 237
+      "a": 219,
+      "v": 248
     },
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 174,
-      "v": 201
+      "a": 183,
+      "v": 210
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 152,
-      "v": 181
+      "a": 162,
+      "v": 196
     },
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 115,
-      "v": 129
+      "a": 129,
+      "v": 150
     },
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 94,
-      "v": 103
+      "a": 113,
+      "v": 128
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 34
+      "a": 56,
+      "v": 67
     }
   },
   "seguidores": {
@@ -379,11 +379,11 @@
     "follows_count": 637,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-20T16:01:37.801Z"
+    "el": "2026-10-20T17:01:43.802Z"
   },
   "res30": {
-    "reach": 1436,
-    "views": 11950,
+    "reach": 1438,
+    "views": 12064,
     "profile_views": 67,
     "accounts_engaged": 54
   },
@@ -410,7 +410,7 @@
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 48,
-      "views": 55,
+      "views": 58,
       "saved": 0,
       "shares": 1
     },
@@ -448,8 +448,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 65,
-      "views": 97,
+      "reach": 66,
+      "views": 99,
       "saved": 0,
       "shares": 0
     },
@@ -714,7 +714,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T16:01:45.821Z",
+  "actualizado": "2026-10-20T17:01:53.685Z",
   "aud": {
     "edad": [
       {
