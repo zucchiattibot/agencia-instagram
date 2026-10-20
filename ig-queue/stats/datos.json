@@ -321,32 +321,38 @@
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 176,
-      "v": 197
+      "a": 185,
+      "v": 209
     },
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 150,
-      "v": 169
+      "a": 160,
+      "v": 182
     },
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 114,
-      "v": 134
+      "a": 127,
+      "v": 149
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 87
+      "a": 81,
+      "v": 109
     },
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 12,
-      "v": 17
+      "a": 30,
+      "v": 42
+    },
+    "18164667877493505": {
+      "t": "2026-10-20T11:01:39+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -359,19 +365,19 @@
     "2026-10-17": 1390,
     "2026-10-18": 1388,
     "2026-10-19": 1389,
-    "2026-10-20": 1389
+    "2026-10-20": 1388
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1389,
+    "followers_count": 1388,
     "follows_count": 637,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-20T10:01:41.173Z"
+    "el": "2026-10-20T11:01:48.521Z"
   },
   "res30": {
-    "reach": 1408,
-    "views": 11370,
+    "reach": 1410,
+    "views": 11447,
     "profile_views": 65,
     "accounts_engaged": 54
   },
@@ -397,8 +403,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
-      "views": 44,
+      "reach": 36,
+      "views": 45,
       "saved": 0,
       "shares": 1
     },
@@ -702,7 +708,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T10:01:49.691Z",
+  "actualizado": "2026-10-20T11:01:55.717Z",
   "aud": {
     "edad": [
       {
