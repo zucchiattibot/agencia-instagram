@@ -303,38 +303,44 @@
     "18026649437869552": {
       "t": "2026-10-19T02:02:02+0000",
       "tipo": "VIDEO",
-      "a": 209,
-      "v": 236
+      "a": 219,
+      "v": 246
     },
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 184,
-      "v": 210
+      "a": 195,
+      "v": 219
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 159,
-      "v": 190
+      "a": 171,
+      "v": 201
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 129,
-      "v": 150
+      "a": 140,
+      "v": 158
     },
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 93,
-      "v": 110
+      "a": 109,
+      "v": 124
     },
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 61
+      "a": 62,
+      "v": 76
+    },
+    "18070811837780822": {
+      "t": "2026-10-20T02:01:33+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -351,16 +357,16 @@
   "cuenta": {
     "username": "agenciaalbor",
     "followers_count": 1389,
-    "follows_count": 636,
+    "follows_count": 637,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-20T01:01:34.332Z"
+    "el": "2026-10-20T02:01:41.572Z"
   },
   "res30": {
-    "reach": 1384,
-    "views": 10887,
+    "reach": 1392,
+    "views": 10997,
     "profile_views": 60,
-    "accounts_engaged": 53
+    "accounts_engaged": 54
   },
   "posts": [
     {
@@ -371,8 +377,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 32,
+      "reach": 21,
+      "views": 34,
       "saved": 0,
       "shares": 0
     },
@@ -384,10 +390,10 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 22,
+      "reach": 23,
+      "views": 31,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "18033234377675212",
@@ -397,8 +403,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 47,
-      "views": 61,
+      "reach": 48,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -410,8 +416,8 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 127,
-      "views": 163,
+      "reach": 128,
+      "views": 164,
       "saved": 0,
       "shares": 0
     },
@@ -436,8 +442,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 40,
-      "views": 93,
+      "reach": 41,
+      "views": 94,
       "saved": 0,
       "shares": 0
     },
@@ -689,7 +695,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T01:01:42.093Z",
+  "actualizado": "2026-10-20T02:01:47.751Z",
   "aud": {
     "edad": [
       {
