@@ -309,38 +309,38 @@
     "18097470905420490": {
       "t": "2026-10-19T06:01:39+0000",
       "tipo": "IMAGE",
-      "a": 211,
-      "v": 243
+      "a": 218,
+      "v": 256
     },
     "18630242914062004": {
       "t": "2026-10-19T11:01:44+0000",
       "tipo": "IMAGE",
-      "a": 185,
-      "v": 220
+      "a": 195,
+      "v": 230
     },
     "17973015636156733": {
       "t": "2026-10-19T15:01:49+0000",
       "tipo": "IMAGE",
-      "a": 154,
-      "v": 177
+      "a": 164,
+      "v": 187
     },
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 130,
-      "v": 150
+      "a": 138,
+      "v": 157
     },
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 84,
-      "v": 108
+      "a": 100,
+      "v": 118
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 59
+      "a": 55,
+      "v": 72
     }
   },
   "seguidores": {
@@ -361,12 +361,12 @@
     "follows_count": 637,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-20T03:01:38.875Z"
+    "el": "2026-10-20T04:01:39.072Z"
   },
   "res30": {
-    "reach": 1402,
-    "views": 11184,
-    "profile_views": 63,
+    "reach": 1406,
+    "views": 11284,
+    "profile_views": 65,
     "accounts_engaged": 54
   },
   "posts": [
@@ -391,8 +391,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
-      "views": 40,
+      "reach": 33,
+      "views": 43,
       "saved": 0,
       "shares": 1
     },
@@ -573,8 +573,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
-      "reach": 26,
-      "views": 59,
+      "reach": 27,
+      "views": 61,
       "saved": 0,
       "shares": 0
     },
@@ -586,8 +586,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés volver a enamorarte de la lectura con una autora que te atrapa desde la primera línea? ❤️📖\nMuy pronto llega algo pensado para disfrutar de las tardes de mate con una gran historia en las manos. \nConsejo: estate atenta a las novedades para no quedarte sin el tuyo. \nQueda muy poco para lo que se viene 👀\nMandanos un mensaje o escribinos al WhatsApp para reservarlo antes de que vuele. 📲\n¿Cuál fue el último libro que te hizo desvelarte?\n#colecciondelectura #carloscasares #literaturaargentina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 57,
-      "views": 74,
+      "reach": 58,
+      "views": 75,
       "saved": 0,
       "shares": 1
     },
@@ -696,7 +696,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T03:01:49.063Z",
+  "actualizado": "2026-10-20T04:01:46.807Z",
   "aud": {
     "edad": [
       {
