@@ -327,32 +327,38 @@
     "18123454597977848": {
       "t": "2026-10-19T19:02:29+0000",
       "tipo": "VIDEO",
-      "a": 188,
-      "v": 213
+      "a": 197,
+      "v": 221
     },
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 157,
-      "v": 179
+      "a": 163,
+      "v": 186
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 128,
-      "v": 159
+      "a": 141,
+      "v": 168
     },
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 102
+      "a": 101,
+      "v": 113
     },
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 76
+      "a": 78,
+      "v": 88
+    },
+    "18219472966344046": {
+      "t": "2026-10-20T15:02:31+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -373,11 +379,11 @@
     "follows_count": 637,
     "media_count": 591,
     "id": "28888466970748824",
-    "el": "2026-10-20T14:01:35.885Z"
+    "el": "2026-10-20T15:03:20.519Z"
   },
   "res30": {
     "reach": 1428,
-    "views": 11785,
+    "views": 11846,
     "profile_views": 67,
     "accounts_engaged": 54
   },
@@ -403,8 +409,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
-      "views": 50,
+      "reach": 45,
+      "views": 53,
       "saved": 0,
       "shares": 1
     },
@@ -708,7 +714,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T14:01:46.618Z",
+  "actualizado": "2026-10-20T15:03:27.835Z",
   "aud": {
     "edad": [
       {
