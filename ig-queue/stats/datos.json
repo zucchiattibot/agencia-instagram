@@ -333,32 +333,38 @@
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 196,
-      "v": 223
+      "a": 204,
+      "v": 230
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 178,
-      "v": 211
+      "a": 184,
+      "v": 215
     },
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 147,
-      "v": 168
+      "a": 154,
+      "v": 174
     },
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 127,
-      "v": 147
+      "a": 137,
+      "v": 155
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 71,
-      "v": 86
+      "a": 85,
+      "v": 106
+    },
+    "18355842559168597": {
+      "t": "2026-10-20T19:02:13+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -377,17 +383,30 @@
     "username": "agenciaalbor",
     "followers_count": 1388,
     "follows_count": 637,
-    "media_count": 591,
+    "media_count": 592,
     "id": "28888466970748824",
-    "el": "2026-10-20T18:01:41.461Z"
+    "el": "2026-10-20T19:02:50.370Z"
   },
   "res30": {
-    "reach": 1448,
-    "views": 12164,
+    "reach": 1450,
+    "views": 12229,
     "profile_views": 67,
     "accounts_engaged": 54
   },
   "posts": [
+    {
+      "id": "17988676803090013",
+      "timestamp": "2026-10-20T19:01:39+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DeuiVCOCQbR/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17990759835071787",
       "timestamp": "2026-10-19T17:01:48+0000",
@@ -396,8 +415,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 34,
+      "reach": 22,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -409,8 +428,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 51,
-      "views": 62,
+      "reach": 52,
+      "views": 63,
       "saved": 0,
       "shares": 1
     },
@@ -699,22 +718,9 @@
       "views": 96,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "17987283251880354",
-      "timestamp": "2026-10-09T16:00:18+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DeR40efu9TY/",
-      "like_count": 1,
-      "comments_count": 0,
-      "caption": "Esa cancha verde y esos botines ya nos despiertan mil recuerdos ⚽ Hacé tu reserva hoy mismo por $11.590 y asegurá tu ejemplar de Silmar. Pasá por el kiosco o mandanos un mensaje para no quedarte sin el tuyo.\n#SuperCampeones #Coleccionables #Silmar #KioscoDeDiarios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 69,
-      "views": 92,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T18:01:49.651Z",
+  "actualizado": "2026-10-20T19:03:00.219Z",
   "aud": {
     "edad": [
       {
