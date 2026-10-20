@@ -333,38 +333,38 @@
     "17898868212395323": {
       "t": "2026-10-19T23:02:54+0000",
       "tipo": "VIDEO",
-      "a": 232,
-      "v": 269
+      "a": 252,
+      "v": 287
     },
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 212,
-      "v": 247
+      "a": 223,
+      "v": 268
     },
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 178,
-      "v": 204
+      "a": 197,
+      "v": 223
     },
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 162,
-      "v": 187
+      "a": 179,
+      "v": 202
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 124,
-      "v": 144
+      "a": 142,
+      "v": 161
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 69
+      "a": 78,
+      "v": 93
     }
   },
   "seguidores": {
@@ -385,11 +385,11 @@
     "follows_count": 637,
     "media_count": 593,
     "id": "28888466970748824",
-    "el": "2026-10-20T21:01:41.210Z"
+    "el": "2026-10-20T22:01:37.055Z"
   },
   "res30": {
-    "reach": 1458,
-    "views": 12480,
+    "reach": 1474,
+    "views": 12613,
     "profile_views": 68,
     "accounts_engaged": 55
   },
@@ -402,8 +402,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 4,
+      "reach": 14,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -415,8 +415,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 14,
+      "reach": 11,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -442,7 +442,7 @@
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 53,
-      "views": 65,
+      "views": 66,
       "saved": 0,
       "shares": 1
     },
@@ -480,8 +480,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 67,
-      "views": 100,
+      "reach": 68,
+      "views": 102,
       "saved": 0,
       "shares": 0
     },
@@ -720,7 +720,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-20T21:01:56.974Z",
+  "actualizado": "2026-10-20T22:01:44.549Z",
   "aud": {
     "edad": [
       {
