@@ -39,11 +39,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-20T06:01:30.124Z",
+    "cuando": "2026-10-20T06:44:53.346Z",
     "cola": 103,
     "enRepo": 103,
-    "pendientes": [
-      "03:00"
-    ]
+    "pendientes": []
   }
 }
