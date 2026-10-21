@@ -363,38 +363,38 @@
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 208,
-      "v": 234
+      "a": 213,
+      "v": 244
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 181,
-      "v": 213
+      "a": 190,
+      "v": 223
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 132,
-      "v": 145
+      "a": 149,
+      "v": 164
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 90,
-      "v": 98
+      "a": 112,
+      "v": 117
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 78
+      "a": 83,
+      "v": 93
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 25,
+      "v": 33
     }
   },
   "seguidores": {
@@ -416,11 +416,11 @@
     "follows_count": 638,
     "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T15:01:57.430Z"
+    "el": "2026-10-21T16:01:41.765Z"
   },
   "res30": {
-    "reach": 1619,
-    "views": 13771,
+    "reach": 1626,
+    "views": 13883,
     "profile_views": 71,
     "accounts_engaged": 59
   },
@@ -434,7 +434,7 @@
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
       "reach": 5,
-      "views": 7,
+      "views": 8,
       "saved": 0,
       "shares": 0
     },
@@ -446,8 +446,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 127,
-      "views": 137,
+      "reach": 128,
+      "views": 139,
       "saved": 0,
       "shares": 2
     },
@@ -459,7 +459,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
+      "reach": 19,
       "views": 25,
       "saved": 0,
       "shares": 0
@@ -511,8 +511,8 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 132,
-      "views": 169,
+      "reach": 133,
+      "views": 170,
       "saved": 0,
       "shares": 0
     },
@@ -751,7 +751,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T15:02:07.291Z",
+  "actualizado": "2026-10-21T16:01:52.565Z",
   "aud": {
     "edad": [
       {
