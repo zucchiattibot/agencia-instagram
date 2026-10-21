@@ -351,38 +351,38 @@
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 232,
-      "v": 262
+      "a": 233,
+      "v": 264
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 208,
-      "v": 238
+      "a": 211,
+      "v": 241
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 171,
-      "v": 195
+      "a": 174,
+      "v": 197
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 123,
-      "v": 153
+      "a": 127,
+      "v": 157
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 61
+      "a": 60,
+      "v": 68
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 6,
-      "v": 7
+      "a": 12,
+      "v": 15
     }
   },
   "seguidores": {
@@ -404,11 +404,11 @@
     "follows_count": 638,
     "media_count": 593,
     "id": "28888466970748824",
-    "el": "2026-10-21T09:01:33.221Z"
+    "el": "2026-10-21T10:01:34.570Z"
   },
   "res30": {
-    "reach": 1610,
-    "views": 13369,
+    "reach": 1612,
+    "views": 13394,
     "profile_views": 70,
     "accounts_engaged": 59
   },
@@ -421,8 +421,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 126,
-      "views": 135,
+      "reach": 127,
+      "views": 137,
       "saved": 0,
       "shares": 2
     },
@@ -739,7 +739,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T09:01:40.326Z",
+  "actualizado": "2026-10-21T10:01:43.003Z",
   "aud": {
     "edad": [
       {
