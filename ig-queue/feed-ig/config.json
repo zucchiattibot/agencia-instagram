@@ -1,0 +1,10 @@
+{
+  "franjas": [],
+  "reciclar": false,
+  "pausada": false,
+  "orden": "nuevo",
+  "autoNuevas": false,
+  "autoBase": false,
+  "autoOmitidas": [],
+  "pool": []
+}
