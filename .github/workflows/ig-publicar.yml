@@ -1,4 +1,4 @@
-# ig-horario-v4: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
+# ig-horario-v5: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
 name: Publicar en Instagram
 on:
   schedule:
@@ -14,6 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Traer archivos programados
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: ig-media-prog
+          path: ig-media-prog
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -25,6 +31,25 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
         run: node ig-queue/publicar.mjs
+      - name: Limpiar archivos ya publicados (sin historial)
+        continue-on-error: true
+        run: |
+          [ -d ig-media-prog/.git ] || exit 0
+          cd ig-media-prog
+          git config user.name "ig-auto"
+          git config user.email "ig-auto@users.noreply.github.com"
+          git add -A
+          del=$(git diff --cached --name-only --diff-filter=D)
+          [ -n "$del" ] || exit 0
+          for n in 1 2 3; do
+            git checkout --orphan "limpio$n"
+            git commit -q --allow-empty -m "ig-auto: archivos programados"
+            if git push -q --force-with-lease=ig-media-prog:"$(git rev-parse origin/ig-media-prog)" origin "limpio$n:ig-media-prog"; then exit 0; fi
+            git fetch -q origin ig-media-prog
+            git reset -q --hard origin/ig-media-prog
+            echo "$del" | xargs -r git rm -q --ignore-unmatch --
+          done
+          exit 0
       - name: Guardar cambios
         run: |
           git config user.name "ig-auto"
