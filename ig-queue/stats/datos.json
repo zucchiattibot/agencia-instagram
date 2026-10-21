@@ -345,38 +345,38 @@
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 243,
-      "v": 272
+      "a": 250,
+      "v": 279
     },
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 223,
-      "v": 252
+      "a": 228,
+      "v": 256
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 198,
-      "v": 228
+      "a": 204,
+      "v": 234
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 160,
-      "v": 183
+      "a": 167,
+      "v": 189
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 107,
-      "v": 137
+      "a": 118,
+      "v": 144
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 40
+      "a": 44,
+      "v": 50
     }
   },
   "seguidores": {
@@ -398,13 +398,13 @@
     "follows_count": 638,
     "media_count": 593,
     "id": "28888466970748824",
-    "el": "2026-10-21T03:01:32.293Z"
+    "el": "2026-10-21T04:01:35.541Z"
   },
   "res30": {
-    "reach": 1567,
-    "views": 13195,
+    "reach": 1610,
+    "views": 13319,
     "profile_views": 70,
-    "accounts_engaged": 57
+    "accounts_engaged": 59
   },
   "posts": [
     {
@@ -412,11 +412,11 @@
       "timestamp": "2026-10-20T20:39:35+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DeutgPpk9rO/",
-      "like_count": 2,
+      "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 79,
-      "views": 96,
+      "reach": 125,
+      "views": 133,
       "saved": 0,
       "shares": 2
     },
@@ -428,8 +428,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 23,
+      "reach": 18,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -441,8 +441,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 36,
+      "reach": 25,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -493,8 +493,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 72,
-      "views": 106,
+      "reach": 73,
+      "views": 108,
       "saved": 0,
       "shares": 0
     },
@@ -506,8 +506,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
-      "views": 97,
+      "reach": 45,
+      "views": 103,
       "saved": 0,
       "shares": 0
     },
@@ -733,7 +733,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T03:01:41.328Z",
+  "actualizado": "2026-10-21T04:01:44.324Z",
   "aud": {
     "edad": [
       {
