@@ -357,38 +357,44 @@
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 236,
-      "v": 276
+      "a": 240,
+      "v": 277
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 204,
-      "v": 229
+      "a": 208,
+      "v": 234
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 168,
-      "v": 205
+      "a": 181,
+      "v": 213
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 124,
-      "v": 133
+      "a": 132,
+      "v": 145
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 79,
-      "v": 85
+      "a": 90,
+      "v": 98
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 64
+      "a": 65,
+      "v": 78
+    },
+    "17890089447621465": {
+      "t": "2026-10-21T15:01:47+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -410,12 +416,12 @@
     "follows_count": 638,
     "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T14:01:47.115Z"
+    "el": "2026-10-21T15:01:57.430Z"
   },
   "res30": {
     "reach": 1619,
-    "views": 13715,
-    "profile_views": 70,
+    "views": 13771,
+    "profile_views": 71,
     "accounts_engaged": 59
   },
   "posts": [
@@ -428,7 +434,7 @@
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
       "reach": 5,
-      "views": 5,
+      "views": 7,
       "saved": 0,
       "shares": 0
     },
@@ -745,7 +751,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T14:01:54.536Z",
+  "actualizado": "2026-10-21T15:02:07.291Z",
   "aud": {
     "edad": [
       {
