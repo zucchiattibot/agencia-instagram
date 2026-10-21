@@ -1,4 +1,4 @@
-// ig-motor-v13
+// ig-motor-v14
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -269,6 +269,54 @@ async function colaHistorias(estado, token, uid) {
   }
 }
 
+// Cola de feed y Reels (v14, con archivos en la rama ig-media-prog sin historial): una cola por red (ig / fb), cada una con sus franjas, su material, sus textos y su control de repetidas.
+// Libera el espacio: cuando una publicación de la cola ya salió y no se va a repetir, borra su archivo del repositorio (si ninguna otra cola lo necesita).
+function liberarFeed(p, red, cfg, estado) {
+  if (cfg.reciclar !== false) return;
+  for (const r of ['ig', 'fb']) {
+    const c2 = r === red ? cfg : leer(path.join(BASE, 'feed-' + r, 'config.json'), null);
+    if (!c2) continue;
+    const usados = ((estado['fd' + r] || {}).usados) || [];
+    const otras = (c2.pool || []).filter((q) => q.media === p.media && q.id !== p.id);
+    if (otras.some((q) => !usados.includes(q.id))) return;
+    if (r !== red && otras.length && c2.reciclar !== false) return;
+  }
+  try { fs.unlinkSync(fsm(p.media)); } catch (e) {}
+}
+async function colaFeed(estado, token, uid, red) {
+  const cfg = leer(path.join(BASE, 'feed-' + red, 'config.json'), null);
+  if (!cfg || cfg.pausada || !(cfg.franjas || []).length || !(cfg.pool || []).length) return;
+  const { dia, min } = ahoraAR(), K = 'fd' + red;
+  const e = (estado[K] = estado[K] || { franjas: {}, usados: [] });
+  for (const k of Object.keys(e.franjas)) if (k.slice(0, 10) < dia) delete e.franjas[k];
+  e.usados = e.usados.filter((id) => cfg.pool.some((p) => p.id === id));
+  const existe = (p) => fs.existsSync(fsm(p.media));
+  for (const fr of cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)))) {
+    const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
+    if (min < ini) continue;
+    if (['ok', 'omitida', 'vacia'].includes(e.franjas[clave])) continue;
+    if (min - ini > 180) { e.franjas[clave] = 'omitida'; continue; }
+    const cand = cfg.pool.filter((p) => existe(p) && (!fr.f || p.fmt === fr.f));
+    let libres = cand.filter((p) => !e.usados.includes(p.id));
+    if (!libres.length && cfg.reciclar !== false && cand.length) { e.usados = e.usados.filter((id) => !cand.some((p) => p.id === id)); libres = cand; }
+    const orden = cfg.orden === 'nuevo' ? libres.slice().sort((a, b) => (b.ord || 0) - (a.ord || 0)) : mezclar(libres);
+    const elegidas = orden.slice(0, Math.min(Number(fr.n) || 1, 5));
+    // Sin nada nuevo la franja queda pendiente (hasta 3 h): si el panel suma material en ese rato, sale igual.
+    if (!elegidas.length) { e.aviso = 'No hay material nuevo para publicar: cuando cargues publicidad nueva y abras el panel, se suma sola.'; continue; }
+    let ok = 0, fallos = 0;
+    for (const p of elegidas) {
+      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: p.fmt === 'reel' ? 'reel' : 'feed', media: p.media, caption: p.caption || '', ig: red === 'ig' ? 1 : 0, fb: red === 'fb' ? 1 : 0 }, token, uid, null); e.usados.push(p.id); ok++; liberarFeed(p, red, cfg, estado); }
+      catch (er) { fallos++; e.error = er.message; console.log('Feed ' + red + ' falló', p.id, er.message); }
+    }
+    const intentos = (typeof e.franjas[clave] === 'object' && e.franjas[clave] ? e.franjas[clave].intentos : 0) + 1;
+    if (elegidas.length && !ok && intentos < 3) e.franjas[clave] = { intentos };
+    else e.franjas[clave] = elegidas.length ? 'ok' : 'vacia';
+    e.ultima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
+    if (ok) delete e.error;
+    delete e.aviso;
+  }
+}
+
 // Estadísticas: una vez por hora guarda historias (mientras están activas), cuenta y últimas publicaciones.
 async function estadisticas(estado, token, uid) {
   const ahora = Date.now();
@@ -360,6 +408,7 @@ export async function main() {
   }
   if (token && uid) {
     try { await colaHistorias(estado, token, uid); } catch (e) { estado.stError = e.message; }
+    for (const r of ['ig', 'fb']) { try { await colaFeed(estado, token, uid, r); } catch (e) { (estado['fd' + r] = estado['fd' + r] || {}).error = e.message; } }
     try { await estadisticas(estado, token, uid); } catch (e) { estado.errorStats = e.message; }
   }
   // El chequeo cambia en cada corrida: solo se guarda si pasaron 30 min o si hay algo nuevo, para no llenar el repositorio de commits.
