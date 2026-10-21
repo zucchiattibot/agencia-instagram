@@ -363,20 +363,26 @@
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 169,
-      "v": 192
+      "a": 170,
+      "v": 193
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 120,
+      "a": 121,
       "v": 150
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 47,
-      "v": 54
+      "a": 50,
+      "v": 57
+    },
+    "18027605624910643": {
+      "t": "2026-10-21T06:02:04+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -398,11 +404,11 @@
     "follows_count": 638,
     "media_count": 593,
     "id": "28888466970748824",
-    "el": "2026-10-21T05:01:36.838Z"
+    "el": "2026-10-21T06:02:40.414Z"
   },
   "res30": {
     "reach": 1610,
-    "views": 13331,
+    "views": 13347,
     "profile_views": 70,
     "accounts_engaged": 59
   },
@@ -532,8 +538,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 99,
-      "views": 125,
+      "reach": 100,
+      "views": 127,
       "saved": 0,
       "shares": 0
     },
@@ -733,7 +739,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T05:01:44.755Z",
+  "actualizado": "2026-10-21T06:02:47.411Z",
   "aud": {
     "edad": [
       {
