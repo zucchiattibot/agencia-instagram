@@ -375,32 +375,44 @@
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 180,
-      "v": 197
+      "a": 184,
+      "v": 199
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 146,
-      "v": 150
+      "a": 151,
+      "v": 155
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 115,
-      "v": 128
+      "a": 120,
+      "v": 133
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 78
+      "a": 77,
+      "v": 84
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 25,
-      "v": 26
+      "a": 34,
+      "v": 34
+    },
+    "18125692910477879": {
+      "t": "2026-10-21T23:03:12+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
+    },
+    "18013647473966467": {
+      "t": "2026-10-21T23:02:03+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -422,11 +434,11 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-21T22:01:59.723Z"
+    "el": "2026-10-21T23:03:54.788Z"
   },
   "res30": {
-    "reach": 1643,
-    "views": 14159,
+    "reach": 1677,
+    "views": 14269,
     "profile_views": 72,
     "accounts_engaged": 59
   },
@@ -439,8 +451,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 2,
-      "views": 8,
+      "reach": 6,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -452,10 +464,10 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 41,
+      "reach": 59,
+      "views": 86,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "17911378917473714",
@@ -582,8 +594,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 50,
-      "views": 72,
+      "reach": 51,
+      "views": 73,
       "saved": 0,
       "shares": 0
     },
@@ -725,8 +737,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 39,
+      "reach": 29,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -757,7 +769,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T22:02:09.318Z",
+  "actualizado": "2026-10-21T23:04:06.674Z",
   "aud": {
     "edad": [],
     "ciudades": [],
