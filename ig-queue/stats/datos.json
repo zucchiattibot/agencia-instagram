@@ -357,32 +357,38 @@
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 211,
-      "v": 241
+      "a": 219,
+      "v": 248
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 174,
-      "v": 197
+      "a": 180,
+      "v": 204
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 127,
-      "v": 157
+      "a": 137,
+      "v": 168
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 68
+      "a": 74,
+      "v": 81
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 12,
-      "v": 15
+      "a": 28,
+      "v": 32
+    },
+    "18415265869084240": {
+      "t": "2026-10-21T11:02:05+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 1
     }
   },
   "seguidores": {
@@ -402,17 +408,30 @@
     "username": "agenciaalbor",
     "followers_count": 1389,
     "follows_count": 638,
-    "media_count": 593,
+    "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T10:01:34.570Z"
+    "el": "2026-10-21T11:02:46.480Z"
   },
   "res30": {
-    "reach": 1612,
-    "views": 13394,
+    "reach": 1615,
+    "views": 13462,
     "profile_views": 70,
     "accounts_engaged": 59
   },
   "posts": [
+    {
+      "id": "17911378917473714",
+      "timestamp": "2026-10-21T10:04:38+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DewJqfWoPkh/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
+      "reach": 1,
+      "views": 1,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18378994804238828",
       "timestamp": "2026-10-20T20:39:35+0000",
@@ -668,7 +687,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
+      "reach": 27,
       "views": 38,
       "saved": 0,
       "shares": 0
@@ -724,22 +743,9 @@
       "views": 27,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18632006092010203",
-      "timestamp": "2026-10-10T13:42:10+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DeUNzDBOkME/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "¡Ya llegó la nueva colección Ford vs. Chevrolet escala 1:18! 🚚💨 Arrancá con la Entrega #1 con fascículo y las primeras piezas por solo $9.990. ¡No te duermas que vuelan! \n\n#4x4Americanas #CarlosCasares #ColeccionablesLaNacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
-      "views": 58,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T10:01:43.003Z",
+  "actualizado": "2026-10-21T11:02:53.047Z",
   "aud": {
     "edad": [
       {
