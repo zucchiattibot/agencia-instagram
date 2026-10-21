@@ -351,38 +351,38 @@
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 229,
-      "v": 259
+      "a": 232,
+      "v": 262
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 206,
-      "v": 235
+      "a": 208,
+      "v": 238
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 170,
-      "v": 193
+      "a": 171,
+      "v": 195
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 122,
-      "v": 151
+      "a": 123,
+      "v": 153
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 53,
-      "v": 59
+      "a": 55,
+      "v": 61
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 4
+      "a": 6,
+      "v": 7
     }
   },
   "seguidores": {
@@ -404,11 +404,11 @@
     "follows_count": 638,
     "media_count": 593,
     "id": "28888466970748824",
-    "el": "2026-10-21T08:01:32.819Z"
+    "el": "2026-10-21T09:01:33.221Z"
   },
   "res30": {
     "reach": 1610,
-    "views": 13357,
+    "views": 13369,
     "profile_views": 70,
     "accounts_engaged": 59
   },
@@ -421,8 +421,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 125,
-      "views": 133,
+      "reach": 126,
+      "views": 135,
       "saved": 0,
       "shares": 2
     },
@@ -739,7 +739,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T08:01:41.541Z",
+  "actualizado": "2026-10-21T09:01:40.326Z",
   "aud": {
     "edad": [
       {
