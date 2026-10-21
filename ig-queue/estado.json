@@ -41,7 +41,7 @@
     "mvaxc1fmtd4",
     "mvav35pcbg3"
   ],
-  "statsEl": "2026-10-21T17:01:51.061Z",
+  "statsEl": "2026-10-21T18:01:54.787Z",
   "stUltima": {
     "cuando": "2026-10-21T15:01:54.823Z",
     "franja": "12:00",
@@ -49,9 +49,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-21T17:01:41.011Z",
-    "cola": 103,
-    "enRepo": 103,
+    "cuando": "2026-10-21T18:01:42.298Z",
+    "cola": 111,
+    "enRepo": 111,
     "pendientes": []
   }
 }

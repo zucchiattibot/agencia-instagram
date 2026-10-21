@@ -363,38 +363,38 @@
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 221,
-      "v": 253
+      "a": 231,
+      "v": 263
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 199,
-      "v": 234
+      "a": 205,
+      "v": 241
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 160,
-      "v": 176
+      "a": 170,
+      "v": 184
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 122,
-      "v": 128
+      "a": 131,
+      "v": 138
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 105
+      "a": 103,
+      "v": 118
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 50
+      "a": 54,
+      "v": 64
     }
   },
   "seguidores": {
@@ -416,11 +416,11 @@
     "follows_count": 638,
     "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T17:01:43.307Z"
+    "el": "2026-10-21T18:01:44.636Z"
   },
   "res30": {
-    "reach": 1626,
-    "views": 13961,
+    "reach": 1628,
+    "views": 14019,
     "profile_views": 71,
     "accounts_engaged": 59
   },
@@ -433,8 +433,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 6,
-      "views": 10,
+      "reach": 9,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -446,8 +446,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 129,
-      "views": 140,
+      "reach": 130,
+      "views": 141,
       "saved": 0,
       "shares": 2
     },
@@ -654,7 +654,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes de Thundercats listos para sumar a la vitrina de los que peinan canas y los que los descubrieron después.\n\n#figuras #juguetes #carloscasares #Thundercats",
-      "reach": 32,
+      "reach": 33,
       "views": 38,
       "saved": 0,
       "shares": 0
@@ -751,7 +751,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T17:01:51.061Z",
+  "actualizado": "2026-10-21T18:01:54.787Z",
   "aud": {
     "edad": [
       {
