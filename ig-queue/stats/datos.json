@@ -369,38 +369,38 @@
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 209,
-      "v": 242
+      "a": 213,
+      "v": 246
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 171,
-      "v": 186
+      "a": 176,
+      "v": 191
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 136,
-      "v": 140
+      "a": 141,
+      "v": 144
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 106,
-      "v": 119
+      "a": 111,
+      "v": 123
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 65
+      "a": 64,
+      "v": 71
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 8,
+      "v": 14
     }
   },
   "seguidores": {
@@ -422,11 +422,11 @@
     "follows_count": 638,
     "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T19:02:17.057Z"
+    "el": "2026-10-21T20:01:37.876Z"
   },
   "res30": {
     "reach": 1628,
-    "views": 14051,
+    "views": 14087,
     "profile_views": 71,
     "accounts_engaged": 59
   },
@@ -738,7 +738,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 171,
+      "reach": 172,
       "views": 211,
       "saved": 0,
       "shares": 0
@@ -757,528 +757,12 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T19:02:28.642Z",
+  "actualizado": "2026-10-21T20:01:46.353Z",
   "aud": {
-    "edad": [
-      {
-        "d": [
-          "13-17",
-          "F"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "18-24",
-          "F"
-        ],
-        "v": 11
-      },
-      {
-        "d": [
-          "25-34",
-          "F"
-        ],
-        "v": 115
-      },
-      {
-        "d": [
-          "35-44",
-          "F"
-        ],
-        "v": 261
-      },
-      {
-        "d": [
-          "45-54",
-          "F"
-        ],
-        "v": 187
-      },
-      {
-        "d": [
-          "55-64",
-          "F"
-        ],
-        "v": 99
-      },
-      {
-        "d": [
-          "65+",
-          "F"
-        ],
-        "v": 42
-      },
-      {
-        "d": [
-          "13-17",
-          "M"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "18-24",
-          "M"
-        ],
-        "v": 16
-      },
-      {
-        "d": [
-          "25-34",
-          "M"
-        ],
-        "v": 79
-      },
-      {
-        "d": [
-          "35-44",
-          "M"
-        ],
-        "v": 150
-      },
-      {
-        "d": [
-          "45-54",
-          "M"
-        ],
-        "v": 140
-      },
-      {
-        "d": [
-          "55-64",
-          "M"
-        ],
-        "v": 64
-      },
-      {
-        "d": [
-          "65+",
-          "M"
-        ],
-        "v": 22
-      },
-      {
-        "d": [
-          "13-17",
-          "U"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "18-24",
-          "U"
-        ],
-        "v": 20
-      },
-      {
-        "d": [
-          "25-34",
-          "U"
-        ],
-        "v": 45
-      },
-      {
-        "d": [
-          "35-44",
-          "U"
-        ],
-        "v": 55
-      },
-      {
-        "d": [
-          "45-54",
-          "U"
-        ],
-        "v": 27
-      },
-      {
-        "d": [
-          "55-64",
-          "U"
-        ],
-        "v": 11
-      },
-      {
-        "d": [
-          "65+",
-          "U"
-        ],
-        "v": 11
-      }
-    ],
-    "ciudades": [
-      {
-        "d": [
-          "Trenque Lauquen, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Smith, Buenos Aires"
-        ],
-        "v": 8
-      },
-      {
-        "d": [
-          "Palma de Mallorca, Balearic Islands"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Macaé, Rio de Janeiro (state)"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "San Luis, San Luis"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Osogbo, Osun State"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Junín, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "C. Casares, Buenos Aires"
-        ],
-        "v": 25
-      },
-      {
-        "d": [
-          "Lincoln, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "General Villegas, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "José León Suárez, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "9 de Julio, Buenos Aires"
-        ],
-        "v": 10
-      },
-      {
-        "d": [
-          "Estanislao Severo Zeballos, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Formosa, Formosa"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Luján, Buenos Aires"
-        ],
-        "v": 3
-      },
-      {
-        "d": [
-          "Mar del Plata, Buenos Aires"
-        ],
-        "v": 4
-      },
-      {
-        "d": [
-          "Las Toscas, Buenos Aires"
-        ],
-        "v": 6
-      },
-      {
-        "d": [
-          "Buenos Aires, Ciudad Autónoma de Buenos Aires"
-        ],
-        "v": 27
-      },
-      {
-        "d": [
-          "General Belgrano, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Córdoba, Córdoba"
-        ],
-        "v": 5
-      },
-      {
-        "d": [
-          "Moctezuma, Buenos Aires"
-        ],
-        "v": 17
-      },
-      {
-        "d": [
-          "Ciudadela, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Munro, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Quiroga, Buenos Aires"
-        ],
-        "v": 5
-      },
-      {
-        "d": [
-          "Panama City, Panamá Province"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Talca, Maule Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Santa Ana, Tucuman"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Daireaux, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Coronel Martínez de Hoz, Buenos Aires"
-        ],
-        "v": 9
-      },
-      {
-        "d": [
-          "Carlos Casares, Buenos Aires"
-        ],
-        "v": 1067
-      },
-      {
-        "d": [
-          "Batán, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Pehuajó, Buenos Aires"
-        ],
-        "v": 15
-      },
-      {
-        "d": [
-          "Santiago, Santiago Metropolitan Region"
-        ],
-        "v": 3
-      },
-      {
-        "d": [
-          "Florida, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Patricios, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Bellocq, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "San Carlos de Bolívar, Buenos Aires"
-        ],
-        "v": 8
-      },
-      {
-        "d": [
-          "Venado Tuerto, Santa Fe"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Vicente López, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Bragado, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Chos Malal, Neuquén"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Rosario, Santa Fe"
-        ],
-        "v": 4
-      },
-      {
-        "d": [
-          "La Plata, Buenos Aires"
-        ],
-        "v": 14
-      },
-      {
-        "d": [
-          "Tandil, Buenos Aires"
-        ],
-        "v": 2
-      }
-    ],
-    "paises": [
-      {
-        "d": [
-          "UY"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "HN"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "DK"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "CL"
-        ],
-        "v": 5
-      },
-      {
-        "d": [
-          "IT"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "MX"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "CO"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "ES"
-        ],
-        "v": 4
-      },
-      {
-        "d": [
-          "VE"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "BR"
-        ],
-        "v": 7
-      },
-      {
-        "d": [
-          "PA"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "AR"
-        ],
-        "v": 1324
-      },
-      {
-        "d": [
-          "CU"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "NG"
-        ],
-        "v": 3
-      },
-      {
-        "d": [
-          "US"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "EC"
-        ],
-        "v": 2
-      }
-    ],
-    "el": "2026-10-20T23:02:59.371Z"
+    "edad": [],
+    "ciudades": [],
+    "paises": [],
+    "el": "2026-10-21T20:01:46.351Z"
   },
   "dias": {
     "2026-10-11": {
