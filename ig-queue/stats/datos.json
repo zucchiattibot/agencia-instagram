@@ -369,32 +369,38 @@
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 205,
-      "v": 241
+      "a": 209,
+      "v": 242
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 170,
-      "v": 184
+      "a": 171,
+      "v": 186
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 131,
-      "v": 138
+      "a": 136,
+      "v": 140
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 103,
-      "v": 118
+      "a": 106,
+      "v": 119
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 54,
-      "v": 64
+      "a": 57,
+      "v": 65
+    },
+    "18229799437324883": {
+      "t": "2026-10-21T19:02:05+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -416,11 +422,11 @@
     "follows_count": 638,
     "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T18:01:44.636Z"
+    "el": "2026-10-21T19:02:17.057Z"
   },
   "res30": {
     "reach": 1628,
-    "views": 14019,
+    "views": 14051,
     "profile_views": 71,
     "accounts_engaged": 59
   },
@@ -732,8 +738,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés sentir la verdadera velocidad y la pasión de la máxima categoría en tus propias manos? Muy pronto llega algo pensado para los amantes de las escuderías y los detalles de precisión. Consejo: asegurá tu ejemplar antes de que vuele. Se viene un lanzamiento que va a dar que hablar 🏁\n\nReservalo ya en Maipú 175 agencia Albor o mandanos WhatsApp al 2395417834. ¿Sos fan de este equipo o es para regalar?\n\n#ArmaelRedBullRacing #Coleccionables #CarlosCasares #PlanetaDeAgostini\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 170,
-      "views": 210,
+      "reach": 171,
+      "views": 211,
       "saved": 0,
       "shares": 0
     },
@@ -751,7 +757,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T18:01:54.787Z",
+  "actualizado": "2026-10-21T19:02:28.642Z",
   "aud": {
     "edad": [
       {
