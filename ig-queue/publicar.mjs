@@ -1,4 +1,4 @@
-// ig-motor-v12
+// ig-motor-v13
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -161,18 +161,21 @@ async function esperarListo(id, token, intentos, pausa) {
   }
   throw new Error('Instagram tardó demasiado en procesar el archivo.');
 }
-const urlPublica = (m) => 'https://raw.githubusercontent.com/' + REPO + '/' + BRANCH + '/' + m;
+const PROG = 'ig-media-prog';
+const enProg = (m) => fs.existsSync(path.join(PROG, m));
+const fsm = (m) => (enProg(m) ? path.join(PROG, m) : m);
+const urlPublica = (m) => 'https://raw.githubusercontent.com/' + REPO + '/' + (enProg(m) ? PROG : BRANCH) + '/' + m;
 async function esperarArchivo(url) {
   for (let i = 0; i < 6; i++) { try { const h = await fetch(url, { method: 'HEAD' }); if (h.ok) return; } catch (e) { return; } await dormir(2000); }
 }
 function borrarMedias(d) {
-  for (const m of (d.medias || (d.media ? [d.media] : []))) { try { fs.unlinkSync(m); } catch (e) {} }
+  for (const m of (d.medias || (d.media ? [d.media] : []))) { try { fs.unlinkSync(fsm(m)); } catch (e) {} }
 }
 
 async function publicar(d, token, uid, guardar) {
   const esCar = d.tipo === 'carousel';
   const medias = esCar ? (d.medias || []) : [d.media];
-  if (!medias.length || medias.some((m) => !m || !fs.existsSync(m))) throw new Error('El archivo de la publicación ya no está en el repositorio.');
+  if (!medias.length || medias.some((m) => !m || !fs.existsSync(fsm(m)))) throw new Error('El archivo de la publicación ya no está en el repositorio.');
   const esVideo = d.tipo === 'video';
   // d.ig === 0: solo Facebook (no toca Instagram).
   if (d.ig === 0) {
@@ -230,7 +233,7 @@ async function colaHistorias(estado, token, uid) {
   for (const k of Object.keys(hechas)) if (k.slice(0, 10) < dia) delete hechas[k];
   estado.stUsados = (estado.stUsados || []).filter((id) => cfg.pool.some((p) => p.id === id));
   const franjas = cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)));
-  const existe = (p) => fs.existsSync(p.media);
+  const existe = (p) => fs.existsSync(fsm(p.media));
   const enRepo = cfg.pool.filter(existe).length;
   // Diagnóstico visible en el panel: cuándo miró el motor, cuántas historias hay de verdad en el repositorio y qué franjas faltan.
   const pendientes = franjas.filter((fr) => { const [h, m] = String(fr.h).split(':').map(Number); const ini = h * 60 + m; return !['ok', 'omitida', 'vacia'].includes(hechas[dia + ' ' + fr.h]) && min >= ini && min - ini <= 180; }).map((fr) => fr.h);
@@ -263,42 +266,6 @@ async function colaHistorias(estado, token, uid) {
     if (!elegidas.length) estado.stAviso = (cfg.reciclar === false && enRepo > 0) ? 'Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.' : 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
     else if (cfg.reciclar === false && cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
     else delete estado.stAviso;
-  }
-}
-
-
-// Cola de feed y Reels (v12): una cola por red (ig / fb), cada una con sus franjas, su material, sus textos y su control de repetidas.
-async function colaFeed(estado, token, uid, red) {
-  const cfg = leer(path.join(BASE, 'feed-' + red, 'config.json'), null);
-  if (!cfg || cfg.pausada || !(cfg.franjas || []).length || !(cfg.pool || []).length) return;
-  const { dia, min } = ahoraAR(), K = 'fd' + red;
-  const e = (estado[K] = estado[K] || { franjas: {}, usados: [] });
-  for (const k of Object.keys(e.franjas)) if (k.slice(0, 10) < dia) delete e.franjas[k];
-  e.usados = e.usados.filter((id) => cfg.pool.some((p) => p.id === id));
-  const existe = (p) => fs.existsSync(p.media);
-  for (const fr of cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)))) {
-    const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
-    if (min < ini) continue;
-    if (['ok', 'omitida', 'vacia'].includes(e.franjas[clave])) continue;
-    if (min - ini > 180) { e.franjas[clave] = 'omitida'; continue; }
-    const cand = cfg.pool.filter((p) => existe(p) && (!fr.f || p.fmt === fr.f));
-    let libres = cand.filter((p) => !e.usados.includes(p.id));
-    if (!libres.length && cfg.reciclar !== false && cand.length) { e.usados = e.usados.filter((id) => !cand.some((p) => p.id === id)); libres = cand; }
-    const orden = cfg.orden === 'nuevo' ? libres.slice().sort((a, b) => (b.ord || 0) - (a.ord || 0)) : mezclar(libres);
-    const elegidas = orden.slice(0, Math.min(Number(fr.n) || 1, 5));
-    // Sin nada nuevo la franja queda pendiente (hasta 3 h): si el panel suma material en ese rato, sale igual.
-    if (!elegidas.length) { e.aviso = 'No hay material nuevo para publicar: cuando cargues publicidad nueva y abras el panel, se suma sola.'; continue; }
-    let ok = 0, fallos = 0;
-    for (const p of elegidas) {
-      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: p.fmt === 'reel' ? 'reel' : 'feed', media: p.media, caption: p.caption || '', ig: red === 'ig' ? 1 : 0, fb: red === 'fb' ? 1 : 0 }, token, uid, null); e.usados.push(p.id); ok++; }
-      catch (er) { fallos++; e.error = er.message; console.log('Feed ' + red + ' falló', p.id, er.message); }
-    }
-    const intentos = (typeof e.franjas[clave] === 'object' && e.franjas[clave] ? e.franjas[clave].intentos : 0) + 1;
-    if (elegidas.length && !ok && intentos < 3) e.franjas[clave] = { intentos };
-    else e.franjas[clave] = elegidas.length ? 'ok' : 'vacia';
-    e.ultima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
-    if (ok) delete e.error;
-    delete e.aviso;
   }
 }
 
@@ -393,7 +360,6 @@ export async function main() {
   }
   if (token && uid) {
     try { await colaHistorias(estado, token, uid); } catch (e) { estado.stError = e.message; }
-    for (const r of ['ig', 'fb']) { try { await colaFeed(estado, token, uid, r); } catch (e) { (estado['fd' + r] = estado['fd' + r] || {}).error = e.message; } }
     try { await estadisticas(estado, token, uid); } catch (e) { estado.errorStats = e.message; }
   }
   // El chequeo cambia en cada corrida: solo se guarda si pasaron 30 min o si hay algo nuevo, para no llenar el repositorio de commits.
