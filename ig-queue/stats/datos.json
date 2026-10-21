@@ -339,38 +339,38 @@
     "18070811837780822": {
       "t": "2026-10-20T02:01:33+0000",
       "tipo": "IMAGE",
-      "a": 250,
-      "v": 291
+      "a": 256,
+      "v": 298
     },
     "18078392255409716": {
       "t": "2026-10-20T06:01:58+0000",
       "tipo": "VIDEO",
-      "a": 217,
-      "v": 243
+      "a": 224,
+      "v": 249
     },
     "18164667877493505": {
       "t": "2026-10-20T11:01:39+0000",
       "tipo": "IMAGE",
-      "a": 196,
-      "v": 224
+      "a": 205,
+      "v": 232
     },
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 168,
-      "v": 192
+      "a": 177,
+      "v": 198
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 120,
-      "v": 138
+      "a": 133,
+      "v": 155
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 36,
-      "v": 62
+      "a": 67,
+      "v": 90
     }
   },
   "seguidores": {
@@ -383,21 +383,21 @@
     "2026-10-17": 1390,
     "2026-10-18": 1388,
     "2026-10-19": 1389,
-    "2026-10-20": 1390
+    "2026-10-20": 1389
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1390,
+    "followers_count": 1389,
     "follows_count": 638,
     "media_count": 593,
     "id": "28888466970748824",
-    "el": "2026-10-21T00:01:39.232Z"
+    "el": "2026-10-21T01:01:30.072Z"
   },
   "res30": {
-    "reach": 1531,
-    "views": 12881,
-    "profile_views": 68,
-    "accounts_engaged": 55
+    "reach": 1535,
+    "views": 12983,
+    "profile_views": 69,
+    "accounts_engaged": 56
   },
   "posts": [
     {
@@ -408,10 +408,10 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 60,
-      "views": 68,
+      "reach": 64,
+      "views": 73,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "17988676803090013",
@@ -434,7 +434,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
+      "reach": 23,
       "views": 36,
       "saved": 0,
       "shares": 0
@@ -447,7 +447,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 56,
+      "reach": 57,
       "views": 68,
       "saved": 0,
       "shares": 1
@@ -460,8 +460,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 50,
-      "views": 66,
+      "reach": 51,
+      "views": 68,
       "saved": 0,
       "shares": 0
     },
@@ -512,7 +512,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 49,
+      "reach": 50,
       "views": 71,
       "saved": 0,
       "shares": 0
@@ -538,7 +538,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renovar las hornallas con ollas que distribuyen bien el calor cambia por completo el almuerzo de todos los días. 🍳 ¿Cuál es tu receta infalible para arrancar el fin de semana?\n#bateria #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
+      "reach": 17,
       "views": 18,
       "saved": 0,
       "shares": 0
@@ -726,7 +726,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T00:01:47.918Z",
+  "actualizado": "2026-10-21T01:01:37.169Z",
   "aud": {
     "edad": [
       {
