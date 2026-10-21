@@ -357,38 +357,38 @@
     "18219472966344046": {
       "t": "2026-10-20T15:02:31+0000",
       "tipo": "VIDEO",
-      "a": 230,
-      "v": 267
+      "a": 236,
+      "v": 276
     },
     "18355842559168597": {
       "t": "2026-10-20T19:02:13+0000",
       "tipo": "VIDEO",
-      "a": 191,
-      "v": 219
+      "a": 204,
+      "v": 229
     },
     "17951709444315401": {
       "t": "2026-10-20T23:02:20+0000",
       "tipo": "VIDEO",
-      "a": 159,
-      "v": 192
+      "a": 168,
+      "v": 205
     },
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 103,
-      "v": 115
+      "a": 124,
+      "v": 133
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 67
+      "a": 79,
+      "v": 85
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 32,
-      "v": 44
+      "a": 55,
+      "v": 64
     }
   },
   "seguidores": {
@@ -410,11 +410,11 @@
     "follows_count": 638,
     "media_count": 594,
     "id": "28888466970748824",
-    "el": "2026-10-21T13:01:37.176Z"
+    "el": "2026-10-21T14:01:47.115Z"
   },
   "res30": {
-    "reach": 1617,
-    "views": 13622,
+    "reach": 1619,
+    "views": 13715,
     "profile_views": 70,
     "accounts_engaged": 59
   },
@@ -427,8 +427,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 3,
-      "views": 3,
+      "reach": 5,
+      "views": 5,
       "saved": 0,
       "shares": 0
     },
@@ -745,7 +745,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T13:01:47.363Z",
+  "actualizado": "2026-10-21T14:01:54.536Z",
   "aud": {
     "edad": [
       {
