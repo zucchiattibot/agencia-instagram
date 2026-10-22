@@ -387,44 +387,44 @@
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 138,
-      "v": 154
+      "a": 139,
+      "v": 155
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 109
+      "a": 101,
+      "v": 111
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 71
+      "a": 67,
+      "v": 72
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 49
+      "a": 50,
+      "v": 51
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 49,
-      "v": 53
+      "a": 50,
+      "v": 55
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 33
+      "a": 34,
+      "v": 38
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 3
+      "a": 8,
+      "v": 10
     }
   },
   "seguidores": {
@@ -447,11 +447,11 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-22T09:01:44.322Z"
+    "el": "2026-10-22T10:01:54.749Z"
   },
   "res30": {
     "reach": 1744,
-    "views": 14622,
+    "views": 14643,
     "profile_views": 73,
     "accounts_engaged": 60
   },
@@ -478,7 +478,7 @@
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 125,
-      "views": 160,
+      "views": 163,
       "saved": 0,
       "shares": 5
     },
@@ -782,7 +782,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T09:01:53.868Z",
+  "actualizado": "2026-10-22T10:02:04.161Z",
   "aud": {
     "edad": [],
     "ciudades": [],
