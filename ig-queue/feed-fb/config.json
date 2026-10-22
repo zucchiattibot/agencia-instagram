@@ -281,24 +281,6 @@
       "ord": 1792452755739
     },
     {
-      "id": "mrcmvci9gcg9fb3h3-fb",
-      "matId": "rcmvci9gcg9fb3h3",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
-      "caption": "Para las tardes de mate donde lo único que querés es abrir un libro y olvidarte del mundo, esta colección te va a venir como anillo al dedo. Seis novelas imperdibles de Florencia Bonelli para armar tu propia biblioteca y disfrutar de principio a fin. \n\nSi ya sabés que no vas a poder soltarlas, escribinos un mensaje privado o mandate un WhatsApp para asegurarte los tuyos. Te esperamos en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792279961116
-    },
-    {
-      "id": "mrcmvci9b9wxht7er-fb",
-      "matId": "rcmvci9b9wxht7er",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvci9b9wxht7er.jpg",
-      "caption": "¿Te imaginás la cara de esa persona especial cuando desempaquete una novela de Florencia Bonelli y descubra que empieza una nueva lectura atrapante? 🎁✨\n\nHacer un regalo que emocione y enganche desde la primera página es más fácil cuando elegís historias de amores intensos y tramas históricas que no se pueden soltar. \n\nSi ya sabés a quién le va a encantar, escribinos por mensaje privado o mandanos un WhatsApp y reservala antes de que se agoten. Te esperamos en Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792279964370
-    },
-    {
       "id": "cmvk6hltk-fb",
       "matId": "rcmvifxz57qi6da3",
       "matIds": [
@@ -320,6 +302,23 @@
       ],
       "caption": "Para los chicos que se pasan las tardes enteras cantando las canciones de la película y queriendo navegar sin salir de la habitación, armar este set de figuras es un planazo 🌊⛵ Cada personaje viene con su detalle para jugar sin parar. Pasá a buscarlos por Agencia Albor, Carlos Casares o mandanos un mensaje privado para coordinar la reserva.\n#disneymoana #moana #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "ord": 1792625385734
+    },
+    {
+      "id": "cmvk6hxn5-fb",
+      "matId": "rcmvci9gcg9fb3h3",
+      "matIds": [
+        "rcmvci9gcg9fb3h3",
+        "rcmvci9b9wxht7er"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+        "ig-queue/feed/media/rcmvci9b9wxht7er.jpg"
+      ],
+      "caption": "Para las tardes de mate donde lo único que querés es abrir un libro y olvidarte del mundo, esta colección te va a venir como anillo al dedo. Seis novelas imperdibles de Florencia Bonelli para armar tu propia biblioteca y disfrutar de principio a fin. \n\nSi ya sabés que no vas a poder soltarlas, escribinos un mensaje privado o mandate un WhatsApp para asegurarte los tuyos. Te esperamos en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792279964370
     }
   ]
 }
