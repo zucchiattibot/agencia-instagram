@@ -1,4 +1,4 @@
-// ig-motor-v14
+// ig-motor-v15
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -281,7 +281,7 @@ function liberarFeed(p, red, cfg, estado) {
     if (otras.some((q) => !usados.includes(q.id))) return;
     if (r !== red && otras.length && c2.reciclar !== false) return;
   }
-  try { fs.unlinkSync(fsm(p.media)); } catch (e) {}
+  for (const x of (p.medias || [p.media])) { try { fs.unlinkSync(fsm(x)); } catch (e) {} }
 }
 async function colaFeed(estado, token, uid, red) {
   const cfg = leer(path.join(BASE, 'feed-' + red, 'config.json'), null);
@@ -290,7 +290,7 @@ async function colaFeed(estado, token, uid, red) {
   const e = (estado[K] = estado[K] || { franjas: {}, usados: [] });
   for (const k of Object.keys(e.franjas)) if (k.slice(0, 10) < dia) delete e.franjas[k];
   e.usados = e.usados.filter((id) => cfg.pool.some((p) => p.id === id));
-  const existe = (p) => fs.existsSync(fsm(p.media));
+  const existe = (p) => (p.medias || [p.media]).every((x) => fs.existsSync(fsm(x)));
   for (const fr of cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)))) {
     const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
     if (min < ini) continue;
@@ -305,7 +305,7 @@ async function colaFeed(estado, token, uid, red) {
     if (!elegidas.length) { e.aviso = 'No hay material nuevo para publicar: cuando cargues publicidad nueva y abras el panel, se suma sola.'; continue; }
     let ok = 0, fallos = 0;
     for (const p of elegidas) {
-      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: p.fmt === 'reel' ? 'reel' : 'feed', media: p.media, caption: p.caption || '', ig: red === 'ig' ? 1 : 0, fb: red === 'fb' ? 1 : 0 }, token, uid, null); e.usados.push(p.id); ok++; liberarFeed(p, red, cfg, estado); }
+      try { await publicar({ id: p.id, tipo: p.medias && p.medias.length > 1 ? 'carousel' : (p.tipo === 'video' ? 'video' : 'image'), fmt: p.fmt === 'reel' ? 'reel' : 'feed', media: p.media, medias: p.medias, caption: p.caption || '', ig: red === 'ig' ? 1 : 0, fb: red === 'fb' ? 1 : 0 }, token, uid, null); e.usados.push(p.id); ok++; liberarFeed(p, red, cfg, estado); }
       catch (er) { fallos++; e.error = er.message; console.log('Feed ' + red + ' falló', p.id, er.message); }
     }
     const intentos = (typeof e.franjas[clave] === 'object' && e.franjas[clave] ? e.franjas[clave].intentos : 0) + 1;
