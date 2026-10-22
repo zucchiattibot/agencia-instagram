@@ -405,44 +405,44 @@
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 102,
-      "v": 109
+      "a": 105,
+      "v": 112
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 108,
-      "v": 117
+      "a": 111,
+      "v": 120
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 106
+      "a": 101,
+      "v": 108
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 84,
-      "v": 99
+      "a": 87,
+      "v": 100
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 77,
-      "v": 88
+      "a": 80,
+      "v": 89
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 57,
-      "v": 66
+      "a": 61,
+      "v": 69
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 12,
-      "v": 14
+      "a": 20,
+      "v": 23
     }
   },
   "seguidores": {
@@ -465,11 +465,11 @@
     "follows_count": 638,
     "media_count": 599,
     "id": "28888466970748824",
-    "el": "2026-10-22T20:01:37.422Z"
+    "el": "2026-10-22T21:01:38.511Z"
   },
   "res30": {
     "reach": 1758,
-    "views": 15292,
+    "views": 15339,
     "profile_views": 75,
     "accounts_engaged": 61
   },
@@ -483,7 +483,7 @@
       "comments_count": 0,
       "caption": "A los chicos les ponés las canciones de Junior Express y la casa entera se convierte en una fiesta selvática. 🦁🎵\n\nConsultá por los títulos disponibles y pasá a retirarlos por Agencia Albor, Carlos Casares.\n\n#topaconlosanimales #carloscasares #juniorpress\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 9,
-      "views": 11,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -495,8 +495,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 30,
+      "reach": 14,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -508,8 +508,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 60,
+      "reach": 27,
+      "views": 65,
       "saved": 0,
       "shares": 0
     },
@@ -521,8 +521,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 20,
+      "reach": 14,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -534,7 +534,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 141,
+      "reach": 143,
       "views": 180,
       "saved": 0,
       "shares": 5
@@ -800,7 +800,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-22T20:01:48.541Z",
+  "actualizado": "2026-10-22T21:01:46.810Z",
   "aud": {
     "edad": [
       {
