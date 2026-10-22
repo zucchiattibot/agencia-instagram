@@ -14,8 +14,8 @@
   "reciclar": false,
   "pausada": false,
   "orden": "nuevo",
-  "autoNuevas": true,
-  "autoBase": true,
+  "autoNuevas": false,
+  "autoBase": false,
   "autoOmitidas": [
     "rcmvjw60jjyli615",
     "rcmvjw5vgqq1prmt",
@@ -153,5 +153,60 @@
     "rcmt1l79rnchm1bb",
     "rcmt1l71t5zy1t6z"
   ],
-  "pool": []
+  "pool": [
+    {
+      "id": "mrcmvjw60jjyli615-fb",
+      "matId": "rcmvjw60jjyli615",
+      "tipo": "video",
+      "fmt": "reel",
+      "media": "ig-queue/feed/media/rcmvjw60jjyli615.mp4",
+      "caption": "Renovar las hornallas de casa con ollas y sartenes de buena calidad que no se pegan y se limpian al instante cambia por completo el ritmo de todos los días. 🍳 Si querés dejar la cocina a punto con este set completo, mandanos un mensaje privado o escribinos a nuestro WhatsApp para encargar la tuya sin vueltas. Te esperamos en Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696954194
+    },
+    {
+      "id": "mrcmvjw5vgqq1prmt-fb",
+      "matId": "rcmvjw5vgqq1prmt",
+      "tipo": "video",
+      "fmt": "reel",
+      "media": "ig-queue/feed/media/rcmvjw5vgqq1prmt.mp4",
+      "caption": "¡Buen día! Si creciste viendo los dibujos animados y querés tener a los personajes con vos, esta es tu oportunidad. Podés llevarte las figuras de Thundercats a solo $36.990. Escribinos un mensaje privado o mandanos un WhatsApp para asegurar tu ejemplar en Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696957918
+    },
+    {
+      "id": "mrcmvjhib1k494xhz-fb",
+      "matId": "rcmvjhib1k494xhz",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvjhib1k494xhz.jpg",
+      "caption": "Hay domingos que piden una buena lectura y rincones que parecen sacados de otra época. Con una taza de té al lado y una historia atrapante de Jane Austen, el ritmo de la semana cambia por completo. ☕✨\n\nSi te dan ganas de sumergirte en sus novelas clásicas y sumar este título a tu biblioteca personal, escribinos un mensaje privado o mandanos un WhatsApp y te contamos cómo reservarlo. Te esperamos en Agencia Albor, Carlos Casares.\n\n#JaneAusten #librosrecomendados #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696962306
+    },
+    {
+      "id": "mrcmvjhi1vvlousc8-fb",
+      "matId": "rcmvjhi1vvlousc8",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvjhi1vvlousc8.jpg",
+      "caption": "¿Estás buscando un regalo con onda para alguien especial que ama las buenas historias? Heartstopper, de Alice Oseman, es de esos libros que se leen de un tirón y te dejan una sonrisa gigante. Ideal para sorprender a ese amigo, sobrino o pareja que devora novelas gráficas y busca una lectura tierna y atrapante. \n\nYa lo tenemos disponible en Agencia Albor. Escribinos un mensaje privado o mandanos un WhatsApp para reservarlo antes de que se agote y llevalo directo para regalar.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696966484
+    },
+    {
+      "id": "mrcmvjhhrsrwt9zig-fb",
+      "matId": "rcmvjhhrsrwt9zig",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+      "caption": "A veces cuesta entender por qué ciertos vínculos se desgastan o cómo volver a conectar con esa persona sin perder la paz en el intento. En \"El amor contra todo\", Alaleh Nejafian propone herramientas prácticas y miradas muy claras para sanar los vínculos y recuperar la capacidad de vincularnos desde un lugar más sano. \n\nSi te interesa leerlo y sumar esta guía a tu mesita de luz, escribinos por mensaje privado o mandanos un WhatsApp para reservarlo. También podés pasar a buscarlo directamente por Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696970076
+    },
+    {
+      "id": "mrcmvig0klfnulc2i-fb",
+      "matId": "rcmvig0klfnulc2i",
+      "tipo": "video",
+      "fmt": "reel",
+      "media": "ig-queue/feed/media/rcmvig0klfnulc2i.mp4",
+      "caption": "Para volver a vivir esa emoción única y tener siempre presente al mejor del mundo, cada detalle de su carrera importa. 🏆 Si querés sumar esta pieza exclusiva a tu vitrina, mandanos un mensaje o escribinos al WhatsApp y te contamos cómo reservarla en Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792610572940
+    }
+  ]
 }
