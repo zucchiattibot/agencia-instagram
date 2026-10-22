@@ -399,44 +399,44 @@
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 102,
-      "v": 114
+      "a": 110,
+      "v": 121
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 85,
-      "v": 90
+      "a": 91,
+      "v": 96
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 98
+      "a": 95,
+      "v": 104
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 86
+      "a": 86,
+      "v": 94
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 63,
-      "v": 73
+      "a": 70,
+      "v": 86
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 65
+      "a": 64,
+      "v": 74
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 17,
-      "v": 24
+      "a": 29,
+      "v": 38
     }
   },
   "seguidores": {
@@ -459,11 +459,11 @@
     "follows_count": 638,
     "media_count": 598,
     "id": "28888466970748824",
-    "el": "2026-10-22T16:02:08.991Z"
+    "el": "2026-10-22T17:01:43.174Z"
   },
   "res30": {
-    "reach": 1751,
-    "views": 15064,
+    "reach": 1753,
+    "views": 15128,
     "profile_views": 75,
     "accounts_engaged": 61
   },
@@ -476,8 +476,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 3,
+      "views": 4,
       "saved": 0,
       "shares": 0
     },
@@ -490,7 +490,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 19,
-      "views": 44,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -515,8 +515,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 138,
-      "views": 174,
+      "reach": 139,
+      "views": 176,
       "saved": 0,
       "shares": 5
     },
@@ -632,7 +632,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 45,
+      "reach": 46,
       "views": 109,
       "saved": 0,
       "shares": 0
@@ -794,7 +794,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T16:02:19.463Z",
+  "actualizado": "2026-10-22T17:01:55.870Z",
   "aud": {
     "edad": [
       {
