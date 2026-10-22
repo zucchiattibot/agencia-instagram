@@ -399,44 +399,44 @@
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 110,
-      "v": 121
+      "a": 114,
+      "v": 124
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 91,
-      "v": 96
+      "a": 95,
+      "v": 100
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 104
+      "a": 101,
+      "v": 109
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 86,
-      "v": 94
+      "a": 88,
+      "v": 97
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 86
+      "a": 75,
+      "v": 89
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 74
+      "a": 66,
+      "v": 77
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 29,
-      "v": 38
+      "a": 39,
+      "v": 47
     }
   },
   "seguidores": {
@@ -457,17 +457,30 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 638,
-    "media_count": 598,
+    "media_count": 599,
     "id": "28888466970748824",
-    "el": "2026-10-22T17:01:43.174Z"
+    "el": "2026-10-22T18:02:48.535Z"
   },
   "res30": {
-    "reach": 1753,
-    "views": 15128,
+    "reach": 1756,
+    "views": 15178,
     "profile_views": 75,
     "accounts_engaged": 61
   },
   "posts": [
+    {
+      "id": "18098056208388796",
+      "timestamp": "2026-10-22T18:02:14+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DezlFPYDm_W/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "A los chicos les ponés las canciones de Junior Express y la casa entera se convierte en una fiesta selvática. 🦁🎵\n\nConsultá por los títulos disponibles y pasá a retirarlos por Agencia Albor, Carlos Casares.\n\n#topaconlosanimales #carloscasares #juniorpress\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17997449754029957",
       "timestamp": "2026-10-22T16:01:57+0000",
@@ -476,8 +489,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 3,
-      "views": 4,
+      "reach": 5,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -489,8 +502,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 45,
+      "reach": 20,
+      "views": 52,
       "saved": 0,
       "shares": 0
     },
@@ -515,7 +528,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 139,
+      "reach": 140,
       "views": 176,
       "saved": 0,
       "shares": 5
@@ -554,8 +567,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 27,
+      "reach": 23,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -779,22 +792,9 @@
       "views": 75,
       "saved": 0,
       "shares": 1
-    },
-    {
-      "id": "17863560099696938",
-      "timestamp": "2026-10-13T16:45:28+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/DecRLm4iWBX/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Ya arrancó la nueva colección de Florencia Bonelli 📚✨ La primera entrega de \"La casa Neville\" ya está disponible a solo $19.999,90. Pasá a buscarla por Maipú 175, agencia Albor, o escribinos al WhatsApp 2395417834 para reservar tu ejemplar. También hacemos ventas por mayor. \n\n¿Ya leíste algo de la autora o arrancás con este?\n\n#FlorenciaBonelli #LaCasaNeville #Libros #Coleccion #CarlosCasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 29,
-      "views": 40,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T17:01:55.870Z",
+  "actualizado": "2026-10-22T18:02:57.789Z",
   "aud": {
     "edad": [
       {
