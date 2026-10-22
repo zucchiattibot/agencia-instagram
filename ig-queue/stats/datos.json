@@ -381,38 +381,44 @@
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 156,
-      "v": 164
+      "a": 157,
+      "v": 165
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 127,
-      "v": 142
+      "a": 130,
+      "v": 145
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 86,
-      "v": 95
+      "a": 92,
+      "v": 102
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 45,
-      "v": 49
+      "a": 50,
+      "v": 56
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 19,
-      "v": 23
+      "a": 28,
+      "v": 32
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 22,
-      "v": 25
+      "a": 29,
+      "v": 34
+    },
+    "17974145718172510": {
+      "t": "2026-10-22T02:01:44+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -434,11 +440,11 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-22T01:01:41.282Z"
+    "el": "2026-10-22T02:01:54.577Z"
   },
   "res30": {
-    "reach": 1714,
-    "views": 14416,
+    "reach": 1737,
+    "views": 14476,
     "profile_views": 72,
     "accounts_engaged": 60
   },
@@ -452,7 +458,7 @@
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 9,
-      "views": 15,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -464,10 +470,10 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 97,
-      "views": 125,
+      "reach": 114,
+      "views": 149,
       "saved": 0,
-      "shares": 4
+      "shares": 5
     },
     {
       "id": "17911378917473714",
@@ -503,8 +509,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 26,
+      "reach": 22,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -769,7 +775,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T01:01:55.743Z",
+  "actualizado": "2026-10-22T02:02:04.374Z",
   "aud": {
     "edad": [],
     "ciudades": [],
