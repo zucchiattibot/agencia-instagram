@@ -405,20 +405,26 @@
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 47,
-      "v": 48
+      "a": 48,
+      "v": 49
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 51
+      "a": 49,
+      "v": 53
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 29
+      "a": 29,
+      "v": 32
+    },
+    "18046797578830348": {
+      "t": "2026-10-22T06:02:38+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -441,11 +447,11 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-22T05:01:37.284Z"
+    "el": "2026-10-22T06:03:06.119Z"
   },
   "res30": {
     "reach": 1744,
-    "views": 14607,
+    "views": 14617,
     "profile_views": 73,
     "accounts_engaged": 60
   },
@@ -458,7 +464,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
+      "reach": 12,
       "views": 19,
       "saved": 0,
       "shares": 0
@@ -471,7 +477,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 124,
+      "reach": 125,
       "views": 159,
       "saved": 0,
       "shares": 5
@@ -497,8 +503,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 131,
-      "views": 142,
+      "reach": 132,
+      "views": 143,
       "saved": 0,
       "shares": 2
     },
@@ -776,7 +782,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T05:01:46.017Z",
+  "actualizado": "2026-10-22T06:03:13.122Z",
   "aud": {
     "edad": [],
     "ciudades": [],
