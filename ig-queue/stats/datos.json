@@ -424,7 +424,7 @@
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
       "a": 0,
-      "v": 0
+      "v": 1
     }
   },
   "seguidores": {
@@ -447,12 +447,12 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-22T06:03:06.119Z"
+    "el": "2026-10-22T07:01:38.850Z"
   },
   "res30": {
     "reach": 1744,
-    "views": 14617,
-    "profile_views": 73,
+    "views": 14620,
+    "profile_views": 72,
     "accounts_engaged": 60
   },
   "posts": [
@@ -478,7 +478,7 @@
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 125,
-      "views": 159,
+      "views": 160,
       "saved": 0,
       "shares": 5
     },
@@ -504,7 +504,7 @@
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 132,
-      "views": 143,
+      "views": 144,
       "saved": 0,
       "shares": 2
     },
@@ -646,8 +646,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 40,
-      "views": 46,
+      "reach": 41,
+      "views": 48,
       "saved": 0,
       "shares": 1
     },
@@ -782,7 +782,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T06:03:13.122Z",
+  "actualizado": "2026-10-22T07:01:48.439Z",
   "aud": {
     "edad": [],
     "ciudades": [],
