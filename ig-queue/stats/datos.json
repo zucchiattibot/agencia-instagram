@@ -375,44 +375,44 @@
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 184,
-      "v": 199
+      "a": 188,
+      "v": 203
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 151,
-      "v": 155
+      "a": 153,
+      "v": 157
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 120,
-      "v": 133
+      "a": 124,
+      "v": 137
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 84
+      "a": 80,
+      "v": 90
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 34
+      "a": 41,
+      "v": 43
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 12,
+      "v": 15
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 9,
+      "v": 17
     }
   },
   "seguidores": {
@@ -434,13 +434,11 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-21T23:03:54.788Z"
+    "el": "2026-10-22T00:01:47.511Z"
   },
   "res30": {
-    "reach": 1677,
-    "views": 14269,
-    "profile_views": 72,
-    "accounts_engaged": 59
+    "reach": 1688,
+    "views": 14337
   },
   "posts": [
     {
@@ -451,8 +449,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 10,
+      "reach": 9,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -464,8 +462,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 59,
-      "views": 86,
+      "reach": 77,
+      "views": 105,
       "saved": 0,
       "shares": 1
     },
@@ -503,7 +501,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
+      "reach": 21,
       "views": 26,
       "saved": 0,
       "shares": 0
@@ -594,7 +592,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 51,
+      "reach": 52,
       "views": 73,
       "saved": 0,
       "shares": 0
@@ -769,7 +767,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-21T23:04:06.674Z",
+  "actualizado": "2026-10-22T00:02:02.199Z",
   "aud": {
     "edad": [],
     "ciudades": [],
