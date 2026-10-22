@@ -375,44 +375,44 @@
     "18088485674695232": {
       "t": "2026-10-21T02:01:36+0000",
       "tipo": "IMAGE",
-      "a": 188,
-      "v": 203
+      "a": 193,
+      "v": 210
     },
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 153,
-      "v": 157
+      "a": 156,
+      "v": 164
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 124,
-      "v": 137
+      "a": 127,
+      "v": 142
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 80,
-      "v": 90
+      "a": 86,
+      "v": 95
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 41,
-      "v": 43
+      "a": 45,
+      "v": 49
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 12,
-      "v": 15
+      "a": 19,
+      "v": 23
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 9,
-      "v": 17
+      "a": 22,
+      "v": 25
     }
   },
   "seguidores": {
@@ -434,11 +434,13 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-22T00:01:47.511Z"
+    "el": "2026-10-22T01:01:41.282Z"
   },
   "res30": {
-    "reach": 1688,
-    "views": 14337
+    "reach": 1714,
+    "views": 14416,
+    "profile_views": 72,
+    "accounts_engaged": 60
   },
   "posts": [
     {
@@ -462,10 +464,10 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 77,
-      "views": 105,
+      "reach": 97,
+      "views": 125,
       "saved": 0,
-      "shares": 1
+      "shares": 4
     },
     {
       "id": "17911378917473714",
@@ -767,7 +769,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T00:02:02.199Z",
+  "actualizado": "2026-10-22T01:01:55.743Z",
   "aud": {
     "edad": [],
     "ciudades": [],
