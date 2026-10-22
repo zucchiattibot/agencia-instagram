@@ -393,44 +393,44 @@
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 114,
-      "v": 128
+      "a": 124,
+      "v": 140
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 93
+      "a": 92,
+      "v": 102
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 69
+      "a": 71,
+      "v": 79
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 75
+      "a": 77,
+      "v": 87
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 58
+      "a": 60,
+      "v": 71
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 29,
-      "v": 40
+      "a": 45,
+      "v": 57
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 13,
-      "v": 26
+      "a": 34,
+      "v": 45
     }
   },
   "seguidores": {
@@ -451,17 +451,30 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 638,
-    "media_count": 596,
+    "media_count": 597,
     "id": "28888466970748824",
-    "el": "2026-10-22T12:01:50.979Z"
+    "el": "2026-10-22T13:01:47.582Z"
   },
   "res30": {
     "reach": 1746,
-    "views": 14771,
+    "views": 14890,
     "profile_views": 73,
-    "accounts_engaged": 60
+    "accounts_engaged": 61
   },
   "posts": [
+    {
+      "id": "18195260197403745",
+      "timestamp": "2026-10-22T12:03:18+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Dey8CvpFV3n/",
+      "like_count": 1,
+      "comments_count": 0,
+      "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 6,
+      "views": 14,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18125402204316738",
       "timestamp": "2026-10-21T21:04:29+0000",
@@ -483,8 +496,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 131,
-      "views": 167,
+      "reach": 135,
+      "views": 170,
       "saved": 0,
       "shares": 5
     },
@@ -773,22 +786,9 @@
       "views": 87,
       "saved": 0,
       "shares": 1
-    },
-    {
-      "id": "17993673270043722",
-      "timestamp": "2026-10-12T22:35:17+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/DeaUa27CVr5/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Para los que guardamos cada alegría de la Scaloneta en la memoria, este libro es un viaje directo a la gloria eterna. ⚽🇦🇷\n\n\"Inmortal: Messi de Colección\" de La Nación ya se puede señar en el local para no quedarte sin tu ejemplar. Pasá a verlo por Maipú 175 o mandanos un mensaje directo al WhatsApp 2395 41-7834. \n\n¿Cuál es tu momento favorito de Leo con la celeste y blanca? Contanos acá abajo. 👇\n\n#InmortalLaNacionMessidecoleccion #CarlosCasares #Messi #Coleccionables",
-      "reach": 40,
-      "views": 59,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T12:02:01.371Z",
+  "actualizado": "2026-10-22T13:01:56.354Z",
   "aud": {
     "edad": [],
     "ciudades": [],
