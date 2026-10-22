@@ -3,7 +3,8 @@
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
     "2026-10-22 03:00": "ok",
-    "2026-10-22 08:00": "ok"
+    "2026-10-22 08:00": "ok",
+    "2026-10-22 12:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -43,19 +44,22 @@
     "mvaxcu4n81p",
     "mvcdpqfoq6n",
     "mvig7p62n3p",
-    "mvax6wmr0s9"
+    "mvax6wmr0s9",
+    "mvig7c1ktwy"
   ],
-  "statsEl": "2026-10-22T14:02:00.823Z",
+  "statsEl": "2026-10-22T15:03:27.485Z",
   "stUltima": {
-    "cuando": "2026-10-22T11:02:46.986Z",
-    "franja": "08:00",
+    "cuando": "2026-10-22T15:03:15.653Z",
+    "franja": "12:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-22T14:01:43.323Z",
-    "cola": 124,
-    "enRepo": 124,
-    "pendientes": []
+    "cuando": "2026-10-22T15:01:56.755Z",
+    "cola": 130,
+    "enRepo": 130,
+    "pendientes": [
+      "12:00"
+    ]
   }
 }
