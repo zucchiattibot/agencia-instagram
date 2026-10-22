@@ -49,7 +49,7 @@
     "mvig7c1ktwy",
     "mvawulh8myh"
   ],
-  "statsEl": "2026-10-22T19:02:54.791Z",
+  "statsEl": "2026-10-22T20:01:48.541Z",
   "stUltima": {
     "cuando": "2026-10-22T19:02:42.226Z",
     "franja": "16:00",
@@ -57,11 +57,21 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-22T19:01:47.627Z",
+    "cuando": "2026-10-22T20:01:33.201Z",
     "cola": 132,
     "enRepo": 132,
-    "pendientes": [
-      "16:00"
-    ]
+    "pendientes": []
+  },
+  "fdig": {
+    "franjas": {
+      "2026-10-22 11:00": "omitida"
+    },
+    "usados": []
+  },
+  "fdfb": {
+    "franjas": {
+      "2026-10-22 10:00": "omitida"
+    },
+    "usados": []
   }
 }
