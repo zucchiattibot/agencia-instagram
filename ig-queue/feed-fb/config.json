@@ -215,24 +215,6 @@
       "ord": 1792610669171
     },
     {
-      "id": "mrcmvk22n2tbhwzkv-fb",
-      "matId": "rcmvk22n2tbhwzkv",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
-      "caption": "Ya está disponible la entrega N° 3 de la colección Cocina en Familia. En esta oportunidad vas a encontrar el cuchillo multiuso acompañado de su recetario para sumar practicidad a tus preparaciones diarias. 🔪🍳\n\nRecordá que podés consultarnos por mensaje privado o escribirnos a nuestro WhatsApp para encargar la tuya o pasar a buscarla por Agencia Albor en Carlos Casares. ¡Te esperamos!\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792704780151
-    },
-    {
-      "id": "mrcmvk22hky3wautu-fb",
-      "matId": "rcmvk22hky3wautu",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvk22hky3wautu.jpg",
-      "caption": "Para esos almuerzos donde la milanesa a la napolitana es la protagonista indiscutida, tener el elemento justo en la mesa hace toda la diferencia. Este modelo está pensado justamente para adaptarse a cualquier plato sin renegar con el filo. Si querés sumarlo a tus utensilios, mandanos un mensaje privado o escribinos al WhatsApp para reservarlo antes de que vuele. Te esperamos en Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792704786895
-    },
-    {
       "id": "cmvk4x12s-fb",
       "matId": "rcmvify7ezmygp4k",
       "matIds": [
@@ -252,6 +234,23 @@
       ],
       "caption": "¿Buscás el regalo ideal para sorprender a los más chicos y verlos inventar historias durante horas? 🐘\n\nEl bus de Topa con los animales es ese clásico que nunca falla para cumpleaños o visitas especiales, combinando risas, aprendizaje y bloques para armar. \n\nPasá por Agencia Albor, Carlos Casares, o mandanos un mensaje privado para reservarlo y llevártelo.\n\n#diegotopa #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "ord": 1792610679447
+    },
+    {
+      "id": "cmvk52c23-fb",
+      "matId": "rcmvk22n2tbhwzkv",
+      "matIds": [
+        "rcmvk22n2tbhwzkv",
+        "rcmvk22hky3wautu"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+        "ig-queue/feed/media/rcmvk22hky3wautu.jpg"
+      ],
+      "caption": "Ya está disponible la entrega N° 3 de la colección Cocina en Familia. En esta oportunidad vas a encontrar el cuchillo multiuso acompañado de su recetario para sumar practicidad a tus preparaciones diarias. 🔪🍳\n\nRecordá que podés consultarnos por mensaje privado o escribirnos a nuestro WhatsApp para encargar la tuya o pasar a buscarla por Agencia Albor en Carlos Casares. ¡Te esperamos!\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792704786895
     }
   ]
 }
