@@ -14,8 +14,8 @@
   "reciclar": false,
   "pausada": false,
   "orden": "nuevo",
-  "autoNuevas": true,
-  "autoBase": true,
+  "autoNuevas": false,
+  "autoBase": false,
   "autoOmitidas": [
     "rcmvjw60jjyli615",
     "rcmvjw5vgqq1prmt",
@@ -153,5 +153,60 @@
     "rcmt1l79rnchm1bb",
     "rcmt1l71t5zy1t6z"
   ],
-  "pool": []
+  "pool": [
+    {
+      "id": "mrcmvjw60jjyli615-ig",
+      "matId": "rcmvjw60jjyli615",
+      "tipo": "video",
+      "fmt": "reel",
+      "media": "ig-queue/feed/media/rcmvjw60jjyli615.mp4",
+      "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696868956
+    },
+    {
+      "id": "mrcmvjw5vgqq1prmt-ig",
+      "matId": "rcmvjw5vgqq1prmt",
+      "tipo": "video",
+      "fmt": "reel",
+      "media": "ig-queue/feed/media/rcmvjw5vgqq1prmt.mp4",
+      "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696881111
+    },
+    {
+      "id": "mrcmvjhib1k494xhz-ig",
+      "matId": "rcmvjhib1k494xhz",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvjhib1k494xhz.jpg",
+      "caption": "¿Pensando en un presente especial para alguien que ama leer y perderse entre páginas de otra época? 📚 Este libro de Jane Austen es ese detalle que emociona de verdad a cualquier lector. Podés pasar a buscarlo por Agencia Albor, Carlos Casares. Mandanos un mensaje y te lo separamos. 🌸\n#JaneAusten #regalo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696894722
+    },
+    {
+      "id": "mrcmvjhi1vvlousc8-ig",
+      "matId": "rcmvjhi1vvlousc8",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvjhi1vvlousc8.jpg",
+      "caption": "Para sumergirte en una lectura que te atrapa de principio a fin y te transporta directo al primer amor con toda la ternura, nada como tener este ejemplar entre las manos. 📚 Conseguilo pasando por Agencia Albor, Carlos Casares.\n#Heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696915103
+    },
+    {
+      "id": "mrcmvjhhrsrwt9zig-ig",
+      "matId": "rcmvjhhrsrwt9zig",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+      "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792696936589
+    },
+    {
+      "id": "mrcmvig0klfnulc2i-ig",
+      "matId": "rcmvig0klfnulc2i",
+      "tipo": "video",
+      "fmt": "reel",
+      "media": "ig-queue/feed/media/rcmvig0klfnulc2i.mp4",
+      "caption": "Las tardes de domingo con los muchachos gritando los goles en la tele vuelven cada vez que revivís esa atajada o ese penal en la final. 🏆\nPasá por Agencia Albor y reservá tu ejemplar.\n#messi #futbol #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792610550245
+    }
+  ]
 }
