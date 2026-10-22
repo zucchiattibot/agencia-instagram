@@ -381,44 +381,44 @@
     "18027605624910643": {
       "t": "2026-10-21T06:02:04+0000",
       "tipo": "VIDEO",
-      "a": 157,
-      "v": 165
+      "a": 159,
+      "v": 171
     },
     "18415265869084240": {
       "t": "2026-10-21T11:02:05+0000",
       "tipo": "VIDEO",
-      "a": 130,
-      "v": 145
+      "a": 135,
+      "v": 151
     },
     "17890089447621465": {
       "t": "2026-10-21T15:01:47+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 102
+      "a": 95,
+      "v": 106
     },
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 50,
-      "v": 56
+      "a": 57,
+      "v": 64
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 32
+      "a": 37,
+      "v": 40
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 29,
-      "v": 34
+      "a": 35,
+      "v": 43
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 15,
+      "v": 18
     }
   },
   "seguidores": {
@@ -432,7 +432,8 @@
     "2026-10-18": 1388,
     "2026-10-19": 1389,
     "2026-10-20": 1389,
-    "2026-10-21": 1390
+    "2026-10-21": 1390,
+    "2026-10-22": 1390
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -440,11 +441,11 @@
     "follows_count": 638,
     "media_count": 596,
     "id": "28888466970748824",
-    "el": "2026-10-22T02:01:54.577Z"
+    "el": "2026-10-22T03:01:38.300Z"
   },
   "res30": {
-    "reach": 1737,
-    "views": 14476,
+    "reach": 1739,
+    "views": 14537,
     "profile_views": 72,
     "accounts_engaged": 60
   },
@@ -457,8 +458,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 16,
+      "reach": 10,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -470,8 +471,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 114,
-      "views": 149,
+      "reach": 120,
+      "views": 153,
       "saved": 0,
       "shares": 5
     },
@@ -548,8 +549,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
-      "views": 69,
+      "reach": 53,
+      "views": 74,
       "saved": 0,
       "shares": 0
     },
@@ -775,7 +776,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-22T02:02:04.374Z",
+  "actualizado": "2026-10-22T03:01:45.702Z",
   "aud": {
     "edad": [],
     "ciudades": [],
@@ -938,6 +939,10 @@
     "2026-10-20": {
       "a": 418,
       "v": 1860
+    },
+    "2026-10-21": {
+      "a": 357,
+      "v": 1182
     }
   }
 }
