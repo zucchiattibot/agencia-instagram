@@ -399,44 +399,44 @@
     "18229799437324883": {
       "t": "2026-10-21T19:02:05+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 109
+      "a": 102,
+      "v": 114
     },
     "18125692910477879": {
       "t": "2026-10-21T23:03:12+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 86
+      "a": 85,
+      "v": 90
     },
     "18013647473966467": {
       "t": "2026-10-21T23:02:03+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 94
+      "a": 89,
+      "v": 98
     },
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 82
+      "a": 78,
+      "v": 86
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 68
+      "a": 63,
+      "v": 73
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 57
+      "a": 55,
+      "v": 65
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 17,
+      "v": 24
     }
   },
   "seguidores": {
@@ -457,17 +457,30 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 638,
-    "media_count": 597,
+    "media_count": 598,
     "id": "28888466970748824",
-    "el": "2026-10-22T15:03:18.381Z"
+    "el": "2026-10-22T16:02:08.991Z"
   },
   "res30": {
-    "reach": 1749,
-    "views": 15006,
+    "reach": 1751,
+    "views": 15064,
     "profile_views": 75,
     "accounts_engaged": 61
   },
   "posts": [
+    {
+      "id": "17997449754029957",
+      "timestamp": "2026-10-22T16:01:57+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DezXWy6lsl8/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18195260197403745",
       "timestamp": "2026-10-22T12:03:18+0000",
@@ -476,8 +489,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 40,
+      "reach": 19,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -502,8 +515,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 136,
-      "views": 171,
+      "reach": 138,
+      "views": 174,
       "saved": 0,
       "shares": 5
     },
@@ -620,7 +633,7 @@
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 45,
-      "views": 107,
+      "views": 109,
       "saved": 0,
       "shares": 0
     },
@@ -645,8 +658,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 100,
-      "views": 127,
+      "reach": 101,
+      "views": 128,
       "saved": 0,
       "shares": 0
     },
@@ -779,27 +792,530 @@
       "views": 40,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "17924524035433481",
-      "timestamp": "2026-10-12T22:54:21+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DeaWkgFk0eo/",
-      "like_count": 1,
-      "comments_count": 0,
-      "caption": "Sentí la potencia de los Rolling Stones girando en tu bandeja. 🎸 La colección oficial de vinilos ya se puede encargar en el local. Mandanos un WhatsApp al 2395417834 o pasá por Maipú 175 para reservar el tuyo en Carlos Casares.\n#vinilos #carloscasares #therollingstonesvinilos\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 71,
-      "views": 87,
-      "saved": 0,
-      "shares": 1
     }
   ],
-  "actualizado": "2026-10-22T15:03:27.485Z",
+  "actualizado": "2026-10-22T16:02:19.463Z",
   "aud": {
-    "edad": [],
-    "ciudades": [],
-    "paises": [],
-    "el": "2026-10-21T20:01:46.351Z"
+    "edad": [
+      {
+        "d": [
+          "13-17",
+          "F"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "18-24",
+          "F"
+        ],
+        "v": 11
+      },
+      {
+        "d": [
+          "25-34",
+          "F"
+        ],
+        "v": 116
+      },
+      {
+        "d": [
+          "35-44",
+          "F"
+        ],
+        "v": 263
+      },
+      {
+        "d": [
+          "45-54",
+          "F"
+        ],
+        "v": 190
+      },
+      {
+        "d": [
+          "55-64",
+          "F"
+        ],
+        "v": 100
+      },
+      {
+        "d": [
+          "65+",
+          "F"
+        ],
+        "v": 43
+      },
+      {
+        "d": [
+          "13-17",
+          "M"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "18-24",
+          "M"
+        ],
+        "v": 16
+      },
+      {
+        "d": [
+          "25-34",
+          "M"
+        ],
+        "v": 79
+      },
+      {
+        "d": [
+          "35-44",
+          "M"
+        ],
+        "v": 149
+      },
+      {
+        "d": [
+          "45-54",
+          "M"
+        ],
+        "v": 139
+      },
+      {
+        "d": [
+          "55-64",
+          "M"
+        ],
+        "v": 66
+      },
+      {
+        "d": [
+          "65+",
+          "M"
+        ],
+        "v": 22
+      },
+      {
+        "d": [
+          "13-17",
+          "U"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "18-24",
+          "U"
+        ],
+        "v": 20
+      },
+      {
+        "d": [
+          "25-34",
+          "U"
+        ],
+        "v": 45
+      },
+      {
+        "d": [
+          "35-44",
+          "U"
+        ],
+        "v": 54
+      },
+      {
+        "d": [
+          "45-54",
+          "U"
+        ],
+        "v": 28
+      },
+      {
+        "d": [
+          "55-64",
+          "U"
+        ],
+        "v": 8
+      },
+      {
+        "d": [
+          "65+",
+          "U"
+        ],
+        "v": 13
+      }
+    ],
+    "ciudades": [
+      {
+        "d": [
+          "Trenque Lauquen, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Smith, Buenos Aires"
+        ],
+        "v": 10
+      },
+      {
+        "d": [
+          "Palma de Mallorca, Balearic Islands"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Macaé, Rio de Janeiro (state)"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "San Luis, San Luis"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Junín, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "C. Casares, Buenos Aires"
+        ],
+        "v": 21
+      },
+      {
+        "d": [
+          "General Villegas, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "9 de Julio, Buenos Aires"
+        ],
+        "v": 11
+      },
+      {
+        "d": [
+          "Frei Lagonegro, Minas Gerais"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Formosa, Formosa"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Luján, Buenos Aires"
+        ],
+        "v": 3
+      },
+      {
+        "d": [
+          "Las Toscas, Buenos Aires"
+        ],
+        "v": 5
+      },
+      {
+        "d": [
+          "Mar del Plata, Buenos Aires"
+        ],
+        "v": 5
+      },
+      {
+        "d": [
+          "Buenos Aires, Ciudad Autónoma de Buenos Aires"
+        ],
+        "v": 28
+      },
+      {
+        "d": [
+          "General Belgrano, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Córdoba, Córdoba"
+        ],
+        "v": 6
+      },
+      {
+        "d": [
+          "Moctezuma, Buenos Aires"
+        ],
+        "v": 17
+      },
+      {
+        "d": [
+          "Munro, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Quiroga, Buenos Aires"
+        ],
+        "v": 5
+      },
+      {
+        "d": [
+          "González Catán, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Panama City, Panamá Province"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "López Mateos, State of Mexico"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Talca, Maule Region"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Tlajomulco de Zúñiga, Jalisco"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Tegucigalpa, Francisco Morazán Department"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Timon, Maranhão"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Aarhus, Central Denmark Region"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Manuel Ocampo, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Coronel Martínez de Hoz, Buenos Aires"
+        ],
+        "v": 8
+      },
+      {
+        "d": [
+          "Carlos Casares, Buenos Aires"
+        ],
+        "v": 1076
+      },
+      {
+        "d": [
+          "Batán, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Pehuajó, Buenos Aires"
+        ],
+        "v": 15
+      },
+      {
+        "d": [
+          "Santiago, Santiago Metropolitan Region"
+        ],
+        "v": 3
+      },
+      {
+        "d": [
+          "Florida, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Lanús, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Bellocq, Buenos Aires"
+        ],
+        "v": 3
+      },
+      {
+        "d": [
+          "Quimilí, Santiago del Estero"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "San Carlos de Bolívar, Buenos Aires"
+        ],
+        "v": 8
+      },
+      {
+        "d": [
+          "Venado Tuerto, Santa Fe"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Bragado, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Chos Malal, Neuquén"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Rosario, Santa Fe"
+        ],
+        "v": 5
+      },
+      {
+        "d": [
+          "La Plata, Buenos Aires"
+        ],
+        "v": 13
+      },
+      {
+        "d": [
+          "Tandil, Buenos Aires"
+        ],
+        "v": 2
+      }
+    ],
+    "paises": [
+      {
+        "d": [
+          "UY"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "HN"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "DK"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "CL"
+        ],
+        "v": 5
+      },
+      {
+        "d": [
+          "IT"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "MX"
+        ],
+        "v": 3
+      },
+      {
+        "d": [
+          "CO"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "ES"
+        ],
+        "v": 4
+      },
+      {
+        "d": [
+          "VE"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "BR"
+        ],
+        "v": 7
+      },
+      {
+        "d": [
+          "PA"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "AR"
+        ],
+        "v": 1331
+      },
+      {
+        "d": [
+          "CU"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "NG"
+        ],
+        "v": 3
+      },
+      {
+        "d": [
+          "US"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "EC"
+        ],
+        "v": 2
+      }
+    ],
+    "el": "2026-10-22T16:02:19.461Z"
   },
   "dias": {
     "2026-10-11": {

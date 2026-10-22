@@ -47,7 +47,7 @@
     "mvax6wmr0s9",
     "mvig7c1ktwy"
   ],
-  "statsEl": "2026-10-22T15:03:27.485Z",
+  "statsEl": "2026-10-22T16:02:19.463Z",
   "stUltima": {
     "cuando": "2026-10-22T15:03:15.653Z",
     "franja": "12:00",
@@ -55,11 +55,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-22T15:01:56.755Z",
+    "cuando": "2026-10-22T16:02:05.750Z",
     "cola": 130,
     "enRepo": 130,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   }
 }
