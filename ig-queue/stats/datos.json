@@ -423,8 +423,8 @@
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 109,
-      "v": 134
+      "a": 110,
+      "v": 135
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
@@ -447,7 +447,7 @@
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 50,
+      "a": 51,
       "v": 60
     },
     "18118104707054181": {
@@ -478,11 +478,11 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T04:01:36.374Z"
+    "el": "2026-10-23T05:01:33.568Z"
   },
   "res30": {
     "reach": 1765,
-    "views": 15649,
+    "views": 15654,
     "profile_views": 75,
     "accounts_engaged": 62
   },
@@ -495,8 +495,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 15,
+      "reach": 9,
+      "views": 17,
       "saved": 0,
       "shares": 0
     },
@@ -586,7 +586,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 136,
+      "reach": 137,
       "views": 149,
       "saved": 0,
       "shares": 2
@@ -813,7 +813,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T04:01:45.647Z",
+  "actualizado": "2026-10-23T05:01:43.077Z",
   "aud": {
     "edad": [
       {
