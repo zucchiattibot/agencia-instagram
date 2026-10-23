@@ -435,44 +435,44 @@
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 96,
-      "v": 116
+      "a": 97,
+      "v": 120
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 91
+      "a": 80,
+      "v": 97
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 79
+      "a": 73,
+      "v": 85
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 49
+      "a": 49,
+      "v": 55
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 35
+      "a": 39,
+      "v": 43
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 24
+      "a": 27,
+      "v": 31
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 6,
-      "v": 8
+      "a": 14,
+      "v": 15
     }
   },
   "seguidores": {
@@ -496,12 +496,12 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T13:01:40.700Z"
+    "el": "2026-10-23T14:01:43.542Z"
   },
   "res30": {
     "reach": 1765,
-    "views": 15817,
-    "profile_views": 75,
+    "views": 15858,
+    "profile_views": 76,
     "accounts_engaged": 62
   },
   "posts": [
@@ -630,8 +630,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
-      "views": 42,
+      "reach": 28,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -682,8 +682,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 79,
-      "views": 120,
+      "reach": 80,
+      "views": 122,
       "saved": 0,
       "shares": 0
     },
@@ -695,7 +695,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 46,
+      "reach": 47,
       "views": 110,
       "saved": 0,
       "shares": 0
@@ -831,7 +831,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T13:01:52.576Z",
+  "actualizado": "2026-10-23T14:01:56.317Z",
   "aud": {
     "edad": [
       {
