@@ -1,4 +1,4 @@
-// ig-motor-v19
+// ig-motor-v20
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -202,7 +202,11 @@ async function publicar(d, token, uid, guardar) {
       if (esVideo) { params.video_url = url; params.media_type = d.fmt === 'historia' ? 'STORIES' : 'REELS'; if (d.fmt !== 'historia') params.share_to_feed = 'true'; }
       else { params.image_url = url; if (d.fmt === 'historia') params.media_type = 'STORIES'; }
     }
-    const cont = await ig('POST', uid + '/media', params, token);
+    // v20: colaborador (Collab). d.colab = usuario fijado al programar; si no viene (colas), vale lo guardado en ig-queue/colab.json. Si Instagram lo rechaza, publica igual sin colaborador.
+    const cu = (() => { if (d.fmt === 'historia') return ''; if (typeof d.colab === 'string') return d.colab; const c = leer(path.join(BASE, 'colab.json'), null); return c && c.on !== false && c.usuario ? String(c.usuario).replace(/^@/, '') : ''; })();
+    let cont = null;
+    if (cu) { try { cont = await ig('POST', uid + '/media', Object.assign({}, params, { collaborators: JSON.stringify([cu]) }), token); } catch (er) { console.log('Colaborador no invitado', d.id, er.message); } }
+    if (!cont) cont = await ig('POST', uid + '/media', params, token);
     creationId = cont.id; d.creationId = creationId; if (guardar) guardar(d);
   }
   try { await esperarListo(creationId, token, esVideo ? 60 : 12, esVideo ? 3000 : 1500); }
