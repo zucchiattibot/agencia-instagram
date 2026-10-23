@@ -417,38 +417,38 @@
     "17974145718172510": {
       "t": "2026-10-22T02:01:44+0000",
       "tipo": "IMAGE",
-      "a": 112,
-      "v": 124
+      "a": 117,
+      "v": 134
     },
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 97,
-      "v": 114
+      "a": 102,
+      "v": 125
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 90,
-      "v": 103
+      "a": 95,
+      "v": 113
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 73,
-      "v": 84
+      "a": 80,
+      "v": 97
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 43,
-      "v": 48
+      "a": 52,
+      "v": 64
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 26,
-      "v": 32
+      "a": 36,
+      "v": 46
     }
   },
   "seguidores": {
@@ -471,11 +471,11 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T01:01:39.102Z"
+    "el": "2026-10-23T01:59:32.783Z"
   },
   "res30": {
     "reach": 1763,
-    "views": 15496,
+    "views": 15570,
     "profile_views": 75,
     "accounts_engaged": 62
   },
@@ -488,7 +488,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
+      "reach": 8,
       "views": 15,
       "saved": 0,
       "shares": 0
@@ -540,7 +540,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
+      "reach": 15,
       "views": 23,
       "saved": 0,
       "shares": 0
@@ -566,7 +566,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 11,
+      "reach": 12,
       "views": 17,
       "saved": 0,
       "shares": 0
@@ -579,7 +579,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 135,
+      "reach": 136,
       "views": 148,
       "saved": 0,
       "shares": 2
@@ -806,7 +806,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T01:01:46.938Z",
+  "actualizado": "2026-10-23T01:59:42.515Z",
   "aud": {
     "edad": [
       {
