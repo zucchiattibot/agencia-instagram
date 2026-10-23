@@ -1,4 +1,4 @@
-// ig-motor-v17
+// ig-motor-v18
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -363,6 +363,13 @@ async function estadisticas(estado, token, uid) {
     }
     for (const k of Object.keys(D.dias)) if (ahora - Date.parse(k) > 400 * 86400000) delete D.dias[k];
   } catch (e) { errs.push('días: ' + e.message); }
+  // Facebook (Página): últimas publicaciones con reacciones, comentarios y compartidos (para el análisis de horarios del panel).
+  try {
+    if (process.env.FB_PAGE_ID && process.env.FB_PAGE_TOKEN) {
+      const r = await fb('GET', process.env.FB_PAGE_ID + '/posts', { fields: 'id,created_time,status_type,reactions.summary(true).limit(0),comments.summary(true).limit(0),shares', limit: 25 }, process.env.FB_PAGE_TOKEN);
+      D.fbposts = (r.data || []).map((p) => ({ id: p.id, t: p.created_time, tipo: p.status_type || '', r: ((p.reactions || {}).summary || {}).total_count || 0, c: ((p.comments || {}).summary || {}).total_count || 0, s: (p.shares || {}).count || 0 }));
+    }
+  } catch (e) { errs.push('facebook: ' + e.message); }
   D.actualizado = new Date().toISOString(); escribir(f, D); estado.statsEl = D.actualizado;
   if (errs.length) estado.errorStats = errs.slice(0, 2).join(' | '); else delete estado.errorStats;
 }
