@@ -447,38 +447,44 @@
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 106
+      "a": 95,
+      "v": 110
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 78,
-      "v": 88
+      "a": 83,
+      "v": 92
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 76
+      "a": 79,
+      "v": 82
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 69
+      "a": 70,
+      "v": 75
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 56,
-      "v": 61
+      "a": 61,
+      "v": 67
     },
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 37,
-      "v": 46
+      "a": 46,
+      "v": 52
+    },
+    "17905816827668642": {
+      "t": "2026-10-23T20:02:08+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -502,11 +508,11 @@
     "follows_count": 638,
     "media_count": 601,
     "id": "28888466970748824",
-    "el": "2026-10-23T19:01:44.856Z"
+    "el": "2026-10-23T20:02:58.796Z"
   },
   "res30": {
     "reach": 1768,
-    "views": 16175,
+    "views": 16208,
     "profile_views": 77,
     "accounts_engaged": 63
   },
@@ -519,8 +525,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 48,
+      "reach": 24,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -532,8 +538,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 26,
+      "reach": 14,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -611,7 +617,7 @@
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
       "reach": 14,
-      "views": 20,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -649,8 +655,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 44,
+      "reach": 29,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -837,7 +843,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T19:01:55.197Z",
+  "actualizado": "2026-10-23T20:03:10.131Z",
   "aud": {
     "edad": [
       {

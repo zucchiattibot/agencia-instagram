@@ -5,7 +5,8 @@
     "2026-10-23 03:00": "ok",
     "2026-10-23 08:00": "ok",
     "2026-10-23 09:00": "ok",
-    "2026-10-23 12:30": "ok"
+    "2026-10-23 12:30": "ok",
+    "2026-10-23 17:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -53,20 +54,23 @@
     "mvax9t7s9w4",
     "mvaxa8x07sn",
     "mvkcsow9sxi",
-    "mvl57sj7ugk"
+    "mvl57sj7ugk",
+    "mvid6yqy0eh"
   ],
-  "statsEl": "2026-10-23T19:01:55.197Z",
+  "statsEl": "2026-10-23T20:03:10.131Z",
   "stUltima": {
-    "cuando": "2026-10-23T15:50:01.118Z",
-    "franja": "12:30",
+    "cuando": "2026-10-23T20:02:43.798Z",
+    "franja": "17:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-23T19:01:41.835Z",
+    "cuando": "2026-10-23T20:01:40.813Z",
     "cola": 145,
     "enRepo": 145,
-    "pendientes": []
+    "pendientes": [
+      "17:00"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -85,18 +89,21 @@
   },
   "fdfb": {
     "franjas": {
-      "2026-10-23 12:00": "ok"
+      "2026-10-23 12:00": "ok",
+      "2026-10-23 17:00": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
-      "mrcmvl2g3jjkky6r1-fb"
+      "mrcmvl2g3jjkky6r1-fb",
+      "mrcmvjw5vgqq1prmt-fb"
     ],
     "ultima": {
-      "cuando": "2026-10-23T15:01:36.782Z",
-      "franja": "12:00",
+      "cuando": "2026-10-23T20:02:55.396Z",
+      "franja": "17:00",
       "ok": 1,
       "fallos": 0
     }
   },
-  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)"
+  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
+  "stUltimaId": "mvid6yqy0eh"
 }
