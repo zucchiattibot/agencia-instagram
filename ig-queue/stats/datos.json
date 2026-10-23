@@ -447,44 +447,44 @@
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 114
+      "a": 103,
+      "v": 120
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 96
+      "a": 90,
+      "v": 99
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 86
+      "a": 86,
+      "v": 90
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 77
+      "a": 77,
+      "v": 81
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 69
+      "a": 69,
+      "v": 73
     },
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 48,
-      "v": 57
+      "a": 54,
+      "v": 63
     },
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
       "tipo": "VIDEO",
-      "a": 16,
-      "v": 19
+      "a": 21,
+      "v": 31
     }
   },
   "seguidores": {
@@ -508,11 +508,11 @@
     "follows_count": 638,
     "media_count": 602,
     "id": "28888466970748824",
-    "el": "2026-10-23T21:02:51.622Z"
+    "el": "2026-10-23T22:01:44.319Z"
   },
   "res30": {
-    "reach": 1768,
-    "views": 16258,
+    "reach": 1791,
+    "views": 16340,
     "profile_views": 77,
     "accounts_engaged": 63
   },
@@ -525,8 +525,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 23,
+      "views": 66,
       "saved": 0,
       "shares": 0
     },
@@ -681,7 +681,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de que se pegue todo en la sartén vieja? Renovarte en la cocina es más fácil de lo que pensás con esta batería que rinde posta 🍳. Te esperamos en Agencia Albor, Carlos Casares para encargar la tuya. \n#bateriacocina #carloscasares #lanacion\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 58,
+      "reach": 59,
       "views": 70,
       "saved": 0,
       "shares": 1
@@ -720,7 +720,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 80,
+      "reach": 81,
       "views": 123,
       "saved": 0,
       "shares": 0
@@ -759,8 +759,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 101,
-      "views": 128,
+      "reach": 102,
+      "views": 132,
       "saved": 0,
       "shares": 0
     },
@@ -843,7 +843,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T21:03:02.819Z",
+  "actualizado": "2026-10-23T22:01:57.232Z",
   "aud": {
     "edad": [
       {
