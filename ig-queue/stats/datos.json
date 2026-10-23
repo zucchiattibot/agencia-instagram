@@ -435,44 +435,44 @@
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 115
+      "a": 96,
+      "v": 116
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 89
+      "a": 76,
+      "v": 91
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 75
+      "a": 68,
+      "v": 79
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 41,
-      "v": 46
+      "a": 45,
+      "v": 49
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 32
+      "a": 33,
+      "v": 35
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 17,
-      "v": 20
+      "a": 22,
+      "v": 24
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 6,
+      "v": 8
     }
   },
   "seguidores": {
@@ -496,11 +496,11 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T12:01:54.302Z"
+    "el": "2026-10-23T13:01:40.700Z"
   },
   "res30": {
     "reach": 1765,
-    "views": 15789,
+    "views": 15817,
     "profile_views": 75,
     "accounts_engaged": 62
   },
@@ -565,8 +565,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 23,
+      "reach": 16,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -696,7 +696,7 @@
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 46,
-      "views": 109,
+      "views": 110,
       "saved": 0,
       "shares": 0
     },
@@ -831,7 +831,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T12:02:05.917Z",
+  "actualizado": "2026-10-23T13:01:52.576Z",
   "aud": {
     "edad": [
       {
@@ -867,7 +867,7 @@
           "45-54",
           "F"
         ],
-        "v": 190
+        "v": 191
       },
       {
         "d": [
@@ -997,21 +997,39 @@
       },
       {
         "d": [
-          "Palma de Mallorca, Balearic Islands"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
       },
       {
         "d": [
+          "Cosquín, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Guatire, Miranda (state)"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "San Luis, San Luis"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Lagos, Lagos State"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Montevideo, Montevideo Department"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1033,19 +1051,19 @@
       },
       {
         "d": [
+          "José León Suárez, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
       },
       {
         "d": [
-          "Frei Lagonegro, Minas Gerais"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Formosa, Formosa"
+          "Bogotá, Distrito Especial"
         ],
         "v": 1
       },
@@ -1075,6 +1093,12 @@
       },
       {
         "d": [
+          "Elsmere, Delaware"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 2
@@ -1099,15 +1123,15 @@
       },
       {
         "d": [
-          "Quiroga, Buenos Aires"
+          "Llavallol, Buenos Aires"
         ],
-        "v": 5
+        "v": 1
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
+          "Quiroga, Buenos Aires"
         ],
-        "v": 2
+        "v": 5
       },
       {
         "d": [
@@ -1117,43 +1141,13 @@
       },
       {
         "d": [
-          "López Mateos, State of Mexico"
+          "González Catán, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
-          "Talca, Maule Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Tlajomulco de Zúñiga, Jalisco"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Tegucigalpa, Francisco Morazán Department"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Timon, Maranhão"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Aarhus, Central Denmark Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Manuel Ocampo, Buenos Aires"
+          "Remedios de Escalada de San Martín, Buenos Aires"
         ],
         "v": 1
       },
@@ -1195,7 +1189,7 @@
       },
       {
         "d": [
-          "Lanús, Buenos Aires"
+          "Tucuruí, Pará"
         ],
         "v": 1
       },
@@ -1207,15 +1201,15 @@
       },
       {
         "d": [
-          "Quimilí, Santiago del Estero"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "San Carlos de Bolívar, Buenos Aires"
         ],
         "v": 8
+      },
+      {
+        "d": [
+          "City Bell, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1225,13 +1219,13 @@
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -1246,6 +1240,12 @@
           "La Plata, Buenos Aires"
         ],
         "v": 13
+      },
+      {
+        "d": [
+          "Potrero de los Funes, San Luis"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1325,7 +1325,7 @@
         "d": [
           "AR"
         ],
-        "v": 1331
+        "v": 1332
       },
       {
         "d": [
@@ -1352,7 +1352,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-22T16:02:19.461Z"
+    "el": "2026-10-23T13:01:51.588Z"
   },
   "dias": {
     "2026-10-11": {
