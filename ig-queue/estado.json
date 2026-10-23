@@ -4,7 +4,10 @@
   "stFranjas": {
     "2026-10-23 03:00": "ok",
     "2026-10-23 08:00": "ok",
-    "2026-10-23 09:00": "ok"
+    "2026-10-23 09:00": "ok",
+    "2026-10-23 12:30": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -55,16 +58,18 @@
   ],
   "statsEl": "2026-10-23T15:01:50.029Z",
   "stUltima": {
-    "cuando": "2026-10-23T12:01:51.474Z",
-    "franja": "09:00",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-10-23T15:45:09.892Z",
+    "franja": "12:30",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-10-23T15:01:33.423Z",
+    "cuando": "2026-10-23T15:44:43.056Z",
     "cola": 135,
     "enRepo": 135,
-    "pendientes": []
+    "pendientes": [
+      "12:30"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -93,5 +98,6 @@
       "fallos": 0
     }
   },
-  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)"
+  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
+  "stError": "Instagram no pudo procesar el archivo (ERROR)."
 }
