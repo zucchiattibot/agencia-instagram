@@ -441,38 +441,44 @@
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 98
+      "a": 87,
+      "v": 108
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 86
+      "a": 78,
+      "v": 96
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 57,
-      "v": 64
+      "a": 62,
+      "v": 75
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 45,
-      "v": 48
+      "a": 52,
+      "v": 61
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 35,
-      "v": 40
+      "a": 45,
+      "v": 53
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 25
+      "a": 32,
+      "v": 40
+    },
+    "18113493239597409": {
+      "t": "2026-10-23T15:49:53+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 6
     }
   },
   "seguidores": {
@@ -494,17 +500,30 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 638,
-    "media_count": 600,
+    "media_count": 601,
     "id": "28888466970748824",
-    "el": "2026-10-23T15:01:39.338Z"
+    "el": "2026-10-23T16:01:49.223Z"
   },
   "res30": {
     "reach": 1765,
-    "views": 15905,
+    "views": 15955,
     "profile_views": 77,
     "accounts_engaged": 63
   },
   "posts": [
+    {
+      "id": "18639830392031903",
+      "timestamp": "2026-10-23T16:01:42+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/De18HxjGvuz/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18098648909416893",
       "timestamp": "2026-10-23T00:01:58+0000",
@@ -579,7 +598,7 @@
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 143,
-      "views": 181,
+      "views": 182,
       "saved": 0,
       "shares": 5
     },
@@ -591,8 +610,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 13,
-      "views": 18,
+      "reach": 14,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -816,22 +835,9 @@
       "views": 38,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18089127428265786",
-      "timestamp": "2026-10-14T17:43:12+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/Dee8lA1CRJN/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "📢 Para armar los mejores ratos de juego en casa, nada mejor que tener opciones que los mantengan creativos y entretenidos un buen rato. En Agencia Albor, Carlos Casares, ya podés pasar a reservar tu set de bloques o juguetes didácticos para regalar o sorprender a los chicos. Mandanos un WhatsApp al 2395 41-7834 y te guardamos el tuyo.\n#bloquis #carloscasares #juguetesdidacticos",
-      "reach": 27,
-      "views": 61,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T15:01:50.029Z",
+  "actualizado": "2026-10-23T16:02:02.186Z",
   "aud": {
     "edad": [
       {
