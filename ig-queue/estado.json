@@ -53,7 +53,7 @@
     "mvaxa8x07sn",
     "mvkcsow9sxi"
   ],
-  "statsEl": "2026-10-23T14:01:56.317Z",
+  "statsEl": "2026-10-23T15:01:50.029Z",
   "stUltima": {
     "cuando": "2026-10-23T12:01:51.474Z",
     "franja": "09:00",
@@ -61,7 +61,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-23T14:01:38.276Z",
+    "cuando": "2026-10-23T15:01:33.423Z",
     "cola": 135,
     "enRepo": 135,
     "pendientes": []
@@ -79,13 +79,16 @@
     }
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-10-23 12:00": "ok"
+    },
     "usados": [
-      "cmvk52c23-fb"
+      "cmvk52c23-fb",
+      "mrcmvl2g3jjkky6r1-fb"
     ],
     "ultima": {
-      "cuando": "2026-10-22T23:02:00.688Z",
-      "franja": "20:00",
+      "cuando": "2026-10-23T15:01:36.782Z",
+      "franja": "12:00",
       "ok": 1,
       "fallos": 0
     }

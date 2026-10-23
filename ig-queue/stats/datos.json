@@ -435,44 +435,44 @@
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 97,
-      "v": 120
+      "a": 100,
+      "v": 121
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 80,
-      "v": 97
+      "a": 81,
+      "v": 98
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 85
+      "a": 74,
+      "v": 86
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 49,
-      "v": 55
+      "a": 57,
+      "v": 64
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 43
+      "a": 45,
+      "v": 48
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 31
+      "a": 35,
+      "v": 40
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 14,
-      "v": 15
+      "a": 22,
+      "v": 25
     }
   },
   "seguidores": {
@@ -496,13 +496,13 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T14:01:43.542Z"
+    "el": "2026-10-23T15:01:39.338Z"
   },
   "res30": {
     "reach": 1765,
-    "views": 15858,
-    "profile_views": 76,
-    "accounts_engaged": 62
+    "views": 15905,
+    "profile_views": 77,
+    "accounts_engaged": 63
   },
   "posts": [
     {
@@ -513,8 +513,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 22,
+      "reach": 13,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -526,8 +526,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "A los chicos les ponés las canciones de Junior Express y la casa entera se convierte en una fiesta selvática. 🦁🎵\n\nConsultá por los títulos disponibles y pasá a retirarlos por Agencia Albor, Carlos Casares.\n\n#topaconlosanimales #carloscasares #juniorpress\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 13,
+      "reach": 12,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -539,10 +539,10 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 34,
+      "reach": 18,
+      "views": 40,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "18195260197403745",
@@ -553,7 +553,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 75,
+      "views": 76,
       "saved": 0,
       "shares": 0
     },
@@ -565,8 +565,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 24,
+      "reach": 17,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -831,7 +831,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T14:01:56.317Z",
+  "actualizado": "2026-10-23T15:01:50.029Z",
   "aud": {
     "edad": [
       {
