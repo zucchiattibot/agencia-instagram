@@ -423,38 +423,38 @@
     "18046797578830348": {
       "t": "2026-10-22T06:02:38+0000",
       "tipo": "VIDEO",
-      "a": 106,
-      "v": 130
+      "a": 109,
+      "v": 134
     },
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 98,
-      "v": 116
+      "a": 99,
+      "v": 117
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 84,
-      "v": 100
+      "a": 85,
+      "v": 101
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 60,
-      "v": 73
+      "a": 64,
+      "v": 76
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 56
+      "a": 50,
+      "v": 60
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 8,
-      "v": 14
+      "a": 18,
+      "v": 21
     }
   },
   "seguidores": {
@@ -478,11 +478,11 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T03:01:36.836Z"
+    "el": "2026-10-23T04:01:36.374Z"
   },
   "res30": {
-    "reach": 1763,
-    "views": 15616,
+    "reach": 1765,
+    "views": 15649,
     "profile_views": 75,
     "accounts_engaged": 62
   },
@@ -534,8 +534,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 29,
-      "views": 68,
+      "reach": 30,
+      "views": 71,
       "saved": 0,
       "shares": 0
     },
@@ -573,8 +573,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 12,
-      "views": 17,
+      "reach": 13,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -587,7 +587,7 @@
       "comments_count": 0,
       "caption": "Aquellos muñecos que guardabas como tesoro ahora vuelven en esta edición que no te podés perder. 🛡️ ¿Te acordás cómo se llamaba la espada de León-O?\n\nReservá la tuya o consultá por WhatsApp en Agencia Albor, Carlos Casares 📍\n\n#thundercats #leon-o #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 136,
-      "views": 148,
+      "views": 149,
       "saved": 0,
       "shares": 2
     },
@@ -813,7 +813,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T03:01:50.988Z",
+  "actualizado": "2026-10-23T04:01:45.647Z",
   "aud": {
     "edad": [
       {
