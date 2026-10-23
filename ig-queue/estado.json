@@ -3,7 +3,8 @@
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
     "2026-10-23 03:00": "ok",
-    "2026-10-23 08:00": "ok"
+    "2026-10-23 08:00": "ok",
+    "2026-10-23 09:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -49,21 +50,22 @@
     "mvav2077bfh",
     "mvawxub85fo",
     "mvax9t7s9w4",
-    "mvaxa8x07sn"
+    "mvaxa8x07sn",
+    "mvkcsow9sxi"
   ],
-  "statsEl": "2026-10-23T11:02:08.176Z",
+  "statsEl": "2026-10-23T12:02:05.917Z",
   "stUltima": {
-    "cuando": "2026-10-23T11:01:49.238Z",
-    "franja": "08:00",
+    "cuando": "2026-10-23T12:01:51.474Z",
+    "franja": "09:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-23T11:01:33.246Z",
+    "cuando": "2026-10-23T12:01:34.807Z",
     "cola": 135,
     "enRepo": 135,
     "pendientes": [
-      "08:00"
+      "09:00"
     ]
   },
   "fdig": {
@@ -89,5 +91,6 @@
       "ok": 1,
       "fallos": 0
     }
-  }
+  },
+  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)"
 }
