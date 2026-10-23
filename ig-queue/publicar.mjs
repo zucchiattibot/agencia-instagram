@@ -1,4 +1,4 @@
-// ig-motor-v18
+// ig-motor-v19
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -232,6 +232,11 @@ async function colaHistorias(estado, token, uid) {
   const hechas = (estado.stFranjas = estado.stFranjas || {});
   for (const k of Object.keys(hechas)) if (k.slice(0, 10) < dia) delete hechas[k];
   estado.stUsados = (estado.stUsados || []).filter((id) => cfg.pool.some((p) => p.id === id));
+  // Rotación temporal (v19): si el panel eligió un grupo chico (cfg.rotar = { ids, hasta }), por unos días solo se publica entre esas y rotan entre sí (aunque "repetir" esté apagado). El resto de la cola queda guardada y vuelve sola al pasar el día "hasta".
+  const rot = (cfg.rotar && Array.isArray(cfg.rotar.ids) && (!cfg.rotar.hasta || cfg.rotar.hasta >= dia)) ? cfg.rotar.ids.filter((id) => cfg.pool.some((p) => p.id === id)) : [];
+  const enRot = rot.length > 0;
+  const poolAct = enRot ? cfg.pool.filter((p) => rot.includes(p.id)) : cfg.pool;
+  const recic = enRot ? true : cfg.reciclar !== false;
   const diaSemH = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado
   const franjas = cfg.franjas.filter((fr) => !(Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSemH))).sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const existe = (p) => fs.existsSync(fsm(p.media));
@@ -245,17 +250,21 @@ async function colaHistorias(estado, token, uid) {
     if (hechas[clave] === 'ok' || hechas[clave] === 'omitida' || hechas[clave] === 'vacia') continue;
     if (min - ini > 180) { hechas[clave] = 'omitida'; continue; }
     const n = Math.min(Number(fr.n) || 1, 10);
-    const libres = cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id));
+    const libres = poolAct.filter((p) => existe(p) && !estado.stUsados.includes(p.id));
     let elegidas = mezclar(libres).slice(0, n);
     // Si quedan menos de N sin publicar y se puede repetir: primero salen las que sobraban y recién después empieza otra vuelta (sin repetir las que acaban de salir).
-    if (elegidas.length < n && cfg.reciclar !== false) {
+    if (elegidas.length < n && recic) {
       const tomadas = elegidas.map((p) => p.id);
-      estado.stUsados = []; estado.stVueltas = (estado.stVueltas || 0) + 1;
-      elegidas = elegidas.concat(mezclar(cfg.pool.filter((p) => existe(p) && !tomadas.includes(p.id))).slice(0, n - elegidas.length));
+      // En rotación solo se reinicia el grupo elegido (el resto de la cola conserva lo que ya salió).
+      estado.stUsados = enRot ? estado.stUsados.filter((id) => !rot.includes(id)) : []; estado.stVueltas = (estado.stVueltas || 0) + 1;
+      const base2 = poolAct.filter((p) => existe(p) && !tomadas.includes(p.id));
+      // En rotación evita repetir la que salió justo antes (así con un par van A, B, A, B).
+      const sinUlt = enRot ? base2.filter((p) => p.id !== estado.stUltimaId) : base2;
+      elegidas = elegidas.concat(mezclar(sinUlt.length >= n - elegidas.length ? sinUlt : base2).slice(0, n - elegidas.length));
     }
     let ok = 0, fallos = 0;
     for (const p of elegidas) {
-      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media, fb: cfg.fb ? 1 : 0, ig: cfg.ig === 0 ? 0 : 1 }, token, uid, null); estado.stUsados.push(p.id); ok++; }
+      try { await publicar({ id: p.id, tipo: p.tipo === 'video' ? 'video' : 'image', fmt: 'historia', media: p.media, fb: cfg.fb ? 1 : 0, ig: cfg.ig === 0 ? 0 : 1 }, token, uid, null); estado.stUsados.push(p.id); estado.stUltimaId = p.id; ok++; }
       catch (e) { fallos++; estado.stError = e.message; console.log('Historia falló', p.id, e.message); }
     }
     // Si no salió ninguna por un error, se vuelve a intentar en la próxima corrida (hasta 3 veces); antes se daba la franja por hecha y quedaba sin publicar.
@@ -264,8 +273,8 @@ async function colaHistorias(estado, token, uid) {
     else hechas[clave] = elegidas.length ? 'ok' : 'vacia';
     estado.stUltima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
     if (ok) delete estado.stError;
-    if (!elegidas.length) estado.stAviso = (cfg.reciclar === false && enRepo > 0) ? 'Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.' : 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
-    else if (cfg.reciclar === false && cfg.pool.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
+    if (!elegidas.length) estado.stAviso = (!recic && enRepo > 0) ? 'Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.' : 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
+    else if (!recic && poolAct.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
     else delete estado.stAviso;
   }
 }
