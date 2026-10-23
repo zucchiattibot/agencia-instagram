@@ -61,12 +61,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-23T12:01:34.807Z",
+    "cuando": "2026-10-23T12:42:32.426Z",
     "cola": 135,
     "enRepo": 135,
-    "pendientes": [
-      "09:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
