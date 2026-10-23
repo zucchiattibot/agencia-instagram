@@ -1,4 +1,4 @@
-// ig-motor-v15
+// ig-motor-v17
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -232,7 +232,8 @@ async function colaHistorias(estado, token, uid) {
   const hechas = (estado.stFranjas = estado.stFranjas || {});
   for (const k of Object.keys(hechas)) if (k.slice(0, 10) < dia) delete hechas[k];
   estado.stUsados = (estado.stUsados || []).filter((id) => cfg.pool.some((p) => p.id === id));
-  const franjas = cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  const diaSemH = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado
+  const franjas = cfg.franjas.filter((fr) => !(Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSemH))).sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const existe = (p) => fs.existsSync(fsm(p.media));
   const enRepo = cfg.pool.filter(existe).length;
   // Diagnóstico visible en el panel: cuándo miró el motor, cuántas historias hay de verdad en el repositorio y qué franjas faltan.
@@ -291,8 +292,10 @@ async function colaFeed(estado, token, uid, red) {
   for (const k of Object.keys(e.franjas)) if (k.slice(0, 10) < dia) delete e.franjas[k];
   e.usados = e.usados.filter((id) => cfg.pool.some((p) => p.id === id));
   const existe = (p) => (p.medias || [p.media]).every((x) => fs.existsSync(fsm(x)));
+  const diaSem = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado (fecha de Argentina)
   for (const fr of cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)))) {
     const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
+    if (Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSem)) continue; // franja solo para ciertos días de la semana
     if (min < ini) continue;
     if (['ok', 'omitida', 'vacia'].includes(e.franjas[clave])) continue;
     if (min - ini > 180) { e.franjas[clave] = 'omitida'; continue; }
