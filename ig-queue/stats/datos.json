@@ -429,38 +429,44 @@
     "18082215041349295": {
       "t": "2026-10-22T11:02:10+0000",
       "tipo": "VIDEO",
-      "a": 102,
-      "v": 120
+      "a": 106,
+      "v": 124
     },
     "18142520800720965": {
       "t": "2026-10-22T15:02:32+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 102
+      "a": 90,
+      "v": 106
     },
     "17956565070257952": {
       "t": "2026-10-22T19:02:15+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 78
+      "a": 69,
+      "v": 81
     },
     "18087028355705772": {
       "t": "2026-10-22T23:01:40+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 64
+      "a": 57,
+      "v": 68
     },
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 23,
-      "v": 28
+      "a": 32,
+      "v": 37
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 7,
-      "v": 8
+      "a": 16,
+      "v": 21
+    },
+    "18169560445415426": {
+      "t": "2026-10-23T11:01:41+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -484,11 +490,11 @@
     "follows_count": 638,
     "media_count": 600,
     "id": "28888466970748824",
-    "el": "2026-10-23T10:01:37.078Z"
+    "el": "2026-10-23T11:01:52.929Z"
   },
   "res30": {
     "reach": 1765,
-    "views": 15672,
+    "views": 15709,
     "profile_views": 75,
     "accounts_engaged": 62
   },
@@ -541,7 +547,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 30,
-      "views": 71,
+      "views": 73,
       "saved": 0,
       "shares": 0
     },
@@ -644,8 +650,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 55,
-      "views": 77,
+      "reach": 56,
+      "views": 78,
       "saved": 0,
       "shares": 0
     },
@@ -819,7 +825,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T10:01:46.763Z",
+  "actualizado": "2026-10-23T11:02:08.176Z",
   "aud": {
     "edad": [
       {
