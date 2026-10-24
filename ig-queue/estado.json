@@ -1,7 +1,9 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-10-24 11:00": "ok"
+  },
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -50,51 +52,60 @@
     "mvkcsow9sxi",
     "mvl57sj7ugk",
     "mvid6yqy0eh",
-    "mvl9i09g0j1"
+    "mvl9i09g0j1",
+    "mvaxcq2s90c"
   ],
-  "statsEl": "2026-10-24T13:01:51.767Z",
+  "statsEl": "2026-10-24T14:02:31.527Z",
   "stUltima": {
-    "cuando": "2026-10-23T23:33:16.286Z",
-    "franja": "20:30",
+    "cuando": "2026-10-24T14:02:04.248Z",
+    "franja": "11:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-24T13:01:40.779Z",
+    "cuando": "2026-10-24T14:01:50.601Z",
     "cola": 145,
     "enRepo": 145,
-    "pendientes": []
+    "pendientes": [
+      "11:00"
+    ]
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-10-24 11:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
       "mrcmvjw5vgqq1prmt-ig",
-      "mrcmvjw60jjyli615-ig"
+      "mrcmvjw60jjyli615-ig",
+      "mrcmvl2gs4nrjsef0-ig"
     ],
     "ultima": {
-      "cuando": "2026-10-24T01:02:15.713Z",
-      "franja": "21:30",
+      "cuando": "2026-10-24T14:02:15.388Z",
+      "franja": "11:00",
       "ok": 1,
       "fallos": 0
     }
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-10-24 11:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
       "mrcmvjw5vgqq1prmt-fb",
-      "mrcmvjw60jjyli615-fb"
+      "mrcmvjw60jjyli615-fb",
+      "mrcmvl2gs4nrjsef0-fb"
     ],
     "ultima": {
-      "cuando": "2026-10-23T23:02:20.288Z",
-      "franja": "20:00",
+      "cuando": "2026-10-24T14:02:19.004Z",
+      "franja": "11:00",
       "ok": 1,
       "fallos": 0
     }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvl9i09g0j1"
+  "stUltimaId": "mvaxcq2s90c"
 }
