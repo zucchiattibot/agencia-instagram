@@ -373,41 +373,6 @@
       "ord": 1792722101655
     },
     {
-      "id": "mrcmvkz30k7sqkjju-fb",
-      "matId": "rcmvkz30k7sqkjju",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
-      "caption": "¿Cansada de descifrar mensajes que tardan horas en responder o de dar más de lo que recibís? 📉 Para cortar con los vínculos a medias y empezar a elegirte, ya tenés disponible el primer taller de Lucía Numer Bellomi en Agencia Albor. Mandanos un mensaje privado o escribinos al WhatsApp para reservarlo y empezar a poner límites sanos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792761576131,
-      "medias": [
-        "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
-        "ig-queue/feed/media/rcmvkz3deonkqaj8.jpg"
-      ],
-      "matIds": [
-        "rcmvkz30k7sqkjju",
-        "rcmvkz3deonkqaj8"
-      ]
-    },
-    {
-      "id": "mrcmvkz37g3wp0bqm-fb",
-      "matId": "rcmvkz37g3wp0bqm",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvkz37g3wp0bqm.jpg",
-      "caption": "Entrenar el cerebro para vivir con menos ruido mental y más foco es un excelente regalo para hacer o hacerte este mes. 🧠✨ \n\nZensorialmente, el libro de Estanislao Bachrach, te propone herramientas prácticas para entender cómo funciona tu mente y recuperar el bienestar en el día a día. \n\nSi querés empezar a leerlo, escribinos por mensaje privado o manda un WhatsApp y te contamos cómo retirarlo. También podés pasar directamente por Agencia Albor, en Maipú 175, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792761588708
-    },
-    {
-      "id": "mrcmvkz2tgsn2keeu-fb",
-      "matId": "rcmvkz2tgsn2keeu",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
-      "caption": "¿Te interesa explorar el mundo de la mediumnidad y descubrir cómo conectar con otras dimensiones? 🔮 \"Sesión abierta\" de Noelia Pace te propone un recorrido profundo para entender que las almas conectan y el espíritu sana. \n\nSi querés profundizar en estos temas y tenerlo en casa, escribinos por mensaje privado o mandanos un WhatsApp y te contamos cómo reservarlo en Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792761595266
-    },
-    {
       "id": "mrcmvl2gs4nrjsef0-fb",
       "matId": "rcmvl2gs4nrjsef0",
       "tipo": "image",
@@ -424,6 +389,27 @@
       "media": "ig-queue/feed/media/rcmvl2g3jjkky6r1.jpg",
       "caption": "Los domingos de picada y ruta se disfrutan mejor repasando las leyendas que hicieron historia en nuestro país. El Peugeot 404 Grand Prix de 1972 llega en escala para sumarse al garage de cualquier apasionado de los fierros clásicos que quiera revivir aquella época dorada del automovilismo nacional. \n\nEscribinos por mensaje privado para asegurar tu ejemplar antes de que se agote o pasá a buscarlo por Agencia Albor en Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "ord": 1792767492166
+    },
+    {
+      "id": "cmvlrphwz-fb",
+      "matId": "rcmvkz2tgsn2keeu",
+      "matIds": [
+        "rcmvkz2tgsn2keeu",
+        "rcmvkz37g3wp0bqm",
+        "rcmvkz30k7sqkjju",
+        "rcmvkz3deonkqaj8"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+        "ig-queue/feed/media/rcmvkz37g3wp0bqm.jpg",
+        "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
+        "ig-queue/feed/media/rcmvkz3deonkqaj8.jpg"
+      ],
+      "caption": "¿Te interesa explorar el mundo de la mediumnidad y descubrir cómo conectar con otras dimensiones? 🔮 \"Sesión abierta\" de Noelia Pace te propone un recorrido profundo para entender que las almas conectan y el espíritu sana. \n\nSi querés profundizar en estos temas y tenerlo en casa, escribinos por mensaje privado o mandanos un WhatsApp y te contamos cómo reservarlo en Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792761595266
     }
   ]
 }
