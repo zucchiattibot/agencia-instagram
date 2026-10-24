@@ -483,20 +483,26 @@
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
       "tipo": "VIDEO",
-      "a": 139,
-      "v": 163
+      "a": 141,
+      "v": 170
     },
     "17883869634528658": {
       "t": "2026-10-23T23:32:46+0000",
       "tipo": "VIDEO",
-      "a": 131,
-      "v": 151
+      "a": 138,
+      "v": 159
     },
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 86,
-      "v": 103
+      "a": 95,
+      "v": 113
+    },
+    "18097329938427648": {
+      "t": "2026-10-24T19:50:07+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 10
     }
   },
   "seguidores": {
@@ -521,11 +527,11 @@
     "follows_count": 638,
     "media_count": 604,
     "id": "28888466970748824",
-    "el": "2026-10-24T19:02:08.445Z"
+    "el": "2026-10-24T20:01:46.553Z"
   },
   "res30": {
     "reach": 2011,
-    "views": 17381,
+    "views": 17405,
     "profile_views": 77,
     "accounts_engaged": 67
   },
@@ -538,8 +544,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 35,
+      "reach": 20,
+      "views": 36,
       "saved": 0,
       "shares": 0
     },
@@ -551,8 +557,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 130,
-      "views": 145,
+      "reach": 132,
+      "views": 150,
       "saved": 1,
       "shares": 2
     },
@@ -564,8 +570,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 118,
-      "views": 137,
+      "reach": 119,
+      "views": 138,
       "saved": 0,
       "shares": 1
     },
@@ -668,8 +674,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 15,
-      "views": 23,
+      "reach": 16,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -760,7 +766,7 @@
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 84,
-      "views": 128,
+      "views": 129,
       "saved": 0,
       "shares": 0
     },
@@ -856,7 +862,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T19:02:18.332Z",
+  "actualizado": "2026-10-24T20:02:01.521Z",
   "aud": {
     "edad": [
       {
