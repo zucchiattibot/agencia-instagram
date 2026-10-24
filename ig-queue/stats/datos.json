@@ -489,26 +489,26 @@
     "17883869634528658": {
       "t": "2026-10-23T23:32:46+0000",
       "tipo": "VIDEO",
-      "a": 142,
-      "v": 164
+      "a": 149,
+      "v": 169
     },
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 104,
-      "v": 118
+      "a": 108,
+      "v": 126
     },
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 23,
-      "v": 28
+      "a": 35,
+      "v": 49
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 17,
+      "v": 26
     }
   },
   "seguidores": {
@@ -533,13 +533,13 @@
     "follows_count": 638,
     "media_count": 604,
     "id": "28888466970748824",
-    "el": "2026-10-24T21:02:02.263Z"
+    "el": "2026-10-24T22:00:46.725Z"
   },
   "res30": {
-    "reach": 2014,
-    "views": 17460,
-    "profile_views": 77,
-    "accounts_engaged": 67
+    "reach": 2017,
+    "views": 17514,
+    "profile_views": 78,
+    "accounts_engaged": 68
   },
   "posts": [
     {
@@ -550,8 +550,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 41,
+      "reach": 23,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -603,7 +603,7 @@
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 18,
-      "views": 34,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -719,7 +719,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
+      "reach": 36,
       "views": 55,
       "saved": 0,
       "shares": 0
@@ -758,10 +758,10 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "Para escuchar ese motor rugiendo otra vez en la memoria y tener al Flaco Traverso en la repisa de casa con todos los detalles de la Chevy del 95. 🏁 Reservala en Agencia Albor, Carlos Casares.\n#juandematraverso #carloscasares #turismocarretera\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 134,
-      "views": 174,
+      "reach": 135,
+      "views": 179,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "18132811498664573",
@@ -868,7 +868,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T21:02:11.258Z",
+  "actualizado": "2026-10-24T22:00:56.443Z",
   "aud": {
     "edad": [
       {

@@ -59,7 +59,7 @@
     "mvimw02k07x",
     "mvjo0pl3tp2"
   ],
-  "statsEl": "2026-10-24T21:02:11.258Z",
+  "statsEl": "2026-10-24T22:00:56.443Z",
   "stUltima": {
     "cuando": "2026-10-24T21:02:00.592Z",
     "franja": "18:00",
@@ -67,12 +67,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-24T21:01:47.380Z",
+    "cuando": "2026-10-24T22:00:44.463Z",
     "cola": 145,
     "enRepo": 145,
-    "pendientes": [
-      "18:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
