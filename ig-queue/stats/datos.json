@@ -459,38 +459,38 @@
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 105,
-      "v": 111
+      "a": 108,
+      "v": 118
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 103
+      "a": 99,
+      "v": 108
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 91,
-      "v": 99
+      "a": 95,
+      "v": 104
     },
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 91
+      "a": 83,
+      "v": 95
     },
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
       "tipo": "VIDEO",
-      "a": 61,
-      "v": 76
+      "a": 65,
+      "v": 79
     },
     "17883869634528658": {
       "t": "2026-10-23T23:32:46+0000",
       "tipo": "VIDEO",
-      "a": 48,
-      "v": 61
+      "a": 52,
+      "v": 67
     }
   },
   "seguidores": {
@@ -506,7 +506,8 @@
     "2026-10-20": 1389,
     "2026-10-21": 1390,
     "2026-10-22": 1390,
-    "2026-10-23": 1390
+    "2026-10-23": 1390,
+    "2026-10-24": 1390
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -514,13 +515,13 @@
     "follows_count": 638,
     "media_count": 603,
     "id": "28888466970748824",
-    "el": "2026-10-24T02:01:41.679Z"
+    "el": "2026-10-24T03:01:40.990Z"
   },
   "res30": {
-    "reach": 1943,
-    "views": 16778,
+    "reach": 1982,
+    "views": 16866,
     "profile_views": 77,
-    "accounts_engaged": 64
+    "accounts_engaged": 67
   },
   "posts": [
     {
@@ -531,8 +532,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 74,
-      "views": 129,
+      "reach": 122,
+      "views": 137,
       "saved": 1,
       "shares": 2
     },
@@ -570,8 +571,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 30,
+      "reach": 16,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -596,7 +597,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
+      "reach": 20,
       "views": 42,
       "saved": 0,
       "shares": 1
@@ -622,8 +623,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 25,
+      "reach": 18,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -779,7 +780,7 @@
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 105,
-      "views": 139,
+      "views": 142,
       "saved": 0,
       "shares": 0
     },
@@ -849,7 +850,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T02:01:58.225Z",
+  "actualizado": "2026-10-24T03:01:51.601Z",
   "aud": {
     "edad": [
       {
@@ -1536,6 +1537,10 @@
     "2026-10-22": {
       "a": 182,
       "v": 994
+    },
+    "2026-10-23": {
+      "a": 367,
+      "v": 1209
     }
   }
 }
