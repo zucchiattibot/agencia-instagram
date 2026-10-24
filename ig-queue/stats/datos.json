@@ -453,38 +453,44 @@
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 93,
-      "v": 103
+      "a": 98,
+      "v": 107
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 89,
-      "v": 93
+      "a": 92,
+      "v": 96
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 79,
-      "v": 82
+      "a": 82,
+      "v": 86
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 75
+      "a": 75,
+      "v": 80
     },
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 66
+      "a": 62,
+      "v": 72
     },
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
       "tipo": "VIDEO",
-      "a": 29,
-      "v": 38
+      "a": 38,
+      "v": 50
+    },
+    "17883869634528658": {
+      "t": "2026-10-23T23:32:46+0000",
+      "tipo": "VIDEO",
+      "a": 12,
+      "v": 25
     }
   },
   "seguidores": {
@@ -508,11 +514,11 @@
     "follows_count": 638,
     "media_count": 602,
     "id": "28888466970748824",
-    "el": "2026-10-23T23:02:22.389Z"
+    "el": "2026-10-24T00:01:45.362Z"
   },
   "res30": {
-    "reach": 1850,
-    "views": 16435,
+    "reach": 1872,
+    "views": 16511,
     "profile_views": 77,
     "accounts_engaged": 64
   },
@@ -525,8 +531,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 83,
-      "views": 102,
+      "reach": 100,
+      "views": 115,
       "saved": 0,
       "shares": 0
     },
@@ -539,7 +545,7 @@
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 27,
-      "views": 54,
+      "views": 55,
       "saved": 0,
       "shares": 0
     },
@@ -734,7 +740,7 @@
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 48,
-      "views": 111,
+      "views": 113,
       "saved": 0,
       "shares": 0
     },
@@ -746,8 +752,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
-      "views": 73,
+      "reach": 53,
+      "views": 76,
       "saved": 0,
       "shares": 0
     },
@@ -759,8 +765,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 102,
-      "views": 132,
+      "reach": 103,
+      "views": 137,
       "saved": 0,
       "shares": 0
     },
@@ -843,7 +849,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-23T23:02:30.851Z",
+  "actualizado": "2026-10-24T00:01:55.580Z",
   "aud": {
     "edad": [
       {
