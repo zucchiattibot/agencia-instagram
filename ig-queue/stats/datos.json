@@ -477,20 +477,20 @@
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 91,
-      "v": 103
+      "a": 97,
+      "v": 109
     },
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
       "tipo": "VIDEO",
-      "a": 72,
-      "v": 89
+      "a": 79,
+      "v": 97
     },
     "17883869634528658": {
       "t": "2026-10-23T23:32:46+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 77
+      "a": 71,
+      "v": 85
     }
   },
   "seguidores": {
@@ -515,11 +515,11 @@
     "follows_count": 638,
     "media_count": 603,
     "id": "28888466970748824",
-    "el": "2026-10-24T12:01:48.788Z"
+    "el": "2026-10-24T13:01:42.156Z"
   },
   "res30": {
     "reach": 1995,
-    "views": 17005,
+    "views": 17032,
     "profile_views": 77,
     "accounts_engaged": 67
   },
@@ -546,7 +546,7 @@
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 109,
-      "views": 128,
+      "views": 129,
       "saved": 0,
       "shares": 1
     },
@@ -558,7 +558,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
+      "reach": 35,
       "views": 66,
       "saved": 0,
       "shares": 0
@@ -779,7 +779,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 108,
+      "reach": 109,
       "views": 145,
       "saved": 0,
       "shares": 0
@@ -850,7 +850,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T12:02:04.862Z",
+  "actualizado": "2026-10-24T13:01:51.767Z",
   "aud": {
     "edad": [
       {
