@@ -515,7 +515,7 @@
     "follows_count": 638,
     "media_count": 603,
     "id": "28888466970748824",
-    "el": "2026-10-24T09:01:44.220Z"
+    "el": "2026-10-24T10:01:44.596Z"
   },
   "res30": {
     "reach": 1993,
@@ -850,7 +850,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T09:01:55.893Z",
+  "actualizado": "2026-10-24T10:01:55.517Z",
   "aud": {
     "edad": [
       {
@@ -1004,6 +1004,18 @@
     "ciudades": [
       {
         "d": [
+          "Chivilcoy, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Ramos Mejía, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -1022,12 +1034,6 @@
       },
       {
         "d": [
-          "Cosquín, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Guatire, Miranda (state)"
         ],
         "v": 1
@@ -1037,12 +1043,6 @@
           "San Luis, San Luis"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Lagos, Lagos State"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1070,21 +1070,9 @@
       },
       {
         "d": [
-          "José León Suárez, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
-      },
-      {
-        "d": [
-          "Bogotá, Distrito Especial"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1142,21 +1130,9 @@
       },
       {
         "d": [
-          "Llavallol, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Quiroga, Buenos Aires"
         ],
         "v": 5
-      },
-      {
-        "d": [
-          "Panama City, Panamá Province"
-        ],
-        "v": 2
       },
       {
         "d": [
@@ -1166,7 +1142,37 @@
       },
       {
         "d": [
+          "Panama City, Panamá Province"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "López Mateos, State of Mexico"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Necochea, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Remedios de Escalada de San Martín, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Daireaux, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Manuel Ocampo, Buenos Aires"
         ],
         "v": 1
       },
@@ -1175,6 +1181,12 @@
           "Coronel Martínez de Hoz, Buenos Aires"
         ],
         "v": 8
+      },
+      {
+        "d": [
+          "Federal, Entre Rios"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1202,15 +1214,15 @@
       },
       {
         "d": [
-          "Florida, Buenos Aires"
+          "Pereyra, Buenos Aires"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Tucuruí, Pará"
+          "Florida, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -1223,12 +1235,6 @@
           "San Carlos de Bolívar, Buenos Aires"
         ],
         "v": 8
-      },
-      {
-        "d": [
-          "City Bell, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1252,19 +1258,13 @@
         "d": [
           "Rosario, Santa Fe"
         ],
-        "v": 5
+        "v": 4
       },
       {
         "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 13
-      },
-      {
-        "d": [
-          "Potrero de los Funes, San Luis"
-        ],
-        "v": 1
+        "v": 12
       },
       {
         "d": [
@@ -1371,7 +1371,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-23T13:01:51.588Z"
+    "el": "2026-10-24T10:01:54.414Z"
   },
   "dias": {
     "2026-10-11": {

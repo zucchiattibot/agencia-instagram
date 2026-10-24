@@ -52,7 +52,7 @@
     "mvid6yqy0eh",
     "mvl9i09g0j1"
   ],
-  "statsEl": "2026-10-24T09:01:55.893Z",
+  "statsEl": "2026-10-24T10:01:55.517Z",
   "stUltima": {
     "cuando": "2026-10-23T23:33:16.286Z",
     "franja": "20:30",
@@ -60,7 +60,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-24T09:01:41.693Z",
+    "cuando": "2026-10-24T10:01:42.272Z",
     "cola": 145,
     "enRepo": 145,
     "pendientes": []
