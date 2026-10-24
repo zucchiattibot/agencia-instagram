@@ -279,15 +279,6 @@
       "ord": 1792696970076
     },
     {
-      "id": "mrcmvi71sfpuj3uka-fb",
-      "matId": "rcmvi71sfpuj3uka",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvi71sfpuj3uka.jpg",
-      "caption": "Conocé todo lo que tenemos disponible de La Granja de Zenón para que los chicos sigan jugando y cantando en casa con sus personajes preferidos de la tele. 🐮🐔 Ingresando a granjazenonrba.com.ar vas a poder chusmear cada una de las entregas, fascículos y productos de la colección completa. Mandanos un mensaje privado por acá o escribinos por WhatsApp para consultar cómo reservar lo que te falte.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792625390750
-    },
-    {
       "id": "mrcmvi6y6jv2e815k-fb",
       "matId": "rcmvi6y6jv2e815k",
       "tipo": "image",
@@ -364,15 +355,6 @@
       "ord": 1792279964370
     },
     {
-      "id": "mrcmvkca9ddre2bbm-fb",
-      "matId": "rcmvkca9ddre2bbm",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
-      "caption": "Sumar las 41 entregas de esta colección de La Granja de Zenón es la excusa perfecta para armar el escenario completo de la granja en casa y verlos jugar durante horas con los personajes y el granero de madera 🚜🪵\n\nSi querés empezar a recibir cada entrega y completar la serie, escribinos por WhatsApp o mandanos un mensaje privado para que te contemos cómo reservar en Agencia Albor 📍\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792722101655
-    },
-    {
       "id": "mrcmvl2gs4nrjsef0-fb",
       "matId": "rcmvl2gs4nrjsef0",
       "tipo": "image",
@@ -410,6 +392,23 @@
       ],
       "caption": "¿Te interesa explorar el mundo de la mediumnidad y descubrir cómo conectar con otras dimensiones? 🔮 \"Sesión abierta\" de Noelia Pace te propone un recorrido profundo para entender que las almas conectan y el espíritu sana. \n\nSi querés profundizar en estos temas y tenerlo en casa, escribinos por mensaje privado o mandanos un WhatsApp y te contamos cómo reservarlo en Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "ord": 1792761595266
+    },
+    {
+      "id": "cmvlrq0ss-fb",
+      "matId": "rcmvkca9ddre2bbm",
+      "matIds": [
+        "rcmvkca9ddre2bbm",
+        "rcmvi71sfpuj3uka"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+        "ig-queue/feed/media/rcmvi71sfpuj3uka.jpg"
+      ],
+      "caption": "Sumar las 41 entregas de esta colección de La Granja de Zenón es la excusa perfecta para armar el escenario completo de la granja en casa y verlos jugar durante horas con los personajes y el granero de madera 🚜🪵\n\nSi querés empezar a recibir cada entrega y completar la serie, escribinos por WhatsApp o mandanos un mensaje privado para que te contemos cómo reservar en Agencia Albor 📍\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1792722101655
     }
   ]
 }
