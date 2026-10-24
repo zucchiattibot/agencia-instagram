@@ -453,44 +453,44 @@
     "18118104707054181": {
       "t": "2026-10-23T02:02:00+0000",
       "tipo": "VIDEO",
-      "a": 98,
-      "v": 107
+      "a": 101,
+      "v": 113
     },
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 96
+      "a": 96,
+      "v": 103
     },
     "18169560445415426": {
       "t": "2026-10-23T11:01:41+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 86
+      "a": 87,
+      "v": 95
     },
     "18349377457268776": {
       "t": "2026-10-23T12:01:40+0000",
       "tipo": "IMAGE",
-      "a": 75,
-      "v": 80
+      "a": 80,
+      "v": 89
     },
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 62,
-      "v": 72
+      "a": 68,
+      "v": 80
     },
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
       "tipo": "VIDEO",
-      "a": 38,
-      "v": 50
+      "a": 49,
+      "v": 65
     },
     "17883869634528658": {
       "t": "2026-10-23T23:32:46+0000",
       "tipo": "VIDEO",
-      "a": 12,
-      "v": 25
+      "a": 31,
+      "v": 49
     }
   },
   "seguidores": {
@@ -512,17 +512,30 @@
     "username": "agenciaalbor",
     "followers_count": 1390,
     "follows_count": 638,
-    "media_count": 602,
+    "media_count": 603,
     "id": "28888466970748824",
-    "el": "2026-10-24T00:01:45.362Z"
+    "el": "2026-10-24T01:02:17.982Z"
   },
   "res30": {
     "reach": 1872,
-    "views": 16511,
+    "views": 16581,
     "profile_views": 77,
     "accounts_engaged": 64
   },
   "posts": [
+    {
+      "id": "18125787929299441",
+      "timestamp": "2026-10-24T01:02:10+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/De257x5iep6/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17885716287689311",
       "timestamp": "2026-10-23T21:02:43+0000",
@@ -531,7 +544,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 100,
+      "reach": 101,
       "views": 115,
       "saved": 0,
       "shares": 0
@@ -544,8 +557,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
-      "views": 55,
+      "reach": 28,
+      "views": 58,
       "saved": 0,
       "shares": 0
     },
@@ -597,7 +610,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 79,
+      "views": 80,
       "saved": 0,
       "shares": 0
     },
@@ -765,7 +778,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 103,
+      "reach": 104,
       "views": 137,
       "saved": 0,
       "shares": 0
@@ -834,22 +847,9 @@
       "views": 71,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18130217497764521",
-      "timestamp": "2026-10-15T11:47:19+0000",
-      "media_type": "IMAGE",
-      "permalink": "https://www.instagram.com/p/Deg4pZrFe00/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Para lucirse en la cocina como si fueras chef pero sin complicarte la vida con mil sartenes. 🍳 Esta bifera de aluminio con doble capa de titanio es clave para hacer unas buenas carnes o verduras grilladas sin que se pegue nada. Si querés renovar tus utensilios, reservala pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje para asegurarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 58,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T00:01:55.580Z",
+  "actualizado": "2026-10-24T01:02:27.523Z",
   "aud": {
     "edad": [
       {
