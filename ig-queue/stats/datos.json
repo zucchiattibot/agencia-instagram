@@ -459,7 +459,7 @@
     "18034226147896514": {
       "t": "2026-10-23T06:01:44+0000",
       "tipo": "IMAGE",
-      "a": 117,
+      "a": 118,
       "v": 125
     },
     "18169560445415426": {
@@ -477,8 +477,8 @@
     "18113493239597409": {
       "t": "2026-10-23T15:49:53+0000",
       "tipo": "IMAGE",
-      "a": 86,
-      "v": 98
+      "a": 87,
+      "v": 99
     },
     "17905816827668642": {
       "t": "2026-10-23T20:02:08+0000",
@@ -515,11 +515,11 @@
     "follows_count": 638,
     "media_count": 603,
     "id": "28888466970748824",
-    "el": "2026-10-24T05:01:41.294Z"
+    "el": "2026-10-24T06:01:40.655Z"
   },
   "res30": {
-    "reach": 1988,
-    "views": 16952,
+    "reach": 1990,
+    "views": 16966,
     "profile_views": 77,
     "accounts_engaged": 67
   },
@@ -542,13 +542,13 @@
       "timestamp": "2026-10-23T21:02:43+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De2ef81FDz8/",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 105,
-      "views": 121,
+      "reach": 107,
+      "views": 125,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "18639830392031903",
@@ -558,7 +558,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
+      "reach": 32,
       "views": 63,
       "saved": 0,
       "shares": 0
@@ -688,7 +688,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
+      "reach": 32,
       "views": 50,
       "saved": 0,
       "shares": 0
@@ -779,7 +779,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 107,
+      "reach": 108,
       "views": 144,
       "saved": 0,
       "shares": 0
@@ -850,7 +850,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-24T05:01:53.497Z",
+  "actualizado": "2026-10-24T06:01:51.176Z",
   "aud": {
     "edad": [
       {
