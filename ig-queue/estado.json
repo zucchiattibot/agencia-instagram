@@ -2,7 +2,10 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-25 15:30": "ok"
+    "2026-10-25 15:30": "ok",
+    "2026-10-25 18:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -59,18 +62,20 @@
     "mvawuogb0a0",
     "mvl585tgtgr"
   ],
-  "statsEl": "2026-10-25T20:01:47.757Z",
+  "statsEl": "2026-10-25T21:01:46.769Z",
   "stUltima": {
-    "cuando": "2026-10-25T19:01:57.983Z",
-    "franja": "15:30",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-10-25T21:01:37.958Z",
+    "franja": "18:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-10-25T20:01:31.792Z",
+    "cuando": "2026-10-25T21:01:33.328Z",
     "cola": 145,
     "enRepo": 145,
-    "pendientes": []
+    "pendientes": [
+      "18:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -107,5 +112,6 @@
     }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvl585tgtgr"
+  "stUltimaId": "mvl585tgtgr",
+  "stError": "The media with 18,134,058,775,670,222 cannot be found. (código 24)"
 }

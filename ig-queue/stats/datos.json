@@ -507,26 +507,26 @@
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 154,
-      "v": 163
+      "a": 155,
+      "v": 166
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 143,
-      "v": 164
+      "a": 144,
+      "v": 167
     },
     "17889884238653134": {
       "t": "2026-10-25T14:39:21+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 86
+      "a": 83,
+      "v": 93
     },
     "18231381847329484": {
       "t": "2026-10-25T19:01:49+0000",
       "tipo": "IMAGE",
-      "a": 23,
-      "v": 27
+      "a": 40,
+      "v": 44
     }
   },
   "seguidores": {
@@ -552,13 +552,13 @@
     "follows_count": 638,
     "media_count": 606,
     "id": "28888466970748824",
-    "el": "2026-10-25T20:01:34.917Z"
+    "el": "2026-10-25T21:01:39.153Z"
   },
   "res30": {
-    "reach": 2132,
-    "views": 18227,
+    "reach": 2135,
+    "views": 18260,
     "profile_views": 79,
-    "accounts_engaged": 75
+    "accounts_engaged": 76
   },
   "posts": [
     {
@@ -569,8 +569,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 34,
+      "reach": 28,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -582,9 +582,9 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 90,
-      "views": 115,
-      "saved": 0,
+      "reach": 92,
+      "views": 120,
+      "saved": 1,
       "shares": 0
     },
     {
@@ -700,7 +700,7 @@
       "comments_count": 0,
       "caption": "¿Cansada de renegar porque se te pega todo en la sartén al cocinar? 🍳 Esta línea viene con partículas de titanio para que dore perfecto y te dure años sin romperse la cabeza limpiando. Pasá por Agencia Albor y consultá cómo sumarla a tus hornallas.\n#bateriadecocina #sarten #carloscasares #bateria\n#latina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 20,
-      "views": 29,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -790,8 +790,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Armar las piezas y ver cómo se enganchan solas es una gran manera de mantenerlos entretenidos un buen rato en casa. 🧲\n\nReservá tu ejemplar a $17.500 escribiéndonos por WhatsApp o pasando por Agencia Albor en Carlos Casares. \n\n#magnetix #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 57,
-      "views": 79,
+      "reach": 58,
+      "views": 80,
       "saved": 0,
       "shares": 0
     },
@@ -887,7 +887,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-25T20:01:47.757Z",
+  "actualizado": "2026-10-25T21:01:46.769Z",
   "aud": {
     "edad": [
       {
