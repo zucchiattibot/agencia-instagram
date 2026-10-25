@@ -495,26 +495,26 @@
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 160,
-      "v": 186
+      "a": 163,
+      "v": 190
     },
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 116,
-      "v": 129
+      "a": 119,
+      "v": 134
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 110
+      "a": 109,
+      "v": 115
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 90,
-      "v": 98
+      "a": 94,
+      "v": 102
     }
   },
   "seguidores": {
@@ -540,11 +540,11 @@
     "follows_count": 638,
     "media_count": 605,
     "id": "28888466970748824",
-    "el": "2026-10-25T11:01:40.643Z"
+    "el": "2026-10-25T12:01:37.938Z"
   },
   "res30": {
-    "reach": 2085,
-    "views": 17809,
+    "reach": 2088,
+    "views": 17826,
     "profile_views": 79,
     "accounts_engaged": 72
   },
@@ -557,8 +557,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 63,
-      "views": 86,
+      "reach": 65,
+      "views": 88,
       "saved": 0,
       "shares": 0
     },
@@ -583,8 +583,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 134,
-      "views": 154,
+      "reach": 135,
+      "views": 155,
       "saved": 1,
       "shares": 2
     },
@@ -875,7 +875,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-25T11:01:50.976Z",
+  "actualizado": "2026-10-25T12:01:48.303Z",
   "aud": {
     "edad": [
       {
