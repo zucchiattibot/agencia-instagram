@@ -56,7 +56,7 @@
     "mvjo0pl3tp2",
     "mvawuogb0a0"
   ],
-  "statsEl": "2026-10-25T14:58:00.111Z",
+  "statsEl": "2026-10-25T16:01:55.003Z",
   "stUltima": {
     "cuando": "2026-10-24T23:02:54.038Z",
     "franja": "20:00",
@@ -64,7 +64,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-25T14:57:42.216Z",
+    "cuando": "2026-10-25T16:01:35.917Z",
     "cola": 145,
     "enRepo": 145,
     "pendientes": []
