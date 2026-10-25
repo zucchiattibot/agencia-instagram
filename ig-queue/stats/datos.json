@@ -495,26 +495,26 @@
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 136,
-      "v": 162
+      "a": 146,
+      "v": 172
     },
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 102
+      "a": 99,
+      "v": 113
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 80,
-      "v": 87
+      "a": 92,
+      "v": 97
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 77
+      "a": 80,
+      "v": 89
     }
   },
   "seguidores": {
@@ -540,13 +540,13 @@
     "follows_count": 638,
     "media_count": 605,
     "id": "28888466970748824",
-    "el": "2026-10-25T03:01:53.749Z"
+    "el": "2026-10-25T04:01:43.787Z"
   },
   "res30": {
-    "reach": 2030,
-    "views": 17830,
+    "reach": 2041,
+    "views": 17895,
     "profile_views": 78,
-    "accounts_engaged": 69
+    "accounts_engaged": 71
   },
   "posts": [
     {
@@ -554,11 +554,11 @@
       "timestamp": "2026-10-25T01:02:05+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De5euRpE48h/",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 31,
+      "reach": 28,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -875,7 +875,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-25T03:02:03.984Z",
+  "actualizado": "2026-10-25T04:01:54.992Z",
   "aud": {
     "edad": [
       {
