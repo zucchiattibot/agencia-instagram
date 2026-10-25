@@ -495,26 +495,26 @@
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 146,
-      "v": 172
+      "a": 151,
+      "v": 180
     },
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 113
+      "a": 103,
+      "v": 119
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 97
+      "a": 97,
+      "v": 103
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 80,
-      "v": 89
+      "a": 83,
+      "v": 92
     }
   },
   "seguidores": {
@@ -540,12 +540,12 @@
     "follows_count": 638,
     "media_count": 605,
     "id": "28888466970748824",
-    "el": "2026-10-25T04:01:43.787Z"
+    "el": "2026-10-25T05:01:40.073Z"
   },
   "res30": {
-    "reach": 2041,
-    "views": 17895,
-    "profile_views": 78,
+    "reach": 2063,
+    "views": 17933,
+    "profile_views": 79,
     "accounts_engaged": 71
   },
   "posts": [
@@ -557,8 +557,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 46,
+      "reach": 41,
+      "views": 61,
       "saved": 0,
       "shares": 0
     },
@@ -596,8 +596,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 122,
-      "views": 140,
+      "reach": 123,
+      "views": 141,
       "saved": 0,
       "shares": 1
     },
@@ -649,7 +649,7 @@
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 22,
-      "views": 44,
+      "views": 45,
       "saved": 0,
       "shares": 1
     },
@@ -875,7 +875,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-25T04:01:54.992Z",
+  "actualizado": "2026-10-25T05:01:49.162Z",
   "aud": {
     "edad": [
       {
