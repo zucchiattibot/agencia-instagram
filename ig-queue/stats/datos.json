@@ -501,26 +501,32 @@
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 159,
-      "v": 178
+      "a": 161,
+      "v": 182
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 145,
-      "v": 153
+      "a": 150,
+      "v": 159
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 136,
-      "v": 153
+      "a": 139,
+      "v": 156
     },
     "17889884238653134": {
       "t": "2026-10-25T14:39:21+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 68
+      "a": 67,
+      "v": 74
+    },
+    "18231381847329484": {
+      "t": "2026-10-25T19:01:49+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -546,13 +552,13 @@
     "follows_count": 638,
     "media_count": 606,
     "id": "28888466970748824",
-    "el": "2026-10-25T18:01:37.587Z"
+    "el": "2026-10-25T19:02:01.877Z"
   },
   "res30": {
-    "reach": 2104,
-    "views": 18104,
+    "reach": 2121,
+    "views": 18158,
     "profile_views": 79,
-    "accounts_engaged": 74
+    "accounts_engaged": 75
   },
   "posts": [
     {
@@ -563,8 +569,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 22,
+      "reach": 24,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -576,8 +582,8 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 76,
-      "views": 100,
+      "reach": 84,
+      "views": 109,
       "saved": 0,
       "shares": 0
     },
@@ -589,8 +595,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 70,
+      "reach": 35,
+      "views": 71,
       "saved": 0,
       "shares": 0
     },
@@ -602,8 +608,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 138,
-      "views": 158,
+      "reach": 139,
+      "views": 159,
       "saved": 1,
       "shares": 2
     },
@@ -615,8 +621,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 129,
-      "views": 150,
+      "reach": 130,
+      "views": 151,
       "saved": 0,
       "shares": 1
     },
@@ -628,8 +634,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 44,
-      "views": 79,
+      "reach": 46,
+      "views": 80,
       "saved": 0,
       "shares": 0
     },
@@ -641,8 +647,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 38,
+      "reach": 22,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -654,8 +660,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "A los chicos les ponés las canciones de Junior Express y la casa entera se convierte en una fiesta selvática. 🦁🎵\n\nConsultá por los títulos disponibles y pasá a retirarlos por Agencia Albor, Carlos Casares.\n\n#topaconlosanimales #carloscasares #juniorpress\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 15,
+      "reach": 14,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -680,8 +686,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 36,
-      "views": 93,
+      "reach": 37,
+      "views": 95,
       "saved": 0,
       "shares": 0
     },
@@ -811,7 +817,7 @@
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 85,
-      "views": 129,
+      "views": 130,
       "saved": 0,
       "shares": 0
     },
@@ -881,7 +887,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-25T18:01:47.375Z",
+  "actualizado": "2026-10-25T19:02:15.656Z",
   "aud": {
     "edad": [
       {
