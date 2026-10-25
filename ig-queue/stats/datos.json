@@ -495,26 +495,26 @@
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 151,
-      "v": 180
+      "a": 157,
+      "v": 183
     },
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 103,
-      "v": 119
+      "a": 108,
+      "v": 122
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 103
+      "a": 100,
+      "v": 104
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 83,
-      "v": 92
+      "a": 85,
+      "v": 93
     }
   },
   "seguidores": {
@@ -540,13 +540,13 @@
     "follows_count": 638,
     "media_count": 605,
     "id": "28888466970748824",
-    "el": "2026-10-25T05:01:40.073Z"
+    "el": "2026-10-25T06:01:39.421Z"
   },
   "res30": {
-    "reach": 2063,
-    "views": 17933,
+    "reach": 2079,
+    "views": 17968,
     "profile_views": 79,
-    "accounts_engaged": 71
+    "accounts_engaged": 72
   },
   "posts": [
     {
@@ -554,11 +554,11 @@
       "timestamp": "2026-10-25T01:02:05+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De5euRpE48h/",
-      "like_count": 2,
+      "like_count": 3,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 41,
-      "views": 61,
+      "reach": 54,
+      "views": 78,
       "saved": 0,
       "shares": 0
     },
@@ -596,8 +596,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 123,
-      "views": 141,
+      "reach": 124,
+      "views": 142,
       "saved": 0,
       "shares": 1
     },
@@ -622,8 +622,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 37,
+      "reach": 21,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -648,8 +648,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 45,
+      "reach": 24,
+      "views": 47,
       "saved": 0,
       "shares": 1
     },
@@ -875,7 +875,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-25T05:01:49.162Z",
+  "actualizado": "2026-10-25T06:01:51.305Z",
   "aud": {
     "edad": [
       {
