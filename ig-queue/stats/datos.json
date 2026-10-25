@@ -495,26 +495,26 @@
     "18077633957487117": {
       "t": "2026-10-24T14:01:55+0000",
       "tipo": "IMAGE",
-      "a": 129,
-      "v": 152
+      "a": 136,
+      "v": 162
     },
     "18097329938427648": {
       "t": "2026-10-24T19:50:07+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 93
+      "a": 85,
+      "v": 102
     },
     "17979379295923036": {
       "t": "2026-10-24T21:01:52+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 77
+      "a": 80,
+      "v": 87
     },
     "18437326537183964": {
       "t": "2026-10-24T23:02:10+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 66
+      "a": 66,
+      "v": 77
     }
   },
   "seguidores": {
@@ -531,7 +531,8 @@
     "2026-10-21": 1390,
     "2026-10-22": 1390,
     "2026-10-23": 1390,
-    "2026-10-24": 1390
+    "2026-10-24": 1390,
+    "2026-10-25": 1390
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -539,11 +540,11 @@
     "follows_count": 638,
     "media_count": 605,
     "id": "28888466970748824",
-    "el": "2026-10-25T02:01:40.806Z"
+    "el": "2026-10-25T03:01:53.749Z"
   },
   "res30": {
-    "reach": 2025,
-    "views": 17771,
+    "reach": 2030,
+    "views": 17830,
     "profile_views": 78,
     "accounts_engaged": 69
   },
@@ -553,11 +554,11 @@
       "timestamp": "2026-10-25T01:02:05+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De5euRpE48h/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 7,
-      "views": 19,
+      "reach": 20,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -608,8 +609,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
-      "views": 69,
+      "reach": 38,
+      "views": 71,
       "saved": 0,
       "shares": 0
     },
@@ -661,7 +662,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 35,
-      "views": 87,
+      "views": 92,
       "saved": 0,
       "shares": 0
     },
@@ -699,8 +700,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 17,
-      "views": 25,
+      "reach": 18,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -725,8 +726,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
-      "views": 31,
+      "reach": 28,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -874,7 +875,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-25T02:01:51.888Z",
+  "actualizado": "2026-10-25T03:02:03.984Z",
   "aud": {
     "edad": [
       {
@@ -1565,6 +1566,10 @@
     "2026-10-23": {
       "a": 367,
       "v": 1209
+    },
+    "2026-10-24": {
+      "a": 235,
+      "v": 856
     }
   }
 }
