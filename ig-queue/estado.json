@@ -67,7 +67,7 @@
     "mvaxd8h75mx",
     "mvaxcc00g0u"
   ],
-  "statsEl": "2026-10-26T22:02:14.554Z",
+  "statsEl": "2026-10-26T23:02:14.978Z",
   "stUltima": {
     "cuando": "2026-10-26T20:01:58.997Z",
     "franja": "17:00",
@@ -75,7 +75,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-26T22:02:02.479Z",
+    "cuando": "2026-10-26T23:01:45.530Z",
     "cola": 147,
     "enRepo": 147,
     "pendientes": []
@@ -111,7 +111,8 @@
   "fdfb": {
     "franjas": {
       "2026-10-26 12:00": "ok",
-      "2026-10-26 17:00": "ok"
+      "2026-10-26 17:00": "ok",
+      "2026-10-26 20:00": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -121,19 +122,22 @@
       "mrcmvl2gs4nrjsef0-fb",
       "mrcmvig01i5uxqlqa-fb",
       "cmvlrphwz-fb",
-      "mrcmvpmo3uzx0q0bp-fb"
+      "mrcmvpmo3uzx0q0bp-fb",
+      "mrcmvph4b9mok297a-fb"
     ],
     "ultima": {
-      "cuando": "2026-10-26T20:02:23.958Z",
-      "franja": "17:00",
+      "cuando": "2026-10-26T23:02:03.335Z",
+      "franja": "20:00",
       "ok": 1,
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26T20:02:23.957Z"
+      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26T20:02:23.957Z",
+      "mrcmvph4b9mok297a-fb": "2026-10-26T23:02:03.335Z"
     },
     "usadosDia": {
-      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26"
+      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26",
+      "mrcmvph4b9mok297a-fb": "2026-10-26"
     }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",

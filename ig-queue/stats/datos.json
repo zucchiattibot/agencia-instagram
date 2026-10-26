@@ -537,8 +537,8 @@
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 112,
-      "v": 125
+      "a": 114,
+      "v": 128
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
@@ -549,26 +549,26 @@
     "18092470613202516": {
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 76
+      "a": 77,
+      "v": 83
     },
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 67
+      "a": 68,
+      "v": 73
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 40
+      "a": 39,
+      "v": 52
     },
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 17,
+      "v": 25
     }
   },
   "seguidores": {
@@ -595,13 +595,13 @@
     "follows_count": 638,
     "media_count": 610,
     "id": "28888466970748824",
-    "el": "2026-10-26T22:02:05.043Z"
+    "el": "2026-10-26T23:02:06.052Z"
   },
   "res30": {
-    "reach": 2912,
-    "views": 19793,
+    "reach": 3140,
+    "views": 20117,
     "profile_views": 83,
-    "accounts_engaged": 139
+    "accounts_engaged": 168
   },
   "posts": [
     {
@@ -612,9 +612,9 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 4,
-      "views": 7,
-      "saved": 0,
+      "reach": 11,
+      "views": 12,
+      "saved": 1,
       "shares": 0
     },
     {
@@ -638,8 +638,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 59,
+      "reach": 22,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -648,13 +648,13 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 48,
-      "comments_count": 1,
+      "like_count": 75,
+      "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 737,
-      "views": 947,
-      "saved": 4,
-      "shares": 10
+      "reach": 957,
+      "views": 1240,
+      "saved": 8,
+      "shares": 14
     },
     {
       "id": "18105392978637980",
@@ -664,8 +664,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 79,
-      "views": 95,
+      "reach": 80,
+      "views": 97,
       "saved": 0,
       "shares": 1
     },
@@ -943,7 +943,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-26T22:02:14.554Z",
+  "actualizado": "2026-10-26T23:02:14.978Z",
   "aud": {
     "edad": [
       {
