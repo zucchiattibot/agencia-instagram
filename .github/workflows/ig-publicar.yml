@@ -1,4 +1,4 @@
-# ig-horario-v5: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
+# ig-horario-v6: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
 name: Publicar en Instagram
 on:
   schedule:
@@ -57,6 +57,10 @@ jobs:
           git add -A ig-queue
           if ! git diff --cached --quiet; then
             git commit -m "ig-auto: estado"
-            git pull --rebase
-            git push
+            for n in 1 2 3 4; do
+              if git pull --rebase -X theirs && git push; then exit 0; fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((n * 5))
+            done
+            exit 1
           fi
