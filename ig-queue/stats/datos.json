@@ -525,32 +525,32 @@
     "18231381847329484": {
       "t": "2026-10-25T19:01:49+0000",
       "tipo": "IMAGE",
-      "a": 124,
-      "v": 135
+      "a": 125,
+      "v": 136
     },
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 108,
+      "a": 109,
       "v": 116
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 87,
-      "v": 100
+      "a": 90,
+      "v": 101
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 94,
+      "a": 96,
       "v": 103
     },
     "18092470613202516": {
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
-      "a": 15,
-      "v": 17
+      "a": 23,
+      "v": 24
     }
   },
   "seguidores": {
@@ -575,17 +575,30 @@
     "username": "agenciaalbor",
     "followers_count": 1391,
     "follows_count": 638,
-    "media_count": 606,
+    "media_count": 607,
     "id": "28888466970748824",
-    "el": "2026-10-26T14:01:48.892Z"
+    "el": "2026-10-26T15:16:49.954Z"
   },
   "res30": {
-    "reach": 2167,
-    "views": 18533,
+    "reach": 2170,
+    "views": 18553,
     "profile_views": 80,
     "accounts_engaged": 77
   },
   "posts": [
+    {
+      "id": "18116247749116839",
+      "timestamp": "2026-10-26T15:16:01+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18105392978637980",
       "timestamp": "2026-10-25T16:55:25+0000",
@@ -620,8 +633,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 38,
-      "views": 74,
+      "reach": 39,
+      "views": 75,
       "saved": 0,
       "shares": 0
     },
@@ -633,8 +646,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 141,
-      "views": 161,
+      "reach": 142,
+      "views": 162,
       "saved": 1,
       "shares": 2
     },
@@ -711,7 +724,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 39,
+      "reach": 40,
       "views": 100,
       "saved": 0,
       "shares": 0
@@ -880,8 +893,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para que tus comidas salgan justas y no se peguen nada, sumar una buena olla a la hornalla es un viaje de ida. 🥘 ¿Ya sabés qué vas a preparar primero? Escribinos y reservala hoy en Agencia Albor, Carlos Casares. \n#olla #carloscasares #bateria\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 115,
-      "views": 154,
+      "reach": 116,
+      "views": 156,
       "saved": 0,
       "shares": 0
     },
@@ -897,22 +910,9 @@
       "views": 18,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18077145140721796",
-      "timestamp": "2026-10-15T20:50:29+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/Deh2vQ1gEmB/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Las jugadas imposibles de Oliver Atom y compañía directo al recuerdo de las tardes frente a la tele.\n\n#miniatura #deporte #carloscasares #SuperCampeones",
-      "reach": 42,
-      "views": 49,
-      "saved": 0,
-      "shares": 1
     }
   ],
-  "actualizado": "2026-10-26T14:01:58.532Z",
+  "actualizado": "2026-10-26T15:16:59.072Z",
   "aud": {
     "edad": [
       {
