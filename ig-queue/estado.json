@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-26 09:00": "ok"
+    "2026-10-26 09:00": "ok",
+    "2026-10-26 12:30": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -61,34 +62,40 @@
     "mvjo0vz4xbo",
     "mvax1cewvb2",
     "mvauzcv45l7",
-    "mvawzwbrs5r"
+    "mvawzwbrs5r",
+    "mvaxd8h75mx"
   ],
   "statsEl": "2026-10-26T15:16:59.072Z",
   "stUltima": {
-    "cuando": "2026-10-26T12:02:01.247Z",
-    "franja": "09:00",
+    "cuando": "2026-10-26T16:03:27.319Z",
+    "franja": "12:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-26T15:16:37.026Z",
+    "cuando": "2026-10-26T16:03:11.394Z",
     "cola": 145,
     "enRepo": 145,
-    "pendientes": []
+    "pendientes": [
+      "12:30"
+    ]
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-10-26 13:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
       "mrcmvjw5vgqq1prmt-ig",
       "mrcmvjw60jjyli615-ig",
       "mrcmvl2gs4nrjsef0-ig",
-      "mrcmvig01i5uxqlqa-ig"
+      "mrcmvig01i5uxqlqa-ig",
+      "cmvlrphwz-ig"
     ],
     "ultima": {
-      "cuando": "2026-10-25T01:02:09.881Z",
-      "franja": "21:30",
+      "cuando": "2026-10-26T16:03:57.543Z",
+      "franja": "13:00",
       "ok": 1,
       "fallos": 0
     }
@@ -114,5 +121,5 @@
     }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvawzwbrs5r"
+  "stUltimaId": "mvaxd8h75mx"
 }
