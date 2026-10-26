@@ -65,7 +65,7 @@
     "mvax1cewvb2",
     "mvauzcv45l7"
   ],
-  "statsEl": "2026-10-26T01:02:00.265Z",
+  "statsEl": "2026-10-26T02:01:51.381Z",
   "stUltima": {
     "cuando": "2026-10-25T23:03:50.279Z",
     "franja": "20:00",
@@ -73,7 +73,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-26T01:01:43.842Z",
+    "cuando": "2026-10-26T02:01:37.900Z",
     "cola": 145,
     "enRepo": 145,
     "pendientes": []
