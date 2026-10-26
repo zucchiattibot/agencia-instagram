@@ -437,33 +437,6 @@
       "ord": 1793037963781
     },
     {
-      "id": "mrcmvpmpgcwtrr132-ig",
-      "matId": "rcmvpmpgcwtrr132",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg",
-      "caption": "¿Cuántas horas de lectura asegurada te faltan en la mesita de luz? 📚 Pasá por Agencia Albor y reservá tus títulos preferidos de Florencia Bonelli para renovar tu biblioteca este fin de semana.\n\nComentá LIBRO y te pasamos el detalle por mensaje.\n\n#florenciabonelli #novela #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793041838135
-    },
-    {
-      "id": "mrcmvpmp8sh4556i0-ig",
-      "matId": "rcmvpmp8sh4556i0",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
-      "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793041856665
-    },
-    {
-      "id": "mrcmvpmp2c7ea4bhb-ig",
-      "matId": "rcmvpmp2c7ea4bhb",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
-      "caption": "Cada quincena podés sumar una nueva entrega de esta historia que te vuelve a atrapar desde la primera línea. Pasá por Agencia Albor y asegurate tus ejemplares antes de que se agoten.\n\n🔗 Link directo en la bio\n\n#florenciabonelli #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793041870679
-    },
-    {
       "id": "mrcmvpmo3uzx0q0bp-ig",
       "matId": "rcmvpmo3uzx0q0bp",
       "tipo": "video",
@@ -471,6 +444,25 @@
       "media": "ig-queue/feed/media/rcmvpmo3uzx0q0bp.mp4",
       "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "ord": 1793041920252
+    },
+    {
+      "id": "cmvpmxan2-ig",
+      "matId": "rcmvpmp8sh4556i0",
+      "matIds": [
+        "rcmvpmp8sh4556i0",
+        "rcmvpmp2c7ea4bhb",
+        "rcmvpmpgcwtrr132"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+        "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
+        "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg"
+      ],
+      "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1793041870679
     }
   ]
 }
