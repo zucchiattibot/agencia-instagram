@@ -531,38 +531,38 @@
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 125,
-      "v": 133
+      "a": 127,
+      "v": 136
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 108,
-      "v": 120
+      "a": 110,
+      "v": 123
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 115,
-      "v": 123
+      "a": 117,
+      "v": 127
     },
     "18092470613202516": {
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 63
+      "a": 66,
+      "v": 70
     },
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 47
+      "a": 54,
+      "v": 58
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 11,
+      "v": 26
     }
   },
   "seguidores": {
@@ -587,17 +587,30 @@
     "username": "agenciaalbor",
     "followers_count": 1392,
     "follows_count": 638,
-    "media_count": 609,
+    "media_count": 610,
     "id": "28888466970748824",
-    "el": "2026-10-26T20:02:27.066Z"
+    "el": "2026-10-26T21:02:23.374Z"
   },
   "res30": {
-    "reach": 2531,
-    "views": 19217,
-    "profile_views": 82,
-    "accounts_engaged": 101
+    "reach": 2648,
+    "views": 19436,
+    "profile_views": 83,
+    "accounts_engaged": 115
   },
   "posts": [
+    {
+      "id": "18468217279142042",
+      "timestamp": "2026-10-26T21:02:14+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/De-M3MYDEUb/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18096380111453858",
       "timestamp": "2026-10-26T18:01:52+0000",
@@ -606,8 +619,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 9,
+      "reach": 6,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -619,8 +632,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 51,
+      "reach": 20,
+      "views": 57,
       "saved": 0,
       "shares": 0
     },
@@ -629,12 +642,12 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 22,
+      "like_count": 36,
       "comments_count": 1,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 327,
-      "views": 480,
-      "saved": 1,
+      "reach": 471,
+      "views": 688,
+      "saved": 2,
       "shares": 1
     },
     {
@@ -924,7 +937,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-26T20:02:36.927Z",
+  "actualizado": "2026-10-26T21:02:31.090Z",
   "aud": {
     "edad": [
       {
