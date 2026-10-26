@@ -3,7 +3,8 @@
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
     "2026-10-26 09:00": "ok",
-    "2026-10-26 12:30": "ok"
+    "2026-10-26 12:30": "ok",
+    "2026-10-26 17:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -63,20 +64,23 @@
     "mvax1cewvb2",
     "mvauzcv45l7",
     "mvawzwbrs5r",
-    "mvaxd8h75mx"
+    "mvaxd8h75mx",
+    "mvaxcc00g0u"
   ],
-  "statsEl": "2026-10-26T19:01:57.531Z",
+  "statsEl": "2026-10-26T20:02:36.927Z",
   "stUltima": {
-    "cuando": "2026-10-26T16:03:27.319Z",
-    "franja": "12:30",
+    "cuando": "2026-10-26T20:01:58.997Z",
+    "franja": "17:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-26T19:01:45.355Z",
-    "cola": 145,
-    "enRepo": 145,
-    "pendientes": []
+    "cuando": "2026-10-26T20:01:43.990Z",
+    "cola": 147,
+    "enRepo": 147,
+    "pendientes": [
+      "17:00"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -102,7 +106,8 @@
   },
   "fdfb": {
     "franjas": {
-      "2026-10-26 12:00": "ok"
+      "2026-10-26 12:00": "ok",
+      "2026-10-26 17:00": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -111,19 +116,28 @@
       "mrcmvjw60jjyli615-fb",
       "mrcmvl2gs4nrjsef0-fb",
       "mrcmvig01i5uxqlqa-fb",
-      "cmvlrphwz-fb"
+      "cmvlrphwz-fb",
+      "mrcmvpmo3uzx0q0bp-fb"
     ],
     "ultima": {
-      "cuando": "2026-10-26T15:16:48.311Z",
-      "franja": "12:00",
+      "cuando": "2026-10-26T20:02:23.958Z",
+      "franja": "17:00",
       "ok": 1,
       "fallos": 0
     },
-    "publicadoEn": {},
-    "usadosDia": {}
+    "publicadoEn": {
+      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26T20:02:23.957Z"
+    },
+    "usadosDia": {
+      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26"
+    }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvaxd8h75mx",
-  "stPublicadoEn": {},
-  "stUsadosDia": {}
+  "stUltimaId": "mvaxcc00g0u",
+  "stPublicadoEn": {
+    "mvaxcc00g0u": "2026-10-26T20:01:58.997Z"
+  },
+  "stUsadosDia": {
+    "mvaxcc00g0u": "2026-10-26"
+  }
 }

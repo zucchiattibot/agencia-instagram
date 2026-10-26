@@ -531,32 +531,38 @@
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 122,
-      "v": 130
+      "a": 125,
+      "v": 133
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 105,
-      "v": 118
+      "a": 108,
+      "v": 120
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 111,
-      "v": 121
+      "a": 115,
+      "v": 123
     },
     "18092470613202516": {
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
-      "a": 56,
-      "v": 59
+      "a": 60,
+      "v": 63
     },
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 42
+      "a": 44,
+      "v": 47
+    },
+    "18153887572556378": {
+      "t": "2026-10-26T20:01:49+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -583,13 +589,13 @@
     "follows_count": 638,
     "media_count": 609,
     "id": "28888466970748824",
-    "el": "2026-10-26T19:01:48.025Z"
+    "el": "2026-10-26T20:02:27.066Z"
   },
   "res30": {
-    "reach": 2427,
-    "views": 19068,
+    "reach": 2531,
+    "views": 19217,
     "profile_views": 82,
-    "accounts_engaged": 92
+    "accounts_engaged": 101
   },
   "posts": [
     {
@@ -600,8 +606,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 3,
-      "views": 4,
+      "reach": 5,
+      "views": 9,
       "saved": 0,
       "shares": 0
     },
@@ -623,13 +629,13 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 13,
+      "like_count": 22,
       "comments_count": 1,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 235,
-      "views": 309,
+      "reach": 327,
+      "views": 480,
       "saved": 1,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "18105392978637980",
@@ -639,7 +645,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 77,
+      "reach": 78,
       "views": 93,
       "saved": 0,
       "shares": 1
@@ -718,7 +724,7 @@
       "comments_count": 0,
       "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 25,
-      "views": 48,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -918,7 +924,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-26T19:01:57.531Z",
+  "actualizado": "2026-10-26T20:02:36.927Z",
   "aud": {
     "edad": [
       {
