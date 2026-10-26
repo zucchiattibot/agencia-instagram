@@ -429,33 +429,6 @@
       "ord": 1793037983122
     },
     {
-      "id": "mrcmvpmpgcwtrr132-fb",
-      "matId": "rcmvpmpgcwtrr132",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg",
-      "caption": "¿Sabías que podés tener todas las novelas de Florencia Bonelli juntas en tu biblioteca personal? 📚✨ \n\nSi sos de las que disfrutan de sumergirse en historias intensas y personajes que te marcan, esta colección es justo lo que te falta en la mesita de luz. Títulos como *Indias Blancas* y la saga *La Casa Neville* vienen en esta edición de lujo para que los disfrutes de principio a fin. \n\nPodes pasar a reservar los tuyos por Agencia Albor, en Maipú 175, Carlos Casares, o mandarnos un mensaje privado por acá o al WhatsApp para asegurarte cada entrega. ¿Qué título querés sumar primero?\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793041927210
-    },
-    {
-      "id": "mrcmvpmp8sh4556i0-fb",
-      "matId": "rcmvpmp8sh4556i0",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
-      "caption": "Ese momento en el que prometés \"un capítulo más y a dormir\", son las tres de la mañana y seguís leyendo con los ojos colorados. Si ya sabés de qué hablamos, esta nueva entrega de Florencia Bonelli es justo lo que estabas esperando para sumar a tus libres. Escribinos un mensaje privado o pasá por Agencia Albor en Carlos Casares para asegurar tu ejemplar antes de que se agote.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793041934175
-    },
-    {
-      "id": "mrcmvpmp2c7ea4bhb-fb",
-      "matId": "rcmvpmp2c7ea4bhb",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
-      "caption": "¿Y si este año el regalo más lindo que hacés es una colección entera para devorar en silencio? 🎁 Las novelas que tanto le gustan ahora vienen en entregas quincenales ideales para sorprender a alguien especial. \n\nMandanos un mensaje privado o escribinos por WhatsApp para encargarla, o pasá directamente a vernos por Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793041947190
-    },
-    {
       "id": "mrcmvpmo3uzx0q0bp-fb",
       "matId": "rcmvpmo3uzx0q0bp",
       "tipo": "video",
@@ -463,6 +436,25 @@
       "media": "ig-queue/feed/media/rcmvpmo3uzx0q0bp.mp4",
       "caption": "Para todas las que buscan una lectura atrapante para cortar el día o relajarse a la noche, esta colección de Florencia Bonelli es una compañía ideal 📖 Las historias de La Casa Neville tienen ese ritmo que te engancha y hace que el tiempo pase volando entre página y página. Escribinos un mensaje privado o pasá por Agencia Albor para encargarla.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "ord": 1793041957868
+    },
+    {
+      "id": "cmvpmxan2-fb",
+      "matId": "rcmvpmp8sh4556i0",
+      "matIds": [
+        "rcmvpmp8sh4556i0",
+        "rcmvpmp2c7ea4bhb",
+        "rcmvpmpgcwtrr132"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+        "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
+        "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg"
+      ],
+      "caption": "Ese momento en el que prometés \"un capítulo más y a dormir\", son las tres de la mañana y seguís leyendo con los ojos colorados. Si ya sabés de qué hablamos, esta nueva entrega de Florencia Bonelli es justo lo que estabas esperando para sumar a tus libres. Escribinos un mensaje privado o pasá por Agencia Albor en Carlos Casares para asegurar tu ejemplar antes de que se agote.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1793041947190
     }
   ]
 }
