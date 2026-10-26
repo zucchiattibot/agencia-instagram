@@ -519,32 +519,32 @@
     "17889884238653134": {
       "t": "2026-10-25T14:39:21+0000",
       "tipo": "VIDEO",
-      "a": 133,
-      "v": 149
+      "a": 135,
+      "v": 152
     },
     "18231381847329484": {
       "t": "2026-10-25T19:01:49+0000",
       "tipo": "IMAGE",
-      "a": 105,
-      "v": 116
+      "a": 107,
+      "v": 118
     },
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 90
+      "a": 86,
+      "v": 92
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 63,
-      "v": 76
+      "a": 66,
+      "v": 79
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 76
+      "a": 71,
+      "v": 79
     }
   },
   "seguidores": {
@@ -571,11 +571,11 @@
     "follows_count": 638,
     "media_count": 606,
     "id": "28888466970748824",
-    "el": "2026-10-26T03:01:44.511Z"
+    "el": "2026-10-26T04:01:35.626Z"
   },
   "res30": {
     "reach": 2172,
-    "views": 18728,
+    "views": 18757,
     "profile_views": 80,
     "accounts_engaged": 77
   },
@@ -588,8 +588,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
-      "views": 52,
+      "reach": 41,
+      "views": 54,
       "saved": 0,
       "shares": 1
     },
@@ -614,7 +614,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
+      "reach": 38,
       "views": 74,
       "saved": 0,
       "shares": 0
@@ -836,7 +836,7 @@
       "comments_count": 0,
       "caption": "Revivir cada jugada y la emoción de verlo levantar la copa es el regalo perfecto para ese fanático que no se pierde un solo partido. ⚽ Comentá REGALO y te mandamos toda la info para reservarlo en Agencia Albor.\n\n#gastonedul #messi #carloscasares #revolucionmessi\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 87,
-      "views": 131,
+      "views": 132,
       "saved": 0,
       "shares": 0
     },
@@ -861,8 +861,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hacerse la desentendida cuando toca lavar la bifera después de comer es un clásico, pero con esta antiadherente de titanio la limpieza dura dos minutos 🍳\nTe esperamos en Agencia Albor, Carlos Casares para encargar la tuya.\n\n#bifera #soklingen #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 54,
-      "views": 80,
+      "reach": 55,
+      "views": 81,
       "saved": 0,
       "shares": 0
     },
@@ -906,7 +906,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-26T03:01:55.547Z",
+  "actualizado": "2026-10-26T04:01:44.181Z",
   "aud": {
     "edad": [
       {
@@ -935,14 +935,14 @@
           "35-44",
           "F"
         ],
-        "v": 263
+        "v": 262
       },
       {
         "d": [
           "45-54",
           "F"
         ],
-        "v": 191
+        "v": 192
       },
       {
         "d": [
@@ -1060,13 +1060,19 @@
     "ciudades": [
       {
         "d": [
-          "Dudignac, Buenos Aires"
+          "Santiago de Cali, Valle del Cauca"
         ],
         "v": 1
       },
       {
         "d": [
-          "Chivilcoy, Buenos Aires"
+          "Ramos Mejía, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Palhoça, Santa Catarina"
         ],
         "v": 1
       },
@@ -1090,33 +1096,9 @@
       },
       {
         "d": [
-          "Guatire, Miranda (state)"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Alberti, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "San Luis, San Luis"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Gammel Vejlby, Central Denmark Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Berazategui, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1128,7 +1110,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 21
+        "v": 22
       },
       {
         "d": [
@@ -1138,15 +1120,15 @@
       },
       {
         "d": [
-          "José León Suárez, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
+      },
+      {
+        "d": [
+          "Longchamps, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1156,13 +1138,13 @@
       },
       {
         "d": [
-          "Mar del Plata, Buenos Aires"
+          "Las Toscas, Buenos Aires"
         ],
         "v": 5
       },
       {
         "d": [
-          "Las Toscas, Buenos Aires"
+          "Mar del Plata, Buenos Aires"
         ],
         "v": 5
       },
@@ -1171,12 +1153,6 @@
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 28
-      },
-      {
-        "d": [
-          "Elsmere, Delaware"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1194,13 +1170,7 @@
         "d": [
           "Moctezuma, Buenos Aires"
         ],
-        "v": 17
-      },
-      {
-        "d": [
-          "Pergamino, Buenos Aires"
-        ],
-        "v": 1
+        "v": 16
       },
       {
         "d": [
@@ -1216,9 +1186,9 @@
       },
       {
         "d": [
-          "General La Madrid, Buenos Aires"
+          "González Catán, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -1228,19 +1198,19 @@
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "López Mateos, State of Mexico"
+          "Talca, Maule Region"
         ],
         "v": 1
       },
       {
         "d": [
-          "Lobos, Buenos Aires"
+          "Miramar, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Francisco Madero, Buenos Aires"
         ],
         "v": 1
       },
@@ -1254,7 +1224,13 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1076
+        "v": 1074
+      },
+      {
+        "d": [
+          "Ituzaingó, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1282,6 +1258,12 @@
       },
       {
         "d": [
+          "Patricios, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Bellocq, Buenos Aires"
         ],
         "v": 3
@@ -1294,13 +1276,13 @@
       },
       {
         "d": [
-          "Venado Tuerto, Santa Fe"
+          "San Gregorio, Santa Fe"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Venado Tuerto, Santa Fe"
         ],
         "v": 2
       },
@@ -1312,15 +1294,33 @@
       },
       {
         "d": [
+          "Chos Malal, Neuquén"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
       },
       {
         "d": [
+          "Los Cóndores, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 12
+        "v": 13
+      },
+      {
+        "d": [
+          "Valentín Alsina, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1427,7 +1427,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-25T07:01:57.716Z"
+    "el": "2026-10-26T04:01:43.126Z"
   },
   "dias": {
     "2026-10-11": {
