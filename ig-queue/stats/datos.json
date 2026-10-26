@@ -519,32 +519,32 @@
     "17889884238653134": {
       "t": "2026-10-25T14:39:21+0000",
       "tipo": "VIDEO",
-      "a": 128,
-      "v": 145
+      "a": 133,
+      "v": 149
     },
     "18231381847329484": {
       "t": "2026-10-25T19:01:49+0000",
       "tipo": "IMAGE",
-      "a": 101,
-      "v": 111
+      "a": 105,
+      "v": 116
     },
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 83
+      "a": 82,
+      "v": 90
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 56,
-      "v": 64
+      "a": 63,
+      "v": 76
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 68
+      "a": 69,
+      "v": 76
     }
   },
   "seguidores": {
@@ -562,7 +562,8 @@
     "2026-10-22": 1390,
     "2026-10-23": 1390,
     "2026-10-24": 1390,
-    "2026-10-25": 1391
+    "2026-10-25": 1391,
+    "2026-10-26": 1391
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -570,13 +571,13 @@
     "follows_count": 638,
     "media_count": 606,
     "id": "28888466970748824",
-    "el": "2026-10-26T02:01:40.379Z"
+    "el": "2026-10-26T03:01:44.511Z"
   },
   "res30": {
-    "reach": 2161,
-    "views": 18693,
+    "reach": 2172,
+    "views": 18728,
     "profile_views": 80,
-    "accounts_engaged": 76
+    "accounts_engaged": 77
   },
   "posts": [
     {
@@ -584,13 +585,13 @@
       "timestamp": "2026-10-25T16:55:25+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De7L0qwCnE8/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
-      "views": 45,
+      "reach": 37,
+      "views": 52,
       "saved": 0,
-      "shares": 0
+      "shares": 1
     },
     {
       "id": "18032263289889342",
@@ -600,7 +601,7 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 108,
+      "reach": 109,
       "views": 136,
       "saved": 1,
       "shares": 0
@@ -614,7 +615,7 @@
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 37,
-      "views": 73,
+      "views": 74,
       "saved": 0,
       "shares": 0
     },
@@ -626,8 +627,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 140,
-      "views": 160,
+      "reach": 141,
+      "views": 161,
       "saved": 1,
       "shares": 2
     },
@@ -652,8 +653,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 48,
-      "views": 82,
+      "reach": 49,
+      "views": 83,
       "saved": 0,
       "shares": 0
     },
@@ -905,7 +906,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-26T02:01:51.381Z",
+  "actualizado": "2026-10-26T03:01:55.547Z",
   "aud": {
     "edad": [
       {
@@ -1600,6 +1601,10 @@
     "2026-10-24": {
       "a": 235,
       "v": 856
+    },
+    "2026-10-25": {
+      "a": 261,
+      "v": 951
     }
   }
 }
