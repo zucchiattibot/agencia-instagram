@@ -525,32 +525,38 @@
     "18231381847329484": {
       "t": "2026-10-25T19:01:49+0000",
       "tipo": "IMAGE",
-      "a": 125,
-      "v": 136
+      "a": 129,
+      "v": 142
     },
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 109,
-      "v": 116
+      "a": 115,
+      "v": 123
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 90,
-      "v": 101
+      "a": 95,
+      "v": 109
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 103
+      "a": 102,
+      "v": 111
     },
     "18092470613202516": {
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
-      "a": 23,
-      "v": 24
+      "a": 39,
+      "v": 44
+    },
+    "18118124437996348": {
+      "t": "2026-10-26T16:03:17+0000",
+      "tipo": "IMAGE",
+      "a": 8,
+      "v": 19
     }
   },
   "seguidores": {
@@ -569,34 +575,47 @@
     "2026-10-23": 1390,
     "2026-10-24": 1390,
     "2026-10-25": 1391,
-    "2026-10-26": 1391
+    "2026-10-26": 1392
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1391,
+    "followers_count": 1392,
     "follows_count": 638,
-    "media_count": 607,
+    "media_count": 608,
     "id": "28888466970748824",
-    "el": "2026-10-26T15:16:49.954Z"
+    "el": "2026-10-26T16:57:19.285Z"
   },
   "res30": {
-    "reach": 2170,
-    "views": 18553,
-    "profile_views": 80,
-    "accounts_engaged": 77
+    "reach": 2285,
+    "views": 18773,
+    "profile_views": 81,
+    "accounts_engaged": 85
   },
   "posts": [
+    {
+      "id": "17951338041300061",
+      "timestamp": "2026-10-26T16:03:53+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/De9qwhRmjH7/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 7,
+      "views": 22,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18116247749116839",
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 0,
+      "like_count": 7,
       "comments_count": 0,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
-      "saved": 0,
+      "reach": 115,
+      "views": 159,
+      "saved": 1,
       "shares": 0
     },
     {
@@ -607,8 +626,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 44,
-      "views": 58,
+      "reach": 60,
+      "views": 90,
       "saved": 0,
       "shares": 1
     },
@@ -634,7 +653,7 @@
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 39,
-      "views": 75,
+      "views": 76,
       "saved": 0,
       "shares": 0
     },
@@ -672,8 +691,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 50,
-      "views": 85,
+      "reach": 51,
+      "views": 86,
       "saved": 0,
       "shares": 0
     },
@@ -750,8 +769,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 155,
-      "views": 195,
+      "reach": 156,
+      "views": 196,
       "saved": 0,
       "shares": 5
     },
@@ -867,8 +886,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Si tenés que hacerle un regalo a esa amiga que se devora los libros en dos días, ya sabés con qué la vas a sorprender. Las novelas de Florencia Bonelli son un viaje directo a otra época y una apuesta segura. 📚✨\n\nPedime los títulos disponibles por mensaje privado y te los armamos para regalar en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #carloscasares #novelasromanticas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
-      "views": 117,
+      "reach": 53,
+      "views": 119,
       "saved": 0,
       "shares": 0
     },
@@ -897,22 +916,9 @@
       "views": 156,
       "saved": 0,
       "shares": 0
-    },
-    {
-      "id": "18111298763144526",
-      "timestamp": "2026-10-16T18:01:59+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DekISVNjM_D/",
-      "like_count": 0,
-      "comments_count": 0,
-      "caption": "Renovar las hornallas con ollas que distribuyen bien el calor cambia por completo el almuerzo de todos los días. 🍳 ¿Cuál es tu receta infalible para arrancar el fin de semana?\n#bateria #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 18,
-      "saved": 0,
-      "shares": 0
     }
   ],
-  "actualizado": "2026-10-26T15:16:59.072Z",
+  "actualizado": "2026-10-26T16:57:28.754Z",
   "aud": {
     "edad": [
       {
