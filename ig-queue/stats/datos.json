@@ -519,32 +519,38 @@
     "17889884238653134": {
       "t": "2026-10-25T14:39:21+0000",
       "tipo": "VIDEO",
-      "a": 142,
-      "v": 160
+      "a": 144,
+      "v": 161
     },
     "18231381847329484": {
       "t": "2026-10-25T19:01:49+0000",
       "tipo": "IMAGE",
-      "a": 117,
-      "v": 128
+      "a": 118,
+      "v": 129
     },
     "18122267104943946": {
       "t": "2026-10-25T22:01:42+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 107
+      "a": 102,
+      "v": 108
     },
     "18119181586969228": {
       "t": "2026-10-25T23:03:17+0000",
       "tipo": "VIDEO",
-      "a": 78,
-      "v": 90
+      "a": 81,
+      "v": 92
     },
     "18113172179465552": {
       "t": "2026-10-25T23:01:47+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 94
+      "a": 88,
+      "v": 95
+    },
+    "18092470613202516": {
+      "t": "2026-10-26T12:01:53+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -571,11 +577,11 @@
     "follows_count": 638,
     "media_count": 606,
     "id": "28888466970748824",
-    "el": "2026-10-26T11:01:47.096Z"
+    "el": "2026-10-26T12:02:03.544Z"
   },
   "res30": {
     "reach": 2164,
-    "views": 18464,
+    "views": 18478,
     "profile_views": 80,
     "accounts_engaged": 77
   },
@@ -706,7 +712,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 38,
-      "views": 98,
+      "views": 99,
       "saved": 0,
       "shares": 0
     },
@@ -906,7 +912,7 @@
       "shares": 1
     }
   ],
-  "actualizado": "2026-10-26T11:01:56.765Z",
+  "actualizado": "2026-10-26T12:02:13.236Z",
   "aud": {
     "edad": [
       {
