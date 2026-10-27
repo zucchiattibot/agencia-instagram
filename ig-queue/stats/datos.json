@@ -555,8 +555,8 @@
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 121,
-      "v": 128
+      "a": 122,
+      "v": 130
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
@@ -579,8 +579,14 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 25,
-      "v": 27
+      "a": 31,
+      "v": 34
+    },
+    "18199694593387956": {
+      "t": "2026-10-27T16:02:20+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -606,17 +612,30 @@
     "username": "agenciaalbor",
     "followers_count": 1393,
     "follows_count": 638,
-    "media_count": 611,
+    "media_count": 612,
     "id": "28888466970748824",
-    "el": "2026-10-27T15:02:09.684Z"
+    "el": "2026-10-27T16:02:42.617Z"
   },
   "res30": {
-    "reach": 3757,
-    "views": 21309,
+    "reach": 3789,
+    "views": 21366,
     "profile_views": 85,
-    "accounts_engaged": 212
+    "accounts_engaged": 216
   },
   "posts": [
+    {
+      "id": "18134494294781494",
+      "timestamp": "2026-10-27T16:02:37+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfAPZ18oJph/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18397735318162617",
       "timestamp": "2026-10-27T00:37:26+0000",
@@ -625,8 +644,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 38,
+      "reach": 36,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -652,7 +671,7 @@
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 12,
-      "views": 17,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -674,13 +693,13 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 106,
+      "like_count": 108,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1525,
-      "views": 1875,
-      "saved": 21,
-      "shares": 23
+      "reach": 1548,
+      "views": 1913,
+      "saved": 22,
+      "shares": 24
     },
     {
       "id": "18105392978637980",
@@ -716,8 +735,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 40,
-      "views": 78,
+      "reach": 41,
+      "views": 79,
       "saved": 0,
       "shares": 0
     },
@@ -794,8 +813,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
-      "views": 57,
+      "reach": 31,
+      "views": 58,
       "saved": 0,
       "shares": 1
     },
@@ -846,8 +865,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "El ritual de escuchar un buen disco en vinilo tiene otra magia, y volver a conectar con esos discos que marcaron la historia del rock nacional no tiene precio 🎸 Las mejores bandas de nuestra música suenan distinto en este formato. \n\nMandanos un WhatsApp al 2395 41-7834 o pasá a reservar el tuyo por Agencia Albor, Carlos Casares. \n\n#rocknacional #carloscasares #chaco #babasonicos",
-      "reach": 24,
-      "views": 32,
+      "reach": 25,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -872,7 +891,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
+      "reach": 31,
       "views": 35,
       "saved": 0,
       "shares": 0
@@ -969,7 +988,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-27T15:02:21.857Z",
+  "actualizado": "2026-10-27T16:02:51.709Z",
   "aud": {
     "edad": [
       {

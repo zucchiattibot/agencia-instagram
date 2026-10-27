@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
-    "2026-10-27 09:00": "ok"
+    "2026-10-27 09:00": "ok",
+    "2026-10-27 12:30": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -65,23 +66,28 @@
     "mvaxd8h75mx",
     "mvaxcc00g0u",
     "mvav2qo0aoq",
-    "mvax5l62d07"
+    "mvax5l62d07",
+    "mvid6f0o4ne"
   ],
-  "statsEl": "2026-10-27T15:02:21.857Z",
+  "statsEl": "2026-10-27T16:02:51.709Z",
   "stUltima": {
-    "cuando": "2026-10-27T12:02:40.111Z",
-    "franja": "09:00",
+    "cuando": "2026-10-27T16:02:29.654Z",
+    "franja": "12:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-27T15:02:02.445Z",
+    "cuando": "2026-10-27T16:02:12.396Z",
     "cola": 150,
     "enRepo": 150,
-    "pendientes": []
+    "pendientes": [
+      "12:30"
+    ]
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-10-27 13:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
@@ -91,19 +97,23 @@
       "mrcmvig01i5uxqlqa-ig",
       "cmvlrphwz-ig",
       "mrcmvpmo3uzx0q0bp-ig",
-      "mrcmvph4b9mok297a-ig"
+      "mrcmvph4b9mok297a-ig",
+      "mrcmvqsm5x4etos0t-ig"
     ],
     "ultima": {
-      "cuando": "2026-10-27T00:37:31.504Z",
-      "franja": "21:30",
+      "cuando": "2026-10-27T16:02:40.275Z",
+      "franja": "13:00",
       "ok": 1,
       "fallos": 0
     },
     "publicadoEn": {
       "mrcmvpmo3uzx0q0bp-ig": "2026-10-26T21:02:20.761Z",
-      "mrcmvph4b9mok297a-ig": "2026-10-27T00:37:31.503Z"
+      "mrcmvph4b9mok297a-ig": "2026-10-27T00:37:31.503Z",
+      "mrcmvqsm5x4etos0t-ig": "2026-10-27T16:02:40.274Z"
     },
-    "usadosDia": {}
+    "usadosDia": {
+      "mrcmvqsm5x4etos0t-ig": "2026-10-27"
+    }
   },
   "fdfb": {
     "franjas": {
@@ -137,13 +147,15 @@
     }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvax5l62d07",
+  "stUltimaId": "mvid6f0o4ne",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
-    "mvax5l62d07": "2026-10-27T12:02:40.111Z"
+    "mvax5l62d07": "2026-10-27T12:02:40.111Z",
+    "mvid6f0o4ne": "2026-10-27T16:02:29.654Z"
   },
   "stUsadosDia": {
-    "mvax5l62d07": "2026-10-27"
+    "mvax5l62d07": "2026-10-27",
+    "mvid6f0o4ne": "2026-10-27"
   }
 }
