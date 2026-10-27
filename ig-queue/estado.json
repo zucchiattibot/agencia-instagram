@@ -4,9 +4,7 @@
   "stFranjas": {
     "2026-10-27 09:00": "ok",
     "2026-10-27 12:30": "ok",
-    "2026-10-27 17:00": {
-      "intentos": 1
-    }
+    "2026-10-27 17:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -70,17 +68,18 @@
     "mvaxcc00g0u",
     "mvav2qo0aoq",
     "mvax5l62d07",
-    "mvid6f0o4ne"
+    "mvid6f0o4ne",
+    "mvawxs3ahwh"
   ],
   "statsEl": "2026-10-27T20:02:39.519Z",
   "stUltima": {
-    "cuando": "2026-10-27T20:02:27.481Z",
+    "cuando": "2026-10-27T20:39:32.159Z",
     "franja": "17:00",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-27T20:02:17.108Z",
+    "cuando": "2026-10-27T20:39:16.879Z",
     "cola": 163,
     "enRepo": 163,
     "pendientes": [
@@ -150,16 +149,17 @@
     }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvid6f0o4ne",
+  "stUltimaId": "mvawxs3ahwh",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
     "mvax5l62d07": "2026-10-27T12:02:40.111Z",
-    "mvid6f0o4ne": "2026-10-27T16:02:29.654Z"
+    "mvid6f0o4ne": "2026-10-27T16:02:29.654Z",
+    "mvawxs3ahwh": "2026-10-27T20:39:32.159Z"
   },
   "stUsadosDia": {
     "mvax5l62d07": "2026-10-27",
-    "mvid6f0o4ne": "2026-10-27"
-  },
-  "stError": "Instagram no pudo procesar el archivo (ERROR)."
+    "mvid6f0o4ne": "2026-10-27",
+    "mvawxs3ahwh": "2026-10-27"
+  }
 }
