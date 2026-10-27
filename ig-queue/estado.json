@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {
-    "2026-10-26 09:00": "ok",
-    "2026-10-26 12:30": "ok",
-    "2026-10-26 17:00": "ok",
-    "2026-10-26 20:30": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -69,7 +64,7 @@
     "mvaxcc00g0u",
     "mvav2qo0aoq"
   ],
-  "statsEl": "2026-10-27T02:01:52.950Z",
+  "statsEl": "2026-10-27T03:01:50.706Z",
   "stUltima": {
     "cuando": "2026-10-27T00:02:44.757Z",
     "franja": "20:30",
@@ -77,17 +72,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-27T02:01:40.174Z",
+    "cuando": "2026-10-27T03:01:41.048Z",
     "cola": 147,
     "enRepo": 147,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-10-26 13:00": "ok",
-      "2026-10-26 18:00": "ok",
-      "2026-10-26 21:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
@@ -109,17 +100,10 @@
       "mrcmvpmo3uzx0q0bp-ig": "2026-10-26T21:02:20.761Z",
       "mrcmvph4b9mok297a-ig": "2026-10-27T00:37:31.503Z"
     },
-    "usadosDia": {
-      "mrcmvpmo3uzx0q0bp-ig": "2026-10-26",
-      "mrcmvph4b9mok297a-ig": "2026-10-26"
-    }
+    "usadosDia": {}
   },
   "fdfb": {
-    "franjas": {
-      "2026-10-26 12:00": "ok",
-      "2026-10-26 17:00": "ok",
-      "2026-10-26 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
@@ -141,10 +125,7 @@
       "mrcmvpmo3uzx0q0bp-fb": "2026-10-26T20:02:23.957Z",
       "mrcmvph4b9mok297a-fb": "2026-10-26T23:02:03.335Z"
     },
-    "usadosDia": {
-      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26",
-      "mrcmvph4b9mok297a-fb": "2026-10-26"
-    }
+    "usadosDia": {}
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvav2qo0aoq",
@@ -152,8 +133,5 @@
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z"
   },
-  "stUsadosDia": {
-    "mvaxcc00g0u": "2026-10-26",
-    "mvav2qo0aoq": "2026-10-26"
-  }
+  "stUsadosDia": {}
 }
