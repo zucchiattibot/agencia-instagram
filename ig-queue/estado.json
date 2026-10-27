@@ -69,7 +69,7 @@
     "mvax5l62d07",
     "mvid6f0o4ne"
   ],
-  "statsEl": "2026-10-27T16:02:51.709Z",
+  "statsEl": "2026-10-27T17:03:28.992Z",
   "stUltima": {
     "cuando": "2026-10-27T16:02:29.654Z",
     "franja": "12:30",
@@ -77,12 +77,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-27T16:02:12.396Z",
-    "cola": 150,
-    "enRepo": 150,
-    "pendientes": [
-      "12:30"
-    ]
+    "cuando": "2026-10-27T17:03:18.089Z",
+    "cola": 151,
+    "enRepo": 151,
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
