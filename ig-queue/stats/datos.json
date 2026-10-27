@@ -555,32 +555,32 @@
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 119,
-      "v": 127
+      "a": 121,
+      "v": 128
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 103,
-      "v": 120
+      "a": 105,
+      "v": 121
     },
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 109
+      "a": 95,
+      "v": 110
     },
     "18114709577272794": {
       "t": "2026-10-27T00:02:15+0000",
       "tipo": "VIDEO",
-      "a": 80,
-      "v": 84
+      "a": 83,
+      "v": 87
     },
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 17,
-      "v": 22
+      "a": 25,
+      "v": 27
     }
   },
   "seguidores": {
@@ -608,13 +608,13 @@
     "follows_count": 638,
     "media_count": 611,
     "id": "28888466970748824",
-    "el": "2026-10-27T14:02:08.509Z"
+    "el": "2026-10-27T15:02:09.684Z"
   },
   "res30": {
-    "reach": 3739,
-    "views": 21265,
+    "reach": 3757,
+    "views": 21309,
     "profile_views": 85,
-    "accounts_engaged": 211
+    "accounts_engaged": 212
   },
   "posts": [
     {
@@ -622,11 +622,11 @@
       "timestamp": "2026-10-27T00:37:26+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De-lfdYEWpr/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 31,
+      "reach": 28,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -674,12 +674,12 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 105,
+      "like_count": 106,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1506,
-      "views": 1851,
-      "saved": 19,
+      "reach": 1525,
+      "views": 1875,
+      "saved": 21,
       "shares": 23
     },
     {
@@ -873,7 +873,7 @@
       "comments_count": 0,
       "caption": "Elegir entre la F-150 y la C-10 es una discusión que no se termina más en ninguna charla de taller, pero tenerlas a escala 1:18 en el living ya es otra cosa 🛠️\n\nPasá por Agencia Albor, Carlos Casares, y consultanos para encargar la primera entrega con el fascículo y las piezas iniciales a $9.990.\n\n#ford #chevrolet #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 30,
-      "views": 34,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -885,8 +885,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener en la repisa cada momento inolvidable de la carrera del capitán es el sueño de cualquier fanático que vivió la gloria de Qatar. Esta edición especial repasa su historia con material gráfico único. ⚽ Pasá por Agencia Albor y reservalo para completar tu biblioteca albiceleste.\n\n🔗 Link directo en la bio\n\n#messi #inmortal #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 39,
-      "views": 59,
+      "reach": 40,
+      "views": 60,
       "saved": 0,
       "shares": 0
     },
@@ -969,7 +969,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-27T14:02:16.898Z",
+  "actualizado": "2026-10-27T15:02:21.857Z",
   "aud": {
     "edad": [
       {
