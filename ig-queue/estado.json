@@ -71,7 +71,7 @@
     "mvid6f0o4ne",
     "mvawxs3ahwh"
   ],
-  "statsEl": "2026-10-27T21:02:25.387Z",
+  "statsEl": "2026-10-27T22:02:16.777Z",
   "stUltima": {
     "cuando": "2026-10-27T20:39:32.159Z",
     "franja": "17:00",
@@ -79,14 +79,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-27T21:02:08.476Z",
+    "cuando": "2026-10-27T22:01:51.303Z",
     "cola": 163,
     "enRepo": 163,
     "pendientes": []
   },
   "fdig": {
     "franjas": {
-      "2026-10-27 13:00": "ok"
+      "2026-10-27 13:00": "ok",
+      "2026-10-27 19:00": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -98,21 +99,24 @@
       "cmvlrphwz-ig",
       "mrcmvpmo3uzx0q0bp-ig",
       "mrcmvph4b9mok297a-ig",
-      "mrcmvqsm5x4etos0t-ig"
+      "mrcmvqsm5x4etos0t-ig",
+      "mrcmvqw5xq2695pzc-ig"
     ],
     "ultima": {
-      "cuando": "2026-10-27T16:02:40.275Z",
-      "franja": "13:00",
+      "cuando": "2026-10-27T22:02:01.400Z",
+      "franja": "19:00",
       "ok": 1,
       "fallos": 0
     },
     "publicadoEn": {
       "mrcmvpmo3uzx0q0bp-ig": "2026-10-26T21:02:20.761Z",
       "mrcmvph4b9mok297a-ig": "2026-10-27T00:37:31.503Z",
-      "mrcmvqsm5x4etos0t-ig": "2026-10-27T16:02:40.274Z"
+      "mrcmvqsm5x4etos0t-ig": "2026-10-27T16:02:40.274Z",
+      "mrcmvqw5xq2695pzc-ig": "2026-10-27T22:02:01.400Z"
     },
     "usadosDia": {
-      "mrcmvqsm5x4etos0t-ig": "2026-10-27"
+      "mrcmvqsm5x4etos0t-ig": "2026-10-27",
+      "mrcmvqw5xq2695pzc-ig": "2026-10-27"
     }
   },
   "fdfb": {
