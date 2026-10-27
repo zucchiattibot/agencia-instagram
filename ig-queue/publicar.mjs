@@ -1,4 +1,4 @@
-// ig-motor-v28
+// ig-motor-v29
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -229,6 +229,33 @@ const ahoraAR = () => { const p = Object.fromEntries(new Intl.DateTimeFormat('en
 const mezclar = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 // Cola de historias: a cada franja horaria publica N historias al azar del conjunto elegido en el panel.
+// v29: lo mismo no sale en Historias y en Feed/Reels con menos de HORAS_ENTRE_COLAS horas de diferencia (así no quedan dos publicaciones iguales juntas).
+const HORAS_ENTRE_COLAS = 24;
+function matIdsDeItem(q) { return (q.matIds && q.matIds.length) ? q.matIds : (q.matId ? [q.matId] : []); }
+function ultimoEnFeedPorMaterial(estado) {
+  const m = {};
+  for (const r of ['ig', 'fb']) {
+    const c2 = leer(path.join(BASE, 'feed-' + r, 'config.json'), null);
+    if (!c2) continue;
+    const h = ((estado['fd' + r] || {}).publicadoEn) || {};
+    for (const q of (c2.pool || [])) {
+      const t = Date.parse(h[q.id] || '');
+      if (!Number.isFinite(t)) continue;
+      for (const id of matIdsDeItem(q)) if (!m[id] || t > m[id]) m[id] = t;
+    }
+  }
+  return m;
+}
+function ultimoEnHistoriasPorMaterial(estado) {
+  const m = {}, c2 = leer(path.join(BASE, 'stories', 'config.json'), null), h = (estado && estado.stPublicadoEn) || {};
+  if (!c2) return m;
+  for (const q of (c2.pool || [])) {
+    const t = Date.parse(h[q.id] || '');
+    if (!Number.isFinite(t) || !q.origen) continue;
+    if (!m[q.origen] || t > m[q.origen]) m[q.origen] = t;
+  }
+  return m;
+}
 async function colaHistorias(estado, token, uid) {
   const cfg = leer(path.join(BASE, 'stories', 'config.json'), null);
   if (!cfg || cfg.pausada || !(cfg.franjas || []).length || !(cfg.pool || []).length) return;
@@ -264,7 +291,8 @@ async function colaHistorias(estado, token, uid) {
     if (['ok', 'omitida', 'vacia', 'fallida'].includes(hechas[clave])) continue;
     if (min - ini > 180) { hechas[clave] = 'omitida'; continue; }
     const n = Math.min(Number(fr.n) || 1, 10);
-    const disponibles = poolAct.filter((p) => existe(p) && !usadosHoy[p.id] && (recic || !estado.stUsados.includes(p.id)));
+    const enFeedAntes = ultimoEnFeedPorMaterial(estado);
+    const disponibles = poolAct.filter((p) => existe(p) && !usadosHoy[p.id] && (recic || !estado.stUsados.includes(p.id)) && !(p.origen && enFeedAntes[p.origen] && Date.now() - enFeedAntes[p.origen] < HORAS_ENTRE_COLAS * 3600000));
     // Primero, material que no salió en los últimos 7 días.
     const frescas = disponibles.filter((p) => !Number.isFinite(Date.parse(stHist[p.id] || '')) || Date.parse(stHist[p.id]) < corteReciente);
     let elegidas = mezclar(frescas).sort((a, b) => (stHist[a.id] ? Date.parse(stHist[a.id]) || 0 : 0) - (stHist[b.id] ? Date.parse(stHist[b.id]) || 0 : 0)).slice(0, n); // v27: primero las nunca publicadas, luego las que hace más no salen
@@ -333,7 +361,8 @@ async function colaFeed(estado, token, uid, red) {
     if (min < ini) continue;
     if (['ok', 'omitida', 'vacia', 'fallida'].includes(e.franjas[clave])) continue;
     if (min - ini > 180) { e.franjas[clave] = 'omitida'; continue; }
-    const cand = cfg.pool.filter((p) => existe(p) && (!fr.f || p.fmt === fr.f));
+    const enHistAntes = ultimoEnHistoriasPorMaterial(estado);
+    const cand = cfg.pool.filter((p) => existe(p) && (!fr.f || p.fmt === fr.f) && !matIdsDeItem(p).some((id) => enHistAntes[id] && Date.now() - enHistAntes[id] < HORAS_ENTRE_COLAS * 3600000));
     // Nunca repetir el mismo ítem en dos franjas del mismo día. Entre alternativas,
     // priorizar primero las que no salieron en los últimos 7 días.
     const noHoy = cand.filter((p) => fdHoy[p.id] !== dia);
