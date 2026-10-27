@@ -549,26 +549,32 @@
     "18092470613202516": {
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 83
+      "a": 83,
+      "v": 88
     },
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 73
+      "a": 73,
+      "v": 79
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 52
+      "a": 47,
+      "v": 57
     },
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 17,
-      "v": 25
+      "a": 29,
+      "v": 40
+    },
+    "18114709577272794": {
+      "t": "2026-10-27T00:02:15+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -595,13 +601,13 @@
     "follows_count": 638,
     "media_count": 610,
     "id": "28888466970748824",
-    "el": "2026-10-26T23:02:06.052Z"
+    "el": "2026-10-27T00:02:47.518Z"
   },
   "res30": {
-    "reach": 3140,
-    "views": 20117,
-    "profile_views": 83,
-    "accounts_engaged": 168
+    "reach": 3289,
+    "views": 20363,
+    "profile_views": 84,
+    "accounts_engaged": 175
   },
   "posts": [
     {
@@ -612,8 +618,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 12,
+      "reach": 14,
+      "views": 17,
       "saved": 1,
       "shares": 0
     },
@@ -638,8 +644,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 62,
+      "reach": 23,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -648,13 +654,13 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 75,
+      "like_count": 83,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 957,
-      "views": 1240,
-      "saved": 8,
-      "shares": 14
+      "reach": 1117,
+      "views": 1386,
+      "saved": 9,
+      "shares": 15
     },
     {
       "id": "18105392978637980",
@@ -703,8 +709,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 142,
-      "views": 162,
+      "reach": 143,
+      "views": 163,
       "saved": 1,
       "shares": 2
     },
@@ -807,8 +813,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Snarf y la Espada del Augurio en la repisa para volver a esos mediodías de tele y merienda sin escalas. 🗡️🐱\n¿Quién más juntaba figuritas como si fuera cuestión de Estado?\n\nPasá a verla por Agencia Albor, Carlos Casares.\n\n#snarf #carloscasares #thundercats\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 157,
-      "views": 197,
+      "reach": 158,
+      "views": 198,
       "saved": 0,
       "shares": 5
     },
@@ -943,7 +949,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-26T23:02:14.978Z",
+  "actualizado": "2026-10-27T00:02:56.834Z",
   "aud": {
     "edad": [
       {
@@ -1464,7 +1470,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-26T04:01:43.126Z"
+    "el": "2026-10-27T00:02:56.200Z"
   },
   "dias": {
     "2026-10-11": {
