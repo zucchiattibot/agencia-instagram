@@ -561,32 +561,32 @@
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 105,
-      "v": 122
+      "a": 107,
+      "v": 123
     },
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 95,
-      "v": 111
+      "a": 97,
+      "v": 113
     },
     "18114709577272794": {
       "t": "2026-10-27T00:02:15+0000",
       "tipo": "VIDEO",
       "a": 84,
-      "v": 88
+      "v": 90
     },
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 34,
-      "v": 41
+      "a": 41,
+      "v": 47
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 11,
-      "v": 14
+      "a": 20,
+      "v": 30
     }
   },
   "seguidores": {
@@ -612,17 +612,30 @@
     "username": "agenciaalbor",
     "followers_count": 1392,
     "follows_count": 638,
-    "media_count": 612,
+    "media_count": 613,
     "id": "28888466970748824",
-    "el": "2026-10-27T17:03:20.634Z"
+    "el": "2026-10-27T18:03:46.426Z"
   },
   "res30": {
-    "reach": 3808,
-    "views": 21430,
+    "reach": 3815,
+    "views": 21495,
     "profile_views": 86,
-    "accounts_engaged": 217
+    "accounts_engaged": 219
   },
   "posts": [
+    {
+      "id": "18137152291650208",
+      "timestamp": "2026-10-27T18:03:08+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfAdJz2ivMU/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18134494294781494",
       "timestamp": "2026-10-27T16:02:37+0000",
@@ -631,8 +644,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 9,
+      "reach": 8,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -645,7 +658,7 @@
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 37,
-      "views": 44,
+      "views": 51,
       "saved": 0,
       "shares": 0
     },
@@ -657,8 +670,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 26,
+      "reach": 24,
+      "views": 28,
       "saved": 1,
       "shares": 0
     },
@@ -696,8 +709,8 @@
       "like_count": 110,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1572,
-      "views": 1946,
+      "reach": 1594,
+      "views": 1963,
       "saved": 22,
       "shares": 24
     },
@@ -722,8 +735,8 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 111,
-      "views": 139,
+      "reach": 112,
+      "views": 140,
       "saved": 1,
       "shares": 0
     },
@@ -800,7 +813,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "A los chicos les ponés las canciones de Junior Express y la casa entera se convierte en una fiesta selvática. 🦁🎵\n\nConsultá por los títulos disponibles y pasá a retirarlos por Agencia Albor, Carlos Casares.\n\n#topaconlosanimales #carloscasares #juniorpress\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
+      "reach": 18,
       "views": 20,
       "saved": 0,
       "shares": 0
@@ -826,8 +839,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan desde la primera página y esta edición es una de esas que te dan ganas de sentarte con un buen café a ver cómo sigue todo. 🌸 \n\nSi te apasiona sumergirte en relatos con ilustraciones hermosas y una estética que enamora, no le saques los ojos de encima a esta novedad. \n\nPasá por Agencia Albor y reservá tu ejemplar antes de que vuele. 📖\n\n#casey #carloscasares #novela\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 40,
-      "views": 100,
+      "reach": 41,
+      "views": 102,
       "saved": 0,
       "shares": 0
     },
@@ -988,7 +1001,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-27T17:03:28.992Z",
+  "actualizado": "2026-10-27T18:03:53.179Z",
   "aud": {
     "edad": [
       {
