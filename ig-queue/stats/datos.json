@@ -567,26 +567,32 @@
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 117
+      "a": 102,
+      "v": 118
     },
     "18114709577272794": {
       "t": "2026-10-27T00:02:15+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 94
+      "a": 91,
+      "v": 96
     },
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 54
+      "a": 53,
+      "v": 58
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 38
+      "a": 38,
+      "v": 43
+    },
+    "18150376723523453": {
+      "t": "2026-10-27T19:02:12+0000",
+      "tipo": "VIDEO",
+      "a": 9,
+      "v": 11
     }
   },
   "seguidores": {
@@ -606,23 +612,36 @@
     "2026-10-24": 1390,
     "2026-10-25": 1391,
     "2026-10-26": 1392,
-    "2026-10-27": 1392
+    "2026-10-27": 1393
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1392,
+    "followers_count": 1393,
     "follows_count": 638,
-    "media_count": 613,
+    "media_count": 614,
     "id": "28888466970748824",
-    "el": "2026-10-27T19:02:01.167Z"
+    "el": "2026-10-27T20:02:30.468Z"
   },
   "res30": {
-    "reach": 3840,
-    "views": 21550,
-    "profile_views": 87,
-    "accounts_engaged": 221
+    "reach": 3873,
+    "views": 21634,
+    "profile_views": 89,
+    "accounts_engaged": 225
   },
   "posts": [
+    {
+      "id": "18168232723419439",
+      "timestamp": "2026-10-27T20:02:10+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfAq0Y5geIX/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18137152291650208",
       "timestamp": "2026-10-27T18:03:08+0000",
@@ -631,8 +650,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 19,
+      "reach": 22,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -644,8 +663,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 14,
+      "reach": 10,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -657,8 +676,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 42,
-      "views": 53,
+      "reach": 45,
+      "views": 58,
       "saved": 0,
       "shares": 0
     },
@@ -684,7 +703,7 @@
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 14,
-      "views": 18,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -706,13 +725,13 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 112,
+      "like_count": 115,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1603,
-      "views": 1977,
-      "saved": 23,
-      "shares": 24
+      "reach": 1622,
+      "views": 2012,
+      "saved": 24,
+      "shares": 26
     },
     {
       "id": "18105392978637980",
@@ -1001,7 +1020,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-27T19:02:10.856Z",
+  "actualizado": "2026-10-27T20:02:39.519Z",
   "aud": {
     "edad": [
       {

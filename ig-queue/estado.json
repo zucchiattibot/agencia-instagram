@@ -3,7 +3,10 @@
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
     "2026-10-27 09:00": "ok",
-    "2026-10-27 12:30": "ok"
+    "2026-10-27 12:30": "ok",
+    "2026-10-27 17:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -69,18 +72,20 @@
     "mvax5l62d07",
     "mvid6f0o4ne"
   ],
-  "statsEl": "2026-10-27T19:02:10.856Z",
+  "statsEl": "2026-10-27T20:02:39.519Z",
   "stUltima": {
-    "cuando": "2026-10-27T16:02:29.654Z",
-    "franja": "12:30",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-10-27T20:02:27.481Z",
+    "franja": "17:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-10-27T19:01:58.955Z",
+    "cuando": "2026-10-27T20:02:17.108Z",
     "cola": 163,
     "enRepo": 163,
-    "pendientes": []
+    "pendientes": [
+      "17:00"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -155,5 +160,6 @@
   "stUsadosDia": {
     "mvax5l62d07": "2026-10-27",
     "mvid6f0o4ne": "2026-10-27"
-  }
+  },
+  "stError": "Instagram no pudo procesar el archivo (ERROR)."
 }
