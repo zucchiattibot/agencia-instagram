@@ -550,31 +550,31 @@
       "t": "2026-10-26T12:01:53+0000",
       "tipo": "IMAGE",
       "a": 117,
-      "v": 124
+      "v": 125
     },
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 107,
-      "v": 112
+      "a": 108,
+      "v": 113
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 105
+      "a": 92,
+      "v": 106
     },
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 79,
-      "v": 93
+      "a": 80,
+      "v": 94
     },
     "18114709577272794": {
       "t": "2026-10-27T00:02:15+0000",
       "tipo": "VIDEO",
       "a": 67,
-      "v": 70
+      "v": 71
     }
   },
   "seguidores": {
@@ -602,13 +602,13 @@
     "follows_count": 638,
     "media_count": 611,
     "id": "28888466970748824",
-    "el": "2026-10-27T04:01:41.266Z"
+    "el": "2026-10-27T05:01:41.737Z"
   },
   "res30": {
-    "reach": 3601,
-    "views": 20982,
+    "reach": 3607,
+    "views": 21009,
     "profile_views": 86,
-    "accounts_engaged": 198
+    "accounts_engaged": 199
   },
   "posts": [
     {
@@ -619,8 +619,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 15,
+      "reach": 13,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -668,13 +668,13 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 96,
+      "like_count": 97,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1371,
-      "views": 1689,
+      "reach": 1390,
+      "views": 1705,
       "saved": 14,
-      "shares": 20
+      "shares": 21
     },
     {
       "id": "18105392978637980",
@@ -963,7 +963,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-27T04:01:50.002Z",
+  "actualizado": "2026-10-27T05:01:49.918Z",
   "aud": {
     "edad": [
       {
