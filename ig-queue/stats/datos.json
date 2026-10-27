@@ -555,26 +555,32 @@
     "18118124437996348": {
       "t": "2026-10-26T16:03:17+0000",
       "tipo": "IMAGE",
-      "a": 113,
-      "v": 118
+      "a": 115,
+      "v": 121
     },
     "18153887572556378": {
       "t": "2026-10-26T20:01:49+0000",
       "tipo": "IMAGE",
-      "a": 98,
-      "v": 112
+      "a": 100,
+      "v": 115
     },
     "18123531710036680": {
       "t": "2026-10-26T22:01:52+0000",
       "tipo": "IMAGE",
-      "a": 87,
-      "v": 101
+      "a": 90,
+      "v": 104
     },
     "18114709577272794": {
       "t": "2026-10-27T00:02:15+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 78
+      "a": 78,
+      "v": 81
+    },
+    "17964276153235283": {
+      "t": "2026-10-27T12:02:11+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -602,13 +608,13 @@
     "follows_count": 638,
     "media_count": 611,
     "id": "28888466970748824",
-    "el": "2026-10-27T11:01:49.378Z"
+    "el": "2026-10-27T12:02:42.017Z"
   },
   "res30": {
-    "reach": 3684,
-    "views": 21137,
+    "reach": 3714,
+    "views": 21184,
     "profile_views": 85,
-    "accounts_engaged": 208
+    "accounts_engaged": 209
   },
   "posts": [
     {
@@ -645,8 +651,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 13,
+      "reach": 11,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -659,7 +665,7 @@
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 28,
-      "views": 76,
+      "views": 78,
       "saved": 0,
       "shares": 0
     },
@@ -668,11 +674,11 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 103,
+      "like_count": 104,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1447,
-      "views": 1784,
+      "reach": 1469,
+      "views": 1808,
       "saved": 19,
       "shares": 23
     },
@@ -963,7 +969,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-27T11:01:56.683Z",
+  "actualizado": "2026-10-27T12:02:49.658Z",
   "aud": {
     "edad": [
       {
