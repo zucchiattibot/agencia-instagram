@@ -579,32 +579,32 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 105
+      "a": 96,
+      "v": 106
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 87,
-      "v": 98
+      "a": 88,
+      "v": 99
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 68,
-      "v": 72
+      "a": 69,
+      "v": 73
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 67
+      "a": 65,
+      "v": 68
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 45,
-      "v": 47
+      "a": 46,
+      "v": 48
     }
   },
   "seguidores": {
@@ -633,11 +633,11 @@
     "follows_count": 639,
     "media_count": 616,
     "id": "28888466970748824",
-    "el": "2026-10-28T06:01:46.507Z"
+    "el": "2026-10-28T07:01:50.227Z"
   },
   "res30": {
-    "reach": 4061,
-    "views": 22311,
+    "reach": 4068,
+    "views": 22320,
     "profile_views": 91,
     "accounts_engaged": 237
   },
@@ -689,8 +689,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 72,
-      "views": 85,
+      "reach": 74,
+      "views": 88,
       "saved": 0,
       "shares": 0
     },
@@ -768,7 +768,7 @@
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 1763,
-      "views": 2194,
+      "views": 2195,
       "saved": 25,
       "shares": 27
     },
@@ -1059,7 +1059,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T06:01:56.642Z",
+  "actualizado": "2026-10-28T07:02:00.049Z",
   "aud": {
     "edad": [
       {
