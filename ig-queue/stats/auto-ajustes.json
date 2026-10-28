@@ -1,0 +1,3680 @@
+{
+  "cambios": [
+    {
+      "fecha": "2026-10-28T16:02:32.535Z",
+      "ruta": "stories/config.json",
+      "detalle": "Moví una franja 09:00 del día 4 al 6 según medianas normalizadas (56%; muestras 11/14).",
+      "anterior": {
+        "franjas": [
+          {
+            "h": "09:00",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "12:30",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "17:00",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "20:30",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "19:30",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          },
+          {
+            "h": "15:30",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          },
+          {
+            "h": "18:00",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          },
+          {
+            "h": "20:00",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          }
+        ],
+        "reciclar": false,
+        "pausada": false,
+        "pool": [
+          {
+            "id": "mvauysj4nml",
+            "media": "ig-queue/stories/pool/mvauysj4nml.mp4",
+            "tipo": "video",
+            "nombre": "1000880097.mp4",
+            "origen": "rcmv9rmtxtjcqwi6"
+          },
+          {
+            "id": "mvauzcv45l7",
+            "media": "ig-queue/stories/pool/mvauzcv45l7.mp4",
+            "tipo": "video",
+            "nombre": "1000872059.mp4",
+            "origen": "rcmuzgczy9it3ekp"
+          },
+          {
+            "id": "mvauzqglzc1",
+            "media": "ig-queue/stories/pool/mvauzqglzc1.mp4",
+            "tipo": "video",
+            "nombre": "1000856965.mp4",
+            "origen": "rcmud1emfbr2u2yq"
+          },
+          {
+            "id": "mvauzxv7pts",
+            "media": "ig-queue/stories/pool/mvauzxv7pts.mp4",
+            "tipo": "video",
+            "nombre": "1000854690.mp4",
+            "origen": "rcmu7baspw3u542y"
+          },
+          {
+            "id": "mvav0oa8fbt",
+            "media": "ig-queue/stories/pool/mvav0oa8fbt.mp4",
+            "tipo": "video",
+            "nombre": "1000830508.mp4",
+            "origen": "rcmt8yv0ggjfakbg"
+          },
+          {
+            "id": "mvav19r44ch",
+            "media": "ig-queue/stories/pool/mvav19r44ch.mp4",
+            "tipo": "video",
+            "nombre": "1000835371.mp4",
+            "origen": "rcmtgbd74373prfs"
+          },
+          {
+            "id": "mvav1rzg992",
+            "media": "ig-queue/stories/pool/mvav1rzg992.jpg",
+            "tipo": "image",
+            "nombre": "1000879954.jpg",
+            "origen": "rcmv9n2oavee95vd"
+          },
+          {
+            "id": "mvav1xa6vql",
+            "media": "ig-queue/stories/pool/mvav1xa6vql.jpg",
+            "tipo": "image",
+            "nombre": "1000871576.jpg",
+            "origen": "rcmuyes5fg0eb6x1"
+          },
+          {
+            "id": "mvav2077bfh",
+            "media": "ig-queue/stories/pool/mvav2077bfh.jpg",
+            "tipo": "image",
+            "nombre": "1000871574.jpg",
+            "origen": "rcmuyerx6ghl7lge"
+          },
+          {
+            "id": "mvav23euybu",
+            "media": "ig-queue/stories/pool/mvav23euybu.jpg",
+            "tipo": "image",
+            "nombre": "1000879953.jpg",
+            "origen": "rcmv9n2jdnjt394s"
+          },
+          {
+            "id": "mvav25z397s",
+            "media": "ig-queue/stories/pool/mvav25z397s.jpg",
+            "tipo": "image",
+            "nombre": "1000879655.jpg",
+            "origen": "rcmv9fvoxgd6t2zw"
+          },
+          {
+            "id": "mvav28500sf",
+            "media": "ig-queue/stories/pool/mvav28500sf.mp4",
+            "tipo": "video",
+            "nombre": "1000875104.mp4",
+            "origen": "rcmv36143fdosign"
+          },
+          {
+            "id": "mvav2qo0aoq",
+            "media": "ig-queue/stories/pool/mvav2qo0aoq.mp4",
+            "tipo": "video",
+            "nombre": "1000874929.mp4",
+            "origen": "rcmv2x2z35zuzmp6"
+          },
+          {
+            "id": "mvav2wa2rnm",
+            "media": "ig-queue/stories/pool/mvav2wa2rnm.mp4",
+            "tipo": "video",
+            "nombre": "1000873511.mp4",
+            "origen": "rcmv19l73osu7uks"
+          },
+          {
+            "id": "mvav334jbhg",
+            "media": "ig-queue/stories/pool/mvav334jbhg.jpg",
+            "tipo": "image",
+            "nombre": "1000871389.jpg",
+            "origen": "rcmuy7p0k17bxqdn"
+          },
+          {
+            "id": "mvav35pcbg3",
+            "media": "ig-queue/stories/pool/mvav35pcbg3.jpg",
+            "tipo": "image",
+            "nombre": "1000871390.jpg",
+            "origen": "rcmuy7p6n52xx31k"
+          },
+          {
+            "id": "mvav38nnp8l",
+            "media": "ig-queue/stories/pool/mvav38nnp8l.jpg",
+            "tipo": "image",
+            "nombre": "1000871391.jpg",
+            "origen": "rcmuy7pe88r36qcc"
+          },
+          {
+            "id": "mvav3bkvpbp",
+            "media": "ig-queue/stories/pool/mvav3bkvpbp.jpg",
+            "tipo": "image",
+            "nombre": "1000871392.jpg",
+            "origen": "rcmuy7plq3kj057s"
+          },
+          {
+            "id": "mvav3h2hthm",
+            "media": "ig-queue/stories/pool/mvav3h2hthm.jpg",
+            "tipo": "image",
+            "nombre": "1000871388.jpg",
+            "origen": "rcmuy7ou332y9d45"
+          },
+          {
+            "id": "mvav3jk1jb5",
+            "media": "ig-queue/stories/pool/mvav3jk1jb5.mp4",
+            "tipo": "video",
+            "nombre": "1000871350.mp4",
+            "origen": "rcmuy733pxpz9y2j"
+          },
+          {
+            "id": "mvav42tkyqy",
+            "media": "ig-queue/stories/pool/mvav42tkyqy.jpg",
+            "tipo": "image",
+            "nombre": "1000865710.jpg",
+            "origen": "rcmupihw3ltlkkmw"
+          },
+          {
+            "id": "mvav45r8u5u",
+            "media": "ig-queue/stories/pool/mvav45r8u5u.jpg",
+            "tipo": "image",
+            "nombre": "1000863568.jpg",
+            "origen": "rcmumxkvto6vefxs"
+          },
+          {
+            "id": "mvav48hwweb",
+            "media": "ig-queue/stories/pool/mvav48hwweb.mp4",
+            "tipo": "video",
+            "nombre": "1000853158.mp4",
+            "origen": "rcmu5hbnhvr2wn56"
+          },
+          {
+            "id": "mvav4wx15w7",
+            "media": "ig-queue/stories/pool/mvav4wx15w7.jpg",
+            "tipo": "image",
+            "nombre": "1000878961.jpg",
+            "origen": "rcmv8eda0vv3hhhl"
+          },
+          {
+            "id": "mvav4zenvid",
+            "media": "ig-queue/stories/pool/mvav4zenvid.mp4",
+            "tipo": "video",
+            "nombre": "1000878207.mp4",
+            "origen": "rcmv7ex8d580yz8k"
+          },
+          {
+            "id": "mvawtsml9p0",
+            "media": "ig-queue/stories/pool/mvawtsml9p0.jpg",
+            "tipo": "image",
+            "nombre": "1000877801.webp",
+            "origen": "rcmv6wqadaqyx5vu"
+          },
+          {
+            "id": "mvawtwslu24",
+            "media": "ig-queue/stories/pool/mvawtwslu24.jpg",
+            "tipo": "image",
+            "nombre": "1000873130.jpg",
+            "origen": "rcmv0ye5xx7hjzhk"
+          },
+          {
+            "id": "mvawtyge1t5",
+            "media": "ig-queue/stories/pool/mvawtyge1t5.mp4",
+            "tipo": "video",
+            "nombre": "1000876241.mp4",
+            "origen": "rcmv58yv729hctfj"
+          },
+          {
+            "id": "mvawugzaktr",
+            "media": "ig-queue/stories/pool/mvawugzaktr.mp4",
+            "tipo": "video",
+            "nombre": "1000872058.mp4",
+            "origen": "rcmuzgcs1ampp0gu"
+          },
+          {
+            "id": "mvawulh8myh",
+            "media": "ig-queue/stories/pool/mvawulh8myh.mp4",
+            "tipo": "video",
+            "nombre": "1000869952.mp4",
+            "origen": "rcmuvlkgukjkhbp3"
+          },
+          {
+            "id": "mvawuogb0a0",
+            "media": "ig-queue/stories/pool/mvawuogb0a0.mp4",
+            "tipo": "video",
+            "nombre": "1000866166.mp4",
+            "origen": "rcmupudno7frb73y"
+          },
+          {
+            "id": "mvawv8ynaix",
+            "media": "ig-queue/stories/pool/mvawv8ynaix.jpg",
+            "tipo": "image",
+            "nombre": "1000864457.jpg",
+            "origen": "rcmuo0aq97f2ezx0"
+          },
+          {
+            "id": "mvawvfok4s3",
+            "media": "ig-queue/stories/pool/mvawvfok4s3.jpg",
+            "tipo": "image",
+            "nombre": "1000863589.jpg",
+            "origen": "rcmumz7p1mq3pouj"
+          },
+          {
+            "id": "mvawvki49me",
+            "media": "ig-queue/stories/pool/mvawvki49me.mp4",
+            "tipo": "video",
+            "nombre": "1000874511.mp4",
+            "origen": "rcmv2ft88gjwzd2s"
+          },
+          {
+            "id": "mvawxnxnd4z",
+            "media": "ig-queue/stories/pool/mvawxnxnd4z.jpg",
+            "tipo": "image",
+            "nombre": "1000857375.jpg",
+            "origen": "rcmue0bqsshyo7s3"
+          },
+          {
+            "id": "mvawxs3ahwh",
+            "media": "ig-queue/stories/pool/mvawxs3ahwh.jpg",
+            "tipo": "image",
+            "nombre": "1000873455.jpg",
+            "origen": "rcmv169awfl060gg"
+          },
+          {
+            "id": "mvawxub85fo",
+            "media": "ig-queue/stories/pool/mvawxub85fo.mp4",
+            "tipo": "video",
+            "nombre": "1000873421.mp4",
+            "origen": "rcmv15hd0xitk11n"
+          },
+          {
+            "id": "mvawxwdregr",
+            "media": "ig-queue/stories/pool/mvawxwdregr.mp4",
+            "tipo": "video",
+            "nombre": "1000859784.mp4",
+            "origen": "rcmuh1a460rmcun5"
+          },
+          {
+            "id": "mvawxzb868b",
+            "media": "ig-queue/stories/pool/mvawxzb868b.jpg",
+            "tipo": "image",
+            "nombre": "1000873129.jpg",
+            "origen": "rcmv0yeda3fa6j6z"
+          },
+          {
+            "id": "mvawy2kceaa",
+            "media": "ig-queue/stories/pool/mvawy2kceaa.jpg",
+            "tipo": "image",
+            "nombre": "1000872944.jpg",
+            "origen": "rcmv0vgkomryb65e"
+          },
+          {
+            "id": "mvawy5n3r6p",
+            "media": "ig-queue/stories/pool/mvawy5n3r6p.mp4",
+            "tipo": "video",
+            "nombre": "1000853163.mp4",
+            "origen": "rcmu5hf82bk8sqnz"
+          },
+          {
+            "id": "mvawzwbrs5r",
+            "media": "ig-queue/stories/pool/mvawzwbrs5r.jpg",
+            "tipo": "image",
+            "nombre": "1000872964.jpg",
+            "origen": "rcmv0vtegyc1bdtl"
+          },
+          {
+            "id": "mvawzyhsaec",
+            "media": "ig-queue/stories/pool/mvawzyhsaec.mp4",
+            "tipo": "video",
+            "nombre": "1000872453.mp4",
+            "origen": "rcmuzvf2vhr68rer"
+          },
+          {
+            "id": "mvax01f3wpq",
+            "media": "ig-queue/stories/pool/mvax01f3wpq.mp4",
+            "tipo": "video",
+            "nombre": "1000843417.mp4",
+            "origen": "rcmtrl999pknj8za"
+          },
+          {
+            "id": "mvax1cewvb2",
+            "media": "ig-queue/stories/pool/mvax1cewvb2.jpg",
+            "tipo": "image",
+            "nombre": "1000836161.jpg",
+            "origen": "rcmthjuwpesqte1h"
+          },
+          {
+            "id": "mvax1f1kvls",
+            "media": "ig-queue/stories/pool/mvax1f1kvls.jpg",
+            "tipo": "image",
+            "nombre": "camera_17913744718252555890086021876642.jpg",
+            "origen": "rcmuy246wcnwfxkw"
+          },
+          {
+            "id": "mvax1qf4jzx",
+            "media": "ig-queue/stories/pool/mvax1qf4jzx.jpg",
+            "tipo": "image",
+            "nombre": "camera_17913744495465127116435481816819.jpg",
+            "origen": "rcmuy23qnasellqq"
+          },
+          {
+            "id": "mvax1stqxmo",
+            "media": "ig-queue/stories/pool/mvax1stqxmo.jpg",
+            "tipo": "image",
+            "nombre": "1000870458.jpg",
+            "origen": "rcmuwpiaecyhot9q"
+          },
+          {
+            "id": "mvax1v95t0d",
+            "media": "ig-queue/stories/pool/mvax1v95t0d.mp4",
+            "tipo": "video",
+            "nombre": "1000867817.mp4",
+            "origen": "rcmusbnv3ebt1r6k"
+          },
+          {
+            "id": "mvax1y4e5vn",
+            "media": "ig-queue/stories/pool/mvax1y4e5vn.mp4",
+            "tipo": "video",
+            "nombre": "1000866744.mp4",
+            "origen": "rcmuqwhe55bj2pdl"
+          },
+          {
+            "id": "mvax2dq0c3r",
+            "media": "ig-queue/stories/pool/mvax2dq0c3r.mp4",
+            "tipo": "video",
+            "nombre": "1000866736.mp4",
+            "origen": "rcmuqwh8hyey22nr"
+          },
+          {
+            "id": "mvax2softk3",
+            "media": "ig-queue/stories/pool/mvax2softk3.mp4",
+            "tipo": "video",
+            "nombre": "1000866740.mp4",
+            "origen": "rcmuqwgxhsglcmex"
+          },
+          {
+            "id": "mvax2v3dcy9",
+            "media": "ig-queue/stories/pool/mvax2v3dcy9.jpg",
+            "tipo": "image",
+            "nombre": "1000854472.jpg",
+            "origen": "rcmu7dqsq6216qlc"
+          },
+          {
+            "id": "mvax2wxh88x",
+            "media": "ig-queue/stories/pool/mvax2wxh88x.mp4",
+            "tipo": "video",
+            "nombre": "1000847201.mp4",
+            "origen": "rcmtwx48xxiienzr"
+          },
+          {
+            "id": "mvax3knhipp",
+            "media": "ig-queue/stories/pool/mvax3knhipp.jpg",
+            "tipo": "image",
+            "nombre": "1000840259.jpg",
+            "origen": "rcmtnjj0nttvejkx"
+          },
+          {
+            "id": "mvax3y1y44c",
+            "media": "ig-queue/stories/pool/mvax3y1y44c.jpg",
+            "tipo": "image",
+            "nombre": "1000823853.jpg",
+            "origen": "rcmt27xorzf4d4w1"
+          },
+          {
+            "id": "mvax4489ece",
+            "media": "ig-queue/stories/pool/mvax4489ece.mp4",
+            "tipo": "video",
+            "nombre": "1000866167.mp4",
+            "origen": "rcmupugkmve8adaj"
+          },
+          {
+            "id": "mvax5hfazof",
+            "media": "ig-queue/stories/pool/mvax5hfazof.jpg",
+            "tipo": "image",
+            "nombre": "1000863590.jpg",
+            "origen": "rcmumz7woqdzqsv9"
+          },
+          {
+            "id": "mvax5jnub1y",
+            "media": "ig-queue/stories/pool/mvax5jnub1y.jpg",
+            "tipo": "image",
+            "nombre": "1000831013.jpg",
+            "origen": "rcmta286xb7uyoo4"
+          },
+          {
+            "id": "mvax5l62d07",
+            "media": "ig-queue/stories/pool/mvax5l62d07.mp4",
+            "tipo": "video",
+            "nombre": "1000859801.mp4",
+            "origen": "rcmuh1e9kbsbjg5x"
+          },
+          {
+            "id": "mvax5nmkw6k",
+            "media": "ig-queue/stories/pool/mvax5nmkw6k.mp4",
+            "tipo": "video",
+            "nombre": "1000859750.mp4",
+            "origen": "rcmuh12u3jlpd1ui"
+          },
+          {
+            "id": "mvax6wmr0s9",
+            "media": "ig-queue/stories/pool/mvax6wmr0s9.mp4",
+            "tipo": "video",
+            "nombre": "1000859606.mp4",
+            "origen": "rcmugz8fpzwuf9vo"
+          },
+          {
+            "id": "mvax7l1cpgr",
+            "media": "ig-queue/stories/pool/mvax7l1cpgr.jpg",
+            "tipo": "image",
+            "nombre": "1000858805.jpg",
+            "origen": "rcmufxmgi09dzmg2"
+          },
+          {
+            "id": "mvax8a78xso",
+            "media": "ig-queue/stories/pool/mvax8a78xso.jpg",
+            "tipo": "image",
+            "nombre": "1000856359.jpg",
+            "origen": "rcmubcams5gn0s09"
+          },
+          {
+            "id": "mvax8tdh38n",
+            "media": "ig-queue/stories/pool/mvax8tdh38n.mp4",
+            "tipo": "video",
+            "nombre": "1000856358.mp4",
+            "origen": "rcmubcagxrtoe07u"
+          },
+          {
+            "id": "mvax97qpv4t",
+            "media": "ig-queue/stories/pool/mvax97qpv4t.jpg",
+            "tipo": "image",
+            "nombre": "1000857566.jpg",
+            "origen": "rcmue5cosl8rqs6o"
+          },
+          {
+            "id": "mvax9m4tpz1",
+            "media": "ig-queue/stories/pool/mvax9m4tpz1.jpg",
+            "tipo": "image",
+            "nombre": "1000834431.jpg",
+            "origen": "rcmtelrw3lg8k85q"
+          },
+          {
+            "id": "mvax9o80y6u",
+            "media": "ig-queue/stories/pool/mvax9o80y6u.jpg",
+            "tipo": "image",
+            "nombre": "1000834432.jpg",
+            "origen": "rcmtelrqbwidwwwn"
+          },
+          {
+            "id": "mvax9t7s9w4",
+            "media": "ig-queue/stories/pool/mvax9t7s9w4.jpg",
+            "tipo": "image",
+            "nombre": "1000834435.jpg",
+            "origen": "rcmtelrho7zjwspg"
+          },
+          {
+            "id": "mvax9w36uqm",
+            "media": "ig-queue/stories/pool/mvax9w36uqm.jpg",
+            "tipo": "image",
+            "nombre": "1000830134.jpg",
+            "origen": "rcmt8krg53od8077"
+          },
+          {
+            "id": "mvax9ycj34c",
+            "media": "ig-queue/stories/pool/mvax9ycj34c.jpg",
+            "tipo": "image",
+            "nombre": "1000830129.jpg",
+            "origen": "rcmt8km9ijgk10r3"
+          },
+          {
+            "id": "mvaxa03uf0z",
+            "media": "ig-queue/stories/pool/mvaxa03uf0z.mp4",
+            "tipo": "video",
+            "nombre": "1000853322.mp4",
+            "origen": "rcmu5l1i8ew5zket"
+          },
+          {
+            "id": "mvaxa6ciro8",
+            "media": "ig-queue/stories/pool/mvaxa6ciro8.jpg",
+            "tipo": "image",
+            "nombre": "1000851959.jpg",
+            "origen": "rcmu38rxo3yas4bv"
+          },
+          {
+            "id": "mvaxa8x07sn",
+            "media": "ig-queue/stories/pool/mvaxa8x07sn.jpg",
+            "tipo": "image",
+            "nombre": "1000827175.jpg",
+            "origen": "rcmt3hqeymkaytsb"
+          },
+          {
+            "id": "mvaxaairouk",
+            "media": "ig-queue/stories/pool/mvaxaairouk.jpg",
+            "tipo": "image",
+            "nombre": "1000823855.jpg",
+            "origen": "rcmt1l7lk7fz1zb1"
+          },
+          {
+            "id": "mvaxaca428w",
+            "media": "ig-queue/stories/pool/mvaxaca428w.mp4",
+            "tipo": "video",
+            "nombre": "1000851802.mp4",
+            "origen": "rcmu32j46en5za9r"
+          },
+          {
+            "id": "mvaxb23k05s",
+            "media": "ig-queue/stories/pool/mvaxb23k05s.jpg",
+            "tipo": "image",
+            "nombre": "1000851388.jpg",
+            "origen": "rcmu2oa3rw138rcj"
+          },
+          {
+            "id": "mvaxbvkuckv",
+            "media": "ig-queue/stories/pool/mvaxbvkuckv.jpg",
+            "tipo": "image",
+            "nombre": "1000851476.jpg",
+            "origen": "rcmu2rr89dfr29y8"
+          },
+          {
+            "id": "mvaxbzfzr0f",
+            "media": "ig-queue/stories/pool/mvaxbzfzr0f.jpg",
+            "tipo": "image",
+            "nombre": "1000851475.jpg",
+            "origen": "rcmu2rr3nfpamtux"
+          },
+          {
+            "id": "mvaxc1fmtd4",
+            "media": "ig-queue/stories/pool/mvaxc1fmtd4.mp4",
+            "tipo": "video",
+            "nombre": "1000846191.mp4",
+            "origen": "rcmtvqkbcv0n02yt"
+          },
+          {
+            "id": "mvaxc9xftzb",
+            "media": "ig-queue/stories/pool/mvaxc9xftzb.jpg",
+            "tipo": "image",
+            "nombre": "1000844140.jpg",
+            "origen": "rcmtsx7lndeprm9e"
+          },
+          {
+            "id": "mvaxcc00g0u",
+            "media": "ig-queue/stories/pool/mvaxcc00g0u.jpg",
+            "tipo": "image",
+            "nombre": "1000847864.jpg",
+            "origen": "rcmtxfktdxemfjh5"
+          },
+          {
+            "id": "mvaxckw6bhk",
+            "media": "ig-queue/stories/pool/mvaxckw6bhk.mp4",
+            "tipo": "video",
+            "nombre": "1000845340.mp4",
+            "origen": "rcmtuhpmspae48a9"
+          },
+          {
+            "id": "mvaxcq2s90c",
+            "media": "ig-queue/stories/pool/mvaxcq2s90c.jpg",
+            "tipo": "image",
+            "nombre": "1000837687.jpg",
+            "origen": "rcmtk5jadiuc33i0"
+          },
+          {
+            "id": "mvaxcsa24la",
+            "media": "ig-queue/stories/pool/mvaxcsa24la.jpg",
+            "tipo": "image",
+            "nombre": "1000823857.jpg",
+            "origen": "rcmt1l7wf2k8f14y"
+          },
+          {
+            "id": "mvaxcu4n81p",
+            "media": "ig-queue/stories/pool/mvaxcu4n81p.mp4",
+            "tipo": "video",
+            "nombre": "1000823856.mp4",
+            "origen": "rcmt1l79rnchm1bb"
+          },
+          {
+            "id": "mvaxd499k9z",
+            "media": "ig-queue/stories/pool/mvaxd499k9z.jpg",
+            "tipo": "image",
+            "nombre": "1000835466.jpg",
+            "origen": "rcmth5aeqa40x5ey"
+          },
+          {
+            "id": "mvaxd6p7mne",
+            "media": "ig-queue/stories/pool/mvaxd6p7mne.jpg",
+            "tipo": "image",
+            "nombre": "1000823854.jpg",
+            "origen": "rcmt1l8cfypbyoe7"
+          },
+          {
+            "id": "mvaxd8h75mx",
+            "media": "ig-queue/stories/pool/mvaxd8h75mx.jpg",
+            "tipo": "image",
+            "nombre": "camera_17880050656313985825231179887501.jpg",
+            "origen": "rcmtec2k24y8a1zf"
+          },
+          {
+            "id": "mvaxddb48pw",
+            "media": "ig-queue/stories/pool/mvaxddb48pw.jpg",
+            "tipo": "image",
+            "nombre": "1000833559.jpg",
+            "origen": "rcmtd970q8dt2u8w"
+          },
+          {
+            "id": "mvaxdvil269",
+            "media": "ig-queue/stories/pool/mvaxdvil269.jpg",
+            "tipo": "image",
+            "nombre": "1000830509.jpg",
+            "origen": "rcmt8yuur5sz9xpy"
+          },
+          {
+            "id": "mvaxdx6w9e3",
+            "media": "ig-queue/stories/pool/mvaxdx6w9e3.mp4",
+            "tipo": "video",
+            "nombre": "1000830135.mp4",
+            "origen": "rcmt8ktyl9phiqpg"
+          },
+          {
+            "id": "mvaxe14omvi",
+            "media": "ig-queue/stories/pool/mvaxe14omvi.mp4",
+            "tipo": "video",
+            "nombre": "1000824008.mp4",
+            "origen": "rcmt1l71t5zy1t6z"
+          },
+          {
+            "id": "mvcdpl107ri",
+            "media": "ig-queue/stories/pool/mvcdpl107ri.jpg",
+            "tipo": "image",
+            "nombre": "1000882291.jpg",
+            "origen": "rcmvcdd41hhbt44q"
+          },
+          {
+            "id": "mvcdpo2r63f",
+            "media": "ig-queue/stories/pool/mvcdpo2r63f.jpg",
+            "tipo": "image",
+            "nombre": "1000882289.jpg",
+            "origen": "rcmvcdczttdxm808"
+          },
+          {
+            "id": "mvcdpqfoq6n",
+            "media": "ig-queue/stories/pool/mvcdpqfoq6n.jpg",
+            "tipo": "image",
+            "nombre": "1000882287.jpg",
+            "origen": "rcmvcdcuzl013ln0"
+          },
+          {
+            "id": "mvcdpsrdjky",
+            "media": "ig-queue/stories/pool/mvcdpsrdjky.jpg",
+            "tipo": "image",
+            "nombre": "1000882285.jpg",
+            "origen": "rcmvcdcpgzwgwo60"
+          },
+          {
+            "id": "mvcdpve020a",
+            "media": "ig-queue/stories/pool/mvcdpve020a.jpg",
+            "tipo": "image",
+            "nombre": "1000882281.jpg",
+            "origen": "rcmvcdcjl6wja6hx"
+          },
+          {
+            "id": "mvcdr8huwgc",
+            "media": "ig-queue/stories/pool/mvcdr8huwgc.jpg",
+            "tipo": "image",
+            "nombre": "1000882277.jpg",
+            "origen": "rcmvcdcfi8g1lj0k"
+          },
+          {
+            "id": "mvcdremxre9",
+            "media": "ig-queue/stories/pool/mvcdremxre9.jpg",
+            "tipo": "image",
+            "nombre": "1000881605.jpg",
+            "origen": "rcmvbcvfrt01zsjb"
+          },
+          {
+            "id": "mvcdrg9658a",
+            "media": "ig-queue/stories/pool/mvcdrg9658a.mp4",
+            "tipo": "video",
+            "nombre": "1000881467.mp4",
+            "origen": "rcmvb6hky9qq9ff6"
+          },
+          {
+            "id": "mvcdrk339al",
+            "media": "ig-queue/stories/pool/mvcdrk339al.jpg",
+            "tipo": "image",
+            "nombre": "1000881344.jpg",
+            "origen": "rcmvb365xu9yk6wt"
+          },
+          {
+            "id": "mvcdrmhd8n8",
+            "media": "ig-queue/stories/pool/mvcdrmhd8n8.jpg",
+            "tipo": "image",
+            "nombre": "1000881342.jpg",
+            "origen": "rcmvb35y3pklyd9c"
+          },
+          {
+            "id": "mvid664igtj",
+            "media": "ig-queue/stories/pool/mvid664igtj.jpg",
+            "tipo": "image",
+            "nombre": "1000886445.jpg",
+            "origen": "rcmvi71sfpuj3uka"
+          },
+          {
+            "id": "mvid69qhsxj",
+            "media": "ig-queue/stories/pool/mvid69qhsxj.jpg",
+            "tipo": "image",
+            "nombre": "1000886446.jpg",
+            "origen": "rcmvi71n9hhfspk8"
+          },
+          {
+            "id": "mvid6cb0sd3",
+            "media": "ig-queue/stories/pool/mvid6cb0sd3.jpg",
+            "tipo": "image",
+            "nombre": "1000886442.jpg",
+            "origen": "rcmvi6y6jv2e815k"
+          },
+          {
+            "id": "mvid6f0o4ne",
+            "media": "ig-queue/stories/pool/mvid6f0o4ne.jpg",
+            "tipo": "image",
+            "nombre": "1000886444.jpg",
+            "origen": "rcmvi6xv6sez428q"
+          },
+          {
+            "id": "mvid6h5fzta",
+            "media": "ig-queue/stories/pool/mvid6h5fzta.mp4",
+            "tipo": "video",
+            "nombre": "1000885711.mp4",
+            "origen": "rcmvgwj3gj2a3230"
+          },
+          {
+            "id": "mvid6ws6pz1",
+            "media": "ig-queue/stories/pool/mvid6ws6pz1.jpg",
+            "tipo": "image",
+            "nombre": "1000885659.jpg",
+            "origen": "rcmvgsxia418twkt"
+          },
+          {
+            "id": "mvid6yqy0eh",
+            "media": "ig-queue/stories/pool/mvid6yqy0eh.mp4",
+            "tipo": "video",
+            "nombre": "1000885414.mp4",
+            "origen": "rcmvgo0q2mooqf73"
+          },
+          {
+            "id": "mvid72rjjj9",
+            "media": "ig-queue/stories/pool/mvid72rjjj9.mp4",
+            "tipo": "video",
+            "nombre": "1000884979.mp4",
+            "origen": "rcmvfvlsvkwcj6fc"
+          },
+          {
+            "id": "mvig7c1ktwy",
+            "media": "ig-queue/stories/pool/mvig7c1ktwy.mp4",
+            "tipo": "video",
+            "nombre": "1000886763.mp4",
+            "origen": "rcmvig0f8ann6pgx"
+          },
+          {
+            "id": "mvig7kqggpl",
+            "media": "ig-queue/stories/pool/mvig7kqggpl.mp4",
+            "tipo": "video",
+            "nombre": "1000886762.mp4",
+            "origen": "rcmvig07d11nzi3k"
+          },
+          {
+            "id": "mvig7p62n3p",
+            "media": "ig-queue/stories/pool/mvig7p62n3p.mp4",
+            "tipo": "video",
+            "nombre": "1000886761.mp4",
+            "origen": "rcmvig01i5uxqlqa"
+          },
+          {
+            "id": "mvig7tlsk1o",
+            "media": "ig-queue/stories/pool/mvig7tlsk1o.mp4",
+            "tipo": "video",
+            "nombre": "1000886764.mp4",
+            "origen": "rcmvifznsgp098xg"
+          },
+          {
+            "id": "mvig894y13v",
+            "media": "ig-queue/stories/pool/mvig894y13v.jpg",
+            "tipo": "image",
+            "nombre": "1000886759.jpg",
+            "origen": "rcmvifzartv8ax9n"
+          },
+          {
+            "id": "mvig8lpzq5u",
+            "media": "ig-queue/stories/pool/mvig8lpzq5u.jpg",
+            "tipo": "image",
+            "nombre": "1000886757.jpg",
+            "origen": "rcmvifyzwq66sikh"
+          },
+          {
+            "id": "mvig8uq9kcg",
+            "media": "ig-queue/stories/pool/mvig8uq9kcg.jpg",
+            "tipo": "image",
+            "nombre": "1000886758.jpg",
+            "origen": "rcmvifyv1f4jeqtk"
+          },
+          {
+            "id": "mvimw02k07x",
+            "media": "ig-queue/stories/pool-p/mvimw02k07x.jpg",
+            "tipo": "image",
+            "nombre": "1000886756.jpg",
+            "origen": "rcmvifylpsyhmmbm"
+          },
+          {
+            "id": "mvimw8718fa",
+            "media": "ig-queue/stories/pool-p/mvimw8718fa.jpg",
+            "tipo": "image",
+            "nombre": "1000886755.jpg",
+            "origen": "rcmvify7ezmygp4k"
+          },
+          {
+            "id": "mvimwjru60y",
+            "media": "ig-queue/stories/pool-p/mvimwjru60y.jpg",
+            "tipo": "image",
+            "nombre": "1000886754.jpg",
+            "origen": "rcmvifxz57qi6da3"
+          },
+          {
+            "id": "mvimwxu4g7s",
+            "media": "ig-queue/stories/pool-p/mvimwxu4g7s.jpg",
+            "tipo": "image",
+            "nombre": "1000886753.jpg",
+            "origen": "rcmvifxs6ll8kcok"
+          },
+          {
+            "id": "mvimxbptaf9",
+            "media": "ig-queue/stories/pool-p/mvimxbptaf9.jpg",
+            "tipo": "image",
+            "nombre": "1000886752.jpg",
+            "origen": "rcmvifxm87mxdh88"
+          },
+          {
+            "id": "mvimxpwx9bk",
+            "media": "ig-queue/stories/pool-p/mvimxpwx9bk.jpg",
+            "tipo": "image",
+            "nombre": "1000886751.jpg",
+            "origen": "rcmvifxawbtb8gnw"
+          },
+          {
+            "id": "mvjo0pl3tp2",
+            "media": "ig-queue/stories/pool-p/mvjo0pl3tp2.jpg",
+            "tipo": "image",
+            "nombre": "1000887433.jpg",
+            "origen": "rcmvjhif8j72xgz7"
+          },
+          {
+            "id": "mvjo0vz4xbo",
+            "media": "ig-queue/stories/pool-p/mvjo0vz4xbo.jpg",
+            "tipo": "image",
+            "nombre": "1000887432.jpg",
+            "origen": "rcmvjhib1k494xhz"
+          },
+          {
+            "id": "mvjo13ej29y",
+            "media": "ig-queue/stories/pool-p/mvjo13ej29y.jpg",
+            "tipo": "image",
+            "nombre": "1000887431.jpg",
+            "origen": "rcmvjhi6z4x3wo3s"
+          },
+          {
+            "id": "mvjo17zj610",
+            "media": "ig-queue/stories/pool-p/mvjo17zj610.jpg",
+            "tipo": "image",
+            "nombre": "1000887430.jpg",
+            "origen": "rcmvjhi1vvlousc8"
+          },
+          {
+            "id": "mvjo1c6w48j",
+            "media": "ig-queue/stories/pool-p/mvjo1c6w48j.jpg",
+            "tipo": "image",
+            "nombre": "1000887429.jpg",
+            "origen": "rcmvjhhx7if449t0"
+          },
+          {
+            "id": "mvjo1jeecnu",
+            "media": "ig-queue/stories/pool-p/mvjo1jeecnu.jpg",
+            "tipo": "image",
+            "nombre": "1000887428.jpg",
+            "origen": "rcmvjhhrsrwt9zig"
+          },
+          {
+            "id": "mvjwc5ako4p",
+            "media": "ig-queue/stories/pool-p/mvjwc5ako4p.mp4",
+            "tipo": "video",
+            "nombre": "1000887909.mp4",
+            "origen": "rcmvjw60jjyli615"
+          },
+          {
+            "id": "mvjwceqscit",
+            "media": "ig-queue/stories/pool-p/mvjwceqscit.mp4",
+            "tipo": "video",
+            "nombre": "1000887908.mp4",
+            "origen": "rcmvjw5vgqq1prmt"
+          },
+          {
+            "id": "mvkcsgf3ij5",
+            "media": "ig-queue/stories/pool-p/mvkcsgf3ij5.jpg",
+            "tipo": "image",
+            "nombre": "1000888390.jpg",
+            "origen": "rcmvkca9ddre2bbm"
+          },
+          {
+            "id": "mvkcsow9sxi",
+            "media": "ig-queue/stories/pool-p/mvkcsow9sxi.jpg",
+            "tipo": "image",
+            "nombre": "1000888052.jpg",
+            "origen": "rcmvk22n2tbhwzkv"
+          },
+          {
+            "id": "mvkcsw7yxc9",
+            "media": "ig-queue/stories/pool-p/mvkcsw7yxc9.jpg",
+            "tipo": "image",
+            "nombre": "1000888051.jpg",
+            "origen": "rcmvk22hky3wautu"
+          },
+          {
+            "id": "mvl57e73iq7",
+            "media": "ig-queue/stories/pool-p/mvl57e73iq7.jpg",
+            "tipo": "image",
+            "nombre": "1000888779.jpg",
+            "origen": "rcmvl2gs4nrjsef0"
+          },
+          {
+            "id": "mvl57sj7ugk",
+            "media": "ig-queue/stories/pool-p/mvl57sj7ugk.jpg",
+            "tipo": "image",
+            "nombre": "1000888804.jpg",
+            "origen": "rcmvl2g3jjkky6r1"
+          },
+          {
+            "id": "mvl585tgtgr",
+            "media": "ig-queue/stories/pool-p/mvl585tgtgr.jpg",
+            "tipo": "image",
+            "nombre": "1000888649.jpg",
+            "origen": "rcmvkz3deonkqaj8"
+          },
+          {
+            "id": "mvl58j5fvs0",
+            "media": "ig-queue/stories/pool-p/mvl58j5fvs0.jpg",
+            "tipo": "image",
+            "nombre": "1000888648.jpg",
+            "origen": "rcmvkz37g3wp0bqm"
+          },
+          {
+            "id": "mvl58w2y9lx",
+            "media": "ig-queue/stories/pool-p/mvl58w2y9lx.jpg",
+            "tipo": "image",
+            "nombre": "1000888647.jpg",
+            "origen": "rcmvkz30k7sqkjju"
+          },
+          {
+            "id": "mvl599jl55g",
+            "media": "ig-queue/stories/pool-p/mvl599jl55g.jpg",
+            "tipo": "image",
+            "nombre": "1000888646.jpg",
+            "origen": "rcmvkz2tgsn2keeu"
+          },
+          {
+            "id": "mvl9hex3fic",
+            "media": "ig-queue/stories/pool-p/mvl9hex3fic.mp4",
+            "tipo": "video",
+            "nombre": "1000889054.mp4",
+            "origen": "rcmvl9fodfhb7wl7"
+          },
+          {
+            "id": "mvl9i09g0j1",
+            "media": "ig-queue/stories/pool-p/mvl9i09g0j1.mp4",
+            "tipo": "video",
+            "nombre": "1000889051.mp4",
+            "origen": "rcmvl9fcivg188e4"
+          },
+          {
+            "id": "mvl9i8iiq7a",
+            "media": "ig-queue/stories/pool-p/mvl9i8iiq7a.mp4",
+            "tipo": "video",
+            "nombre": "1000889146.mp4",
+            "origen": "rcmvl9ewp8zu938d"
+          },
+          {
+            "id": "mvl9im06t2y",
+            "media": "ig-queue/stories/pool-p/mvl9im06t2y.mp4",
+            "tipo": "video",
+            "nombre": "1000889145.mp4",
+            "origen": "rcmvl9eh2gjav6ib"
+          },
+          {
+            "id": "mvpn6987uex",
+            "media": "ig-queue/stories/pool-p/mvpn6987uex.jpg",
+            "tipo": "image",
+            "nombre": "1000892390.jpg",
+            "origen": "rcmvpmov6dzvuqvt"
+          },
+          {
+            "id": "mvpn6d4bzd2",
+            "media": "ig-queue/stories/pool-p/mvpn6d4bzd2.mp4",
+            "tipo": "video",
+            "nombre": "1000891771.mp4",
+            "origen": "rcmvp3e1oalc1fe5"
+          },
+          {
+            "id": "mvqn6bap80n",
+            "media": "ig-queue/stories/pool-p/mvqn6bap80n.mp4",
+            "tipo": "video",
+            "nombre": "1000892391.mp4",
+            "origen": "rcmvpmo3uzx0q0bp"
+          },
+          {
+            "id": "mvqn6fgnq0u",
+            "media": "ig-queue/stories/pool-p/mvqn6fgnq0u.mp4",
+            "tipo": "video",
+            "nombre": "1000892286.mp4",
+            "origen": "rcmvph4b9mok297a"
+          },
+          {
+            "id": "mvqn6jffp2s",
+            "media": "ig-queue/stories/pool-p/mvqn6jffp2s.mp4",
+            "tipo": "video",
+            "nombre": "1000891770.mp4",
+            "origen": "rcmvp3dmrgv06grk"
+          },
+          {
+            "id": "mvqwegyeoa3",
+            "media": "ig-queue/stories/pool-p/mvqwegyeoa3.mp4",
+            "tipo": "video",
+            "nombre": "1000893313.mp4",
+            "origen": "rcmvqw4j9ncuo4l7"
+          },
+          {
+            "id": "mvr0igggzkj",
+            "media": "ig-queue/stories/pool-p/mvr0igggzkj.jpg",
+            "tipo": "image",
+            "nombre": "1000893314.jpg",
+            "origen": "rcmvqw5xq2695pzc"
+          },
+          {
+            "id": "mvr0iuhhk0n",
+            "media": "ig-queue/stories/pool-p/mvr0iuhhk0n.jpg",
+            "tipo": "image",
+            "nombre": "camera_17931120287547787819700565050262.jpg",
+            "origen": "rcmvqsm5x4etos0t"
+          },
+          {
+            "id": "mvr0j1osn65",
+            "media": "ig-queue/stories/pool-p/mvr0j1osn65.jpg",
+            "tipo": "image",
+            "nombre": "camera_179310841256813836948525005358.jpg",
+            "origen": "rcmvqqgjigs4t5n3"
+          },
+          {
+            "id": "mvr0jg7ros9",
+            "media": "ig-queue/stories/pool-p/mvr0jg7ros9.jpg",
+            "tipo": "image",
+            "nombre": "camera_17931010141143015379434590593729.jpg",
+            "origen": "rcmvqm1wgtmobmxo"
+          },
+          {
+            "id": "mvr0jkpawqo",
+            "media": "ig-queue/stories/pool-p/mvr0jkpawqo.jpg",
+            "tipo": "image",
+            "nombre": "camera_17931009961798118896652640204944.jpg",
+            "origen": "rcmvqm1lzy8g3pod"
+          },
+          {
+            "id": "mvr0jobg8r4",
+            "media": "ig-queue/stories/pool-p/mvr0jobg8r4.jpg",
+            "tipo": "image",
+            "nombre": "1000892387.jpg",
+            "origen": "rcmvpmpgcwtrr132"
+          },
+          {
+            "id": "mvr0jscdu6t",
+            "media": "ig-queue/stories/pool-p/mvr0jscdu6t.jpg",
+            "tipo": "image",
+            "nombre": "1000892388.jpg",
+            "origen": "rcmvpmp8sh4556i0"
+          },
+          {
+            "id": "mvr0jz5n2yz",
+            "media": "ig-queue/stories/pool-p/mvr0jz5n2yz.jpg",
+            "tipo": "image",
+            "nombre": "1000892389.jpg",
+            "origen": "rcmvpmp2c7ea4bhb"
+          },
+          {
+            "id": "mvr0k5ohclp",
+            "media": "ig-queue/stories/pool-p/mvr0k5ohclp.jpg",
+            "tipo": "image",
+            "nombre": "1000882408.jpg",
+            "origen": "rcmvci9pceylop46"
+          },
+          {
+            "id": "mvr0kcygoff",
+            "media": "ig-queue/stories/pool-p/mvr0kcygoff.jpg",
+            "tipo": "image",
+            "nombre": "1000882407.jpg",
+            "origen": "rcmvci9ksis1jatx"
+          },
+          {
+            "id": "mvr0kjhw20r",
+            "media": "ig-queue/stories/pool-p/mvr0kjhw20r.jpg",
+            "tipo": "image",
+            "nombre": "1000882406.jpg",
+            "origen": "rcmvci9gcg9fb3h3"
+          },
+          {
+            "id": "mvr0krezf16",
+            "media": "ig-queue/stories/pool-p/mvr0krezf16.jpg",
+            "tipo": "image",
+            "nombre": "1000882404.jpg",
+            "origen": "rcmvci9b9wxht7er"
+          }
+        ],
+        "autoNuevas": true,
+        "destino": "ambos",
+        "autoBase": true,
+        "fb": 1,
+        "ig": 1,
+        "autoOmitidas": [
+          "rcmvfdnf1z46k96g",
+          "rcmve6y43cdtlttu",
+          "rcmvci9pceylop46",
+          "rcmvci9ksis1jatx",
+          "rcmvci9gcg9fb3h3",
+          "rcmvci9b9wxht7er",
+          "rcmvig0klfnulc2i",
+          "rcmvr08nxeykj1h9"
+        ]
+      },
+      "nueva": {
+        "franjas": [
+          {
+            "h": "09:00",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              5,
+              6
+            ]
+          },
+          {
+            "h": "12:30",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "17:00",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "20:30",
+            "n": 1,
+            "d": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "h": "19:30",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          },
+          {
+            "h": "15:30",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          },
+          {
+            "h": "18:00",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          },
+          {
+            "h": "20:00",
+            "n": 1,
+            "d": [
+              0,
+              6
+            ]
+          }
+        ],
+        "reciclar": false,
+        "pausada": false,
+        "pool": [
+          {
+            "id": "mvauysj4nml",
+            "media": "ig-queue/stories/pool/mvauysj4nml.mp4",
+            "tipo": "video",
+            "nombre": "1000880097.mp4",
+            "origen": "rcmv9rmtxtjcqwi6"
+          },
+          {
+            "id": "mvauzcv45l7",
+            "media": "ig-queue/stories/pool/mvauzcv45l7.mp4",
+            "tipo": "video",
+            "nombre": "1000872059.mp4",
+            "origen": "rcmuzgczy9it3ekp"
+          },
+          {
+            "id": "mvauzqglzc1",
+            "media": "ig-queue/stories/pool/mvauzqglzc1.mp4",
+            "tipo": "video",
+            "nombre": "1000856965.mp4",
+            "origen": "rcmud1emfbr2u2yq"
+          },
+          {
+            "id": "mvauzxv7pts",
+            "media": "ig-queue/stories/pool/mvauzxv7pts.mp4",
+            "tipo": "video",
+            "nombre": "1000854690.mp4",
+            "origen": "rcmu7baspw3u542y"
+          },
+          {
+            "id": "mvav0oa8fbt",
+            "media": "ig-queue/stories/pool/mvav0oa8fbt.mp4",
+            "tipo": "video",
+            "nombre": "1000830508.mp4",
+            "origen": "rcmt8yv0ggjfakbg"
+          },
+          {
+            "id": "mvav19r44ch",
+            "media": "ig-queue/stories/pool/mvav19r44ch.mp4",
+            "tipo": "video",
+            "nombre": "1000835371.mp4",
+            "origen": "rcmtgbd74373prfs"
+          },
+          {
+            "id": "mvav1rzg992",
+            "media": "ig-queue/stories/pool/mvav1rzg992.jpg",
+            "tipo": "image",
+            "nombre": "1000879954.jpg",
+            "origen": "rcmv9n2oavee95vd"
+          },
+          {
+            "id": "mvav1xa6vql",
+            "media": "ig-queue/stories/pool/mvav1xa6vql.jpg",
+            "tipo": "image",
+            "nombre": "1000871576.jpg",
+            "origen": "rcmuyes5fg0eb6x1"
+          },
+          {
+            "id": "mvav2077bfh",
+            "media": "ig-queue/stories/pool/mvav2077bfh.jpg",
+            "tipo": "image",
+            "nombre": "1000871574.jpg",
+            "origen": "rcmuyerx6ghl7lge"
+          },
+          {
+            "id": "mvav23euybu",
+            "media": "ig-queue/stories/pool/mvav23euybu.jpg",
+            "tipo": "image",
+            "nombre": "1000879953.jpg",
+            "origen": "rcmv9n2jdnjt394s"
+          },
+          {
+            "id": "mvav25z397s",
+            "media": "ig-queue/stories/pool/mvav25z397s.jpg",
+            "tipo": "image",
+            "nombre": "1000879655.jpg",
+            "origen": "rcmv9fvoxgd6t2zw"
+          },
+          {
+            "id": "mvav28500sf",
+            "media": "ig-queue/stories/pool/mvav28500sf.mp4",
+            "tipo": "video",
+            "nombre": "1000875104.mp4",
+            "origen": "rcmv36143fdosign"
+          },
+          {
+            "id": "mvav2qo0aoq",
+            "media": "ig-queue/stories/pool/mvav2qo0aoq.mp4",
+            "tipo": "video",
+            "nombre": "1000874929.mp4",
+            "origen": "rcmv2x2z35zuzmp6"
+          },
+          {
+            "id": "mvav2wa2rnm",
+            "media": "ig-queue/stories/pool/mvav2wa2rnm.mp4",
+            "tipo": "video",
+            "nombre": "1000873511.mp4",
+            "origen": "rcmv19l73osu7uks"
+          },
+          {
+            "id": "mvav334jbhg",
+            "media": "ig-queue/stories/pool/mvav334jbhg.jpg",
+            "tipo": "image",
+            "nombre": "1000871389.jpg",
+            "origen": "rcmuy7p0k17bxqdn"
+          },
+          {
+            "id": "mvav35pcbg3",
+            "media": "ig-queue/stories/pool/mvav35pcbg3.jpg",
+            "tipo": "image",
+            "nombre": "1000871390.jpg",
+            "origen": "rcmuy7p6n52xx31k"
+          },
+          {
+            "id": "mvav38nnp8l",
+            "media": "ig-queue/stories/pool/mvav38nnp8l.jpg",
+            "tipo": "image",
+            "nombre": "1000871391.jpg",
+            "origen": "rcmuy7pe88r36qcc"
+          },
+          {
+            "id": "mvav3bkvpbp",
+            "media": "ig-queue/stories/pool/mvav3bkvpbp.jpg",
+            "tipo": "image",
+            "nombre": "1000871392.jpg",
+            "origen": "rcmuy7plq3kj057s"
+          },
+          {
+            "id": "mvav3h2hthm",
+            "media": "ig-queue/stories/pool/mvav3h2hthm.jpg",
+            "tipo": "image",
+            "nombre": "1000871388.jpg",
+            "origen": "rcmuy7ou332y9d45"
+          },
+          {
+            "id": "mvav3jk1jb5",
+            "media": "ig-queue/stories/pool/mvav3jk1jb5.mp4",
+            "tipo": "video",
+            "nombre": "1000871350.mp4",
+            "origen": "rcmuy733pxpz9y2j"
+          },
+          {
+            "id": "mvav42tkyqy",
+            "media": "ig-queue/stories/pool/mvav42tkyqy.jpg",
+            "tipo": "image",
+            "nombre": "1000865710.jpg",
+            "origen": "rcmupihw3ltlkkmw"
+          },
+          {
+            "id": "mvav45r8u5u",
+            "media": "ig-queue/stories/pool/mvav45r8u5u.jpg",
+            "tipo": "image",
+            "nombre": "1000863568.jpg",
+            "origen": "rcmumxkvto6vefxs"
+          },
+          {
+            "id": "mvav48hwweb",
+            "media": "ig-queue/stories/pool/mvav48hwweb.mp4",
+            "tipo": "video",
+            "nombre": "1000853158.mp4",
+            "origen": "rcmu5hbnhvr2wn56"
+          },
+          {
+            "id": "mvav4wx15w7",
+            "media": "ig-queue/stories/pool/mvav4wx15w7.jpg",
+            "tipo": "image",
+            "nombre": "1000878961.jpg",
+            "origen": "rcmv8eda0vv3hhhl"
+          },
+          {
+            "id": "mvav4zenvid",
+            "media": "ig-queue/stories/pool/mvav4zenvid.mp4",
+            "tipo": "video",
+            "nombre": "1000878207.mp4",
+            "origen": "rcmv7ex8d580yz8k"
+          },
+          {
+            "id": "mvawtsml9p0",
+            "media": "ig-queue/stories/pool/mvawtsml9p0.jpg",
+            "tipo": "image",
+            "nombre": "1000877801.webp",
+            "origen": "rcmv6wqadaqyx5vu"
+          },
+          {
+            "id": "mvawtwslu24",
+            "media": "ig-queue/stories/pool/mvawtwslu24.jpg",
+            "tipo": "image",
+            "nombre": "1000873130.jpg",
+            "origen": "rcmv0ye5xx7hjzhk"
+          },
+          {
+            "id": "mvawtyge1t5",
+            "media": "ig-queue/stories/pool/mvawtyge1t5.mp4",
+            "tipo": "video",
+            "nombre": "1000876241.mp4",
+            "origen": "rcmv58yv729hctfj"
+          },
+          {
+            "id": "mvawugzaktr",
+            "media": "ig-queue/stories/pool/mvawugzaktr.mp4",
+            "tipo": "video",
+            "nombre": "1000872058.mp4",
+            "origen": "rcmuzgcs1ampp0gu"
+          },
+          {
+            "id": "mvawulh8myh",
+            "media": "ig-queue/stories/pool/mvawulh8myh.mp4",
+            "tipo": "video",
+            "nombre": "1000869952.mp4",
+            "origen": "rcmuvlkgukjkhbp3"
+          },
+          {
+            "id": "mvawuogb0a0",
+            "media": "ig-queue/stories/pool/mvawuogb0a0.mp4",
+            "tipo": "video",
+            "nombre": "1000866166.mp4",
+            "origen": "rcmupudno7frb73y"
+          },
+          {
+            "id": "mvawv8ynaix",
+            "media": "ig-queue/stories/pool/mvawv8ynaix.jpg",
+            "tipo": "image",
+            "nombre": "1000864457.jpg",
+            "origen": "rcmuo0aq97f2ezx0"
+          },
+          {
+            "id": "mvawvfok4s3",
+            "media": "ig-queue/stories/pool/mvawvfok4s3.jpg",
+            "tipo": "image",
+            "nombre": "1000863589.jpg",
+            "origen": "rcmumz7p1mq3pouj"
+          },
+          {
+            "id": "mvawvki49me",
+            "media": "ig-queue/stories/pool/mvawvki49me.mp4",
+            "tipo": "video",
+            "nombre": "1000874511.mp4",
+            "origen": "rcmv2ft88gjwzd2s"
+          },
+          {
+            "id": "mvawxnxnd4z",
+            "media": "ig-queue/stories/pool/mvawxnxnd4z.jpg",
+            "tipo": "image",
+            "nombre": "1000857375.jpg",
+            "origen": "rcmue0bqsshyo7s3"
+          },
+          {
+            "id": "mvawxs3ahwh",
+            "media": "ig-queue/stories/pool/mvawxs3ahwh.jpg",
+            "tipo": "image",
+            "nombre": "1000873455.jpg",
+            "origen": "rcmv169awfl060gg"
+          },
+          {
+            "id": "mvawxub85fo",
+            "media": "ig-queue/stories/pool/mvawxub85fo.mp4",
+            "tipo": "video",
+            "nombre": "1000873421.mp4",
+            "origen": "rcmv15hd0xitk11n"
+          },
+          {
+            "id": "mvawxwdregr",
+            "media": "ig-queue/stories/pool/mvawxwdregr.mp4",
+            "tipo": "video",
+            "nombre": "1000859784.mp4",
+            "origen": "rcmuh1a460rmcun5"
+          },
+          {
+            "id": "mvawxzb868b",
+            "media": "ig-queue/stories/pool/mvawxzb868b.jpg",
+            "tipo": "image",
+            "nombre": "1000873129.jpg",
+            "origen": "rcmv0yeda3fa6j6z"
+          },
+          {
+            "id": "mvawy2kceaa",
+            "media": "ig-queue/stories/pool/mvawy2kceaa.jpg",
+            "tipo": "image",
+            "nombre": "1000872944.jpg",
+            "origen": "rcmv0vgkomryb65e"
+          },
+          {
+            "id": "mvawy5n3r6p",
+            "media": "ig-queue/stories/pool/mvawy5n3r6p.mp4",
+            "tipo": "video",
+            "nombre": "1000853163.mp4",
+            "origen": "rcmu5hf82bk8sqnz"
+          },
+          {
+            "id": "mvawzwbrs5r",
+            "media": "ig-queue/stories/pool/mvawzwbrs5r.jpg",
+            "tipo": "image",
+            "nombre": "1000872964.jpg",
+            "origen": "rcmv0vtegyc1bdtl"
+          },
+          {
+            "id": "mvawzyhsaec",
+            "media": "ig-queue/stories/pool/mvawzyhsaec.mp4",
+            "tipo": "video",
+            "nombre": "1000872453.mp4",
+            "origen": "rcmuzvf2vhr68rer"
+          },
+          {
+            "id": "mvax01f3wpq",
+            "media": "ig-queue/stories/pool/mvax01f3wpq.mp4",
+            "tipo": "video",
+            "nombre": "1000843417.mp4",
+            "origen": "rcmtrl999pknj8za"
+          },
+          {
+            "id": "mvax1cewvb2",
+            "media": "ig-queue/stories/pool/mvax1cewvb2.jpg",
+            "tipo": "image",
+            "nombre": "1000836161.jpg",
+            "origen": "rcmthjuwpesqte1h"
+          },
+          {
+            "id": "mvax1f1kvls",
+            "media": "ig-queue/stories/pool/mvax1f1kvls.jpg",
+            "tipo": "image",
+            "nombre": "camera_17913744718252555890086021876642.jpg",
+            "origen": "rcmuy246wcnwfxkw"
+          },
+          {
+            "id": "mvax1qf4jzx",
+            "media": "ig-queue/stories/pool/mvax1qf4jzx.jpg",
+            "tipo": "image",
+            "nombre": "camera_17913744495465127116435481816819.jpg",
+            "origen": "rcmuy23qnasellqq"
+          },
+          {
+            "id": "mvax1stqxmo",
+            "media": "ig-queue/stories/pool/mvax1stqxmo.jpg",
+            "tipo": "image",
+            "nombre": "1000870458.jpg",
+            "origen": "rcmuwpiaecyhot9q"
+          },
+          {
+            "id": "mvax1v95t0d",
+            "media": "ig-queue/stories/pool/mvax1v95t0d.mp4",
+            "tipo": "video",
+            "nombre": "1000867817.mp4",
+            "origen": "rcmusbnv3ebt1r6k"
+          },
+          {
+            "id": "mvax1y4e5vn",
+            "media": "ig-queue/stories/pool/mvax1y4e5vn.mp4",
+            "tipo": "video",
+            "nombre": "1000866744.mp4",
+            "origen": "rcmuqwhe55bj2pdl"
+          },
+          {
+            "id": "mvax2dq0c3r",
+            "media": "ig-queue/stories/pool/mvax2dq0c3r.mp4",
+            "tipo": "video",
+            "nombre": "1000866736.mp4",
+            "origen": "rcmuqwh8hyey22nr"
+          },
+          {
+            "id": "mvax2softk3",
+            "media": "ig-queue/stories/pool/mvax2softk3.mp4",
+            "tipo": "video",
+            "nombre": "1000866740.mp4",
+            "origen": "rcmuqwgxhsglcmex"
+          },
+          {
+            "id": "mvax2v3dcy9",
+            "media": "ig-queue/stories/pool/mvax2v3dcy9.jpg",
+            "tipo": "image",
+            "nombre": "1000854472.jpg",
+            "origen": "rcmu7dqsq6216qlc"
+          },
+          {
+            "id": "mvax2wxh88x",
+            "media": "ig-queue/stories/pool/mvax2wxh88x.mp4",
+            "tipo": "video",
+            "nombre": "1000847201.mp4",
+            "origen": "rcmtwx48xxiienzr"
+          },
+          {
+            "id": "mvax3knhipp",
+            "media": "ig-queue/stories/pool/mvax3knhipp.jpg",
+            "tipo": "image",
+            "nombre": "1000840259.jpg",
+            "origen": "rcmtnjj0nttvejkx"
+          },
+          {
+            "id": "mvax3y1y44c",
+            "media": "ig-queue/stories/pool/mvax3y1y44c.jpg",
+            "tipo": "image",
+            "nombre": "1000823853.jpg",
+            "origen": "rcmt27xorzf4d4w1"
+          },
+          {
+            "id": "mvax4489ece",
+            "media": "ig-queue/stories/pool/mvax4489ece.mp4",
+            "tipo": "video",
+            "nombre": "1000866167.mp4",
+            "origen": "rcmupugkmve8adaj"
+          },
+          {
+            "id": "mvax5hfazof",
+            "media": "ig-queue/stories/pool/mvax5hfazof.jpg",
+            "tipo": "image",
+            "nombre": "1000863590.jpg",
+            "origen": "rcmumz7woqdzqsv9"
+          },
+          {
+            "id": "mvax5jnub1y",
+            "media": "ig-queue/stories/pool/mvax5jnub1y.jpg",
+            "tipo": "image",
+            "nombre": "1000831013.jpg",
+            "origen": "rcmta286xb7uyoo4"
+          },
+          {
+            "id": "mvax5l62d07",
+            "media": "ig-queue/stories/pool/mvax5l62d07.mp4",
+            "tipo": "video",
+            "nombre": "1000859801.mp4",
+            "origen": "rcmuh1e9kbsbjg5x"
+          },
+          {
+            "id": "mvax5nmkw6k",
+            "media": "ig-queue/stories/pool/mvax5nmkw6k.mp4",
+            "tipo": "video",
+            "nombre": "1000859750.mp4",
+            "origen": "rcmuh12u3jlpd1ui"
+          },
+          {
+            "id": "mvax6wmr0s9",
+            "media": "ig-queue/stories/pool/mvax6wmr0s9.mp4",
+            "tipo": "video",
+            "nombre": "1000859606.mp4",
+            "origen": "rcmugz8fpzwuf9vo"
+          },
+          {
+            "id": "mvax7l1cpgr",
+            "media": "ig-queue/stories/pool/mvax7l1cpgr.jpg",
+            "tipo": "image",
+            "nombre": "1000858805.jpg",
+            "origen": "rcmufxmgi09dzmg2"
+          },
+          {
+            "id": "mvax8a78xso",
+            "media": "ig-queue/stories/pool/mvax8a78xso.jpg",
+            "tipo": "image",
+            "nombre": "1000856359.jpg",
+            "origen": "rcmubcams5gn0s09"
+          },
+          {
+            "id": "mvax8tdh38n",
+            "media": "ig-queue/stories/pool/mvax8tdh38n.mp4",
+            "tipo": "video",
+            "nombre": "1000856358.mp4",
+            "origen": "rcmubcagxrtoe07u"
+          },
+          {
+            "id": "mvax97qpv4t",
+            "media": "ig-queue/stories/pool/mvax97qpv4t.jpg",
+            "tipo": "image",
+            "nombre": "1000857566.jpg",
+            "origen": "rcmue5cosl8rqs6o"
+          },
+          {
+            "id": "mvax9m4tpz1",
+            "media": "ig-queue/stories/pool/mvax9m4tpz1.jpg",
+            "tipo": "image",
+            "nombre": "1000834431.jpg",
+            "origen": "rcmtelrw3lg8k85q"
+          },
+          {
+            "id": "mvax9o80y6u",
+            "media": "ig-queue/stories/pool/mvax9o80y6u.jpg",
+            "tipo": "image",
+            "nombre": "1000834432.jpg",
+            "origen": "rcmtelrqbwidwwwn"
+          },
+          {
+            "id": "mvax9t7s9w4",
+            "media": "ig-queue/stories/pool/mvax9t7s9w4.jpg",
+            "tipo": "image",
+            "nombre": "1000834435.jpg",
+            "origen": "rcmtelrho7zjwspg"
+          },
+          {
+            "id": "mvax9w36uqm",
+            "media": "ig-queue/stories/pool/mvax9w36uqm.jpg",
+            "tipo": "image",
+            "nombre": "1000830134.jpg",
+            "origen": "rcmt8krg53od8077"
+          },
+          {
+            "id": "mvax9ycj34c",
+            "media": "ig-queue/stories/pool/mvax9ycj34c.jpg",
+            "tipo": "image",
+            "nombre": "1000830129.jpg",
+            "origen": "rcmt8km9ijgk10r3"
+          },
+          {
+            "id": "mvaxa03uf0z",
+            "media": "ig-queue/stories/pool/mvaxa03uf0z.mp4",
+            "tipo": "video",
+            "nombre": "1000853322.mp4",
+            "origen": "rcmu5l1i8ew5zket"
+          },
+          {
+            "id": "mvaxa6ciro8",
+            "media": "ig-queue/stories/pool/mvaxa6ciro8.jpg",
+            "tipo": "image",
+            "nombre": "1000851959.jpg",
+            "origen": "rcmu38rxo3yas4bv"
+          },
+          {
+            "id": "mvaxa8x07sn",
+            "media": "ig-queue/stories/pool/mvaxa8x07sn.jpg",
+            "tipo": "image",
+            "nombre": "1000827175.jpg",
+            "origen": "rcmt3hqeymkaytsb"
+          },
+          {
+            "id": "mvaxaairouk",
+            "media": "ig-queue/stories/pool/mvaxaairouk.jpg",
+            "tipo": "image",
+            "nombre": "1000823855.jpg",
+            "origen": "rcmt1l7lk7fz1zb1"
+          },
+          {
+            "id": "mvaxaca428w",
+            "media": "ig-queue/stories/pool/mvaxaca428w.mp4",
+            "tipo": "video",
+            "nombre": "1000851802.mp4",
+            "origen": "rcmu32j46en5za9r"
+          },
+          {
+            "id": "mvaxb23k05s",
+            "media": "ig-queue/stories/pool/mvaxb23k05s.jpg",
+            "tipo": "image",
+            "nombre": "1000851388.jpg",
+            "origen": "rcmu2oa3rw138rcj"
+          },
+          {
+            "id": "mvaxbvkuckv",
+            "media": "ig-queue/stories/pool/mvaxbvkuckv.jpg",
+            "tipo": "image",
+            "nombre": "1000851476.jpg",
+            "origen": "rcmu2rr89dfr29y8"
+          },
+          {
+            "id": "mvaxbzfzr0f",
+            "media": "ig-queue/stories/pool/mvaxbzfzr0f.jpg",
+            "tipo": "image",
+            "nombre": "1000851475.jpg",
+            "origen": "rcmu2rr3nfpamtux"
+          },
+          {
+            "id": "mvaxc1fmtd4",
+            "media": "ig-queue/stories/pool/mvaxc1fmtd4.mp4",
+            "tipo": "video",
+            "nombre": "1000846191.mp4",
+            "origen": "rcmtvqkbcv0n02yt"
+          },
+          {
+            "id": "mvaxc9xftzb",
+            "media": "ig-queue/stories/pool/mvaxc9xftzb.jpg",
+            "tipo": "image",
+            "nombre": "1000844140.jpg",
+            "origen": "rcmtsx7lndeprm9e"
+          },
+          {
+            "id": "mvaxcc00g0u",
+            "media": "ig-queue/stories/pool/mvaxcc00g0u.jpg",
+            "tipo": "image",
+            "nombre": "1000847864.jpg",
+            "origen": "rcmtxfktdxemfjh5"
+          },
+          {
+            "id": "mvaxckw6bhk",
+            "media": "ig-queue/stories/pool/mvaxckw6bhk.mp4",
+            "tipo": "video",
+            "nombre": "1000845340.mp4",
+            "origen": "rcmtuhpmspae48a9"
+          },
+          {
+            "id": "mvaxcq2s90c",
+            "media": "ig-queue/stories/pool/mvaxcq2s90c.jpg",
+            "tipo": "image",
+            "nombre": "1000837687.jpg",
+            "origen": "rcmtk5jadiuc33i0"
+          },
+          {
+            "id": "mvaxcsa24la",
+            "media": "ig-queue/stories/pool/mvaxcsa24la.jpg",
+            "tipo": "image",
+            "nombre": "1000823857.jpg",
+            "origen": "rcmt1l7wf2k8f14y"
+          },
+          {
+            "id": "mvaxcu4n81p",
+            "media": "ig-queue/stories/pool/mvaxcu4n81p.mp4",
+            "tipo": "video",
+            "nombre": "1000823856.mp4",
+            "origen": "rcmt1l79rnchm1bb"
+          },
+          {
+            "id": "mvaxd499k9z",
+            "media": "ig-queue/stories/pool/mvaxd499k9z.jpg",
+            "tipo": "image",
+            "nombre": "1000835466.jpg",
+            "origen": "rcmth5aeqa40x5ey"
+          },
+          {
+            "id": "mvaxd6p7mne",
+            "media": "ig-queue/stories/pool/mvaxd6p7mne.jpg",
+            "tipo": "image",
+            "nombre": "1000823854.jpg",
+            "origen": "rcmt1l8cfypbyoe7"
+          },
+          {
+            "id": "mvaxd8h75mx",
+            "media": "ig-queue/stories/pool/mvaxd8h75mx.jpg",
+            "tipo": "image",
+            "nombre": "camera_17880050656313985825231179887501.jpg",
+            "origen": "rcmtec2k24y8a1zf"
+          },
+          {
+            "id": "mvaxddb48pw",
+            "media": "ig-queue/stories/pool/mvaxddb48pw.jpg",
+            "tipo": "image",
+            "nombre": "1000833559.jpg",
+            "origen": "rcmtd970q8dt2u8w"
+          },
+          {
+            "id": "mvaxdvil269",
+            "media": "ig-queue/stories/pool/mvaxdvil269.jpg",
+            "tipo": "image",
+            "nombre": "1000830509.jpg",
+            "origen": "rcmt8yuur5sz9xpy"
+          },
+          {
+            "id": "mvaxdx6w9e3",
+            "media": "ig-queue/stories/pool/mvaxdx6w9e3.mp4",
+            "tipo": "video",
+            "nombre": "1000830135.mp4",
+            "origen": "rcmt8ktyl9phiqpg"
+          },
+          {
+            "id": "mvaxe14omvi",
+            "media": "ig-queue/stories/pool/mvaxe14omvi.mp4",
+            "tipo": "video",
+            "nombre": "1000824008.mp4",
+            "origen": "rcmt1l71t5zy1t6z"
+          },
+          {
+            "id": "mvcdpl107ri",
+            "media": "ig-queue/stories/pool/mvcdpl107ri.jpg",
+            "tipo": "image",
+            "nombre": "1000882291.jpg",
+            "origen": "rcmvcdd41hhbt44q"
+          },
+          {
+            "id": "mvcdpo2r63f",
+            "media": "ig-queue/stories/pool/mvcdpo2r63f.jpg",
+            "tipo": "image",
+            "nombre": "1000882289.jpg",
+            "origen": "rcmvcdczttdxm808"
+          },
+          {
+            "id": "mvcdpqfoq6n",
+            "media": "ig-queue/stories/pool/mvcdpqfoq6n.jpg",
+            "tipo": "image",
+            "nombre": "1000882287.jpg",
+            "origen": "rcmvcdcuzl013ln0"
+          },
+          {
+            "id": "mvcdpsrdjky",
+            "media": "ig-queue/stories/pool/mvcdpsrdjky.jpg",
+            "tipo": "image",
+            "nombre": "1000882285.jpg",
+            "origen": "rcmvcdcpgzwgwo60"
+          },
+          {
+            "id": "mvcdpve020a",
+            "media": "ig-queue/stories/pool/mvcdpve020a.jpg",
+            "tipo": "image",
+            "nombre": "1000882281.jpg",
+            "origen": "rcmvcdcjl6wja6hx"
+          },
+          {
+            "id": "mvcdr8huwgc",
+            "media": "ig-queue/stories/pool/mvcdr8huwgc.jpg",
+            "tipo": "image",
+            "nombre": "1000882277.jpg",
+            "origen": "rcmvcdcfi8g1lj0k"
+          },
+          {
+            "id": "mvcdremxre9",
+            "media": "ig-queue/stories/pool/mvcdremxre9.jpg",
+            "tipo": "image",
+            "nombre": "1000881605.jpg",
+            "origen": "rcmvbcvfrt01zsjb"
+          },
+          {
+            "id": "mvcdrg9658a",
+            "media": "ig-queue/stories/pool/mvcdrg9658a.mp4",
+            "tipo": "video",
+            "nombre": "1000881467.mp4",
+            "origen": "rcmvb6hky9qq9ff6"
+          },
+          {
+            "id": "mvcdrk339al",
+            "media": "ig-queue/stories/pool/mvcdrk339al.jpg",
+            "tipo": "image",
+            "nombre": "1000881344.jpg",
+            "origen": "rcmvb365xu9yk6wt"
+          },
+          {
+            "id": "mvcdrmhd8n8",
+            "media": "ig-queue/stories/pool/mvcdrmhd8n8.jpg",
+            "tipo": "image",
+            "nombre": "1000881342.jpg",
+            "origen": "rcmvb35y3pklyd9c"
+          },
+          {
+            "id": "mvid664igtj",
+            "media": "ig-queue/stories/pool/mvid664igtj.jpg",
+            "tipo": "image",
+            "nombre": "1000886445.jpg",
+            "origen": "rcmvi71sfpuj3uka"
+          },
+          {
+            "id": "mvid69qhsxj",
+            "media": "ig-queue/stories/pool/mvid69qhsxj.jpg",
+            "tipo": "image",
+            "nombre": "1000886446.jpg",
+            "origen": "rcmvi71n9hhfspk8"
+          },
+          {
+            "id": "mvid6cb0sd3",
+            "media": "ig-queue/stories/pool/mvid6cb0sd3.jpg",
+            "tipo": "image",
+            "nombre": "1000886442.jpg",
+            "origen": "rcmvi6y6jv2e815k"
+          },
+          {
+            "id": "mvid6f0o4ne",
+            "media": "ig-queue/stories/pool/mvid6f0o4ne.jpg",
+            "tipo": "image",
+            "nombre": "1000886444.jpg",
+            "origen": "rcmvi6xv6sez428q"
+          },
+          {
+            "id": "mvid6h5fzta",
+            "media": "ig-queue/stories/pool/mvid6h5fzta.mp4",
+            "tipo": "video",
+            "nombre": "1000885711.mp4",
+            "origen": "rcmvgwj3gj2a3230"
+          },
+          {
+            "id": "mvid6ws6pz1",
+            "media": "ig-queue/stories/pool/mvid6ws6pz1.jpg",
+            "tipo": "image",
+            "nombre": "1000885659.jpg",
+            "origen": "rcmvgsxia418twkt"
+          },
+          {
+            "id": "mvid6yqy0eh",
+            "media": "ig-queue/stories/pool/mvid6yqy0eh.mp4",
+            "tipo": "video",
+            "nombre": "1000885414.mp4",
+            "origen": "rcmvgo0q2mooqf73"
+          },
+          {
+            "id": "mvid72rjjj9",
+            "media": "ig-queue/stories/pool/mvid72rjjj9.mp4",
+            "tipo": "video",
+            "nombre": "1000884979.mp4",
+            "origen": "rcmvfvlsvkwcj6fc"
+          },
+          {
+            "id": "mvig7c1ktwy",
+            "media": "ig-queue/stories/pool/mvig7c1ktwy.mp4",
+            "tipo": "video",
+            "nombre": "1000886763.mp4",
+            "origen": "rcmvig0f8ann6pgx"
+          },
+          {
+            "id": "mvig7kqggpl",
+            "media": "ig-queue/stories/pool/mvig7kqggpl.mp4",
+            "tipo": "video",
+            "nombre": "1000886762.mp4",
+            "origen": "rcmvig07d11nzi3k"
+          },
+          {
+            "id": "mvig7p62n3p",
+            "media": "ig-queue/stories/pool/mvig7p62n3p.mp4",
+            "tipo": "video",
+            "nombre": "1000886761.mp4",
+            "origen": "rcmvig01i5uxqlqa"
+          },
+          {
+            "id": "mvig7tlsk1o",
+            "media": "ig-queue/stories/pool/mvig7tlsk1o.mp4",
+            "tipo": "video",
+            "nombre": "1000886764.mp4",
+            "origen": "rcmvifznsgp098xg"
+          },
+          {
+            "id": "mvig894y13v",
+            "media": "ig-queue/stories/pool/mvig894y13v.jpg",
+            "tipo": "image",
+            "nombre": "1000886759.jpg",
+            "origen": "rcmvifzartv8ax9n"
+          },
+          {
+            "id": "mvig8lpzq5u",
+            "media": "ig-queue/stories/pool/mvig8lpzq5u.jpg",
+            "tipo": "image",
+            "nombre": "1000886757.jpg",
+            "origen": "rcmvifyzwq66sikh"
+          },
+          {
+            "id": "mvig8uq9kcg",
+            "media": "ig-queue/stories/pool/mvig8uq9kcg.jpg",
+            "tipo": "image",
+            "nombre": "1000886758.jpg",
+            "origen": "rcmvifyv1f4jeqtk"
+          },
+          {
+            "id": "mvimw02k07x",
+            "media": "ig-queue/stories/pool-p/mvimw02k07x.jpg",
+            "tipo": "image",
+            "nombre": "1000886756.jpg",
+            "origen": "rcmvifylpsyhmmbm"
+          },
+          {
+            "id": "mvimw8718fa",
+            "media": "ig-queue/stories/pool-p/mvimw8718fa.jpg",
+            "tipo": "image",
+            "nombre": "1000886755.jpg",
+            "origen": "rcmvify7ezmygp4k"
+          },
+          {
+            "id": "mvimwjru60y",
+            "media": "ig-queue/stories/pool-p/mvimwjru60y.jpg",
+            "tipo": "image",
+            "nombre": "1000886754.jpg",
+            "origen": "rcmvifxz57qi6da3"
+          },
+          {
+            "id": "mvimwxu4g7s",
+            "media": "ig-queue/stories/pool-p/mvimwxu4g7s.jpg",
+            "tipo": "image",
+            "nombre": "1000886753.jpg",
+            "origen": "rcmvifxs6ll8kcok"
+          },
+          {
+            "id": "mvimxbptaf9",
+            "media": "ig-queue/stories/pool-p/mvimxbptaf9.jpg",
+            "tipo": "image",
+            "nombre": "1000886752.jpg",
+            "origen": "rcmvifxm87mxdh88"
+          },
+          {
+            "id": "mvimxpwx9bk",
+            "media": "ig-queue/stories/pool-p/mvimxpwx9bk.jpg",
+            "tipo": "image",
+            "nombre": "1000886751.jpg",
+            "origen": "rcmvifxawbtb8gnw"
+          },
+          {
+            "id": "mvjo0pl3tp2",
+            "media": "ig-queue/stories/pool-p/mvjo0pl3tp2.jpg",
+            "tipo": "image",
+            "nombre": "1000887433.jpg",
+            "origen": "rcmvjhif8j72xgz7"
+          },
+          {
+            "id": "mvjo0vz4xbo",
+            "media": "ig-queue/stories/pool-p/mvjo0vz4xbo.jpg",
+            "tipo": "image",
+            "nombre": "1000887432.jpg",
+            "origen": "rcmvjhib1k494xhz"
+          },
+          {
+            "id": "mvjo13ej29y",
+            "media": "ig-queue/stories/pool-p/mvjo13ej29y.jpg",
+            "tipo": "image",
+            "nombre": "1000887431.jpg",
+            "origen": "rcmvjhi6z4x3wo3s"
+          },
+          {
+            "id": "mvjo17zj610",
+            "media": "ig-queue/stories/pool-p/mvjo17zj610.jpg",
+            "tipo": "image",
+            "nombre": "1000887430.jpg",
+            "origen": "rcmvjhi1vvlousc8"
+          },
+          {
+            "id": "mvjo1c6w48j",
+            "media": "ig-queue/stories/pool-p/mvjo1c6w48j.jpg",
+            "tipo": "image",
+            "nombre": "1000887429.jpg",
+            "origen": "rcmvjhhx7if449t0"
+          },
+          {
+            "id": "mvjo1jeecnu",
+            "media": "ig-queue/stories/pool-p/mvjo1jeecnu.jpg",
+            "tipo": "image",
+            "nombre": "1000887428.jpg",
+            "origen": "rcmvjhhrsrwt9zig"
+          },
+          {
+            "id": "mvjwc5ako4p",
+            "media": "ig-queue/stories/pool-p/mvjwc5ako4p.mp4",
+            "tipo": "video",
+            "nombre": "1000887909.mp4",
+            "origen": "rcmvjw60jjyli615"
+          },
+          {
+            "id": "mvjwceqscit",
+            "media": "ig-queue/stories/pool-p/mvjwceqscit.mp4",
+            "tipo": "video",
+            "nombre": "1000887908.mp4",
+            "origen": "rcmvjw5vgqq1prmt"
+          },
+          {
+            "id": "mvkcsgf3ij5",
+            "media": "ig-queue/stories/pool-p/mvkcsgf3ij5.jpg",
+            "tipo": "image",
+            "nombre": "1000888390.jpg",
+            "origen": "rcmvkca9ddre2bbm"
+          },
+          {
+            "id": "mvkcsow9sxi",
+            "media": "ig-queue/stories/pool-p/mvkcsow9sxi.jpg",
+            "tipo": "image",
+            "nombre": "1000888052.jpg",
+            "origen": "rcmvk22n2tbhwzkv"
+          },
+          {
+            "id": "mvkcsw7yxc9",
+            "media": "ig-queue/stories/pool-p/mvkcsw7yxc9.jpg",
+            "tipo": "image",
+            "nombre": "1000888051.jpg",
+            "origen": "rcmvk22hky3wautu"
+          },
+          {
+            "id": "mvl57e73iq7",
+            "media": "ig-queue/stories/pool-p/mvl57e73iq7.jpg",
+            "tipo": "image",
+            "nombre": "1000888779.jpg",
+            "origen": "rcmvl2gs4nrjsef0"
+          },
+          {
+            "id": "mvl57sj7ugk",
+            "media": "ig-queue/stories/pool-p/mvl57sj7ugk.jpg",
+            "tipo": "image",
+            "nombre": "1000888804.jpg",
+            "origen": "rcmvl2g3jjkky6r1"
+          },
+          {
+            "id": "mvl585tgtgr",
+            "media": "ig-queue/stories/pool-p/mvl585tgtgr.jpg",
+            "tipo": "image",
+            "nombre": "1000888649.jpg",
+            "origen": "rcmvkz3deonkqaj8"
+          },
+          {
+            "id": "mvl58j5fvs0",
+            "media": "ig-queue/stories/pool-p/mvl58j5fvs0.jpg",
+            "tipo": "image",
+            "nombre": "1000888648.jpg",
+            "origen": "rcmvkz37g3wp0bqm"
+          },
+          {
+            "id": "mvl58w2y9lx",
+            "media": "ig-queue/stories/pool-p/mvl58w2y9lx.jpg",
+            "tipo": "image",
+            "nombre": "1000888647.jpg",
+            "origen": "rcmvkz30k7sqkjju"
+          },
+          {
+            "id": "mvl599jl55g",
+            "media": "ig-queue/stories/pool-p/mvl599jl55g.jpg",
+            "tipo": "image",
+            "nombre": "1000888646.jpg",
+            "origen": "rcmvkz2tgsn2keeu"
+          },
+          {
+            "id": "mvl9hex3fic",
+            "media": "ig-queue/stories/pool-p/mvl9hex3fic.mp4",
+            "tipo": "video",
+            "nombre": "1000889054.mp4",
+            "origen": "rcmvl9fodfhb7wl7"
+          },
+          {
+            "id": "mvl9i09g0j1",
+            "media": "ig-queue/stories/pool-p/mvl9i09g0j1.mp4",
+            "tipo": "video",
+            "nombre": "1000889051.mp4",
+            "origen": "rcmvl9fcivg188e4"
+          },
+          {
+            "id": "mvl9i8iiq7a",
+            "media": "ig-queue/stories/pool-p/mvl9i8iiq7a.mp4",
+            "tipo": "video",
+            "nombre": "1000889146.mp4",
+            "origen": "rcmvl9ewp8zu938d"
+          },
+          {
+            "id": "mvl9im06t2y",
+            "media": "ig-queue/stories/pool-p/mvl9im06t2y.mp4",
+            "tipo": "video",
+            "nombre": "1000889145.mp4",
+            "origen": "rcmvl9eh2gjav6ib"
+          },
+          {
+            "id": "mvpn6987uex",
+            "media": "ig-queue/stories/pool-p/mvpn6987uex.jpg",
+            "tipo": "image",
+            "nombre": "1000892390.jpg",
+            "origen": "rcmvpmov6dzvuqvt"
+          },
+          {
+            "id": "mvpn6d4bzd2",
+            "media": "ig-queue/stories/pool-p/mvpn6d4bzd2.mp4",
+            "tipo": "video",
+            "nombre": "1000891771.mp4",
+            "origen": "rcmvp3e1oalc1fe5"
+          },
+          {
+            "id": "mvqn6bap80n",
+            "media": "ig-queue/stories/pool-p/mvqn6bap80n.mp4",
+            "tipo": "video",
+            "nombre": "1000892391.mp4",
+            "origen": "rcmvpmo3uzx0q0bp"
+          },
+          {
+            "id": "mvqn6fgnq0u",
+            "media": "ig-queue/stories/pool-p/mvqn6fgnq0u.mp4",
+            "tipo": "video",
+            "nombre": "1000892286.mp4",
+            "origen": "rcmvph4b9mok297a"
+          },
+          {
+            "id": "mvqn6jffp2s",
+            "media": "ig-queue/stories/pool-p/mvqn6jffp2s.mp4",
+            "tipo": "video",
+            "nombre": "1000891770.mp4",
+            "origen": "rcmvp3dmrgv06grk"
+          },
+          {
+            "id": "mvqwegyeoa3",
+            "media": "ig-queue/stories/pool-p/mvqwegyeoa3.mp4",
+            "tipo": "video",
+            "nombre": "1000893313.mp4",
+            "origen": "rcmvqw4j9ncuo4l7"
+          },
+          {
+            "id": "mvr0igggzkj",
+            "media": "ig-queue/stories/pool-p/mvr0igggzkj.jpg",
+            "tipo": "image",
+            "nombre": "1000893314.jpg",
+            "origen": "rcmvqw5xq2695pzc"
+          },
+          {
+            "id": "mvr0iuhhk0n",
+            "media": "ig-queue/stories/pool-p/mvr0iuhhk0n.jpg",
+            "tipo": "image",
+            "nombre": "camera_17931120287547787819700565050262.jpg",
+            "origen": "rcmvqsm5x4etos0t"
+          },
+          {
+            "id": "mvr0j1osn65",
+            "media": "ig-queue/stories/pool-p/mvr0j1osn65.jpg",
+            "tipo": "image",
+            "nombre": "camera_179310841256813836948525005358.jpg",
+            "origen": "rcmvqqgjigs4t5n3"
+          },
+          {
+            "id": "mvr0jg7ros9",
+            "media": "ig-queue/stories/pool-p/mvr0jg7ros9.jpg",
+            "tipo": "image",
+            "nombre": "camera_17931010141143015379434590593729.jpg",
+            "origen": "rcmvqm1wgtmobmxo"
+          },
+          {
+            "id": "mvr0jkpawqo",
+            "media": "ig-queue/stories/pool-p/mvr0jkpawqo.jpg",
+            "tipo": "image",
+            "nombre": "camera_17931009961798118896652640204944.jpg",
+            "origen": "rcmvqm1lzy8g3pod"
+          },
+          {
+            "id": "mvr0jobg8r4",
+            "media": "ig-queue/stories/pool-p/mvr0jobg8r4.jpg",
+            "tipo": "image",
+            "nombre": "1000892387.jpg",
+            "origen": "rcmvpmpgcwtrr132"
+          },
+          {
+            "id": "mvr0jscdu6t",
+            "media": "ig-queue/stories/pool-p/mvr0jscdu6t.jpg",
+            "tipo": "image",
+            "nombre": "1000892388.jpg",
+            "origen": "rcmvpmp8sh4556i0"
+          },
+          {
+            "id": "mvr0jz5n2yz",
+            "media": "ig-queue/stories/pool-p/mvr0jz5n2yz.jpg",
+            "tipo": "image",
+            "nombre": "1000892389.jpg",
+            "origen": "rcmvpmp2c7ea4bhb"
+          },
+          {
+            "id": "mvr0k5ohclp",
+            "media": "ig-queue/stories/pool-p/mvr0k5ohclp.jpg",
+            "tipo": "image",
+            "nombre": "1000882408.jpg",
+            "origen": "rcmvci9pceylop46"
+          },
+          {
+            "id": "mvr0kcygoff",
+            "media": "ig-queue/stories/pool-p/mvr0kcygoff.jpg",
+            "tipo": "image",
+            "nombre": "1000882407.jpg",
+            "origen": "rcmvci9ksis1jatx"
+          },
+          {
+            "id": "mvr0kjhw20r",
+            "media": "ig-queue/stories/pool-p/mvr0kjhw20r.jpg",
+            "tipo": "image",
+            "nombre": "1000882406.jpg",
+            "origen": "rcmvci9gcg9fb3h3"
+          },
+          {
+            "id": "mvr0krezf16",
+            "media": "ig-queue/stories/pool-p/mvr0krezf16.jpg",
+            "tipo": "image",
+            "nombre": "1000882404.jpg",
+            "origen": "rcmvci9b9wxht7er"
+          }
+        ],
+        "autoNuevas": true,
+        "destino": "ambos",
+        "autoBase": true,
+        "fb": 1,
+        "ig": 1,
+        "autoOmitidas": [
+          "rcmvfdnf1z46k96g",
+          "rcmve6y43cdtlttu",
+          "rcmvci9pceylop46",
+          "rcmvci9ksis1jatx",
+          "rcmvci9gcg9fb3h3",
+          "rcmvci9b9wxht7er",
+          "rcmvig0klfnulc2i",
+          "rcmvr08nxeykj1h9"
+        ]
+      }
+    },
+    {
+      "fecha": "2026-10-28T16:02:32.526Z",
+      "ruta": "feed-ig/config.json",
+      "detalle": "Formato de la franja 13:00: feed → reel; diferencia mediana de al menos 40% con 9 videos y 12 fotos.",
+      "anterior": {
+        "franjas": [
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "19:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "11:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              6
+            ]
+          },
+          {
+            "h": "18:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "reciclar": false,
+        "pausada": false,
+        "orden": "nuevo",
+        "autoNuevas": true,
+        "autoBase": true,
+        "autoOmitidas": [
+          "rcmvjhi6z4x3wo3s",
+          "rcmvjhhx7if449t0",
+          "rcmvig0f8ann6pgx",
+          "rcmvifznsgp098xg",
+          "rcmvi71n9hhfspk8",
+          "rcmvgwj3gj2a3230",
+          "rcmvgsxia418twkt",
+          "rcmvfdnf1z46k96g",
+          "rcmvci9pceylop46",
+          "rcmvci9ksis1jatx",
+          "rcmvcdczttdxm808",
+          "rcmvcdcuzl013ln0",
+          "rcmvcdcpgzwgwo60",
+          "rcmvcdcjl6wja6hx",
+          "rcmvcdcfi8g1lj0k",
+          "rcmvbcvfrt01zsjb",
+          "rcmvb6hky9qq9ff6",
+          "rcmvb365xu9yk6wt",
+          "rcmvb35y3pklyd9c",
+          "rcmv9rmtxtjcqwi6",
+          "rcmv9n2oavee95vd",
+          "rcmv9n2jdnjt394s",
+          "rcmv9fvoxgd6t2zw",
+          "rcmv8eda0vv3hhhl",
+          "rcmv7ex8d580yz8k",
+          "rcmv6wqadaqyx5vu",
+          "rcmv58yv729hctfj",
+          "rcmv36143fdosign",
+          "rcmv2x2z35zuzmp6",
+          "rcmv2ft88gjwzd2s",
+          "rcmv19l73osu7uks",
+          "rcmv169awfl060gg",
+          "rcmv15hd0xitk11n",
+          "rcmv0yeda3fa6j6z",
+          "rcmv0ye5xx7hjzhk",
+          "rcmv0vtegyc1bdtl",
+          "rcmv0vgkomryb65e",
+          "rcmuzvf2vhr68rer",
+          "rcmuzgczy9it3ekp",
+          "rcmuzgcs1ampp0gu",
+          "rcmuyes5fg0eb6x1",
+          "rcmuyerx6ghl7lge",
+          "rcmuy7plq3kj057s",
+          "rcmuy7pe88r36qcc",
+          "rcmuy7p6n52xx31k",
+          "rcmuy7p0k17bxqdn",
+          "rcmuy7ou332y9d45",
+          "rcmuy733pxpz9y2j",
+          "rcmuy246wcnwfxkw",
+          "rcmuy23qnasellqq",
+          "rcmuwpiaecyhot9q",
+          "rcmuvlkgukjkhbp3",
+          "rcmusbnv3ebt1r6k",
+          "rcmuqwhe55bj2pdl",
+          "rcmuqwh8hyey22nr",
+          "rcmuqwgxhsglcmex",
+          "rcmupugkmve8adaj",
+          "rcmupudno7frb73y",
+          "rcmupihw3ltlkkmw",
+          "rcmuo0aq97f2ezx0",
+          "rcmumz7woqdzqsv9",
+          "rcmumz7p1mq3pouj",
+          "rcmumxkvto6vefxs",
+          "rcmuh1e9kbsbjg5x",
+          "rcmuh1a460rmcun5",
+          "rcmuh12u3jlpd1ui",
+          "rcmugz8fpzwuf9vo",
+          "rcmufxmgi09dzmg2",
+          "rcmue5cosl8rqs6o",
+          "rcmue0bqsshyo7s3",
+          "rcmubcams5gn0s09",
+          "rcmubcagxrtoe07u",
+          "rcmu7dqsq6216qlc",
+          "rcmu7baspw3u542y",
+          "rcmu5l1i8ew5zket",
+          "rcmu5hf82bk8sqnz",
+          "rcmu5hbnhvr2wn56",
+          "rcmu38rxo3yas4bv",
+          "rcmu32j46en5za9r",
+          "rcmu2rr89dfr29y8",
+          "rcmu2rr3nfpamtux",
+          "rcmu2oa3rw138rcj",
+          "rcmtxfktdxemfjh5",
+          "rcmtwx48xxiienzr",
+          "rcmtvqkbcv0n02yt",
+          "rcmtuhpmspae48a9",
+          "rcmtsx7lndeprm9e",
+          "rcmtrl999pknj8za",
+          "rcmtnjj0nttvejkx",
+          "rcmtk5jadiuc33i0",
+          "rcmthjuwpesqte1h",
+          "rcmth5aeqa40x5ey",
+          "rcmtgbd74373prfs",
+          "rcmtelrw3lg8k85q",
+          "rcmtelrqbwidwwwn",
+          "rcmtelrho7zjwspg",
+          "rcmtec2k24y8a1zf",
+          "rcmtd970q8dt2u8w",
+          "rcmta286xb7uyoo4",
+          "rcmt8yv0ggjfakbg",
+          "rcmt8yuur5sz9xpy",
+          "rcmt8ktyl9phiqpg",
+          "rcmt8krg53od8077",
+          "rcmt8km9ijgk10r3",
+          "rcmt3hqeymkaytsb",
+          "rcmt27xorzf4d4w1",
+          "rcmt1l8cfypbyoe7",
+          "rcmt1l7wf2k8f14y",
+          "rcmt1l7lk7fz1zb1",
+          "rcmt1l79rnchm1bb",
+          "rcmt1l71t5zy1t6z"
+        ],
+        "pool": [
+          {
+            "id": "mrcmvjw60jjyli615-ig",
+            "matId": "rcmvjw60jjyli615",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw60jjyli615.mp4",
+            "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696868956
+          },
+          {
+            "id": "mrcmvjw5vgqq1prmt-ig",
+            "matId": "rcmvjw5vgqq1prmt",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw5vgqq1prmt.mp4",
+            "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696881111
+          },
+          {
+            "id": "mrcmvig0klfnulc2i-ig",
+            "matId": "rcmvig0klfnulc2i",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvig0klfnulc2i.mp4",
+            "caption": "Las tardes de domingo con los muchachos gritando los goles en la tele vuelven cada vez que revivís esa atajada o ese penal en la final. 🏆\nPasá por Agencia Albor y reservá tu ejemplar.\n#messi #futbol #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610550245
+          },
+          {
+            "id": "mrcmvig01i5uxqlqa-ig",
+            "matId": "rcmvig01i5uxqlqa",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvig01i5uxqlqa.mp4",
+            "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610600619
+          },
+          {
+            "id": "cmvk4x12s-ig",
+            "matId": "rcmvify7ezmygp4k",
+            "matIds": [
+              "rcmvify7ezmygp4k",
+              "rcmvifylpsyhmmbm",
+              "rcmvifyv1f4jeqtk",
+              "rcmvifzartv8ax9n"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+              "ig-queue/feed/media/rcmvifylpsyhmmbm.jpg",
+              "ig-queue/feed/media/rcmvifyv1f4jeqtk.jpg",
+              "ig-queue/feed/media/rcmvifzartv8ax9n.jpg"
+            ],
+            "caption": "Para que las tardes en casa se transformen en una aventura salvaje, nada mejor que armar las piezas y recorrer la selva con los chicos. 🐘🌴\n\nPasá por Agencia Albor y reservá tu set de Topa para empezar a jugar.\n\n#diegotopa #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610658202
+          },
+          {
+            "id": "cmvk52c23-ig",
+            "matId": "rcmvk22n2tbhwzkv",
+            "matIds": [
+              "rcmvk22n2tbhwzkv",
+              "rcmvk22hky3wautu"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+              "ig-queue/feed/media/rcmvk22hky3wautu.jpg"
+            ],
+            "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792704773998
+          },
+          {
+            "id": "cmvk5ixvr-ig",
+            "matId": "rcmvjhhrsrwt9zig",
+            "matIds": [
+              "rcmvjhhrsrwt9zig",
+              "rcmvjhi1vvlousc8",
+              "rcmvjhib1k494xhz"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+              "ig-queue/feed/media/rcmvjhi1vvlousc8.jpg",
+              "ig-queue/feed/media/rcmvjhib1k494xhz.jpg"
+            ],
+            "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696936589
+          },
+          {
+            "id": "mrcmvi6y6jv2e815k-ig",
+            "matId": "rcmvi6y6jv2e815k",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvi6y6jv2e815k.jpg",
+            "caption": "Empezá a armar tu propia vajilla de diseño con este primer fascículo. ☕ El tazón de porcelana de 450cc ya está disponible para que lo sumes a tus desayunos. Pasá a retirarlo por Agencia Albor, en Carlos Casares. \n\n#tazasvolf #porcelana #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625365637
+          },
+          {
+            "id": "mrcmvi6xv6sez428q-ig",
+            "matId": "rcmvi6xv6sez428q",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvi6xv6sez428q.jpg",
+            "caption": "Volvé a tener siempre a mano tu agua fresca sin andar cargando envases descartables. 💧\n\nPráctica, cómoda y con el tamaño justo para llevar en la mochila o la cartera todos los días. \n\nPasá por Agencia Albor y reservá la tuya para arrancar la semana con todo.\n\n#tupperware #botella #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625440483
+          },
+          {
+            "id": "mrcmvgo0q2mooqf73-ig",
+            "matId": "rcmvgo0q2mooqf73",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvgo0q2mooqf73.mp4",
+            "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792539063912
+          },
+          {
+            "id": "mrcmvfvlsvkwcj6fc-ig",
+            "matId": "rcmvfvlsvkwcj6fc",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvfvlsvkwcj6fc.mp4",
+            "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792452679848
+          },
+          {
+            "id": "mrcmvcdd41hhbt44q-ig",
+            "matId": "rcmvcdd41hhbt44q",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvcdd41hhbt44q.jpg",
+            "caption": "Para armar peinados divertidos y cambiar de look todos los días sin pisar la peluquería, este maletín trae cuentas, accesorios y la herramienta especial para crear diseños únicos. 💜\nPasá por Agencia Albor y reservalo.\nComentá LOOK y te lo guardamos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279936803
+          },
+          {
+            "id": "cmvk6hltk-ig",
+            "matId": "rcmvifxz57qi6da3",
+            "matIds": [
+              "rcmvifxz57qi6da3",
+              "rcmvifxs6ll8kcok",
+              "rcmvifxm87mxdh88",
+              "rcmvifxawbtb8gnw",
+              "rcmvifyzwq66sikh"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+              "ig-queue/feed/media/rcmvifxs6ll8kcok.jpg",
+              "ig-queue/feed/media/rcmvifxm87mxdh88.jpg",
+              "ig-queue/feed/media/rcmvifxawbtb8gnw.jpg",
+              "ig-queue/feed/media/rcmvifyzwq66sikh.jpg"
+            ],
+            "caption": "¿Querés revivir las aventuras del océano y armar el set completo de la película en casa? 🌊\n\nEstas figuras de Moana y su familia son ideales para que los chicos dejen volar la imaginación y creen sus propias historias de navegación. \n\nPasá por Agencia Albor y reservá la colección completa antes de que se agote. 🏝️\n\nComentá MOANA y te mando toda la info por mensaje.\n\n#moana #disney #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625294716
+          },
+          {
+            "id": "cmvk6hxn5-ig",
+            "matId": "rcmvci9gcg9fb3h3",
+            "matIds": [
+              "rcmvci9gcg9fb3h3",
+              "rcmvci9b9wxht7er"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+              "ig-queue/feed/media/rcmvci9b9wxht7er.jpg"
+            ],
+            "caption": "Para las que ya se leyeron todo y se quedaron con ganas de más drama, romance y épica histórica. 📖✨ Las seis novelas de Florencia Bonelli juntas en una edición coleccionable que te va a ocupar un lugar de honor en la mesa de luz. \n\nPasá a encargarla por Agencia Albor y empezá a armar tu propia biblioteca romántica. ☕\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279915679
+          },
+          {
+            "id": "mrcmvl2gs4nrjsef0-ig",
+            "matId": "rcmvl2gs4nrjsef0",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvl2gs4nrjsef0.jpg",
+            "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792767461021
+          },
+          {
+            "id": "mrcmvl2g3jjkky6r1-ig",
+            "matId": "rcmvl2g3jjkky6r1",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvl2g3jjkky6r1.jpg",
+            "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792767475662
+          },
+          {
+            "id": "cmvlrphwz-ig",
+            "matId": "rcmvkz2tgsn2keeu",
+            "matIds": [
+              "rcmvkz2tgsn2keeu",
+              "rcmvkz37g3wp0bqm",
+              "rcmvkz30k7sqkjju",
+              "rcmvkz3deonkqaj8"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+              "ig-queue/feed/media/rcmvkz37g3wp0bqm.jpg",
+              "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
+              "ig-queue/feed/media/rcmvkz3deonkqaj8.jpg"
+            ],
+            "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792761562382
+          },
+          {
+            "id": "cmvlrq0ss-ig",
+            "matId": "rcmvkca9ddre2bbm",
+            "matIds": [
+              "rcmvkca9ddre2bbm",
+              "rcmvi71sfpuj3uka"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+              "ig-queue/feed/media/rcmvi71sfpuj3uka.jpg"
+            ],
+            "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792722094888
+          },
+          {
+            "id": "mrcmvp3dmrgv06grk-ig",
+            "matId": "rcmvp3dmrgv06grk",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3dmrgv06grk.mp4",
+            "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793009433841
+          },
+          {
+            "id": "mrcmvph4b9mok297a-ig",
+            "matId": "rcmvph4b9mok297a",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvph4b9mok297a.mp4",
+            "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793037963781
+          },
+          {
+            "id": "mrcmvpmo3uzx0q0bp-ig",
+            "matId": "rcmvpmo3uzx0q0bp",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvpmo3uzx0q0bp.mp4",
+            "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041920252
+          },
+          {
+            "id": "cmvpmxan2-ig",
+            "matId": "rcmvpmp8sh4556i0",
+            "matIds": [
+              "rcmvpmp8sh4556i0",
+              "rcmvpmp2c7ea4bhb",
+              "rcmvpmpgcwtrr132"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+              "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
+              "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg"
+            ],
+            "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041870679
+          },
+          {
+            "id": "mrcmvp3e1oalc1fe5-ig",
+            "matId": "rcmvp3e1oalc1fe5",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3e1oalc1fe5.mp4",
+            "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793016488933
+          },
+          {
+            "id": "mrcmvl9fodfhb7wl7-ig",
+            "matId": "rcmvl9fodfhb7wl7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fodfhb7wl7.mp4",
+            "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757307950
+          },
+          {
+            "id": "mrcmvl9fcivg188e4-ig",
+            "matId": "rcmvl9fcivg188e4",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fcivg188e4.mp4",
+            "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757364584
+          },
+          {
+            "id": "mrcmvl9ewp8zu938d-ig",
+            "matId": "rcmvl9ewp8zu938d",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9ewp8zu938d.mp4",
+            "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757376685
+          },
+          {
+            "id": "mrcmvl9eh2gjav6ib-ig",
+            "matId": "rcmvl9eh2gjav6ib",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9eh2gjav6ib.mp4",
+            "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757387832
+          },
+          {
+            "id": "cmvqnd634-ig",
+            "matId": "rcmvqm1lzy8g3pod",
+            "matIds": [
+              "rcmvqm1lzy8g3pod",
+              "rcmvqm1wgtmobmxo"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+              "ig-queue/feed/media/rcmvqm1wgtmobmxo.jpg"
+            ],
+            "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793102873354
+          },
+          {
+            "id": "mrcmvqqgjigs4t5n3-ig",
+            "matId": "rcmvqqgjigs4t5n3",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqqgjigs4t5n3.jpg",
+            "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793108532325
+          },
+          {
+            "id": "mrcmvqsm5x4etos0t-ig",
+            "matId": "rcmvqsm5x4etos0t",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqsm5x4etos0t.jpg",
+            "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793112171206
+          },
+          {
+            "id": "mrcmvqw5xq2695pzc-ig",
+            "matId": "rcmvqw5xq2695pzc",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqw5xq2695pzc.jpg",
+            "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118245645
+          },
+          {
+            "id": "mrcmvqw4j9ncuo4l7-ig",
+            "matId": "rcmvqw4j9ncuo4l7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvqw4j9ncuo4l7.mp4",
+            "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118266524
+          },
+          {
+            "id": "mrcmvr08nxeykj1h9-ig",
+            "matId": "rcmvr08nxeykj1h9",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvr08nxeykj1h9.mp4",
+            "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793125517243
+          },
+          {
+            "id": "mrcmvs17yshc98yg6-ig",
+            "matId": "rcmvs17yshc98yg6",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvs17yshc98yg6.jpg",
+            "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793187177114
+          },
+          {
+            "id": "mrcmvs1sk7afqgvg4-ig",
+            "matId": "rcmvs1sk7afqgvg4",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvs1sk7afqgvg4.jpg",
+            "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793188085520
+          }
+        ]
+      },
+      "nueva": {
+        "franjas": [
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "19:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "11:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              6
+            ]
+          },
+          {
+            "h": "18:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "reciclar": false,
+        "pausada": false,
+        "orden": "nuevo",
+        "autoNuevas": true,
+        "autoBase": true,
+        "autoOmitidas": [
+          "rcmvjhi6z4x3wo3s",
+          "rcmvjhhx7if449t0",
+          "rcmvig0f8ann6pgx",
+          "rcmvifznsgp098xg",
+          "rcmvi71n9hhfspk8",
+          "rcmvgwj3gj2a3230",
+          "rcmvgsxia418twkt",
+          "rcmvfdnf1z46k96g",
+          "rcmvci9pceylop46",
+          "rcmvci9ksis1jatx",
+          "rcmvcdczttdxm808",
+          "rcmvcdcuzl013ln0",
+          "rcmvcdcpgzwgwo60",
+          "rcmvcdcjl6wja6hx",
+          "rcmvcdcfi8g1lj0k",
+          "rcmvbcvfrt01zsjb",
+          "rcmvb6hky9qq9ff6",
+          "rcmvb365xu9yk6wt",
+          "rcmvb35y3pklyd9c",
+          "rcmv9rmtxtjcqwi6",
+          "rcmv9n2oavee95vd",
+          "rcmv9n2jdnjt394s",
+          "rcmv9fvoxgd6t2zw",
+          "rcmv8eda0vv3hhhl",
+          "rcmv7ex8d580yz8k",
+          "rcmv6wqadaqyx5vu",
+          "rcmv58yv729hctfj",
+          "rcmv36143fdosign",
+          "rcmv2x2z35zuzmp6",
+          "rcmv2ft88gjwzd2s",
+          "rcmv19l73osu7uks",
+          "rcmv169awfl060gg",
+          "rcmv15hd0xitk11n",
+          "rcmv0yeda3fa6j6z",
+          "rcmv0ye5xx7hjzhk",
+          "rcmv0vtegyc1bdtl",
+          "rcmv0vgkomryb65e",
+          "rcmuzvf2vhr68rer",
+          "rcmuzgczy9it3ekp",
+          "rcmuzgcs1ampp0gu",
+          "rcmuyes5fg0eb6x1",
+          "rcmuyerx6ghl7lge",
+          "rcmuy7plq3kj057s",
+          "rcmuy7pe88r36qcc",
+          "rcmuy7p6n52xx31k",
+          "rcmuy7p0k17bxqdn",
+          "rcmuy7ou332y9d45",
+          "rcmuy733pxpz9y2j",
+          "rcmuy246wcnwfxkw",
+          "rcmuy23qnasellqq",
+          "rcmuwpiaecyhot9q",
+          "rcmuvlkgukjkhbp3",
+          "rcmusbnv3ebt1r6k",
+          "rcmuqwhe55bj2pdl",
+          "rcmuqwh8hyey22nr",
+          "rcmuqwgxhsglcmex",
+          "rcmupugkmve8adaj",
+          "rcmupudno7frb73y",
+          "rcmupihw3ltlkkmw",
+          "rcmuo0aq97f2ezx0",
+          "rcmumz7woqdzqsv9",
+          "rcmumz7p1mq3pouj",
+          "rcmumxkvto6vefxs",
+          "rcmuh1e9kbsbjg5x",
+          "rcmuh1a460rmcun5",
+          "rcmuh12u3jlpd1ui",
+          "rcmugz8fpzwuf9vo",
+          "rcmufxmgi09dzmg2",
+          "rcmue5cosl8rqs6o",
+          "rcmue0bqsshyo7s3",
+          "rcmubcams5gn0s09",
+          "rcmubcagxrtoe07u",
+          "rcmu7dqsq6216qlc",
+          "rcmu7baspw3u542y",
+          "rcmu5l1i8ew5zket",
+          "rcmu5hf82bk8sqnz",
+          "rcmu5hbnhvr2wn56",
+          "rcmu38rxo3yas4bv",
+          "rcmu32j46en5za9r",
+          "rcmu2rr89dfr29y8",
+          "rcmu2rr3nfpamtux",
+          "rcmu2oa3rw138rcj",
+          "rcmtxfktdxemfjh5",
+          "rcmtwx48xxiienzr",
+          "rcmtvqkbcv0n02yt",
+          "rcmtuhpmspae48a9",
+          "rcmtsx7lndeprm9e",
+          "rcmtrl999pknj8za",
+          "rcmtnjj0nttvejkx",
+          "rcmtk5jadiuc33i0",
+          "rcmthjuwpesqte1h",
+          "rcmth5aeqa40x5ey",
+          "rcmtgbd74373prfs",
+          "rcmtelrw3lg8k85q",
+          "rcmtelrqbwidwwwn",
+          "rcmtelrho7zjwspg",
+          "rcmtec2k24y8a1zf",
+          "rcmtd970q8dt2u8w",
+          "rcmta286xb7uyoo4",
+          "rcmt8yv0ggjfakbg",
+          "rcmt8yuur5sz9xpy",
+          "rcmt8ktyl9phiqpg",
+          "rcmt8krg53od8077",
+          "rcmt8km9ijgk10r3",
+          "rcmt3hqeymkaytsb",
+          "rcmt27xorzf4d4w1",
+          "rcmt1l8cfypbyoe7",
+          "rcmt1l7wf2k8f14y",
+          "rcmt1l7lk7fz1zb1",
+          "rcmt1l79rnchm1bb",
+          "rcmt1l71t5zy1t6z"
+        ],
+        "pool": [
+          {
+            "id": "mrcmvjw60jjyli615-ig",
+            "matId": "rcmvjw60jjyli615",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw60jjyli615.mp4",
+            "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696868956
+          },
+          {
+            "id": "mrcmvjw5vgqq1prmt-ig",
+            "matId": "rcmvjw5vgqq1prmt",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw5vgqq1prmt.mp4",
+            "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696881111
+          },
+          {
+            "id": "mrcmvig0klfnulc2i-ig",
+            "matId": "rcmvig0klfnulc2i",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvig0klfnulc2i.mp4",
+            "caption": "Las tardes de domingo con los muchachos gritando los goles en la tele vuelven cada vez que revivís esa atajada o ese penal en la final. 🏆\nPasá por Agencia Albor y reservá tu ejemplar.\n#messi #futbol #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610550245
+          },
+          {
+            "id": "mrcmvig01i5uxqlqa-ig",
+            "matId": "rcmvig01i5uxqlqa",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvig01i5uxqlqa.mp4",
+            "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610600619
+          },
+          {
+            "id": "cmvk4x12s-ig",
+            "matId": "rcmvify7ezmygp4k",
+            "matIds": [
+              "rcmvify7ezmygp4k",
+              "rcmvifylpsyhmmbm",
+              "rcmvifyv1f4jeqtk",
+              "rcmvifzartv8ax9n"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+              "ig-queue/feed/media/rcmvifylpsyhmmbm.jpg",
+              "ig-queue/feed/media/rcmvifyv1f4jeqtk.jpg",
+              "ig-queue/feed/media/rcmvifzartv8ax9n.jpg"
+            ],
+            "caption": "Para que las tardes en casa se transformen en una aventura salvaje, nada mejor que armar las piezas y recorrer la selva con los chicos. 🐘🌴\n\nPasá por Agencia Albor y reservá tu set de Topa para empezar a jugar.\n\n#diegotopa #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610658202
+          },
+          {
+            "id": "cmvk52c23-ig",
+            "matId": "rcmvk22n2tbhwzkv",
+            "matIds": [
+              "rcmvk22n2tbhwzkv",
+              "rcmvk22hky3wautu"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+              "ig-queue/feed/media/rcmvk22hky3wautu.jpg"
+            ],
+            "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792704773998
+          },
+          {
+            "id": "cmvk5ixvr-ig",
+            "matId": "rcmvjhhrsrwt9zig",
+            "matIds": [
+              "rcmvjhhrsrwt9zig",
+              "rcmvjhi1vvlousc8",
+              "rcmvjhib1k494xhz"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+              "ig-queue/feed/media/rcmvjhi1vvlousc8.jpg",
+              "ig-queue/feed/media/rcmvjhib1k494xhz.jpg"
+            ],
+            "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696936589
+          },
+          {
+            "id": "mrcmvi6y6jv2e815k-ig",
+            "matId": "rcmvi6y6jv2e815k",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvi6y6jv2e815k.jpg",
+            "caption": "Empezá a armar tu propia vajilla de diseño con este primer fascículo. ☕ El tazón de porcelana de 450cc ya está disponible para que lo sumes a tus desayunos. Pasá a retirarlo por Agencia Albor, en Carlos Casares. \n\n#tazasvolf #porcelana #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625365637
+          },
+          {
+            "id": "mrcmvi6xv6sez428q-ig",
+            "matId": "rcmvi6xv6sez428q",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvi6xv6sez428q.jpg",
+            "caption": "Volvé a tener siempre a mano tu agua fresca sin andar cargando envases descartables. 💧\n\nPráctica, cómoda y con el tamaño justo para llevar en la mochila o la cartera todos los días. \n\nPasá por Agencia Albor y reservá la tuya para arrancar la semana con todo.\n\n#tupperware #botella #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625440483
+          },
+          {
+            "id": "mrcmvgo0q2mooqf73-ig",
+            "matId": "rcmvgo0q2mooqf73",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvgo0q2mooqf73.mp4",
+            "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792539063912
+          },
+          {
+            "id": "mrcmvfvlsvkwcj6fc-ig",
+            "matId": "rcmvfvlsvkwcj6fc",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvfvlsvkwcj6fc.mp4",
+            "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792452679848
+          },
+          {
+            "id": "mrcmvcdd41hhbt44q-ig",
+            "matId": "rcmvcdd41hhbt44q",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvcdd41hhbt44q.jpg",
+            "caption": "Para armar peinados divertidos y cambiar de look todos los días sin pisar la peluquería, este maletín trae cuentas, accesorios y la herramienta especial para crear diseños únicos. 💜\nPasá por Agencia Albor y reservalo.\nComentá LOOK y te lo guardamos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279936803
+          },
+          {
+            "id": "cmvk6hltk-ig",
+            "matId": "rcmvifxz57qi6da3",
+            "matIds": [
+              "rcmvifxz57qi6da3",
+              "rcmvifxs6ll8kcok",
+              "rcmvifxm87mxdh88",
+              "rcmvifxawbtb8gnw",
+              "rcmvifyzwq66sikh"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+              "ig-queue/feed/media/rcmvifxs6ll8kcok.jpg",
+              "ig-queue/feed/media/rcmvifxm87mxdh88.jpg",
+              "ig-queue/feed/media/rcmvifxawbtb8gnw.jpg",
+              "ig-queue/feed/media/rcmvifyzwq66sikh.jpg"
+            ],
+            "caption": "¿Querés revivir las aventuras del océano y armar el set completo de la película en casa? 🌊\n\nEstas figuras de Moana y su familia son ideales para que los chicos dejen volar la imaginación y creen sus propias historias de navegación. \n\nPasá por Agencia Albor y reservá la colección completa antes de que se agote. 🏝️\n\nComentá MOANA y te mando toda la info por mensaje.\n\n#moana #disney #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625294716
+          },
+          {
+            "id": "cmvk6hxn5-ig",
+            "matId": "rcmvci9gcg9fb3h3",
+            "matIds": [
+              "rcmvci9gcg9fb3h3",
+              "rcmvci9b9wxht7er"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+              "ig-queue/feed/media/rcmvci9b9wxht7er.jpg"
+            ],
+            "caption": "Para las que ya se leyeron todo y se quedaron con ganas de más drama, romance y épica histórica. 📖✨ Las seis novelas de Florencia Bonelli juntas en una edición coleccionable que te va a ocupar un lugar de honor en la mesa de luz. \n\nPasá a encargarla por Agencia Albor y empezá a armar tu propia biblioteca romántica. ☕\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279915679
+          },
+          {
+            "id": "mrcmvl2gs4nrjsef0-ig",
+            "matId": "rcmvl2gs4nrjsef0",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvl2gs4nrjsef0.jpg",
+            "caption": "Para los fanáticos de la velocidad y los fierros, tener este Chevrolet Camaro Z28 en la repisa es un viaje directo a las mejores escenas de la pantalla grande. 🏁🚗\n\nSi querés completar tu vitrina con las naves más picantes, pasá por Agencia Albor y reservá el tuyo antes de que vuele.\n\n#rapido y furioso #camaro #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792767461021
+          },
+          {
+            "id": "mrcmvl2g3jjkky6r1-ig",
+            "matId": "rcmvl2g3jjkky6r1",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvl2g3jjkky6r1.jpg",
+            "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792767475662
+          },
+          {
+            "id": "cmvlrphwz-ig",
+            "matId": "rcmvkz2tgsn2keeu",
+            "matIds": [
+              "rcmvkz2tgsn2keeu",
+              "rcmvkz37g3wp0bqm",
+              "rcmvkz30k7sqkjju",
+              "rcmvkz3deonkqaj8"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+              "ig-queue/feed/media/rcmvkz37g3wp0bqm.jpg",
+              "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
+              "ig-queue/feed/media/rcmvkz3deonkqaj8.jpg"
+            ],
+            "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792761562382
+          },
+          {
+            "id": "cmvlrq0ss-ig",
+            "matId": "rcmvkca9ddre2bbm",
+            "matIds": [
+              "rcmvkca9ddre2bbm",
+              "rcmvi71sfpuj3uka"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+              "ig-queue/feed/media/rcmvi71sfpuj3uka.jpg"
+            ],
+            "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792722094888
+          },
+          {
+            "id": "mrcmvp3dmrgv06grk-ig",
+            "matId": "rcmvp3dmrgv06grk",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3dmrgv06grk.mp4",
+            "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793009433841
+          },
+          {
+            "id": "mrcmvph4b9mok297a-ig",
+            "matId": "rcmvph4b9mok297a",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvph4b9mok297a.mp4",
+            "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793037963781
+          },
+          {
+            "id": "mrcmvpmo3uzx0q0bp-ig",
+            "matId": "rcmvpmo3uzx0q0bp",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvpmo3uzx0q0bp.mp4",
+            "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041920252
+          },
+          {
+            "id": "cmvpmxan2-ig",
+            "matId": "rcmvpmp8sh4556i0",
+            "matIds": [
+              "rcmvpmp8sh4556i0",
+              "rcmvpmp2c7ea4bhb",
+              "rcmvpmpgcwtrr132"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+              "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
+              "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg"
+            ],
+            "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041870679
+          },
+          {
+            "id": "mrcmvp3e1oalc1fe5-ig",
+            "matId": "rcmvp3e1oalc1fe5",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3e1oalc1fe5.mp4",
+            "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793016488933
+          },
+          {
+            "id": "mrcmvl9fodfhb7wl7-ig",
+            "matId": "rcmvl9fodfhb7wl7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fodfhb7wl7.mp4",
+            "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757307950
+          },
+          {
+            "id": "mrcmvl9fcivg188e4-ig",
+            "matId": "rcmvl9fcivg188e4",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fcivg188e4.mp4",
+            "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757364584
+          },
+          {
+            "id": "mrcmvl9ewp8zu938d-ig",
+            "matId": "rcmvl9ewp8zu938d",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9ewp8zu938d.mp4",
+            "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757376685
+          },
+          {
+            "id": "mrcmvl9eh2gjav6ib-ig",
+            "matId": "rcmvl9eh2gjav6ib",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9eh2gjav6ib.mp4",
+            "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757387832
+          },
+          {
+            "id": "cmvqnd634-ig",
+            "matId": "rcmvqm1lzy8g3pod",
+            "matIds": [
+              "rcmvqm1lzy8g3pod",
+              "rcmvqm1wgtmobmxo"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+              "ig-queue/feed/media/rcmvqm1wgtmobmxo.jpg"
+            ],
+            "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793102873354
+          },
+          {
+            "id": "mrcmvqqgjigs4t5n3-ig",
+            "matId": "rcmvqqgjigs4t5n3",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqqgjigs4t5n3.jpg",
+            "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793108532325
+          },
+          {
+            "id": "mrcmvqsm5x4etos0t-ig",
+            "matId": "rcmvqsm5x4etos0t",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqsm5x4etos0t.jpg",
+            "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793112171206
+          },
+          {
+            "id": "mrcmvqw5xq2695pzc-ig",
+            "matId": "rcmvqw5xq2695pzc",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqw5xq2695pzc.jpg",
+            "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118245645
+          },
+          {
+            "id": "mrcmvqw4j9ncuo4l7-ig",
+            "matId": "rcmvqw4j9ncuo4l7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvqw4j9ncuo4l7.mp4",
+            "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118266524
+          },
+          {
+            "id": "mrcmvr08nxeykj1h9-ig",
+            "matId": "rcmvr08nxeykj1h9",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvr08nxeykj1h9.mp4",
+            "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793125517243
+          },
+          {
+            "id": "mrcmvs17yshc98yg6-ig",
+            "matId": "rcmvs17yshc98yg6",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvs17yshc98yg6.jpg",
+            "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793187177114
+          },
+          {
+            "id": "mrcmvs1sk7afqgvg4-ig",
+            "matId": "rcmvs1sk7afqgvg4",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvs1sk7afqgvg4.jpg",
+            "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793188085520
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -585,32 +585,38 @@
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 113,
-      "v": 130
+      "a": 115,
+      "v": 131
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 102
+      "a": 99,
+      "v": 105
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 96
+      "a": 94,
+      "v": 97
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 81
+      "a": 81,
+      "v": 84
     },
     "18117630575043039": {
       "t": "2026-10-28T12:01:56+0000",
       "tipo": "IMAGE",
-      "a": 35,
-      "v": 38
+      "a": 41,
+      "v": 44
+    },
+    "17955835023035402": {
+      "t": "2026-10-28T15:50:33+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 4
     }
   },
   "seguidores": {
@@ -637,17 +643,30 @@
     "username": "agenciaalbor",
     "followers_count": 1396,
     "follows_count": 641,
-    "media_count": 616,
+    "media_count": 617,
     "id": "28888466970748824",
-    "el": "2026-10-28T15:02:00.264Z"
+    "el": "2026-10-28T16:02:20.218Z"
   },
   "res30": {
-    "reach": 4090,
-    "views": 22582,
+    "reach": 4105,
+    "views": 22649,
     "profile_views": 92,
-    "accounts_engaged": 238
+    "accounts_engaged": 239
   },
   "posts": [
+    {
+      "id": "18069751844785395",
+      "timestamp": "2026-10-28T16:02:14+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfC0J8xlaZI/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17996343983845302",
       "timestamp": "2026-10-28T01:02:17+0000",
@@ -656,8 +675,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 23,
+      "reach": 18,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -670,7 +689,7 @@
       "comments_count": 0,
       "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 13,
-      "views": 19,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -695,8 +714,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 91,
-      "views": 106,
+      "reach": 97,
+      "views": 120,
       "saved": 0,
       "shares": 0
     },
@@ -721,8 +740,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 59,
-      "views": 73,
+      "reach": 62,
+      "views": 77,
       "saved": 0,
       "shares": 0
     },
@@ -770,12 +789,12 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 122,
+      "like_count": 123,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1806,
-      "views": 2240,
-      "saved": 26,
+      "reach": 1815,
+      "views": 2254,
+      "saved": 27,
       "shares": 27
     },
     {
@@ -838,8 +857,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 140,
-      "views": 162,
+      "reach": 141,
+      "views": 165,
       "saved": 0,
       "shares": 1
     },
@@ -851,8 +870,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 60,
-      "views": 103,
+      "reach": 65,
+      "views": 113,
       "saved": 0,
       "shares": 0
     },
@@ -1065,7 +1084,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T15:02:10.362Z",
+  "actualizado": "2026-10-28T16:02:32.517Z",
   "aud": {
     "edad": [
       {
