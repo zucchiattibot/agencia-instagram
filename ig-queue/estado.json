@@ -75,7 +75,7 @@
     "mvaxa03uf0z",
     "mvl599jl55g"
   ],
-  "statsEl": "2026-10-28T20:02:24.509Z",
+  "statsEl": "2026-10-28T21:01:52.260Z",
   "stUltima": {
     "cuando": "2026-10-28T20:02:11.079Z",
     "franja": "17:00",
@@ -83,12 +83,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-28T20:01:54.042Z",
+    "cuando": "2026-10-28T21:01:38.515Z",
     "cola": 163,
     "enRepo": 163,
-    "pendientes": [
-      "17:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
