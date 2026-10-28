@@ -579,32 +579,32 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 78,
-      "v": 89
+      "a": 90,
+      "v": 100
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 81
+      "a": 81,
+      "v": 92
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 49,
-      "v": 55
+      "a": 62,
+      "v": 67
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 48,
-      "v": 51
+      "a": 56,
+      "v": 62
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 23,
-      "v": 29
+      "a": 38,
+      "v": 42
     }
   },
   "seguidores": {
@@ -624,7 +624,8 @@
     "2026-10-24": 1390,
     "2026-10-25": 1391,
     "2026-10-26": 1392,
-    "2026-10-27": 1395
+    "2026-10-27": 1395,
+    "2026-10-28": 1395
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -632,13 +633,13 @@
     "follows_count": 639,
     "media_count": 616,
     "id": "28888466970748824",
-    "el": "2026-10-28T02:01:46.909Z"
+    "el": "2026-10-28T03:01:48.546Z"
   },
   "res30": {
-    "reach": 4032,
-    "views": 22144,
-    "profile_views": 90,
-    "accounts_engaged": 231
+    "reach": 4053,
+    "views": 22239,
+    "profile_views": 91,
+    "accounts_engaged": 232
   },
   "posts": [
     {
@@ -649,8 +650,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 9,
+      "reach": 11,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -675,7 +676,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
+      "reach": 14,
       "views": 16,
       "saved": 0,
       "shares": 0
@@ -688,8 +689,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 65,
-      "views": 80,
+      "reach": 67,
+      "views": 81,
       "saved": 0,
       "shares": 0
     },
@@ -763,12 +764,12 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 118,
+      "like_count": 119,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1731,
-      "views": 2145,
-      "saved": 24,
+      "reach": 1742,
+      "views": 2166,
+      "saved": 25,
       "shares": 26
     },
     {
@@ -1058,7 +1059,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T02:01:56.494Z",
+  "actualizado": "2026-10-28T03:01:58.309Z",
   "aud": {
     "edad": [
       {
@@ -1761,6 +1762,10 @@
     "2026-10-26": {
       "a": 1580,
       "v": 2483
+    },
+    "2026-10-27": {
+      "a": 568,
+      "v": 1181
     }
   }
 }
