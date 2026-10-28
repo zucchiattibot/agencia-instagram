@@ -1,4 +1,4 @@
-// ig-motor-v29
+// ig-motor-v31
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -108,11 +108,14 @@ async function publicarFb(d, medias, esCar, esVideo, guardar) {
   const pg = process.env.FB_PAGE_ID, tk = process.env.FB_PAGE_TOKEN, txt = d.fmt === 'historia' ? '' : (d.caption_fb != null ? String(d.caption_fb) : fbTexto(d.caption));
   const urls = [];
   for (const m of medias) { const u = urlPublica(m); await esperarArchivo(u); urls.push(u); }
+  // v31: ubicación en Facebook (place = ID de la página del lugar) en fotos y carruseles; si Facebook la rechaza, publica igual sin ella.
+  const lugar = (() => { const l = leer(path.join(BASE, 'ubicacion.json'), null); return l && l.on !== false && l.id ? String(l.id).replace(/\D/g, '') : ''; })();
+  const conLugar = async (ruta, p) => { if (lugar) { try { return await fb('POST', ruta, Object.assign({}, p, { place: lugar }), tk); } catch (e) { console.log('Facebook: ubicación no aceptada', e.message); } } return await fb('POST', ruta, p, tk); };
   if (esCar) {
     const params = { message: txt };
     let i = 0;
     for (const u of urls) { const f = await fb('POST', pg + '/photos', { url: u, published: 'false' }, tk); params['attached_media[' + (i++) + ']'] = JSON.stringify({ media_fbid: f.id }); }
-    const r = await fb('POST', pg + '/feed', params, tk);
+    const r = await conLugar(pg + '/feed', params);
     return 'https://www.facebook.com/' + r.id;
   }
   const u = urls[0];
@@ -123,7 +126,7 @@ async function publicarFb(d, medias, esCar, esVideo, guardar) {
     return '';
   }
   if (esVideo) { const id = await subirVideoFbUnaVez('video_reels', d, pg, u, txt, tk, guardar); return 'https://www.facebook.com/reel/' + id; }
-  const r = await fb('POST', pg + '/photos', { url: u, caption: txt, published: 'true' }, tk);
+  const r = await conLugar(pg + '/photos', { url: u, caption: txt, published: 'true' });
   return 'https://www.facebook.com/' + (r.post_id || r.id);
 }
 
@@ -204,8 +207,14 @@ async function publicar(d, token, uid, guardar) {
     }
     // v20: colaborador (Collab). d.colab = usuario fijado al programar; si no viene (colas), vale lo guardado en ig-queue/colab.json. Si Instagram lo rechaza, publica igual sin colaborador.
     const cu = (() => { if (d.fmt === 'historia') return ''; if (typeof d.colab === 'string') return d.colab; const c = leer(path.join(BASE, 'colab.json'), null); return c && c.on !== false && c.usuario ? String(c.usuario).replace(/^@/, '') : ''; })();
+    // v30: ubicación (etiqueta de lugar). Lee ig-queue/ubicacion.json; si Instagram la rechaza, publica igual sin ella.
+    const lu = (() => { if (d.fmt === 'historia') return ''; const l = leer(path.join(BASE, 'ubicacion.json'), null); return l && l.on !== false && l.id ? String(l.id).replace(/\D/g, '') : ''; })();
     let cont = null;
-    if (cu) { try { cont = await ig('POST', uid + '/media', Object.assign({}, params, { collaborators: JSON.stringify([cu]) }), token); } catch (er) { console.log('Colaborador no invitado', d.id, er.message); } }
+    const intentos = [];
+    if (lu && cu) intentos.push({ location_id: lu, collaborators: JSON.stringify([cu]) });
+    if (cu) intentos.push({ collaborators: JSON.stringify([cu]) });
+    if (lu) intentos.push({ location_id: lu });
+    for (const ex of intentos) { try { cont = await ig('POST', uid + '/media', Object.assign({}, params, ex), token); break; } catch (er) { console.log('Colaborador/ubicación no aceptados', d.id, er.message); } }
     if (!cont) cont = await ig('POST', uid + '/media', params, token);
     creationId = cont.id; d.creationId = creationId; if (guardar) guardar(d);
   }
