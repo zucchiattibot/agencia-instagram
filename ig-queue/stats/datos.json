@@ -579,32 +579,38 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 103,
-      "v": 114
+      "a": 106,
+      "v": 120
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 107
+      "a": 97,
+      "v": 111
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 78,
-      "v": 85
+      "a": 83,
+      "v": 89
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 78
+      "a": 77,
+      "v": 82
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 58,
-      "v": 61
+      "a": 60,
+      "v": 66
+    },
+    "18117630575043039": {
+      "t": "2026-10-28T12:01:56+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -633,11 +639,11 @@
     "follows_count": 641,
     "media_count": 616,
     "id": "28888466970748824",
-    "el": "2026-10-28T11:02:02.299Z"
+    "el": "2026-10-28T12:02:06.425Z"
   },
   "res30": {
     "reach": 4075,
-    "views": 22383,
+    "views": 22403,
     "profile_views": 91,
     "accounts_engaged": 238
   },
@@ -650,8 +656,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 18,
+      "reach": 16,
+      "views": 19,
       "saved": 0,
       "shares": 0
     },
@@ -677,7 +683,7 @@
       "comments_count": 0,
       "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 14,
-      "views": 16,
+      "views": 17,
       "saved": 0,
       "shares": 0
     },
@@ -767,8 +773,8 @@
       "like_count": 122,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1772,
-      "views": 2210,
+      "reach": 1775,
+      "views": 2217,
       "saved": 26,
       "shares": 27
     },
@@ -885,7 +891,7 @@
       "comments_count": 0,
       "caption": "¿Quién pudiera tener esa química en los recreos, no? 💚 El Tomo 6 de Heartstopper ya está disponible para seguir shipendolos en casa. \n\nMandanos un WhatsApp para asegurártelo en Agencia Albor, Carlos Casares.\n\n#heartstopper #aliceoseman #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 60,
+      "views": 61,
       "saved": 0,
       "shares": 1
     },
@@ -1059,7 +1065,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T11:02:12.046Z",
+  "actualizado": "2026-10-28T12:02:16.485Z",
   "aud": {
     "edad": [
       {
