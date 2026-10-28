@@ -71,7 +71,7 @@
     "mvav3h2hthm",
     "mvaxddb48pw"
   ],
-  "statsEl": "2026-10-28T14:02:07.743Z",
+  "statsEl": "2026-10-28T15:02:10.362Z",
   "stUltima": {
     "cuando": "2026-10-28T12:02:03.452Z",
     "franja": "09:00",
@@ -79,7 +79,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-28T14:01:56.246Z",
+    "cuando": "2026-10-28T15:01:52.797Z",
     "cola": 163,
     "enRepo": 163,
     "pendientes": []
@@ -116,7 +116,9 @@
     "usadosDia": {}
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-10-28 12:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
@@ -129,11 +131,12 @@
       "mrcmvph4b9mok297a-fb",
       "mrcmvqsm5x4etos0t-fb",
       "mrcmvqw5xq2695pzc-fb",
-      "mrcmvr08nxeykj1h9-fb"
+      "mrcmvr08nxeykj1h9-fb",
+      "mrcmvs1sk7afqgvg4-fb"
     ],
     "ultima": {
-      "cuando": "2026-10-27T23:02:23.134Z",
-      "franja": "20:00",
+      "cuando": "2026-10-28T15:01:58.462Z",
+      "franja": "12:00",
       "ok": 1,
       "fallos": 0
     },
@@ -142,9 +145,12 @@
       "mrcmvph4b9mok297a-fb": "2026-10-26T23:02:03.335Z",
       "mrcmvqsm5x4etos0t-fb": "2026-10-27T15:02:06.962Z",
       "mrcmvqw5xq2695pzc-fb": "2026-10-27T21:02:12.650Z",
-      "mrcmvr08nxeykj1h9-fb": "2026-10-27T23:02:23.133Z"
+      "mrcmvr08nxeykj1h9-fb": "2026-10-27T23:02:23.133Z",
+      "mrcmvs1sk7afqgvg4-fb": "2026-10-28T15:01:58.462Z"
     },
-    "usadosDia": {}
+    "usadosDia": {
+      "mrcmvs1sk7afqgvg4-fb": "2026-10-28"
+    }
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvaxddb48pw",
