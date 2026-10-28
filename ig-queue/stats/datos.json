@@ -579,32 +579,32 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 90,
-      "v": 100
+      "a": 93,
+      "v": 105
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 92
+      "a": 84,
+      "v": 98
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 67
+      "a": 65,
+      "v": 72
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 56,
-      "v": 62
+      "a": 64,
+      "v": 67
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 38,
-      "v": 42
+      "a": 42,
+      "v": 47
     }
   },
   "seguidores": {
@@ -625,21 +625,21 @@
     "2026-10-25": 1391,
     "2026-10-26": 1392,
     "2026-10-27": 1395,
-    "2026-10-28": 1395
+    "2026-10-28": 1396
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1395,
+    "followers_count": 1396,
     "follows_count": 639,
     "media_count": 616,
     "id": "28888466970748824",
-    "el": "2026-10-28T03:01:48.546Z"
+    "el": "2026-10-28T04:01:49.938Z"
   },
   "res30": {
     "reach": 4053,
-    "views": 22239,
+    "views": 22275,
     "profile_views": 91,
-    "accounts_engaged": 232
+    "accounts_engaged": 235
   },
   "posts": [
     {
@@ -650,8 +650,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 14,
+      "reach": 12,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -689,7 +689,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 67,
+      "reach": 68,
       "views": 81,
       "saved": 0,
       "shares": 0
@@ -764,11 +764,11 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 119,
+      "like_count": 122,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1742,
-      "views": 2166,
+      "reach": 1751,
+      "views": 2184,
       "saved": 25,
       "shares": 26
     },
@@ -1059,7 +1059,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T03:01:58.309Z",
+  "actualizado": "2026-10-28T04:01:59.522Z",
   "aud": {
     "edad": [
       {
