@@ -1,4 +1,4 @@
-// ig-motor-v31
+// ig-motor-v32
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -175,7 +175,7 @@ function borrarMedias(d) {
   for (const m of (d.medias || (d.media ? [d.media] : []))) { try { fs.unlinkSync(fsm(m)); } catch (e) {} }
 }
 
-async function publicar(d, token, uid, guardar) {
+async function publicarBase(d, token, uid, guardar) {
   const esCar = d.tipo === 'carousel';
   const medias = esCar ? (d.medias || []) : [d.media];
   if (!medias.length || medias.some((m) => !m || !fs.existsSync(fsm(m)))) throw new Error('El archivo de la publicación ya no está en el repositorio.');
@@ -231,6 +231,30 @@ async function publicar(d, token, uid, guardar) {
     catch (e) { fbError = e.message; console.log('Facebook falló', d.id, e.message); }
   } else if (d.fb) { fbError = 'Faltan los secretos FB_PAGE_ID y FB_PAGE_TOKEN en GitHub.'; }
   return { id: pub.id, permalink, fbLink, fbError };
+}
+
+// v32: aviso por ntfy (opcional). Si existe el secreto NTFY_TOPIC, avisa al celular de quien comparte con el enlace de Instagram y/o Facebook.
+// Las historias no avisan (no se pueden compartir). Si el aviso falla, la publicación no se ve afectada.
+async function avisarNtfy(d, r) {
+  try {
+    const topic = String(process.env.NTFY_TOPIC || '').replace(/[^A-Za-z0-9_-]/g, '');
+    if (!topic || !r || d.fmt === 'historia') return;
+    const ig = r.permalink || '', fbl = r.fbLink || '';
+    if (!ig && !fbl) return;
+    let t = String(d.caption || '').replace(/(^|\s)#[\p{L}\p{N}_]+/gu, '$1').replace(/\s+/g, ' ').trim();
+    if (t.length > 160) t = t.slice(0, 157) + '…';
+    const acciones = [];
+    if (fbl) acciones.push({ action: 'view', label: 'Abrir Facebook', url: fbl });
+    if (ig) acciones.push({ action: 'view', label: 'Abrir Instagram', url: ig });
+    const cuerpo = { topic, title: 'Nueva ' + (d.fmt === 'reel' || d.tipo === 'video' ? 'reel' : 'publicación') + ' para compartir', message: t || 'Tocá para abrirla y compartirla.', priority: 4, tags: ['loudspeaker'], click: fbl || ig, actions: acciones };
+    const res = await fetch('https://ntfy.sh/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(cuerpo), signal: AbortSignal.timeout(10000) });
+    if (!res.ok) console.log('ntfy respondió', res.status);
+  } catch (e) { console.log('ntfy falló', e.message); }
+}
+async function publicar(d, token, uid, guardar) {
+  const r = await publicarBase(d, token, uid, guardar);
+  await avisarNtfy(d, r);
+  return r;
 }
 
 const TZ = 'America/Argentina/Buenos_Aires';
