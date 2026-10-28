@@ -579,32 +579,32 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 96,
-      "v": 106
+      "a": 98,
+      "v": 109
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 99
+      "a": 91,
+      "v": 102
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 69,
-      "v": 73
+      "a": 71,
+      "v": 76
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 68
+      "a": 67,
+      "v": 70
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 48
+      "a": 48,
+      "v": 50
     }
   },
   "seguidores": {
@@ -633,13 +633,13 @@
     "follows_count": 639,
     "media_count": 616,
     "id": "28888466970748824",
-    "el": "2026-10-28T08:01:54.382Z"
+    "el": "2026-10-28T09:01:49.786Z"
   },
   "res30": {
-    "reach": 4068,
-    "views": 22322,
+    "reach": 4075,
+    "views": 22336,
     "profile_views": 91,
-    "accounts_engaged": 237
+    "accounts_engaged": 238
   },
   "posts": [
     {
@@ -767,9 +767,9 @@
       "like_count": 122,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1763,
-      "views": 2196,
-      "saved": 25,
+      "reach": 1768,
+      "views": 2202,
+      "saved": 26,
       "shares": 27
     },
     {
@@ -1059,7 +1059,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T08:02:02.817Z",
+  "actualizado": "2026-10-28T09:01:56.909Z",
   "aud": {
     "edad": [
       {
