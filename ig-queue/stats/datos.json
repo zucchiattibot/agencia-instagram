@@ -579,32 +579,32 @@
     "17964276153235283": {
       "t": "2026-10-27T12:02:11+0000",
       "tipo": "VIDEO",
-      "a": 99,
-      "v": 110
+      "a": 103,
+      "v": 114
     },
     "18199694593387956": {
       "t": "2026-10-27T16:02:20+0000",
       "tipo": "IMAGE",
-      "a": 91,
-      "v": 102
+      "a": 96,
+      "v": 107
     },
     "18150376723523453": {
       "t": "2026-10-27T19:02:12+0000",
       "tipo": "VIDEO",
-      "a": 72,
-      "v": 77
+      "a": 78,
+      "v": 85
     },
     "18212878114362481": {
       "t": "2026-10-27T20:39:24+0000",
       "tipo": "IMAGE",
-      "a": 67,
-      "v": 71
+      "a": 74,
+      "v": 78
     },
     "18398383960203598": {
       "t": "2026-10-27T23:46:14+0000",
       "tipo": "IMAGE",
-      "a": 48,
-      "v": 51
+      "a": 58,
+      "v": 61
     }
   },
   "seguidores": {
@@ -630,14 +630,14 @@
   "cuenta": {
     "username": "agenciaalbor",
     "followers_count": 1396,
-    "follows_count": 639,
+    "follows_count": 641,
     "media_count": 616,
     "id": "28888466970748824",
-    "el": "2026-10-28T10:01:59.539Z"
+    "el": "2026-10-28T11:02:02.299Z"
   },
   "res30": {
     "reach": 4075,
-    "views": 22343,
+    "views": 22383,
     "profile_views": 91,
     "accounts_engaged": 238
   },
@@ -689,8 +689,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 75,
-      "views": 89,
+      "reach": 77,
+      "views": 90,
       "saved": 0,
       "shares": 0
     },
@@ -767,8 +767,8 @@
       "like_count": 122,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1768,
-      "views": 2206,
+      "reach": 1772,
+      "views": 2210,
       "saved": 26,
       "shares": 27
     },
@@ -1059,7 +1059,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-28T10:02:07.128Z",
+  "actualizado": "2026-10-28T11:02:12.046Z",
   "aud": {
     "edad": [
       {
