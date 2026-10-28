@@ -73,7 +73,7 @@
     "mvaxddb48pw",
     "mvaxa03uf0z"
   ],
-  "statsEl": "2026-10-28T16:02:32.517Z",
+  "statsEl": "2026-10-28T17:02:27.548Z",
   "stUltima": {
     "cuando": "2026-10-28T15:51:02.984Z",
     "franja": "12:30",
@@ -81,7 +81,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-28T16:02:07.267Z",
+    "cuando": "2026-10-28T17:02:14.030Z",
     "cola": 163,
     "enRepo": 163,
     "pendientes": []
