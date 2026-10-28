@@ -1,4 +1,4 @@
-# ig-horario-v6: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
+# ig-horario-v7: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
 name: Publicar en Instagram
 on:
   schedule:
@@ -30,6 +30,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: node ig-queue/publicar.mjs
       - name: Limpiar archivos ya publicados (sin historial)
         continue-on-error: true
