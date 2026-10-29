@@ -1,4 +1,4 @@
-// ig-motor-v38
+// ig-motor-v39
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -392,7 +392,17 @@ function itemsCargaMotor(red) {
 }
 // v37: tope de Reels para no saturar la cuenta. Cuenta las salidas diarias de las franjas fijadas en 'reel'; el motor no pasa más franjas a Reel ni suma extras de Reel sobre ese tope.
 const MAX_REELS_DIA = 2;
-function reelsDia(franjas) { return (franjas || []).filter((f) => f && f.f === 'reel').reduce((a, f) => a + Math.min(Number(f.n) || 1, 5), 0); }
+// Reels por día: máximo de Reels que caen el mismo día de la semana (0 = domingo ... 6 = sábado). Con 'extra' (una franja que pasaría a Reel) mira solo los días en que esa franja corre.
+function reelsDia(franjas, extra) {
+  const lista = (franjas || []).filter((f) => f && f.f === 'reel'); if (extra) lista.push(extra);
+  const corre = (f, d) => !(Array.isArray(f.d) && f.d.length) || f.d.includes(d);
+  let max = 0;
+  for (let d = 0; d < 7; d++) {
+    if (extra && !corre(extra, d)) continue;
+    max = Math.max(max, lista.reduce((a, f) => a + (corre(f, d) ? Math.min(Number(f.n) || 1, 5) : 0), 0));
+  }
+  return max;
+}
 // v38: el interruptor de autoajuste del panel (ig-queue/auto-ajuste.json, { on: false } lo apaga) también manda sobre las salidas extra del día.
 function autoAjusteOn() { try { const aj = leer(path.join(BASE, 'auto-ajuste.json'), null); return !aj || aj.on !== false; } catch (e) { return true; } }
 function frMin(h) { const [a, b] = String(h).split(':').map(Number); return a * 60 + (b || 0); }
@@ -601,7 +611,7 @@ function optimizarRestoCola(ruta, items, etiqueta) {
     const vs = usable.filter(p => /video|reel/i.test(p.fmt || '')).map(p => p.score), fscores = usable.filter(p => !/video|reel/i.test(p.fmt || '')).map(p => p.score);
     if (vs.length >= 6 && fscores.length >= 6) {
       const mv = medianaMotor(vs), mf = medianaMotor(fscores), mejor = mv >= mf*1.4 ? 'reel' : (mf >= mv*1.4 ? 'feed' : '');
-      if (mejor) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = cfg.franjas.find(x => x.f === peor); if (fr && mejor === 'reel' && reelsDia(cfg.franjas) + Math.min(Number(fr.n) || 1, 5) > MAX_REELS_DIA) { /* Reels rinde más, pero ya hay suficientes por día: no se pasa otra franja */ } else if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
+      if (mejor) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = mejor === 'reel' ? cfg.franjas.find(x => x.f === peor && reelsDia(cfg.franjas, x) <= MAX_REELS_DIA) : cfg.franjas.find(x => x.f === peor); if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
     }
   }
   // 3) Cantidad de posts: solo reduce si los días con 2+ publicaciones rinden <70% por pieza.
