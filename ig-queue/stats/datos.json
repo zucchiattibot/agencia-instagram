@@ -627,20 +627,26 @@
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 99
+      "a": 91,
+      "v": 103
     },
     "18112493297167234": {
       "t": "2026-10-29T15:42:06+0000",
       "tipo": "IMAGE",
-      "a": 30,
-      "v": 37
+      "a": 41,
+      "v": 45
     },
     "17945625387369056": {
       "t": "2026-10-29T16:04:57+0000",
       "tipo": "VIDEO",
-      "a": 25,
-      "v": 37
+      "a": 37,
+      "v": 45
+    },
+    "18116880344021081": {
+      "t": "2026-10-29T20:02:53+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -670,13 +676,13 @@
     "follows_count": 641,
     "media_count": 619,
     "id": "28888466970748824",
-    "el": "2026-10-29T19:01:47.310Z"
+    "el": "2026-10-29T20:03:02.744Z"
   },
   "res30": {
     "reach": 4299,
-    "views": 23657,
+    "views": 23714,
     "profile_views": 96,
-    "accounts_engaged": 250
+    "accounts_engaged": 251
   },
   "posts": [
     {
@@ -687,8 +693,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 28,
+      "reach": 14,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -843,8 +849,8 @@
       "like_count": 133,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1956,
-      "views": 2484,
+      "reach": 1959,
+      "views": 2491,
       "saved": 28,
       "shares": 27
     },
@@ -1135,7 +1141,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T19:02:00.106Z",
+  "actualizado": "2026-10-29T20:03:12.099Z",
   "aud": {
     "edad": [
       {
