@@ -609,26 +609,26 @@
     "18117630575043039": {
       "t": "2026-10-28T12:01:56+0000",
       "tipo": "IMAGE",
-      "a": 112,
-      "v": 119
+      "a": 116,
+      "v": 123
     },
     "17955835023035402": {
       "t": "2026-10-28T15:50:33+0000",
       "tipo": "VIDEO",
-      "a": 98,
-      "v": 108
+      "a": 103,
+      "v": 113
     },
     "17878454808573796": {
       "t": "2026-10-28T20:02:02+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 86
+      "a": 84,
+      "v": 93
     },
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 52
+      "a": 57,
+      "v": 63
     }
   },
   "seguidores": {
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T03:01:41.230Z"
+    "el": "2026-10-29T04:01:41.530Z"
   },
   "res30": {
     "reach": 4235,
-    "views": 23384,
+    "views": 23427,
     "profile_views": 94,
     "accounts_engaged": 249
   },
@@ -676,7 +676,7 @@
       "comments_count": 0,
       "caption": "Aquellas tardes de mate y lectura donde pasabas las hojas sin sentir el paso de las horas vuelven con estas novelas. 📖 \nSi te atrapan las tramas donde el amor y el misterio van de la mano, guardá tu ejemplar en Agencia Albor y disfrutá de un buen libro.\nConsultá por WhatsApp al 2395 41-7834 y te lo guardamos.\n\n#florenciabonelli #novela #carloscasares",
       "reach": 20,
-      "views": 33,
+      "views": 36,
       "saved": 0,
       "shares": 0
     },
@@ -740,7 +740,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 112,
+      "reach": 113,
       "views": 148,
       "saved": 0,
       "shares": 0
@@ -763,11 +763,11 @@
       "timestamp": "2026-10-27T00:37:26+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De-lfdYEWpr/",
-      "like_count": 2,
+      "like_count": 3,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 70,
-      "views": 88,
+      "reach": 71,
+      "views": 89,
       "saved": 0,
       "shares": 0
     },
@@ -819,7 +819,7 @@
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 1910,
-      "views": 2391,
+      "views": 2401,
       "saved": 28,
       "shares": 27
     },
@@ -883,8 +883,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 149,
-      "views": 176,
+      "reach": 150,
+      "views": 177,
       "saved": 0,
       "shares": 1
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T03:01:51.262Z",
+  "actualizado": "2026-10-29T04:01:49.335Z",
   "aud": {
     "edad": [
       {
