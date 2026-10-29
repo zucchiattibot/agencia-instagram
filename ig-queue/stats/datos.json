@@ -609,14 +609,14 @@
     "18117630575043039": {
       "t": "2026-10-28T12:01:56+0000",
       "tipo": "IMAGE",
-      "a": 118,
-      "v": 125
+      "a": 119,
+      "v": 126
     },
     "17955835023035402": {
       "t": "2026-10-28T15:50:33+0000",
       "tipo": "VIDEO",
       "a": 104,
-      "v": 113
+      "v": 114
     },
     "17878454808573796": {
       "t": "2026-10-28T20:02:02+0000",
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T08:01:43.107Z"
+    "el": "2026-10-29T09:01:40.033Z"
   },
   "res30": {
     "reach": 4251,
-    "views": 23382,
+    "views": 23385,
     "profile_views": 94,
     "accounts_engaged": 249
   },
@@ -805,8 +805,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 88,
+      "reach": 33,
+      "views": 89,
       "saved": 0,
       "shares": 0
     },
@@ -844,8 +844,8 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 121,
-      "views": 157,
+      "reach": 122,
+      "views": 158,
       "saved": 1,
       "shares": 1
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T08:01:52.449Z",
+  "actualizado": "2026-10-29T09:01:47.014Z",
   "aud": {
     "edad": [
       {
