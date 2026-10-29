@@ -75,7 +75,7 @@
     "mvr0jobg8r4",
     "mvawtsml9p0"
   ],
-  "statsEl": "2026-10-29T18:01:54.789Z",
+  "statsEl": "2026-10-29T19:02:00.106Z",
   "stUltima": {
     "cuando": "2026-10-29T15:42:14.871Z",
     "franja": "12:30",
@@ -83,7 +83,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-29T18:01:41.172Z",
+    "cuando": "2026-10-29T19:01:44.986Z",
     "cola": 165,
     "enRepo": 165,
     "pendientes": []
@@ -125,7 +125,14 @@
     },
     "usadosDia": {
       "mrcmvs17yshc98yg6-ig": "2026-10-29"
-    }
+    },
+    "carga": {
+      "nivel": 0,
+      "dia": "2026-10-29",
+      "extras": [],
+      "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
+    },
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 21 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
   },
   "fdfb": {
     "franjas": {
@@ -164,7 +171,14 @@
     },
     "usadosDia": {
       "mrcmvs17yshc98yg6-fb": "2026-10-29"
-    }
+    },
+    "carga": {
+      "nivel": 0,
+      "dia": "2026-10-29",
+      "extras": [],
+      "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
+    },
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 20 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvawtsml9p0",
