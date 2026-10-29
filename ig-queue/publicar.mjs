@@ -1,4 +1,4 @@
-// ig-motor-v32
+// ig-motor-v37
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -369,6 +369,75 @@ function liberarFeed(p, red, cfg, estado) {
   }
   for (const x of (p.medias || [p.media])) { try { fs.unlinkSync(fsm(x)); } catch (e) {} }
 }
+
+// v34: carga automática. Reparte en el día las salidas (sin amontonar) y alterna proveedores. Sumar o quitar salidas lo deciden las ESTADÍSTICAS
+// (misma regla del optimizador: días con 2+ publicaciones vs. días con 1); el material acumulado solo es el permiso para subir, nunca el motivo.
+// Reglas: sin datos suficientes no se suma nada; máximo 1 cambio por día y 3 días de espera entre cambios; tope 4 por día (3 en Facebook).
+// Regla compartida con el optimizador: cociente entre el alcance mediano de los días con 2+ publicaciones y el de los días con 1. null = sin muestra.
+function ratioCargaMotor(items) {
+  const porDia = {};
+  for (const p of items) { if (!(p.score > 0)) continue; const d = new Date(p.t); if (!Number.isFinite(d.getTime())) continue; (porDia[new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(d)] ||= []).push(p.score); }
+  const uno = [], varios = [];
+  for (const a of Object.values(porDia)) { if (a.length >= 2) varios.push(medianaMotor(a)); else if (a.length === 1) uno.push(medianaMotor(a)); }
+  if (uno.length < 5 || varios.length < 5) return null;
+  return medianaMotor(varios) / (medianaMotor(uno) || 1);
+}
+// Publicaciones con métricas maduras (más de 72 h) de la red, tal como las usa el optimizador.
+function itemsCargaMotor(red) {
+  const D = leer(path.join(BASE, 'stats', 'datos.json'), null);
+  if (!D) return [];
+  const lim = Date.now() - 72 * 3600000, maduro = (t) => { const ms = Date.parse(t); return Number.isFinite(ms) && ms < lim; };
+  if (red === 'fb') return (D.fbposts || []).filter((p) => maduro(p.t)).map((p) => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)) }));
+  return (D.posts || []).filter((p) => maduro(p.timestamp)).map((p) => ({ t: p.timestamp, score: +(p.reach || 0) }));
+}
+// v37: tope de Reels para no saturar la cuenta. Cuenta las salidas diarias de las franjas fijadas en 'reel'; el motor no pasa más franjas a Reel ni suma extras de Reel sobre ese tope.
+const MAX_REELS_DIA = 2;
+function reelsDia(franjas) { return (franjas || []).filter((f) => f && f.f === 'reel').reduce((a, f) => a + Math.min(Number(f.n) || 1, 5), 0); }
+function frMin(h) { const [a, b] = String(h).split(':').map(Number); return a * 60 + (b || 0); }
+function frTxt(m) { return String(Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0'); }
+function alternarProv(orden, ultima) {
+  const out = [], r = orden.slice(); let prev = ultima || '';
+  while (r.length) { let i = r.findIndex((p) => !p.prov || p.prov !== prev); if (i < 0) i = 0; const p = r.splice(i, 1)[0]; out.push(p); if (p.prov) prev = p.prov; }
+  return out;
+}
+function slotsHoy(cfg, e, dia, diaSem, pend, red) {
+  const tope = red === 'fb' ? 3 : 4, SEP = 150, out = [];
+  for (const fr of cfg.franjas) {
+    if (Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSem)) continue;
+    const n = Math.min(Number(fr.n) || 1, 5), b = frMin(fr.h);
+    for (let k = 0; k < n; k++) { let t = b + k * SEP; if (t > 23 * 60 + 30) t = b - k * SEP; if (t < 7 * 60) t = b; const h = frTxt(t); if (!out.some((s) => s.h === h)) out.push({ h, n: 1, f: fr.f || '', d: fr.d }); }
+  }
+  // El límite diario se aplica también a las franjas ya configuradas, no solo a los extras automáticos.
+  out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  const recortadas = Math.max(0, out.length - tope);
+  if (recortadas) out.splice(tope);
+  const c = (e.carga = e.carga || { nivel: 0, dia: '', extras: [] });
+  c.nivel = Math.min(Math.max(0, Number(c.nivel) || 0), Math.max(0, tope - out.length));
+  if (c.dia !== dia) {
+    c.dia = dia; const total = out.length + (c.nivel || 0), nivel0 = c.nivel || 0;
+    let ratio = null; try { ratio = ratioCargaMotor(itemsCargaMotor(red)); } catch (er) {}
+    const espera = c.cambio ? Math.round((Date.parse(dia) - Date.parse(c.cambio)) / 86400000) : 99; // días desde el último cambio
+    let paso = 0, motivo = '';
+    if (ratio === null) { if (nivel0 > 0) { paso = -1; motivo = 'sin estadísticas suficientes que respalden salidas extra'; } else motivo = 'sin estadísticas suficientes: se mantiene tu ritmo'; }
+    else if (ratio < 0.70 && nivel0 > 0) { paso = -1; motivo = 'las salidas extra bajan el alcance por publicación ' + Math.round((1 - ratio) * 100) + '%'; }
+    else if (ratio >= 0.90 && pend > total * 2 && total < tope) { if (espera >= 3) { paso = 1; motivo = 'hay material acumulado y publicar más no baja el alcance por publicación (' + Math.round(ratio * 100) + '%)'; } else motivo = 'esperando que maduren las publicaciones del último cambio'; }
+    else motivo = 'las estadísticas no justifican cambiar la cantidad';
+    if (paso !== 0 && paso > 0 && espera < 3) paso = 0;
+    c.nivel = Math.max(0, nivel0 + paso);
+    if (paso !== 0) c.cambio = dia;
+    c.motivo = motivo;
+    c.extras = [];
+    for (let i = 0; i < c.nivel; i++) {
+      let mejor = null, dm = 0; const ocup = out.map((s) => frMin(s.h)).concat(c.extras.map(frMin));
+      for (let m = 8 * 60; m <= 22 * 60; m += 30) { const d = ocup.length ? Math.min(...ocup.map((x) => Math.abs(x - m))) : 999; if (d > dm) { dm = d; mejor = m; } }
+      if (mejor !== null && dm >= 120) c.extras.push(frTxt(mejor));
+    }
+  }
+  const reelsHoy = out.filter((s) => s.f === 'reel').length; // cuenta antes de sumar extras
+  for (const h of c.extras || []) if (!out.some((s) => s.h === h)) out.push({ h, n: 1, f: reelsHoy >= MAX_REELS_DIA ? 'feed' : '' });
+  e.infoCarga = out.length + ' salida' + (out.length === 1 ? '' : 's') + ' hoy' + (c.extras && c.extras.length ? ' (' + c.extras.length + ' sumada' + (c.extras.length === 1 ? '' : 's') + ' por estadísticas)' : '') + ', separadas al menos 2 h; ' + pend + ' esperando' + (c.motivo ? ' (' + c.motivo + ')' : '') + '.' + (recortadas ? ' Tus franjas suman más del tope de ' + tope + ' por día: ' + recortadas + ' no se usan.' : '') + (reelsHoy > MAX_REELS_DIA ? ' Hay ' + reelsHoy + ' Reels programados hoy (recomendado hasta ' + MAX_REELS_DIA + ').' : '');
+  return out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
+}
 async function colaFeed(estado, token, uid, red) {
   const cfg = leer(path.join(BASE, 'feed-' + red, 'config.json'), null);
   if (!cfg || cfg.pausada || !(cfg.franjas || []).length || !(cfg.pool || []).length) return;
@@ -388,7 +457,8 @@ async function colaFeed(estado, token, uid, red) {
   for (const id of Object.keys(fdHoy)) if (fdHoy[id] !== dia) delete fdHoy[id];
   const existe = (p) => (p.medias || [p.media]).every((x) => fs.existsSync(fsm(x)));
   const diaSem = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado (fecha de Argentina)
-  for (const fr of cfg.franjas.slice().sort((a, b) => String(a.h).localeCompare(String(b.h)))) {
+  const pendCola = cfg.pool.filter((p) => existe(p) && !e.usados.includes(p.id)).length;
+  for (const fr of slotsHoy(cfg, e, dia, diaSem, pendCola, red)) {
     const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
     if (Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSem)) continue; // franja solo para ciertos días de la semana
     if (min < ini) continue;
@@ -405,7 +475,7 @@ async function colaFeed(estado, token, uid, red) {
       libres = frescas.length ? frescas.slice() : noHoy.slice().sort((a, b) => (Date.parse(fdHist[a.id] || 0) || 0) - (Date.parse(fdHist[b.id] || 0) || 0));
     }
     const orden = cfg.orden === 'nuevo' ? libres.slice().sort((a, b) => (b.ord || 0) - (a.ord || 0)) : mezclar(libres);
-    const elegidas = orden.slice(0, Math.min(Number(fr.n) || 1, 5));
+    const elegidas = (cfg.alternar === false ? orden : alternarProv(orden, e.ultimaProv)).slice(0, Math.min(Number(fr.n) || 1, 5));
     // Sin nada nuevo la franja queda pendiente (hasta 3 h): si el panel suma material en ese rato, sale igual.
     if (!elegidas.length) { e.aviso = 'No hay material nuevo para publicar: cuando cargues publicidad nueva y abras el panel, se suma sola.'; continue; }
     let ok = 0, fallos = 0;
@@ -413,6 +483,7 @@ async function colaFeed(estado, token, uid, red) {
       try { await publicar({ id: p.id, tipo: p.medias && p.medias.length > 1 ? 'carousel' : (p.tipo === 'video' ? 'video' : 'image'), fmt: p.fmt === 'reel' ? 'reel' : 'feed', media: p.media, medias: p.medias, caption: p.caption || '', ig: red === 'ig' ? 1 : 0, fb: red === 'fb' ? 1 : 0 }, token, uid, null); if (!e.usados.includes(p.id)) e.usados.push(p.id); fdHist[p.id] = new Date().toISOString(); fdHoy[p.id] = dia; ok++; liberarFeed(p, red, cfg, estado); }
       catch (er) { fallos++; e.error = er.message; console.log('Feed ' + red + ' falló', p.id, er.message); }
     }
+    if (ok) { const u = elegidas.filter((p) => e.usados.includes(p.id)).pop(); if (u && u.prov) e.ultimaProv = u.prov; }
     const intentos = (typeof e.franjas[clave] === 'object' && e.franjas[clave] ? e.franjas[clave].intentos : 0) + 1;
     if (elegidas.length && !ok && intentos < 3) e.franjas[clave] = { intentos };
     else e.franjas[clave] = !elegidas.length ? 'vacia' : (ok ? 'ok' : 'fallida');
@@ -527,17 +598,13 @@ function optimizarRestoCola(ruta, items, etiqueta) {
     const vs = usable.filter(p => /video|reel/i.test(p.fmt || '')).map(p => p.score), fscores = usable.filter(p => !/video|reel/i.test(p.fmt || '')).map(p => p.score);
     if (vs.length >= 6 && fscores.length >= 6) {
       const mv = medianaMotor(vs), mf = medianaMotor(fscores), mejor = mv >= mf*1.4 ? 'reel' : (mf >= mv*1.4 ? 'feed' : '');
-      if (mejor) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = cfg.franjas.find(x => x.f === peor); if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
+      if (mejor) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = cfg.franjas.find(x => x.f === peor); if (fr && mejor === 'reel' && reelsDia(cfg.franjas) + Math.min(Number(fr.n) || 1, 5) > MAX_REELS_DIA) { /* Reels rinde más, pero ya hay suficientes por día: no se pasa otra franja */ } else if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
     }
   }
   // 3) Cantidad de posts: solo reduce si los días con 2+ publicaciones rinden <70% por pieza.
   if (!ruta.startsWith('stories/')) {
-    const porDia = {};
-    for (const p of usable) (porDia[new Intl.DateTimeFormat('en-CA',{timeZone:TZ}).format(new Date(p.t))] ||= []).push(p.score);
-    const uno=[], varios=[];
-    for (const a of Object.values(porDia)) if (a.length >= 2) varios.push(medianaMotor(a)); else if (a.length === 1) uno.push(medianaMotor(a));
-    if (uno.length >= 5 && varios.length >= 5) {
-      const ratio = medianaMotor(varios)/(medianaMotor(uno)||1);
+    const ratio = ratioCargaMotor(usable);
+    if (ratio !== null) {
       if (ratio < .70) { const fr=cfg.franjas.find(x => (+x.n||1)>=2); if(fr){ const antes=fr.n; fr.n=Math.max(1,(+fr.n||1)-1); const detalle = `Cantidad de ${fr.h}: ${antes} → ${fr.n}; los días con 2+ publicaciones rindieron ${Math.round((1-ratio)*100)}% menos por pieza en la muestra.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
     }
   } else {
@@ -650,8 +717,16 @@ async function estadisticas(estado, token, uid) {
   // Facebook (Página): últimas publicaciones con reacciones, comentarios y compartidos (para el análisis de horarios del panel).
   try {
     if (process.env.FB_PAGE_ID && process.env.FB_PAGE_TOKEN) {
-      const r = await fb('GET', process.env.FB_PAGE_ID + '/posts', { fields: 'id,created_time,status_type,reactions.summary(true).limit(0),comments.summary(true).limit(0),shares', limit: 25 }, process.env.FB_PAGE_TOKEN);
-      D.fbposts = (r.data || []).map((p) => ({ id: p.id, t: p.created_time, tipo: p.status_type || '', r: ((p.reactions || {}).summary || {}).total_count || 0, c: ((p.comments || {}).summary || {}).total_count || 0, s: (p.shares || {}).count || 0 }));
+      const campos = 'id,created_time,status_type,reactions.summary(true).limit(0),comments.summary(true).limit(0),shares';
+      let r; // 50 por pedido; si Facebook rechaza el volumen de datos, reintenta con 25.
+      try { r = await fb('GET', process.env.FB_PAGE_ID + '/posts', { fields: campos, limit: 50 }, process.env.FB_PAGE_TOKEN); }
+      catch (e1) { r = await fb('GET', process.env.FB_PAGE_ID + '/posts', { fields: campos, limit: 25 }, process.env.FB_PAGE_TOKEN); }
+      const anteriores = new Map((D.fbposts || []).map((p) => [p.id, p]));
+      const recientes = (r.data || []).map((p) => ({ ...(anteriores.get(p.id) || {}), id: p.id, t: p.created_time, tipo: p.status_type || '', r: ((p.reactions || {}).summary || {}).total_count || 0, c: ((p.comments || {}).summary || {}).total_count || 0, s: (p.shares || {}).count || 0 }));
+      const idsRecientes = new Set(recientes.map((p) => p.id));
+      // Historial acumulado: lo nuevo + lo guardado de hasta 120 días, ordenado del más nuevo al más viejo, máximo 150.
+      D.fbposts = recientes.concat([...anteriores.values()].filter((p) => !idsRecientes.has(p.id) && ahora - Date.parse(p.t) < 120 * 86400000))
+        .sort((x, y) => (Date.parse(y.t) || 0) - (Date.parse(x.t) || 0)).slice(0, 150);
     }
   } catch (e) { errs.push('facebook: ' + e.message); }
   D.actualizado = new Date().toISOString(); escribir(f, D); estado.statsEl = D.actualizado;
