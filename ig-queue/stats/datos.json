@@ -609,26 +609,26 @@
     "18117630575043039": {
       "t": "2026-10-28T12:01:56+0000",
       "tipo": "IMAGE",
-      "a": 122,
-      "v": 129
+      "a": 123,
+      "v": 130
     },
     "17955835023035402": {
       "t": "2026-10-28T15:50:33+0000",
       "tipo": "VIDEO",
-      "a": 109,
+      "a": 110,
       "v": 119
     },
     "17878454808573796": {
       "t": "2026-10-28T20:02:02+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 99
+      "a": 93,
+      "v": 101
     },
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 71
+      "a": 68,
+      "v": 76
     }
   },
   "seguidores": {
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T11:01:42.298Z"
+    "el": "2026-10-29T12:01:41.253Z"
   },
   "res30": {
     "reach": 4251,
-    "views": 23409,
+    "views": 23426,
     "profile_views": 94,
     "accounts_engaged": 249
   },
@@ -737,11 +737,11 @@
       "timestamp": "2026-10-27T18:03:08+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfAdJz2ivMU/",
-      "like_count": 3,
+      "like_count": 4,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 114,
-      "views": 149,
+      "reach": 116,
+      "views": 152,
       "saved": 0,
       "shares": 0
     },
@@ -805,8 +805,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 89,
+      "reach": 34,
+      "views": 90,
       "saved": 0,
       "shares": 0
     },
@@ -818,8 +818,8 @@
       "like_count": 131,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1920,
-      "views": 2425,
+      "reach": 1923,
+      "views": 2427,
       "saved": 28,
       "shares": 27
     },
@@ -896,8 +896,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Ese aroma a nafta y el color inconfundible de los caminos argentinos de los setenta vuelven en miniatura. 🚗 \nEl clásico Peugeot 404 Grand Prix ya tiene su lugar para que lo sumes a la repisa. \nPedilo en Agencia Albor y empezá a completar la serie.\n#peugeot404 #miniatura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 69,
-      "views": 119,
+      "reach": 70,
+      "views": 122,
       "saved": 0,
       "shares": 0
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T11:01:50.358Z",
+  "actualizado": "2026-10-29T12:01:49.082Z",
   "aud": {
     "edad": [
       {
