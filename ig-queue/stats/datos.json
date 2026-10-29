@@ -627,8 +627,8 @@
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 79
+      "a": 74,
+      "v": 80
     }
   },
   "seguidores": {
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T14:01:54.047Z"
+    "el": "2026-10-29T15:02:07.639Z"
   },
   "res30": {
     "reach": 4259,
-    "views": 23466,
+    "views": 23478,
     "profile_views": 95,
     "accounts_engaged": 249
   },
@@ -688,7 +688,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
+      "reach": 25,
       "views": 43,
       "saved": 0,
       "shares": 0
@@ -714,8 +714,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 22,
+      "reach": 17,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -818,8 +818,8 @@
       "like_count": 131,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1925,
-      "views": 2434,
+      "reach": 1928,
+      "views": 2444,
       "saved": 28,
       "shares": 27
     },
@@ -884,7 +884,7 @@
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 151,
-      "views": 179,
+      "views": 180,
       "saved": 0,
       "shares": 1
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T14:02:06.676Z",
+  "actualizado": "2026-10-29T15:02:21.425Z",
   "aud": {
     "edad": [
       {
@@ -1181,7 +1181,7 @@
           "25-34",
           "M"
         ],
-        "v": 79
+        "v": 80
       },
       {
         "d": [
@@ -1195,14 +1195,14 @@
           "45-54",
           "M"
         ],
-        "v": 139
+        "v": 140
       },
       {
         "d": [
           "55-64",
           "M"
         ],
-        "v": 66
+        "v": 67
       },
       {
         "d": [
@@ -1264,6 +1264,12 @@
     "ciudades": [
       {
         "d": [
+          "Merlo, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -1282,19 +1288,13 @@
       },
       {
         "d": [
-          "Cosquín, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "San Luis, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
-          "Marbella, Andalusia"
+          "Montevideo, Montevideo Department"
         ],
         "v": 1
       },
@@ -1308,7 +1308,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 19
+        "v": 20
       },
       {
         "d": [
@@ -1318,21 +1318,21 @@
       },
       {
         "d": [
-          "José León Suárez, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Akure, Ondo State"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
+      },
+      {
+        "d": [
+          "Río Cuarto, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Colonia San Bartolomé, Córdoba"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1368,7 +1368,7 @@
         "d": [
           "Córdoba, Córdoba"
         ],
-        "v": 6
+        "v": 7
       },
       {
         "d": [
@@ -1378,21 +1378,9 @@
       },
       {
         "d": [
-          "Murphy, Santa Fe"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Munro, Buenos Aires"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Llavallol, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1414,19 +1402,25 @@
       },
       {
         "d": [
-          "Necochea, Buenos Aires"
+          "Villa de la Quebrada, San Luis"
         ],
         "v": 1
       },
       {
         "d": [
-          "Remedios de Escalada de San Martín, Buenos Aires"
+          "Miramar, Buenos Aires"
         ],
         "v": 1
       },
       {
         "d": [
-          "Aarhus, Central Denmark Region"
+          "Alta Floresta, Mato Grosso"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Pinamar, Buenos Aires"
         ],
         "v": 1
       },
@@ -1441,6 +1435,12 @@
           "Carlos Casares, Buenos Aires"
         ],
         "v": 1078
+      },
+      {
+        "d": [
+          "Cañuelas, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1470,13 +1470,7 @@
         "d": [
           "Bellocq, Buenos Aires"
         ],
-        "v": 3
-      },
-      {
-        "d": [
-          "Quimilí, Santiago del Estero"
-        ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -1489,12 +1483,6 @@
           "Venado Tuerto, Santa Fe"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Santo Tomé, Santa Fe"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1512,7 +1500,19 @@
         "d": [
           "Rosario, Santa Fe"
         ],
-        "v": 4
+        "v": 5
+      },
+      {
+        "d": [
+          "Pimocha, Los Ríos Province"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "San Vicente, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1522,7 +1522,7 @@
       },
       {
         "d": [
-          "Potrero de los Funes, San Luis"
+          "Valentín Alsina, Buenos Aires"
         ],
         "v": 1
       },
@@ -1556,7 +1556,7 @@
         "d": [
           "CL"
         ],
-        "v": 5
+        "v": 6
       },
       {
         "d": [
@@ -1604,7 +1604,7 @@
         "d": [
           "AR"
         ],
-        "v": 1334
+        "v": 1336
       },
       {
         "d": [
@@ -1631,7 +1631,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-28T18:02:22.518Z"
+    "el": "2026-10-29T15:02:20.356Z"
   },
   "dias": {
     "2026-10-11": {
