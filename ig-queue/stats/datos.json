@@ -615,7 +615,7 @@
     "17955835023035402": {
       "t": "2026-10-28T15:50:33+0000",
       "tipo": "VIDEO",
-      "a": 104,
+      "a": 105,
       "v": 114
     },
     "17878454808573796": {
@@ -627,8 +627,8 @@
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 58,
-      "v": 63
+      "a": 59,
+      "v": 65
     }
   },
   "seguidores": {
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T09:01:40.033Z"
+    "el": "2026-10-29T10:01:39.142Z"
   },
   "res30": {
     "reach": 4251,
-    "views": 23385,
+    "views": 23388,
     "profile_views": 94,
     "accounts_engaged": 249
   },
@@ -766,8 +766,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 72,
-      "views": 90,
+      "reach": 73,
+      "views": 91,
       "saved": 0,
       "shares": 0
     },
@@ -819,7 +819,7 @@
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 1920,
-      "views": 2422,
+      "views": 2424,
       "saved": 28,
       "shares": 27
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T09:01:47.014Z",
+  "actualizado": "2026-10-29T10:01:47.363Z",
   "aud": {
     "edad": [
       {
