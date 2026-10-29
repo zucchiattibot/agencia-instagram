@@ -77,7 +77,7 @@
     "mvl599jl55g",
     "mvr0jobg8r4"
   ],
-  "statsEl": "2026-10-29T01:01:54.811Z",
+  "statsEl": "2026-10-29T02:01:45.403Z",
   "stUltima": {
     "cuando": "2026-10-29T00:01:54.158Z",
     "franja": "20:30",
@@ -85,7 +85,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-29T01:01:41.581Z",
+    "cuando": "2026-10-29T02:01:35.848Z",
     "cola": 163,
     "enRepo": 163,
     "pendientes": []
