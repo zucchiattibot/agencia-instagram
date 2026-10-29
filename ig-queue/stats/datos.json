@@ -621,14 +621,20 @@
     "17878454808573796": {
       "t": "2026-10-28T20:02:02+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 104
+      "a": 98,
+      "v": 106
     },
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 80
+      "a": 77,
+      "v": 85
+    },
+    "18112493297167234": {
+      "t": "2026-10-29T15:42:06+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 4
     }
   },
   "seguidores": {
@@ -656,17 +662,30 @@
     "username": "agenciaalbor",
     "followers_count": 1396,
     "follows_count": 641,
-    "media_count": 618,
+    "media_count": 619,
     "id": "28888466970748824",
-    "el": "2026-10-29T15:02:07.639Z"
+    "el": "2026-10-29T16:01:58.290Z"
   },
   "res30": {
-    "reach": 4259,
-    "views": 23478,
+    "reach": 4267,
+    "views": 23498,
     "profile_views": 95,
     "accounts_engaged": 249
   },
   "posts": [
+    {
+      "id": "18168756517475369",
+      "timestamp": "2026-10-29T16:01:53+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfFY6M3kQ5L/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18391655770226991",
       "timestamp": "2026-10-28T19:02:03+0000",
@@ -714,8 +733,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 25,
+      "reach": 18,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -818,8 +837,8 @@
       "like_count": 131,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1928,
-      "views": 2444,
+      "reach": 1930,
+      "views": 2452,
       "saved": 28,
       "shares": 27
     },
@@ -870,8 +889,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 148,
-      "views": 169,
+      "reach": 149,
+      "views": 170,
       "saved": 1,
       "shares": 2
     },
@@ -883,7 +902,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 151,
+      "reach": 152,
       "views": 180,
       "saved": 0,
       "shares": 1
@@ -1110,7 +1129,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T15:02:21.425Z",
+  "actualizado": "2026-10-29T16:02:11.143Z",
   "aud": {
     "edad": [
       {
