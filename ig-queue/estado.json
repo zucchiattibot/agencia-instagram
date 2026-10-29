@@ -3,7 +3,8 @@
   "latido": "2026-10-12T02:05:00.307Z",
   "stFranjas": {
     "2026-10-29 12:30": "ok",
-    "2026-10-29 17:00": "ok"
+    "2026-10-29 17:00": "ok",
+    "2026-10-29 20:30": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -79,16 +80,18 @@
   ],
   "statsEl": "2026-10-29T23:02:09.849Z",
   "stUltima": {
-    "cuando": "2026-10-29T20:03:01.086Z",
-    "franja": "17:00",
+    "cuando": "2026-10-29T23:38:36.792Z",
+    "franja": "20:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-29T23:01:45.223Z",
+    "cuando": "2026-10-29T23:37:28.470Z",
     "cola": 165,
     "enRepo": 165,
-    "pendientes": []
+    "pendientes": [
+      "20:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -192,10 +195,10 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvav3bkvpbp",
+  "stUltimaId": "mvawuogb0a0",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -208,11 +211,13 @@
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvr0jobg8r4": "2026-10-29T00:01:54.158Z",
     "mvawtsml9p0": "2026-10-29T15:42:14.871Z",
-    "mvav3bkvpbp": "2026-10-29T20:03:01.086Z"
+    "mvav3bkvpbp": "2026-10-29T20:03:01.086Z",
+    "mvawuogb0a0": "2026-10-29T23:38:36.792Z"
   },
   "stUsadosDia": {
     "mvawtsml9p0": "2026-10-29",
-    "mvav3bkvpbp": "2026-10-29"
+    "mvav3bkvpbp": "2026-10-29",
+    "mvawuogb0a0": "2026-10-29"
   },
   "autoBase": {
     "feed-ig/config.json": {
