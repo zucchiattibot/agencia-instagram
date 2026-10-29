@@ -615,20 +615,20 @@
     "17955835023035402": {
       "t": "2026-10-28T15:50:33+0000",
       "tipo": "VIDEO",
-      "a": 110,
-      "v": 119
+      "a": 113,
+      "v": 124
     },
     "17878454808573796": {
       "t": "2026-10-28T20:02:02+0000",
       "tipo": "IMAGE",
-      "a": 93,
-      "v": 101
+      "a": 94,
+      "v": 103
     },
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 76
+      "a": 71,
+      "v": 78
     }
   },
   "seguidores": {
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T12:01:41.253Z"
+    "el": "2026-10-29T13:01:41.919Z"
   },
   "res30": {
     "reach": 4251,
-    "views": 23426,
+    "views": 23445,
     "profile_views": 94,
     "accounts_engaged": 249
   },
@@ -685,11 +685,11 @@
       "timestamp": "2026-10-28T16:02:14+0000",
       "media_type": "IMAGE",
       "permalink": "https://www.instagram.com/p/DfC0J8xlaZI/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 41,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -727,8 +727,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 22,
+      "reach": 19,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -740,8 +740,8 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 116,
-      "views": 152,
+      "reach": 118,
+      "views": 155,
       "saved": 0,
       "shares": 0
     },
@@ -766,8 +766,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 73,
-      "views": 91,
+      "reach": 74,
+      "views": 94,
       "saved": 0,
       "shares": 0
     },
@@ -819,7 +819,7 @@
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 1923,
-      "views": 2427,
+      "views": 2432,
       "saved": 28,
       "shares": 27
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T12:01:49.082Z",
+  "actualizado": "2026-10-29T13:01:49.330Z",
   "aud": {
     "edad": [
       {
