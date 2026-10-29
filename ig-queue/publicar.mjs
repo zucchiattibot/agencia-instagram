@@ -1,4 +1,4 @@
-// ig-motor-v37
+// ig-motor-v38
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -393,6 +393,8 @@ function itemsCargaMotor(red) {
 // v37: tope de Reels para no saturar la cuenta. Cuenta las salidas diarias de las franjas fijadas en 'reel'; el motor no pasa más franjas a Reel ni suma extras de Reel sobre ese tope.
 const MAX_REELS_DIA = 2;
 function reelsDia(franjas) { return (franjas || []).filter((f) => f && f.f === 'reel').reduce((a, f) => a + Math.min(Number(f.n) || 1, 5), 0); }
+// v38: el interruptor de autoajuste del panel (ig-queue/auto-ajuste.json, { on: false } lo apaga) también manda sobre las salidas extra del día.
+function autoAjusteOn() { try { const aj = leer(path.join(BASE, 'auto-ajuste.json'), null); return !aj || aj.on !== false; } catch (e) { return true; } }
 function frMin(h) { const [a, b] = String(h).split(':').map(Number); return a * 60 + (b || 0); }
 function frTxt(m) { return String(Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0'); }
 function alternarProv(orden, ultima) {
@@ -423,6 +425,7 @@ function slotsHoy(cfg, e, dia, diaSem, pend, red) {
     else if (ratio >= 0.90 && pend > total * 2 && total < tope) { if (espera >= 3) { paso = 1; motivo = 'hay material acumulado y publicar más no baja el alcance por publicación (' + Math.round(ratio * 100) + '%)'; } else motivo = 'esperando que maduren las publicaciones del último cambio'; }
     else motivo = 'las estadísticas no justifican cambiar la cantidad';
     if (paso !== 0 && paso > 0 && espera < 3) paso = 0;
+    if (paso !== 0 && !autoAjusteOn()) { motivo = 'propuesta: ' + (paso > 0 ? 'sumar' : 'quitar') + ' una salida extra (' + motivo + '). Autoajuste apagado: no lo aplico solo'; paso = 0; }
     c.nivel = Math.max(0, nivel0 + paso);
     if (paso !== 0) c.cambio = dia;
     c.motivo = motivo;
