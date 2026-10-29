@@ -609,25 +609,25 @@
     "18117630575043039": {
       "t": "2026-10-28T12:01:56+0000",
       "tipo": "IMAGE",
-      "a": 116,
+      "a": 117,
       "v": 123
     },
     "17955835023035402": {
       "t": "2026-10-28T15:50:33+0000",
       "tipo": "VIDEO",
-      "a": 103,
+      "a": 104,
       "v": 113
     },
     "17878454808573796": {
       "t": "2026-10-28T20:02:02+0000",
       "tipo": "IMAGE",
-      "a": 84,
+      "a": 85,
       "v": 93
     },
     "18135561215500708": {
       "t": "2026-10-29T00:01:46+0000",
       "tipo": "IMAGE",
-      "a": 57,
+      "a": 58,
       "v": 63
     }
   },
@@ -658,11 +658,11 @@
     "follows_count": 641,
     "media_count": 618,
     "id": "28888466970748824",
-    "el": "2026-10-29T04:01:41.530Z"
+    "el": "2026-10-29T05:01:38.960Z"
   },
   "res30": {
-    "reach": 4235,
-    "views": 23427,
+    "reach": 4251,
+    "views": 23447,
     "profile_views": 94,
     "accounts_engaged": 249
   },
@@ -740,8 +740,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Tener toda la batería completa en la cocina es un viaje de ida y este juego de piezas te resuelve cualquier menú que te propongas hacer. 🍳 Pasá por Agencia Albor y completá tu juego.\n#bateria #carloscasares #bateriadecocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 113,
-      "views": 148,
+      "reach": 114,
+      "views": 149,
       "saved": 0,
       "shares": 0
     },
@@ -818,8 +818,8 @@
       "like_count": 131,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1910,
-      "views": 2401,
+      "reach": 1917,
+      "views": 2410,
       "saved": 28,
       "shares": 27
     },
@@ -883,8 +883,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 150,
-      "views": 177,
+      "reach": 151,
+      "views": 179,
       "saved": 0,
       "shares": 1
     },
@@ -1110,7 +1110,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-29T04:01:49.335Z",
+  "actualizado": "2026-10-29T05:01:46.889Z",
   "aud": {
     "edad": [
       {
