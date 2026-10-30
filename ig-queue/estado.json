@@ -78,7 +78,7 @@
     "mvawtsml9p0",
     "mvav3bkvpbp"
   ],
-  "statsEl": "2026-10-30T01:02:28.847Z",
+  "statsEl": "2026-10-30T02:01:45.932Z",
   "stUltima": {
     "cuando": "2026-10-29T23:38:36.792Z",
     "franja": "20:30",
@@ -86,7 +86,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-30T01:01:42.710Z",
+    "cuando": "2026-10-30T02:01:36.296Z",
     "cola": 165,
     "enRepo": 165,
     "pendientes": []
@@ -143,7 +143,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 20 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
   },
   "fdfb": {
     "franjas": {
