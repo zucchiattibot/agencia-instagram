@@ -77,7 +77,7 @@
     "mvawtsml9p0",
     "mvav3bkvpbp"
   ],
-  "statsEl": "2026-10-30T18:01:54.190Z",
+  "statsEl": "2026-10-30T19:02:01.213Z",
   "stUltima": {
     "cuando": "2026-10-30T16:02:00.991Z",
     "franja": "12:30",
@@ -85,7 +85,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-30T18:01:41.916Z",
+    "cuando": "2026-10-30T19:01:50.003Z",
     "cola": 165,
     "enRepo": 165,
     "pendientes": []
@@ -140,7 +140,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 20 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
     "ultimaProv": "Clarín"
   },
   "fdfb": {
@@ -187,7 +187,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 20 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvcdr8huwgc",
