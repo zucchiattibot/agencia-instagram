@@ -1,0 +1,33 @@
+# avisos-agenda-v1
+name: Avisos de agenda
+on:
+  schedule:
+    - cron: '23 */3 * * *'
+  push:
+    paths:
+      - 'avisos/agenda.json'
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: 'Mandar aviso de prueba con lo que quedó programado'
+        required: false
+        default: 'false'
+permissions:
+  contents: read
+concurrency:
+  group: avisos-agenda
+  cancel-in-progress: false
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Programar avisos de agenda en ntfy
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          PRUEBA: ${{ github.event.inputs.prueba }}
+        run: node avisos/agenda.mjs
