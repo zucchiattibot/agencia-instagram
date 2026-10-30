@@ -78,7 +78,7 @@
     "mvawtsml9p0",
     "mvav3bkvpbp"
   ],
-  "statsEl": "2026-10-29T23:02:09.849Z",
+  "statsEl": "2026-10-30T00:01:56.021Z",
   "stUltima": {
     "cuando": "2026-10-29T23:38:36.792Z",
     "franja": "20:30",
@@ -86,12 +86,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-29T23:37:28.470Z",
+    "cuando": "2026-10-30T00:01:42.606Z",
     "cola": 165,
     "enRepo": 165,
-    "pendientes": [
-      "20:30"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
