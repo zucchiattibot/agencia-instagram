@@ -1,11 +1,7 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {
-    "2026-10-29 12:30": "ok",
-    "2026-10-29 17:00": "ok",
-    "2026-10-29 20:30": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -78,7 +74,7 @@
     "mvawtsml9p0",
     "mvav3bkvpbp"
   ],
-  "statsEl": "2026-10-30T02:58:58.115Z",
+  "statsEl": "2026-10-30T04:01:47.174Z",
   "stUltima": {
     "cuando": "2026-10-29T23:38:36.792Z",
     "franja": "20:30",
@@ -86,17 +82,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-30T02:58:43.247Z",
+    "cuando": "2026-10-30T04:01:36.715Z",
     "cola": 165,
     "enRepo": 165,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-10-29 13:00": "ok",
-      "2026-10-29 19:00": "ok",
-      "2026-10-29 21:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
@@ -132,25 +124,17 @@
       "mrcmvqqgjigs4t5n3-ig": "2026-10-29T22:01:59.001Z",
       "mrcmvqw4j9ncuo4l7-ig": "2026-10-30T01:02:18.629Z"
     },
-    "usadosDia": {
-      "mrcmvs17yshc98yg6-ig": "2026-10-29",
-      "mrcmvqqgjigs4t5n3-ig": "2026-10-29",
-      "mrcmvqw4j9ncuo4l7-ig": "2026-10-29"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-10-29",
+      "dia": "2026-10-30",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2)."
   },
   "fdfb": {
-    "franjas": {
-      "2026-10-29 12:00": "ok",
-      "2026-10-29 18:00": "ok",
-      "2026-10-29 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
@@ -186,18 +170,14 @@
       "mrcmvqqgjigs4t5n3-fb": "2026-10-29T21:01:42.946Z",
       "cmvqnd634-fb": "2026-10-29T23:01:54.146Z"
     },
-    "usadosDia": {
-      "mrcmvs17yshc98yg6-fb": "2026-10-29",
-      "mrcmvqqgjigs4t5n3-fb": "2026-10-29",
-      "cmvqnd634-fb": "2026-10-29"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-10-29",
+      "dia": "2026-10-30",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo)."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvawuogb0a0",
@@ -216,11 +196,7 @@
     "mvav3bkvpbp": "2026-10-29T20:03:01.086Z",
     "mvawuogb0a0": "2026-10-29T23:38:36.792Z"
   },
-  "stUsadosDia": {
-    "mvawtsml9p0": "2026-10-29",
-    "mvav3bkvpbp": "2026-10-29",
-    "mvawuogb0a0": "2026-10-29"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
