@@ -633,26 +633,32 @@
     "18112493297167234": {
       "t": "2026-10-29T15:42:06+0000",
       "tipo": "IMAGE",
-      "a": 84,
-      "v": 92
+      "a": 87,
+      "v": 99
     },
     "17945625387369056": {
       "t": "2026-10-29T16:04:57+0000",
       "tipo": "VIDEO",
-      "a": 77,
-      "v": 90
+      "a": 81,
+      "v": 95
     },
     "18116880344021081": {
       "t": "2026-10-29T20:02:53+0000",
       "tipo": "IMAGE",
-      "a": 54,
-      "v": 59
+      "a": 58,
+      "v": 64
     },
     "18098727266440332": {
       "t": "2026-10-29T23:37:55+0000",
       "tipo": "VIDEO",
-      "a": 46,
-      "v": 48
+      "a": 49,
+      "v": 53
+    },
+    "18185726734375092": {
+      "t": "2026-10-30T12:03:02+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -683,13 +689,13 @@
     "follows_count": 641,
     "media_count": 621,
     "id": "28888466970748824",
-    "el": "2026-10-30T11:01:45.374Z"
+    "el": "2026-10-30T12:03:47.694Z"
   },
   "res30": {
-    "reach": 4340,
-    "views": 24021,
+    "reach": 4382,
+    "views": 24083,
     "profile_views": 90,
-    "accounts_engaged": 252
+    "accounts_engaged": 253
   },
   "posts": [
     {
@@ -697,11 +703,11 @@
       "timestamp": "2026-10-30T01:02:10+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfGWtV5kUfH/",
-      "like_count": 2,
+      "like_count": 5,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 77,
-      "views": 102,
+      "reach": 118,
+      "views": 186,
       "saved": 0,
       "shares": 0
     },
@@ -713,8 +719,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 30,
+      "reach": 22,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1174,7 +1180,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-30T11:01:53.590Z",
+  "actualizado": "2026-10-30T12:04:00.038Z",
   "aud": {
     "edad": [
       {
@@ -1334,6 +1340,18 @@
       },
       {
         "d": [
+          "Vallenar, Atacama Region"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Palhoça, Santa Catarina"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -1352,15 +1370,15 @@
       },
       {
         "d": [
-          "San Luis, San Luis"
+          "Guatire, Miranda (state)"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Montevideo, Montevideo Department"
+          "San Luis, San Luis"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -1372,7 +1390,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 20
+        "v": 21
       },
       {
         "d": [
@@ -1385,12 +1403,6 @@
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
-      },
-      {
-        "d": [
-          "Río Cuarto, Córdoba"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1450,13 +1462,7 @@
         "d": [
           "Quiroga, Buenos Aires"
         ],
-        "v": 4
-      },
-      {
-        "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
+        "v": 5
       },
       {
         "d": [
@@ -1466,25 +1472,19 @@
       },
       {
         "d": [
-          "Villa de la Quebrada, San Luis"
+          "González Catán, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Badalona, Cataluña"
         ],
         "v": 1
       },
       {
         "d": [
-          "Miramar, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Alta Floresta, Mato Grosso"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Pinamar, Buenos Aires"
+          "Timon, Maranhão"
         ],
         "v": 1
       },
@@ -1498,13 +1498,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1078
-      },
-      {
-        "d": [
-          "Cañuelas, Buenos Aires"
-        ],
-        "v": 1
+        "v": 1077
       },
       {
         "d": [
@@ -1516,7 +1510,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 16
+        "v": 15
       },
       {
         "d": [
@@ -1529,6 +1523,18 @@
           "Florida, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Lanús, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "El Palomar, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1550,6 +1556,12 @@
       },
       {
         "d": [
+          "25 de Mayo, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Bragado, Buenos Aires"
         ],
         "v": 2
@@ -1568,13 +1580,13 @@
       },
       {
         "d": [
-          "Pimocha, Los Ríos Province"
+          "Los Cóndores, Córdoba"
         ],
         "v": 1
       },
       {
         "d": [
-          "San Vicente, Buenos Aires"
+          "Bustarviejo, Comunidad de Madrid"
         ],
         "v": 1
       },
@@ -1583,12 +1595,6 @@
           "La Plata, Buenos Aires"
         ],
         "v": 12
-      },
-      {
-        "d": [
-          "Valentín Alsina, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1695,7 +1701,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-29T15:02:20.356Z"
+    "el": "2026-10-30T12:03:58.506Z"
   },
   "dias": {
     "2026-10-11": {
