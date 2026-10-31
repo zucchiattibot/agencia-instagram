@@ -1,4 +1,4 @@
-// ig-motor-v43
+// ig-motor-v46
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -314,6 +314,7 @@ async function colaHistorias(estado, token, uid) {
   const diaSemH = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado
   const franjasHoy = cfg.franjas.filter((fr) => !(Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSemH))).map((fr) => ({ ...fr }));
   let franjas = franjasHoy;
+  if (cfg.variarMinutos !== false && autoAjusteOn()) { try { variarMinutosMotor(franjasHoy, dia, 'st'); } catch (er) { console.log('Minutos variables (historias) falló', er.message); } }
   try { franjas = pruebaHistorias(cfg, estado, dia, min, hechas, franjasHoy); } catch (er) { console.log('Prueba de horario (historias) falló', er.message); }
   franjas = franjas.sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const existe = (p) => fs.existsSync(fsm(p.media));
@@ -392,8 +393,8 @@ function itemsCargaMotor(red) {
   const D = leer(path.join(BASE, 'stats', 'datos.json'), null);
   if (!D) return [];
   const lim = Date.now() - 72 * 3600000, maduro = (t) => { const ms = Date.parse(t); return Number.isFinite(ms) && ms < lim; };
-  if (red === 'fb') return (D.fbposts || []).filter((p) => maduro(p.t)).map((p) => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)) }));
-  return (D.posts || []).filter((p) => maduro(p.timestamp)).map((p) => ({ t: p.timestamp, score: +(p.reach || 0) }));
+  if (red === 'fb') return recientesMotor((D.fbposts || []).filter((p) => maduro(p.t)).map((p) => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)) })));
+  return recientesMotor((D.posts || []).filter((p) => maduro(p.timestamp)).map((p) => ({ t: p.timestamp, score: +(p.reach || 0) })));
 }
 // v37: tope de Reels para no saturar la cuenta. Cuenta las salidas diarias de las franjas fijadas en 'reel'; el motor no pasa más franjas a Reel ni suma extras de Reel sobre ese tope.
 const MAX_REELS_DIA = 2;
@@ -435,15 +436,17 @@ function pruebaDeHorario(cfg, e, dia, min, out, red) {
     for (const it of itemsCargaMotor(red)) { if (!(it.score > 0)) continue; const h = horaLocalMotor(it.t); const tr = h == null ? '' : tramoMotor(h); if (tr) cuenta[tr] = (cuenta[tr] || 0) + 1; }
     for (const r of rec) cuenta[r.tramo] = (cuenta[r.tramo] || 0) + 1; // lo recién publicado en prueba todavía no tiene métricas maduras
     const trDe = (s) => tramoMotor(horaNumMotor(s.h));
-    const cands = TRAMOS_PRUEBA.filter(([tr]) => (cuenta[tr] || 0) < MIN_MUESTRA_TRAMO && !out.some((s) => trDe(s) === tr))
+    let cands = TRAMOS_PRUEBA.filter(([tr]) => (cuenta[tr] || 0) < MIN_MUESTRA_TRAMO && !out.some((s) => trDe(s) === tr))
       .sort((a, b) => (cuenta[a[0]] || 0) - (cuenta[b[0]] || 0));
+    let re = null; // v44: todos los tramos ya tienen datos -> re-prueba periódica del tramo con datos más viejos
+    if (!cands.length) { re = repruebaCands(itemsCargaMotor(red), trDe, out, e.repruebaUlt, dia); if (re) cands = re.cands; }
     const reemplazables = out.filter((s) => frMin(s.h) > min + 10 && !e.franjas[dia + ' ' + s.h])
-      .sort((a, b) => (cuenta[trDe(b)] || 0) - (cuenta[trDe(a)] || 0));
+      .sort(re ? (a, b) => re.media(trDe(a)) - re.media(trDe(b)) : (a, b) => (cuenta[trDe(b)] || 0) - (cuenta[trDe(a)] || 0));
     for (const [tr, h0] of cands) {
       for (const s of reemplazables) {
         const otros = out.filter((x) => x !== s).map((x) => frMin(x.h));
         const hx = [h0, h0 + .5, h0 - .5, h0 + 1, h0 - 1].map(horaTextoMotor).find((v) => tramoMotor(horaNumMotor(v)) === tr && frMin(v) > min + 10 && otros.every((m) => Math.abs(m - frMin(v)) >= 120));
-        if (hx) { p.h = hx; p.de = s.h; p.tramo = tr; e.pruebaUlt = dia; break; }
+        if (hx) { p.h = hx; p.de = s.h; p.tramo = tr; e.pruebaUlt = dia; if (re) e.repruebaUlt = dia; break; }
       }
       if (p.h) break;
     }
@@ -460,7 +463,7 @@ function itemsHistoriasMotor() {
   const lim = Date.now() - 26 * 3600000;
   const todas = Object.values(D.historias || {}).map((p) => ({ t: p.t, ms: Date.parse(p.t), score: +(p.a || 0) })).filter((p) => Number.isFinite(p.ms) && p.ms < lim).sort((a, b) => a.ms - b.ms);
   const out = []; let ult = -Infinity;
-  for (const p of todas) { if (p.ms - ult > 45 * 60000) out.push({ t: p.t, score: p.score }); ult = p.ms; }
+  for (const p of recientesMotor(todas)) { if (p.ms - ult > 45 * 60000) out.push({ t: p.t, score: p.score }); ult = p.ms; }
   return out;
 }
 function primerasTandaMotor(a) {
@@ -480,15 +483,17 @@ function pruebaHistorias(cfg, estado, dia, min, hechas, franjas) {
       for (const it of itemsHistoriasMotor()) { if (!(it.score > 0)) continue; const h = horaLocalMotor(it.t); const tr = h == null ? '' : tramoMotor(h); if (tr) cuenta[tr] = (cuenta[tr] || 0) + 1; }
       for (const r of rec) cuenta[r.tramo] = (cuenta[r.tramo] || 0) + 1; // lo recién publicado en prueba todavía no tiene métricas maduras
       const trDe = (s) => tramoMotor(horaNumMotor(s.h));
-      const cands = TRAMOS_PRUEBA.filter(([tr]) => (cuenta[tr] || 0) < MIN_MUESTRA_TRAMO && !franjas.some((s) => trDe(s) === tr))
+      let cands = TRAMOS_PRUEBA.filter(([tr]) => (cuenta[tr] || 0) < MIN_MUESTRA_TRAMO && !franjas.some((s) => trDe(s) === tr))
         .sort((a, b) => (cuenta[a[0]] || 0) - (cuenta[b[0]] || 0));
+      let re = null; // v44: re-prueba periódica cuando todos los tramos ya tienen datos
+      if (!cands.length) { re = repruebaCands(itemsHistoriasMotor(), trDe, franjas, estado.stRepruebaUlt, dia); if (re) cands = re.cands; }
       const reemplazables = franjas.filter((s) => frMin(s.h) > min + 10 && !hechas[dia + ' ' + s.h])
-        .sort((a, b) => (cuenta[trDe(b)] || 0) - (cuenta[trDe(a)] || 0));
+        .sort(re ? (a, b) => re.media(trDe(a)) - re.media(trDe(b)) : (a, b) => (cuenta[trDe(b)] || 0) - (cuenta[trDe(a)] || 0));
       for (const [tr, h0] of cands) {
         for (const s of reemplazables) {
           const otros = franjas.filter((x) => x !== s).map((x) => frMin(x.h));
           const hx = [h0, h0 + .5, h0 - .5, h0 + 1, h0 - 1].map(horaTextoMotor).find((v) => tramoMotor(horaNumMotor(v)) === tr && frMin(v) > min + 10 && !hechas[dia + ' ' + v] && otros.every((m) => Math.abs(m - frMin(v)) >= 120));
-          if (hx) { p.h = hx; p.de = s.h; p.tramo = tr; estado.stPruebaUlt = dia; break; }
+          if (hx) { p.h = hx; p.de = s.h; p.tramo = tr; estado.stPruebaUlt = dia; if (re) estado.stRepruebaUlt = dia; break; }
         }
         if (p.h) break;
       }
@@ -506,17 +511,59 @@ const AGENDA_INICIAL = {
   'feed-ig/config.json': [{ h: '12:30', n: 1, f: '' }, { h: '17:30', n: 1, f: '' }, { h: '20:30', n: 1, f: '' }],
   'feed-fb/config.json': [{ h: '12:30', n: 1, f: '' }, { h: '19:00', n: 1, f: '' }]
 };
-function agendaInicialAuto() {
+const dia0 = () => new Date().toISOString().slice(0, 10);
+function agendaInicialAuto(estado) {
   if (!autoAjusteOn()) return;
+  const hecha = (estado.agendaInicial = estado.agendaInicial || {}); // se arma UNA sola vez por cola: si después vaciás las franjas a propósito, no se vuelve a llenar
   for (const [ruta, franjas] of Object.entries(AGENDA_INICIAL)) {
     try {
       const cfg = leer(path.join(BASE, ruta), null);
-      if (!cfg || cfg.pausada || cfg.agendaAuto === false || !(cfg.pool || []).length || (cfg.franjas || []).length) continue;
+      if (!cfg || cfg.pausada || cfg.agendaAuto === false || hecha[ruta] || !(cfg.pool || []).length) continue;
+      if ((cfg.franjas || []).length) { hecha[ruta] = 'ya-tenia'; continue; } // tenía agenda propia: nunca se toca
       const antes = JSON.parse(JSON.stringify(cfg));
-      cfg.franjas = franjas.map((f) => ({ ...f })); cfg.agendaAuto = 'inicial';
+      cfg.franjas = franjas.map((f) => ({ ...f })); cfg.agendaAuto = 'inicial'; hecha[ruta] = dia0();
       escribirConfigOptimizada(ruta, antes, cfg, 'Agenda inicial automática (la cola no tenía horarios): ' + franjas.map((f) => f.h + (f.n > 1 ? ' x' + f.n : '')).join(', ') + '.');
     } catch (er) { console.log('Agenda inicial falló', ruta, er.message); }
   }
+}
+// v44: tres ajustes para que el panel no se quede fijo para siempre en los mismos horarios.
+// 1) Re-prueba: cuando todos los tramos ya tienen datos, cada REPRUEBA_DIAS días vuelve a medir el tramo con los datos más viejos
+//    (reemplaza una salida del peor tramo, nunca del mejor). Sigue valiendo la vuelta atrás automática si algo empeora más de 30%.
+// 2) Datos recientes: las decisiones usan los últimos VENTANA_DIAS días (si hay menos de 12 datos en ese período, usa todo lo que haya).
+// 3) Minutos variables: cada día corre cada salida hasta 45 min dentro del MISMO tramo (nunca pisa el mínimo de 2 h entre salidas).
+//    Se apaga con "variarMinutos": false en la config de la cola, o con el interruptor de autoajuste.
+const REPRUEBA_DIAS = 14, VENTANA_DIAS = 60, OFFSETS_MIN = [-45, -30, -15, 0, 15, 30, 45];
+function recientesMotor(arr) {
+  const lim = Date.now() - VENTANA_DIAS * 86400000;
+  const r = arr.filter((p) => Date.parse(p.t) >= lim);
+  return r.length >= 12 ? r : arr;
+}
+function hashTxt(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; }
+function variarMinutosMotor(lista, dia, semilla) {
+  const orig = lista.map((s) => frMin(s.h));
+  lista.forEach((s, i) => {
+    const m0 = orig[i], tr0 = tramoMotor(m0 / 60), ini = hashTxt(semilla + dia + s.h) % OFFSETS_MIN.length;
+    for (let k = 0; k < OFFSETS_MIN.length; k++) {
+      const m = m0 + OFFSETS_MIN[(ini + k) % OFFSETS_MIN.length];
+      if (m < 7 * 60 || m > 23 * 60 + 30 || tramoMotor(m / 60) !== tr0) continue;
+      if (!lista.every((x, j) => j === i || Math.abs(frMin(x.h) - m) >= Math.min(120, Math.abs(orig[j] - m0)))) continue;
+      s.h = frTxt(m); break;
+    }
+  });
+  return lista;
+}
+function repruebaCands(items, trDe, ocupados, ultima, dia) {
+  const dias = ultima ? Math.round((Date.parse(dia) - Date.parse(ultima)) / 86400000) : 99;
+  if (dias < REPRUEBA_DIAS) return null;
+  const ult = {}, sum = {}, cnt = {};
+  for (const it of items) {
+    if (!(it.score > 0)) continue;
+    const h = horaLocalMotor(it.t), tr = h == null ? '' : tramoMotor(h); if (!tr) continue;
+    const ms = Date.parse(it.t); if (!(ult[tr] >= ms)) ult[tr] = ms;
+    sum[tr] = (sum[tr] || 0) + it.score; cnt[tr] = (cnt[tr] || 0) + 1;
+  }
+  const cands = TRAMOS_PRUEBA.filter(([tr]) => !ocupados.some((s) => trDe(s) === tr)).sort((a, b) => (ult[a[0]] || 0) - (ult[b[0]] || 0));
+  return { cands, media: (tr) => (cnt[tr] ? sum[tr] / cnt[tr] : 0) };
 }
 function slotsHoy(cfg, e, dia, diaSem, pend, red) {
   const tope = red === 'fb' ? 3 : 4, SEP = 150, out = [];
@@ -529,6 +576,7 @@ function slotsHoy(cfg, e, dia, diaSem, pend, red) {
   out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const recortadas = Math.max(0, out.length - tope);
   if (recortadas) out.splice(tope);
+  if (cfg.variarMinutos !== false && autoAjusteOn()) { try { variarMinutosMotor(out, dia, 'fd' + red); } catch (er) { console.log('Minutos variables falló', er.message); } }
   try { pruebaDeHorario(cfg, e, dia, ahoraAR().min, out, red); } catch (er) { console.log('Prueba de horario falló', er.message); }
   const c = (e.carga = e.carga || { nivel: 0, dia: '', extras: [] });
   c.nivel = Math.min(Math.max(0, Number(c.nivel) || 0), Math.max(0, tope - out.length));
@@ -630,16 +678,32 @@ function medianaMotor(a) {
   const i = Math.floor(x.length / 2);
   return x.length % 2 ? x[i] : (x[i - 1] + x[i]) / 2;
 }
-function datosDiaMotor(items) {
+// v46: EL ALCANCE DEPENDE DEL CONTENIDO Y DE LA ÉPOCA. Para que un horario no se lleve el mérito (o la culpa) de una pieza buena, de una racha viral
+// o del crecimiento de la cuenta, cada pieza se compara con lo que la cuenta venía logrando en esas mismas fechas (mismo formato, ±14 días).
+// Con menos de 4 vecinas usa la mediana general del formato. Los valores extremos se limitan (0,1 a 3 veces lo normal).
+// Además, un cambio solo se hace si el tramo/formato ganador "le gana" al otro en la mayoría de los cruces, no solo en la mediana (ventajaParesMotor).
+function normalizarContextoMotor(items) {
+  const lista = items.filter((p) => p.score > 0 && Number.isFinite(Date.parse(p.t)));
   const formatos = {};
-  for (const p of items) {
-    if (p.score > 0) (formatos[p.fmt || 'foto'] ||= []).push(p.score);
-  }
-  const escalas = Object.fromEntries(Object.entries(formatos).map(([k, a]) => [k, medianaMotor(a) || 1]));
+  for (const p of lista) (formatos[p.fmt || 'foto'] ||= []).push(p.score);
+  const medFmt = Object.fromEntries(Object.entries(formatos).map(([k, a]) => [k, medianaMotor(a) || 1]));
+  return lista.map((p) => {
+    const ms = Date.parse(p.t), f = p.fmt || 'foto';
+    const vec = lista.filter((q) => q !== p && (q.fmt || 'foto') === f && Math.abs(Date.parse(q.t) - ms) <= 14 * 86400000).map((q) => q.score);
+    const base = vec.length >= 4 ? (medianaMotor(vec) || medFmt[f] || 1) : (medFmt[f] || 1);
+    return { ...p, norm: Math.min(3, Math.max(0.1, p.score / base)) };
+  });
+}
+function ventajaParesMotor(a, b) { // probabilidad de que un dato de "a" supere a uno de "b" (empate = 0,5)
+  if (!a.length || !b.length) return 0.5;
+  let s = 0; for (const x of a) for (const y of b) s += x > y ? 1 : x === y ? 0.5 : 0;
+  return s / (a.length * b.length);
+}
+function datosDiaMotor(items) {
   const grupos = Array.from({ length: 7 }, () => []);
-  for (const p of items) {
+  for (const p of normalizarContextoMotor(items)) { // v46: cada pieza contra lo que la cuenta lograba en esas fechas
     const d = diaLocal(p.t);
-    if (d >= 0 && p.score > 0) grupos[d].push(p.score / (escalas[p.fmt || 'foto'] || 1));
+    if (d >= 0) grupos[d].push(p.norm);
   }
   const validos = grupos.map((a, d) => ({ d, n: a.length, med: medianaMotor(a) })).filter(x => x.n >= 6);
   if (validos.length < 4) return null;
@@ -697,7 +761,7 @@ function optimizarRestoCola(ruta, items, etiqueta) {
   const formato = {};
   for (const p of usable) (formato[p.fmt || 'foto'] ||= []).push(p.score);
   const medFmt = Object.fromEntries(Object.entries(formato).map(([k, a]) => [k, medianaMotor(a) || 1]));
-  const norm = usable.map(p => ({ ...p, norm: p.score / (medFmt[p.fmt || 'foto'] || 1) }));
+  const norm = normalizarContextoMotor(usable); // v46: contra lo que la cuenta lograba en esas fechas (formato y época)
   // 1) Horarios: exige 5 datos por franja del día y una ventaja de al menos 33%.
   const bloques = {};
   const baseHor = ruta.startsWith('stories/') ? primerasTandaMotor(norm) : norm; // v42: en Historias cada tanda es UNA muestra de horario
@@ -710,6 +774,7 @@ function optimizarRestoCola(ruta, items, etiqueta) {
     for (const fr of cfg.franjas) {
       const [hh, mm] = String(fr.h || '').split(':').map(Number), h = hh + (mm || 0)/60, actual = tramoMotor(h);
       if (!actual || bmed[actual] == null || actual === mejor || bmed[actual] > bmed[mejor] * 0.65) continue;
+      if (ventajaParesMotor(bloques[actual].map(p => p.norm), bloques[mejor].map(p => p.norm)) > 0.3) continue; // v46: el tramo flojo le gana al mejor en más del 30% de los cruces: diferencia dudosa, no se mueve
       const grupo = bloques[mejor], medH = medianaMotor(grupo.map(p => p.h));
       const usados = new Set(cfg.franjas.filter(x => x !== fr).map(x => x.h));
       const opciones = [medH, medH + .5, medH - .5].map(horaTextoMotor).filter((v,i,a) => a.indexOf(v) === i && ![...usados].some(u => Math.abs(horaNumMotor(u) - horaNumMotor(v)) < 2) && tramoMotor(+v.slice(0,2)+(+v.slice(3))/60) === mejor);
@@ -721,7 +786,7 @@ function optimizarRestoCola(ruta, items, etiqueta) {
     const vs = usable.filter(p => /video|reel/i.test(p.fmt || '')).map(p => p.score), fscores = usable.filter(p => !/video|reel/i.test(p.fmt || '')).map(p => p.score);
     if (vs.length >= 6 && fscores.length >= 6) {
       const mv = medianaMotor(vs), mf = medianaMotor(fscores), mejor = mv >= mf*1.4 ? 'reel' : (mf >= mv*1.4 ? 'feed' : '');
-      if (mejor) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = mejor === 'reel' ? cfg.franjas.find(x => x.f === peor && reelsDia(cfg.franjas, x) <= MAX_REELS_DIA) : cfg.franjas.find(x => x.f === peor); if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
+      if (mejor && ventajaParesMotor(mejor === 'reel' ? vs : fscores, mejor === 'reel' ? fscores : vs) >= 0.65) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = mejor === 'reel' ? cfg.franjas.find(x => x.f === peor && reelsDia(cfg.franjas, x) <= MAX_REELS_DIA) : cfg.franjas.find(x => x.f === peor); if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
     }
   }
   // 3) Cantidad de posts: solo reduce si los días con 2+ publicaciones rinden <70% por pieza.
@@ -748,9 +813,9 @@ function optimizarSemanaAutomatica(estado) {
   const D = leer(path.join(BASE, 'stats', 'datos.json'), null);
   if (!D) return;
   const maduro = (t, h) => { const ms = Date.parse(t); return Number.isFinite(ms) && ms < ahora - h * 3600000; };
-  const igItems = (D.posts || []).filter(p => maduro(p.timestamp, 72)).map(p => ({ t: p.timestamp, score: +(p.reach || 0), fmt: /VIDEO|REEL/i.test(p.media_type || '') ? 'video' : 'foto' }));
-  const fbItems = (D.fbposts || []).filter(p => maduro(p.t, 72)).map(p => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)), fmt: /video|reel/i.test(p.tipo || '') ? 'video' : 'foto' }));
-  const stItems = Object.values(D.historias || {}).filter(p => maduro(p.t, 26)).map(p => ({ t: p.t, score: +(p.a || 0), fmt: /VIDEO/i.test(p.tipo || '') ? 'video' : 'foto' }));
+  const igItems = recientesMotor((D.posts || []).filter(p => maduro(p.timestamp, 72)).map(p => ({ t: p.timestamp, score: +(p.reach || 0), fmt: /VIDEO|REEL/i.test(p.media_type || '') ? 'video' : 'foto' })));
+  const fbItems = recientesMotor((D.fbposts || []).filter(p => maduro(p.t, 72)).map(p => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)), fmt: /video|reel/i.test(p.tipo || '') ? 'video' : 'foto' })));
+  const stItems = recientesMotor(Object.values(D.historias || {}).filter(p => maduro(p.t, 26)).map(p => ({ t: p.t, score: +(p.a || 0), fmt: /VIDEO/i.test(p.tipo || '') ? 'video' : 'foto' })));
   // v27: un ajuste por cola, pausa de 14 días para medir el efecto, y reversión si el alcance mediano cae más de 30%.
   const base = (estado.autoBase = estado.autoBase || {}), pausa = (estado.autoPausa = estado.autoPausa || {});
   const resultados = [];
@@ -899,7 +964,7 @@ export async function main() {
     token = await renovarToken(token || '', estado);
   }
   if (token && uid) {
-    agendaInicialAuto();
+    agendaInicialAuto(estado);
     try { await colaHistorias(estado, token, uid); } catch (e) { estado.stError = e.message; }
     for (const r of ['ig', 'fb']) { try { await colaFeed(estado, token, uid, r); } catch (e) { (estado['fd' + r] = estado['fd' + r] || {}).error = e.message; } }
     try { await estadisticas(estado, token, uid); } catch (e) { estado.errorStats = e.message; }
