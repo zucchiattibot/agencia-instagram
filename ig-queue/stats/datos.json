@@ -669,20 +669,26 @@
     "18099452735106672": {
       "t": "2026-10-30T20:01:47+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 82
+      "a": 80,
+      "v": 88
     },
     "18133128973765722": {
       "t": "2026-10-30T23:54:10+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 67
+      "a": 66,
+      "v": 72
     },
     "18121442083991151": {
       "t": "2026-10-31T12:02:15+0000",
       "tipo": "VIDEO",
-      "a": 29,
-      "v": 36
+      "a": 37,
+      "v": 43
+    },
+    "18148323040535077": {
+      "t": "2026-10-31T19:02:52+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -714,11 +720,11 @@
     "follows_count": 641,
     "media_count": 625,
     "id": "28888466970748824",
-    "el": "2026-10-31T18:01:38.614Z"
+    "el": "2026-10-31T19:03:27.903Z"
   },
   "res30": {
     "reach": 4626,
-    "views": 24784,
+    "views": 24805,
     "profile_views": 90,
     "accounts_engaged": 271
   },
@@ -731,8 +737,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 17,
+      "reach": 10,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -962,7 +968,7 @@
       "timestamp": "2026-10-26T15:16:01+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/De9lPfnAuY_/",
-      "like_count": 135,
+      "like_count": 134,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 1988,
@@ -1257,7 +1263,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-31T18:01:50.784Z",
+  "actualizado": "2026-10-31T19:03:41.706Z",
   "aud": {
     "edad": [
       {
