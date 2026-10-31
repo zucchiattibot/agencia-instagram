@@ -663,20 +663,26 @@
     "18079092602477510": {
       "t": "2026-10-30T16:01:52+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 72
+      "a": 71,
+      "v": 77
     },
     "18099452735106672": {
       "t": "2026-10-30T20:01:47+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 61
+      "a": 60,
+      "v": 65
     },
     "18133128973765722": {
       "t": "2026-10-30T23:54:10+0000",
       "tipo": "VIDEO",
-      "a": 42,
-      "v": 47
+      "a": 48,
+      "v": 53
+    },
+    "18121442083991151": {
+      "t": "2026-10-31T12:02:15+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -708,13 +714,13 @@
     "follows_count": 641,
     "media_count": 624,
     "id": "28888466970748824",
-    "el": "2026-10-31T11:01:37.961Z"
+    "el": "2026-10-31T12:03:04.849Z"
   },
   "res30": {
-    "reach": 4569,
-    "views": 24579,
+    "reach": 4588,
+    "views": 24631,
     "profile_views": 90,
-    "accounts_engaged": 264
+    "accounts_engaged": 269
   },
   "posts": [
     {
@@ -725,8 +731,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
-      "views": 45,
+      "reach": 39,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -735,11 +741,11 @@
       "timestamp": "2026-10-30T21:02:25+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfIgEJPkni-/",
-      "like_count": 7,
+      "like_count": 9,
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 73,
-      "views": 91,
+      "reach": 87,
+      "views": 111,
       "saved": 0,
       "shares": 0
     },
@@ -751,8 +757,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 165,
-      "views": 195,
+      "reach": 166,
+      "views": 196,
       "saved": 0,
       "shares": 1
     },
@@ -764,7 +770,7 @@
       "like_count": 6,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 206,
+      "reach": 207,
       "views": 256,
       "saved": 0,
       "shares": 0
@@ -1238,7 +1244,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-31T11:01:47.405Z",
+  "actualizado": "2026-10-31T12:03:14.709Z",
   "aud": {
     "edad": [
       {
