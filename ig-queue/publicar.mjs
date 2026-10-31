@@ -1,4 +1,4 @@
-// ig-motor-v46
+// ig-motor-v47
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -364,14 +364,14 @@ async function colaHistorias(estado, token, uid) {
 // Cola de feed y Reels (v14, con archivos en la rama ig-media-prog sin historial): una cola por red (ig / fb), cada una con sus franjas, su material, sus textos y su control de repetidas.
 // Libera el espacio: cuando una publicación de la cola ya salió y no se va a repetir, borra su archivo del repositorio (si ninguna otra cola lo necesita).
 function liberarFeed(p, red, cfg, estado) {
-  if (cfg.reciclar !== false) return;
+  if (cfg.reciclar === true) return; // v47: igual que la casilla del panel (solo recicla si está tildada)
   for (const r of ['ig', 'fb']) {
     const c2 = r === red ? cfg : leer(path.join(BASE, 'feed-' + r, 'config.json'), null);
     if (!c2) continue;
     const usados = ((estado['fd' + r] || {}).usados) || [];
     const otras = (c2.pool || []).filter((q) => q.media === p.media && q.id !== p.id);
     if (otras.some((q) => !usados.includes(q.id))) return;
-    if (r !== red && otras.length && c2.reciclar !== false) return;
+    if (r !== red && otras.length && c2.reciclar === true) return;
   }
   for (const x of (p.medias || [p.media])) { try { fs.unlinkSync(fsm(x)); } catch (e) {} }
 }
@@ -602,7 +602,7 @@ function slotsHoy(cfg, e, dia, diaSem, pend, red) {
     }
   }
   const reelsHoy = out.filter((s) => s.f === 'reel').length; // cuenta antes de sumar extras
-  for (const h of c.extras || []) if (!out.some((s) => s.h === h)) out.push({ h, n: 1, f: reelsHoy >= MAX_REELS_DIA ? 'feed' : '' });
+  for (const h of c.extras || []) if (!out.some((s) => s.h === h)) out.push({ h, n: 1, f: reelsHoy >= MAX_REELS_DIA ? 'feed' : '', extra: true });
   e.infoCarga = out.length + ' salida' + (out.length === 1 ? '' : 's') + ' hoy' + (c.extras && c.extras.length ? ' (' + c.extras.length + ' sumada' + (c.extras.length === 1 ? '' : 's') + ' por estadísticas)' : '') + ', separadas al menos 2 h; ' + pend + ' esperando' + (c.motivo ? ' (' + c.motivo + ')' : '') + '.' + (recortadas ? ' Tus franjas suman más del tope de ' + tope + ' por día: ' + recortadas + ' no se usan.' : '') + (reelsHoy > MAX_REELS_DIA ? ' Hay ' + reelsHoy + ' Reels programados hoy (recomendado hasta ' + MAX_REELS_DIA + ').' : '');
   if (e.prueba && e.prueba.dia === dia && e.prueba.h) e.infoCarga += ' Prueba de horario hoy: ' + e.prueba.h + ' (' + e.prueba.tramo + ') en lugar de ' + e.prueba.de + '.';
   return out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
@@ -627,20 +627,28 @@ async function colaFeed(estado, token, uid, red) {
   const existe = (p) => (p.medias || [p.media]).every((x) => fs.existsSync(fsm(x)));
   const diaSem = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado (fecha de Argentina)
   const pendCola = cfg.pool.filter((p) => existe(p) && !e.usados.includes(p.id)).length;
-  for (const fr of slotsHoy(cfg, e, dia, diaSem, pendCola, red)) {
+  const planHoy = slotsHoy(cfg, e, dia, diaSem, pendCola, red);
+  for (const fr of planHoy) {
     const [h, m] = String(fr.h).split(':').map(Number), ini = h * 60 + m, clave = dia + ' ' + fr.h;
     if (Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSem)) continue; // franja solo para ciertos días de la semana
     if (min < ini) continue;
     if (['ok', 'omitida', 'vacia', 'fallida'].includes(e.franjas[clave])) continue;
     if (min - ini > 180) { e.franjas[clave] = 'omitida'; continue; }
+    // v47: si las franjas cambiaron durante el día (ajuste automático), no se publica más de lo que el plan de hoy prevé.
+    const okHoy = Object.keys(e.franjas).filter((k) => k.slice(0, 10) === dia && e.franjas[k] === 'ok').length;
+    if (okHoy >= planHoy.length) { e.franjas[clave] = 'omitida'; continue; }
     const enHistAntes = ultimoEnHistoriasPorMaterial(estado);
-    const cand = cfg.pool.filter((p) => existe(p) && (!fr.f || p.fmt === fr.f) && !matIdsDeItem(p).some((id) => enHistAntes[id] && Date.now() - enHistAntes[id] < HORAS_ENTRE_COLAS * 3600000));
+    const cand0 = cfg.pool.filter((p) => existe(p) && !matIdsDeItem(p).some((id) => enHistAntes[id] && Date.now() - enHistAntes[id] < HORAS_ENTRE_COLAS * 3600000));
     // Nunca repetir el mismo ítem en dos franjas del mismo día. Entre alternativas,
     // priorizar primero las que no salieron en los últimos 7 días.
+    const cand = cand0.filter((p) => !fr.f || p.fmt === fr.f);
     const noHoy = cand.filter((p) => fdHoy[p.id] !== dia);
     const frescas = noHoy.filter((p) => !Number.isFinite(Date.parse(fdHist[p.id] || '')) || Date.parse(fdHist[p.id]) < fdCorte);
     let libres = frescas.filter((p) => !e.usados.includes(p.id));
-    if (!libres.length && cfg.reciclar !== false) {
+    // v47: si la franja tiene formato fijado (p. ej. un Reel puesto por el ajuste automático) y no quedan sin publicar de ese formato, usa material nuevo del otro formato antes que repetir.
+    if (!libres.length && fr.f) libres = cand0.filter((p) => p.fmt !== fr.f && fdHoy[p.id] !== dia && !e.usados.includes(p.id));
+    // v47: reciclar solo si la casilla está tildada de verdad, y nunca en salidas extra sumadas por el ajuste automático.
+    if (!libres.length && cfg.reciclar === true && !fr.extra) {
       libres = frescas.length ? frescas.slice() : noHoy.slice().sort((a, b) => (Date.parse(fdHist[a.id] || 0) || 0) - (Date.parse(fdHist[b.id] || 0) || 0));
     }
     const orden = cfg.orden === 'nuevo' ? libres.slice().sort((a, b) => (b.ord || 0) - (a.ord || 0)) : mezclar(libres);
