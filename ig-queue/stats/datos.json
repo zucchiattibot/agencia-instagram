@@ -657,20 +657,26 @@
     "18185726734375092": {
       "t": "2026-10-30T12:03:02+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 65
+      "a": 60,
+      "v": 69
     },
     "18079092602477510": {
       "t": "2026-10-30T16:01:52+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 44
+      "a": 45,
+      "v": 48
     },
     "18099452735106672": {
       "t": "2026-10-30T20:01:47+0000",
       "tipo": "IMAGE",
-      "a": 25,
-      "v": 27
+      "a": 33,
+      "v": 37
+    },
+    "18133128973765722": {
+      "t": "2026-10-30T23:54:10+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 1
     }
   },
   "seguidores": {
@@ -701,11 +707,11 @@
     "follows_count": 641,
     "media_count": 623,
     "id": "28888466970748824",
-    "el": "2026-10-30T23:02:47.340Z"
+    "el": "2026-10-31T00:01:40.241Z"
   },
   "res30": {
     "reach": 4532,
-    "views": 24654,
+    "views": 24696,
     "profile_views": 93,
     "accounts_engaged": 257
   },
@@ -718,8 +724,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 26,
+      "reach": 23,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -731,8 +737,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 150,
-      "views": 172,
+      "reach": 152,
+      "views": 177,
       "saved": 0,
       "shares": 1
     },
@@ -744,8 +750,8 @@
       "like_count": 5,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 195,
-      "views": 238,
+      "reach": 197,
+      "views": 241,
       "saved": 0,
       "shares": 0
     },
@@ -757,8 +763,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 37,
+      "reach": 28,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -926,8 +932,8 @@
       "like_count": 134,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1977,
-      "views": 2536,
+      "reach": 1980,
+      "views": 2538,
       "saved": 28,
       "shares": 27
     },
@@ -1218,7 +1224,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-30T23:02:58.405Z",
+  "actualizado": "2026-10-31T00:01:49.872Z",
   "aud": {
     "edad": [
       {
