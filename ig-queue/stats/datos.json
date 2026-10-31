@@ -675,8 +675,8 @@
     "18133128973765722": {
       "t": "2026-10-30T23:54:10+0000",
       "tipo": "VIDEO",
-      "a": 38,
-      "v": 42
+      "a": 39,
+      "v": 43
     }
   },
   "seguidores": {
@@ -708,13 +708,13 @@
     "follows_count": 641,
     "media_count": 624,
     "id": "28888466970748824",
-    "el": "2026-10-31T08:01:37.566Z"
+    "el": "2026-10-31T09:01:38.739Z"
   },
   "res30": {
-    "reach": 4551,
-    "views": 24543,
+    "reach": 4560,
+    "views": 24555,
     "profile_views": 90,
-    "accounts_engaged": 261
+    "accounts_engaged": 263
   },
   "posts": [
     {
@@ -735,11 +735,11 @@
       "timestamp": "2026-10-30T21:02:25+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfIgEJPkni-/",
-      "like_count": 3,
+      "like_count": 5,
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
-      "views": 68,
+      "reach": 58,
+      "views": 74,
       "saved": 0,
       "shares": 0
     },
@@ -1238,7 +1238,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-10-31T08:01:45.638Z",
+  "actualizado": "2026-10-31T09:01:48.391Z",
   "aud": {
     "edad": [
       {
@@ -1323,21 +1323,21 @@
           "45-54",
           "M"
         ],
-        "v": 140
+        "v": 142
       },
       {
         "d": [
           "55-64",
           "M"
         ],
-        "v": 67
+        "v": 66
       },
       {
         "d": [
           "65+",
           "M"
         ],
-        "v": 22
+        "v": 23
       },
       {
         "d": [
@@ -1372,7 +1372,7 @@
           "45-54",
           "U"
         ],
-        "v": 28
+        "v": 27
       },
       {
         "d": [
@@ -1398,18 +1398,6 @@
       },
       {
         "d": [
-          "Vallenar, Atacama Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Palhoça, Santa Catarina"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -1425,12 +1413,6 @@
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Guatire, Miranda (state)"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1458,13 +1440,19 @@
       },
       {
         "d": [
+          "José León Suárez, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
       },
       {
         "d": [
-          "Colonia San Bartolomé, Córdoba"
+          "Río Cuarto, Córdoba"
         ],
         "v": 1
       },
@@ -1476,13 +1464,13 @@
       },
       {
         "d": [
-          "Las Toscas, Buenos Aires"
+          "Mar del Plata, Buenos Aires"
         ],
         "v": 5
       },
       {
         "d": [
-          "Mar del Plata, Buenos Aires"
+          "Las Toscas, Buenos Aires"
         ],
         "v": 5
       },
@@ -1491,6 +1479,12 @@
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 29
+      },
+      {
+        "d": [
+          "Elsmere, Delaware"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1506,9 +1500,21 @@
       },
       {
         "d": [
+          "Esperanza, Santa Fe"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Moctezuma, Buenos Aires"
         ],
         "v": 16
+      },
+      {
+        "d": [
+          "La Rioja, La Rioja"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1524,13 +1530,13 @@
       },
       {
         "d": [
-          "Panama City, Panamá Province"
+          "González Catán, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
+          "Panama City, Panamá Province"
         ],
         "v": 2
       },
@@ -1542,7 +1548,31 @@
       },
       {
         "d": [
+          "Villa Leloir, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Remedios de Escalada de San Martín, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Timon, Maranhão"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Francisco Madero, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Aarhus, Central Denmark Region"
         ],
         "v": 1
       },
@@ -1584,18 +1614,6 @@
       },
       {
         "d": [
-          "Lanús, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "El Palomar, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Bellocq, Buenos Aires"
         ],
         "v": 2
@@ -1614,12 +1632,6 @@
       },
       {
         "d": [
-          "25 de Mayo, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Bragado, Buenos Aires"
         ],
         "v": 2
@@ -1635,18 +1647,6 @@
           "Rosario, Santa Fe"
         ],
         "v": 5
-      },
-      {
-        "d": [
-          "Los Cóndores, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Bustarviejo, Comunidad de Madrid"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1732,7 +1732,7 @@
         "d": [
           "AR"
         ],
-        "v": 1336
+        "v": 1337
       },
       {
         "d": [
@@ -1759,7 +1759,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-30T12:03:58.506Z"
+    "el": "2026-10-31T09:01:46.118Z"
   },
   "dias": {
     "2026-10-11": {
