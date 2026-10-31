@@ -75,7 +75,7 @@
     "mvav3bkvpbp",
     "mvig7kqggpl"
   ],
-  "statsEl": "2026-10-31T10:01:53.667Z",
+  "statsEl": "2026-10-31T11:01:47.405Z",
   "stUltima": {
     "cuando": "2026-10-30T23:54:34.809Z",
     "franja": "20:30",
@@ -83,7 +83,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-31T10:01:40.111Z",
+    "cuando": "2026-10-31T11:01:36.411Z",
     "cola": 165,
     "enRepo": 165,
     "pendientes": []
@@ -424,5 +424,10 @@
     "de": "",
     "tramo": ""
   },
-  "stPruebaRec": []
+  "stPruebaRec": [],
+  "agendaInicial": {
+    "stories/config.json": "ya-tenia",
+    "feed-ig/config.json": "ya-tenia",
+    "feed-fb/config.json": "ya-tenia"
+  }
 }
