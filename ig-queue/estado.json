@@ -77,7 +77,7 @@
     "mvav3bkvpbp",
     "mvig7kqggpl"
   ],
-  "statsEl": "2026-10-31T12:03:14.709Z",
+  "statsEl": "2026-10-31T13:01:51.913Z",
   "stUltima": {
     "cuando": "2026-10-31T12:03:02.942Z",
     "franja": "09:00",
@@ -85,12 +85,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-31T12:01:48.286Z",
-    "cola": 165,
-    "enRepo": 165,
-    "pendientes": [
-      "09:00"
-    ]
+    "cuando": "2026-10-31T13:01:39.368Z",
+    "cola": 168,
+    "enRepo": 168,
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -142,7 +140,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 21:30.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 20 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 21:30.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-10-31",
@@ -201,7 +199,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:00.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 20 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:00.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-10-31",
