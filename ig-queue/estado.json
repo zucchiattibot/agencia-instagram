@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-10-12T02:05:00.307Z",
-  "stFranjas": {
-    "2026-10-30 09:00": "ok",
-    "2026-10-30 12:30": "ok",
-    "2026-10-30 17:00": "ok",
-    "2026-10-30 20:30": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -80,7 +75,7 @@
     "mvav3bkvpbp",
     "mvig7kqggpl"
   ],
-  "statsEl": "2026-10-31T02:01:51.955Z",
+  "statsEl": "2026-10-31T03:01:53.572Z",
   "stUltima": {
     "cuando": "2026-10-30T23:54:34.809Z",
     "franja": "20:30",
@@ -88,17 +83,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-10-31T02:01:39.120Z",
+    "cuando": "2026-10-31T03:01:41.240Z",
     "cola": 165,
     "enRepo": 165,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-10-30 13:00": "ok",
-      "2026-10-30 18:00": "ok",
-      "2026-10-30 21:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
@@ -140,25 +131,26 @@
       "mrcmvp3e1oalc1fe5-ig": "2026-10-30T21:02:32.392Z",
       "mrcmvp3dmrgv06grk-ig": "2026-10-31T01:02:10.184Z"
     },
-    "usadosDia": {
-      "mrcmvv4ugay58g2am-ig": "2026-10-30",
-      "mrcmvp3e1oalc1fe5-ig": "2026-10-30",
-      "mrcmvp3dmrgv06grk-ig": "2026-10-30"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-10-30",
+      "dia": "2026-10-31",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
-    "ultimaProv": "Clarín"
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 21:30.",
+    "ultimaProv": "Clarín",
+    "prueba": {
+      "dia": "2026-10-31",
+      "h": "20:00",
+      "de": "21:30",
+      "tramo": "noche temprana"
+    },
+    "pruebaRec": [],
+    "pruebaUlt": "2026-10-31"
   },
   "fdfb": {
-    "franjas": {
-      "2026-10-30 17:00": "ok",
-      "2026-10-30 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
@@ -198,18 +190,23 @@
       "mrcmvvax283ikddiz-fb": "2026-10-30T20:02:23.789Z",
       "mrcmvqw4j9ncuo4l7-fb": "2026-10-30T23:02:45.556Z"
     },
-    "usadosDia": {
-      "mrcmvvax283ikddiz-fb": "2026-10-30",
-      "mrcmvqw4j9ncuo4l7-fb": "2026-10-30"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-10-30",
+      "dia": "2026-10-31",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Clarín"
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:00.",
+    "ultimaProv": "Clarín",
+    "prueba": {
+      "dia": "2026-10-31",
+      "h": "08:00",
+      "de": "16:00",
+      "tramo": "primera mañana"
+    },
+    "pruebaRec": [],
+    "pruebaUlt": "2026-10-31"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvig7kqggpl",
@@ -232,12 +229,7 @@
     "mvav25z397s": "2026-10-30T20:01:54.519Z",
     "mvig7kqggpl": "2026-10-30T23:54:34.809Z"
   },
-  "stUsadosDia": {
-    "mvauzcv45l7": "2026-10-30",
-    "mvcdr8huwgc": "2026-10-30",
-    "mvav25z397s": "2026-10-30",
-    "mvig7kqggpl": "2026-10-30"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -425,5 +417,12 @@
       ]
     }
   ],
-  "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z"
+  "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
+  "stPrueba": {
+    "dia": "2026-10-31",
+    "h": "",
+    "de": "",
+    "tramo": ""
+  },
+  "stPruebaRec": []
 }
