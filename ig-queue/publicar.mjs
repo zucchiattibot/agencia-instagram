@@ -1,4 +1,4 @@
-// ig-motor-v39
+// ig-motor-v43
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -312,7 +312,10 @@ async function colaHistorias(estado, token, uid) {
   const poolAct = enRot ? cfg.pool.filter((p) => rot.includes(p.id)) : cfg.pool;
   const recic = enRot ? true : cfg.reciclar !== false;
   const diaSemH = new Date(dia + 'T12:00:00Z').getUTCDay(); // 0 = domingo ... 6 = sábado
-  const franjas = cfg.franjas.filter((fr) => !(Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSemH))).sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  const franjasHoy = cfg.franjas.filter((fr) => !(Array.isArray(fr.d) && fr.d.length && !fr.d.includes(diaSemH))).map((fr) => ({ ...fr }));
+  let franjas = franjasHoy;
+  try { franjas = pruebaHistorias(cfg, estado, dia, min, hechas, franjasHoy); } catch (er) { console.log('Prueba de horario (historias) falló', er.message); }
+  franjas = franjas.sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const existe = (p) => fs.existsSync(fsm(p.media));
   const enRepo = cfg.pool.filter(existe).length;
   // Diagnóstico visible en el panel: cuándo miró el motor, cuántas historias hay de verdad en el repositorio y qué franjas faltan.
@@ -346,9 +349,11 @@ async function colaHistorias(estado, token, uid) {
     // Si no salió ninguna por un error, se vuelve a intentar en la próxima corrida (hasta 3 veces); antes se daba la franja por hecha y quedaba sin publicar.
     const intentos = (typeof hechas[clave] === 'object' && hechas[clave] ? hechas[clave].intentos : 0) + 1;
     if (elegidas.length && !ok && intentos < 3) hechas[clave] = { intentos };
-    else hechas[clave] = !elegidas.length ? 'vacia' : (ok ? 'ok' : 'fallida');
-    estado.stUltima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
+    else if (!elegidas.length) delete hechas[clave]; /* v40: sin material la franja queda pendiente hasta 3 h (igual que Feed): si sube publicidad nueva, sale igual */
+    else hechas[clave] = ok ? 'ok' : 'fallida';
+    if (elegidas.length) estado.stUltima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
     if (ok) delete estado.stError;
+    if (ok && estado.stPrueba && estado.stPrueba.dia === dia && estado.stPrueba.h === fr.h) (estado.stPruebaRec = estado.stPruebaRec || []).push({ t: new Date().toISOString(), tramo: estado.stPrueba.tramo });
     if (!elegidas.length) estado.stAviso = (!recic && enRepo > 0) ? 'Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.' : 'No hay historias para publicar: en la cola hay ' + cfg.pool.length + ' pero solo ' + enRepo + ' están en el repositorio. Quitalas y volvé a agregarlas.';
     else if (!recic && poolAct.filter((p) => existe(p) && !estado.stUsados.includes(p.id)).length === 0) estado.stAviso = 'Ya salieron todas las historias de la cola: agregá más o activá repetir.';
     else delete estado.stAviso;
@@ -412,6 +417,107 @@ function alternarProv(orden, ultima) {
   while (r.length) { let i = r.findIndex((p) => !p.prov || p.prov !== prev); if (i < 0) i = 0; const p = r.splice(i, 1)[0]; out.push(p); if (p.prov) prev = p.prov; }
   return out;
 }
+// v41: PRUEBAS AUTOMÁTICAS DE HORARIO. El motor no solo optimiza los horarios que ya usás: cada 2 días prueba un tramo del día en el que todavía
+// tiene pocos datos (ej. la mañana), moviendo UNA salida de ese día (no suma publicaciones: la cantidad por día no cambia). Cuando un tramo junta
+// MIN_MUESTRA_TRAMO publicaciones con métricas maduras, deja de probarlo y el optimizador semanal compara tramos y mueve franjas al que mejor rinde.
+// Se apaga con el mismo interruptor de autoajuste del panel (o con "pruebas": false en la config de la cola).
+const TRAMOS_PRUEBA = [['primera mañana', 8], ['mañana', 10.5], ['mediodía', 13], ['tarde', 17], ['noche temprana', 20], ['noche', 21.5]];
+const MIN_MUESTRA_TRAMO = 5, DIAS_ENTRE_PRUEBAS = 2;
+function pruebaDeHorario(cfg, e, dia, min, out, red) {
+  if (cfg.pruebas === false || !autoAjusteOn()) return;
+  const p = (e.prueba = e.prueba || {});
+  if (p.dia !== dia) {
+    p.dia = dia; p.h = ''; p.de = ''; p.tramo = '';
+    const rec = (e.pruebaRec = (e.pruebaRec || []).filter((x) => Date.now() - Date.parse(x.t) < 72 * 3600000));
+    const ult = e.pruebaUlt ? Math.round((Date.parse(dia) - Date.parse(e.pruebaUlt)) / 86400000) : 99;
+    if (ult < DIAS_ENTRE_PRUEBAS) return;
+    const cuenta = {};
+    for (const it of itemsCargaMotor(red)) { if (!(it.score > 0)) continue; const h = horaLocalMotor(it.t); const tr = h == null ? '' : tramoMotor(h); if (tr) cuenta[tr] = (cuenta[tr] || 0) + 1; }
+    for (const r of rec) cuenta[r.tramo] = (cuenta[r.tramo] || 0) + 1; // lo recién publicado en prueba todavía no tiene métricas maduras
+    const trDe = (s) => tramoMotor(horaNumMotor(s.h));
+    const cands = TRAMOS_PRUEBA.filter(([tr]) => (cuenta[tr] || 0) < MIN_MUESTRA_TRAMO && !out.some((s) => trDe(s) === tr))
+      .sort((a, b) => (cuenta[a[0]] || 0) - (cuenta[b[0]] || 0));
+    const reemplazables = out.filter((s) => frMin(s.h) > min + 10 && !e.franjas[dia + ' ' + s.h])
+      .sort((a, b) => (cuenta[trDe(b)] || 0) - (cuenta[trDe(a)] || 0));
+    for (const [tr, h0] of cands) {
+      for (const s of reemplazables) {
+        const otros = out.filter((x) => x !== s).map((x) => frMin(x.h));
+        const hx = [h0, h0 + .5, h0 - .5, h0 + 1, h0 - 1].map(horaTextoMotor).find((v) => tramoMotor(horaNumMotor(v)) === tr && frMin(v) > min + 10 && otros.every((m) => Math.abs(m - frMin(v)) >= 120));
+        if (hx) { p.h = hx; p.de = s.h; p.tramo = tr; e.pruebaUlt = dia; break; }
+      }
+      if (p.h) break;
+    }
+  }
+  if (p.h && p.de) { const s = out.find((x) => x.h === p.de); if (s) { s.h = p.h; s.prueba = true; } }
+}
+// v42: PRUEBAS AUTOMÁTICAS DE HORARIO EN HISTORIAS (Instagram y Facebook salen de la MISMA cola, así que comparten horarios).
+// Igual que en Feed/Reels: cada 2 días mueve UNA tanda del día a un tramo con pocos datos. No suma ni quita historias.
+// En Historias cada tanda (varias historias seguidas) cuenta como UNA sola muestra, porque salen juntas. La medición sale de Instagram (alcance);
+// Facebook no entrega métricas de historias, así que sigue los horarios que mejor rinden en Instagram.
+function itemsHistoriasMotor() {
+  const D = leer(path.join(BASE, 'stats', 'datos.json'), null);
+  if (!D) return [];
+  const lim = Date.now() - 26 * 3600000;
+  const todas = Object.values(D.historias || {}).map((p) => ({ t: p.t, ms: Date.parse(p.t), score: +(p.a || 0) })).filter((p) => Number.isFinite(p.ms) && p.ms < lim).sort((a, b) => a.ms - b.ms);
+  const out = []; let ult = -Infinity;
+  for (const p of todas) { if (p.ms - ult > 45 * 60000) out.push({ t: p.t, score: p.score }); ult = p.ms; }
+  return out;
+}
+function primerasTandaMotor(a) {
+  const o = a.slice().sort((x, y) => Date.parse(x.t) - Date.parse(y.t)), r = []; let ult = -Infinity;
+  for (const p of o) { const ms = Date.parse(p.t); if (ms - ult > 45 * 60000) r.push(p); ult = ms; }
+  return r;
+}
+function pruebaHistorias(cfg, estado, dia, min, hechas, franjas) {
+  if (cfg.pruebas === false || !autoAjusteOn()) { delete estado.stInfoPrueba; return franjas; }
+  const p = (estado.stPrueba = estado.stPrueba || {});
+  if (p.dia !== dia) {
+    p.dia = dia; p.h = ''; p.de = ''; p.tramo = '';
+    const rec = (estado.stPruebaRec = (estado.stPruebaRec || []).filter((x) => Date.now() - Date.parse(x.t) < 30 * 3600000));
+    const ult = estado.stPruebaUlt ? Math.round((Date.parse(dia) - Date.parse(estado.stPruebaUlt)) / 86400000) : 99;
+    if (ult >= DIAS_ENTRE_PRUEBAS) {
+      const cuenta = {};
+      for (const it of itemsHistoriasMotor()) { if (!(it.score > 0)) continue; const h = horaLocalMotor(it.t); const tr = h == null ? '' : tramoMotor(h); if (tr) cuenta[tr] = (cuenta[tr] || 0) + 1; }
+      for (const r of rec) cuenta[r.tramo] = (cuenta[r.tramo] || 0) + 1; // lo recién publicado en prueba todavía no tiene métricas maduras
+      const trDe = (s) => tramoMotor(horaNumMotor(s.h));
+      const cands = TRAMOS_PRUEBA.filter(([tr]) => (cuenta[tr] || 0) < MIN_MUESTRA_TRAMO && !franjas.some((s) => trDe(s) === tr))
+        .sort((a, b) => (cuenta[a[0]] || 0) - (cuenta[b[0]] || 0));
+      const reemplazables = franjas.filter((s) => frMin(s.h) > min + 10 && !hechas[dia + ' ' + s.h])
+        .sort((a, b) => (cuenta[trDe(b)] || 0) - (cuenta[trDe(a)] || 0));
+      for (const [tr, h0] of cands) {
+        for (const s of reemplazables) {
+          const otros = franjas.filter((x) => x !== s).map((x) => frMin(x.h));
+          const hx = [h0, h0 + .5, h0 - .5, h0 + 1, h0 - 1].map(horaTextoMotor).find((v) => tramoMotor(horaNumMotor(v)) === tr && frMin(v) > min + 10 && !hechas[dia + ' ' + v] && otros.every((m) => Math.abs(m - frMin(v)) >= 120));
+          if (hx) { p.h = hx; p.de = s.h; p.tramo = tr; estado.stPruebaUlt = dia; break; }
+        }
+        if (p.h) break;
+      }
+    }
+  }
+  if (p.h && p.de) { const s = franjas.find((x) => x.h === p.de); if (s) { s.h = p.h; s.prueba = true; } }
+  if (p.dia === dia && p.h) estado.stInfoPrueba = 'Prueba de horario hoy: ' + p.h + ' (' + p.tramo + ') en lugar de ' + p.de + '.'; else delete estado.stInfoPrueba;
+  return franjas;
+}
+// v43: AGENDA INICIAL AUTOMÁTICA. Solo si una cola tiene material pero NINGUNA franja (nunca pisa una agenda existente), el motor arma una de partida
+// repartida en distintos tramos del día. Desde ahí las pruebas de horario y el ajuste semanal la van corrigiendo con las estadísticas.
+// Se apaga con el interruptor de autoajuste o con "agendaAuto": false en la config de la cola. La cantidad de salidas por día es chica a propósito.
+const AGENDA_INICIAL = {
+  'stories/config.json': [{ h: '10:30', n: 3, f: '' }, { h: '17:00', n: 3, f: '' }, { h: '21:00', n: 3, f: '' }],
+  'feed-ig/config.json': [{ h: '12:30', n: 1, f: '' }, { h: '17:30', n: 1, f: '' }, { h: '20:30', n: 1, f: '' }],
+  'feed-fb/config.json': [{ h: '12:30', n: 1, f: '' }, { h: '19:00', n: 1, f: '' }]
+};
+function agendaInicialAuto() {
+  if (!autoAjusteOn()) return;
+  for (const [ruta, franjas] of Object.entries(AGENDA_INICIAL)) {
+    try {
+      const cfg = leer(path.join(BASE, ruta), null);
+      if (!cfg || cfg.pausada || cfg.agendaAuto === false || !(cfg.pool || []).length || (cfg.franjas || []).length) continue;
+      const antes = JSON.parse(JSON.stringify(cfg));
+      cfg.franjas = franjas.map((f) => ({ ...f })); cfg.agendaAuto = 'inicial';
+      escribirConfigOptimizada(ruta, antes, cfg, 'Agenda inicial automática (la cola no tenía horarios): ' + franjas.map((f) => f.h + (f.n > 1 ? ' x' + f.n : '')).join(', ') + '.');
+    } catch (er) { console.log('Agenda inicial falló', ruta, er.message); }
+  }
+}
 function slotsHoy(cfg, e, dia, diaSem, pend, red) {
   const tope = red === 'fb' ? 3 : 4, SEP = 150, out = [];
   for (const fr of cfg.franjas) {
@@ -423,6 +529,7 @@ function slotsHoy(cfg, e, dia, diaSem, pend, red) {
   out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const recortadas = Math.max(0, out.length - tope);
   if (recortadas) out.splice(tope);
+  try { pruebaDeHorario(cfg, e, dia, ahoraAR().min, out, red); } catch (er) { console.log('Prueba de horario falló', er.message); }
   const c = (e.carga = e.carga || { nivel: 0, dia: '', extras: [] });
   c.nivel = Math.min(Math.max(0, Number(c.nivel) || 0), Math.max(0, tope - out.length));
   if (c.dia !== dia) {
@@ -449,6 +556,7 @@ function slotsHoy(cfg, e, dia, diaSem, pend, red) {
   const reelsHoy = out.filter((s) => s.f === 'reel').length; // cuenta antes de sumar extras
   for (const h of c.extras || []) if (!out.some((s) => s.h === h)) out.push({ h, n: 1, f: reelsHoy >= MAX_REELS_DIA ? 'feed' : '' });
   e.infoCarga = out.length + ' salida' + (out.length === 1 ? '' : 's') + ' hoy' + (c.extras && c.extras.length ? ' (' + c.extras.length + ' sumada' + (c.extras.length === 1 ? '' : 's') + ' por estadísticas)' : '') + ', separadas al menos 2 h; ' + pend + ' esperando' + (c.motivo ? ' (' + c.motivo + ')' : '') + '.' + (recortadas ? ' Tus franjas suman más del tope de ' + tope + ' por día: ' + recortadas + ' no se usan.' : '') + (reelsHoy > MAX_REELS_DIA ? ' Hay ' + reelsHoy + ' Reels programados hoy (recomendado hasta ' + MAX_REELS_DIA + ').' : '');
+  if (e.prueba && e.prueba.dia === dia && e.prueba.h) e.infoCarga += ' Prueba de horario hoy: ' + e.prueba.h + ' (' + e.prueba.tramo + ') en lugar de ' + e.prueba.de + '.';
   return out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
 }
 async function colaFeed(estado, token, uid, red) {
@@ -501,6 +609,7 @@ async function colaFeed(estado, token, uid, red) {
     if (elegidas.length && !ok && intentos < 3) e.franjas[clave] = { intentos };
     else e.franjas[clave] = !elegidas.length ? 'vacia' : (ok ? 'ok' : 'fallida');
     e.ultima = { cuando: new Date().toISOString(), franja: fr.h, ok, fallos };
+    if (ok && e.prueba && e.prueba.dia === dia && e.prueba.h === fr.h) (e.pruebaRec = e.pruebaRec || []).push({ t: new Date().toISOString(), tramo: e.prueba.tramo });
     if (ok) delete e.error;
     delete e.aviso;
   }
@@ -591,9 +700,10 @@ function optimizarRestoCola(ruta, items, etiqueta) {
   const norm = usable.map(p => ({ ...p, norm: p.score / (medFmt[p.fmt || 'foto'] || 1) }));
   // 1) Horarios: exige 5 datos por franja del día y una ventaja de al menos 33%.
   const bloques = {};
-  for (const p of norm) { const b = tramoMotor(p.h); if (b) (bloques[b] ||= []).push(p); }
+  const baseHor = ruta.startsWith('stories/') ? primerasTandaMotor(norm) : norm; // v42: en Historias cada tanda es UNA muestra de horario
+  for (const p of baseHor) { const b = tramoMotor(p.h); if (b) (bloques[b] ||= []).push(p); }
   const bmed = {};
-  for (const [b, a] of Object.entries(bloques)) if (a.length >= 8) bmed[b] = medianaMotor(a.map(p => p.norm));
+  for (const [b, a] of Object.entries(bloques)) if (a.length >= MIN_MUESTRA_TRAMO) bmed[b] = medianaMotor(a.map(p => p.norm));
   const bs = Object.keys(bmed).sort((a,b) => bmed[b]-bmed[a]);
   if (bs.length >= 2) {
     const mejor = bs[0];
@@ -789,6 +899,7 @@ export async function main() {
     token = await renovarToken(token || '', estado);
   }
   if (token && uid) {
+    agendaInicialAuto();
     try { await colaHistorias(estado, token, uid); } catch (e) { estado.stError = e.message; }
     for (const r of ['ig', 'fb']) { try { await colaFeed(estado, token, uid, r); } catch (e) { (estado['fd' + r] = estado['fd' + r] || {}).error = e.message; } }
     try { await estadisticas(estado, token, uid); } catch (e) { estado.errorStats = e.message; }
