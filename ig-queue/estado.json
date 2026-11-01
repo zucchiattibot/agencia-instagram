@@ -4,7 +4,11 @@
   "stFranjas": {
     "2026-11-01 08:00": "ok",
     "2026-11-01 15:00": "ok",
-    "2026-11-01 18:00": "ok"
+    "2026-11-01 18:00": "ok",
+    "2026-11-01 19:30": {
+      "intentos": 1
+    },
+    "2026-11-01 20:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -70,20 +74,24 @@
     "mvig7kqggpl",
     "mvpn6987uex",
     "mvjo13ej29y",
-    "mvaxbvkuckv"
+    "mvaxbvkuckv",
+    "mvr0kcygoff"
   ],
-  "statsEl": "2026-11-01T22:01:56.058Z",
+  "statsEl": "2026-11-01T23:02:39.237Z",
   "stUltima": {
-    "cuando": "2026-11-01T21:01:57.526Z",
-    "franja": "18:00",
+    "cuando": "2026-11-01T23:02:26.616Z",
+    "franja": "20:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T22:01:41.667Z",
+    "cuando": "2026-11-01T23:01:45.819Z",
     "cola": 151,
     "enRepo": 151,
-    "pendientes": []
+    "pendientes": [
+      "19:30",
+      "20:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -218,7 +226,7 @@
     "pruebaUlt": "2026-10-31"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvaxbvkuckv",
+  "stUltimaId": "mvr0kcygoff",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -241,12 +249,14 @@
     "mvav2wa2rnm": "2026-10-31T21:02:36.078Z",
     "mvpn6987uex": "2026-10-31T23:03:45.557Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
-    "mvaxbvkuckv": "2026-11-01T21:01:57.526Z"
+    "mvaxbvkuckv": "2026-11-01T21:01:57.526Z",
+    "mvr0kcygoff": "2026-11-01T23:02:26.616Z"
   },
   "stUsadosDia": {
     "mvjo13ej29y": "2026-11-01",
     "mvawxnxnd4z": "2026-11-01",
-    "mvaxbvkuckv": "2026-11-01"
+    "mvaxbvkuckv": "2026-11-01",
+    "mvr0kcygoff": "2026-11-01"
   },
   "autoBase": {
     "feed-ig/config.json": {

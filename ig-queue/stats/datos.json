@@ -699,29 +699,35 @@
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 113,
-      "v": 122
+      "a": 117,
+      "v": 129
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 121,
-      "v": 133
+      "a": 126,
+      "v": 139
     },
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 104
+      "a": 102,
+      "v": 111
     },
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 50
+      "a": 52,
+      "v": 62
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
+    },
+    "18098326772428066": {
+      "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
       "a": 0,
       "v": 0
@@ -757,11 +763,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T22:01:43.975Z"
+    "el": "2026-11-01T23:02:29.738Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25742,
+    "views": 25774,
     "profile_views": 91,
     "accounts_engaged": 273
   },
@@ -801,7 +807,7 @@
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 48,
-      "views": 62,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -826,7 +832,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 188,
+      "reach": 189,
       "views": 228,
       "saved": 0,
       "shares": 1
@@ -995,8 +1001,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 32,
+      "reach": 26,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -1313,7 +1319,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T22:01:56.058Z",
+  "actualizado": "2026-11-01T23:02:39.237Z",
   "aud": {
     "edad": [
       {
