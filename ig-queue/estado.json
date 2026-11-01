@@ -1,7 +1,9 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-01 08:00": "ok"
+  },
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -74,20 +76,23 @@
     "mvawtsml9p0",
     "mvav3bkvpbp",
     "mvig7kqggpl",
-    "mvpn6987uex"
+    "mvpn6987uex",
+    "mvjo13ej29y"
   ],
-  "statsEl": "2026-11-01T10:01:50.497Z",
+  "statsEl": "2026-11-01T11:02:15.168Z",
   "stUltima": {
-    "cuando": "2026-10-31T23:03:45.557Z",
-    "franja": "20:00",
+    "cuando": "2026-11-01T11:02:00.454Z",
+    "franja": "08:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T10:01:40.048Z",
+    "cuando": "2026-11-01T11:01:44.506Z",
     "cola": 169,
     "enRepo": 169,
-    "pendientes": []
+    "pendientes": [
+      "08:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -218,7 +223,7 @@
     "pruebaUlt": "2026-10-31"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvpn6987uex",
+  "stUltimaId": "mvjo13ej29y",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -241,9 +246,12 @@
     "mvax6wmr0s9": "2026-10-31T19:03:25.686Z",
     "mvav2wa2rnm": "2026-10-31T21:02:36.078Z",
     "mvawy5n3r6p": "2026-10-31T23:03:32.517Z",
-    "mvpn6987uex": "2026-10-31T23:03:45.557Z"
+    "mvpn6987uex": "2026-10-31T23:03:45.557Z",
+    "mvjo13ej29y": "2026-11-01T11:02:00.454Z"
   },
-  "stUsadosDia": {},
+  "stUsadosDia": {
+    "mvjo13ej29y": "2026-11-01"
+  },
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -438,7 +446,12 @@
     "de": "12:45",
     "tramo": "primera mañana"
   },
-  "stPruebaRec": [],
+  "stPruebaRec": [
+    {
+      "t": "2026-11-01T11:02:00.454Z",
+      "tramo": "primera mañana"
+    }
+  ],
   "agendaInicial": {
     "stories/config.json": "ya-tenia",
     "feed-ig/config.json": "ya-tenia",
