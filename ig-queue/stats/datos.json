@@ -681,32 +681,32 @@
     "18121442083991151": {
       "t": "2026-10-31T12:02:15+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 77
+      "a": 77,
+      "v": 88
     },
     "18148323040535077": {
       "t": "2026-10-31T19:02:52+0000",
       "tipo": "VIDEO",
-      "a": 51,
-      "v": 54
+      "a": 57,
+      "v": 61
     },
     "18097810025393956": {
       "t": "2026-10-31T21:02:12+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 50
+      "a": 52,
+      "v": 57
     },
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 42
+      "a": 41,
+      "v": 49
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 35,
-      "v": 40
+      "a": 45,
+      "v": 47
     }
   },
   "seguidores": {
@@ -739,11 +739,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T03:01:49.756Z"
+    "el": "2026-11-01T04:01:38.283Z"
   },
   "res30": {
-    "reach": 4645,
-    "views": 25103,
+    "reach": 4655,
+    "views": 25155,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -756,8 +756,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 21,
+      "reach": 22,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -769,7 +769,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
+      "reach": 14,
       "views": 24,
       "saved": 0,
       "shares": 0
@@ -808,8 +808,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 180,
-      "views": 214,
+      "reach": 181,
+      "views": 215,
       "saved": 0,
       "shares": 1
     },
@@ -1004,7 +1004,7 @@
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 1995,
-      "views": 2547,
+      "views": 2548,
       "saved": 28,
       "shares": 27
     },
@@ -1295,7 +1295,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T03:02:00.145Z",
+  "actualizado": "2026-11-01T04:01:47.110Z",
   "aud": {
     "edad": [
       {
