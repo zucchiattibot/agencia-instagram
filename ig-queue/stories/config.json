@@ -95,13 +95,6 @@
       "origen": "rcmuzgczy9it3ekp"
     },
     {
-      "id": "mvauzqglzc1",
-      "media": "ig-queue/stories/pool/mvauzqglzc1.mp4",
-      "tipo": "video",
-      "nombre": "1000856965.mp4",
-      "origen": "rcmud1emfbr2u2yq"
-    },
-    {
       "id": "mvauzxv7pts",
       "media": "ig-queue/stories/pool/mvauzxv7pts.mp4",
       "tipo": "video",
@@ -1277,7 +1270,8 @@
     "rcmvci9gcg9fb3h3",
     "rcmvci9b9wxht7er",
     "rcmvig0klfnulc2i",
-    "rcmvr08nxeykj1h9"
+    "rcmvr08nxeykj1h9",
+    "rcmud1emfbr2u2yq"
   ],
   "rotar": {
     "ids": [
@@ -1399,5 +1393,8 @@
       "mvaxd6p7mne"
     ],
     "hasta": "2026-10-31"
-  }
+  },
+  "autoBorradas": [
+    "rcmud1emfbr2u2yq"
+  ]
 }
