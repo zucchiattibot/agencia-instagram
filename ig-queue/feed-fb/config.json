@@ -204,15 +204,6 @@
       "ord": 1792696957918
     },
     {
-      "id": "mrcmvig0klfnulc2i-fb",
-      "matId": "rcmvig0klfnulc2i",
-      "tipo": "video",
-      "fmt": "reel",
-      "media": "ig-queue/feed/media/rcmvig0klfnulc2i.mp4",
-      "caption": "Para volver a vivir esa emoción única y tener siempre presente al mejor del mundo, cada detalle de su carrera importa. 🏆 Si querés sumar esta pieza exclusiva a tu vitrina, mandanos un mensaje o escribinos al WhatsApp y te contamos cómo reservarla en Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792610572940
-    },
-    {
       "id": "mrcmvig01i5uxqlqa-fb",
       "matId": "rcmvig01i5uxqlqa",
       "tipo": "video",
@@ -634,5 +625,8 @@
         "4dfc6e23d55a3ca40e6265f8001ba36be1db16a7"
       ]
     }
+  ],
+  "publicadas": [
+    "rcmvig0klfnulc2i"
   ]
 }
