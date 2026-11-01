@@ -681,38 +681,38 @@
     "18121442083991151": {
       "t": "2026-10-31T12:02:15+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 98
+      "a": 93,
+      "v": 105
     },
     "18148323040535077": {
       "t": "2026-10-31T19:02:52+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 70
+      "a": 70,
+      "v": 75
     },
     "18097810025393956": {
       "t": "2026-10-31T21:02:12+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 63
+      "a": 63,
+      "v": 69
     },
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 55
+      "a": 58,
+      "v": 64
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 51,
-      "v": 53
+      "a": 57,
+      "v": 62
     },
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 7,
+      "v": 11
     }
   },
   "seguidores": {
@@ -745,11 +745,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T11:02:03.204Z"
+    "el": "2026-11-01T12:01:47.239Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25206,
+    "views": 25257,
     "profile_views": 91,
     "accounts_engaged": 271
   },
@@ -762,8 +762,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 42,
-      "views": 52,
+      "reach": 48,
+      "views": 58,
       "saved": 0,
       "shares": 0
     },
@@ -775,7 +775,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
+      "reach": 19,
       "views": 30,
       "saved": 0,
       "shares": 0
@@ -788,7 +788,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 44,
+      "reach": 45,
       "views": 59,
       "saved": 0,
       "shares": 0
@@ -801,7 +801,7 @@
       "like_count": 11,
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 122,
+      "reach": 123,
       "views": 146,
       "saved": 0,
       "shares": 0
@@ -814,7 +814,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 182,
+      "reach": 183,
       "views": 220,
       "saved": 0,
       "shares": 1
@@ -853,7 +853,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
+      "reach": 29,
       "views": 57,
       "saved": 0,
       "shares": 0
@@ -1301,7 +1301,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T11:02:15.168Z",
+  "actualizado": "2026-11-01T12:01:56.123Z",
   "aud": {
     "edad": [
       {
