@@ -681,32 +681,32 @@
     "18121442083991151": {
       "t": "2026-10-31T12:02:15+0000",
       "tipo": "VIDEO",
-      "a": 65,
-      "v": 71
+      "a": 70,
+      "v": 77
     },
     "18148323040535077": {
       "t": "2026-10-31T19:02:52+0000",
       "tipo": "VIDEO",
-      "a": 44,
-      "v": 47
+      "a": 51,
+      "v": 54
     },
     "18097810025393956": {
       "t": "2026-10-31T21:02:12+0000",
       "tipo": "VIDEO",
-      "a": 37,
-      "v": 42
+      "a": 45,
+      "v": 50
     },
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 26,
-      "v": 29
+      "a": 33,
+      "v": 42
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 30
+      "a": 35,
+      "v": 40
     }
   },
   "seguidores": {
@@ -730,7 +730,8 @@
     "2026-10-28": 1396,
     "2026-10-29": 1397,
     "2026-10-30": 1398,
-    "2026-10-31": 1397
+    "2026-10-31": 1397,
+    "2026-11-01": 1397
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -738,11 +739,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T02:01:45.301Z"
+    "el": "2026-11-01T03:01:49.756Z"
   },
   "res30": {
     "reach": 4645,
-    "views": 25046,
+    "views": 25103,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -755,8 +756,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 13,
+      "reach": 15,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -769,7 +770,7 @@
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 12,
-      "views": 21,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -781,8 +782,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 42,
-      "views": 56,
+      "reach": 43,
+      "views": 57,
       "saved": 0,
       "shares": 0
     },
@@ -807,8 +808,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 179,
-      "views": 213,
+      "reach": 180,
+      "views": 214,
       "saved": 0,
       "shares": 1
     },
@@ -1294,7 +1295,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T02:01:54.207Z",
+  "actualizado": "2026-11-01T03:02:00.145Z",
   "aud": {
     "edad": [
       {
@@ -2013,6 +2014,10 @@
     "2026-10-30": {
       "a": 386,
       "v": 877
+    },
+    "2026-10-31": {
+      "a": 213,
+      "v": 564
     }
   }
 }
