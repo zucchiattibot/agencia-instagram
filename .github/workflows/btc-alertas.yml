@@ -1,0 +1,37 @@
+# btc-alertas-v1: avisa por ntfy cuando BTC/ETH llegan a los precios que cargaste en el panel
+name: Alertas de precio (BTC/ETH)
+on:
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: btc-alertas
+  cancel-in-progress: false
+jobs:
+  alertas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Revisar precios
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: node alertas/btc-alertas.mjs
+      - name: Guardar estado
+        run: |
+          git config user.name "alertas-auto"
+          git config user.email "alertas-auto@users.noreply.github.com"
+          git add alertas/btc-estado.json
+          if ! git diff --cached --quiet; then
+            git commit -m "alertas: estado"
+            for n in 1 2 3 4; do
+              if git pull --rebase -X theirs && git push; then exit 0; fi
+              git rebase --abort 2>/dev/null || true
+              sleep $((n * 5))
+            done
+            exit 1
+          fi
