@@ -687,32 +687,32 @@
     "18148323040535077": {
       "t": "2026-10-31T19:02:52+0000",
       "tipo": "VIDEO",
-      "a": 106,
-      "v": 117
+      "a": 110,
+      "v": 122
     },
     "18097810025393956": {
       "t": "2026-10-31T21:02:12+0000",
       "tipo": "VIDEO",
-      "a": 97,
-      "v": 108
+      "a": 101,
+      "v": 112
     },
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 96
+      "a": 92,
+      "v": 100
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 102
+      "a": 96,
+      "v": 106
     },
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 59,
-      "v": 68
+      "a": 67,
+      "v": 75
     }
   },
   "seguidores": {
@@ -745,13 +745,13 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T16:01:45.128Z"
+    "el": "2026-11-01T17:01:43.272Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25505,
+    "views": 25551,
     "profile_views": 91,
-    "accounts_engaged": 272
+    "accounts_engaged": 273
   },
   "posts": [
     {
@@ -762,8 +762,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 56,
-      "views": 71,
+      "reach": 59,
+      "views": 73,
       "saved": 0,
       "shares": 0
     },
@@ -827,8 +827,8 @@
       "like_count": 8,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 223,
-      "views": 281,
+      "reach": 225,
+      "views": 283,
       "saved": 0,
       "shares": 0
     },
@@ -866,8 +866,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Aquellas tardes de mate y lectura donde pasabas las hojas sin sentir el paso de las horas vuelven con estas novelas. 📖 \nSi te atrapan las tramas donde el amor y el misterio van de la mano, guardá tu ejemplar en Agencia Albor y disfrutá de un buen libro.\nConsultá por WhatsApp al 2395 41-7834 y te lo guardamos.\n\n#florenciabonelli #novela #carloscasares",
-      "reach": 25,
-      "views": 43,
+      "reach": 26,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -1301,7 +1301,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T16:01:54.051Z",
+  "actualizado": "2026-11-01T17:01:54.367Z",
   "aud": {
     "edad": [
       {
