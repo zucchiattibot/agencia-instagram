@@ -80,7 +80,7 @@
     "mvjo13ej29y",
     "mvawxnxnd4z"
   ],
-  "statsEl": "2026-11-01T19:02:04.723Z",
+  "statsEl": "2026-11-01T20:01:55.103Z",
   "stUltima": {
     "cuando": "2026-11-01T19:01:55.453Z",
     "franja": "15:00",
@@ -88,12 +88,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T19:01:42.146Z",
+    "cuando": "2026-11-01T20:01:38.391Z",
     "cola": 168,
     "enRepo": 168,
-    "pendientes": [
-      "15:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
