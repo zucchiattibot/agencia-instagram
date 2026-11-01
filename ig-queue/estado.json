@@ -27,7 +27,6 @@
     "mvav1xa6vql",
     "mvav1rzg992",
     "mvax5nmkw6k",
-    "mvauzqglzc1",
     "mvaxd6p7mne",
     "mvav19r44ch",
     "mvcdpo2r63f",
@@ -79,7 +78,7 @@
     "mvpn6987uex",
     "mvjo13ej29y"
   ],
-  "statsEl": "2026-11-01T13:01:47.937Z",
+  "statsEl": "2026-11-01T14:01:58.849Z",
   "stUltima": {
     "cuando": "2026-11-01T11:02:00.454Z",
     "franja": "08:00",
@@ -87,9 +86,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T13:01:38.804Z",
-    "cola": 169,
-    "enRepo": 169,
+    "cuando": "2026-11-01T14:01:45.923Z",
+    "cola": 168,
+    "enRepo": 168,
     "pendientes": []
   },
   "fdig": {
