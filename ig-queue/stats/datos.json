@@ -693,32 +693,38 @@
     "18097810025393956": {
       "t": "2026-10-31T21:02:12+0000",
       "tipo": "VIDEO",
-      "a": 118,
-      "v": 130
+      "a": 120,
+      "v": 137
     },
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 103,
-      "v": 111
+      "a": 108,
+      "v": 116
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 109,
-      "v": 119
+      "a": 114,
+      "v": 126
     },
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 83,
-      "v": 92
+      "a": 90,
+      "v": 99
     },
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 19,
-      "v": 27
+      "a": 29,
+      "v": 36
+    },
+    "18031937186683175": {
+      "t": "2026-11-01T21:01:49+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -751,11 +757,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T20:01:42.307Z"
+    "el": "2026-11-01T21:02:00.118Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25656,
+    "views": 25692,
     "profile_views": 91,
     "accounts_engaged": 273
   },
@@ -768,7 +774,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 61,
+      "reach": 62,
       "views": 75,
       "saved": 0,
       "shares": 0
@@ -794,8 +800,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 47,
-      "views": 61,
+      "reach": 48,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -820,8 +826,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 185,
-      "views": 225,
+      "reach": 186,
+      "views": 226,
       "saved": 0,
       "shares": 1
     },
@@ -859,8 +865,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 29,
-      "views": 59,
+      "reach": 30,
+      "views": 60,
       "saved": 0,
       "shares": 0
     },
@@ -1307,7 +1313,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T20:01:55.103Z",
+  "actualizado": "2026-11-01T21:02:08.551Z",
   "aud": {
     "edad": [
       {
