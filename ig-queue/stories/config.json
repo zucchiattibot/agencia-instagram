@@ -501,13 +501,6 @@
       "origen": "rcmt8km9ijgk10r3"
     },
     {
-      "id": "mvaxa03uf0z",
-      "media": "ig-queue/stories/pool/mvaxa03uf0z.mp4",
-      "tipo": "video",
-      "nombre": "1000853322.mp4",
-      "origen": "rcmu5l1i8ew5zket"
-    },
-    {
       "id": "mvaxaairouk",
       "media": "ig-queue/stories/pool/mvaxaairouk.jpg",
       "tipo": "image",
@@ -1187,7 +1180,8 @@
     "rcmuy23qnasellqq",
     "rcmumz7woqdzqsv9",
     "rcmta286xb7uyoo4",
-    "rcmv0vtegyc1bdtl"
+    "rcmv0vtegyc1bdtl",
+    "rcmu5l1i8ew5zket"
   ],
   "rotar": {
     "ids": [
@@ -1325,6 +1319,7 @@
     "rcmuy23qnasellqq",
     "rcmumz7woqdzqsv9",
     "rcmta286xb7uyoo4",
-    "rcmv0vtegyc1bdtl"
+    "rcmv0vtegyc1bdtl",
+    "rcmu5l1i8ew5zket"
   ]
 }
