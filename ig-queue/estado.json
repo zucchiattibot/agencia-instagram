@@ -3,9 +3,7 @@
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-01 08:00": "ok",
-    "2026-11-01 15:00": {
-      "intentos": 1
-    }
+    "2026-11-01 15:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -79,17 +77,18 @@
     "mvav3bkvpbp",
     "mvig7kqggpl",
     "mvpn6987uex",
-    "mvjo13ej29y"
+    "mvjo13ej29y",
+    "mvawxnxnd4z"
   ],
-  "statsEl": "2026-11-01T18:02:17.461Z",
+  "statsEl": "2026-11-01T19:02:04.723Z",
   "stUltima": {
-    "cuando": "2026-11-01T18:02:06.924Z",
+    "cuando": "2026-11-01T19:01:55.453Z",
     "franja": "15:00",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T18:01:41.014Z",
+    "cuando": "2026-11-01T19:01:42.146Z",
     "cola": 168,
     "enRepo": 168,
     "pendientes": [
@@ -231,7 +230,7 @@
     "pruebaUlt": "2026-10-31"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvjo13ej29y",
+  "stUltimaId": "mvawxnxnd4z",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -255,10 +254,12 @@
     "mvav2wa2rnm": "2026-10-31T21:02:36.078Z",
     "mvawy5n3r6p": "2026-10-31T23:03:32.517Z",
     "mvpn6987uex": "2026-10-31T23:03:45.557Z",
-    "mvjo13ej29y": "2026-11-01T11:02:00.454Z"
+    "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
+    "mvawxnxnd4z": "2026-11-01T19:01:55.453Z"
   },
   "stUsadosDia": {
-    "mvjo13ej29y": "2026-11-01"
+    "mvjo13ej29y": "2026-11-01",
+    "mvawxnxnd4z": "2026-11-01"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -467,6 +468,5 @@
   },
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
-  "stInfoPrueba": "Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
-  "stError": "Instagram no pudo procesar el archivo (ERROR)."
+  "stInfoPrueba": "Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45."
 }
