@@ -571,13 +571,6 @@
       "origen": "rcmu5l1i8ew5zket"
     },
     {
-      "id": "mvaxa6ciro8",
-      "media": "ig-queue/stories/pool/mvaxa6ciro8.jpg",
-      "tipo": "image",
-      "nombre": "1000851959.jpg",
-      "origen": "rcmu38rxo3yas4bv"
-    },
-    {
       "id": "mvaxa8x07sn",
       "media": "ig-queue/stories/pool/mvaxa8x07sn.jpg",
       "tipo": "image",
@@ -1265,7 +1258,8 @@
     "rcmvig0klfnulc2i",
     "rcmvr08nxeykj1h9",
     "rcmud1emfbr2u2yq",
-    "rcmuwpiaecyhot9q"
+    "rcmuwpiaecyhot9q",
+    "rcmu38rxo3yas4bv"
   ],
   "rotar": {
     "ids": [
@@ -1390,6 +1384,7 @@
   },
   "autoBorradas": [
     "rcmud1emfbr2u2yq",
-    "rcmuwpiaecyhot9q"
+    "rcmuwpiaecyhot9q",
+    "rcmu38rxo3yas4bv"
   ]
 }
