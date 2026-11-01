@@ -699,14 +699,14 @@
     "17977777364934473": {
       "t": "2026-10-31T23:03:38+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 50
+      "a": 45,
+      "v": 51
     },
     "17891041695622203": {
       "t": "2026-10-31T23:03:03+0000",
       "tipo": "VIDEO",
-      "a": 46,
-      "v": 48
+      "a": 47,
+      "v": 49
     }
   },
   "seguidores": {
@@ -739,11 +739,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T05:01:43.204Z"
+    "el": "2026-11-01T06:01:53.168Z"
   },
   "res30": {
-    "reach": 4655,
-    "views": 25200,
+    "reach": 4664,
+    "views": 25210,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -756,8 +756,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 39,
+      "reach": 35,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -769,8 +769,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 26,
+      "reach": 17,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -1295,7 +1295,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T05:01:53.444Z",
+  "actualizado": "2026-11-01T06:02:02.931Z",
   "aud": {
     "edad": [
       {
@@ -1317,7 +1317,7 @@
           "25-34",
           "F"
         ],
-        "v": 116
+        "v": 117
       },
       {
         "d": [
@@ -1455,6 +1455,12 @@
       },
       {
         "d": [
+          "Palhoça, Santa Catarina"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -1470,6 +1476,12 @@
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Guatire, Miranda (state)"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1497,19 +1509,13 @@
       },
       {
         "d": [
-          "José León Suárez, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
       },
       {
         "d": [
-          "Río Cuarto, Córdoba"
+          "Colonia San Bartolomé, Córdoba"
         ],
         "v": 1
       },
@@ -1539,7 +1545,7 @@
       },
       {
         "d": [
-          "Elsmere, Delaware"
+          "Hinojo, Buenos Aires"
         ],
         "v": 1
       },
@@ -1557,19 +1563,13 @@
       },
       {
         "d": [
-          "Esperanza, Santa Fe"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Moctezuma, Buenos Aires"
         ],
         "v": 16
       },
       {
         "d": [
-          "La Rioja, La Rioja"
+          "Godoy Cruz, Mendoza"
         ],
         "v": 1
       },
@@ -1587,31 +1587,19 @@
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "Panama City, Panamá Province"
         ],
         "v": 2
       },
       {
         "d": [
-          "Badalona, Cataluña"
+          "González Catán, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
-          "Villa Leloir, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Remedios de Escalada de San Martín, Buenos Aires"
+          "Miramar, Buenos Aires"
         ],
         "v": 1
       },
@@ -1623,13 +1611,7 @@
       },
       {
         "d": [
-          "Francisco Madero, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Aarhus, Central Denmark Region"
+          "Pinamar, Buenos Aires"
         ],
         "v": 1
       },
@@ -1643,7 +1625,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1077
+        "v": 1078
       },
       {
         "d": [
@@ -1668,6 +1650,18 @@
           "Florida, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Patricios, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "San Antonio de los Baños, Artemisa Province"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1710,6 +1704,12 @@
           "La Plata, Buenos Aires"
         ],
         "v": 12
+      },
+      {
+        "d": [
+          "Potrero de los Funes, San Luis"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1789,7 +1789,7 @@
         "d": [
           "AR"
         ],
-        "v": 1337
+        "v": 1338
       },
       {
         "d": [
@@ -1816,7 +1816,7 @@
         "v": 2
       }
     ],
-    "el": "2026-10-31T09:01:46.118Z"
+    "el": "2026-11-01T06:02:01.367Z"
   },
   "dias": {
     "2026-10-11": {
