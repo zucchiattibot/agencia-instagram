@@ -9,22 +9,16 @@
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
-    "mvaxdx6w9e3",
     "mvax97qpv4t",
     "mvaxb23k05s",
-    "mvax1stqxmo",
-    "mvax4489ece",
     "mvav28500sf",
     "mvav4wx15w7",
     "mvax1y4e5vn",
-    "mvawxzb868b",
     "mvax8tdh38n",
     "mvaxdvil269",
     "mvcdr8huwgc",
-    "mvawy2kceaa",
     "mvcdpl107ri",
     "mvav25z397s",
-    "mvawy5n3r6p",
     "mvaxcsa24la",
     "mvav1xa6vql",
     "mvav1rzg992",
@@ -49,7 +43,6 @@
     "mvav2077bfh",
     "mvawxub85fo",
     "mvax9t7s9w4",
-    "mvaxa8x07sn",
     "mvkcsow9sxi",
     "mvl57sj7ugk",
     "mvid6yqy0eh",
@@ -62,7 +55,6 @@
     "mvjo0vz4xbo",
     "mvax1cewvb2",
     "mvauzcv45l7",
-    "mvawzwbrs5r",
     "mvaxd8h75mx",
     "mvaxcc00g0u",
     "mvav2qo0aoq",
@@ -71,7 +63,6 @@
     "mvawxs3ahwh",
     "mvav3h2hthm",
     "mvaxddb48pw",
-    "mvaxa03uf0z",
     "mvl599jl55g",
     "mvr0jobg8r4",
     "mvawtsml9p0",
@@ -79,10 +70,9 @@
     "mvig7kqggpl",
     "mvpn6987uex",
     "mvjo13ej29y",
-    "mvawxnxnd4z",
     "mvaxbvkuckv"
   ],
-  "statsEl": "2026-11-01T21:02:08.551Z",
+  "statsEl": "2026-11-01T22:01:56.058Z",
   "stUltima": {
     "cuando": "2026-11-01T21:01:57.526Z",
     "franja": "18:00",
@@ -90,12 +80,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T21:01:42.846Z",
-    "cola": 168,
-    "enRepo": 168,
-    "pendientes": [
-      "18:00"
-    ]
+    "cuando": "2026-11-01T22:01:41.667Z",
+    "cola": 151,
+    "enRepo": 151,
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -104,7 +92,6 @@
       "mrcmvl2g3jjkky6r1-ig",
       "mrcmvjw5vgqq1prmt-ig",
       "mrcmvjw60jjyli615-ig",
-      "mrcmvl2gs4nrjsef0-ig",
       "mrcmvig01i5uxqlqa-ig",
       "cmvlrphwz-ig",
       "mrcmvpmo3uzx0q0bp-ig",
@@ -151,7 +138,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-01",
@@ -171,7 +158,6 @@
       "mrcmvl2g3jjkky6r1-fb",
       "mrcmvjw5vgqq1prmt-fb",
       "mrcmvjw60jjyli615-fb",
-      "mrcmvl2gs4nrjsef0-fb",
       "mrcmvig01i5uxqlqa-fb",
       "cmvlrphwz-fb",
       "mrcmvpmo3uzx0q0bp-fb",
@@ -220,7 +206,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-01",
@@ -241,7 +227,6 @@
     "mvawxs3ahwh": "2026-10-27T20:39:32.159Z",
     "mvav3h2hthm": "2026-10-27T23:46:23.277Z",
     "mvaxddb48pw": "2026-10-28T12:02:03.452Z",
-    "mvaxa03uf0z": "2026-10-28T15:51:02.984Z",
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvr0jobg8r4": "2026-10-29T00:01:54.158Z",
     "mvawtsml9p0": "2026-10-29T15:42:14.871Z",
@@ -254,10 +239,8 @@
     "mvid6yqy0eh": "2026-10-31T12:03:02.942Z",
     "mvax6wmr0s9": "2026-10-31T19:03:25.686Z",
     "mvav2wa2rnm": "2026-10-31T21:02:36.078Z",
-    "mvawy5n3r6p": "2026-10-31T23:03:32.517Z",
     "mvpn6987uex": "2026-10-31T23:03:45.557Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
-    "mvawxnxnd4z": "2026-11-01T19:01:55.453Z",
     "mvaxbvkuckv": "2026-11-01T21:01:57.526Z"
   },
   "stUsadosDia": {
