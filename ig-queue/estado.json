@@ -82,7 +82,7 @@
     "mvig7kqggpl",
     "mvpn6987uex"
   ],
-  "statsEl": "2026-11-01T00:01:51.562Z",
+  "statsEl": "2026-11-01T01:02:28.215Z",
   "stUltima": {
     "cuando": "2026-10-31T23:03:45.557Z",
     "franja": "20:00",
@@ -90,14 +90,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T00:01:42.115Z",
+    "cuando": "2026-11-01T01:01:47.283Z",
     "cola": 169,
     "enRepo": 169,
     "pendientes": []
   },
   "fdig": {
     "franjas": {
-      "2026-10-31 11:00": "ok"
+      "2026-10-31 11:00": "ok",
+      "2026-10-31 21:15": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -119,11 +120,12 @@
       "mrcmvv4ugay58g2am-ig",
       "mrcmvp3e1oalc1fe5-ig",
       "mrcmvp3dmrgv06grk-ig",
-      "mrcmvl9eh2gjav6ib-ig"
+      "mrcmvl9eh2gjav6ib-ig",
+      "mrcmvl9ewp8zu938d-ig"
     ],
     "ultima": {
-      "cuando": "2026-10-31T14:02:23.590Z",
-      "franja": "11:00",
+      "cuando": "2026-11-01T01:02:18.843Z",
+      "franja": "21:15",
       "ok": 1,
       "fallos": 0
     },
@@ -140,10 +142,12 @@
       "mrcmvv4ugay58g2am-ig": "2026-10-30T16:02:42.578Z",
       "mrcmvp3e1oalc1fe5-ig": "2026-10-30T21:02:32.392Z",
       "mrcmvp3dmrgv06grk-ig": "2026-10-31T01:02:10.184Z",
-      "mrcmvl9eh2gjav6ib-ig": "2026-10-31T14:02:23.589Z"
+      "mrcmvl9eh2gjav6ib-ig": "2026-10-31T14:02:23.589Z",
+      "mrcmvl9ewp8zu938d-ig": "2026-11-01T01:02:18.842Z"
     },
     "usadosDia": {
-      "mrcmvl9eh2gjav6ib-ig": "2026-10-31"
+      "mrcmvl9eh2gjav6ib-ig": "2026-10-31",
+      "mrcmvl9ewp8zu938d-ig": "2026-10-31"
     },
     "carga": {
       "nivel": 0,
