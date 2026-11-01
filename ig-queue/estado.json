@@ -79,7 +79,7 @@
     "mvpn6987uex",
     "mvjo13ej29y"
   ],
-  "statsEl": "2026-11-01T12:01:56.123Z",
+  "statsEl": "2026-11-01T13:01:47.937Z",
   "stUltima": {
     "cuando": "2026-11-01T11:02:00.454Z",
     "franja": "08:00",
@@ -87,7 +87,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-01T12:01:44.977Z",
+    "cuando": "2026-11-01T13:01:38.804Z",
     "cola": 169,
     "enRepo": 169,
     "pendientes": []
