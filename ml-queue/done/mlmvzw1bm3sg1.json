@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "{\"message\":\"body.required_fields\",\"error\":\"validation_error\",\"cause\":[{\"department\":\"items\",\"cause_id\":369,\"type\":\"error\",\"code\":\"body.required_fields\",\"references\":[\"body\"],\"message\":\"The body does not contains some or none of the following properties [family_name]\"}]}",
+  "categoria": "MLA412445"
+}
