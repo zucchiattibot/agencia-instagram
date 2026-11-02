@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "{\"message\":\"Error getting resource /decorations/build-title with params [caller.id:51251348, client.id:1]! [data:[status:400, message:attributes are required, error:bad_request], status:400, time:6]\",\"error\":\"validation_error\",\"cause\":[]}",
+  "categoria": "MLA30096"
+}
