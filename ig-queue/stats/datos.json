@@ -711,14 +711,14 @@
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 116
+      "a": 113,
+      "v": 126
     },
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 71
+      "a": 66,
+      "v": 85
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,14 +729,20 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 18,
-      "v": 25
+      "a": 32,
+      "v": 45
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 7,
-      "v": 14
+      "a": 26,
+      "v": 37
+    },
+    "17998882092039936": {
+      "t": "2026-11-02T00:26:12+0000",
+      "tipo": "VIDEO",
+      "a": 8,
+      "v": 18
     }
   },
   "seguidores": {
@@ -769,13 +775,13 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-02T00:02:00.191Z"
+    "el": "2026-11-02T01:01:42.726Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25820,
+    "views": 25880,
     "profile_views": 91,
-    "accounts_engaged": 273
+    "accounts_engaged": 275
   },
   "posts": [
     {
@@ -787,7 +793,7 @@
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 63,
-      "views": 77,
+      "views": 79,
       "saved": 0,
       "shares": 0
     },
@@ -838,8 +844,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 189,
-      "views": 228,
+      "reach": 190,
+      "views": 229,
       "saved": 0,
       "shares": 1
     },
@@ -942,8 +948,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 33,
+      "reach": 29,
+      "views": 34,
       "saved": 0,
       "shares": 0
     },
@@ -1325,7 +1331,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T00:02:16.970Z",
+  "actualizado": "2026-11-02T01:01:50.862Z",
   "aud": {
     "edad": [
       {
