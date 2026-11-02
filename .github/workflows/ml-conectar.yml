@@ -1,0 +1,51 @@
+name: Conectar Mercado Libre
+
+on:
+  workflow_dispatch:
+    inputs:
+      codigo:
+        description: 'Pegá la dirección completa a la que te llevó Mercado Libre (o solo el código TG-...)'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  conectar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Canjear codigo y guardar acceso
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          ENTRADA: ${{ inputs.codigo }}
+          REDIRECT_URI: https://zucchiattibot.github.io/Panel---financiero/
+        run: |
+          set -u
+          if [ -z "$ML_CLIENT_ID" ] || [ -z "$ML_CLIENT_SECRET" ] || [ -z "$GH_TOKEN" ]; then
+            echo "Faltan secrets: ML_CLIENT_ID, ML_CLIENT_SECRET o GH_PAT"; exit 1
+          fi
+          CODE=$(printf '%s' "$ENTRADA" | sed -n 's/.*[?&]code=\([^&# ]*\).*/\1/p')
+          if [ -z "$CODE" ]; then CODE=$(printf '%s' "$ENTRADA" | tr -d '[:space:]'); fi
+          echo "::add-mask::$CODE"
+          RESP=$(curl -sS -X POST https://api.mercadolibre.com/oauth/token \
+            -H 'accept: application/json' \
+            -H 'content-type: application/x-www-form-urlencoded' \
+            --data-urlencode grant_type=authorization_code \
+            --data-urlencode client_id="$ML_CLIENT_ID" \
+            --data-urlencode client_secret="$ML_CLIENT_SECRET" \
+            --data-urlencode code="$CODE" \
+            --data-urlencode redirect_uri="$REDIRECT_URI")
+          REFRESH=$(printf '%s' "$RESP" | jq -r '.refresh_token // empty')
+          if [ -z "$REFRESH" ]; then
+            echo "Mercado Libre rechazo el codigo:"
+            printf '%s' "$RESP" | jq -r '[.error, .message] | map(select(. != null)) | join(" - ")'
+            echo "El codigo vale una sola vez y vence en minutos: genera uno nuevo y volve a correr esto."
+            exit 1
+          fi
+          echo "::add-mask::$REFRESH"
+          USERID=$(printf '%s' "$RESP" | jq -r '.user_id // empty')
+          gh secret set ML_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" --body "$REFRESH"
+          if [ -n "$USERID" ]; then gh secret set ML_USER_ID --repo "$GITHUB_REPOSITORY" --body "$USERID"; fi
+          echo "Listo: Mercado Libre conectado (usuario $USERID)."
