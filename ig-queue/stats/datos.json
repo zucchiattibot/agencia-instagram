@@ -717,8 +717,8 @@
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 127,
-      "v": 150
+      "a": 130,
+      "v": 153
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,26 +729,32 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 108,
-      "v": 121
+      "a": 113,
+      "v": 122
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 103,
-      "v": 111
+      "a": 107,
+      "v": 112
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 98
+      "a": 93,
+      "v": 100
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 52
+      "a": 49,
+      "v": 59
+    },
+    "18107928683371137": {
+      "t": "2026-11-02T16:38:50+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 3
     }
   },
   "seguidores": {
@@ -780,17 +786,30 @@
     "username": "agenciaalbor",
     "followers_count": 1397,
     "follows_count": 641,
-    "media_count": 627,
+    "media_count": 628,
     "id": "28888466970748824",
-    "el": "2026-11-02T16:02:16.826Z"
+    "el": "2026-11-02T17:01:47.894Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 26348,
+    "views": 26373,
     "profile_views": 91,
     "accounts_engaged": 272
   },
   "posts": [
+    {
+      "id": "17950004568066900",
+      "timestamp": "2026-11-02T16:39:37+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfPwW7GCBLD/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 16,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18090713762703741",
       "timestamp": "2026-11-02T11:02:14+0000",
@@ -903,8 +922,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 61,
+      "reach": 32,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -1034,7 +1053,7 @@
       "comments_count": 0,
       "caption": "Si en casa ya suena \"La marcha de mi gallo\" doscientas veces al día, sabés perfecto de qué estamos hablando. 🐓\n\nDale una tregua a la tele y sumá historias nuevas con este libro para armar y jugar. \n\nEncontralo en Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra GRANJA y te contamos cómo reservarlo.\n\n#lagranjazenon #carloscasares #librosinfantiles\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 26,
-      "views": 33,
+      "views": 34,
       "saved": 0,
       "shares": 0
     },
@@ -1351,7 +1370,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T16:02:27.457Z",
+  "actualizado": "2026-11-02T17:02:01.765Z",
   "aud": {
     "edad": [
       {
