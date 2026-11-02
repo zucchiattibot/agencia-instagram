@@ -2,7 +2,10 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-02 09:00": "ok"
+    "2026-11-02 09:00": "ok",
+    "2026-11-02 12:15": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -73,18 +76,20 @@
     "mvauzxv7pts",
     "mvid6cb0sd3"
   ],
-  "statsEl": "2026-11-02T15:02:01.877Z",
+  "statsEl": "2026-11-02T16:02:27.457Z",
   "stUltima": {
-    "cuando": "2026-11-02T12:01:57.751Z",
-    "franja": "09:00",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-02T16:02:14.633Z",
+    "franja": "12:15",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-02T15:01:46.882Z",
+    "cuando": "2026-11-02T16:01:48.696Z",
     "cola": 151,
     "enRepo": 151,
-    "pendientes": []
+    "pendientes": [
+      "12:15"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -474,5 +479,6 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01"
+  "stRepruebaUlt": "2026-11-01",
+  "stError": "Instagram no pudo procesar el archivo (ERROR)."
 }

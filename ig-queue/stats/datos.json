@@ -717,8 +717,8 @@
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 125,
-      "v": 147
+      "a": 127,
+      "v": 150
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -730,25 +730,25 @@
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
       "a": 108,
-      "v": 117
+      "v": 121
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 102,
-      "v": 107
+      "a": 103,
+      "v": 111
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 87,
-      "v": 94
+      "a": 89,
+      "v": 98
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
       "a": 39,
-      "v": 46
+      "v": 52
     }
   },
   "seguidores": {
@@ -782,11 +782,11 @@
     "follows_count": 641,
     "media_count": 627,
     "id": "28888466970748824",
-    "el": "2026-11-02T15:01:49.663Z"
+    "el": "2026-11-02T16:02:16.826Z"
   },
   "res30": {
-    "reach": 4684,
-    "views": 26331,
+    "reach": 4704,
+    "views": 26348,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -799,7 +799,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
+      "reach": 22,
       "views": 30,
       "saved": 0,
       "shares": 0
@@ -864,7 +864,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 195,
+      "reach": 196,
       "views": 236,
       "saved": 0,
       "shares": 1
@@ -1072,7 +1072,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Volver a cocinar como antes, con ese guisito que se hace lento y sale con todo el sabor, es más fácil cuando tenés el fierro indicado en la hornalla. 🍲 Encontrá el nuevo fascículo de la colección de ollas y sartenes en Maipú 175, Agencia Albor, Carlos Casares, y animate a probar esas salsas que perfuman toda la casa. Si querés equipar tu cocina o tenés un emprendimiento, también hacemos ventas por mayor: consultá por cantidades y precios. Mandanos un mensaje directo y reservalo antes de que vuele.\n#ollasysartenes #recetascaseras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 91,
+      "reach": 92,
       "views": 112,
       "saved": 0,
       "shares": 1
@@ -1351,7 +1351,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T15:02:01.877Z",
+  "actualizado": "2026-11-02T16:02:27.457Z",
   "aud": {
     "edad": [
       {
