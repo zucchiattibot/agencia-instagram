@@ -3,9 +3,7 @@
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-02 09:00": "ok",
-    "2026-11-02 12:15": {
-      "intentos": 1
-    }
+    "2026-11-02 12:15": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -74,17 +72,18 @@
     "mvaxbvkuckv",
     "mvr0kcygoff",
     "mvauzxv7pts",
-    "mvid6cb0sd3"
+    "mvid6cb0sd3",
+    "mvaxc9xftzb"
   ],
   "statsEl": "2026-11-02T16:02:27.457Z",
   "stUltima": {
-    "cuando": "2026-11-02T16:02:14.633Z",
+    "cuando": "2026-11-02T16:38:58.876Z",
     "franja": "12:15",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-02T16:01:48.696Z",
+    "cuando": "2026-11-02T16:38:44.587Z",
     "cola": 151,
     "enRepo": 151,
     "pendientes": [
@@ -93,7 +92,8 @@
   },
   "fdig": {
     "franjas": {
-      "2026-11-02 08:00": "ok"
+      "2026-11-02 08:00": "ok",
+      "2026-11-02 13:15": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -116,11 +116,12 @@
       "mrcmvp3dmrgv06grk-ig",
       "mrcmvl9eh2gjav6ib-ig",
       "mrcmvl9ewp8zu938d-ig",
-      "mrcmvl9fcivg188e4-ig"
+      "mrcmvl9fcivg188e4-ig",
+      "mrcmvl9fodfhb7wl7-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-02T11:02:21.882Z",
-      "franja": "08:00",
+      "cuando": "2026-11-02T16:39:47.055Z",
+      "franja": "13:15",
       "ok": 1,
       "fallos": 0
     },
@@ -139,10 +140,12 @@
       "mrcmvp3dmrgv06grk-ig": "2026-10-31T01:02:10.184Z",
       "mrcmvl9eh2gjav6ib-ig": "2026-10-31T14:02:23.589Z",
       "mrcmvl9ewp8zu938d-ig": "2026-11-01T01:02:18.842Z",
-      "mrcmvl9fcivg188e4-ig": "2026-11-02T11:02:21.881Z"
+      "mrcmvl9fcivg188e4-ig": "2026-11-02T11:02:21.881Z",
+      "mrcmvl9fodfhb7wl7-ig": "2026-11-02T16:39:47.054Z"
     },
     "usadosDia": {
-      "mrcmvl9fcivg188e4-ig": "2026-11-02"
+      "mrcmvl9fcivg188e4-ig": "2026-11-02",
+      "mrcmvl9fodfhb7wl7-ig": "2026-11-02"
     },
     "carga": {
       "nivel": 0,
@@ -242,7 +245,7 @@
     "pruebaUlt": "2026-11-02"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvid6cb0sd3",
+  "stUltimaId": "mvaxc9xftzb",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -268,10 +271,12 @@
     "mvaxbvkuckv": "2026-11-01T21:01:57.526Z",
     "mvr0kcygoff": "2026-11-01T23:02:26.616Z",
     "mvauzxv7pts": "2026-11-01T23:23:38.065Z",
-    "mvid6cb0sd3": "2026-11-02T12:01:57.751Z"
+    "mvid6cb0sd3": "2026-11-02T12:01:57.751Z",
+    "mvaxc9xftzb": "2026-11-02T16:38:58.876Z"
   },
   "stUsadosDia": {
-    "mvid6cb0sd3": "2026-11-02"
+    "mvid6cb0sd3": "2026-11-02",
+    "mvaxc9xftzb": "2026-11-02"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -479,6 +484,5 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01",
-  "stError": "Instagram no pudo procesar el archivo (ERROR)."
+  "stRepruebaUlt": "2026-11-01"
 }
