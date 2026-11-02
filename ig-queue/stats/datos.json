@@ -729,32 +729,32 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 121,
-      "v": 131
+      "a": 124,
+      "v": 133
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 115,
-      "v": 120
+      "a": 117,
+      "v": 122
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 100,
-      "v": 108
+      "a": 104,
+      "v": 111
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 62,
-      "v": 73
+      "a": 67,
+      "v": 77
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 25
+      "a": 29,
+      "v": 31
     }
   },
   "seguidores": {
@@ -788,11 +788,11 @@
     "follows_count": 641,
     "media_count": 628,
     "id": "28888466970748824",
-    "el": "2026-11-02T19:01:53.301Z"
+    "el": "2026-11-02T20:02:26.446Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 26469,
+    "views": 26493,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -805,8 +805,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 25,
+      "reach": 15,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -1370,7 +1370,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T19:02:03.929Z",
+  "actualizado": "2026-11-02T20:02:41.888Z",
   "aud": {
     "edad": [
       {
