@@ -711,14 +711,14 @@
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 113,
-      "v": 126
+      "a": 121,
+      "v": 137
     },
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 85
+      "a": 81,
+      "v": 96
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,20 +729,20 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 32,
-      "v": 45
+      "a": 53,
+      "v": 60
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 26,
-      "v": 37
+      "a": 44,
+      "v": 48
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 8,
-      "v": 18
+      "a": 30,
+      "v": 35
     }
   },
   "seguidores": {
@@ -775,11 +775,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-02T01:01:42.726Z"
+    "el": "2026-11-02T02:01:41.728Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25880,
+    "views": 25980,
     "profile_views": 91,
     "accounts_engaged": 275
   },
@@ -792,8 +792,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 63,
-      "views": 79,
+      "reach": 64,
+      "views": 81,
       "saved": 0,
       "shares": 0
     },
@@ -844,8 +844,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 190,
-      "views": 229,
+      "reach": 192,
+      "views": 231,
       "saved": 0,
       "shares": 1
     },
@@ -896,8 +896,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Aquellas tardes de mate y lectura donde pasabas las hojas sin sentir el paso de las horas vuelven con estas novelas. 📖 \nSi te atrapan las tramas donde el amor y el misterio van de la mano, guardá tu ejemplar en Agencia Albor y disfrutá de un buen libro.\nConsultá por WhatsApp al 2395 41-7834 y te lo guardamos.\n\n#florenciabonelli #novela #carloscasares",
-      "reach": 26,
-      "views": 45,
+      "reach": 27,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -922,8 +922,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 40,
+      "reach": 32,
+      "views": 41,
       "saved": 0,
       "shares": 0
     },
@@ -1331,7 +1331,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T01:01:50.862Z",
+  "actualizado": "2026-11-02T02:01:53.182Z",
   "aud": {
     "edad": [
       {
