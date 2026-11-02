@@ -65,7 +65,8 @@ jobs:
             MARCA=$(jq -r '.marca // empty' "$f"); [ -z "$MARCA" ] && MARCA="Genérica"
             MODELO=$(jq -r '.modelo // empty' "$f"); [ -z "$MODELO" ] && MODELO="$TIT"
             CATATTR=$(curl -sS "https://api.mercadolibre.com/categories/$CAT/attributes" -H "Authorization: Bearer $TOKEN")
-            ATTRS=$(printf '%s' "$CATATTR" | jq -c --arg b "$MARCA" --arg m "$MODELO" '[ .[] | .id as $i | if $i=="BRAND" then {id:"BRAND",value_name:$b} elif $i=="MODEL" then {id:"MODEL",value_name:$m} elif $i=="EMPTY_GTIN_REASON" then {id:"EMPTY_GTIN_REASON",value_id:"17055160"} else empty end ]' 2>/dev/null) || ATTRS='[]'
+            IVA=$(jq -r '.iva // "21 %"' "$f"); IMP=$(jq -r '.imp // "0 %"' "$f")
+            ATTRS=$(printf '%s' "$CATATTR" | jq -c --arg b "$MARCA" --arg m "$MODELO" --arg iva "$IVA" --arg imp "$IMP" 'def nz($s): ($s | gsub(" ";"") | ascii_downcase); def put($a;$n): (($a.values // []) | map(select(nz(.name) == nz($n))) | .[0].id // null) as $x | if $x then {id:$a.id,value_id:$x} else {id:$a.id,value_name:$n} end; [ .[] | . as $a | $a.id as $i | if $i=="BRAND" then {id:"BRAND",value_name:$b} elif $i=="MODEL" then {id:"MODEL",value_name:$m} elif $i=="EMPTY_GTIN_REASON" then {id:"EMPTY_GTIN_REASON",value_id:"17055160"} elif $i=="VALUE_ADDED_TAX" then put($a;$iva) elif $i=="IMPORT_DUTY" then put($a;$imp) else empty end ]' 2>/dev/null) || ATTRS='[]'
             [ -z "$ATTRS" ] && ATTRS='[]'
             FALTAN=$(printf '%s' "$CATATTR" | jq -r '[.[] | select(.tags.required==true or .tags.catalog_required==true or .tags.conditional_required==true) | .id + " (" + .name + ")"] | join(", ")' 2>/dev/null)
             BODY=$(jq --arg c "$CAT" --arg pid "$PID" --argjson at "$ATTRS" --argjson pics "$PICS" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:$pics,attributes:$at}' "$f")
