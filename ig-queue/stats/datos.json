@@ -711,14 +711,14 @@
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 102,
-      "v": 111
+      "a": 106,
+      "v": 116
     },
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 62
+      "a": 60,
+      "v": 71
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,8 +729,14 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 18,
+      "v": 25
+    },
+    "17974109901174632": {
+      "t": "2026-11-01T23:22:58+0000",
+      "tipo": "VIDEO",
+      "a": 7,
+      "v": 14
     }
   },
   "seguidores": {
@@ -763,11 +769,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-01T23:02:29.738Z"
+    "el": "2026-11-02T00:02:00.191Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25774,
+    "views": 25820,
     "profile_views": 91,
     "accounts_engaged": 273
   },
@@ -806,7 +812,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 48,
+      "reach": 49,
       "views": 63,
       "saved": 0,
       "shares": 0
@@ -1014,8 +1020,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 41,
-      "views": 105,
+      "reach": 42,
+      "views": 106,
       "saved": 0,
       "shares": 0
     },
@@ -1319,7 +1325,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-01T23:02:39.237Z",
+  "actualizado": "2026-11-02T00:02:16.970Z",
   "aud": {
     "edad": [
       {
