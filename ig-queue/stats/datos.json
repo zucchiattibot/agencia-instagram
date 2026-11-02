@@ -735,32 +735,38 @@
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 119,
-      "v": 126
+      "a": 120,
+      "v": 127
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 106,
-      "v": 117
+      "a": 108,
+      "v": 118
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 87
+      "a": 76,
+      "v": 89
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 45
+      "a": 43,
+      "v": 49
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 10,
-      "v": 17
+      "a": 22,
+      "v": 27
+    },
+    "18117177245334851": {
+      "t": "2026-11-02T23:02:27+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -794,11 +800,11 @@
     "follows_count": 641,
     "media_count": 628,
     "id": "28888466970748824",
-    "el": "2026-11-02T22:02:12.430Z"
+    "el": "2026-11-02T23:03:01.325Z"
   },
   "res30": {
     "reach": 4714,
-    "views": 26555,
+    "views": 26592,
     "profile_views": 93,
     "accounts_engaged": 272
   },
@@ -811,8 +817,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 31,
+      "reach": 22,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -824,8 +830,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
-      "views": 35,
+      "reach": 28,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -863,7 +869,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 49,
+      "reach": 50,
       "views": 65,
       "saved": 0,
       "shares": 0
@@ -889,8 +895,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 197,
-      "views": 241,
+      "reach": 198,
+      "views": 242,
       "saved": 0,
       "shares": 1
     },
@@ -968,7 +974,7 @@
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 41,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -1376,7 +1382,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T22:02:22.822Z",
+  "actualizado": "2026-11-02T23:03:19.881Z",
   "aud": {
     "edad": [
       {
@@ -1454,14 +1460,14 @@
           "35-44",
           "M"
         ],
-        "v": 150
+        "v": 148
       },
       {
         "d": [
           "45-54",
           "M"
         ],
-        "v": 142
+        "v": 143
       },
       {
         "d": [
@@ -1536,12 +1542,6 @@
       },
       {
         "d": [
-          "Palhoça, Santa Catarina"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -1560,15 +1560,21 @@
       },
       {
         "d": [
-          "Guatire, Miranda (state)"
+          "San Luis, San Luis"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Lagos, Lagos State"
         ],
         "v": 1
       },
       {
         "d": [
-          "San Luis, San Luis"
+          "Tijuana, Baja California"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
@@ -1596,7 +1602,7 @@
       },
       {
         "d": [
-          "Colonia San Bartolomé, Córdoba"
+          "Coronel Granada, Buenos Aires"
         ],
         "v": 1
       },
@@ -1608,13 +1614,13 @@
       },
       {
         "d": [
-          "Mar del Plata, Buenos Aires"
+          "Las Toscas, Buenos Aires"
         ],
         "v": 5
       },
       {
         "d": [
-          "Las Toscas, Buenos Aires"
+          "Mar del Plata, Buenos Aires"
         ],
         "v": 5
       },
@@ -1626,7 +1632,7 @@
       },
       {
         "d": [
-          "Hinojo, Buenos Aires"
+          "Azul, Buenos Aires"
         ],
         "v": 1
       },
@@ -1650,18 +1656,6 @@
       },
       {
         "d": [
-          "Godoy Cruz, Mendoza"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Munro, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "Quiroga, Buenos Aires"
         ],
         "v": 5
@@ -1680,19 +1674,25 @@
       },
       {
         "d": [
-          "Miramar, Buenos Aires"
+          "López Mateos, State of Mexico"
         ],
         "v": 1
       },
       {
         "d": [
-          "Timon, Maranhão"
+          "Lobos, Buenos Aires"
         ],
         "v": 1
       },
       {
         "d": [
-          "Pinamar, Buenos Aires"
+          "Villa Leloir, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Daireaux, Buenos Aires"
         ],
         "v": 1
       },
@@ -1734,7 +1734,7 @@
       },
       {
         "d": [
-          "Patricios, Buenos Aires"
+          "Lanús, Buenos Aires"
         ],
         "v": 1
       },
@@ -1752,6 +1752,12 @@
       },
       {
         "d": [
+          "Concepción de la Sierra, Misiones"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "San Carlos de Bolívar, Buenos Aires"
         ],
         "v": 9
@@ -1764,13 +1770,13 @@
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -1870,7 +1876,7 @@
         "d": [
           "AR"
         ],
-        "v": 1338
+        "v": 1337
       },
       {
         "d": [
@@ -1897,7 +1903,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-02T03:01:48.841Z"
+    "el": "2026-11-02T23:03:16.639Z"
   },
   "dias": {
     "2026-10-11": {
