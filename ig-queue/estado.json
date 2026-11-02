@@ -4,9 +4,7 @@
   "stFranjas": {
     "2026-11-02 09:00": "ok",
     "2026-11-02 12:15": "ok",
-    "2026-11-02 16:45": {
-      "intentos": 1
-    }
+    "2026-11-02 16:45": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -70,17 +68,18 @@
     "mvr0kcygoff",
     "mvauzxv7pts",
     "mvid6cb0sd3",
-    "mvaxc9xftzb"
+    "mvaxc9xftzb",
+    "mvimw8718fa"
   ],
   "statsEl": "2026-11-02T20:02:41.888Z",
   "stUltima": {
-    "cuando": "2026-11-02T20:01:55.107Z",
+    "cuando": "2026-11-02T20:50:08.121Z",
     "franja": "16:45",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-02T20:01:43.782Z",
+    "cuando": "2026-11-02T20:49:52.565Z",
     "cola": 142,
     "enRepo": 142,
     "pendientes": [
@@ -225,7 +224,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-02",
@@ -242,7 +241,7 @@
     "pruebaUlt": "2026-11-02"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvaxc9xftzb",
+  "stUltimaId": "mvimw8718fa",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -266,11 +265,13 @@
     "mvr0kcygoff": "2026-11-01T23:02:26.616Z",
     "mvauzxv7pts": "2026-11-01T23:23:38.065Z",
     "mvid6cb0sd3": "2026-11-02T12:01:57.751Z",
-    "mvaxc9xftzb": "2026-11-02T16:38:58.876Z"
+    "mvaxc9xftzb": "2026-11-02T16:38:58.876Z",
+    "mvimw8718fa": "2026-11-02T20:50:08.121Z"
   },
   "stUsadosDia": {
     "mvid6cb0sd3": "2026-11-02",
-    "mvaxc9xftzb": "2026-11-02"
+    "mvaxc9xftzb": "2026-11-02",
+    "mvimw8718fa": "2026-11-02"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -478,6 +479,5 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01",
-  "stError": "Instagram no pudo procesar el archivo (ERROR)."
+  "stRepruebaUlt": "2026-11-01"
 }
