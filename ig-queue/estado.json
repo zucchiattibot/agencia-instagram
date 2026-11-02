@@ -1,13 +1,7 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-01 08:00": "ok",
-    "2026-11-01 15:00": "ok",
-    "2026-11-01 18:00": "ok",
-    "2026-11-01 19:30": "ok",
-    "2026-11-01 20:00": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -76,7 +70,7 @@
     "mvr0kcygoff",
     "mvauzxv7pts"
   ],
-  "statsEl": "2026-11-02T02:01:53.182Z",
+  "statsEl": "2026-11-02T03:01:51.005Z",
   "stUltima": {
     "cuando": "2026-11-01T23:23:38.065Z",
     "franja": "19:30",
@@ -84,7 +78,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-02T02:01:38.973Z",
+    "cuando": "2026-11-02T03:01:40.016Z",
     "cola": 151,
     "enRepo": 151,
     "pendientes": []
@@ -138,25 +132,23 @@
     "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-01",
+      "dia": "2026-11-02",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
     "ultimaProv": "Clarín",
     "prueba": {
-      "dia": "2026-11-01",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-02",
+      "h": "08:00",
+      "de": "18:45",
+      "tramo": "primera mañana"
     },
     "pruebaRec": [],
-    "pruebaUlt": "2026-10-31"
+    "pruebaUlt": "2026-11-02"
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-01 12:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
@@ -201,25 +193,23 @@
       "cmvlrq0ss-fb": "2026-10-31T23:03:53.076Z",
       "cmvk5ixvr-fb": "2026-11-01T15:01:47.705Z"
     },
-    "usadosDia": {
-      "cmvk5ixvr-fb": "2026-11-01"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-01",
+      "dia": "2026-11-02",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
     "ultimaProv": "Clarín",
     "prueba": {
-      "dia": "2026-11-01",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-02",
+      "h": "08:00",
+      "de": "12:45",
+      "tramo": "primera mañana"
     },
     "pruebaRec": [],
-    "pruebaUlt": "2026-10-31"
+    "pruebaUlt": "2026-11-02"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvauzxv7pts",
@@ -249,13 +239,7 @@
     "mvr0kcygoff": "2026-11-01T23:02:26.616Z",
     "mvauzxv7pts": "2026-11-01T23:23:38.065Z"
   },
-  "stUsadosDia": {
-    "mvjo13ej29y": "2026-11-01",
-    "mvawxnxnd4z": "2026-11-01",
-    "mvaxbvkuckv": "2026-11-01",
-    "mvr0kcygoff": "2026-11-01",
-    "mvauzxv7pts": "2026-11-01"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -445,10 +429,10 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
   "stPrueba": {
-    "dia": "2026-11-01",
-    "h": "08:00",
-    "de": "12:45",
-    "tramo": "primera mañana"
+    "dia": "2026-11-02",
+    "h": "",
+    "de": "",
+    "tramo": ""
   },
   "stPruebaRec": [
     {
@@ -462,6 +446,5 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01",
-  "stInfoPrueba": "Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45."
+  "stRepruebaUlt": "2026-11-01"
 }

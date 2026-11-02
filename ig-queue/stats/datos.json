@@ -711,14 +711,14 @@
     "17913707694487051": {
       "t": "2026-11-01T11:01:51+0000",
       "tipo": "IMAGE",
-      "a": 121,
-      "v": 137
+      "a": 129,
+      "v": 144
     },
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 96
+      "a": 89,
+      "v": 104
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,20 +729,20 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 53,
-      "v": 60
+      "a": 63,
+      "v": 72
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 44,
-      "v": 48
+      "a": 52,
+      "v": 60
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 30,
-      "v": 35
+      "a": 39,
+      "v": 45
     }
   },
   "seguidores": {
@@ -767,7 +767,8 @@
     "2026-10-29": 1397,
     "2026-10-30": 1398,
     "2026-10-31": 1397,
-    "2026-11-01": 1397
+    "2026-11-01": 1397,
+    "2026-11-02": 1397
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -775,11 +776,11 @@
     "follows_count": 641,
     "media_count": 626,
     "id": "28888466970748824",
-    "el": "2026-11-02T02:01:41.728Z"
+    "el": "2026-11-02T03:01:42.430Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 25980,
+    "views": 26029,
     "profile_views": 91,
     "accounts_engaged": 275
   },
@@ -792,7 +793,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 64,
+      "reach": 65,
       "views": 81,
       "saved": 0,
       "shares": 0
@@ -909,7 +910,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
+      "reach": 32,
       "views": 49,
       "saved": 0,
       "shares": 0
@@ -935,8 +936,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 36,
+      "reach": 26,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -1331,7 +1332,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T02:01:53.182Z",
+  "actualizado": "2026-11-02T03:01:51.005Z",
   "aud": {
     "edad": [
       {
@@ -1852,7 +1853,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-01T06:02:01.367Z"
+    "el": "2026-11-02T03:01:48.841Z"
   },
   "dias": {
     "2026-10-11": {
@@ -2054,6 +2055,10 @@
     "2026-10-31": {
       "a": 213,
       "v": 564
+    },
+    "2026-11-01": {
+      "a": 203,
+      "v": 857
     }
   }
 }
