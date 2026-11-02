@@ -279,15 +279,6 @@
       "ord": 1792625543375
     },
     {
-      "id": "mrcmvi6xv6sez428q-fb",
-      "matId": "rcmvi6xv6sez428q",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmvi6xv6sez428q.jpg",
-      "caption": "El agua fresca siempre a mano, sin andar cargando con botellas que se rompen o se abren en la mochila. Esta botella hermética, reutilizable y súper cómoda te acompaña a todos lados: a caminar, a la oficina o de viaje. Elegí cuidar el planeta y tu bolsillo sumando un clásico que no falla. \n\nEscribinos por mensaje privado o mandanos un WhatsApp para encargar la tuya y pasar a retirarla por Agencia Albor, Carlos Casares.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1792625547083
-    },
-    {
       "id": "mrcmvgo0q2mooqf73-fb",
       "matId": "rcmvgo0q2mooqf73",
       "tipo": "video",
@@ -624,6 +615,7 @@
   "publicadas": [
     "rcmvig0klfnulc2i",
     "rcmvl2gs4nrjsef0",
-    "rcmvl2g3jjkky6r1"
+    "rcmvl2g3jjkky6r1",
+    "rcmvi6xv6sez428q"
   ]
 }
