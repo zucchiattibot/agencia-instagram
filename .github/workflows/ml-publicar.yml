@@ -48,12 +48,27 @@ jobs:
             if [ -z "$PID" ]; then
               jq -n --arg e "No se pudo subir la foto: $(printf '%s' "$PIC" | head -c 300)" '{ok:false,error:$e}' > "ml-queue/done/$ID.json"; continue
             fi
+            PICS=$(jq -cn --arg p "$PID" '[{id:$p}]')
+            NF=$(jq -r '.fotos // 0' "$f")
+            for i in $(seq 1 "$NF"); do
+              if [ -e "ml-queue/media/$ID-$i.jpg" ]; then
+                P2=$(curl -sS -X POST https://api.mercadolibre.com/pictures/items/upload -H "Authorization: Bearer $TOKEN" -F "file=@ml-queue/media/$ID-$i.jpg")
+                PI=$(printf '%s' "$P2" | jq -r '.id // empty')
+                if [ -n "$PI" ]; then PICS=$(printf '%s' "$PICS" | jq -c --arg p "$PI" '. + [{id:$p}]'); fi
+              fi
+            done
             TIT=$(jq -r '.titulo' "$f")
             CAT=$(jq -r '.categoria // empty' "$f")
             if [ -z "$CAT" ]; then
               CAT=$(curl -sS -G https://api.mercadolibre.com/sites/MLA/domain_discovery/search --data-urlencode "q=$TIT" --data-urlencode limit=1 | jq -r '.[0].category_id // empty')
             fi
-            BODY=$(jq --arg c "$CAT" --arg pid "$PID" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:[{id:$pid}]}' "$f")
+            MARCA=$(jq -r '.marca // empty' "$f"); [ -z "$MARCA" ] && MARCA="Genérica"
+            MODELO=$(jq -r '.modelo // empty' "$f"); [ -z "$MODELO" ] && MODELO="$TIT"
+            CATATTR=$(curl -sS "https://api.mercadolibre.com/categories/$CAT/attributes" -H "Authorization: Bearer $TOKEN")
+            ATTRS=$(printf '%s' "$CATATTR" | jq -c --arg b "$MARCA" --arg m "$MODELO" '[ .[] | .id as $i | if $i=="BRAND" then {id:"BRAND",value_name:$b} elif $i=="MODEL" then {id:"MODEL",value_name:$m} elif $i=="EMPTY_GTIN_REASON" then {id:"EMPTY_GTIN_REASON",value_id:"17055160"} else empty end ]' 2>/dev/null) || ATTRS='[]'
+            [ -z "$ATTRS" ] && ATTRS='[]'
+            FALTAN=$(printf '%s' "$CATATTR" | jq -r '[.[] | select(.tags.required==true or .tags.catalog_required==true or .tags.conditional_required==true) | .id + " (" + .name + ")"] | join(", ")' 2>/dev/null)
+            BODY=$(jq --arg c "$CAT" --arg pid "$PID" --argjson at "$ATTRS" --argjson pics "$PICS" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:$pics,attributes:$at}' "$f")
             RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
             IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
             if [ -z "$IDML" ] && printf '%s' "$RES" | grep -q 'family_name'; then
@@ -65,9 +80,9 @@ jobs:
               jq '{plain_text:.descripcion}' "$f" | curl -sS -X POST "https://api.mercadolibre.com/items/$IDML/description" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @- > /dev/null
               jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" '{ok:true,id:$id,permalink:$l,categoria:$c}' > "ml-queue/done/$ID.json"
             else
-              jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" '{ok:false,error:$e,categoria:$c}' > "ml-queue/done/$ID.json"
+              jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" --arg fl "$FALTAN" '{ok:false,error:$e,categoria:$c,faltan:$fl}' > "ml-queue/done/$ID.json"
             fi
-            git rm -q --ignore-unmatch "ml-queue/media/$ID.jpg"
+            git rm -q --ignore-unmatch -- "ml-queue/media/$ID.jpg" ml-queue/media/$ID-*.jpg
           done
           git config user.name "panel-ml"; git config user.email "panel-ml@users.noreply.github.com"
           git add ml-queue/done
