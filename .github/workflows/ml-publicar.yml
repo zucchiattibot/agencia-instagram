@@ -1,0 +1,71 @@
+name: Publicar en Mercado Libre
+
+on:
+  push:
+    paths:
+      - 'ml-queue/pending/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ml-publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar pendientes
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+          ML_REFRESH_TOKEN: ${{ secrets.ML_REFRESH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          set -u
+          mkdir -p ml-queue/done
+          RESP=$(curl -sS -X POST https://api.mercadolibre.com/oauth/token \
+            -H 'accept: application/json' -H 'content-type: application/x-www-form-urlencoded' \
+            --data-urlencode grant_type=refresh_token --data-urlencode client_id="$ML_CLIENT_ID" \
+            --data-urlencode client_secret="$ML_CLIENT_SECRET" --data-urlencode refresh_token="$ML_REFRESH_TOKEN")
+          TOKEN=$(printf '%s' "$RESP" | jq -r '.access_token // empty')
+          NEWREF=$(printf '%s' "$RESP" | jq -r '.refresh_token // empty')
+          [ -n "$TOKEN" ] && echo "::add-mask::$TOKEN"
+          [ -n "$NEWREF" ] && echo "::add-mask::$NEWREF"
+          if [ -n "$NEWREF" ]; then gh secret set ML_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEWREF"; fi
+          for f in ml-queue/pending/*.json; do
+            [ -e "$f" ] || continue
+            ID=$(basename "$f" .json)
+            [ -e "ml-queue/done/$ID.json" ] && continue
+            if [ -z "$TOKEN" ]; then
+              jq -n --arg e "No pude renovar el acceso a Mercado Libre: $(printf '%s' "$RESP" | jq -c '{error,message}')" '{ok:false,error:$e}' > "ml-queue/done/$ID.json"; continue
+            fi
+            PIC=$(curl -sS -X POST https://api.mercadolibre.com/pictures/items/upload -H "Authorization: Bearer $TOKEN" -F "file=@ml-queue/media/$ID.jpg")
+            PID=$(printf '%s' "$PIC" | jq -r '.id // empty')
+            if [ -z "$PID" ]; then
+              jq -n --arg e "No se pudo subir la foto: $(printf '%s' "$PIC" | head -c 300)" '{ok:false,error:$e}' > "ml-queue/done/$ID.json"; continue
+            fi
+            TIT=$(jq -r '.titulo' "$f")
+            CAT=$(jq -r '.categoria // empty' "$f")
+            if [ -z "$CAT" ]; then
+              CAT=$(curl -sS -G https://api.mercadolibre.com/sites/MLA/domain_discovery/search --data-urlencode "q=$TIT" --data-urlencode limit=1 | jq -r '.[0].category_id // empty')
+            fi
+            BODY=$(jq --arg c "$CAT" --arg pid "$PID" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:[{id:$pid}]}' "$f")
+            RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
+            IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
+            if [ -n "$IDML" ]; then
+              jq '{plain_text:.descripcion}' "$f" | curl -sS -X POST "https://api.mercadolibre.com/items/$IDML/description" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @- > /dev/null
+              jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" '{ok:true,id:$id,permalink:$l,categoria:$c}' > "ml-queue/done/$ID.json"
+            else
+              jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" '{ok:false,error:$e,categoria:$c}' > "ml-queue/done/$ID.json"
+            fi
+            git rm -q --ignore-unmatch "ml-queue/media/$ID.jpg"
+          done
+          git config user.name "panel-ml"; git config user.email "panel-ml@users.noreply.github.com"
+          git add ml-queue/done
+          git commit -m "ml: resultado de publicaciones" || exit 0
+          git pull --rebase -q || true
+          git push
