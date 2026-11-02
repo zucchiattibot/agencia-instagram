@@ -56,6 +56,11 @@ jobs:
             BODY=$(jq --arg c "$CAT" --arg pid "$PID" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:[{id:$pid}]}' "$f")
             RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
             IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
+            if [ -z "$IDML" ] && printf '%s' "$RES" | grep -q 'family_name'; then
+              BODY=$(printf '%s' "$BODY" | jq --arg t "$TIT" 'del(.title) | .family_name=$t')
+              RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
+              IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
+            fi
             if [ -n "$IDML" ]; then
               jq '{plain_text:.descripcion}' "$f" | curl -sS -X POST "https://api.mercadolibre.com/items/$IDML/description" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @- > /dev/null
               jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" '{ok:true,id:$id,permalink:$l,categoria:$c}' > "ml-queue/done/$ID.json"
