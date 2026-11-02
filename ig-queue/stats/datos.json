@@ -729,8 +729,8 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 124,
-      "v": 133
+      "a": 125,
+      "v": 134
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
@@ -747,14 +747,20 @@
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 67,
-      "v": 77
+      "a": 68,
+      "v": 79
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 31
+      "a": 32,
+      "v": 34
+    },
+    "18032966936682135": {
+      "t": "2026-11-02T20:49:59+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 2
     }
   },
   "seguidores": {
@@ -780,19 +786,19 @@
     "2026-10-30": 1398,
     "2026-10-31": 1397,
     "2026-11-01": 1397,
-    "2026-11-02": 1397
+    "2026-11-02": 1398
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1397,
+    "followers_count": 1398,
     "follows_count": 641,
     "media_count": 628,
     "id": "28888466970748824",
-    "el": "2026-11-02T20:02:26.446Z"
+    "el": "2026-11-02T21:01:58.179Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 26493,
+    "views": 26504,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -805,8 +811,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 27,
+      "reach": 17,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -922,8 +928,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 62,
+      "reach": 33,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -987,8 +993,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 29,
-      "views": 34,
+      "reach": 30,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -1370,7 +1376,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T20:02:41.888Z",
+  "actualizado": "2026-11-02T21:02:08.567Z",
   "aud": {
     "edad": [
       {
