@@ -928,13 +928,6 @@
       "origen": "rcmvl9eh2gjav6ib"
     },
     {
-      "id": "mvpn6987uex",
-      "media": "ig-queue/stories/pool-p/mvpn6987uex.jpg",
-      "tipo": "image",
-      "nombre": "1000892390.jpg",
-      "origen": "rcmvpmov6dzvuqvt"
-    },
-    {
       "id": "mvpn6d4bzd2",
       "media": "ig-queue/stories/pool-p/mvpn6d4bzd2.mp4",
       "tipo": "video",
@@ -1133,7 +1126,8 @@
     "rcmt27xorzf4d4w1",
     "rcmu2rr89dfr29y8",
     "rcmtk5jadiuc33i0",
-    "rcmt1l79rnchm1bb"
+    "rcmt1l79rnchm1bb",
+    "rcmvpmov6dzvuqvt"
   ],
   "rotar": {
     "ids": [
@@ -1280,6 +1274,7 @@
     "rcmt27xorzf4d4w1",
     "rcmu2rr89dfr29y8",
     "rcmtk5jadiuc33i0",
-    "rcmt1l79rnchm1bb"
+    "rcmt1l79rnchm1bb",
+    "rcmvpmov6dzvuqvt"
   ]
 }
