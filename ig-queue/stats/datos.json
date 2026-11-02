@@ -717,8 +717,8 @@
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 130,
-      "v": 153
+      "a": 136,
+      "v": 161
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,32 +729,32 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 113,
-      "v": 122
+      "a": 117,
+      "v": 129
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 107,
-      "v": 112
+      "a": 111,
+      "v": 118
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 93,
-      "v": 100
+      "a": 97,
+      "v": 106
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 59
+      "a": 56,
+      "v": 68
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 3
+      "a": 15,
+      "v": 19
     }
   },
   "seguidores": {
@@ -788,11 +788,11 @@
     "follows_count": 641,
     "media_count": 628,
     "id": "28888466970748824",
-    "el": "2026-11-02T17:01:47.894Z"
+    "el": "2026-11-02T18:01:41.710Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 26373,
+    "views": 26436,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -805,8 +805,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 16,
+      "reach": 10,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -818,8 +818,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 30,
+      "reach": 23,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -858,7 +858,7 @@
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 49,
-      "views": 63,
+      "views": 64,
       "saved": 0,
       "shares": 0
     },
@@ -1370,7 +1370,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T17:02:01.765Z",
+  "actualizado": "2026-11-02T18:01:53.682Z",
   "aud": {
     "edad": [
       {
