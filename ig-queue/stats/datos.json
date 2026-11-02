@@ -741,32 +741,32 @@
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 108,
-      "v": 118
+      "a": 110,
+      "v": 121
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 89
+      "a": 78,
+      "v": 93
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 43,
-      "v": 49
+      "a": 49,
+      "v": 55
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 27
+      "a": 31,
+      "v": 39
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 8,
+      "v": 13
     }
   },
   "seguidores": {
@@ -800,11 +800,11 @@
     "follows_count": 641,
     "media_count": 628,
     "id": "28888466970748824",
-    "el": "2026-11-02T23:03:01.325Z"
+    "el": "2026-11-02T23:59:24.664Z"
   },
   "res30": {
     "reach": 4714,
-    "views": 26592,
+    "views": 26633,
     "profile_views": 93,
     "accounts_engaged": 272
   },
@@ -817,8 +817,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 33,
+      "reach": 24,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -830,8 +830,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 38,
+      "reach": 30,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -843,8 +843,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 69,
-      "views": 86,
+      "reach": 70,
+      "views": 89,
       "saved": 0,
       "shares": 0
     },
@@ -896,7 +896,7 @@
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 198,
-      "views": 242,
+      "views": 246,
       "saved": 0,
       "shares": 1
     },
@@ -908,8 +908,8 @@
       "like_count": 8,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 229,
-      "views": 286,
+      "reach": 230,
+      "views": 287,
       "saved": 0,
       "shares": 0
     },
@@ -973,8 +973,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 42,
+      "reach": 34,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -1382,7 +1382,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T23:03:19.881Z",
+  "actualizado": "2026-11-02T23:59:33.823Z",
   "aud": {
     "edad": [
       {
