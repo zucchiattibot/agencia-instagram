@@ -70,7 +70,7 @@
     "mvr0kcygoff",
     "mvauzxv7pts"
   ],
-  "statsEl": "2026-11-02T10:01:48.076Z",
+  "statsEl": "2026-11-02T11:02:38.806Z",
   "stUltima": {
     "cuando": "2026-11-01T23:23:38.065Z",
     "franja": "19:30",
@@ -78,13 +78,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-02T10:01:38.884Z",
+    "cuando": "2026-11-02T11:01:44.069Z",
     "cola": 151,
     "enRepo": 151,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-02 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvl2g3jjkky6r1-ig",
@@ -105,11 +107,12 @@
       "mrcmvp3e1oalc1fe5-ig",
       "mrcmvp3dmrgv06grk-ig",
       "mrcmvl9eh2gjav6ib-ig",
-      "mrcmvl9ewp8zu938d-ig"
+      "mrcmvl9ewp8zu938d-ig",
+      "mrcmvl9fcivg188e4-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-01T01:02:18.843Z",
-      "franja": "21:15",
+      "cuando": "2026-11-02T11:02:21.882Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -127,9 +130,12 @@
       "mrcmvp3e1oalc1fe5-ig": "2026-10-30T21:02:32.392Z",
       "mrcmvp3dmrgv06grk-ig": "2026-10-31T01:02:10.184Z",
       "mrcmvl9eh2gjav6ib-ig": "2026-10-31T14:02:23.589Z",
-      "mrcmvl9ewp8zu938d-ig": "2026-11-01T01:02:18.842Z"
+      "mrcmvl9ewp8zu938d-ig": "2026-11-01T01:02:18.842Z",
+      "mrcmvl9fcivg188e4-ig": "2026-11-02T11:02:21.881Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmvl9fcivg188e4-ig": "2026-11-02"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-02",
@@ -144,11 +150,18 @@
       "de": "18:45",
       "tramo": "primera mañana"
     },
-    "pruebaRec": [],
+    "pruebaRec": [
+      {
+        "t": "2026-11-02T11:02:21.882Z",
+        "tramo": "primera mañana"
+      }
+    ],
     "pruebaUlt": "2026-11-02"
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-02 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvl2g3jjkky6r1-fb",
@@ -169,11 +182,12 @@
       "mrcmvqw4j9ncuo4l7-fb",
       "cmvpmxan2-fb",
       "cmvlrq0ss-fb",
-      "cmvk5ixvr-fb"
+      "cmvk5ixvr-fb",
+      "mrcmvi6xv6sez428q-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-01T15:01:47.706Z",
-      "franja": "12:00",
+      "cuando": "2026-11-02T11:02:26.703Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -191,9 +205,12 @@
       "mrcmvqw4j9ncuo4l7-fb": "2026-10-30T23:02:45.556Z",
       "cmvpmxan2-fb": "2026-10-31T20:01:43.552Z",
       "cmvlrq0ss-fb": "2026-10-31T23:03:53.076Z",
-      "cmvk5ixvr-fb": "2026-11-01T15:01:47.705Z"
+      "cmvk5ixvr-fb": "2026-11-01T15:01:47.705Z",
+      "mrcmvi6xv6sez428q-fb": "2026-11-02T11:02:26.703Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmvi6xv6sez428q-fb": "2026-11-02"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-02",
@@ -208,10 +225,15 @@
       "de": "12:45",
       "tramo": "primera mañana"
     },
-    "pruebaRec": [],
+    "pruebaRec": [
+      {
+        "t": "2026-11-02T11:02:26.703Z",
+        "tramo": "primera mañana"
+      }
+    ],
     "pruebaUlt": "2026-11-02"
   },
-  "errorStats": "historias: fetch failed | facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
+  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvauzxv7pts",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",

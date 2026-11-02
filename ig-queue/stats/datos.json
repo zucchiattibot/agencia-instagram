@@ -717,8 +717,8 @@
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 113
+      "a": 102,
+      "v": 116
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,20 +729,20 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 80
+      "a": 84,
+      "v": 88
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 68,
-      "v": 70
+      "a": 75,
+      "v": 79
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 50,
-      "v": 53
+      "a": 57,
+      "v": 61
     }
   },
   "seguidores": {
@@ -774,17 +774,30 @@
     "username": "agenciaalbor",
     "followers_count": 1397,
     "follows_count": 641,
-    "media_count": 626,
+    "media_count": 627,
     "id": "28888466970748824",
-    "el": "2026-11-02T10:01:39.375Z"
+    "el": "2026-11-02T11:02:29.402Z"
   },
   "res30": {
     "reach": 4655,
-    "views": 26094,
+    "views": 26125,
     "profile_views": 91,
     "accounts_engaged": 272
   },
   "posts": [
+    {
+      "id": "18090713762703741",
+      "timestamp": "2026-11-02T11:02:14+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfPJwmACqXe/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17928778383426173",
       "timestamp": "2026-11-01T01:02:11+0000",
@@ -793,8 +806,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 66,
-      "views": 82,
+      "reach": 67,
+      "views": 83,
       "saved": 0,
       "shares": 0
     },
@@ -845,8 +858,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 193,
-      "views": 233,
+      "reach": 194,
+      "views": 234,
       "saved": 0,
       "shares": 1
     },
@@ -872,7 +885,7 @@
       "comments_count": 0,
       "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 34,
-      "views": 46,
+      "views": 47,
       "saved": 0,
       "shares": 0
     },
@@ -884,7 +897,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
+      "reach": 31,
       "views": 61,
       "saved": 0,
       "shares": 0
@@ -1332,7 +1345,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T10:01:48.076Z",
+  "actualizado": "2026-11-02T11:02:38.806Z",
   "aud": {
     "edad": [
       {
