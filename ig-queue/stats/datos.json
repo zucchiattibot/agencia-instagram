@@ -717,8 +717,8 @@
     "18024677207946351": {
       "t": "2026-11-01T19:01:47+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 125
+      "a": 115,
+      "v": 137
     },
     "18031937186683175": {
       "t": "2026-11-01T21:01:49+0000",
@@ -729,26 +729,26 @@
     "18098326772428066": {
       "t": "2026-11-01T23:02:19+0000",
       "tipo": "IMAGE",
-      "a": 89,
-      "v": 97
+      "a": 98,
+      "v": 105
     },
     "17974109901174632": {
       "t": "2026-11-01T23:22:58+0000",
       "tipo": "VIDEO",
-      "a": 80,
-      "v": 86
+      "a": 89,
+      "v": 95
     },
     "17998882092039936": {
       "t": "2026-11-02T00:26:12+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 67
+      "a": 70,
+      "v": 77
     },
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 14,
+      "v": 19
     }
   },
   "seguidores": {
@@ -782,11 +782,11 @@
     "follows_count": 641,
     "media_count": 627,
     "id": "28888466970748824",
-    "el": "2026-11-02T12:02:00.121Z"
+    "el": "2026-11-02T13:01:45.963Z"
   },
   "res30": {
-    "reach": 4655,
-    "views": 26162,
+    "reach": 4684,
+    "views": 26229,
     "profile_views": 91,
     "accounts_engaged": 272
   },
@@ -799,8 +799,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 13,
+      "reach": 15,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -1351,7 +1351,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-02T12:02:09.399Z",
+  "actualizado": "2026-11-02T13:01:56.123Z",
   "aud": {
     "edad": [
       {

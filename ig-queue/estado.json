@@ -73,7 +73,7 @@
     "mvauzxv7pts",
     "mvid6cb0sd3"
   ],
-  "statsEl": "2026-11-02T12:02:09.399Z",
+  "statsEl": "2026-11-02T13:01:56.123Z",
   "stUltima": {
     "cuando": "2026-11-02T12:01:57.751Z",
     "franja": "09:00",
@@ -81,12 +81,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-02T12:01:44.090Z",
+    "cuando": "2026-11-02T13:01:43.698Z",
     "cola": 151,
     "enRepo": 151,
-    "pendientes": [
-      "09:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
