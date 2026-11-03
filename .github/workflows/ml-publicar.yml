@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'ml-queue/pending/**'
+      - 'ml-queue/borrar/**'
   workflow_dispatch:
 
 permissions:
@@ -68,8 +69,11 @@ jobs:
             IVA=$(jq -r '.iva // "21 %"' "$f"); IMP=$(jq -r '.imp // "0 %"' "$f")
             ATTRS=$(printf '%s' "$CATATTR" | jq -c --arg b "$MARCA" --arg m "$MODELO" --arg iva "$IVA" --arg imp "$IMP" 'def nz($s): ($s | gsub(" ";"") | ascii_downcase); def put($a;$n): (($a.values // []) | map(select(nz(.name) == nz($n))) | .[0].id // null) as $x | if $x then {id:$a.id,value_id:$x} else {id:$a.id,value_name:$n} end; [ .[] | . as $a | $a.id as $i | if $i=="BRAND" then {id:"BRAND",value_name:$b} elif $i=="MODEL" then {id:"MODEL",value_name:$m} elif $i=="EMPTY_GTIN_REASON" then {id:"EMPTY_GTIN_REASON",value_id:"17055160"} elif $i=="VALUE_ADDED_TAX" then put($a;$iva) elif $i=="IMPORT_DUTY" then put($a;$imp) else empty end ]' 2>/dev/null) || ATTRS='[]'
             [ -z "$ATTRS" ] && ATTRS='[]'
+            EXTRA=$(jq -c '.atributos // []' "$f" 2>/dev/null || echo '[]'); GT=$(jq -r '.gtin // empty' "$f")
+            A2=$(jq -cn --argjson a "$ATTRS" --argjson e "$EXTRA" --arg g "$GT" '($e|map(.id)) as $ids | ($a|map(select(.id as $i | (($ids|index($i))==null) and (($g=="") or ($i!="EMPTY_GTIN_REASON"))))) + $e + (if $g!="" then [{id:"GTIN",value_name:$g}] else [] end)' 2>/dev/null) && ATTRS="$A2"
+            SHIP=$(jq -c '(if (.envioGratis==true or (.paquete // "") != "") then {mode:"me2",local_pick_up:false} else {} end) + (if .envioGratis==true then {free_shipping:true} else {} end) + (if (.paquete // "") != "" then {dimensions:.paquete} else {} end)' "$f" 2>/dev/null || echo '{}')
             FALTAN=$(printf '%s' "$CATATTR" | jq -r '[.[] | select(.tags.required==true or .tags.catalog_required==true or .tags.conditional_required==true) | .id + " (" + .name + ")"] | join(", ")' 2>/dev/null)
-            BODY=$(jq --arg c "$CAT" --arg pid "$PID" --argjson at "$ATTRS" --argjson pics "$PICS" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:$pics,attributes:$at}' "$f")
+            BODY=$(jq --arg c "$CAT" --arg pid "$PID" --argjson at "$ATTRS" --argjson pics "$PICS" --argjson sh "$SHIP" '{title:.titulo,category_id:$c,price:(.precio|tonumber),currency_id:"ARS",available_quantity:(.cantidad|tonumber),buying_mode:"buy_it_now",condition:"new",listing_type_id:.listing,pictures:$pics,attributes:$at} + (if ($sh|length)>0 then {shipping:$sh} else {} end)' "$f")
             RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
             IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
             if [ -z "$IDML" ] && printf '%s' "$RES" | grep -q 'family_name'; then
@@ -77,13 +81,37 @@ jobs:
               RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
               IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
             fi
+            SINENVIO=false
+            if [ -z "$IDML" ] && [ "$SHIP" != "{}" ]; then
+              BODY=$(printf '%s' "$BODY" | jq 'del(.shipping)')
+              RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
+              IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
+              [ -n "$IDML" ] && SINENVIO=true
+            fi
             if [ -n "$IDML" ]; then
               jq '{plain_text:.descripcion}' "$f" | curl -sS -X POST "https://api.mercadolibre.com/items/$IDML/description" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @- > /dev/null
-              jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" '{ok:true,id:$id,permalink:$l,categoria:$c}' > "ml-queue/done/$ID.json"
+              PAUSADA=0
+              if [ "$(jq -r '.pausar // false' "$f")" = "true" ]; then
+                PR=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IDML" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"paused"}')
+                if [ "$(printf '%s' "$PR" | jq -r '.status // empty')" = "paused" ]; then PAUSADA=1; fi
+              fi
+              jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" --arg ps "$PAUSADA" --arg se "$SINENVIO" '{ok:true,id:$id,permalink:$l,categoria:$c,pausada:($ps=="1"),sinEnvio:($se=="true")}' > "ml-queue/done/$ID.json"
             else
               jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" --arg fl "$FALTAN" '{ok:false,error:$e,categoria:$c,faltan:$fl}' > "ml-queue/done/$ID.json"
             fi
             git rm -q --ignore-unmatch -- "ml-queue/media/$ID.jpg" ml-queue/media/$ID-*.jpg
+          done
+          for f in ml-queue/borrar/*.json; do
+            [ -e "$f" ] || continue
+            ID=$(basename "$f" .json)
+            if [ -z "$TOKEN" ]; then
+              jq -n --arg e "No pude renovar el acceso a Mercado Libre" '{ok:false,error:$e}' > "ml-queue/done/del-$ID.json"
+              git rm -q --ignore-unmatch -- "$f"; continue
+            fi
+            R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$ID" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
+            R2=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$ID" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"deleted":"true"}')
+            jq -n --arg id "$ID" --arg a "$(printf '%s' "$R1" | head -c 200)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,cerrar:$a,borrar:$b}' > "ml-queue/done/del-$ID.json"
+            git rm -q --ignore-unmatch -- "$f"
           done
           git config user.name "panel-ml"; git config user.email "panel-ml@users.noreply.github.com"
           git add ml-queue/done
