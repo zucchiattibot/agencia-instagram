@@ -1,0 +1,29 @@
+{
+  "id": "mlmw0nire7bwh",
+  "fotos": 0,
+  "pausar": false,
+  "iva": "",
+  "titulo": "Fasciculo 1 Arma Tu Iron Man Planeta DeAgostini",
+  "precio": 7000,
+  "cantidad": 5,
+  "listing": "gold_special",
+  "categoria": "MLA414235",
+  "marca": "Planeta de Agostini",
+  "modelo": "",
+  "descripcion": "Fasciculo numero 1 con piezas y revista de la coleccion para armar la figura de Iron Man de Marvel Studios.\n\nCaracteristicas:\n- Modelo Mark III a escala de gran tamaño con 60 cm de altura una vez finalizada la coleccion\n- Incluye piezas metalicas y plasticas de alta calidad\n- Efectos de luz en reactores y cabeza\n- Fasciculo coleccionable con instrucciones paso a paso\n\nIncluye:\n- Fasciculo numero 1\n- Primeras piezas para el armado\n- Blister con componentes de la armadura\n- Pilas de boton para los efectos de luz\n- Destornillador especializado\n\nIdeal para fanaticos de Marvel y amantes del modelismo para armar paso a paso la armadura de Tony Stark.\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "MAIN_COLOR",
+      "value_id": "2450307"
+    },
+    {
+      "id": "HEIGHT",
+      "value_name": "60 cm"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
