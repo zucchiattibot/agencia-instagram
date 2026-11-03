@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "pedido": 1793745212871,
+  "q": "anthelios",
+  "fuente": "catalogo",
+  "items": [
+    {
+      "id": "MLA1760950546",
+      "title": "Anthelios 50+ Protector Solar Antioxidante",
+      "price": 50445.5,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-1760950546",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA2384753530",
+      "title": "Anthelios F.50 Lait Voloute",
+      "price": 78440,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2384753530",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    }
+  ]
+}
