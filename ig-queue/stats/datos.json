@@ -748,25 +748,25 @@
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
       "a": 96,
-      "v": 116
+      "v": 118
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
       "a": 76,
-      "v": 83
+      "v": 88
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
       "a": 64,
-      "v": 69
+      "v": 72
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
       "a": 54,
-      "v": 56
+      "v": 60
     }
   },
   "seguidores": {
@@ -799,9 +799,9 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 641,
-    "media_count": 630,
+    "media_count": 629,
     "id": "28888466970748824",
-    "el": "2026-11-03T09:01:49.748Z"
+    "el": "2026-11-03T10:01:53.258Z"
   },
   "res30": {
     "reach": 4869,
@@ -810,19 +810,6 @@
     "accounts_engaged": 285
   },
   "posts": [
-    {
-      "id": "18020869985953893",
-      "timestamp": "2026-11-03T02:02:32+0000",
-      "media_type": "VIDEO",
-      "permalink": "https://www.instagram.com/reel/DfQwyvUgDld/",
-      "like_count": 9,
-      "comments_count": 2,
-      "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 119,
-      "views": 132,
-      "saved": 0,
-      "shares": 1
-    },
     {
       "id": "17985019799898805",
       "timestamp": "2026-11-03T01:02:13+0000",
@@ -1149,6 +1136,19 @@
       "shares": 1
     },
     {
+      "id": "18020869985953893",
+      "timestamp": "2026-11-03T02:02:32+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfQwyvUgDld/",
+      "like_count": 9,
+      "comments_count": 2,
+      "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 119,
+      "views": 132,
+      "saved": 0,
+      "shares": 1
+    },
+    {
       "id": "18127710139888740",
       "timestamp": "2026-10-24T14:02:12+0000",
       "media_type": "IMAGE",
@@ -1409,7 +1409,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T09:02:01.385Z",
+  "actualizado": "2026-11-03T10:02:06.096Z",
   "aud": {
     "edad": [
       {
