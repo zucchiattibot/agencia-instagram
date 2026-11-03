@@ -1,0 +1,39 @@
+{
+  "id": "mlmw0j10iddwa",
+  "fotos": 1,
+  "pausar": true,
+  "iva": "0 %",
+  "titulo": "Auto Turismo Carretera Chevrolet 2016 Guillermo Ortelli",
+  "precio": 38000,
+  "cantidad": 10,
+  "listing": "gold_special",
+  "categoria": "MLA3398",
+  "marca": "Clarín",
+  "modelo": "",
+  "descripcion": "Vehiculo a escala de coleccion del Turismo Carretera para fanatico del automovilismo.\n\nCaracteristicas:\n- Modelo a escala del auto de Turismo Carretera\n- Chevrolet 2016 conducido por Guillermo Ortelli\n- Incluye fasciculo explicativo con detalles del modelo y la competencia\n- Presentacion en blister protector con base expositora\n- Producto oficial de la coleccion de La Nacion\n\nQue incluye:\n- Un auto a escala de Chevrolet 2016 Guillermo Ortelli\n- Fasciculo impreso correspondiente\n\nIdeal para: Coleccionistas de autos de carrera y fanaticos del Turismo Carretera.\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "SCALE",
+      "value_id": "2774446"
+    },
+    {
+      "id": "VEHICLE_BRAND",
+      "value_name": "Chevrolet"
+    },
+    {
+      "id": "IS_COLLECTIBLE",
+      "value_id": "242085"
+    },
+    {
+      "id": "VEHICLE_SERIE",
+      "value_name": "Turismo Carretera"
+    },
+    {
+      "id": "VEHICLE_RELEASE_YEAR",
+      "value_name": "2016"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "paquete": ""
+}
