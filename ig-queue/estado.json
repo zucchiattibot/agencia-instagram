@@ -81,7 +81,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-02T23:58:51.731Z",
+    "cuando": "2026-11-03T00:33:18.366Z",
     "cola": 142,
     "enRepo": 142,
     "pendientes": []
@@ -228,7 +228,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-02",
