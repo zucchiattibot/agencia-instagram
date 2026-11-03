@@ -5,6 +5,7 @@ on:
     paths:
       - 'ml-queue/pending/**'
       - 'ml-queue/borrar/**'
+      - 'ml-queue/cmd/**'
   workflow_dispatch:
 
 permissions:
@@ -110,6 +111,48 @@ jobs:
               jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" --arg fl "$FALTAN" '{ok:false,error:$e,categoria:$c,faltan:$fl}' > "ml-queue/done/$ID.json"
             fi
             git rm -q --ignore-unmatch -- "ml-queue/media/$ID.jpg" ml-queue/media/$ID-*.jpg
+          done
+          for f in ml-queue/cmd/*.json; do
+            [ -e "$f" ] || continue
+            CID=$(basename "$f" .json); ACC=$(jq -r '.accion // empty' "$f"); IT=$(jq -r '.id // empty' "$f"); TS=$(jq -r '.ts // 0' "$f")
+            if [ "$ACC" != "listar" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
+            if [ -z "$TOKEN" ]; then
+              jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,error:"No pude renovar el acceso a Mercado Libre"}' > ml-queue/done/lista.json
+              git rm -q --ignore-unmatch -- "$f"; continue
+            fi
+            case "$ACC" in
+              listar)
+                MEID=$(curl -sS https://api.mercadolibre.com/users/me -H "Authorization: Bearer $TOKEN" | jq -r '.id // empty')
+                IDS=""
+                for ST in active paused; do
+                  OFF=0
+                  while [ "$OFF" -lt 300 ]; do
+                    PG=$(curl -sS "https://api.mercadolibre.com/users/$MEID/items/search?status=$ST&limit=50&offset=$OFF" -H "Authorization: Bearer $TOKEN")
+                    L=$(printf '%s' "$PG" | jq -r '(.results // []) | join(" ")')
+                    [ -z "$L" ] && break
+                    IDS="$IDS $L"; OFF=$((OFF+50))
+                    [ "$(printf '%s' "$PG" | jq -r '(.results // []) | length')" -lt 50 ] && break
+                  done
+                done
+                echo '[]' > /tmp/items.json
+                set -- $IDS
+                while [ $# -gt 0 ]; do
+                  CH=""; N=0
+                  while [ $# -gt 0 ] && [ $N -lt 20 ]; do CH="$CH,$1"; shift; N=$((N+1)); done
+                  R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,title,price,status,available_quantity,sold_quantity,permalink,thumbnail" -H "Authorization: Bearer $TOKEN")
+                  jq -c --argjson r "$R" '. + [$r[]? | select(.code==200) | .body]' /tmp/items.json > /tmp/i2.json && mv /tmp/i2.json /tmp/items.json
+                done
+                jq -n --argjson ts "$TS" --slurpfile it /tmp/items.json '{ok:true,pedido:$ts,items:$it[0]}' > ml-queue/done/lista.json ;;
+              pausar|activar)
+                if [ "$ACC" = "pausar" ]; then NS=paused; else NS=active; fi
+                R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "{\"status\":\"$NS\"}")
+                jq -n --arg id "$IT" --arg a "$ACC" --arg r "$(printf '%s' "$R" | head -c 300)" '{ok:true,id:$id,accion:$a,resp:$r}' > "ml-queue/done/cmd-$CID.json" ;;
+              borrar)
+                R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
+                R2=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"deleted":"true"}')
+                jq -n --arg id "$IT" --arg a "$(printf '%s' "$R1" | head -c 200)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,accion:"borrar",cerrar:$a,borrar:$b}' > "ml-queue/done/cmd-$CID.json" ;;
+            esac
+            git rm -q --ignore-unmatch -- "$f"
           done
           for f in ml-queue/borrar/*.json; do
             [ -e "$f" ] || continue
