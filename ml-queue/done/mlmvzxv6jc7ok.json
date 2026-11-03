@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "error": "{\"message\":\"Validation error\",\"error\":\"validation_error\",\"cause\":[{\"department\":\"structured-data\",\"cause_id\":3510,\"type\":\"error\",\"code\":\"invalid.item.attribute.values\",\"references\":[\"item.name\"],\"message\":\"Attribute [WITH_NONSTICK_COATING] is not valid, item values [(null:true)]\"}]}",
+  "categoria": "MLA30098",
+  "faltan": "BRAND (Marca), MODEL (Modelo), PIECES_NUMBER (Cantidad de piezas), IS_FACTORY_KIT (Es un kit de fábrica), IS_SUITABLE_FOR_INDUCTION_COOKER (Apto para hornalla de inducción), GTIN (Código universal de producto), EMPTY_GTIN_REASON (Motivo de GTIN vacío), VALUE_ADDED_TAX (IVA), IMPORT_DUTY (Impuesto interno)"
+}
