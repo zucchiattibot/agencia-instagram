@@ -1,0 +1,41 @@
+{
+  "id": "mlmw0po92g2dx",
+  "fotos": 1,
+  "pausar": false,
+  "iva": "",
+  "titulo": "Cocina En Familia Santiago Giorgini Entrega 3 Cuchillo Multi",
+  "precio": 12000,
+  "cantidad": 5,
+  "listing": "gold_special",
+  "categoria": "MLA11239",
+  "marca": "Planeta de Agostini",
+  "modelo": "",
+  "descripcion": "Disfruta de la entrega 3 de la coleccion Cocina en Familia por Santiago Giorgini, ideal para renovar tus utensilios de cocina.\n\nCaracteristicas:\n- Cuchillo multiuso de acero inoxidable\n- Diseno ergonomico para un manejo comodo\n- Afilado de larga duracion\n- Incluye fasciculo de receta\n\nIncluye:\n- 1 Cuchillo multiuso\n- 1 Revista Cocina en Familia entrega numero 3\n\nIdeal para:\nAmantes de la cocina que buscan herramientas practicas y de calidad.\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "MAIN_COLOR",
+      "value_id": "2450303"
+    },
+    {
+      "id": "MATERIAL",
+      "value_name": "Acero inoxidable"
+    },
+    {
+      "id": "PIECES_NUMBER",
+      "value_name": "2"
+    },
+    {
+      "id": "INCLUDES_ACCESSORIES",
+      "value_id": "242085"
+    },
+    {
+      "id": "ACCESSORIES_INCLUDED",
+      "value_name": "Recetario"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
