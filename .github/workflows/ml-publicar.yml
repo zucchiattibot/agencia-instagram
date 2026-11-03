@@ -81,6 +81,16 @@ jobs:
               RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
               IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
             fi
+            DESC=false
+            if [ -z "$IDML" ]; then
+              BAD=$(printf '%s' "$RES" | jq -c '[.cause[]? | (.message // "") | capture("Attribute \\[(?<a>[A-Z0-9_]+)\\] is not valid")? | .a]' 2>/dev/null || echo '[]')
+              if [ -n "$BAD" ] && [ "$BAD" != "[]" ]; then
+                BODY=$(printf '%s' "$BODY" | jq --argjson b "$BAD" '.attributes |= map(select(.id as $i | ($b|index($i))==null))')
+                RES=$(curl -sS -X POST https://api.mercadolibre.com/items -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$BODY")
+                IDML=$(printf '%s' "$RES" | jq -r '.id // empty')
+                [ -n "$IDML" ] && DESC="$BAD"
+              fi
+            fi
             SINENVIO=false
             if [ -z "$IDML" ] && [ "$SHIP" != "{}" ]; then
               BODY=$(printf '%s' "$BODY" | jq 'del(.shipping)')
@@ -95,7 +105,7 @@ jobs:
                 PR=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IDML" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"paused"}')
                 if [ "$(printf '%s' "$PR" | jq -r '.status // empty')" = "paused" ]; then PAUSADA=1; fi
               fi
-              jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" --arg ps "$PAUSADA" --arg se "$SINENVIO" '{ok:true,id:$id,permalink:$l,categoria:$c,pausada:($ps=="1"),sinEnvio:($se=="true")}' > "ml-queue/done/$ID.json"
+              jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" --arg ps "$PAUSADA" --arg se "$SINENVIO" --arg ds "$DESC" '{ok:true,id:$id,permalink:$l,categoria:$c,pausada:($ps=="1"),sinEnvio:($se=="true"),descartados:$ds}' > "ml-queue/done/$ID.json"
             else
               jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" --arg fl "$FALTAN" '{ok:false,error:$e,categoria:$c,faltan:$fl}' > "ml-queue/done/$ID.json"
             fi
