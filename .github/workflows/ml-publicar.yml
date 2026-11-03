@@ -142,11 +142,33 @@ jobs:
                   R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,title,price,status,available_quantity,sold_quantity,permalink,thumbnail" -H "Authorization: Bearer $TOKEN")
                   jq -c --argjson r "$R" '. + [$r[]? | select(.code==200) | .body]' /tmp/items.json > /tmp/i2.json && mv /tmp/i2.json /tmp/items.json
                 done
+                echo '{}' > /tmp/v.json; echo '{}' > /tmp/w.json
+                set -- $(jq -r '.[].id' /tmp/items.json)
+                ALL="$*"
+                while [ $# -gt 0 ]; do
+                  CH=""; N=0
+                  while [ $# -gt 0 ] && [ $N -lt 50 ]; do CH="$CH,$1"; shift; N=$((N+1)); done
+                  V=$(curl -sS "https://api.mercadolibre.com/visits/items?ids=${CH#,}" -H "Authorization: Bearer $TOKEN")
+                  jq -c --argjson v "$V" '. + (if ($v|type)=="array" then ($v|map({((.item_id // .id)|tostring):(.total_visits // .total)})|add // {}) elif ($v|type)=="object" then ($v|with_entries(select(.value|type=="number"))) else {} end)' /tmp/v.json > /tmp/v2.json && mv /tmp/v2.json /tmp/v.json
+                done
+                C=0
+                for X in $ALL; do
+                  C=$((C+1)); [ $C -gt 150 ] && break
+                  W=$(curl -sS "https://api.mercadolibre.com/items/$X/visits/time_window?last=30&unit=day" -H "Authorization: Bearer $TOKEN" | jq -r '.total_visits // empty')
+                  [ -n "$W" ] && jq -c --arg k "$X" --argjson w "$W" '. + {($k):$w}' /tmp/w.json > /tmp/w2.json && mv /tmp/w2.json /tmp/w.json
+                done
+                jq -c --slurpfile v /tmp/v.json --slurpfile w /tmp/w.json 'map(. + {visitas:($v[0][.id] // null),visitas30:($w[0][.id] // null)})' /tmp/items.json > /tmp/i3.json && mv /tmp/i3.json /tmp/items.json
                 jq -n --argjson ts "$TS" --slurpfile it /tmp/items.json '{ok:true,pedido:$ts,items:$it[0]}' > ml-queue/done/lista.json ;;
               pausar|activar)
                 if [ "$ACC" = "pausar" ]; then NS=paused; else NS=active; fi
                 R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "{\"status\":\"$NS\"}")
                 jq -n --arg id "$IT" --arg a "$ACC" --arg r "$(printf '%s' "$R" | head -c 300)" '{ok:true,id:$id,accion:$a,resp:$r}' > "ml-queue/done/cmd-$CID.json" ;;
+              editar)
+                B2=$(jq -c '(if .precio then {price:(.precio|tonumber)} else {} end) + (if .stock != null then {available_quantity:(.stock|tonumber)} else {} end) + (if (.titulo // "") != "" then {title:.titulo} else {} end)' "$f")
+                R1="{}"; R2="{}"
+                if [ "$B2" != "{}" ]; then R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$B2"); fi
+                if [ -n "$(jq -r '.descripcion // empty' "$f")" ]; then R2=$(jq '{plain_text:.descripcion}' "$f" | curl -sS -X PUT "https://api.mercadolibre.com/items/$IT/description?api_version=2" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @-); fi
+                jq -n --arg id "$IT" --arg a "$(printf '%s' "$R1" | head -c 300)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,accion:"editar",item:$a,descripcion:$b}' > "ml-queue/done/cmd-$CID.json" ;;
               borrar)
                 R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
                 R2=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"deleted":"true"}')
