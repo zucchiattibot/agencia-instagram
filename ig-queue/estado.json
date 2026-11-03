@@ -73,7 +73,7 @@
     "mvimw8718fa",
     "mvid6h5fzta"
   ],
-  "statsEl": "2026-11-03T01:00:06.900Z",
+  "statsEl": "2026-11-03T02:02:52.192Z",
   "stUltima": {
     "cuando": "2026-11-02T23:02:57.681Z",
     "franja": "20:00",
@@ -81,7 +81,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-03T00:59:49.991Z",
+    "cuando": "2026-11-03T02:01:42.549Z",
     "cola": 142,
     "enRepo": 142,
     "pendientes": []
@@ -89,7 +89,8 @@
   "fdig": {
     "franjas": {
       "2026-11-02 08:00": "ok",
-      "2026-11-02 13:15": "ok"
+      "2026-11-02 13:15": "ok",
+      "2026-11-02 22:00": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -112,11 +113,12 @@
       "mrcmvl9eh2gjav6ib-ig",
       "mrcmvl9ewp8zu938d-ig",
       "mrcmvl9fcivg188e4-ig",
-      "mrcmvl9fodfhb7wl7-ig"
+      "mrcmvl9fodfhb7wl7-ig",
+      "mrcmvgo0q2mooqf73-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-02T16:39:47.055Z",
-      "franja": "13:15",
+      "cuando": "2026-11-03T02:02:39.950Z",
+      "franja": "22:00",
       "ok": 1,
       "fallos": 0
     },
@@ -136,11 +138,13 @@
       "mrcmvl9eh2gjav6ib-ig": "2026-10-31T14:02:23.589Z",
       "mrcmvl9ewp8zu938d-ig": "2026-11-01T01:02:18.842Z",
       "mrcmvl9fcivg188e4-ig": "2026-11-02T11:02:21.881Z",
-      "mrcmvl9fodfhb7wl7-ig": "2026-11-02T16:39:47.054Z"
+      "mrcmvl9fodfhb7wl7-ig": "2026-11-02T16:39:47.054Z",
+      "mrcmvgo0q2mooqf73-ig": "2026-11-03T02:02:39.950Z"
     },
     "usadosDia": {
       "mrcmvl9fcivg188e4-ig": "2026-11-02",
-      "mrcmvl9fodfhb7wl7-ig": "2026-11-02"
+      "mrcmvl9fodfhb7wl7-ig": "2026-11-02",
+      "mrcmvgo0q2mooqf73-ig": "2026-11-02"
     },
     "carga": {
       "nivel": 0,
@@ -148,7 +152,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-02",
@@ -228,7 +232,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-02",
