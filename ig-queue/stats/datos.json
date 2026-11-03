@@ -753,26 +753,26 @@
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 87,
-      "v": 99
+      "a": 90,
+      "v": 100
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 84
+      "a": 78,
+      "v": 85
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 69
+      "a": 69,
+      "v": 72
     },
     "18167177701489881": {
       "t": "2026-11-03T12:03:03+0000",
       "tipo": "VIDEO",
-      "a": 14,
-      "v": 15
+      "a": 19,
+      "v": 24
     }
   },
   "seguidores": {
@@ -807,11 +807,11 @@
     "follows_count": 641,
     "media_count": 630,
     "id": "28888466970748824",
-    "el": "2026-11-03T13:01:49.989Z"
+    "el": "2026-11-03T14:01:49.327Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 27138,
+    "views": 27169,
     "profile_views": 93,
     "accounts_engaged": 285
   },
@@ -824,8 +824,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginas armar con tus propias manos una figura de Iron Man de 60 cm con luces y detalles reales de la película? 🦾\n\nPasá a encargar tu fascículo en Maipú 175, Agencia Albor.\n\nComentá HIERRO y te paso toda la info.\n\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1,
-      "views": 2,
+      "reach": 8,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -837,7 +837,7 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 114,
+      "reach": 115,
       "views": 137,
       "saved": 0,
       "shares": 3
@@ -1428,7 +1428,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T13:02:00.606Z",
+  "actualizado": "2026-11-03T14:02:04.548Z",
   "aud": {
     "edad": [
       {
