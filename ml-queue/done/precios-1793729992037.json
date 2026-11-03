@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "pedido": 1793729992037,
+  "q": "Thundercats",
+  "fuente": "catalogo",
+  "items": [
+    {
+      "id": "MLA1410627903",
+      "title": "Parche Thundercats Logo, De Sin . Serie Thundercats Editorial Distribuidora Orko En Español, 2020",
+      "price": 3500,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-1410627903",
+      "cond": "new",
+      "envio": false,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA2066151258",
+      "title": "Tygra - Thundercats",
+      "price": 89990,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2066151258",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    }
+  ]
+}
