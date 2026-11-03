@@ -1,0 +1,39 @@
+{
+  "id": "mlmw0m9gn5myi",
+  "fotos": 1,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "ThunderCats Coleccion La Nacion Figura Tigro Y Comic 5",
+  "precio": 39000,
+  "cantidad": 10,
+  "listing": "gold_special",
+  "categoria": "MLA3422",
+  "marca": "La Nacion",
+  "modelo": "Tigro",
+  "descripcion": "Figura coleccionable de Tigro con comic de la coleccion ThunderCats de editorial La Nacion.\n\nCaracteristicas:\n- Producto oficial de la coleccion ThunderCats La Nacion\n- Incluye una figura detallada de Tigro sobre base y un comic numero 5\n- Edicion inedita ideal para fanaticos y coleccionistas\n\nIncluye:\n- 1 figura de Tigro en caja\n- 1 comic numero 5 en bolsa protectora\n\nIdeal para fan de la serie y coleccionistas de figuras\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "COLLECTION",
+      "value_name": "ThunderCats"
+    },
+    {
+      "id": "MANUFACTURER",
+      "value_name": "La Nación"
+    },
+    {
+      "id": "CHARACTER",
+      "value_name": "Tigro"
+    },
+    {
+      "id": "ACTION_FIGURE_NUMBER",
+      "value_name": "5"
+    },
+    {
+      "id": "IS_COLLECTIBLE",
+      "value_id": "242085"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "paquete": ""
+}
