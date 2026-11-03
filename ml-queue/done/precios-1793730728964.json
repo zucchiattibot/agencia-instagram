@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "pedido": 1793730728964,
+  "q": "Thundercats Coleccion La Nacion Figura Tigro Y Comic 5",
+  "fuente": "catalogo",
+  "items": [
+    {
+      "id": "MLA2158951731",
+      "title": "Figura Articulada Wilykat Thundercats Ultimates Super 7 Colección",
+      "price": 327999,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2158951731",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    }
+  ]
+}
