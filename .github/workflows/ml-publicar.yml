@@ -6,6 +6,8 @@ on:
       - 'ml-queue/pending/**'
       - 'ml-queue/borrar/**'
       - 'ml-queue/cmd/**'
+  schedule:
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,7 +30,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           set -u
-          mkdir -p ml-queue/done
+          mkdir -p ml-queue/done ml-queue/vence
           RESP=$(curl -sS -X POST https://api.mercadolibre.com/oauth/token \
             -H 'accept: application/json' -H 'content-type: application/x-www-form-urlencoded' \
             --data-urlencode grant_type=refresh_token --data-urlencode client_id="$ML_CLIENT_ID" \
@@ -106,6 +108,8 @@ jobs:
                 PR=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IDML" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"paused"}')
                 if [ "$(printf '%s' "$PR" | jq -r '.status // empty')" = "paused" ]; then PAUSADA=1; fi
               fi
+              VD=$(jq -r '.venceDias // 0' "$f"); VA=$(jq -r '.venceAccion // "borrar"' "$f")
+              if [ "$VD" -gt 0 ] 2>/dev/null; then jq -n --arg id "$IDML" --arg v "$(date -u -d "+$VD days" +%F)" --arg a "$VA" '{id:$id,vence:$v,accion:$a}' > "ml-queue/vence/$IDML.json"; fi
               jq -n --arg id "$IDML" --arg l "$(printf '%s' "$RES" | jq -r '.permalink // empty')" --arg c "$CAT" --arg ps "$PAUSADA" --arg se "$SINENVIO" --arg ds "$DESC" '{ok:true,id:$id,permalink:$l,categoria:$c,pausada:($ps=="1"),sinEnvio:($se=="true"),descartados:$ds}' > "ml-queue/done/$ID.json"
             else
               jq -n --arg e "$(printf '%s' "$RES" | jq -c '{message,error,cause}')" --arg c "$CAT" --arg fl "$FALTAN" '{ok:false,error:$e,categoria:$c,faltan:$fl}' > "ml-queue/done/$ID.json"
@@ -157,7 +161,9 @@ jobs:
                   W=$(curl -sS "https://api.mercadolibre.com/items/$X/visits/time_window?last=30&unit=day" -H "Authorization: Bearer $TOKEN" | jq -r '.total_visits // empty')
                   [ -n "$W" ] && jq -c --arg k "$X" --argjson w "$W" '. + {($k):$w}' /tmp/w.json > /tmp/w2.json && mv /tmp/w2.json /tmp/w.json
                 done
-                jq -c --slurpfile v /tmp/v.json --slurpfile w /tmp/w.json 'map(. + {visitas:($v[0][.id] // null),visitas30:($w[0][.id] // null)})' /tmp/items.json > /tmp/i3.json && mv /tmp/i3.json /tmp/items.json
+                for F in ml-queue/vence/*.json; do [ -e "$F" ] && jq -c '{(.id):{v:.vence,a:.accion}}' "$F"; done | jq -s 'add // {}' > /tmp/ve.json
+                [ -s /tmp/ve.json ] || echo '{}' > /tmp/ve.json
+                jq -c --slurpfile v /tmp/v.json --slurpfile w /tmp/w.json --slurpfile ve /tmp/ve.json 'map(. + {visitas:($v[0][.id] // null),visitas30:($w[0][.id] // null),vence:($ve[0][.id].v // null),venceAccion:($ve[0][.id].a // null)})' /tmp/items.json > /tmp/i3.json && mv /tmp/i3.json /tmp/items.json
                 jq -n --argjson ts "$TS" --slurpfile it /tmp/items.json '{ok:true,pedido:$ts,items:$it[0]}' > ml-queue/done/lista.json ;;
               pausar|activar)
                 if [ "$ACC" = "pausar" ]; then NS=paused; else NS=active; fi
@@ -168,6 +174,11 @@ jobs:
                 R1="{}"; R2="{}"
                 if [ "$B2" != "{}" ]; then R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$B2"); fi
                 if [ -n "$(jq -r '.descripcion // empty' "$f")" ]; then R2=$(jq '{plain_text:.descripcion}' "$f" | curl -sS -X PUT "https://api.mercadolibre.com/items/$IT/description?api_version=2" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @-); fi
+                if [ "$(jq -r 'has("vence")' "$f")" = "true" ]; then
+                  VD=$(jq -r '.vence // 0' "$f"); VA=$(jq -r '.venceAccion // empty' "$f"); mkdir -p ml-queue/vence
+                  if [ -z "$VA" ]; then VA=$(jq -r '.accion // "borrar"' "ml-queue/vence/$IT.json" 2>/dev/null || echo borrar); fi
+                  if [ "$VD" -gt 0 ] 2>/dev/null; then jq -n --arg id "$IT" --arg v "$(date -u -d "+$VD days" +%F)" --arg a "$VA" '{id:$id,vence:$v,accion:$a}' > "ml-queue/vence/$IT.json"; else git rm -q --ignore-unmatch -f -- "ml-queue/vence/$IT.json"; rm -f "ml-queue/vence/$IT.json"; fi
+                fi
                 jq -n --arg id "$IT" --arg a "$(printf '%s' "$R1" | head -c 300)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,accion:"editar",item:$a,descripcion:$b}' > "ml-queue/done/cmd-$CID.json" ;;
               borrar)
                 R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
@@ -188,8 +199,25 @@ jobs:
             jq -n --arg id "$ID" --arg a "$(printf '%s' "$R1" | head -c 200)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,cerrar:$a,borrar:$b}' > "ml-queue/done/del-$ID.json"
             git rm -q --ignore-unmatch -- "$f"
           done
+          HOY=$(date -u +%F)
+          for f in ml-queue/vence/*.json; do
+            [ -e "$f" ] || continue
+            VID=$(jq -r '.id // empty' "$f"); VF=$(jq -r '.vence // empty' "$f"); VAC=$(jq -r '.accion // "borrar"' "$f")
+            if ! printf '%s' "$VID" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
+            if [ -n "$VF" ] && [ "$VF" \> "$HOY" ]; then continue; fi
+            [ -z "$TOKEN" ] && continue
+            if [ "$VAC" = "pausar" ]; then
+              R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$VID" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"paused"}')
+              jq -n --arg id "$VID" --arg r "$(printf '%s' "$R" | head -c 300)" '{ok:true,id:$id,accion:"vencio-pausar",resp:$r}' > "ml-queue/done/cmd-vence-$VID.json"
+            else
+              R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$VID" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
+              R2=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$VID" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"deleted":"true"}')
+              jq -n --arg id "$VID" --arg a "$(printf '%s' "$R1" | head -c 200)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,accion:"vencio-borrar",cerrar:$a,borrar:$b}' > "ml-queue/done/cmd-vence-$VID.json"
+            fi
+            git rm -q --ignore-unmatch -- "$f"
+          done
           git config user.name "panel-ml"; git config user.email "panel-ml@users.noreply.github.com"
-          git add ml-queue/done
+          git add ml-queue/done ml-queue/vence
           git commit -m "ml: resultado de publicaciones" || exit 0
           git pull --rebase -q || true
           git push
