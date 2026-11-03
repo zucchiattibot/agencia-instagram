@@ -1,0 +1,35 @@
+{
+  "id": "mlmvzzl74rvft",
+  "fotos": 1,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Molde Savarin Silicona Soklingen Super Reposteria Clarin",
+  "precio": 26000,
+  "cantidad": 10,
+  "listing": "gold_special",
+  "categoria": "MLA30096",
+  "marca": "Clarín",
+  "modelo": "",
+  "descripcion": "Molde de silicona tipo savarin con estructura reforzada para preparar budines y tortas perfectas\n\nCaracterísticas:\n- Estructura de acero reforzada para evitar deformaciones\n- El desmolde es perfecto gracias a su antiadherente premium\n- Facil lavado en pocos minutos gracias a su diseno\n- Material de silicona de alta calidad\n\nQué incluye:\n- 1 Molde savarin de silicona con estructura de acero Soklingen\n- 1 Fasciculo de la coleccion Super Reposteria Clarin\n\nIdeal para: Amantes de la reposteria que buscan resultados profesionales en sus preparaciones caseras\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "LINE",
+      "value_name": "Súper Repostería"
+    },
+    {
+      "id": "SHAPE",
+      "value_name": "Savarin"
+    },
+    {
+      "id": "MATERIAL",
+      "value_name": "Silicona"
+    },
+    {
+      "id": "IS_NON_STICK",
+      "value_id": "242085"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "paquete": ""
+}
