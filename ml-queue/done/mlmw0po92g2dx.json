@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "error": "{\"message\":\"Validation error\",\"error\":\"validation_error\",\"cause\":[{\"department\":\"items\",\"cause_id\":363,\"type\":\"warning\",\"code\":\"item.attribute.dropped\",\"references\":[\"item.attributes\"],\"message\":\"Attribute: VALUE_ADDED_TAX was dropped because its values is empty\"},{\"department\":\"supply\",\"cause_id\":7810,\"type\":\"error\",\"code\":\"item.attribute.missing_conditional_required\",\"references\":[\"item.attributes\"],\"message\":\"The attributes [VALUE_ADDED_TAX] are required for category [MLA11239]. Check the attribute is present in the attributes list or in all variation's attributes_combination or attributes.\"}]}",
+  "categoria": "MLA11239",
+  "faltan": "BRAND (Marca), GTIN (Código universal de producto), VALUE_ADDED_TAX (IVA), IMPORT_DUTY (Impuesto interno)"
+}
