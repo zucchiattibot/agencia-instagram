@@ -73,7 +73,7 @@
     "mvig7tlsk1o",
     "mvr0krezf16"
   ],
-  "statsEl": "2026-11-03T21:05:53.021Z",
+  "statsEl": "2026-11-03T22:04:09.758Z",
   "stUltima": {
     "cuando": "2026-11-03T20:02:09.775Z",
     "franja": "16:15",
@@ -81,14 +81,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-03T21:05:38.000Z",
+    "cuando": "2026-11-03T22:03:39.258Z",
     "cola": 139,
     "enRepo": 139,
     "pendientes": []
   },
   "fdig": {
     "franjas": {
-      "2026-11-03 12:45": "ok"
+      "2026-11-03 12:45": "ok",
+      "2026-11-03 19:00": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -112,11 +113,12 @@
       "mrcmvl9fcivg188e4-ig",
       "mrcmvl9fodfhb7wl7-ig",
       "mrcmvgo0q2mooqf73-ig",
-      "mrcmw0m77zomyubui-ig"
+      "mrcmw0m77zomyubui-ig",
+      "mrcmvzjfzmhmra97n-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-03T15:56:10.630Z",
-      "franja": "12:45",
+      "cuando": "2026-11-03T22:03:51.870Z",
+      "franja": "19:00",
       "ok": 1,
       "fallos": 0
     },
@@ -137,10 +139,12 @@
       "mrcmvl9fcivg188e4-ig": "2026-11-02T11:02:21.881Z",
       "mrcmvl9fodfhb7wl7-ig": "2026-11-02T16:39:47.054Z",
       "mrcmvgo0q2mooqf73-ig": "2026-11-03T02:02:39.950Z",
-      "mrcmw0m77zomyubui-ig": "2026-11-03T15:56:10.629Z"
+      "mrcmw0m77zomyubui-ig": "2026-11-03T15:56:10.629Z",
+      "mrcmvzjfzmhmra97n-ig": "2026-11-03T22:03:51.870Z"
     },
     "usadosDia": {
-      "mrcmw0m77zomyubui-ig": "2026-11-03"
+      "mrcmw0m77zomyubui-ig": "2026-11-03",
+      "mrcmvzjfzmhmra97n-ig": "2026-11-03"
     },
     "carga": {
       "nivel": 0,
@@ -149,7 +153,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "La nación",
+    "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-03",
       "h": "",
@@ -228,7 +232,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-03",

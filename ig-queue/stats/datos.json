@@ -765,26 +765,26 @@
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 89,
-      "v": 95
+      "a": 94,
+      "v": 102
     },
     "18167177701489881": {
       "t": "2026-11-03T12:03:03+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 76
+      "a": 72,
+      "v": 83
     },
     "18132540349801996": {
       "t": "2026-11-03T15:02:35+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 61
+      "a": 59,
+      "v": 68
     },
     "18182203324450080": {
       "t": "2026-11-03T20:02:01+0000",
       "tipo": "IMAGE",
-      "a": 9,
-      "v": 18
+      "a": 25,
+      "v": 30
     }
   },
   "seguidores": {
@@ -817,17 +817,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 641,
-    "media_count": 632,
+    "media_count": 633,
     "id": "28888466970748824",
-    "el": "2026-11-03T21:05:44.480Z"
+    "el": "2026-11-03T22:03:54.556Z"
   },
   "res30": {
     "reach": 4891,
-    "views": 27436,
+    "views": 27485,
     "profile_views": 93,
     "accounts_engaged": 286
   },
   "posts": [
+    {
+      "id": "18133157680805668",
+      "timestamp": "2026-11-03T22:03:48+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfS6TTbj7n1/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18117540799829884",
       "timestamp": "2026-11-03T15:56:07+0000",
@@ -836,8 +849,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 11,
+      "reach": 10,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -849,8 +862,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 25,
+      "reach": 10,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -862,8 +875,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginas armar con tus propias manos una figura de Iron Man de 60 cm con luces y detalles reales de la película? 🦾\n\nPasá a encargar tu fascículo en Maipú 175, Agencia Albor.\n\nComentá HIERRO y te paso toda la info.\n\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 34,
+      "reach": 20,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -875,8 +888,8 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 117,
-      "views": 140,
+      "reach": 118,
+      "views": 142,
       "saved": 0,
       "shares": 3
     },
@@ -927,7 +940,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
+      "reach": 22,
       "views": 35,
       "saved": 0,
       "shares": 0
@@ -967,7 +980,7 @@
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 201,
-      "views": 249,
+      "views": 251,
       "saved": 0,
       "shares": 1
     },
@@ -1466,7 +1479,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T21:05:53.021Z",
+  "actualizado": "2026-11-03T22:04:09.758Z",
   "aud": {
     "edad": [
       {
