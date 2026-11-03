@@ -753,20 +753,26 @@
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 88
+      "a": 81,
+      "v": 92
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 67,
-      "v": 74
+      "a": 70,
+      "v": 78
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 57,
-      "v": 60
+      "a": 60,
+      "v": 64
+    },
+    "18167177701489881": {
+      "t": "2026-11-03T12:03:03+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -801,11 +807,11 @@
     "follows_count": 641,
     "media_count": 629,
     "id": "28888466970748824",
-    "el": "2026-11-03T11:01:46.161Z"
+    "el": "2026-11-03T12:03:36.371Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 27084,
+    "views": 27102,
     "profile_views": 93,
     "accounts_engaged": 285
   },
@@ -818,8 +824,8 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 113,
-      "views": 134,
+      "reach": 114,
+      "views": 135,
       "saved": 0,
       "shares": 3
     },
@@ -844,7 +850,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
+      "reach": 38,
       "views": 47,
       "saved": 0,
       "shares": 0
@@ -909,8 +915,8 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 200,
-      "views": 248,
+      "reach": 201,
+      "views": 249,
       "saved": 0,
       "shares": 1
     },
@@ -1409,7 +1415,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T11:01:56.711Z",
+  "actualizado": "2026-11-03T12:03:45.655Z",
   "aud": {
     "edad": [
       {
