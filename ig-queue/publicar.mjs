@@ -1,4 +1,4 @@
-// ig-motor-v47
+// ig-motor-v48
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -117,6 +117,16 @@ async function publicarFb(d, medias, esCar, esVideo, guardar) {
     for (const u of urls) { const f = await fb('POST', pg + '/photos', { url: u, published: 'false' }, tk); params['attached_media[' + (i++) + ']'] = JSON.stringify({ media_fbid: f.id }); }
     const r = await conLugar(pg + '/feed', params);
     return 'https://www.facebook.com/' + r.id;
+  }
+  // v48: anti-duplicado en Facebook. Si la página ya tiene una publicación con el mismo texto de hace menos de 3 horas, no vuelve a publicar (aunque el registro de lo publicado se haya perdido). Si Facebook no deja consultar, publica como siempre.
+  if (d.fmt !== 'historia' && !esVideo && txt && String(txt).trim().length >= 20) {
+    try {
+      const norm = (s) => String(s || '').replace(/\s+/g, ' ').trim().slice(0, 60);
+      const ini = norm(txt);
+      const lista = await fb('GET', pg + '/feed', { fields: 'message,created_time,permalink_url', limit: 15 }, tk);
+      const ya = ((lista && lista.data) || []).find((x) => x && x.message && norm(x.message) === ini && Date.now() - Date.parse(x.created_time || '') < 3 * 3600000);
+      if (ya) { console.log('Facebook: ya hay una publicación igual de hace menos de 3 h; no se repite.'); return ya.permalink_url || ''; }
+    } catch (eDup) { console.log('Facebook: no se pudo revisar duplicados (se publica igual):', eDup.message); }
   }
   const u = urls[0];
   if (d.fmt === 'historia') {
