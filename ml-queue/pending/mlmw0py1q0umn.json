@@ -1,0 +1,37 @@
+{
+  "id": "mlmw0py1q0umn",
+  "fotos": 1,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Cocina En Familia Santiago Giorgini Entrega 3 Cuchillo Multi",
+  "precio": 12000,
+  "cantidad": 5,
+  "listing": "gold_special",
+  "categoria": "MLA11239",
+  "marca": "Soklingen",
+  "modelo": "Multiuso",
+  "descripcion": "Entrega numero 3 de la coleccion Cocina en Familia por Santiago Giorgini, que incluye un cuchillo multiuso y un recetario.\n\nCaracteristicas:\n- Cuchillo multiuso de acero inoxidable con diseno ergonomico\n- Recetario exclusivo de cocina en familia\n- Afilado de larga duracion\n\nIncluye:\n- 1 Cuchillo multiuso\n- 1 Fasciculo recetario Cocina en Familia entrega 3\n\nIdeal para cortar y preparar diferentes alimentos en la cocina diaria.\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "MAIN_COLOR",
+      "value_id": "2450303"
+    },
+    {
+      "id": "MATERIAL",
+      "value_name": "Acero inoxidable"
+    },
+    {
+      "id": "INCLUDES_ACCESSORIES",
+      "value_id": "242085"
+    },
+    {
+      "id": "ACCESSORIES_INCLUDED",
+      "value_name": "Recetario"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
