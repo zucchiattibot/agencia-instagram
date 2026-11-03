@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-03 09:00": "ok"
+    "2026-11-03 09:00": "ok",
+    "2026-11-03 12:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -13,7 +14,6 @@
     "mvav4wx15w7",
     "mvax1y4e5vn",
     "mvax8tdh38n",
-    "mvaxdvil269",
     "mvcdr8huwgc",
     "mvcdpl107ri",
     "mvav25z397s",
@@ -39,7 +39,6 @@
     "mvawulh8myh",
     "mvav2077bfh",
     "mvawxub85fo",
-    "mvax9t7s9w4",
     "mvkcsow9sxi",
     "mvl57sj7ugk",
     "mvid6yqy0eh",
@@ -69,20 +68,23 @@
     "mvaxc9xftzb",
     "mvimw8718fa",
     "mvid6h5fzta",
-    "mvzk7tbtj4y"
+    "mvzk7tbtj4y",
+    "mvig7tlsk1o"
   ],
-  "statsEl": "2026-11-03T14:02:04.548Z",
+  "statsEl": "2026-11-03T15:03:25.147Z",
   "stUltima": {
-    "cuando": "2026-11-03T12:03:34.951Z",
-    "franja": "09:00",
+    "cuando": "2026-11-03T15:03:11.664Z",
+    "franja": "12:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-03T14:01:47.146Z",
-    "cola": 144,
-    "enRepo": 144,
-    "pendientes": []
+    "cuando": "2026-11-03T15:01:50.600Z",
+    "cola": 139,
+    "enRepo": 139,
+    "pendientes": [
+      "12:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -97,7 +99,6 @@
       "mrcmvqsm5x4etos0t-ig",
       "mrcmvqw5xq2695pzc-ig",
       "mrcmvr08nxeykj1h9-ig",
-      "mrcmvs1sk7afqgvg4-ig",
       "mrcmvs17yshc98yg6-ig",
       "mrcmvqqgjigs4t5n3-ig",
       "mrcmvqw4j9ncuo4l7-ig",
@@ -122,7 +123,6 @@
       "mrcmvqsm5x4etos0t-ig": "2026-10-27T16:02:40.274Z",
       "mrcmvqw5xq2695pzc-ig": "2026-10-27T22:02:01.400Z",
       "mrcmvr08nxeykj1h9-ig": "2026-10-28T01:02:24.597Z",
-      "mrcmvs1sk7afqgvg4-ig": "2026-10-28T16:02:17.001Z",
       "mrcmvs17yshc98yg6-ig": "2026-10-29T16:01:56.609Z",
       "mrcmvqqgjigs4t5n3-ig": "2026-10-29T22:01:59.001Z",
       "mrcmvqw4j9ncuo4l7-ig": "2026-10-30T01:02:18.629Z",
@@ -171,7 +171,6 @@
       "mrcmvqsm5x4etos0t-fb",
       "mrcmvqw5xq2695pzc-fb",
       "mrcmvr08nxeykj1h9-fb",
-      "mrcmvs1sk7afqgvg4-fb",
       "mrcmvs17yshc98yg6-fb",
       "mrcmvqqgjigs4t5n3-fb",
       "cmvqnd634-fb",
@@ -195,7 +194,6 @@
       "mrcmvqsm5x4etos0t-fb": "2026-10-27T15:02:06.962Z",
       "mrcmvqw5xq2695pzc-fb": "2026-10-27T21:02:12.650Z",
       "mrcmvr08nxeykj1h9-fb": "2026-10-27T23:02:23.133Z",
-      "mrcmvs1sk7afqgvg4-fb": "2026-10-28T15:01:58.462Z",
       "mrcmvs17yshc98yg6-fb": "2026-10-29T15:02:05.241Z",
       "mrcmvqqgjigs4t5n3-fb": "2026-10-29T21:01:42.946Z",
       "cmvqnd634-fb": "2026-10-29T23:01:54.146Z",
@@ -231,7 +229,7 @@
     "pruebaUlt": "2026-11-02"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvzk7tbtj4y",
+  "stUltimaId": "mvig7tlsk1o",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -258,10 +256,12 @@
     "mvaxc9xftzb": "2026-11-02T16:38:58.876Z",
     "mvimw8718fa": "2026-11-02T20:50:08.121Z",
     "mvid6h5fzta": "2026-11-02T23:02:57.681Z",
-    "mvzk7tbtj4y": "2026-11-03T12:03:34.951Z"
+    "mvzk7tbtj4y": "2026-11-03T12:03:34.951Z",
+    "mvig7tlsk1o": "2026-11-03T15:03:11.664Z"
   },
   "stUsadosDia": {
-    "mvzk7tbtj4y": "2026-11-03"
+    "mvzk7tbtj4y": "2026-11-03",
+    "mvig7tlsk1o": "2026-11-03"
   },
   "autoBase": {
     "feed-ig/config.json": {

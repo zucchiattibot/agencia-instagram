@@ -753,26 +753,32 @@
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 100
+      "a": 95,
+      "v": 106
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 85
+      "a": 82,
+      "v": 90
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 69,
-      "v": 72
+      "a": 73,
+      "v": 77
     },
     "18167177701489881": {
       "t": "2026-11-03T12:03:03+0000",
       "tipo": "VIDEO",
-      "a": 19,
-      "v": 24
+      "a": 29,
+      "v": 32
+    },
+    "18132540349801996": {
+      "t": "2026-11-03T15:02:35+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -807,11 +813,11 @@
     "follows_count": 641,
     "media_count": 630,
     "id": "28888466970748824",
-    "el": "2026-11-03T14:01:49.327Z"
+    "el": "2026-11-03T15:03:13.603Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 27169,
+    "views": 27203,
     "profile_views": 93,
     "accounts_engaged": 285
   },
@@ -824,8 +830,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginas armar con tus propias manos una figura de Iron Man de 60 cm con luces y detalles reales de la película? 🦾\n\nPasá a encargar tu fascículo en Maipú 175, Agencia Albor.\n\nComentá HIERRO y te paso toda la info.\n\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 18,
+      "reach": 11,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -850,8 +856,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 48,
+      "reach": 34,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -1032,7 +1038,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sentir la potencia del heavy metal con esa calidez inconfundible que solo da una bandeja girascos, esta edición es imperdible. 🤘\n\nSeis discos imprescindibles de la Doncella de Hierro, cada uno con su fascículo exclusivo para repasar la historia de la banda que marcó a generaciones enteras.\n\nLa entrega inicial arranca desde $44.990 y trae los álbumes que todos queremos tener en la repisa de casa.\n\nVas a encontrar obras maestras como Iron Maiden, The Number of the Beast, Piece of Mind, Powerslave, Live After Death y Flight 666.\n\nMandanos un mensaje para asegurar tu ejemplar en Agencia Albor, Carlos Casares.\n\n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
+      "reach": 31,
       "views": 35,
       "saved": 0,
       "shares": 0
@@ -1110,8 +1116,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
-      "views": 108,
+      "reach": 44,
+      "views": 110,
       "saved": 0,
       "shares": 0
     },
@@ -1124,7 +1130,7 @@
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 2001,
-      "views": 2553,
+      "views": 2554,
       "saved": 28,
       "shares": 27
     },
@@ -1428,7 +1434,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T14:02:04.548Z",
+  "actualizado": "2026-11-03T15:03:25.147Z",
   "aud": {
     "edad": [
       {
