@@ -759,26 +759,26 @@
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 93,
-      "v": 103
+      "a": 95,
+      "v": 107
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 83,
-      "v": 88
+      "a": 85,
+      "v": 90
     },
     "18167177701489881": {
       "t": "2026-11-03T12:03:03+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 62
+      "a": 60,
+      "v": 67
     },
     "18132540349801996": {
       "t": "2026-11-03T15:02:35+0000",
       "tipo": "VIDEO",
-      "a": 39,
-      "v": 44
+      "a": 45,
+      "v": 49
     }
   },
   "seguidores": {
@@ -813,11 +813,11 @@
     "follows_count": 641,
     "media_count": 632,
     "id": "28888466970748824",
-    "el": "2026-11-03T18:07:23.171Z"
+    "el": "2026-11-03T19:04:46.151Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 27345,
+    "views": 27372,
     "profile_views": 93,
     "accounts_engaged": 286
   },
@@ -830,8 +830,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 3,
-      "views": 5,
+      "reach": 5,
+      "views": 7,
       "saved": 0,
       "shares": 0
     },
@@ -844,7 +844,7 @@
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 4,
-      "views": 14,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -869,8 +869,8 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 116,
-      "views": 138,
+      "reach": 117,
+      "views": 140,
       "saved": 0,
       "shares": 3
     },
@@ -1460,7 +1460,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T18:07:33.317Z",
+  "actualizado": "2026-11-03T19:04:55.990Z",
   "aud": {
     "edad": [
       {
@@ -1620,9 +1620,15 @@
       },
       {
         "d": [
+          "Gobernador Ingeniero Valentín Virasoro, Corrientes"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
-        "v": 2
+        "v": 3
       },
       {
         "d": [
@@ -1644,13 +1650,13 @@
       },
       {
         "d": [
-          "Lagos, Lagos State"
+          "Marbella, Andalusia"
         ],
         "v": 1
       },
       {
         "d": [
-          "Tijuana, Baja California"
+          "Berazategui, Buenos Aires"
         ],
         "v": 1
       },
@@ -1664,7 +1670,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 21
+        "v": 20
       },
       {
         "d": [
@@ -1676,11 +1682,11 @@
         "d": [
           "9 de Julio, Buenos Aires"
         ],
-        "v": 11
+        "v": 12
       },
       {
         "d": [
-          "Coronel Granada, Buenos Aires"
+          "Ingeniero Budge, Buenos Aires"
         ],
         "v": 1
       },
@@ -1710,12 +1716,6 @@
       },
       {
         "d": [
-          "Azul, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 2
@@ -1730,13 +1730,19 @@
         "d": [
           "Moctezuma, Buenos Aires"
         ],
-        "v": 16
+        "v": 17
+      },
+      {
+        "d": [
+          "La Lucila, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
           "Quiroga, Buenos Aires"
         ],
-        "v": 5
+        "v": 4
       },
       {
         "d": [
@@ -1752,25 +1758,19 @@
       },
       {
         "d": [
-          "López Mateos, State of Mexico"
+          "Remedios de Escalada de San Martín, Buenos Aires"
         ],
         "v": 1
       },
       {
         "d": [
-          "Lobos, Buenos Aires"
+          "José C. Paz, Buenos Aires"
         ],
         "v": 1
       },
       {
         "d": [
-          "Villa Leloir, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Daireaux, Buenos Aires"
+          "Aarhus, Central Denmark Region"
         ],
         "v": 1
       },
@@ -1784,7 +1784,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1078
+        "v": 1075
       },
       {
         "d": [
@@ -1796,7 +1796,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 15
+        "v": 16
       },
       {
         "d": [
@@ -1812,25 +1812,13 @@
       },
       {
         "d": [
-          "Lanús, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "San Antonio de los Baños, Artemisa Province"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Bellocq, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
-          "Concepción de la Sierra, Misiones"
+          "Quimilí, Santiago del Estero"
         ],
         "v": 1
       },
@@ -1862,7 +1850,19 @@
         "d": [
           "Rosario, Santa Fe"
         ],
-        "v": 5
+        "v": 4
+      },
+      {
+        "d": [
+          "San Vicente, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Bustarviejo, Comunidad de Madrid"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1872,7 +1872,7 @@
       },
       {
         "d": [
-          "Potrero de los Funes, San Luis"
+          "Valentín Alsina, Buenos Aires"
         ],
         "v": 1
       },
@@ -1981,7 +1981,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-02T23:03:16.639Z"
+    "el": "2026-11-03T19:04:53.968Z"
   },
   "dias": {
     "2026-10-11": {
