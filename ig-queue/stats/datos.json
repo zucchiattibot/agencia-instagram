@@ -747,26 +747,26 @@
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 103
+      "a": 89,
+      "v": 109
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 71
+      "a": 71,
+      "v": 80
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 55
+      "a": 59,
+      "v": 66
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 39,
-      "v": 42
+      "a": 49,
+      "v": 53
     }
   },
   "seguidores": {
@@ -792,21 +792,22 @@
     "2026-10-30": 1398,
     "2026-10-31": 1397,
     "2026-11-01": 1397,
-    "2026-11-02": 1398
+    "2026-11-02": 1398,
+    "2026-11-03": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1398,
+    "followers_count": 1399,
     "follows_count": 641,
     "media_count": 630,
     "id": "28888466970748824",
-    "el": "2026-11-03T02:02:41.776Z"
+    "el": "2026-11-03T03:01:47.450Z"
   },
   "res30": {
-    "reach": 4764,
-    "views": 26779,
-    "profile_views": 93,
-    "accounts_engaged": 272
+    "reach": 4848,
+    "views": 26964,
+    "profile_views": 94,
+    "accounts_engaged": 286
   },
   "posts": [
     {
@@ -814,11 +815,11 @@
       "timestamp": "2026-11-03T02:02:32+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfQwyvUgDld/",
-      "like_count": 0,
-      "comments_count": 0,
+      "like_count": 9,
+      "comments_count": 2,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 66,
+      "views": 125,
       "saved": 0,
       "shares": 0
     },
@@ -827,11 +828,11 @@
       "timestamp": "2026-11-03T01:02:13+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfQp40qCmPY/",
-      "like_count": 6,
+      "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 46,
-      "views": 94,
+      "reach": 107,
+      "views": 127,
       "saved": 0,
       "shares": 0
     },
@@ -844,7 +845,7 @@
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 26,
-      "views": 38,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -856,8 +857,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 41,
+      "reach": 33,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -909,7 +910,7 @@
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 125,
-      "views": 148,
+      "views": 149,
       "saved": 0,
       "shares": 0
     },
@@ -999,8 +1000,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
-      "views": 43,
+      "reach": 35,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -1116,8 +1117,8 @@
       "like_count": 134,
       "comments_count": 2,
       "caption": "Armar pieza por pieza esta impresionante estatuilla de Iron Man es un planazo para el fin de semana. 🤖 ¿Son de armar colecciones de este tipo o prefieren leer?\n\n#ironman #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1995,
-      "views": 2549,
+      "reach": 1998,
+      "views": 2551,
       "saved": 28,
       "shares": 27
     },
@@ -1408,7 +1409,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T02:02:52.192Z",
+  "actualizado": "2026-11-03T03:01:57.744Z",
   "aud": {
     "edad": [
       {
@@ -2135,6 +2136,10 @@
     "2026-11-01": {
       "a": 203,
       "v": 857
+    },
+    "2026-11-02": {
+      "a": 342,
+      "v": 877
     }
   }
 }
