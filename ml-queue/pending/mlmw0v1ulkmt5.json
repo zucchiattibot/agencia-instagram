@@ -1,0 +1,57 @@
+{
+  "id": "mlmw0v1ulkmt5",
+  "fotos": 1,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Asadera Plegable Silicana Super Repostería Clarín 33cm",
+  "precio": 25000,
+  "cantidad": 5,
+  "listing": "gold_special",
+  "categoria": "MLA30046",
+  "marca": "Soklingen",
+  "modelo": "",
+  "descripcion": "Asadera plegable de silicona premium de la colección Super Repostería de Clarín para cocinar y hornear de forma práctica.\n\nCaracterísticas:\n- Estructura de acero reforzada que evita deformaciones y otorga estabilidad absoluta\n- Superficie antiadherente premium que evita que los alimentos se peguen y facilita el desmolde\n- Diseño plegable que optimiza el espacio de almacenamiento en la cocina\n- Apta para facilitar el lavado diario\n- Color gris oscuro\n\nIncluye:\n- 1 asadera plegable de silicona\n\nMedidas y material:\n- Medidas: 33.5 cm de largo por 30 cm de ancho por 7.5 cm de alto\n- Material: silicona con estructura de acero\n\nIdeal para:\nPreparar tortas, budines, carnes y diversas recetas al horno en el hogar\n\nCualquier duda, consultanos por esta publicación.",
+  "atributos": [
+    {
+      "id": "PRODUCT_TYPE",
+      "value_id": "26768354"
+    },
+    {
+      "id": "LINE",
+      "value_name": "Super Repostería"
+    },
+    {
+      "id": "COLOR",
+      "value_id": "283165"
+    },
+    {
+      "id": "HEIGHT",
+      "value_name": "7.5 cm"
+    },
+    {
+      "id": "LENGTH",
+      "value_name": "33.5 cm"
+    },
+    {
+      "id": "WIDTH",
+      "value_name": "30 cm"
+    },
+    {
+      "id": "MATERIAL",
+      "value_name": "Silicona"
+    },
+    {
+      "id": "SHAPE",
+      "value_name": "Cuadrada"
+    },
+    {
+      "id": "WITH_NONSTICK_COATING",
+      "value_id": "242085"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
