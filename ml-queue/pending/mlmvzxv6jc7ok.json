@@ -1,0 +1,39 @@
+{
+  "id": "mlmvzxv6jc7ok",
+  "fotos": 2,
+  "pausar": true,
+  "iva": "0 %",
+  "titulo": "Batería De Cocina Colección Clarín Antiadherente",
+  "precio": 43000,
+  "cantidad": 10,
+  "listing": "gold_special",
+  "categoria": "MLA30098",
+  "marca": "Clarín",
+  "modelo": "",
+  "descripcion": "Batería de cocina completa Colección Clarín para cocinar tus comidas diarias de forma práctica.\n\nCaracterísticas:\n- Tapas de vidrio templado con borde de silicona anti impactos\n- Superficie antiadherente para que los alimentos no se adhieran\n- Producto libre de PFOA\n- Diseñada para una fácil limpieza\n- Color negro\n\nQué incluye:\n- Cacerola con Tapa\n- Sartén hondo\n- Cacerola chica con Tapa\n- Sartén medianos\n- Sartén chico\n- Bifera cuadrada\n\nIdeal para: equipar la cocina del hogar\n\nCualquier duda, consultanos por esta publicación.",
+  "atributos": [
+    {
+      "id": "PIECES_NUMBER",
+      "value_name": "6"
+    },
+    {
+      "id": "IS_FACTORY_KIT",
+      "value_id": "242085"
+    },
+    {
+      "id": "LINE",
+      "value_name": "Colección Clarín"
+    },
+    {
+      "id": "MAIN_COLOR",
+      "value_id": "2450295"
+    },
+    {
+      "id": "WITH_NONSTICK_COATING",
+      "value_name": "true"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "paquete": ""
+}
