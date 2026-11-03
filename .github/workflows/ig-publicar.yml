@@ -1,4 +1,4 @@
-# ig-horario-v7: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
+# ig-horario-v8: corre en minutos tranquilos (GitHub se satura en :00, :10, :20...)
 name: Publicar en Instagram
 on:
   schedule:
@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - name: Traer archivos programados
         uses: actions/checkout@v4
         continue-on-error: true
