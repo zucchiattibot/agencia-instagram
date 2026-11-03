@@ -30,7 +30,52 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           set -u
-          mkdir -p ml-queue/done ml-queue/vence
+          mkdir -p ml-queue/done ml-queue/vence ml-queue/hist
+          ml_snapshot() {
+            set +u
+            mkdir -p ml-queue/hist
+            HD=$(date -u +%F)
+            TG=$(curl -sS https://api.mercadolibre.com/trends/MLA -H "Authorization: Bearer $TOKEN")
+            printf '%s' "$TG" | jq -e 'type=="array"' >/dev/null 2>&1 || TG='[]'
+            GK=$(printf '%s' "$TG" | jq -c '[.[:30][] | .keyword]')
+            echo '{}' > /tmp/hc.json
+            if [ -s ml-queue/watch.json ]; then
+              jq -c '(.watch // [])[:5][]' ml-queue/watch.json > /tmp/watch.lines 2>/dev/null
+              while IFS= read -r W; do
+                WQ=$(printf '%s' "$W" | jq -r '.q // empty'); WC=$(printf '%s' "$W" | jq -r '.cat // empty' | tr -cd 'A-Za-z0-9')
+                if [ -z "$WC" ] && [ -n "$WQ" ]; then WC=$(curl -sS -G https://api.mercadolibre.com/sites/MLA/domain_discovery/search --data-urlencode "q=$WQ" --data-urlencode limit=1 | jq -r '.[0].category_id // empty' 2>/dev/null); fi
+                [ -z "$WC" ] && continue
+                WT=$(curl -sS "https://api.mercadolibre.com/trends/MLA/$WC" -H "Authorization: Bearer $TOKEN"); printf '%s' "$WT" | jq -e 'type=="array"' >/dev/null 2>&1 || WT='[]'
+                WH=$(curl -sS "https://api.mercadolibre.com/highlights/MLA/category/$WC" -H "Authorization: Bearer $TOKEN"); printf '%s' "$WH" | jq -e '(.content // null) | type=="array"' >/dev/null 2>&1 || WH='{"content":[]}'
+                jq -c --arg c "$WC" --arg q "$WQ" --argjson t "$WT" --argjson h "$WH" '. + {($c):{q:$q,trends:[$t[:20][] | .keyword],best:[$h.content[:20][] | .id]}}' /tmp/hc.json > /tmp/hc2.json && mv /tmp/hc2.json /tmp/hc.json
+              done < /tmp/watch.lines
+            fi
+            echo '[]' > /tmp/hm.json
+            MEID=$(curl -sS https://api.mercadolibre.com/users/me -H "Authorization: Bearer $TOKEN" | jq -r '.id // empty')
+            if [ -n "$MEID" ]; then
+              IDS=""
+              for ST in active paused; do
+                OFF=0
+                while [ "$OFF" -lt 300 ]; do
+                  PG=$(curl -sS "https://api.mercadolibre.com/users/$MEID/items/search?status=$ST&limit=50&offset=$OFF" -H "Authorization: Bearer $TOKEN")
+                  L=$(printf '%s' "$PG" | jq -r '(.results // []) | join(" ")')
+                  [ -z "$L" ] && break
+                  IDS="$IDS $L"; OFF=$((OFF+50))
+                  [ "$(printf '%s' "$PG" | jq -r '(.results // []) | length')" -lt 50 ] && break
+                done
+              done
+              set -- $IDS
+              while [ $# -gt 0 ]; do
+                CH=""; N=0
+                while [ $# -gt 0 ] && [ $N -lt 20 ]; do CH="$CH,$1"; shift; N=$((N+1)); done
+                R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,price,sold_quantity,available_quantity" -H "Authorization: Bearer $TOKEN")
+                printf '%s' "$R" | jq -c '[.[]? | select(.code==200) | .body | [.id,.price,.sold_quantity,.available_quantity]]' > /tmp/r1.json 2>/dev/null || echo '[]' > /tmp/r1.json
+                jq -c -s '.[0] + .[1]' /tmp/hm.json /tmp/r1.json > /tmp/hm2.json && mv /tmp/hm2.json /tmp/hm.json
+              done
+            fi
+            [ -s ml-queue/hist/historial.json ] || echo '{"dias":[]}' > ml-queue/hist/historial.json
+            jq -c --arg d "$HD" --argjson g "$GK" --slurpfile c /tmp/hc.json --slurpfile m /tmp/hm.json '.dias = ((((.dias // []) | map(select(.d != $d))) + [{d:$d,gen:$g,cats:$c[0],mis:$m[0]}]) | .[-60:])' ml-queue/hist/historial.json > /tmp/hh.json && mv /tmp/hh.json ml-queue/hist/historial.json
+          }
           RESP=$(curl -sS -X POST https://api.mercadolibre.com/oauth/token \
             -H 'accept: application/json' -H 'content-type: application/x-www-form-urlencoded' \
             --data-urlencode grant_type=refresh_token --data-urlencode client_id="$ML_CLIENT_ID" \
@@ -119,9 +164,9 @@ jobs:
           for f in ml-queue/cmd/*.json; do
             [ -e "$f" ] || continue
             CID=$(basename "$f" .json); ACC=$(jq -r '.accion // empty' "$f"); IT=$(jq -r '.id // empty' "$f"); TS=$(jq -r '.ts // 0' "$f")
-            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
+            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && [ "$ACC" != "mercado" ] && [ "$ACC" != "snapshot" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
             if [ -z "$TOKEN" ]; then
-              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
+              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; elif [ "$ACC" = "mercado" ]; then OUTF="ml-queue/done/mercado-$TS.json"; elif [ "$ACC" = "snapshot" ]; then OUTF="ml-queue/done/snapshot-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
               jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,error:"No pude renovar el acceso a Mercado Libre"}' > "$OUTF"
               git rm -q --ignore-unmatch -- "$f"; continue
             fi
@@ -189,6 +234,48 @@ jobs:
                     jq -n --argjson ts "$TS" --arg q "$Q" --argjson r "$RS" --argjson p "$PS" '{ok:false,pedido:$ts,q:$q,error:("Mercado Libre no dejó leer la búsqueda ni el catálogo: " + (($r.message // $r.error // $p.message // $p.error // "sin respuesta") | tostring))}' > "ml-queue/done/precios-$TS.json"
                   fi
                 fi ;;
+              mercado)
+                MT=$(jq -r '.tipo // "buscados"' "$f"); MQ=$(jq -r '.q // empty' "$f"); MC=$(jq -r '.cat // empty' "$f" | tr -cd 'A-Za-z0-9')
+                MPMIN=$(jq -r '((.pmin // 0) | tonumber?) // 0' "$f"); MPMAX=$(jq -r '((.pmax // 0) | tonumber?) // 0' "$f")
+                OUTM="ml-queue/done/mercado-$TS.json"
+                if [ -z "$MC" ] && [ -n "$MQ" ]; then
+                  MC=$(curl -sS -G https://api.mercadolibre.com/sites/MLA/domain_discovery/search --data-urlencode "q=$MQ" --data-urlencode limit=1 | jq -r '.[0].category_id // empty' 2>/dev/null)
+                fi
+                MCN=""
+                if [ -n "$MC" ]; then MCN=$(curl -sS "https://api.mercadolibre.com/categories/$MC" -H "Authorization: Bearer $TOKEN" | jq -r '.name // empty' 2>/dev/null); fi
+                if [ "$MT" = "buscados" ]; then
+                  if [ -n "$MC" ]; then TU="https://api.mercadolibre.com/trends/MLA/$MC"; else TU="https://api.mercadolibre.com/trends/MLA"; fi
+                  TR=$(curl -sS "$TU" -H "Authorization: Bearer $TOKEN")
+                  if printf '%s' "$TR" | jq -e 'type=="array"' >/dev/null 2>&1; then
+                    jq -n --argjson ts "$TS" --arg c "$MC" --arg cn "$MCN" --argjson r "$TR" '{ok:true,pedido:$ts,tipo:"buscados",cat:$c,catNombre:$cn,items:[$r[] | {keyword:(.keyword // ""),url:(.url // "")}]}' > "$OUTM"
+                  else
+                    jq -n --argjson ts "$TS" --arg c "$MC" --arg e "$(printf '%s' "$TR" | head -c 300)" '{ok:false,pedido:$ts,tipo:"buscados",cat:$c,error:("Mercado Libre no devolvió las búsquedas en tendencia: " + $e)}' > "$OUTM"
+                  fi
+                elif [ -z "$MC" ]; then
+                  jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,tipo:"vendidos",error:"No pude deducir la categoría. Escribí una palabra más clara (ej. libros) o una categoría (ej. MLA3025)."}' > "$OUTM"
+                else
+                  HL=$(curl -sS "https://api.mercadolibre.com/highlights/MLA/category/$MC" -H "Authorization: Bearer $TOKEN")
+                  if printf '%s' "$HL" | jq -e '(.content // null) | type=="array"' >/dev/null 2>&1; then
+                    echo '[]' > /tmp/mv.json
+                    IDSI=$(printf '%s' "$HL" | jq -r '[.content[] | select((.type // "" | ascii_upcase)=="ITEM") | .id][:20] | join(",")')
+                    if [ -n "$IDSI" ]; then
+                      RI=$(curl -sS "https://api.mercadolibre.com/items?ids=$IDSI&attributes=id,title,price,sold_quantity,permalink,thumbnail,condition" -H "Authorization: Bearer $TOKEN")
+                      printf '%s' "$RI" | jq -c --argjson hl "$HL" '[.[]? | select(.code==200) | .body | . as $b | {id:$b.id,title:$b.title,price:$b.price,sold:$b.sold_quantity,url:$b.permalink,thumb:$b.thumbnail,pos:(($hl.content | map(select(.id==$b.id)) | .[0].position) // null)}]' > /tmp/mv.json 2>/dev/null || echo '[]' > /tmp/mv.json
+                    fi
+                    for PID in $(printf '%s' "$HL" | jq -r '[.content[] | select((.type // "" | ascii_upcase)!="ITEM") | .id][:20][]'); do
+                      PJ=$(curl -sS "https://api.mercadolibre.com/products/$PID" -H "Authorization: Bearer $TOKEN")
+                      printf '%s' "$PJ" | jq -e '.name' >/dev/null 2>&1 || continue
+                      printf '%s' "$PJ" | jq -c --argjson hl "$HL" --arg pid "$PID" '{id:$pid,title:(.name // $pid),price:(.buy_box_winner.price // null),sold:null,url:("https://www.mercadolibre.com.ar/p/" + $pid),thumb:((.pictures[0].url) // ""),pos:(($hl.content | map(select(.id==$pid)) | .[0].position) // null)}' > /tmp/mp.json 2>/dev/null || continue
+                      jq -c -s '.[0] + [.[1]]' /tmp/mv.json /tmp/mp.json > /tmp/mv2.json && mv /tmp/mv2.json /tmp/mv.json
+                    done
+                    jq -n --argjson ts "$TS" --arg c "$MC" --arg cn "$MCN" --argjson mn "$MPMIN" --argjson mx "$MPMAX" --slurpfile it /tmp/mv.json '($it[0]) as $all | {ok:true,pedido:$ts,tipo:"vendidos",cat:$c,catNombre:$cn,total:($all|length),items:($all | map(select(($mn<=0 or (.price != null and .price>=$mn)) and ($mx<=0 or (.price != null and .price<=$mx)))) | sort_by(.pos // 9999))}' > "$OUTM"
+                  else
+                    jq -n --argjson ts "$TS" --arg c "$MC" --arg e "$(printf '%s' "$HL" | head -c 300)" '{ok:false,pedido:$ts,tipo:"vendidos",cat:$c,error:("Mercado Libre no devolvió el ranking de más vendidos de esa categoría: " + $e)}' > "$OUTM"
+                  fi
+                fi ;;
+              snapshot)
+                ( ml_snapshot ) >/dev/null 2>&1
+                jq -n --argjson ts "$TS" '{ok:true,pedido:$ts}' > "ml-queue/done/snapshot-$TS.json" ;;
               pausar|activar)
                 if [ "$ACC" = "pausar" ]; then NS=paused; else NS=active; fi
                 R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "{\"status\":\"$NS\"}")
@@ -240,8 +327,9 @@ jobs:
             fi
             git rm -q --ignore-unmatch -- "$f"
           done
+          if [ "${GITHUB_EVENT_NAME:-}" = "schedule" ] && [ -n "$TOKEN" ]; then ( ml_snapshot ) >/dev/null 2>&1 || true; fi
           git config user.name "panel-ml"; git config user.email "panel-ml@users.noreply.github.com"
-          git add ml-queue/done ml-queue/vence
+          git add ml-queue/done ml-queue/vence ml-queue/hist
           git commit -m "ml: resultado de publicaciones" || exit 0
           git pull --rebase -q || true
           git push
