@@ -170,7 +170,25 @@ jobs:
                 Q=$(jq -r '.q // empty' "$f")
                 RS=$(curl -sS -G https://api.mercadolibre.com/sites/MLA/search --data-urlencode "q=$Q" --data-urlencode limit=50 -H "Authorization: Bearer $TOKEN")
                 printf '%s' "$RS" | jq -e . >/dev/null 2>&1 || RS='{}'
-                jq -n --argjson ts "$TS" --arg q "$Q" --argjson r "$RS" 'if ($r.results // null) != null then {ok:true,pedido:$ts,q:$q,items:[$r.results[] | {id:.id,title:.title,price:.price,sold:.sold_quantity,url:.permalink,cond:.condition,envio:(.shipping.free_shipping // false),tipo:.listing_type_id}]} else {ok:false,pedido:$ts,q:$q,error:("Mercado Libre no devolvió la búsqueda: " + (($r.message // $r.error // "sin respuesta") | tostring))} end' > "ml-queue/done/precios-$TS.json" ;;
+                if [ "$(printf '%s' "$RS" | jq -r 'if (.results // null) != null then 1 else 0 end')" = "1" ]; then
+                  jq -n --argjson ts "$TS" --arg q "$Q" --argjson r "$RS" 'if ($r.results // null) != null then {ok:true,pedido:$ts,q:$q,items:[$r.results[] | {id:.id,title:.title,price:.price,sold:.sold_quantity,url:.permalink,cond:.condition,envio:(.shipping.free_shipping // false),tipo:.listing_type_id}]} else {ok:false,pedido:$ts,q:$q,error:("Mercado Libre no devolvió la búsqueda: " + (($r.message // $r.error // "sin respuesta") | tostring))} end' > "ml-queue/done/precios-$TS.json"
+                else
+                  PS=$(curl -sS -G https://api.mercadolibre.com/products/search --data-urlencode status=active --data-urlencode site_id=MLA --data-urlencode "q=$Q" --data-urlencode limit=5 -H "Authorization: Bearer $TOKEN")
+                  printf '%s' "$PS" | jq -e . >/dev/null 2>&1 || PS='{}'
+                  echo '[]' > /tmp/pr.json
+                  for PID in $(printf '%s' "$PS" | jq -r '.results[:5][]?.id'); do
+                    PN=$(printf '%s' "$PS" | jq -r --arg i "$PID" '.results[] | select(.id==$i) | .name')
+                    PI=$(curl -sS "https://api.mercadolibre.com/products/$PID/items?limit=50" -H "Authorization: Bearer $TOKEN")
+                    printf '%s' "$PI" | jq -e . >/dev/null 2>&1 || PI='{}'
+                    printf '%s' "$PI" | jq -c --arg n "$PN" '[.results[]? | select(.price != null) | {id:.item_id,title:$n,price:.price,sold:null,url:("https://articulo.mercadolibre.com.ar/MLA-" + ((.item_id // "") | sub("^MLA";""))),cond:.condition,envio:(.shipping.free_shipping // false),tipo:.listing_type_id}]' > /tmp/pi.json 2>/dev/null || echo '[]' > /tmp/pi.json
+                    jq -c -s '(.[0] + .[1]) | unique_by(.id)' /tmp/pr.json /tmp/pi.json > /tmp/pr2.json && mv /tmp/pr2.json /tmp/pr.json
+                  done
+                  if [ "$(jq 'length' /tmp/pr.json)" -gt 0 ]; then
+                    jq -n --argjson ts "$TS" --arg q "$Q" --slurpfile it /tmp/pr.json '{ok:true,pedido:$ts,q:$q,fuente:"catalogo",items:$it[0]}' > "ml-queue/done/precios-$TS.json"
+                  else
+                    jq -n --argjson ts "$TS" --arg q "$Q" --argjson r "$RS" --argjson p "$PS" '{ok:false,pedido:$ts,q:$q,error:("Mercado Libre no dejó leer la búsqueda ni el catálogo: " + (($r.message // $r.error // $p.message // $p.error // "sin respuesta") | tostring))}' > "ml-queue/done/precios-$TS.json"
+                  fi
+                fi ;;
               pausar|activar)
                 if [ "$ACC" = "pausar" ]; then NS=paused; else NS=active; fi
                 R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "{\"status\":\"$NS\"}")
