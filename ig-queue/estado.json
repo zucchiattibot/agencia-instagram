@@ -71,7 +71,7 @@
     "mvzk7tbtj4y",
     "mvig7tlsk1o"
   ],
-  "statsEl": "2026-11-03T15:03:25.147Z",
+  "statsEl": "2026-11-03T16:02:34.727Z",
   "stUltima": {
     "cuando": "2026-11-03T15:03:11.664Z",
     "franja": "12:00",
@@ -79,7 +79,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-03T15:56:00.315Z",
+    "cuando": "2026-11-03T16:02:21.418Z",
     "cola": 139,
     "enRepo": 139,
     "pendientes": []
@@ -146,7 +146,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-03",
@@ -222,7 +222,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 19 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-03",
