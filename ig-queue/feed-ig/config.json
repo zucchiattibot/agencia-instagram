@@ -669,19 +669,6 @@
       "shas": [
         "bbb50b9fc98d59ec0d258630b9f6f37136a4f8fd"
       ]
-    },
-    {
-      "id": "mrcmw0u98qf4qv2l4-ig",
-      "matId": "rcmw0u98qf4qv2l4",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmw0u98qf4qv2l4.jpg",
-      "caption": "¿Buscando un detalle práctico y original para regalar a alguien que ama pasar horas creando cosas ricas en la cocina? 🎁 Con este molde savarín de silicona premium vas a lucirte seguro, porque resiste todo y facilita un desmoldado perfecto sin renegar. Pasá por Agencia Albor y llevátelo para sorprender con un obsequio útil que dura para siempre. ✨\n\n#moldesavarín #repostería #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1793719749639,
-      "prov": "Clarín",
-      "shas": [
-        "9af4f99444a7cce354761a8628ac0cecc9fd70f8"
-      ]
     }
   ],
   "publicadas": [
@@ -689,6 +676,10 @@
     "rcmvl2gs4nrjsef0",
     "rcmvl2g3jjkky6r1",
     "rcmvi6xv6sez428q",
-    "rcmvs1sk7afqgvg4"
+    "rcmvs1sk7afqgvg4",
+    "rcmw0u98qf4qv2l4"
+  ],
+  "borradas": [
+    "rcmw0u98qf4qv2l4"
   ]
 }
