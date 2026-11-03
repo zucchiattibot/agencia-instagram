@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "id": "MLA896677795",
+  "accion": "borrar",
+  "cerrar": "{\"id\":\"MLA896677795\",\"site_id\":\"MLA\",\"title\":\"Monopoly Juego De Mesa Hasbro Clarin\",\"seller_id\":51251348,\"category_id\":\"MLA1227\",\"user_product_id\":\"MLAU302809160\",\"official_store_id\":null,\"price\":600,",
+  "borrar": "{\"id\":\"MLA896677795\",\"site_id\":\"MLA\",\"title\":\"Monopoly Juego De Mesa Hasbro Clarin\",\"seller_id\":51251348,\"category_id\":\"MLA1227\",\"user_product_id\":\"MLAU302809160\",\"official_store_id\":null,\"price\":600,\"base_price\":600,\"original_price\":null,\"inventory_id\":null,\"currency_id\":\"ARS\",\"initial_quantity\":40"
+}

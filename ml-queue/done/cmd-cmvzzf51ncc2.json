@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "id": "MLA872651351",
+  "accion": "borrar",
+  "cerrar": "{\"id\":\"MLA872651351\",\"site_id\":\"MLA\",\"title\":\"Legos Colección La Nacion\",\"seller_id\":51251348,\"category_id\":\"MLA412445\",\"user_product_id\":\"MLAU296761639\",\"official_store_id\":null,\"price\":2750,\"base_p",
+  "borrar": "{\"id\":\"MLA872651351\",\"site_id\":\"MLA\",\"title\":\"Legos Colección La Nacion\",\"seller_id\":51251348,\"category_id\":\"MLA412445\",\"user_product_id\":\"MLAU296761639\",\"official_store_id\":null,\"price\":2750,\"base_price\":2750,\"original_price\":null,\"inventory_id\":null,\"currency_id\":\"ARS\",\"initial_quantity\":1,\"avail"
+}

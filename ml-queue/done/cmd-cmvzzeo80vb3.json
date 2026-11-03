@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "id": "MLA886119489",
+  "accion": "borrar",
+  "cerrar": "{\"id\":\"MLA886119489\",\"site_id\":\"MLA\",\"title\":\"Aviones De Combate\",\"seller_id\":51251348,\"category_id\":\"MLA1227\",\"user_product_id\":\"MLAU302122766\",\"official_store_id\":null,\"price\":1000,\"base_price\":1000",
+  "borrar": "{\"id\":\"MLA886119489\",\"site_id\":\"MLA\",\"title\":\"Aviones De Combate\",\"seller_id\":51251348,\"category_id\":\"MLA1227\",\"user_product_id\":\"MLAU302122766\",\"official_store_id\":null,\"price\":1000,\"base_price\":1000,\"original_price\":null,\"inventory_id\":null,\"currency_id\":\"ARS\",\"initial_quantity\":1,\"available_quant"
+}

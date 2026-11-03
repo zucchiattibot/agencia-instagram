@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "id": "MLA896806680",
+  "accion": "borrar",
+  "cerrar": "{\"id\":\"MLA896806680\",\"site_id\":\"MLA\",\"title\":\"Cocina Práctica Clarín \",\"seller_id\":51251348,\"category_id\":\"MLA412445\",\"user_product_id\":\"MLAU301572669\",\"official_store_id\":null,\"price\":720,\"base_pri",
+  "borrar": "{\"id\":\"MLA896806680\",\"site_id\":\"MLA\",\"title\":\"Cocina Práctica Clarín \",\"seller_id\":51251348,\"category_id\":\"MLA412445\",\"user_product_id\":\"MLAU301572669\",\"official_store_id\":null,\"price\":720,\"base_price\":720,\"original_price\":null,\"inventory_id\":null,\"currency_id\":\"ARS\",\"initial_quantity\":15,\"availab"
+}
