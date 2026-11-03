@@ -119,9 +119,10 @@ jobs:
           for f in ml-queue/cmd/*.json; do
             [ -e "$f" ] || continue
             CID=$(basename "$f" .json); ACC=$(jq -r '.accion // empty' "$f"); IT=$(jq -r '.id // empty' "$f"); TS=$(jq -r '.ts // 0' "$f")
-            if [ "$ACC" != "listar" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
+            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
             if [ -z "$TOKEN" ]; then
-              jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,error:"No pude renovar el acceso a Mercado Libre"}' > ml-queue/done/lista.json
+              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
+              jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,error:"No pude renovar el acceso a Mercado Libre"}' > "$OUTF"
               git rm -q --ignore-unmatch -- "$f"; continue
             fi
             case "$ACC" in
@@ -165,6 +166,11 @@ jobs:
                 [ -s /tmp/ve.json ] || echo '{}' > /tmp/ve.json
                 jq -c --slurpfile v /tmp/v.json --slurpfile w /tmp/w.json --slurpfile ve /tmp/ve.json 'map(. + {visitas:($v[0][.id] // null),visitas30:($w[0][.id] // null),vence:($ve[0][.id].v // null),venceAccion:($ve[0][.id].a // null)})' /tmp/items.json > /tmp/i3.json && mv /tmp/i3.json /tmp/items.json
                 jq -n --argjson ts "$TS" --slurpfile it /tmp/items.json '{ok:true,pedido:$ts,items:$it[0]}' > ml-queue/done/lista.json ;;
+              precios)
+                Q=$(jq -r '.q // empty' "$f")
+                RS=$(curl -sS -G https://api.mercadolibre.com/sites/MLA/search --data-urlencode "q=$Q" --data-urlencode limit=50 -H "Authorization: Bearer $TOKEN")
+                printf '%s' "$RS" | jq -e . >/dev/null 2>&1 || RS='{}'
+                jq -n --argjson ts "$TS" --arg q "$Q" --argjson r "$RS" 'if ($r.results // null) != null then {ok:true,pedido:$ts,q:$q,items:[$r.results[] | {id:.id,title:.title,price:.price,sold:.sold_quantity,url:.permalink,cond:.condition,envio:(.shipping.free_shipping // false),tipo:.listing_type_id}]} else {ok:false,pedido:$ts,q:$q,error:("Mercado Libre no devolvió la búsqueda: " + (($r.message // $r.error // "sin respuesta") | tostring))} end' > "ml-queue/done/precios-$TS.json" ;;
               pausar|activar)
                 if [ "$ACC" = "pausar" ]; then NS=paused; else NS=active; fi
                 R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "{\"status\":\"$NS\"}")
