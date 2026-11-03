@@ -747,25 +747,25 @@
     "17952184512055243": {
       "t": "2026-11-02T12:01:50+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 118
+      "a": 99,
+      "v": 121
     },
     "18107928683371137": {
       "t": "2026-11-02T16:38:50+0000",
       "tipo": "IMAGE",
-      "a": 76,
+      "a": 78,
       "v": 88
     },
     "18032966936682135": {
       "t": "2026-11-02T20:49:59+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 72
+      "a": 67,
+      "v": 74
     },
     "18117177245334851": {
       "t": "2026-11-02T23:02:27+0000",
       "tipo": "VIDEO",
-      "a": 54,
+      "a": 57,
       "v": 60
     }
   },
@@ -801,11 +801,11 @@
     "follows_count": 641,
     "media_count": 629,
     "id": "28888466970748824",
-    "el": "2026-11-03T10:01:53.258Z"
+    "el": "2026-11-03T11:01:46.161Z"
   },
   "res30": {
-    "reach": 4869,
-    "views": 27061,
+    "reach": 4880,
+    "views": 27084,
     "profile_views": 93,
     "accounts_engaged": 285
   },
@@ -818,8 +818,8 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 112,
-      "views": 133,
+      "reach": 113,
+      "views": 134,
       "saved": 0,
       "shares": 3
     },
@@ -844,8 +844,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 44,
+      "reach": 37,
+      "views": 47,
       "saved": 0,
       "shares": 0
     },
@@ -1039,8 +1039,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 41,
+      "reach": 26,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -1409,7 +1409,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-03T10:02:06.096Z",
+  "actualizado": "2026-11-03T11:01:56.711Z",
   "aud": {
     "edad": [
       {
