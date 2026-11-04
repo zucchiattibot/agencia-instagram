@@ -789,20 +789,26 @@
     "18082013624454490": {
       "t": "2026-11-03T23:02:06+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 94
+      "a": 88,
+      "v": 99
     },
     "18149391268584993": {
       "t": "2026-11-04T13:01:44+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 63
+      "a": 58,
+      "v": 68
     },
     "17893220808653988": {
       "t": "2026-11-04T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 38
+      "a": 37,
+      "v": 44
+    },
+    "17911738011559743": {
+      "t": "2026-11-04T20:45:24+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 9
     }
   },
   "seguidores": {
@@ -838,11 +844,11 @@
     "follows_count": 644,
     "media_count": 634,
     "id": "28888466970748824",
-    "el": "2026-11-04T20:01:25.312Z"
+    "el": "2026-11-04T21:01:27.009Z"
   },
   "res30": {
     "reach": 4848,
-    "views": 27976,
+    "views": 27990,
     "profile_views": 96,
     "accounts_engaged": 284
   },
@@ -933,8 +939,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 39,
-      "views": 53,
+      "reach": 40,
+      "views": 56,
       "saved": 0,
       "shares": 0
     },
@@ -1511,7 +1517,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T20:01:38.246Z",
+  "actualizado": "2026-11-04T21:01:34.873Z",
   "aud": {
     "edad": [
       {
