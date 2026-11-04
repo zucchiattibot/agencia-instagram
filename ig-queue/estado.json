@@ -75,7 +75,7 @@
     "mvr0krezf16",
     "mvjo1c6w48j"
   ],
-  "statsEl": "2026-11-03T23:02:28.962Z",
+  "statsEl": "2026-11-04T00:01:53.979Z",
   "stUltima": {
     "cuando": "2026-11-03T23:02:14.352Z",
     "franja": "19:45",
@@ -83,12 +83,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-03T23:02:00.578Z",
+    "cuando": "2026-11-04T00:01:43.264Z",
     "cola": 139,
     "enRepo": 139,
-    "pendientes": [
-      "19:45"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
@@ -240,7 +238,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Silmar",
     "prueba": {
       "dia": "2026-11-03",
