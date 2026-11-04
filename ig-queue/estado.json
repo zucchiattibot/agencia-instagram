@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-03 09:00": "ok",
-    "2026-11-03 12:00": "ok",
-    "2026-11-03 16:15": "ok",
-    "2026-11-03 19:45": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -75,7 +70,7 @@
     "mvr0krezf16",
     "mvjo1c6w48j"
   ],
-  "statsEl": "2026-11-04T02:01:57.285Z",
+  "statsEl": "2026-11-04T03:01:53.658Z",
   "stUltima": {
     "cuando": "2026-11-03T23:02:14.352Z",
     "franja": "19:45",
@@ -83,17 +78,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-04T02:40:16.972Z",
+    "cuando": "2026-11-04T03:01:38.732Z",
     "cola": 139,
     "enRepo": 139,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-11-03 12:45": "ok",
-      "2026-11-03 19:00": "ok",
-      "2026-11-03 21:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -147,24 +138,20 @@
       "mrcmvzjfzmhmra97n-ig": "2026-11-03T22:03:51.870Z",
       "mrcmvfvlsvkwcj6fc-ig": "2026-11-04T01:03:26.162Z"
     },
-    "usadosDia": {
-      "mrcmw0m77zomyubui-ig": "2026-11-03",
-      "mrcmvzjfzmhmra97n-ig": "2026-11-03",
-      "mrcmvfvlsvkwcj6fc-ig": "2026-11-03"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-03",
+      "dia": "2026-11-04",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 12:15.",
     "ultimaProv": "Clarín",
     "prueba": {
-      "dia": "2026-11-03",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-04",
+      "h": "20:00",
+      "de": "12:15",
+      "tramo": "noche temprana"
     },
     "pruebaRec": [
       {
@@ -172,14 +159,10 @@
         "tramo": "primera mañana"
       }
     ],
-    "pruebaUlt": "2026-11-02"
+    "pruebaUlt": "2026-11-04"
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-03 12:15": "ok",
-      "2026-11-03 17:15": "ok",
-      "2026-11-03 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -231,24 +214,20 @@
       "mrcmvzjfzmhmra97n-fb": "2026-11-03T21:05:43.449Z",
       "mrcmvzbmi68xxlvdo-fb": "2026-11-03T23:02:19.425Z"
     },
-    "usadosDia": {
-      "mrcmw0m77zomyubui-fb": "2026-11-03",
-      "mrcmvzjfzmhmra97n-fb": "2026-11-03",
-      "mrcmvzbmi68xxlvdo-fb": "2026-11-03"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-03",
+      "dia": "2026-11-04",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
     "ultimaProv": "Silmar",
     "prueba": {
-      "dia": "2026-11-03",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-04",
+      "h": "10:30",
+      "de": "12:00",
+      "tramo": "mañana"
     },
     "pruebaRec": [
       {
@@ -256,7 +235,7 @@
         "tramo": "primera mañana"
       }
     ],
-    "pruebaUlt": "2026-11-02"
+    "pruebaUlt": "2026-11-04"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mvjo1c6w48j",
@@ -291,12 +270,7 @@
     "mvr0krezf16": "2026-11-03T20:02:09.775Z",
     "mvjo1c6w48j": "2026-11-03T23:02:14.352Z"
   },
-  "stUsadosDia": {
-    "mvzk7tbtj4y": "2026-11-03",
-    "mvig7tlsk1o": "2026-11-03",
-    "mvr0krezf16": "2026-11-03",
-    "mvjo1c6w48j": "2026-11-03"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -486,7 +460,7 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
   "stPrueba": {
-    "dia": "2026-11-03",
+    "dia": "2026-11-04",
     "h": "",
     "de": "",
     "tramo": ""

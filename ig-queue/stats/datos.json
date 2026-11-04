@@ -771,26 +771,26 @@
     "18167177701489881": {
       "t": "2026-11-03T12:03:03+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 98
+      "a": 91,
+      "v": 101
     },
     "18132540349801996": {
       "t": "2026-11-03T15:02:35+0000",
       "tipo": "VIDEO",
-      "a": 75,
-      "v": 84
+      "a": 79,
+      "v": 86
     },
     "18182203324450080": {
       "t": "2026-11-03T20:02:01+0000",
       "tipo": "IMAGE",
-      "a": 51,
-      "v": 61
+      "a": 56,
+      "v": 63
     },
     "18082013624454490": {
       "t": "2026-11-03T23:02:06+0000",
       "tipo": "IMAGE",
-      "a": 36,
-      "v": 45
+      "a": 40,
+      "v": 47
     }
   },
   "seguidores": {
@@ -817,7 +817,8 @@
     "2026-10-31": 1397,
     "2026-11-01": 1397,
     "2026-11-02": 1398,
-    "2026-11-03": 1399
+    "2026-11-03": 1399,
+    "2026-11-04": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -825,11 +826,11 @@
     "follows_count": 641,
     "media_count": 634,
     "id": "28888466970748824",
-    "el": "2026-11-04T02:01:42.869Z"
+    "el": "2026-11-04T03:01:41.079Z"
   },
   "res30": {
     "reach": 4891,
-    "views": 27641,
+    "views": 27675,
     "profile_views": 93,
     "accounts_engaged": 286
   },
@@ -842,8 +843,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1,
-      "views": 2,
+      "reach": 6,
+      "views": 8,
       "saved": 0,
       "shares": 0
     },
@@ -855,8 +856,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 14,
+      "reach": 11,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -868,8 +869,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 16,
+      "reach": 14,
+      "views": 17,
       "saved": 0,
       "shares": 0
     },
@@ -1064,7 +1065,7 @@
       "comments_count": 0,
       "caption": "¿Quién necesita aire acondicionado cuando podés tener en tu repisa la misma nave que manejaba el Flaco Traverso en el '99? 🏁\n\nEl Ford Falcon violeta con el número 3 y la clásica publicidad de OCA es una verdadera joya para los que llevamos el ruido de los motores en la sangre y nos sabemos de memoria cada domingo de picadas y autódromos.\n\nEsta belleza forma parte de la colección oficial de autos a escala del Turismo Carretera, una serie imperdible de 15 modelos históricos que repasan lo mejor de la categoría más popular del país con un nivel de detalle en miniatura que da orgullo mostrar.\n\nLa colección completa sale de manera quincenal y arranca fuerte con el Chevy 1995 también de Traverso, ideal para ir armando la grilla de partida en tu casa.\n\nCada entrega viene con su auto de colección fiel al original y un fascículo coleccionable para repasar los datos técnicos, las anécdotas y las estadísticas de cada máquina mítica.\n\nPasá por Agencia Albor en Carlos Casares a encargar la tuya antes de que se agoten los lugares de la reserva y te quedes mirando la bandera a cuadros desde la tribuna.\n\nComentá TURISMO y te anoto el pedido por WhatsApp.\n\n#turismocarretera #juandematraverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 49,
+      "views": 50,
       "saved": 0,
       "shares": 0
     },
@@ -1498,7 +1499,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T02:01:57.285Z",
+  "actualizado": "2026-11-04T03:01:53.658Z",
   "aud": {
     "edad": [
       {
@@ -2229,6 +2230,10 @@
     "2026-11-02": {
       "a": 342,
       "v": 877
+    },
+    "2026-11-03": {
+      "a": 164,
+      "v": 615
     }
   }
 }
