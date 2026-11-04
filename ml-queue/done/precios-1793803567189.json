@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "pedido": 1793803567189,
+  "q": "Wok Coleccion Clarin Negro",
+  "fuente": "catalogo",
+  "items": [
+    {
+      "id": "MLA1411792195",
+      "title": "Colección Clarín Vida Sana",
+      "price": 60000,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-1411792195",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA1993219782",
+      "title": "Colección Clarín Vida Sana",
+      "price": 60000,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-1993219782",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA2055368031",
+      "title": "Colección Completa Tango De Colección Clarín 20 Tomos",
+      "price": 200000,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2055368031",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA3422819664",
+      "title": "Enciclopedias Clarin Colección",
+      "price": 15000,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-3422819664",
+      "cond": "new",
+      "envio": false,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA4095596668",
+      "title": "Enciclopedias Clarin Colección",
+      "price": 150000,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-4095596668",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_special"
+    }
+  ]
+}
