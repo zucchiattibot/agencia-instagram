@@ -783,20 +783,26 @@
     "18182203324450080": {
       "t": "2026-11-03T20:02:01+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 96
+      "a": 87,
+      "v": 101
     },
     "18082013624454490": {
       "t": "2026-11-03T23:02:06+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 80
+      "a": 74,
+      "v": 84
     },
     "18149391268584993": {
       "t": "2026-11-04T13:01:44+0000",
       "tipo": "IMAGE",
-      "a": 31,
-      "v": 38
+      "a": 36,
+      "v": 45
+    },
+    "17893220808653988": {
+      "t": "2026-11-04T16:01:34+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -832,11 +838,11 @@
     "follows_count": 641,
     "media_count": 634,
     "id": "28888466970748824",
-    "el": "2026-11-04T15:01:43.385Z"
+    "el": "2026-11-04T16:01:43.287Z"
   },
   "res30": {
     "reach": 4848,
-    "views": 27854,
+    "views": 27872,
     "profile_views": 92,
     "accounts_engaged": 284
   },
@@ -849,8 +855,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 17,
+      "reach": 16,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -1045,7 +1051,7 @@
       "comments_count": 0,
       "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 34,
-      "views": 64,
+      "views": 65,
       "saved": 0,
       "shares": 0
     },
@@ -1505,7 +1511,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T15:01:55.661Z",
+  "actualizado": "2026-11-04T16:01:56.266Z",
   "aud": {
     "edad": [
       {
@@ -1548,7 +1554,7 @@
           "55-64",
           "F"
         ],
-        "v": 100
+        "v": 101
       },
       {
         "d": [
@@ -1583,7 +1589,7 @@
           "35-44",
           "M"
         ],
-        "v": 148
+        "v": 149
       },
       {
         "d": [
@@ -1665,7 +1671,7 @@
       },
       {
         "d": [
-          "Gobernador Ingeniero Valentín Virasoro, Corrientes"
+          "Chivilcoy, Buenos Aires"
         ],
         "v": 1
       },
@@ -1689,19 +1695,19 @@
       },
       {
         "d": [
+          "Cosquín, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "San Luis, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
-          "Marbella, Andalusia"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Berazategui, Buenos Aires"
+          "Tijuana, Baja California"
         ],
         "v": 1
       },
@@ -1731,7 +1737,13 @@
       },
       {
         "d": [
-          "Ingeniero Budge, Buenos Aires"
+          "Longchamps, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Colonia San Bartolomé, Córdoba"
         ],
         "v": 1
       },
@@ -1740,6 +1752,12 @@
           "Luján, Buenos Aires"
         ],
         "v": 3
+      },
+      {
+        "d": [
+          "La Carlota, Córdoba"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1779,7 +1797,7 @@
       },
       {
         "d": [
-          "La Lucila, Buenos Aires"
+          "Ministro Rivadavia, Buenos Aires"
         ],
         "v": 1
       },
@@ -1787,13 +1805,7 @@
         "d": [
           "Quiroga, Buenos Aires"
         ],
-        "v": 4
-      },
-      {
-        "d": [
-          "Panama City, Panamá Province"
-        ],
-        "v": 2
+        "v": 5
       },
       {
         "d": [
@@ -1803,19 +1815,25 @@
       },
       {
         "d": [
-          "Remedios de Escalada de San Martín, Buenos Aires"
+          "Panama City, Panamá Province"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "San José de Fray Mamerto Esquiú, Catamarca"
         ],
         "v": 1
       },
       {
         "d": [
-          "José C. Paz, Buenos Aires"
+          "Villa de la Quebrada, San Luis"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
-          "Aarhus, Central Denmark Region"
+          "Pinamar, Buenos Aires"
         ],
         "v": 1
       },
@@ -1857,15 +1875,15 @@
       },
       {
         "d": [
-          "Bellocq, Buenos Aires"
+          "Salliqueló, Buenos Aires"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Quimilí, Santiago del Estero"
+          "Bellocq, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -1881,9 +1899,9 @@
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Santo Tomé, Santa Fe"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
@@ -1893,33 +1911,21 @@
       },
       {
         "d": [
+          "Chos Malal, Neuquén"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
-        "v": 4
-      },
-      {
-        "d": [
-          "San Vicente, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Bustarviejo, Comunidad de Madrid"
-        ],
-        "v": 1
+        "v": 3
       },
       {
         "d": [
           "La Plata, Buenos Aires"
         ],
         "v": 12
-      },
-      {
-        "d": [
-          "Valentín Alsina, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1999,7 +2005,7 @@
         "d": [
           "AR"
         ],
-        "v": 1337
+        "v": 1339
       },
       {
         "d": [
@@ -2026,7 +2032,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-03T19:04:53.968Z"
+    "el": "2026-11-04T16:01:51.989Z"
   },
   "dias": {
     "2026-10-11": {
