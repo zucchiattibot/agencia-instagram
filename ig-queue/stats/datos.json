@@ -777,20 +777,26 @@
     "18132540349801996": {
       "t": "2026-11-03T15:02:35+0000",
       "tipo": "VIDEO",
-      "a": 93,
-      "v": 100
+      "a": 94,
+      "v": 103
     },
     "18182203324450080": {
       "t": "2026-11-03T20:02:01+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 80
+      "a": 75,
+      "v": 85
     },
     "18082013624454490": {
       "t": "2026-11-03T23:02:06+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 65
+      "a": 62,
+      "v": 70
+    },
+    "18149391268584993": {
+      "t": "2026-11-04T13:01:44+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -826,11 +832,11 @@
     "follows_count": 641,
     "media_count": 634,
     "id": "28888466970748824",
-    "el": "2026-11-04T12:01:43.452Z"
+    "el": "2026-11-04T13:01:54.887Z"
   },
   "res30": {
     "reach": 4848,
-    "views": 27764,
+    "views": 27776,
     "profile_views": 92,
     "accounts_engaged": 284
   },
@@ -1078,7 +1084,7 @@
       "comments_count": 0,
       "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 36,
-      "views": 48,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -1499,7 +1505,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T12:01:59.127Z",
+  "actualizado": "2026-11-04T13:02:06.646Z",
   "aud": {
     "edad": [
       {
