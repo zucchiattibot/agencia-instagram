@@ -75,7 +75,7 @@
     "mvl58w2y9lx",
     "mvimwxu4g7s"
   ],
-  "statsEl": "2026-11-04T16:01:56.266Z",
+  "statsEl": "2026-11-04T17:03:14.995Z",
   "stUltima": {
     "cuando": "2026-11-04T16:01:41.420Z",
     "franja": "13:00",
@@ -83,12 +83,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-04T16:01:25.905Z",
+    "cuando": "2026-11-04T17:02:58.361Z",
     "cola": 139,
     "enRepo": 139,
-    "pendientes": [
-      "13:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -448,12 +446,12 @@
     }
   },
   "autoPausa": {},
-  "autoOptimizacionUltimoChequeo": "2026-10-28T16:02:32.519Z",
+  "autoOptimizacionUltimoChequeo": "2026-11-04T17:03:14.996Z",
   "autoOptimizacionUltimoResultado": [
     {
       "red": "Instagram Feed/Reels",
-      "estado": "ajustado",
-      "detalle": "Formato de la franja 13:00: feed → reel; diferencia mediana de al menos 40% con 9 videos y 12 fotos."
+      "estado": "en-observacion",
+      "detalle": "Último ajuste hace 7 días: espero 14 para medir el efecto."
     },
     {
       "red": "Facebook Feed/Reels",
@@ -462,22 +460,8 @@
     },
     {
       "red": "Historias",
-      "estado": "ajustado",
-      "detalle": "Moví una franja 09:00 del día 4 al 6 según medianas normalizadas (56%; muestras 11/14).",
-      "anterior": [
-        1,
-        2,
-        3,
-        4,
-        5
-      ],
-      "nueva": [
-        1,
-        2,
-        3,
-        5,
-        6
-      ]
+      "estado": "en-observacion",
+      "detalle": "Último ajuste hace 7 días: espero 14 para medir el efecto."
     }
   ],
   "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
