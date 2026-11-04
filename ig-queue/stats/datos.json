@@ -771,26 +771,26 @@
     "18167177701489881": {
       "t": "2026-11-03T12:03:03+0000",
       "tipo": "VIDEO",
-      "a": 92,
-      "v": 103
+      "a": 94,
+      "v": 104
     },
     "18132540349801996": {
       "t": "2026-11-03T15:02:35+0000",
       "tipo": "VIDEO",
-      "a": 80,
-      "v": 88
+      "a": 82,
+      "v": 89
     },
     "18182203324450080": {
       "t": "2026-11-03T20:02:01+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 67
+      "a": 61,
+      "v": 68
     },
     "18082013624454490": {
       "t": "2026-11-03T23:02:06+0000",
       "tipo": "IMAGE",
-      "a": 45,
-      "v": 52
+      "a": 46,
+      "v": 53
     }
   },
   "seguidores": {
@@ -826,12 +826,12 @@
     "follows_count": 641,
     "media_count": 634,
     "id": "28888466970748824",
-    "el": "2026-11-04T04:01:39.244Z"
+    "el": "2026-11-04T05:01:37.986Z"
   },
   "res30": {
     "reach": 4891,
-    "views": 27697,
-    "profile_views": 93,
+    "views": 27712,
+    "profile_views": 94,
     "accounts_engaged": 286
   },
   "posts": [
@@ -843,8 +843,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 11,
+      "reach": 11,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -856,7 +856,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
+      "reach": 12,
       "views": 17,
       "saved": 0,
       "shares": 0
@@ -869,7 +869,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
+      "reach": 15,
       "views": 18,
       "saved": 0,
       "shares": 0
@@ -882,7 +882,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
+      "reach": 14,
       "views": 42,
       "saved": 0,
       "shares": 0
@@ -895,7 +895,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginas armar con tus propias manos una figura de Iron Man de 60 cm con luces y detalles reales de la película? 🦾\n\nPasá a encargar tu fascículo en Maipú 175, Agencia Albor.\n\nComentá HIERRO y te paso toda la info.\n\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
+      "reach": 23,
       "views": 40,
       "saved": 0,
       "shares": 0
@@ -921,7 +921,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
+      "reach": 38,
       "views": 53,
       "saved": 0,
       "shares": 0
@@ -1499,7 +1499,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T04:01:48.940Z",
+  "actualizado": "2026-11-04T05:01:48.543Z",
   "aud": {
     "edad": [
       {
