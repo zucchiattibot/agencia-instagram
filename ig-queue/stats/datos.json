@@ -783,26 +783,26 @@
     "18182203324450080": {
       "t": "2026-11-03T20:02:01+0000",
       "tipo": "IMAGE",
-      "a": 93,
-      "v": 104
+      "a": 95,
+      "v": 107
     },
     "18082013624454490": {
       "t": "2026-11-03T23:02:06+0000",
       "tipo": "IMAGE",
       "a": 79,
-      "v": 87
+      "v": 89
     },
     "18149391268584993": {
       "t": "2026-11-04T13:01:44+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 52
+      "a": 51,
+      "v": 59
     },
     "17893220808653988": {
       "t": "2026-11-04T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 13,
-      "v": 15
+      "a": 24,
+      "v": 32
     }
   },
   "seguidores": {
@@ -830,19 +830,19 @@
     "2026-11-01": 1397,
     "2026-11-02": 1398,
     "2026-11-03": 1399,
-    "2026-11-04": 1400
+    "2026-11-04": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1400,
+    "followers_count": 1399,
     "follows_count": 643,
     "media_count": 634,
     "id": "28888466970748824",
-    "el": "2026-11-04T17:03:00.097Z"
+    "el": "2026-11-04T18:01:29.249Z"
   },
   "res30": {
     "reach": 4848,
-    "views": 27922,
+    "views": 27946,
     "profile_views": 95,
     "accounts_engaged": 284
   },
@@ -894,7 +894,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
+      "reach": 17,
       "views": 46,
       "saved": 0,
       "shares": 0
@@ -1011,7 +1011,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 205,
+      "reach": 206,
       "views": 257,
       "saved": 0,
       "shares": 1
@@ -1511,7 +1511,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T17:03:14.995Z",
+  "actualizado": "2026-11-04T18:01:38.031Z",
   "aud": {
     "edad": [
       {
