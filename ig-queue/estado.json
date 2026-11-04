@@ -81,7 +81,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-04T14:01:42.125Z",
+    "cuando": "2026-11-04T14:36:14.262Z",
     "cola": 139,
     "enRepo": 139,
     "pendientes": []
@@ -148,7 +148,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 12:15.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 12:15.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-04",
@@ -230,7 +230,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-04",
