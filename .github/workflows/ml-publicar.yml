@@ -189,7 +189,7 @@ jobs:
                 while [ $# -gt 0 ]; do
                   CH=""; N=0
                   while [ $# -gt 0 ] && [ $N -lt 20 ]; do CH="$CH,$1"; shift; N=$((N+1)); done
-                  R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,title,price,status,available_quantity,sold_quantity,permalink,thumbnail" -H "Authorization: Bearer $TOKEN")
+                  R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,title,price,status,available_quantity,sold_quantity,permalink,thumbnail,start_time,date_created" -H "Authorization: Bearer $TOKEN")
                   jq -c --argjson r "$R" '. + [$r[]? | select(.code==200) | .body]' /tmp/items.json > /tmp/i2.json && mv /tmp/i2.json /tmp/items.json
                 done
                 echo '{}' > /tmp/v.json; echo '{}' > /tmp/w.json
