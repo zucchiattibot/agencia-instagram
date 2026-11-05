@@ -819,26 +819,26 @@
     "18387164026240421": {
       "t": "2026-11-05T00:01:36+0000",
       "tipo": "IMAGE",
-      "a": 107,
-      "v": 130
+      "a": 111,
+      "v": 135
     },
     "17912202921573372": {
       "t": "2026-11-05T13:00:43+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 84
+      "a": 76,
+      "v": 88
     },
     "18415416520087602": {
       "t": "2026-11-05T13:02:19+0000",
       "tipo": "VIDEO",
-      "a": 68,
-      "v": 81
+      "a": 74,
+      "v": 85
     },
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
-      "a": 24,
-      "v": 37
+      "a": 37,
+      "v": 46
     }
   },
   "seguidores": {
@@ -875,13 +875,13 @@
     "follows_count": 645,
     "media_count": 638,
     "id": "28888466970748824",
-    "el": "2026-11-05T22:01:44.689Z"
+    "el": "2026-11-05T23:01:35.978Z"
   },
   "res30": {
     "reach": 4837,
-    "views": 28840,
-    "profile_views": 91,
-    "accounts_engaged": 280
+    "views": 28898,
+    "profile_views": 92,
+    "accounts_engaged": 281
   },
   "posts": [
     {
@@ -892,8 +892,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 3,
+      "views": 6,
       "saved": 0,
       "shares": 0
     },
@@ -905,8 +905,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a ver las historietas de la infancia dibujadas en la mesita de luz o armando un lugarcito especial en el living tiene ese encanto de las cosas simples que nos hacían bien de chicos. ☕📖\n\nLa entrañable pandilla creada por Charles Schulz vuelve a juntarse en esta nueva colección que nos trae figuras coleccionables de gran calidad junto a fascículos ilustrados para disfrutar despacito. 💛\n\nLa primera entrega ya está disponible en Maipú 175, Agencia Albor, e incluye el fascículo junto a las figuras de Snoopy y Charlie Brown por $24.990. 🐶👦\n\nAdemás, en las próximas entregas vas a poder sumar a Snoopy aviador, Charlie Brown solo, Snoopy y Woodstock, Lucy y la edición de Snoopy navideño para completar los 6 números. 🏡✨\n\n¿Qué figura de toda la banda era tu preferida cuando leías las tiras diarias? Contanos abajo y pasá a buscar la tuya.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #charloscasares #charlesulz\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 30,
+      "reach": 13,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -918,7 +918,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
+      "reach": 14,
       "views": 25,
       "saved": 0,
       "shares": 0
@@ -931,10 +931,10 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 31,
+      "reach": 35,
+      "views": 34,
       "saved": 0,
-      "shares": 0
+      "shares": 3
     },
     {
       "id": "18104251202367725",
@@ -944,7 +944,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
+      "reach": 23,
       "views": 28,
       "saved": 0,
       "shares": 0
@@ -1600,7 +1600,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-05T22:01:58.097Z",
+  "actualizado": "2026-11-05T23:01:45.565Z",
   "aud": {
     "edad": [
       {

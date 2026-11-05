@@ -77,7 +77,7 @@
     "mvax7l1cpgr",
     "mvkcsgf3ij5"
   ],
-  "statsEl": "2026-11-05T22:01:58.097Z",
+  "statsEl": "2026-11-05T23:01:45.565Z",
   "stUltima": {
     "cuando": "2026-11-05T20:01:48.556Z",
     "franja": "17:00",
@@ -85,7 +85,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-05T22:01:31.034Z",
+    "cuando": "2026-11-05T23:01:32.717Z",
     "cola": 147,
     "enRepo": 147,
     "pendientes": []
@@ -164,7 +164,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Silmar",
     "prueba": {
       "dia": "2026-11-05",
