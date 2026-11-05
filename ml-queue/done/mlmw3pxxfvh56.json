@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "error": "{\"message\":\"Validation error\",\"error\":\"validation_error\",\"cause\":[{\"department\":\"structured-data\",\"cause_id\":3704,\"type\":\"warning\",\"code\":\"item.attribute.missing_catalog_required\",\"references\":[\"item.attributes\"],\"message\":\"El campo \\\"Código universal de producto\\\" es obligatorio y no está cargado.\"},{\"department\":\"items\",\"cause_id\":147,\"type\":\"error\",\"code\":\"item.attributes.missing_required\",\"references\":[\"item.attributes\",\"item.variations.attribute_combinations\"],\"message\":\"The attributes [GTIN] are required for category MLA412445 and channel marketplace. Check the attribute is present in the attributes list or in all variation's attributes_combination or attributes.\"},{\"department\":\"shipping\",\"cause_id\":4053,\"type\":\"warning\",\"code\":\"shipping.lost_me1_by_user\",\"references\":[\"user.shipping_preferences.modes\"],\"message\":\"User has not mode me1\"}]}",
+  "categoria": "MLA412445",
+  "faltan": "BOOK_TITLE (Título del libro), AUTHOR (Autor), BOOK_PUBLISHER (Editorial del libro), GTIN (ISBN), VALUE_ADDED_TAX (IVA), IMPORT_DUTY (Impuesto interno)"
+}
