@@ -801,26 +801,32 @@
     "17893220808653988": {
       "t": "2026-11-04T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 111
+      "a": 100,
+      "v": 114
     },
     "17911738011559743": {
       "t": "2026-11-04T20:45:24+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 95
+      "a": 85,
+      "v": 101
     },
     "17909918955605125": {
       "t": "2026-11-04T22:06:29+0000",
       "tipo": "VIDEO",
-      "a": 70,
-      "v": 82
+      "a": 75,
+      "v": 87
     },
     "18387164026240421": {
       "t": "2026-11-05T00:01:36+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 77
+      "a": 70,
+      "v": 83
+    },
+    "17912202921573372": {
+      "t": "2026-11-05T13:00:43+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -857,11 +863,11 @@
     "follows_count": 645,
     "media_count": 636,
     "id": "28888466970748824",
-    "el": "2026-11-05T12:01:33.095Z"
+    "el": "2026-11-05T13:01:49.341Z"
   },
   "res30": {
     "reach": 4837,
-    "views": 28423,
+    "views": 28450,
     "profile_views": 91,
     "accounts_engaged": 279
   },
@@ -874,7 +880,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
+      "reach": 9,
       "views": 15,
       "saved": 0,
       "shares": 0
@@ -1070,7 +1076,7 @@
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 233,
-      "views": 291,
+      "views": 292,
       "saved": 0,
       "shares": 0
     },
@@ -1556,7 +1562,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-05T12:01:42.882Z",
+  "actualizado": "2026-11-05T13:02:01.281Z",
   "aud": {
     "edad": [
       {
@@ -1716,12 +1722,6 @@
       },
       {
         "d": [
-          "Chivilcoy, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 3
@@ -1734,27 +1734,27 @@
       },
       {
         "d": [
+          "Villa La Angostura, Neuquén"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Palma de Mallorca, Balearic Islands"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
       },
       {
         "d": [
-          "Cosquín, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "San Luis, San Luis"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Tijuana, Baja California"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1776,21 +1776,15 @@
       },
       {
         "d": [
+          "Olivos, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 12
-      },
-      {
-        "d": [
-          "Longchamps, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Colonia San Bartolomé, Córdoba"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1800,15 +1794,9 @@
       },
       {
         "d": [
-          "La Carlota, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Las Toscas, Buenos Aires"
         ],
-        "v": 5
+        "v": 4
       },
       {
         "d": [
@@ -1821,6 +1809,18 @@
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 29
+      },
+      {
+        "d": [
+          "Elsmere, Delaware"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Paraná, Entre Rios"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1838,13 +1838,7 @@
         "d": [
           "Moctezuma, Buenos Aires"
         ],
-        "v": 17
-      },
-      {
-        "d": [
-          "Ministro Rivadavia, Buenos Aires"
-        ],
-        "v": 1
+        "v": 18
       },
       {
         "d": [
@@ -1854,21 +1848,15 @@
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "Panama City, Panamá Province"
         ],
         "v": 2
       },
       {
         "d": [
-          "San José de Fray Mamerto Esquiú, Catamarca"
+          "González Catán, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -1878,7 +1866,25 @@
       },
       {
         "d": [
-          "Pinamar, Buenos Aires"
+          "Villa Leloir, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Timon, Maranhão"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Francisco Madero, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Manuel Ocampo, Buenos Aires"
         ],
         "v": 1
       },
@@ -1886,13 +1892,19 @@
         "d": [
           "Coronel Martínez de Hoz, Buenos Aires"
         ],
-        "v": 8
+        "v": 9
+      },
+      {
+        "d": [
+          "Federal, Entre Rios"
+        ],
+        "v": 1
       },
       {
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1075
+        "v": 1073
       },
       {
         "d": [
@@ -1910,19 +1922,13 @@
         "d": [
           "Santiago, Santiago Metropolitan Region"
         ],
-        "v": 3
+        "v": 2
       },
       {
         "d": [
           "Florida, Buenos Aires"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Salliqueló, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1950,13 +1956,13 @@
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -2077,7 +2083,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-04T16:01:51.989Z"
+    "el": "2026-11-05T13:01:57.428Z"
   },
   "dias": {
     "2026-10-11": {
