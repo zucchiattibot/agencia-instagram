@@ -795,26 +795,32 @@
     "18149391268584993": {
       "t": "2026-11-04T13:01:44+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 81
+      "a": 75,
+      "v": 84
     },
     "17893220808653988": {
       "t": "2026-11-04T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 63
+      "a": 60,
+      "v": 68
     },
     "17911738011559743": {
       "t": "2026-11-04T20:45:24+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 40
+      "a": 37,
+      "v": 45
     },
     "17909918955605125": {
       "t": "2026-11-04T22:06:29+0000",
       "tipo": "VIDEO",
-      "a": 11,
-      "v": 23
+      "a": 22,
+      "v": 28
+    },
+    "18387164026240421": {
+      "t": "2026-11-05T00:01:36+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -847,14 +853,14 @@
   "cuenta": {
     "username": "agenciaalbor",
     "followers_count": 1400,
-    "follows_count": 644,
+    "follows_count": 645,
     "media_count": 636,
     "id": "28888466970748824",
-    "el": "2026-11-04T23:02:06.981Z"
+    "el": "2026-11-05T00:01:45.543Z"
   },
   "res30": {
-    "reach": 4848,
-    "views": 28096,
+    "reach": 4859,
+    "views": 28133,
     "profile_views": 96,
     "accounts_engaged": 285
   },
@@ -867,8 +873,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 1,
+      "views": 3,
       "saved": 0,
       "shares": 0
     },
@@ -880,8 +886,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 7,
+      "reach": 7,
+      "views": 9,
       "saved": 0,
       "shares": 0
     },
@@ -933,7 +939,7 @@
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 17,
-      "views": 46,
+      "views": 48,
       "saved": 0,
       "shares": 0
     },
@@ -971,7 +977,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 40,
+      "reach": 41,
       "views": 58,
       "saved": 0,
       "shares": 0
@@ -997,7 +1003,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 78,
+      "reach": 79,
       "views": 98,
       "saved": 0,
       "shares": 0
@@ -1036,8 +1042,8 @@
       "like_count": 11,
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 127,
-      "views": 150,
+      "reach": 128,
+      "views": 151,
       "saved": 0,
       "shares": 0
     },
@@ -1549,7 +1555,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-04T23:02:16.016Z",
+  "actualizado": "2026-11-05T00:01:56.165Z",
   "aud": {
     "edad": [
       {
