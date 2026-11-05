@@ -801,32 +801,38 @@
     "17893220808653988": {
       "t": "2026-11-04T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 100,
-      "v": 114
+      "a": 103,
+      "v": 118
     },
     "17911738011559743": {
       "t": "2026-11-04T20:45:24+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 101
+      "a": 90,
+      "v": 108
     },
     "17909918955605125": {
       "t": "2026-11-04T22:06:29+0000",
       "tipo": "VIDEO",
-      "a": 75,
-      "v": 87
+      "a": 77,
+      "v": 96
     },
     "18387164026240421": {
       "t": "2026-11-05T00:01:36+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 83
+      "a": 73,
+      "v": 92
     },
     "17912202921573372": {
       "t": "2026-11-05T13:00:43+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 6,
+      "v": 18
+    },
+    "18415416520087602": {
+      "t": "2026-11-05T13:02:19+0000",
+      "tipo": "VIDEO",
+      "a": 5,
+      "v": 12
     }
   },
   "seguidores": {
@@ -863,11 +869,11 @@
     "follows_count": 645,
     "media_count": 636,
     "id": "28888466970748824",
-    "el": "2026-11-05T13:01:49.341Z"
+    "el": "2026-11-05T14:01:47.077Z"
   },
   "res30": {
     "reach": 4837,
-    "views": 28450,
+    "views": 28490,
     "profile_views": 91,
     "accounts_engaged": 279
   },
@@ -906,8 +912,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 22,
+      "reach": 19,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -919,8 +925,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 19,
+      "reach": 14,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -945,8 +951,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 48,
+      "reach": 19,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -971,8 +977,8 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 121,
-      "views": 146,
+      "reach": 122,
+      "views": 147,
       "saved": 0,
       "shares": 3
     },
@@ -1075,7 +1081,7 @@
       "like_count": 8,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 233,
+      "reach": 234,
       "views": 292,
       "saved": 0,
       "shares": 0
@@ -1562,7 +1568,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-05T13:02:01.281Z",
+  "actualizado": "2026-11-05T14:01:58.655Z",
   "aud": {
     "edad": [
       {
