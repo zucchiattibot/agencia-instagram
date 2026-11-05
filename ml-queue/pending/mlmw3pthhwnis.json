@@ -1,0 +1,33 @@
+{
+  "id": "mlmw3pthhwnis",
+  "fotos": 1,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Coleccion Peanuts La Nacion Entrega 1 Snoopy Charlie Brown",
+  "precio": 28000,
+  "cantidad": 10,
+  "listing": "gold_special",
+  "categoria": "MLA412445",
+  "marca": "Peanuts",
+  "modelo": "Snoopy",
+  "descripcion": "Figura coleccionable y fascículo de la colección oficial para fanáticos de los entrañables personajes.\n\nCaracterísticas:\n- Réplica detallada de los personajes clásicos de la tira animada\n- Incluye base roja circular para una correcta exhibición\n- Presentación en caja temática coleccionable\n\nQué incluye:\n- 1 fascículo de la colección La Familia Peanuts\n- 1 figura de Snoopy y Charlie Brown\n\nIdeal para: Coleccionistas y fanáticos de la historieta\n\nCualquier duda, consultanos por esta publicación.",
+  "atributos": [
+    {
+      "id": "BOOK_PUBLISHER",
+      "value_name": "La Nación"
+    },
+    {
+      "id": "BOOK_GENRE",
+      "value_id": "13061816"
+    },
+    {
+      "id": "BOOK_COLLECTION",
+      "value_name": "La Familia Peanuts"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
