@@ -795,32 +795,32 @@
     "18149391268584993": {
       "t": "2026-11-04T13:01:44+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 102
+      "a": 95,
+      "v": 113
     },
     "17893220808653988": {
       "t": "2026-11-04T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 82
+      "a": 78,
+      "v": 87
     },
     "17911738011559743": {
       "t": "2026-11-04T20:45:24+0000",
       "tipo": "IMAGE",
-      "a": 51,
-      "v": 61
+      "a": 58,
+      "v": 66
     },
     "17909918955605125": {
       "t": "2026-11-04T22:06:29+0000",
       "tipo": "VIDEO",
-      "a": 42,
-      "v": 49
+      "a": 48,
+      "v": 55
     },
     "18387164026240421": {
       "t": "2026-11-05T00:01:36+0000",
       "tipo": "IMAGE",
-      "a": 30,
-      "v": 39
+      "a": 39,
+      "v": 47
     }
   },
   "seguidores": {
@@ -848,7 +848,8 @@
     "2026-11-01": 1397,
     "2026-11-02": 1398,
     "2026-11-03": 1399,
-    "2026-11-04": 1400
+    "2026-11-04": 1400,
+    "2026-11-05": 1400
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -856,11 +857,11 @@
     "follows_count": 645,
     "media_count": 636,
     "id": "28888466970748824",
-    "el": "2026-11-05T02:01:26.034Z"
+    "el": "2026-11-05T03:01:31.196Z"
   },
   "res30": {
     "reach": 4859,
-    "views": 28247,
+    "views": 28299,
     "profile_views": 96,
     "accounts_engaged": 285
   },
@@ -873,8 +874,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 10,
+      "reach": 6,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -886,8 +887,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 14,
+      "reach": 14,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -1555,7 +1556,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-05T02:01:38.578Z",
+  "actualizado": "2026-11-05T03:01:42.548Z",
   "aud": {
     "edad": [
       {
@@ -2290,6 +2291,10 @@
     "2026-11-03": {
       "a": 164,
       "v": 615
+    },
+    "2026-11-04": {
+      "a": 142,
+      "v": 586
     }
   }
 }

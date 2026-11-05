@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-10-12T00:23:32.625Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-04 09:45": "ok",
-    "2026-11-04 13:00": "ok",
-    "2026-11-04 17:30": "ok",
-    "2026-11-04 20:45": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -79,7 +74,7 @@
     "mvax9w36uqm",
     "mvax7l1cpgr"
   ],
-  "statsEl": "2026-11-05T02:01:38.578Z",
+  "statsEl": "2026-11-05T03:01:42.548Z",
   "stUltima": {
     "cuando": "2026-11-05T00:01:43.597Z",
     "franja": "20:45",
@@ -87,15 +82,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-05T02:55:06.936Z",
+    "cuando": "2026-11-05T03:01:28.640Z",
     "cola": 145,
     "enRepo": 145,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-11-04 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -151,22 +144,20 @@
       "mrcmvfvlsvkwcj6fc-ig": "2026-11-04T01:03:26.162Z",
       "mrcmw14r34wwjrrzf-ig": "2026-11-04T23:02:05.586Z"
     },
-    "usadosDia": {
-      "mrcmw14r34wwjrrzf-ig": "2026-11-04"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-04",
+      "dia": "2026-11-05",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 20:00 (noche temprana) en lugar de 12:15.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
-      "dia": "2026-11-04",
-      "h": "20:00",
-      "de": "12:15",
-      "tramo": "noche temprana"
+      "dia": "2026-11-05",
+      "h": "",
+      "de": "",
+      "tramo": ""
     },
     "pruebaRec": [
       {
@@ -181,9 +172,7 @@
     "pruebaUlt": "2026-11-04"
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-04 10:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -237,22 +226,20 @@
       "mrcmvzbmi68xxlvdo-fb": "2026-11-03T23:02:19.425Z",
       "mrcmvwdzj9x7t2hv8-fb": "2026-11-04T14:01:47.853Z"
     },
-    "usadosDia": {
-      "mrcmvwdzj9x7t2hv8-fb": "2026-11-04"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-04",
+      "dia": "2026-11-05",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
-      "dia": "2026-11-04",
-      "h": "10:30",
-      "de": "12:00",
-      "tramo": "mañana"
+      "dia": "2026-11-05",
+      "h": "",
+      "de": "",
+      "tramo": ""
     },
     "pruebaRec": [
       {
@@ -303,12 +290,7 @@
     "mvax9w36uqm": "2026-11-04T20:45:34.576Z",
     "mvax7l1cpgr": "2026-11-05T00:01:43.597Z"
   },
-  "stUsadosDia": {
-    "mvl58w2y9lx": "2026-11-04",
-    "mvimwxu4g7s": "2026-11-04",
-    "mvax9w36uqm": "2026-11-04",
-    "mvax7l1cpgr": "2026-11-04"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -484,7 +466,7 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
   "stPrueba": {
-    "dia": "2026-11-04",
+    "dia": "2026-11-05",
     "h": "",
     "de": "",
     "tramo": ""
