@@ -843,20 +843,26 @@
     "18117556136015908": {
       "t": "2026-11-05T23:33:15+0000",
       "tipo": "VIDEO",
-      "a": 109,
-      "v": 135
+      "a": 112,
+      "v": 139
     },
     "18000459462042829": {
       "t": "2026-11-06T12:01:31+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 102
+      "a": 82,
+      "v": 106
     },
     "18348678790253677": {
       "t": "2026-11-06T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 74
+      "a": 65,
+      "v": 80
+    },
+    "17967062865245218": {
+      "t": "2026-11-06T20:01:32+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -894,11 +900,11 @@
     "follows_count": 645,
     "media_count": 641,
     "id": "28888466970748824",
-    "el": "2026-11-06T19:01:27.266Z"
+    "el": "2026-11-06T20:01:41.393Z"
   },
   "res30": {
     "reach": 4902,
-    "views": 29412,
+    "views": 29444,
     "profile_views": 93,
     "accounts_engaged": 283
   },
@@ -911,8 +917,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 7,
+      "reach": 6,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -937,8 +943,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 63,
-      "views": 76,
+      "reach": 67,
+      "views": 78,
       "saved": 0,
       "shares": 0
     },
@@ -989,8 +995,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 86,
-      "views": 59,
+      "reach": 92,
+      "views": 66,
       "saved": 0,
       "shares": 14
     },
@@ -1132,7 +1138,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 50,
+      "reach": 51,
       "views": 66,
       "saved": 0,
       "shares": 0
@@ -1658,7 +1664,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T19:01:36.364Z",
+  "actualizado": "2026-11-06T20:01:52.612Z",
   "aud": {
     "edad": [
       {
