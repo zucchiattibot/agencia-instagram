@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "pedido": 1793979760798,
+  "tipo": "vendidos",
+  "error": "No pude deducir la categoría. Escribí una palabra más clara (ej. libros) o una categoría (ej. MLA3025)."
+}
