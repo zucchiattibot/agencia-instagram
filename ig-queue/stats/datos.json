@@ -825,20 +825,26 @@
     "17912202921573372": {
       "t": "2026-11-05T13:00:43+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 88
+      "a": 79,
+      "v": 93
     },
     "18415416520087602": {
       "t": "2026-11-05T13:02:19+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 85
+      "a": 76,
+      "v": 89
     },
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
-      "a": 37,
-      "v": 46
+      "a": 42,
+      "v": 52
+    },
+    "18117556136015908": {
+      "t": "2026-11-05T23:33:15+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 17
     }
   },
   "seguidores": {
@@ -875,11 +881,11 @@
     "follows_count": 645,
     "media_count": 638,
     "id": "28888466970748824",
-    "el": "2026-11-05T23:01:35.978Z"
+    "el": "2026-11-06T00:01:39.042Z"
   },
   "res30": {
     "reach": 4837,
-    "views": 28898,
+    "views": 28930,
     "profile_views": 92,
     "accounts_engaged": 281
   },
@@ -892,8 +898,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 3,
-      "views": 6,
+      "reach": 7,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -919,7 +925,7 @@
       "comments_count": 0,
       "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 14,
-      "views": 25,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -931,8 +937,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 34,
+      "reach": 39,
+      "views": 38,
       "saved": 0,
       "shares": 3
     },
@@ -944,8 +950,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 28,
+      "reach": 24,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -1101,7 +1107,7 @@
       "comments_count": 0,
       "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 206,
-      "views": 257,
+      "views": 258,
       "saved": 0,
       "shares": 1
     },
@@ -1114,7 +1120,7 @@
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 235,
-      "views": 293,
+      "views": 294,
       "saved": 0,
       "shares": 0
     },
@@ -1600,7 +1606,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-05T23:01:45.565Z",
+  "actualizado": "2026-11-06T00:01:47.855Z",
   "aud": {
     "edad": [
       {
