@@ -76,7 +76,7 @@
     "mvkcsgf3ij5",
     "mvcdrg9658a"
   ],
-  "statsEl": "2026-11-06T05:01:33.854Z",
+  "statsEl": "2026-11-06T06:01:35.402Z",
   "stUltima": {
     "cuando": "2026-11-05T23:33:41.277Z",
     "franja": "20:15",
@@ -84,7 +84,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-06T05:01:23.781Z",
+    "cuando": "2026-11-06T06:01:23.465Z",
     "cola": 147,
     "enRepo": 147,
     "pendientes": []
