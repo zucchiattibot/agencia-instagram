@@ -1,5 +1,5 @@
 {
-  "tokenRenovado": "2026-10-12T00:23:32.625Z",
+  "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-05 17:00": "ok",
@@ -79,7 +79,7 @@
     "mvkcsgf3ij5",
     "mvcdrg9658a"
   ],
-  "statsEl": "2026-11-06T00:01:47.855Z",
+  "statsEl": "2026-11-06T01:01:45.945Z",
   "stUltima": {
     "cuando": "2026-11-05T23:33:41.277Z",
     "franja": "20:15",
@@ -87,7 +87,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-06T00:01:26.372Z",
+    "cuando": "2026-11-06T01:01:31.082Z",
     "cola": 147,
     "enRepo": 147,
     "pendientes": []
@@ -262,7 +262,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-05",
