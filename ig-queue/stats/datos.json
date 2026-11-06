@@ -837,20 +837,26 @@
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 91
+      "a": 87,
+      "v": 97
     },
     "18117556136015908": {
       "t": "2026-11-05T23:33:15+0000",
       "tipo": "VIDEO",
-      "a": 68,
-      "v": 83
+      "a": 70,
+      "v": 87
     },
     "18000459462042829": {
       "t": "2026-11-06T12:01:31+0000",
       "tipo": "IMAGE",
-      "a": 14,
-      "v": 20
+      "a": 22,
+      "v": 37
+    },
+    "18348678790253677": {
+      "t": "2026-11-06T15:01:40+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -888,11 +894,11 @@
     "follows_count": 645,
     "media_count": 640,
     "id": "28888466970748824",
-    "el": "2026-11-06T14:01:36.231Z"
+    "el": "2026-11-06T15:01:49.889Z"
   },
   "res30": {
     "reach": 4891,
-    "views": 29128,
+    "views": 29155,
     "profile_views": 93,
     "accounts_engaged": 279
   },
@@ -906,7 +912,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 6,
-      "views": 10,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -918,8 +924,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 54,
-      "views": 64,
+      "reach": 58,
+      "views": 69,
       "saved": 0,
       "shares": 0
     },
@@ -931,8 +937,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 28,
+      "reach": 20,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -944,8 +950,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a ver las historietas de la infancia dibujadas en la mesita de luz o armando un lugarcito especial en el living tiene ese encanto de las cosas simples que nos hacían bien de chicos. ☕📖\n\nLa entrañable pandilla creada por Charles Schulz vuelve a juntarse en esta nueva colección que nos trae figuras coleccionables de gran calidad junto a fascículos ilustrados para disfrutar despacito. 💛\n\nLa primera entrega ya está disponible en Maipú 175, Agencia Albor, e incluye el fascículo junto a las figuras de Snoopy y Charlie Brown por $24.990. 🐶👦\n\nAdemás, en las próximas entregas vas a poder sumar a Snoopy aviador, Charlie Brown solo, Snoopy y Woodstock, Lucy y la edición de Snoopy navideño para completar los 6 números. 🏡✨\n\n¿Qué figura de toda la banda era tu preferida cuando leías las tiras diarias? Contanos abajo y pasá a buscar la tuya.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #charloscasares #charlesulz\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 42,
+      "reach": 19,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -970,7 +976,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 73,
+      "reach": 75,
       "views": 53,
       "saved": 0,
       "shares": 10
@@ -1639,7 +1645,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T14:01:50.835Z",
+  "actualizado": "2026-11-06T15:02:03.731Z",
   "aud": {
     "edad": [
       {
