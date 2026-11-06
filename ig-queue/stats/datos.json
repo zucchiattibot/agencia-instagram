@@ -825,26 +825,26 @@
     "17912202921573372": {
       "t": "2026-11-05T13:00:43+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 109
+      "a": 98,
+      "v": 111
     },
     "18415416520087602": {
       "t": "2026-11-05T13:02:19+0000",
       "tipo": "VIDEO",
-      "a": 88,
-      "v": 101
+      "a": 91,
+      "v": 103
     },
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 72
+      "a": 67,
+      "v": 74
     },
     "18117556136015908": {
       "t": "2026-11-05T23:33:15+0000",
       "tipo": "VIDEO",
-      "a": 44,
-      "v": 52
+      "a": 50,
+      "v": 57
     }
   },
   "seguidores": {
@@ -882,13 +882,13 @@
     "follows_count": 645,
     "media_count": 639,
     "id": "28888466970748824",
-    "el": "2026-11-06T03:01:30.879Z"
+    "el": "2026-11-06T04:01:23.570Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 29071,
+    "views": 29118,
     "profile_views": 92,
-    "accounts_engaged": 283
+    "accounts_engaged": 284
   },
   "posts": [
     {
@@ -899,8 +899,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 39,
+      "reach": 38,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -912,8 +912,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 20,
+      "reach": 14,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -951,10 +951,10 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 49,
-      "views": 43,
+      "reach": 51,
+      "views": 45,
       "saved": 0,
-      "shares": 9
+      "shares": 10
     },
     {
       "id": "18104251202367725",
@@ -1029,7 +1029,7 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 122,
+      "reach": 123,
       "views": 147,
       "saved": 0,
       "shares": 3
@@ -1133,8 +1133,8 @@
       "like_count": 8,
       "comments_count": 0,
       "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 236,
-      "views": 294,
+      "reach": 237,
+      "views": 295,
       "saved": 0,
       "shares": 0
     },
@@ -1620,7 +1620,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T03:01:42.321Z",
+  "actualizado": "2026-11-06T04:01:34.854Z",
   "aud": {
     "edad": [
       {
