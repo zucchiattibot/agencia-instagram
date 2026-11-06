@@ -825,26 +825,26 @@
     "17912202921573372": {
       "t": "2026-11-05T13:00:43+0000",
       "tipo": "VIDEO",
-      "a": 98,
-      "v": 113
+      "a": 99,
+      "v": 115
     },
     "18415416520087602": {
       "t": "2026-11-05T13:02:19+0000",
       "tipo": "VIDEO",
-      "a": 91,
-      "v": 106
+      "a": 92,
+      "v": 108
     },
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
       "a": 69,
-      "v": 78
+      "v": 80
     },
     "18117556136015908": {
       "t": "2026-11-05T23:33:15+0000",
       "tipo": "VIDEO",
-      "a": 53,
-      "v": 64
+      "a": 54,
+      "v": 66
     }
   },
   "seguidores": {
@@ -882,11 +882,11 @@
     "follows_count": 645,
     "media_count": 639,
     "id": "28888466970748824",
-    "el": "2026-11-06T09:01:28.717Z"
+    "el": "2026-11-06T10:01:32.819Z"
   },
   "res30": {
     "reach": 4859,
-    "views": 29012,
+    "views": 29023,
     "profile_views": 91,
     "accounts_engaged": 279
   },
@@ -1082,7 +1082,7 @@
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 0,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -1108,7 +1108,7 @@
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 128,
-      "views": 0,
+      "views": 151,
       "saved": 0,
       "shares": 0
     },
@@ -1620,7 +1620,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T09:01:37.252Z",
+  "actualizado": "2026-11-06T10:01:45.011Z",
   "aud": {
     "edad": [
       {
@@ -1677,7 +1677,7 @@
           "13-17",
           "M"
         ],
-        "v": 3
+        "v": 4
       },
       {
         "d": [
@@ -1691,7 +1691,7 @@
           "25-34",
           "M"
         ],
-        "v": 80
+        "v": 81
       },
       {
         "d": [
@@ -1740,7 +1740,7 @@
           "25-34",
           "U"
         ],
-        "v": 45
+        "v": 44
       },
       {
         "d": [
@@ -1780,6 +1780,12 @@
       },
       {
         "d": [
+          "Santa Ana, Corrientes"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 3
@@ -1792,21 +1798,15 @@
       },
       {
         "d": [
-          "Villa La Angostura, Neuquén"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Palma de Mallorca, Balearic Islands"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "San Martín, Mendoza"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1824,13 +1824,19 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 20
+        "v": 21
       },
       {
         "d": [
           "General Villegas, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Akure, Ondo State"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1843,6 +1849,12 @@
           "9 de Julio, Buenos Aires"
         ],
         "v": 12
+      },
+      {
+        "d": [
+          "Havana, Havana"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1866,17 +1878,23 @@
         "d": [
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
-        "v": 29
+        "v": 28
       },
       {
         "d": [
-          "Elsmere, Delaware"
+          "Babahoyo, Los Ríos Province"
         ],
         "v": 1
       },
       {
         "d": [
           "Paraná, Entre Rios"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Azul, Buenos Aires"
         ],
         "v": 1
       },
@@ -1890,13 +1908,19 @@
         "d": [
           "Córdoba, Córdoba"
         ],
-        "v": 7
+        "v": 6
       },
       {
         "d": [
           "Moctezuma, Buenos Aires"
         ],
         "v": 18
+      },
+      {
+        "d": [
+          "Munro, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -1914,7 +1938,7 @@
         "d": [
           "González Catán, Buenos Aires"
         ],
-        "v": 2
+        "v": 3
       },
       {
         "d": [
@@ -1924,25 +1948,7 @@
       },
       {
         "d": [
-          "Villa Leloir, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Timon, Maranhão"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Francisco Madero, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Manuel Ocampo, Buenos Aires"
         ],
         "v": 1
       },
@@ -1954,15 +1960,9 @@
       },
       {
         "d": [
-          "Federal, Entre Rios"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1073
+        "v": 1075
       },
       {
         "d": [
@@ -2008,9 +2008,9 @@
       },
       {
         "d": [
-          "Santo Tomé, Santa Fe"
+          "Bragado, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -2020,15 +2020,15 @@
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 3
+      },
+      {
+        "d": [
+          "Sáenz Peña, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2114,7 +2114,7 @@
         "d": [
           "AR"
         ],
-        "v": 1339
+        "v": 1340
       },
       {
         "d": [
@@ -2141,7 +2141,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-05T13:01:57.428Z"
+    "el": "2026-11-06T10:01:41.431Z"
   },
   "dias": {
     "2026-10-11": {
