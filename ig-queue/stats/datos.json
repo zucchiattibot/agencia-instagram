@@ -843,26 +843,26 @@
     "18117556136015908": {
       "t": "2026-11-05T23:33:15+0000",
       "tipo": "VIDEO",
-      "a": 112,
-      "v": 139
+      "a": 117,
+      "v": 143
     },
     "18000459462042829": {
       "t": "2026-11-06T12:01:31+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 106
+      "a": 90,
+      "v": 116
     },
     "18348678790253677": {
       "t": "2026-11-06T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 80
+      "a": 72,
+      "v": 88
     },
     "17967062865245218": {
       "t": "2026-11-06T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 15,
+      "v": 20
     }
   },
   "seguidores": {
@@ -900,12 +900,12 @@
     "follows_count": 645,
     "media_count": 641,
     "id": "28888466970748824",
-    "el": "2026-11-06T20:01:41.393Z"
+    "el": "2026-11-06T21:01:27.588Z"
   },
   "res30": {
     "reach": 4902,
-    "views": 29444,
-    "profile_views": 93,
+    "views": 29492,
+    "profile_views": 94,
     "accounts_engaged": 283
   },
   "posts": [
@@ -917,8 +917,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 10,
+      "reach": 8,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -983,7 +983,7 @@
       "comments_count": 0,
       "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 18,
-      "views": 28,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -995,8 +995,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 92,
-      "views": 66,
+      "reach": 93,
+      "views": 67,
       "saved": 0,
       "shares": 14
     },
@@ -1074,7 +1074,7 @@
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 124,
-      "views": 148,
+      "views": 149,
       "saved": 0,
       "shares": 3
     },
@@ -1664,7 +1664,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T20:01:52.612Z",
+  "actualizado": "2026-11-06T21:01:38.547Z",
   "aud": {
     "edad": [
       {

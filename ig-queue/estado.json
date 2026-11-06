@@ -83,7 +83,7 @@
     "mw2fno8agn3",
     "mw0o0ij7yix"
   ],
-  "statsEl": "2026-11-06T20:01:52.612Z",
+  "statsEl": "2026-11-06T21:01:38.547Z",
   "stUltima": {
     "cuando": "2026-11-06T20:01:39.653Z",
     "franja": "16:30",
@@ -91,12 +91,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-06T20:01:24.704Z",
+    "cuando": "2026-11-06T21:01:25.534Z",
     "cola": 149,
     "enRepo": 149,
-    "pendientes": [
-      "16:30"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
