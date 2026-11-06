@@ -76,7 +76,7 @@
     "mvkcsgf3ij5",
     "mvcdrg9658a"
   ],
-  "statsEl": "2026-11-06T10:01:45.011Z",
+  "statsEl": "2026-11-06T11:02:41.305Z",
   "stUltima": {
     "cuando": "2026-11-05T23:33:41.277Z",
     "franja": "20:15",
@@ -84,13 +84,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-06T10:01:31.226Z",
+    "cuando": "2026-11-06T11:01:34.149Z",
     "cola": 147,
     "enRepo": 147,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-06 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -119,11 +121,12 @@
       "mrcmw14r34wwjrrzf-ig",
       "mrcmw2fesseg7i1d1-ig",
       "mrcmvzbmi68xxlvdo-ig",
-      "mrcmw0067ism3yzn9-ig"
+      "mrcmw0067ism3yzn9-ig",
+      "mrcmvzjh8k3r238ie-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-06T02:01:59.081Z",
-      "franja": "22:15",
+      "cuando": "2026-11-06T11:02:09.916Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -150,9 +153,12 @@
       "mrcmw14r34wwjrrzf-ig": "2026-11-04T23:02:05.586Z",
       "mrcmw2fesseg7i1d1-ig": "2026-11-05T17:01:53.410Z",
       "mrcmvzbmi68xxlvdo-ig": "2026-11-05T22:01:42.418Z",
-      "mrcmw0067ism3yzn9-ig": "2026-11-06T02:01:59.080Z"
+      "mrcmw0067ism3yzn9-ig": "2026-11-06T02:01:59.080Z",
+      "mrcmvzjh8k3r238ie-ig": "2026-11-06T11:02:09.916Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmvzjh8k3r238ie-ig": "2026-11-06"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-06",
@@ -171,12 +177,18 @@
       {
         "t": "2026-11-04T23:02:05.586Z",
         "tramo": "noche temprana"
+      },
+      {
+        "t": "2026-11-06T11:02:09.916Z",
+        "tramo": "primera mañana"
       }
     ],
     "pruebaUlt": "2026-11-06"
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-06 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -204,11 +216,12 @@
       "mrcmvwdzj9x7t2hv8-fb",
       "mrcmw2fesseg7i1d1-fb",
       "mrcmvi6y6jv2e815k-fb",
-      "cmvk6hltk-fb"
+      "cmvk6hltk-fb",
+      "mrcmw14r34wwjrrzf-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-06T00:01:37.211Z",
-      "franja": "20:45",
+      "cuando": "2026-11-06T11:02:29.931Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -234,9 +247,12 @@
       "mrcmvwdzj9x7t2hv8-fb": "2026-11-04T14:01:47.853Z",
       "mrcmw2fesseg7i1d1-fb": "2026-11-05T15:01:45.470Z",
       "mrcmvi6y6jv2e815k-fb": "2026-11-05T21:01:38.238Z",
-      "cmvk6hltk-fb": "2026-11-06T00:01:37.211Z"
+      "cmvk6hltk-fb": "2026-11-06T00:01:37.211Z",
+      "mrcmw14r34wwjrrzf-fb": "2026-11-06T11:02:29.930Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmw14r34wwjrrzf-fb": "2026-11-06"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-06",
@@ -244,7 +260,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "2 salidas hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:15.",
-    "ultimaProv": "La nación",
+    "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-06",
       "h": "08:00",
@@ -255,6 +271,10 @@
       {
         "t": "2026-11-04T14:01:47.854Z",
         "tramo": "mañana"
+      },
+      {
+        "t": "2026-11-06T11:02:29.931Z",
+        "tramo": "primera mañana"
       }
     ],
     "pruebaUlt": "2026-11-06"
