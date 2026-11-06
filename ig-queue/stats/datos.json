@@ -831,13 +831,13 @@
     "18415416520087602": {
       "t": "2026-11-05T13:02:19+0000",
       "tipo": "VIDEO",
-      "a": 98,
+      "a": 99,
       "v": 113
     },
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
-      "a": 76,
+      "a": 77,
       "v": 86
     },
     "18117556136015908": {
@@ -850,7 +850,7 @@
       "t": "2026-11-06T12:01:31+0000",
       "tipo": "IMAGE",
       "a": 0,
-      "v": 0
+      "v": 5
     }
   },
   "seguidores": {
@@ -888,11 +888,11 @@
     "follows_count": 645,
     "media_count": 640,
     "id": "28888466970748824",
-    "el": "2026-11-06T12:01:40.735Z"
+    "el": "2026-11-06T13:01:27.327Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 29077,
+    "views": 29096,
     "profile_views": 93,
     "accounts_engaged": 279
   },
@@ -905,8 +905,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1,
-      "views": 2,
+      "reach": 5,
+      "views": 8,
       "saved": 0,
       "shares": 0
     },
@@ -918,8 +918,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 49,
-      "views": 57,
+      "reach": 50,
+      "views": 60,
       "saved": 0,
       "shares": 0
     },
@@ -970,8 +970,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 67,
-      "views": 52,
+      "reach": 71,
+      "views": 53,
       "saved": 0,
       "shares": 10
     },
@@ -1049,7 +1049,7 @@
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 123,
-      "views": 147,
+      "views": 148,
       "saved": 0,
       "shares": 3
     },
@@ -1101,7 +1101,7 @@
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 42,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -1639,7 +1639,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T12:01:48.536Z",
+  "actualizado": "2026-11-06T13:01:38.709Z",
   "aud": {
     "edad": [
       {
