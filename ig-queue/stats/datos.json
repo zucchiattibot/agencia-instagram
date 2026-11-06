@@ -826,25 +826,25 @@
       "t": "2026-11-05T13:00:43+0000",
       "tipo": "VIDEO",
       "a": 98,
-      "v": 111
+      "v": 113
     },
     "18415416520087602": {
       "t": "2026-11-05T13:02:19+0000",
       "tipo": "VIDEO",
       "a": 91,
-      "v": 103
+      "v": 106
     },
     "18452502958122938": {
       "t": "2026-11-05T20:01:38+0000",
       "tipo": "IMAGE",
       "a": 69,
-      "v": 76
+      "v": 78
     },
     "18117556136015908": {
       "t": "2026-11-05T23:33:15+0000",
       "tipo": "VIDEO",
-      "a": 52,
-      "v": 61
+      "a": 53,
+      "v": 64
     }
   },
   "seguidores": {
@@ -882,11 +882,11 @@
     "follows_count": 645,
     "media_count": 639,
     "id": "28888466970748824",
-    "el": "2026-11-06T08:01:28.798Z"
+    "el": "2026-11-06T09:01:28.717Z"
   },
   "res30": {
     "reach": 4859,
-    "views": 29010,
+    "views": 29012,
     "profile_views": 91,
     "accounts_engaged": 279
   },
@@ -899,8 +899,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 45,
-      "views": 54,
+      "reach": 46,
+      "views": 55,
       "saved": 0,
       "shares": 0
     },
@@ -951,8 +951,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 60,
-      "views": 46,
+      "reach": 62,
+      "views": 47,
       "saved": 0,
       "shares": 10
     },
@@ -1082,7 +1082,7 @@
       "comments_count": 0,
       "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 42,
+      "views": 0,
       "saved": 0,
       "shares": 0
     },
@@ -1108,7 +1108,7 @@
       "comments_count": 0,
       "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 128,
-      "views": 151,
+      "views": 0,
       "saved": 0,
       "shares": 0
     },
@@ -1620,7 +1620,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-06T08:01:38.790Z",
+  "actualizado": "2026-11-06T09:01:37.252Z",
   "aud": {
     "edad": [
       {
