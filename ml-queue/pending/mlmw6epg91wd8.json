@@ -1,0 +1,37 @@
+{
+  "id": "mlmw6epg91wd8",
+  "fotos": 0,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Bloques Juguete Didactico 240 Piezas",
+  "precio": 41000,
+  "cantidad": 10,
+  "listing": "gold_special",
+  "categoria": "MLA1157",
+  "marca": "Bloquis",
+  "modelo": "",
+  "descripcion": "Bloques armables y juguetes didacticos ideales para estimular la creatividad y el desarrollo psicomotriz de los chicos.\n\nCaracteristicas:\n- Variedad de piezas encastrables y torres de bloques para armar\n- Materiales seguros para niños\n- Formatos presentados en baldes contenedores o mochilas transparentes\n\nIncluye:\n- Baldes de bloques armables en distintas cantidades de piezas\n- Sets de bloques en bolsitas transparentes\n- Torres de bloques de madera didacticos\n\nIdeal para regalar y divertirse armando estructuras.\n\nCualquier duda, consultanos por esta publicacion.\n\nTambién ventas por mayor!!!",
+  "atributos": [
+    {
+      "id": "PIECES_NUMBER",
+      "value_name": "240"
+    },
+    {
+      "id": "COLLECTION",
+      "value_name": "Bloquis"
+    },
+    {
+      "id": "IS_COLLECTIBLE",
+      "value_id": "242084"
+    },
+    {
+      "id": "IS_MAGNETIC",
+      "value_id": "242084"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
