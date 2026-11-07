@@ -83,7 +83,7 @@
     "mvauysj4nml",
     "mw0o0mtl99i"
   ],
-  "statsEl": "2026-11-07T13:01:37.430Z",
+  "statsEl": "2026-11-07T14:03:02.924Z",
   "stUltima": {
     "cuando": "2026-11-07T12:02:25.017Z",
     "franja": "09:00",
@@ -91,13 +91,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-07T13:01:26.598Z",
+    "cuando": "2026-11-07T14:01:30.548Z",
     "cola": 149,
     "enRepo": 149,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-07 11:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -129,11 +131,12 @@
       "mrcmw0067ism3yzn9-ig",
       "mrcmvzjh8k3r238ie-ig",
       "mrcmvwlruqb8nsl0v-ig",
-      "mrcmw5ayjilcqvfnd-ig"
+      "mrcmw5ayjilcqvfnd-ig",
+      "mrcmvwe03pm947brj-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-07T01:01:56.747Z",
-      "franja": "21:45",
+      "cuando": "2026-11-07T14:02:22.323Z",
+      "franja": "11:00",
       "ok": 1,
       "fallos": 0
     },
@@ -163,9 +166,12 @@
       "mrcmw0067ism3yzn9-ig": "2026-11-06T02:01:59.080Z",
       "mrcmvzjh8k3r238ie-ig": "2026-11-06T11:02:09.916Z",
       "mrcmvwlruqb8nsl0v-ig": "2026-11-06T16:02:47.302Z",
-      "mrcmw5ayjilcqvfnd-ig": "2026-11-07T01:01:56.747Z"
+      "mrcmw5ayjilcqvfnd-ig": "2026-11-07T01:01:56.747Z",
+      "mrcmvwe03pm947brj-ig": "2026-11-07T14:02:22.323Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmvwe03pm947brj-ig": "2026-11-07"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-07",
@@ -284,7 +290,7 @@
     ],
     "pruebaUlt": "2026-11-06"
   },
-  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
+  "errorStats": "facebook: Facebook: An unknown error occurred (código 1)",
   "stUltimaId": "mw0o0mtl99i",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",

@@ -855,26 +855,26 @@
     "18348678790253677": {
       "t": "2026-11-06T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 105,
+      "a": 108,
       "v": 129
     },
     "17967062865245218": {
       "t": "2026-11-06T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 86
+      "a": 77,
+      "v": 87
     },
     "18181628131445106": {
       "t": "2026-11-06T23:01:57+0000",
       "tipo": "VIDEO",
-      "a": 46,
-      "v": 63
+      "a": 51,
+      "v": 66
     },
     "17900082198610789": {
       "t": "2026-11-07T12:01:50+0000",
       "tipo": "VIDEO",
-      "a": 6,
-      "v": 19
+      "a": 18,
+      "v": 29
     }
   },
   "seguidores": {
@@ -911,17 +911,43 @@
     "username": "agenciaalbor",
     "followers_count": 1400,
     "follows_count": 645,
-    "media_count": 642,
+    "media_count": 644,
     "id": "28888466970748824",
-    "el": "2026-11-07T13:01:28.224Z"
+    "el": "2026-11-07T14:02:23.659Z"
   },
   "res30": {
     "reach": 4837,
-    "views": 29350,
+    "views": 29405,
     "profile_views": 94,
     "accounts_engaged": 281
   },
   "posts": [
+    {
+      "id": "18102817796351349",
+      "timestamp": "2026-11-07T14:02:15+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfcWToQFH5Y/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
+    {
+      "id": "17965048533213633",
+      "timestamp": "2026-11-07T13:02:10+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfcPgKzuUve/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 8,
+      "views": 16,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17988053730108328",
       "timestamp": "2026-11-07T01:01:49+0000",
@@ -930,8 +956,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 41,
-      "views": 43,
+      "reach": 43,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -943,8 +969,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 15,
+      "reach": 13,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -970,7 +996,7 @@
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 74,
-      "views": 85,
+      "views": 86,
       "saved": 0,
       "shares": 0
     },
@@ -1690,7 +1716,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-07T13:01:37.430Z",
+  "actualizado": "2026-11-07T14:03:02.924Z",
   "aud": {
     "edad": [
       {
