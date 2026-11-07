@@ -8,6 +8,15 @@
       "rev": 1,
       "activa": true,
       "creada": "2026-11-07T22:34:30.512Z"
+    },
+    {
+      "id": "amw6zdykwli",
+      "moneda": "BTC",
+      "dir": "down",
+      "precio": 74000,
+      "rev": 1,
+      "activa": true,
+      "creada": "2026-11-07T22:34:39.824Z"
     }
   ]
 }
