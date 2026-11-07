@@ -849,26 +849,26 @@
     "18000459462042829": {
       "t": "2026-11-06T12:01:31+0000",
       "tipo": "IMAGE",
-      "a": 115,
-      "v": 142
+      "a": 119,
+      "v": 147
     },
     "18348678790253677": {
       "t": "2026-11-06T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 118
+      "a": 103,
+      "v": 123
     },
     "17967062865245218": {
       "t": "2026-11-06T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 65
+      "a": 68,
+      "v": 75
     },
     "18181628131445106": {
       "t": "2026-11-06T23:01:57+0000",
       "tipo": "VIDEO",
-      "a": 32,
-      "v": 42
+      "a": 38,
+      "v": 48
     }
   },
   "seguidores": {
@@ -898,7 +898,8 @@
     "2026-11-03": 1399,
     "2026-11-04": 1400,
     "2026-11-05": 1400,
-    "2026-11-06": 1400
+    "2026-11-06": 1400,
+    "2026-11-07": 1400
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -906,13 +907,13 @@
     "follows_count": 645,
     "media_count": 642,
     "id": "28888466970748824",
-    "el": "2026-11-07T02:56:59.179Z"
+    "el": "2026-11-07T04:01:23.891Z"
   },
   "res30": {
     "reach": 4902,
-    "views": 29726,
-    "profile_views": 96,
-    "accounts_engaged": 285
+    "views": 29764,
+    "profile_views": 97,
+    "accounts_engaged": 286
   },
   "posts": [
     {
@@ -923,8 +924,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
-      "views": 30,
+      "reach": 31,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -949,8 +950,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 14,
+      "reach": 11,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -962,8 +963,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 71,
-      "views": 82,
+      "reach": 72,
+      "views": 83,
       "saved": 0,
       "shares": 0
     },
@@ -975,7 +976,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
+      "reach": 24,
       "views": 37,
       "saved": 0,
       "shares": 0
@@ -1014,7 +1015,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 103,
+      "reach": 104,
       "views": 73,
       "saved": 0,
       "shares": 15
@@ -1683,7 +1684,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-07T02:57:09.858Z",
+  "actualizado": "2026-11-07T04:01:33.843Z",
   "aud": {
     "edad": [
       {
@@ -2426,6 +2427,10 @@
     "2026-11-05": {
       "a": 210,
       "v": 753
+    },
+    "2026-11-06": {
+      "a": 243,
+      "v": 754
     }
   }
 }
