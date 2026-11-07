@@ -85,7 +85,7 @@
     "mw0o0ij7yix",
     "mvauysj4nml"
   ],
-  "statsEl": "2026-11-06T23:02:36.978Z",
+  "statsEl": "2026-11-07T00:02:08.522Z",
   "stUltima": {
     "cuando": "2026-11-06T23:02:23.429Z",
     "franja": "19:45",
@@ -93,12 +93,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-06T23:01:31.260Z",
+    "cuando": "2026-11-07T00:01:29.972Z",
     "cola": 149,
     "enRepo": 149,
-    "pendientes": [
-      "19:45"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
@@ -180,7 +178,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:30.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 17 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:30.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-06",
@@ -202,7 +200,8 @@
   },
   "fdfb": {
     "franjas": {
-      "2026-11-06 08:00": "ok"
+      "2026-11-06 08:00": "ok",
+      "2026-11-06 20:15": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -232,11 +231,12 @@
       "mrcmw2fesseg7i1d1-fb",
       "mrcmvi6y6jv2e815k-fb",
       "cmvk6hltk-fb",
-      "mrcmw14r34wwjrrzf-fb"
+      "mrcmw14r34wwjrrzf-fb",
+      "mrcmvl9ewp8zu938d-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-06T11:02:29.931Z",
-      "franja": "08:00",
+      "cuando": "2026-11-07T00:01:57.929Z",
+      "franja": "20:15",
       "ok": 1,
       "fallos": 0
     },
@@ -263,10 +263,12 @@
       "mrcmw2fesseg7i1d1-fb": "2026-11-05T15:01:45.470Z",
       "mrcmvi6y6jv2e815k-fb": "2026-11-05T21:01:38.238Z",
       "cmvk6hltk-fb": "2026-11-06T00:01:37.211Z",
-      "mrcmw14r34wwjrrzf-fb": "2026-11-06T11:02:29.930Z"
+      "mrcmw14r34wwjrrzf-fb": "2026-11-06T11:02:29.930Z",
+      "mrcmvl9ewp8zu938d-fb": "2026-11-07T00:01:57.928Z"
     },
     "usadosDia": {
-      "mrcmw14r34wwjrrzf-fb": "2026-11-06"
+      "mrcmw14r34wwjrrzf-fb": "2026-11-06",
+      "mrcmvl9ewp8zu938d-fb": "2026-11-06"
     },
     "carga": {
       "nivel": 0,
@@ -274,7 +276,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:15.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:15.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-06",
