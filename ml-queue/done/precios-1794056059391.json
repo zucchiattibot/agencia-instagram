@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "pedido": 1794056059391,
+  "q": "Bloques Juguete Didactico 240 Piezas",
+  "fuente": "catalogo",
+  "items": [
+    {
+      "id": "MLA2266155876",
+      "title": "Balde Ladrillos Bloques Encastre Juguete Didáctico X 240",
+      "price": 32990,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2266155876",
+      "cond": "new",
+      "envio": false,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA2305233572",
+      "title": "Balde Ladrillos Bloques Encastre Juguete Didáctico X 240",
+      "price": 32990,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2305233572",
+      "cond": "new",
+      "envio": false,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA2305454600",
+      "title": "Balde Ladrillos Bloques Encastre Juguete Didáctico X 240",
+      "price": 32990,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-2305454600",
+      "cond": "new",
+      "envio": false,
+      "tipo": "gold_special"
+    },
+    {
+      "id": "MLA3568587732",
+      "title": "Balde Ladrillos Bloques Encastre Juguete Didáctico X 240",
+      "price": 63500,
+      "sold": null,
+      "url": "https://articulo.mercadolibre.com.ar/MLA-3568587732",
+      "cond": "new",
+      "envio": true,
+      "tipo": "gold_pro"
+    }
+  ]
+}
