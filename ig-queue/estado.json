@@ -83,7 +83,7 @@
     "mvauysj4nml",
     "mw0o0mtl99i"
   ],
-  "statsEl": "2026-11-07T14:03:02.924Z",
+  "statsEl": "2026-11-07T15:01:35.158Z",
   "stUltima": {
     "cuando": "2026-11-07T12:02:25.017Z",
     "franja": "09:00",
@@ -91,7 +91,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-07T14:01:30.548Z",
+    "cuando": "2026-11-07T15:01:23.213Z",
     "cola": 149,
     "enRepo": 149,
     "pendientes": []
@@ -178,7 +178,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-07",
@@ -290,7 +290,7 @@
     ],
     "pruebaUlt": "2026-11-06"
   },
-  "errorStats": "facebook: Facebook: An unknown error occurred (código 1)",
+  "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mw0o0mtl99i",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
