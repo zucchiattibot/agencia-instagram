@@ -1122,6 +1122,13 @@
       "tipo": "video",
       "nombre": "1000905022.mp4",
       "origen": "rcmw5ayjilcqvfnd"
+    },
+    {
+      "id": "mw6vt3ed2vg",
+      "media": "ig-queue/stories/pool-p/mw6vt3ed2vg.jpg",
+      "tipo": "image",
+      "nombre": "1000904450.jpg",
+      "origen": "rcmw4z6257c7gmcn"
     }
   ],
   "autoNuevas": true,
