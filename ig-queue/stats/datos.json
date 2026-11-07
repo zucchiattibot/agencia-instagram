@@ -907,13 +907,13 @@
     "follows_count": 645,
     "media_count": 642,
     "id": "28888466970748824",
-    "el": "2026-11-07T06:01:25.971Z"
+    "el": "2026-11-07T07:01:34.466Z"
   },
   "res30": {
-    "reach": 4902,
-    "views": 29780,
-    "profile_views": 97,
-    "accounts_engaged": 286
+    "reach": 4837,
+    "views": 29315,
+    "profile_views": 94,
+    "accounts_engaged": 281
   },
   "posts": [
     {
@@ -924,8 +924,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 39,
+      "reach": 38,
+      "views": 41,
       "saved": 0,
       "shares": 0
     },
@@ -1684,7 +1684,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-07T06:01:34.324Z",
+  "actualizado": "2026-11-07T07:01:43.710Z",
   "aud": {
     "edad": [
       {
@@ -1862,15 +1862,21 @@
       },
       {
         "d": [
-          "Macaé, Rio de Janeiro (state)"
+          "Palma de Mallorca, Balearic Islands"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "San Martín, Mendoza"
+          "Turin, Piedmont"
         ],
         "v": 1
+      },
+      {
+        "d": [
+          "Macaé, Rio de Janeiro (state)"
+        ],
+        "v": 2
       },
       {
         "d": [
@@ -1888,7 +1894,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 21
+        "v": 22
       },
       {
         "d": [
@@ -1898,27 +1904,9 @@
       },
       {
         "d": [
-          "Akure, Ondo State"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Olivos, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
-        "v": 12
-      },
-      {
-        "d": [
-          "Havana, Havana"
-        ],
-        "v": 1
+        "v": 11
       },
       {
         "d": [
@@ -1943,12 +1931,6 @@
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 28
-      },
-      {
-        "d": [
-          "Babahoyo, Los Ríos Province"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1982,7 +1964,7 @@
       },
       {
         "d": [
-          "Munro, Buenos Aires"
+          "Pergamino, Buenos Aires"
         ],
         "v": 1
       },
@@ -2006,13 +1988,31 @@
       },
       {
         "d": [
+          "Lobos, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Badalona, Cataluña"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
-          "Timon, Maranhão"
+          "Villa Leloir, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Manuel Ocampo, Buenos Aires"
         ],
         "v": 1
       },
@@ -2026,7 +2026,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1075
+        "v": 1074
       },
       {
         "d": [
@@ -2038,7 +2038,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 16
+        "v": 17
       },
       {
         "d": [
@@ -2090,15 +2090,15 @@
       },
       {
         "d": [
-          "Sáenz Peña, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "La Plata, Buenos Aires"
         ],
         "v": 12
+      },
+      {
+        "d": [
+          "Valentín Alsina, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2205,7 +2205,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-06T10:01:41.431Z"
+    "el": "2026-11-07T07:01:40.479Z"
   },
   "dias": {
     "2026-10-11": {
