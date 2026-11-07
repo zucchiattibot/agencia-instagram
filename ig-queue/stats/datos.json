@@ -849,26 +849,26 @@
     "18000459462042829": {
       "t": "2026-11-06T12:01:31+0000",
       "tipo": "IMAGE",
-      "a": 108,
-      "v": 133
+      "a": 110,
+      "v": 135
     },
     "18348678790253677": {
       "t": "2026-11-06T15:01:40+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 111
+      "a": 94,
+      "v": 113
     },
     "17967062865245218": {
       "t": "2026-11-06T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 53,
-      "v": 56
+      "a": 55,
+      "v": 58
     },
     "18181628131445106": {
       "t": "2026-11-06T23:01:57+0000",
       "tipo": "VIDEO",
-      "a": 13,
-      "v": 21
+      "a": 21,
+      "v": 31
     }
   },
   "seguidores": {
@@ -904,17 +904,30 @@
     "username": "agenciaalbor",
     "followers_count": 1400,
     "follows_count": 645,
-    "media_count": 641,
+    "media_count": 642,
     "id": "28888466970748824",
-    "el": "2026-11-07T00:01:59.652Z"
+    "el": "2026-11-07T01:01:58.012Z"
   },
   "res30": {
     "reach": 4902,
-    "views": 29636,
+    "views": 29657,
     "profile_views": 96,
     "accounts_engaged": 284
   },
   "posts": [
+    {
+      "id": "17988053730108328",
+      "timestamp": "2026-11-07T01:01:49+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dfa9BymjQPA/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18098497541676675",
       "timestamp": "2026-11-06T16:02:35+0000",
@@ -923,8 +936,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 13,
+      "reach": 11,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -936,7 +949,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
+      "reach": 10,
       "views": 14,
       "saved": 0,
       "shares": 0
@@ -1001,7 +1014,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 96,
+      "reach": 98,
       "views": 70,
       "saved": 0,
       "shares": 14
@@ -1670,7 +1683,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-07T00:02:08.522Z",
+  "actualizado": "2026-11-07T01:02:06.971Z",
   "aud": {
     "edad": [
       {
