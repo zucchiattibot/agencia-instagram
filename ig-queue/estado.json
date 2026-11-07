@@ -85,7 +85,7 @@
     "mw0o0mtl99i",
     "mvqn6jffp2s"
   ],
-  "statsEl": "2026-11-07T19:02:35.491Z",
+  "statsEl": "2026-11-07T20:01:34.078Z",
   "stUltima": {
     "cuando": "2026-11-07T19:02:22.828Z",
     "franja": "15:30",
@@ -93,7 +93,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-07T19:48:55.175Z",
+    "cuando": "2026-11-07T20:01:24.062Z",
     "cola": 149,
     "enRepo": 149,
     "pendientes": []
@@ -278,7 +278,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Silmar",
     "prueba": {
       "dia": "2026-11-07",
