@@ -1,13 +1,3 @@
 {
-  "reglas": [
-    {
-      "id": "amvzm22gfsm",
-      "moneda": "BTC",
-      "dir": "down",
-      "precio": 76500,
-      "rev": 1,
-      "activa": true,
-      "creada": "2026-11-02T18:47:06.735Z"
-    }
-  ]
+  "reglas": []
 }
