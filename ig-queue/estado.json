@@ -90,7 +90,7 @@
     "mvjo1jeecnu",
     "mvr0jscdu6t"
   ],
-  "statsEl": "2026-11-08T18:04:41.560Z",
+  "statsEl": "2026-11-08T19:01:34.139Z",
   "stUltima": {
     "cuando": "2026-11-08T18:41:05.750Z",
     "franja": "15:00",
@@ -98,12 +98,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-08T18:40:50.960Z",
-    "cola": 158,
-    "enRepo": 157,
-    "pendientes": [
-      "15:00"
-    ]
+    "cuando": "2026-11-08T19:01:23.727Z",
+    "cola": 159,
+    "enRepo": 158,
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -185,7 +183,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-08",
@@ -283,7 +281,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 18 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
     "ultimaProv": "Silmar",
     "prueba": {
       "dia": "2026-11-08",

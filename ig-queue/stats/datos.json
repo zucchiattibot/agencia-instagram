@@ -879,32 +879,38 @@
     "18451500391120365": {
       "t": "2026-11-07T19:01:49+0000",
       "tipo": "VIDEO",
-      "a": 82,
-      "v": 94
+      "a": 85,
+      "v": 102
     },
     "17990351376079675": {
       "t": "2026-11-07T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 79
+      "a": 74,
+      "v": 85
     },
     "18189413506411239": {
       "t": "2026-11-07T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 71
+      "a": 68,
+      "v": 78
     },
     "17915905011493522": {
       "t": "2026-11-07T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 72
+      "a": 72,
+      "v": 78
     },
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 21,
-      "v": 28
+      "a": 24,
+      "v": 37
+    },
+    "18145917775611145": {
+      "t": "2026-11-08T18:40:57+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 5
     }
   },
   "seguidores": {
@@ -944,11 +950,11 @@
     "follows_count": 646,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T18:04:31.572Z"
+    "el": "2026-11-08T19:01:25.904Z"
   },
   "res30": {
-    "reach": 5153,
-    "views": 29811,
+    "reach": 5160,
+    "views": 29831,
     "profile_views": 93,
     "accounts_engaged": 285
   },
@@ -987,7 +993,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
+      "reach": 31,
       "views": 51,
       "saved": 0,
       "shares": 0
@@ -1091,7 +1097,7 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 158,
+      "reach": 161,
       "views": 79,
       "saved": 1,
       "shares": 17
@@ -1760,7 +1766,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T18:04:41.560Z",
+  "actualizado": "2026-11-08T19:01:34.139Z",
   "aud": {
     "edad": [
       {
