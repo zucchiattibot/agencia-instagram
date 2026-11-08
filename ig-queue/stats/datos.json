@@ -873,32 +873,32 @@
     "17900082198610789": {
       "t": "2026-11-07T12:01:50+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 82
+      "a": 66,
+      "v": 85
     },
     "18451500391120365": {
       "t": "2026-11-07T19:01:49+0000",
       "tipo": "VIDEO",
-      "a": 38,
-      "v": 45
+      "a": 41,
+      "v": 48
     },
     "17990351376079675": {
       "t": "2026-11-07T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 19,
-      "v": 27
+      "a": 27,
+      "v": 33
     },
     "18189413506411239": {
       "t": "2026-11-07T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 12,
-      "v": 16
+      "a": 20,
+      "v": 24
     },
     "17915905011493522": {
       "t": "2026-11-07T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 11,
-      "v": 17
+      "a": 22,
+      "v": 25
     }
   },
   "seguidores": {
@@ -935,17 +935,30 @@
     "username": "agenciaalbor",
     "followers_count": 1398,
     "follows_count": 645,
-    "media_count": 644,
+    "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T00:01:37.953Z"
+    "el": "2026-11-08T01:02:03.088Z"
   },
   "res30": {
     "reach": 5163,
-    "views": 29896,
+    "views": 29939,
     "profile_views": 95,
     "accounts_engaged": 284
   },
   "posts": [
+    {
+      "id": "18111197063242910",
+      "timestamp": "2026-11-08T01:01:55+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dfdh1QwiXsI/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18102817796351349",
       "timestamp": "2026-11-07T14:02:15+0000",
@@ -954,7 +967,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 144,
+      "reach": 145,
       "views": 172,
       "saved": 1,
       "shares": 0
@@ -1032,8 +1045,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 48,
+      "reach": 32,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -1740,7 +1753,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T00:01:46.755Z",
+  "actualizado": "2026-11-08T01:02:13.224Z",
   "aud": {
     "edad": [
       {
