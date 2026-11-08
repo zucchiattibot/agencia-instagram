@@ -4,7 +4,9 @@
   "stFranjas": {
     "2026-11-08 12:45": "ok",
     "2026-11-08 15:00": "ok",
-    "2026-11-08 18:00": "ok"
+    "2026-11-08 18:00": "ok",
+    "2026-11-08 19:30": "ok",
+    "2026-11-08 20:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -90,20 +92,25 @@
     "mw2fnb7trf9",
     "mvjo1jeecnu",
     "mvr0jscdu6t",
-    "mvwe54n7v9o"
+    "mvwe54n7v9o",
+    "mvcdrmhd8n8",
+    "mw5ayyeo0dj"
   ],
-  "statsEl": "2026-11-08T22:01:37.555Z",
+  "statsEl": "2026-11-08T23:03:29.826Z",
   "stUltima": {
-    "cuando": "2026-11-08T21:02:01.787Z",
-    "franja": "18:00",
+    "cuando": "2026-11-08T23:03:19.456Z",
+    "franja": "20:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-08T22:01:25.017Z",
+    "cuando": "2026-11-08T23:01:32.145Z",
     "cola": 159,
     "enRepo": 158,
-    "pendientes": []
+    "pendientes": [
+      "19:30",
+      "20:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -304,7 +311,7 @@
     "pruebaUlt": "2026-11-08"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvwe54n7v9o",
+  "stUltimaId": "mw5ayyeo0dj",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -352,12 +359,16 @@
     "mw2fnb7trf9": "2026-11-07T23:01:51.024Z",
     "mvjo1jeecnu": "2026-11-08T16:01:47.691Z",
     "mvr0jscdu6t": "2026-11-08T18:41:05.750Z",
-    "mvwe54n7v9o": "2026-11-08T21:02:01.787Z"
+    "mvwe54n7v9o": "2026-11-08T21:02:01.787Z",
+    "mvcdrmhd8n8": "2026-11-08T23:01:44.526Z",
+    "mw5ayyeo0dj": "2026-11-08T23:03:19.456Z"
   },
   "stUsadosDia": {
     "mvjo1jeecnu": "2026-11-08",
     "mvr0jscdu6t": "2026-11-08",
-    "mvwe54n7v9o": "2026-11-08"
+    "mvwe54n7v9o": "2026-11-08",
+    "mvcdrmhd8n8": "2026-11-08",
+    "mw5ayyeo0dj": "2026-11-08"
   },
   "autoBase": {
     "feed-ig/config.json": {

@@ -903,20 +903,32 @@
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 56
+      "a": 48,
+      "v": 62
     },
     "18145917775611145": {
       "t": "2026-11-08T18:40:57+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 40
+      "a": 39,
+      "v": 46
     },
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
-      "a": 10,
-      "v": 17
+      "a": 19,
+      "v": 32
+    },
+    "17913397452663694": {
+      "t": "2026-11-08T23:02:50+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
+    },
+    "18084908906741197": {
+      "t": "2026-11-08T23:01:38+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -956,11 +968,11 @@
     "follows_count": 646,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T22:01:27.369Z"
+    "el": "2026-11-08T23:03:20.996Z"
   },
   "res30": {
-    "reach": 5173,
-    "views": 29964,
+    "reach": 5175,
+    "views": 29996,
     "profile_views": 94,
     "accounts_engaged": 286
   },
@@ -973,7 +985,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
+      "reach": 22,
       "views": 25,
       "saved": 0,
       "shares": 0
@@ -986,8 +998,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 156,
-      "views": 185,
+      "reach": 157,
+      "views": 186,
       "saved": 1,
       "shares": 0
     },
@@ -1000,7 +1012,7 @@
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 52,
+      "views": 54,
       "saved": 0,
       "shares": 0
     },
@@ -1039,7 +1051,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 13,
-      "views": 17,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -1103,7 +1115,7 @@
       "like_count": 3,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 174,
+      "reach": 179,
       "views": 79,
       "saved": 1,
       "shares": 17
@@ -1772,7 +1784,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T22:01:37.555Z",
+  "actualizado": "2026-11-08T23:03:29.826Z",
   "aud": {
     "edad": [
       {
