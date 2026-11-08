@@ -2,7 +2,10 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-08 12:45": "ok"
+    "2026-11-08 12:45": "ok",
+    "2026-11-08 15:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -88,18 +91,20 @@
     "mw2fnb7trf9",
     "mvjo1jeecnu"
   ],
-  "statsEl": "2026-11-08T17:01:41.726Z",
+  "statsEl": "2026-11-08T18:04:41.560Z",
   "stUltima": {
-    "cuando": "2026-11-08T16:01:47.691Z",
-    "franja": "12:45",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-08T18:04:29.255Z",
+    "franja": "15:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-08T17:01:31.356Z",
+    "cuando": "2026-11-08T18:01:23.809Z",
     "cola": 158,
     "enRepo": 157,
-    "pendientes": []
+    "pendientes": [
+      "15:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -538,5 +543,6 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01"
+  "stRepruebaUlt": "2026-11-01",
+  "stError": "Instagram tardó demasiado en procesar el archivo."
 }
