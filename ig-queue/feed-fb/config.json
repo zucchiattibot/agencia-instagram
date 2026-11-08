@@ -182,7 +182,10 @@
     "rcmt1l7wf2k8f14y",
     "rcmt1l7lk7fz1zb1",
     "rcmt1l79rnchm1bb",
-    "rcmt1l71t5zy1t6z"
+    "rcmt1l71t5zy1t6z",
+    "rcmujbgut4bqvf1m",
+    "rcmujav55iczvcwv",
+    "rcmth3k4rcisyk1u"
   ],
   "pool": [
     {
@@ -713,6 +716,19 @@
       "prov": "Clarín",
       "shas": [
         "6c7bdfb19b800f6e40495ad960e555cb2fb483a8"
+      ]
+    },
+    {
+      "id": "mrcmujsmu82vt76e8-fb",
+      "matId": "rcmujsmu82vt76e8",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmujsmu82vt76e8.jpg",
+      "caption": "¿Cansada de que tus preparaciones se peguen al fondo y se rompan al desmoldar? 🧁 Con este molde para muffins de la línea Soklingen Titanium vas a cocinar con total tranquilidad gracias a su superficie antiadherente de diseño alemán que te simplifica la repostería casera. Ideal para darte el gusto de hacer tus propios budines y tortitas individuales en casa. Si querés renovar tus utensilios de cocina, escribinos un mensaje privado o por WhatsApp para consultarnos, o pasá directamente por Agencia Albor en Carlos Casares.",
+      "ord": 1790526217894,
+      "prov": "Clsrin",
+      "shas": [
+        "55e07c3ae3af6c3f499ac50895322f916f890caf"
       ]
     }
   ],
