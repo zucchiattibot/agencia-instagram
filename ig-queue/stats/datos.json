@@ -891,32 +891,32 @@
     "18189413506411239": {
       "t": "2026-11-07T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 84
+      "a": 76,
+      "v": 86
     },
     "17915905011493522": {
       "t": "2026-11-07T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 84
+      "a": 81,
+      "v": 86
     },
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 50
+      "a": 44,
+      "v": 56
     },
     "18145917775611145": {
       "t": "2026-11-08T18:40:57+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 27
+      "a": 33,
+      "v": 40
     },
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 10,
+      "v": 17
     }
   },
   "seguidores": {
@@ -956,13 +956,13 @@
     "follows_count": 646,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T21:02:03.706Z"
+    "el": "2026-11-08T22:01:27.369Z"
   },
   "res30": {
-    "reach": 5169,
-    "views": 29914,
+    "reach": 5173,
+    "views": 29964,
     "profile_views": 94,
-    "accounts_engaged": 285
+    "accounts_engaged": 286
   },
   "posts": [
     {
@@ -1100,10 +1100,10 @@
       "timestamp": "2026-11-04T22:08:57+0000",
       "media_type": "IMAGE",
       "permalink": "https://www.instagram.com/p/DfVfr5ylIXs/",
-      "like_count": 2,
+      "like_count": 3,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 170,
+      "reach": 174,
       "views": 79,
       "saved": 1,
       "shares": 17
@@ -1129,7 +1129,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
+      "reach": 18,
       "views": 26,
       "saved": 0,
       "shares": 0
@@ -1181,8 +1181,8 @@
       "like_count": 7,
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 130,
-      "views": 157,
+      "reach": 131,
+      "views": 158,
       "saved": 0,
       "shares": 3
     },
@@ -1772,7 +1772,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T21:02:12.786Z",
+  "actualizado": "2026-11-08T22:01:37.555Z",
   "aud": {
     "edad": [
       {
