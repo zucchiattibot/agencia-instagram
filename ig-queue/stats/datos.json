@@ -879,32 +879,32 @@
     "18451500391120365": {
       "t": "2026-11-07T19:01:49+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 86
+      "a": 78,
+      "v": 93
     },
     "17990351376079675": {
       "t": "2026-11-07T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 72
+      "a": 68,
+      "v": 78
     },
     "18189413506411239": {
       "t": "2026-11-07T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 64
+      "a": 62,
+      "v": 70
     },
     "17915905011493522": {
       "t": "2026-11-07T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 65
+      "a": 66,
+      "v": 71
     },
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 10,
+      "v": 23
     }
   },
   "seguidores": {
@@ -944,11 +944,11 @@
     "follows_count": 646,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T16:01:49.368Z"
+    "el": "2026-11-08T17:01:33.199Z"
   },
   "res30": {
-    "reach": 5138,
-    "views": 29742,
+    "reach": 5149,
+    "views": 29775,
     "profile_views": 93,
     "accounts_engaged": 285
   },
@@ -975,7 +975,7 @@
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 154,
-      "views": 183,
+      "views": 184,
       "saved": 1,
       "shares": 0
     },
@@ -1091,10 +1091,10 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 149,
+      "reach": 152,
       "views": 79,
       "saved": 1,
-      "shares": 16
+      "shares": 17
     },
     {
       "id": "18104251202367725",
@@ -1760,7 +1760,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T16:02:02.437Z",
+  "actualizado": "2026-11-08T17:01:41.726Z",
   "aud": {
     "edad": [
       {
