@@ -873,32 +873,32 @@
     "17900082198610789": {
       "t": "2026-11-07T12:01:50+0000",
       "tipo": "VIDEO",
-      "a": 77,
-      "v": 101
+      "a": 82,
+      "v": 104
     },
     "18451500391120365": {
       "t": "2026-11-07T19:01:49+0000",
       "tipo": "VIDEO",
-      "a": 50,
-      "v": 59
+      "a": 58,
+      "v": 69
     },
     "17990351376079675": {
       "t": "2026-11-07T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 35,
-      "v": 43
+      "a": 42,
+      "v": 51
     },
     "18189413506411239": {
       "t": "2026-11-07T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 34
+      "a": 35,
+      "v": 41
     },
     "17915905011493522": {
       "t": "2026-11-07T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 30,
-      "v": 35
+      "a": 39,
+      "v": 43
     }
   },
   "seguidores": {
@@ -938,11 +938,11 @@
     "follows_count": 645,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T03:01:28.115Z"
+    "el": "2026-11-08T04:01:24.825Z"
   },
   "res30": {
     "reach": 5165,
-    "views": 30006,
+    "views": 30055,
     "profile_views": 95,
     "accounts_engaged": 284
   },
@@ -955,8 +955,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 11,
+      "reach": 13,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -968,8 +968,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 147,
-      "views": 175,
+      "reach": 148,
+      "views": 177,
       "saved": 1,
       "shares": 0
     },
@@ -994,8 +994,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
-      "views": 61,
+      "reach": 53,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -1754,7 +1754,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T03:01:37.601Z",
+  "actualizado": "2026-11-08T04:01:37.176Z",
   "aud": {
     "edad": [
       {
@@ -1839,14 +1839,14 @@
           "45-54",
           "M"
         ],
-        "v": 143
+        "v": 142
       },
       {
         "d": [
           "55-64",
           "M"
         ],
-        "v": 66
+        "v": 67
       },
       {
         "d": [
@@ -1914,12 +1914,6 @@
       },
       {
         "d": [
-          "Santa Ana, Corrientes"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 3
@@ -1929,18 +1923,6 @@
           "Smith, Buenos Aires"
         ],
         "v": 10
-      },
-      {
-        "d": [
-          "Palma de Mallorca, Balearic Islands"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Turin, Piedmont"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -1974,9 +1956,27 @@
       },
       {
         "d": [
+          "Olivos, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
+      },
+      {
+        "d": [
+          "Colonia San Bartolomé, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Coronel Granada, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2004,12 +2004,6 @@
       },
       {
         "d": [
-          "Paraná, Entre Rios"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Azul, Buenos Aires"
         ],
         "v": 1
@@ -2030,11 +2024,11 @@
         "d": [
           "Moctezuma, Buenos Aires"
         ],
-        "v": 18
+        "v": 16
       },
       {
         "d": [
-          "Pergamino, Buenos Aires"
+          "Ciudadela, Buenos Aires"
         ],
         "v": 1
       },
@@ -2058,31 +2052,31 @@
       },
       {
         "d": [
-          "Lobos, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Badalona, Cataluña"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
-          "Villa Leloir, Buenos Aires"
+          "Pozo del Tigre, Formosa"
         ],
         "v": 1
       },
       {
         "d": [
-          "Manuel Ocampo, Buenos Aires"
+          "Pinamar, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Aarhus, Central Denmark Region"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Francisco Madero, Buenos Aires"
         ],
         "v": 1
       },
@@ -2096,7 +2090,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1074
+        "v": 1075
       },
       {
         "d": [
@@ -2118,6 +2112,12 @@
       },
       {
         "d": [
+          "Pereyra, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Florida, Buenos Aires"
         ],
         "v": 2
@@ -2136,19 +2136,25 @@
       },
       {
         "d": [
+          "Ayacucho, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Venado Tuerto, Santa Fe"
         ],
         "v": 2
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -2163,12 +2169,6 @@
           "La Plata, Buenos Aires"
         ],
         "v": 12
-      },
-      {
-        "d": [
-          "Valentín Alsina, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2275,7 +2275,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-07T07:01:40.479Z"
+    "el": "2026-11-08T04:01:33.846Z"
   },
   "dias": {
     "2026-10-11": {
