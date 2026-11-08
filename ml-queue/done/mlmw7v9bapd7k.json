@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "error": "{\"message\":\"Category MLA1744 only supports listing modes: [classified].\",\"error\":\"item.buying_mode.invalid\",\"cause\":[]}",
+  "categoria": "MLA1744",
+  "faltan": "BRAND (Marca), MODEL (Modelo), VEHICLE_YEAR (Año), TRIM (Versión), KILOMETERS (Kilómetros), VEHICLE_TYPE (Tipo de vehículo), FUEL_TYPE (Tipo de combustible), DOORS (Puertas)"
+}
