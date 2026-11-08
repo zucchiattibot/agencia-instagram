@@ -3,9 +3,7 @@
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-08 12:45": "ok",
-    "2026-11-08 15:00": {
-      "intentos": 1
-    }
+    "2026-11-08 15:00": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -89,17 +87,18 @@
     "mvawv8ynaix",
     "mw3pf1g3gol",
     "mw2fnb7trf9",
-    "mvjo1jeecnu"
+    "mvjo1jeecnu",
+    "mvr0jscdu6t"
   ],
   "statsEl": "2026-11-08T18:04:41.560Z",
   "stUltima": {
-    "cuando": "2026-11-08T18:04:29.255Z",
+    "cuando": "2026-11-08T18:41:05.750Z",
     "franja": "15:00",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-08T18:01:23.809Z",
+    "cuando": "2026-11-08T18:40:50.960Z",
     "cola": 158,
     "enRepo": 157,
     "pendientes": [
@@ -305,7 +304,7 @@
     "pruebaUlt": "2026-11-08"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvjo1jeecnu",
+  "stUltimaId": "mvr0jscdu6t",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -351,10 +350,12 @@
     "mvawv8ynaix": "2026-11-07T21:01:40.301Z",
     "mw3pf1g3gol": "2026-11-07T23:01:39.756Z",
     "mw2fnb7trf9": "2026-11-07T23:01:51.024Z",
-    "mvjo1jeecnu": "2026-11-08T16:01:47.691Z"
+    "mvjo1jeecnu": "2026-11-08T16:01:47.691Z",
+    "mvr0jscdu6t": "2026-11-08T18:41:05.750Z"
   },
   "stUsadosDia": {
-    "mvjo1jeecnu": "2026-11-08"
+    "mvjo1jeecnu": "2026-11-08",
+    "mvr0jscdu6t": "2026-11-08"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -543,6 +544,5 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01",
-  "stError": "Instagram tardó demasiado en procesar el archivo."
+  "stRepruebaUlt": "2026-11-01"
 }
