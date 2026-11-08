@@ -873,32 +873,32 @@
     "17900082198610789": {
       "t": "2026-11-07T12:01:50+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 85
+      "a": 70,
+      "v": 91
     },
     "18451500391120365": {
       "t": "2026-11-07T19:01:49+0000",
       "tipo": "VIDEO",
-      "a": 41,
-      "v": 48
+      "a": 45,
+      "v": 54
     },
     "17990351376079675": {
       "t": "2026-11-07T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 33
+      "a": 30,
+      "v": 37
     },
     "18189413506411239": {
       "t": "2026-11-07T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 24
+      "a": 23,
+      "v": 28
     },
     "17915905011493522": {
       "t": "2026-11-07T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 25
+      "a": 26,
+      "v": 29
     }
   },
   "seguidores": {
@@ -937,11 +937,11 @@
     "follows_count": 645,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-08T01:02:03.088Z"
+    "el": "2026-11-08T02:01:31.034Z"
   },
   "res30": {
-    "reach": 5163,
-    "views": 29939,
+    "reach": 5165,
+    "views": 29970,
     "profile_views": 95,
     "accounts_engaged": 284
   },
@@ -954,8 +954,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 6,
+      "views": 6,
       "saved": 0,
       "shares": 0
     },
@@ -1084,7 +1084,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 124,
+      "reach": 126,
       "views": 78,
       "saved": 0,
       "shares": 16
@@ -1753,7 +1753,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-08T01:02:13.224Z",
+  "actualizado": "2026-11-08T02:01:42.497Z",
   "aud": {
     "edad": [
       {
