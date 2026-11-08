@@ -730,43 +730,23 @@
       ]
     },
     {
-      "id": "mrcmw86hao8voei05-ig",
-      "matId": "rcmw86hao8voei05",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmw86hao8voei05.jpg",
-      "caption": "La diferencia entre que una tarta salga perfecta o se rompa al desmoldar está en los detalles del molde que elegís. 🍮\n\nCon base firme de acero y una superficie antiadherente de primera, cocinar rico en casa es mucho más simple y ensuciás menos. \n\nConsultanos por WhatsApp o pasá directamente por Maipú 175, Agencia Albor, para conocer toda la línea. \n\nMandanos un mensaje privado con la palabra CONSULTA y te respondemos al instante.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#silicona #carloscasares #hornofácil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794163318956,
-      "prov": "Clarín",
-      "shas": [
-        "717e77675e9b7932c2105d98beb757c0e25afd53"
-      ]
-    },
-    {
-      "id": "mrcmw86h3db6rewoh-ig",
-      "matId": "rcmw86h3db6rewoh",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmw86h3db6rewoh.jpg",
-      "caption": "¿Cuántas veces renegaste porque se te rompió la tarta o el budín justo al desmoldar? 🥧 Con este set de diseño alemán tenés todo lo necesario para budines, muffins y tortas impecables. Pasá a buscar el tuyo por Maipú 175, Agencia Albor, Maipú 175.\n#soklingen #repostería #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794163331052,
-      "prov": "Clarín",
-      "shas": [
-        "9785868ae5aaead9aaa84856b778ffbaa358ef0a"
-      ]
-    },
-    {
-      "id": "mrcmw86pwrt30u3di-ig",
+      "id": "cmw86s655-ig",
       "matId": "rcmw86pwrt30u3di",
+      "matIds": [
+        "rcmw86pwrt30u3di",
+        "rcmw86h3db6rewoh",
+        "rcmw86hao8voei05"
+      ],
       "tipo": "image",
       "fmt": "feed",
       "media": "ig-queue/feed/media/rcmw86pwrt30u3di.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmw86pwrt30u3di.jpg",
+        "ig-queue/feed/media/rcmw86h3db6rewoh.jpg",
+        "ig-queue/feed/media/rcmw86hao8voei05.jpg"
+      ],
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794163736274,
-      "prov": "Clarín",
-      "shas": [
-        "01e14af855dd0356b9a339f7ceaf4e8c0dfefed5"
-      ]
+      "ord": 1794163736274
     }
   ],
   "publicadas": [
