@@ -4,9 +4,7 @@
   "stFranjas": {
     "2026-11-09 09:00": "ok",
     "2026-11-09 12:15": "ok",
-    "2026-11-09 16:45": {
-      "intentos": 1
-    }
+    "2026-11-09 16:45": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -96,17 +94,18 @@
     "mvcdrmhd8n8",
     "mw5ayyeo0dj",
     "mvimxpwx9bk",
-    "mvr0j1osn65"
+    "mvr0j1osn65",
+    "mvid6ws6pz1"
   ],
-  "statsEl": "2026-11-09T20:02:12.613Z",
+  "statsEl": "2026-11-09T21:02:01.003Z",
   "stUltima": {
-    "cuando": "2026-11-09T20:01:36.745Z",
+    "cuando": "2026-11-09T21:01:47.847Z",
     "franja": "16:45",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-09T20:01:33.598Z",
+    "cuando": "2026-11-09T21:01:31.078Z",
     "cola": 169,
     "enRepo": 168,
     "pendientes": [
@@ -311,7 +310,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-09",
@@ -332,7 +331,7 @@
     "pruebaUlt": "2026-11-08"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvr0j1osn65",
+  "stUltimaId": "mvid6ws6pz1",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -384,11 +383,13 @@
     "mvcdrmhd8n8": "2026-11-08T23:01:44.526Z",
     "mw5ayyeo0dj": "2026-11-08T23:03:19.456Z",
     "mvimxpwx9bk": "2026-11-09T12:01:55.618Z",
-    "mvr0j1osn65": "2026-11-09T16:00:09.763Z"
+    "mvr0j1osn65": "2026-11-09T16:00:09.763Z",
+    "mvid6ws6pz1": "2026-11-09T21:01:47.847Z"
   },
   "stUsadosDia": {
     "mvimxpwx9bk": "2026-11-09",
-    "mvr0j1osn65": "2026-11-09"
+    "mvr0j1osn65": "2026-11-09",
+    "mvid6ws6pz1": "2026-11-09"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -577,6 +578,5 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01",
-  "stError": "The media with 18,135,708,667,670,222 cannot be found. (código 24)"
+  "stRepruebaUlt": "2026-11-01"
 }

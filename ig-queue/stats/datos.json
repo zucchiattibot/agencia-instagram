@@ -921,26 +921,32 @@
     "17913397452663694": {
       "t": "2026-11-08T23:02:50+0000",
       "tipo": "VIDEO",
-      "a": 61,
-      "v": 71
+      "a": 66,
+      "v": 74
     },
     "18084908906741197": {
       "t": "2026-11-08T23:01:38+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 76
+      "a": 73,
+      "v": 80
     },
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 49
+      "a": 48,
+      "v": 53
     },
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 32,
-      "v": 39
+      "a": 36,
+      "v": 46
+    },
+    "18137816839669921": {
+      "t": "2026-11-09T21:01:38+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -981,11 +987,11 @@
     "follows_count": 646,
     "media_count": 647,
     "id": "28888466970748824",
-    "el": "2026-11-09T20:02:03.313Z"
+    "el": "2026-11-09T21:01:49.948Z"
   },
   "res30": {
-    "reach": 5193,
-    "views": 30214,
+    "reach": 5198,
+    "views": 30244,
     "profile_views": 93,
     "accounts_engaged": 284
   },
@@ -998,8 +1004,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 13,
+      "reach": 13,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -1050,8 +1056,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 38,
-      "views": 61,
+      "reach": 39,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -1233,7 +1239,7 @@
       "comments_count": 1,
       "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 132,
-      "views": 159,
+      "views": 161,
       "saved": 0,
       "shares": 3
     },
@@ -1823,7 +1829,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T20:02:12.613Z",
+  "actualizado": "2026-11-09T21:02:01.003Z",
   "aud": {
     "edad": [
       {
