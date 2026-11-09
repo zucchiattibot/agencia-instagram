@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-09 09:00": "ok"
+    "2026-11-09 09:00": "ok",
+    "2026-11-09 12:15": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -91,20 +92,23 @@
     "mvwe54n7v9o",
     "mvcdrmhd8n8",
     "mw5ayyeo0dj",
-    "mvimxpwx9bk"
+    "mvimxpwx9bk",
+    "mvr0j1osn65"
   ],
-  "statsEl": "2026-11-09T15:01:44.991Z",
+  "statsEl": "2026-11-09T16:00:30.106Z",
   "stUltima": {
-    "cuando": "2026-11-09T12:01:55.618Z",
-    "franja": "09:00",
+    "cuando": "2026-11-09T16:00:09.763Z",
+    "franja": "12:15",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-09T15:01:30.492Z",
-    "cola": 165,
-    "enRepo": 164,
-    "pendientes": []
+    "cuando": "2026-11-09T15:59:57.578Z",
+    "cola": 166,
+    "enRepo": 165,
+    "pendientes": [
+      "12:15"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -192,7 +196,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-09",
@@ -213,7 +217,9 @@
     "pruebaUlt": "2026-11-09"
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-09 12:45": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -246,11 +252,12 @@
       "mrcmvl9ewp8zu938d-fb",
       "mrcmw4z6257c7gmcn-fb",
       "cmvk4x12s-fb",
-      "cmvk6hxn5-fb"
+      "cmvk6hxn5-fb",
+      "cmw86s655-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-08T14:01:41.757Z",
-      "franja": "10:30",
+      "cuando": "2026-11-09T16:00:18.159Z",
+      "franja": "12:45",
       "ok": 1,
       "fallos": 0
     },
@@ -281,16 +288,19 @@
       "mrcmvl9ewp8zu938d-fb": "2026-11-07T00:01:57.928Z",
       "mrcmw4z6257c7gmcn-fb": "2026-11-07T19:49:00.918Z",
       "cmvk4x12s-fb": "2026-11-07T23:02:04.583Z",
-      "cmvk6hxn5-fb": "2026-11-08T14:01:41.756Z"
+      "cmvk6hxn5-fb": "2026-11-08T14:01:41.756Z",
+      "cmw86s655-fb": "2026-11-09T16:00:18.159Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "cmw86s655-fb": "2026-11-09"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-09",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Silmar",
     "prueba": {
       "dia": "2026-11-09",
@@ -311,7 +321,7 @@
     "pruebaUlt": "2026-11-08"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvimxpwx9bk",
+  "stUltimaId": "mvr0j1osn65",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -362,10 +372,12 @@
     "mvwe54n7v9o": "2026-11-08T21:02:01.787Z",
     "mvcdrmhd8n8": "2026-11-08T23:01:44.526Z",
     "mw5ayyeo0dj": "2026-11-08T23:03:19.456Z",
-    "mvimxpwx9bk": "2026-11-09T12:01:55.618Z"
+    "mvimxpwx9bk": "2026-11-09T12:01:55.618Z",
+    "mvr0j1osn65": "2026-11-09T16:00:09.763Z"
   },
   "stUsadosDia": {
-    "mvimxpwx9bk": "2026-11-09"
+    "mvimxpwx9bk": "2026-11-09",
+    "mvr0j1osn65": "2026-11-09"
   },
   "autoBase": {
     "feed-ig/config.json": {

@@ -903,20 +903,20 @@
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 111
+      "a": 93,
+      "v": 112
     },
     "18145917775611145": {
       "t": "2026-11-08T18:40:57+0000",
       "tipo": "IMAGE",
-      "a": 79,
-      "v": 93
+      "a": 82,
+      "v": 94
     },
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
-      "a": 63,
-      "v": 77
+      "a": 64,
+      "v": 78
     },
     "17913397452663694": {
       "t": "2026-11-08T23:02:50+0000",
@@ -927,14 +927,20 @@
     "18084908906741197": {
       "t": "2026-11-08T23:01:38+0000",
       "tipo": "IMAGE",
-      "a": 58,
-      "v": 62
+      "a": 59,
+      "v": 63
     },
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 19,
+      "a": 20,
       "v": 23
+    },
+    "18114560071890086": {
+      "t": "2026-11-09T16:00:03+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -975,11 +981,11 @@
     "follows_count": 646,
     "media_count": 646,
     "id": "28888466970748824",
-    "el": "2026-11-09T15:01:33.502Z"
+    "el": "2026-11-09T16:00:20.625Z"
   },
   "res30": {
     "reach": 5181,
-    "views": 30064,
+    "views": 30075,
     "profile_views": 93,
     "accounts_engaged": 284
   },
@@ -1005,8 +1011,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 28,
+      "reach": 27,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -1018,8 +1024,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 162,
-      "views": 193,
+      "reach": 163,
+      "views": 194,
       "saved": 1,
       "shares": 0
     },
@@ -1804,7 +1810,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T15:01:44.991Z",
+  "actualizado": "2026-11-09T16:00:30.106Z",
   "aud": {
     "edad": [
       {
