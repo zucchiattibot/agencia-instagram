@@ -93,7 +93,7 @@
     "mw5ayyeo0dj",
     "mvimxpwx9bk"
   ],
-  "statsEl": "2026-11-09T13:01:46.001Z",
+  "statsEl": "2026-11-09T14:01:42.006Z",
   "stUltima": {
     "cuando": "2026-11-09T12:01:55.618Z",
     "franja": "09:00",
@@ -101,9 +101,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-09T13:01:34.326Z",
-    "cola": 160,
-    "enRepo": 159,
+    "cuando": "2026-11-09T14:01:31.516Z",
+    "cola": 165,
+    "enRepo": 164,
     "pendientes": []
   },
   "fdig": {
