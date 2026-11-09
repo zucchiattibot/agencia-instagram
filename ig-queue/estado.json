@@ -3,7 +3,10 @@
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-09 09:00": "ok",
-    "2026-11-09 12:15": "ok"
+    "2026-11-09 12:15": "ok",
+    "2026-11-09 16:45": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -95,18 +98,20 @@
     "mvimxpwx9bk",
     "mvr0j1osn65"
   ],
-  "statsEl": "2026-11-09T19:01:45.942Z",
+  "statsEl": "2026-11-09T20:02:12.613Z",
   "stUltima": {
-    "cuando": "2026-11-09T16:00:09.763Z",
-    "franja": "12:15",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-09T20:01:36.745Z",
+    "franja": "16:45",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-09T19:01:33.874Z",
+    "cuando": "2026-11-09T20:01:33.598Z",
     "cola": 169,
     "enRepo": 168,
-    "pendientes": []
+    "pendientes": [
+      "16:45"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -220,7 +225,8 @@
   },
   "fdfb": {
     "franjas": {
-      "2026-11-09 12:45": "ok"
+      "2026-11-09 12:45": "ok",
+      "2026-11-09 16:30": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -255,11 +261,12 @@
       "mrcmw4z6257c7gmcn-fb",
       "cmvk4x12s-fb",
       "cmvk6hxn5-fb",
-      "cmw86s655-fb"
+      "cmw86s655-fb",
+      "mrcmw9fkmriqoji2f-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-09T16:00:18.159Z",
-      "franja": "12:45",
+      "cuando": "2026-11-09T20:02:01.810Z",
+      "franja": "16:30",
       "ok": 1,
       "fallos": 0
     },
@@ -291,10 +298,12 @@
       "mrcmw4z6257c7gmcn-fb": "2026-11-07T19:49:00.918Z",
       "cmvk4x12s-fb": "2026-11-07T23:02:04.583Z",
       "cmvk6hxn5-fb": "2026-11-08T14:01:41.756Z",
-      "cmw86s655-fb": "2026-11-09T16:00:18.159Z"
+      "cmw86s655-fb": "2026-11-09T16:00:18.159Z",
+      "mrcmw9fkmriqoji2f-fb": "2026-11-09T20:02:01.809Z"
     },
     "usadosDia": {
-      "cmw86s655-fb": "2026-11-09"
+      "cmw86s655-fb": "2026-11-09",
+      "mrcmw9fkmriqoji2f-fb": "2026-11-09"
     },
     "carga": {
       "nivel": 0,
@@ -303,7 +312,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Silmar",
+    "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-09",
       "h": "",
@@ -568,5 +577,6 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01"
+  "stRepruebaUlt": "2026-11-01",
+  "stError": "The media with 18,135,708,667,670,222 cannot be found. (código 24)"
 }

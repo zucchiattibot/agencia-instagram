@@ -915,32 +915,32 @@
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
-      "a": 71,
-      "v": 87
+      "a": 74,
+      "v": 90
     },
     "17913397452663694": {
       "t": "2026-11-08T23:02:50+0000",
       "tipo": "VIDEO",
       "a": 61,
-      "v": 69
+      "v": 71
     },
     "18084908906741197": {
       "t": "2026-11-08T23:01:38+0000",
       "tipo": "IMAGE",
-      "a": 67,
-      "v": 73
+      "a": 70,
+      "v": 76
     },
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 41,
-      "v": 47
+      "a": 44,
+      "v": 49
     },
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 35
+      "a": 32,
+      "v": 39
     }
   },
   "seguidores": {
@@ -981,11 +981,11 @@
     "follows_count": 646,
     "media_count": 647,
     "id": "28888466970748824",
-    "el": "2026-11-09T19:01:35.967Z"
+    "el": "2026-11-09T20:02:03.313Z"
   },
   "res30": {
-    "reach": 5186,
-    "views": 30193,
+    "reach": 5193,
+    "views": 30214,
     "profile_views": 93,
     "accounts_engaged": 284
   },
@@ -998,8 +998,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 7,
-      "views": 9,
+      "reach": 10,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -1024,7 +1024,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
+      "reach": 28,
       "views": 31,
       "saved": 0,
       "shares": 0
@@ -1154,7 +1154,7 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 211,
+      "reach": 213,
       "views": 80,
       "saved": 1,
       "shares": 17
@@ -1167,8 +1167,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
-      "views": 41,
+      "reach": 31,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -1258,7 +1258,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 42,
+      "reach": 43,
       "views": 53,
       "saved": 0,
       "shares": 0
@@ -1823,7 +1823,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T19:01:45.942Z",
+  "actualizado": "2026-11-09T20:02:12.613Z",
   "aud": {
     "edad": [
       {
@@ -2344,7 +2344,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-09T00:01:45.989Z"
+    "el": "2026-11-09T20:02:09.890Z"
   },
   "dias": {
     "2026-10-11": {
