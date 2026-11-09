@@ -903,32 +903,38 @@
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 93
+      "a": 82,
+      "v": 98
     },
     "18145917775611145": {
       "t": "2026-11-08T18:40:57+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 80
+      "a": 72,
+      "v": 85
     },
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
-      "a": 51,
-      "v": 65
+      "a": 55,
+      "v": 71
     },
     "17913397452663694": {
       "t": "2026-11-08T23:02:50+0000",
       "tipo": "VIDEO",
-      "a": 41,
-      "v": 47
+      "a": 46,
+      "v": 54
     },
     "18084908906741197": {
       "t": "2026-11-08T23:01:38+0000",
       "tipo": "IMAGE",
-      "a": 47,
-      "v": 50
+      "a": 52,
+      "v": 57
+    },
+    "17874309444641750": {
+      "t": "2026-11-09T12:01:49+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -969,11 +975,11 @@
     "follows_count": 646,
     "media_count": 646,
     "id": "28888466970748824",
-    "el": "2026-11-09T11:02:06.528Z"
+    "el": "2026-11-09T12:01:57.538Z"
   },
   "res30": {
     "reach": 5170,
-    "views": 29952,
+    "views": 29978,
     "profile_views": 93,
     "accounts_engaged": 284
   },
@@ -983,11 +989,11 @@
       "timestamp": "2026-11-09T11:01:58+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfhLTGvD7EV/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Tener otra vez en casa las figuras de Snoopy, Charlie Brown y toda la barra es posible para llenar tus espacios favoritos de ternura. 🏡✨\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor y empezá a completar las 6 entregas de esta hermosa serie.\n\n#snoopy #peanuts #carloscasares #lucy\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 1,
+      "views": 2,
       "saved": 0,
       "shares": 0
     },
@@ -1078,7 +1084,7 @@
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 80,
-      "views": 92,
+      "views": 94,
       "saved": 0,
       "shares": 0
     },
@@ -1129,7 +1135,7 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 202,
+      "reach": 204,
       "views": 79,
       "saved": 1,
       "shares": 17
@@ -1798,7 +1804,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T11:02:14.364Z",
+  "actualizado": "2026-11-09T12:02:04.794Z",
   "aud": {
     "edad": [
       {

@@ -1,7 +1,9 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-09 09:00": "ok"
+  },
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -88,20 +90,23 @@
     "mvr0jscdu6t",
     "mvwe54n7v9o",
     "mvcdrmhd8n8",
-    "mw5ayyeo0dj"
+    "mw5ayyeo0dj",
+    "mvimxpwx9bk"
   ],
-  "statsEl": "2026-11-09T11:02:14.364Z",
+  "statsEl": "2026-11-09T12:02:04.794Z",
   "stUltima": {
-    "cuando": "2026-11-08T23:03:19.456Z",
-    "franja": "20:00",
+    "cuando": "2026-11-09T12:01:55.618Z",
+    "franja": "09:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-09T11:01:31.796Z",
+    "cuando": "2026-11-09T12:01:43.132Z",
     "cola": 159,
     "enRepo": 158,
-    "pendientes": []
+    "pendientes": [
+      "09:00"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -189,7 +194,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-09",
@@ -308,7 +313,7 @@
     "pruebaUlt": "2026-11-08"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mw5ayyeo0dj",
+  "stUltimaId": "mvimxpwx9bk",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -358,9 +363,12 @@
     "mvr0jscdu6t": "2026-11-08T18:41:05.750Z",
     "mvwe54n7v9o": "2026-11-08T21:02:01.787Z",
     "mvcdrmhd8n8": "2026-11-08T23:01:44.526Z",
-    "mw5ayyeo0dj": "2026-11-08T23:03:19.456Z"
+    "mw5ayyeo0dj": "2026-11-08T23:03:19.456Z",
+    "mvimxpwx9bk": "2026-11-09T12:01:55.618Z"
   },
-  "stUsadosDia": {},
+  "stUsadosDia": {
+    "mvimxpwx9bk": "2026-11-09"
+  },
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
