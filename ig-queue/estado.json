@@ -1,13 +1,7 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-08 12:45": "ok",
-    "2026-11-08 15:00": "ok",
-    "2026-11-08 18:00": "ok",
-    "2026-11-08 19:30": "ok",
-    "2026-11-08 20:00": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -96,7 +90,7 @@
     "mvcdrmhd8n8",
     "mw5ayyeo0dj"
   ],
-  "statsEl": "2026-11-09T02:01:36.222Z",
+  "statsEl": "2026-11-09T03:01:41.365Z",
   "stUltima": {
     "cuando": "2026-11-08T23:03:19.456Z",
     "franja": "20:00",
@@ -104,7 +98,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-09T02:01:25.164Z",
+    "cuando": "2026-11-09T03:01:28.907Z",
     "cola": 159,
     "enRepo": 158,
     "pendientes": []
@@ -185,17 +179,17 @@
     "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-08",
+      "dia": "2026-11-09",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
     "ultimaProv": "Clarín",
     "prueba": {
-      "dia": "2026-11-08",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-09",
+      "h": "08:00",
+      "de": "18:45",
+      "tramo": "primera mañana"
     },
     "pruebaRec": [
       {
@@ -203,12 +197,10 @@
         "tramo": "primera mañana"
       }
     ],
-    "pruebaUlt": "2026-11-06"
+    "pruebaUlt": "2026-11-09"
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-08 10:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -278,22 +270,20 @@
       "cmvk4x12s-fb": "2026-11-07T23:02:04.583Z",
       "cmvk6hxn5-fb": "2026-11-08T14:01:41.756Z"
     },
-    "usadosDia": {
-      "cmvk6hxn5-fb": "2026-11-08"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-08",
+      "dia": "2026-11-09",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:00.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Silmar",
     "prueba": {
-      "dia": "2026-11-08",
-      "h": "10:30",
-      "de": "12:00",
-      "tramo": "mañana"
+      "dia": "2026-11-09",
+      "h": "",
+      "de": "",
+      "tramo": ""
     },
     "pruebaRec": [
       {
@@ -360,13 +350,7 @@
     "mvcdrmhd8n8": "2026-11-08T23:01:44.526Z",
     "mw5ayyeo0dj": "2026-11-08T23:03:19.456Z"
   },
-  "stUsadosDia": {
-    "mvjo1jeecnu": "2026-11-08",
-    "mvr0jscdu6t": "2026-11-08",
-    "mvwe54n7v9o": "2026-11-08",
-    "mvcdrmhd8n8": "2026-11-08",
-    "mw5ayyeo0dj": "2026-11-08"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -542,7 +526,7 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
   "stPrueba": {
-    "dia": "2026-11-08",
+    "dia": "2026-11-09",
     "h": "",
     "de": "",
     "tramo": ""

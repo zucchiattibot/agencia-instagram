@@ -903,32 +903,32 @@
     "18110993207262163": {
       "t": "2026-11-08T16:01:38+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 84
+      "a": 71,
+      "v": 86
     },
     "18145917775611145": {
       "t": "2026-11-08T18:40:57+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 67
+      "a": 61,
+      "v": 73
     },
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
-      "a": 41,
-      "v": 55
+      "a": 47,
+      "v": 61
     },
     "17913397452663694": {
       "t": "2026-11-08T23:02:50+0000",
       "tipo": "VIDEO",
-      "a": 27,
-      "v": 31
+      "a": 30,
+      "v": 38
     },
     "18084908906741197": {
       "t": "2026-11-08T23:01:38+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 33
+      "a": 34,
+      "v": 42
     }
   },
   "seguidores": {
@@ -960,7 +960,8 @@
     "2026-11-05": 1400,
     "2026-11-06": 1400,
     "2026-11-07": 1398,
-    "2026-11-08": 1399
+    "2026-11-08": 1399,
+    "2026-11-09": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -968,11 +969,11 @@
     "follows_count": 646,
     "media_count": 645,
     "id": "28888466970748824",
-    "el": "2026-11-09T02:01:26.875Z"
+    "el": "2026-11-09T03:01:30.919Z"
   },
   "res30": {
-    "reach": 5208,
-    "views": 30153,
+    "reach": 5211,
+    "views": 30186,
     "profile_views": 96,
     "accounts_engaged": 287
   },
@@ -1024,8 +1025,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 56,
-      "views": 65,
+      "reach": 57,
+      "views": 66,
       "saved": 0,
       "shares": 0
     },
@@ -1038,7 +1039,7 @@
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 16,
-      "views": 19,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -1115,7 +1116,7 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 189,
+      "reach": 194,
       "views": 79,
       "saved": 1,
       "shares": 17
@@ -1154,7 +1155,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
+      "reach": 24,
       "views": 31,
       "saved": 0,
       "shares": 0
@@ -1784,7 +1785,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T02:01:36.222Z",
+  "actualizado": "2026-11-09T03:01:41.365Z",
   "aud": {
     "edad": [
       {
@@ -2535,6 +2536,10 @@
     "2026-11-07": {
       "a": 296,
       "v": 690
+    },
+    "2026-11-08": {
+      "a": 182,
+      "v": 555
     }
   }
 }
