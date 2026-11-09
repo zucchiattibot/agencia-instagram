@@ -90,7 +90,7 @@
     "mvcdrmhd8n8",
     "mw5ayyeo0dj"
   ],
-  "statsEl": "2026-11-09T10:01:39.489Z",
+  "statsEl": "2026-11-09T11:02:14.364Z",
   "stUltima": {
     "cuando": "2026-11-08T23:03:19.456Z",
     "franja": "20:00",
@@ -98,13 +98,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-09T10:01:30.294Z",
+    "cuando": "2026-11-09T11:01:31.796Z",
     "cola": 159,
     "enRepo": 158,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-09 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -138,11 +140,12 @@
       "mrcmvwlruqb8nsl0v-ig",
       "mrcmw5ayjilcqvfnd-ig",
       "mrcmvwe03pm947brj-ig",
-      "mrcmvvax283ikddiz-ig"
+      "mrcmvvax283ikddiz-ig",
+      "mrcmw86hsbj7n8ive-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-08T01:02:01.510Z",
-      "franja": "21:15",
+      "cuando": "2026-11-09T11:02:05.237Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -174,9 +177,12 @@
       "mrcmvwlruqb8nsl0v-ig": "2026-11-06T16:02:47.302Z",
       "mrcmw5ayjilcqvfnd-ig": "2026-11-07T01:01:56.747Z",
       "mrcmvwe03pm947brj-ig": "2026-11-07T14:02:22.323Z",
-      "mrcmvvax283ikddiz-ig": "2026-11-08T01:02:01.508Z"
+      "mrcmvvax283ikddiz-ig": "2026-11-08T01:02:01.508Z",
+      "mrcmw86hsbj7n8ive-ig": "2026-11-09T11:02:05.236Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmw86hsbj7n8ive-ig": "2026-11-09"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-09",
@@ -184,7 +190,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 18:45.",
-    "ultimaProv": "Clarín",
+    "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-09",
       "h": "08:00",
@@ -194,6 +200,10 @@
     "pruebaRec": [
       {
         "t": "2026-11-06T11:02:09.916Z",
+        "tramo": "primera mañana"
+      },
+      {
+        "t": "2026-11-09T11:02:05.237Z",
         "tramo": "primera mañana"
       }
     ],
