@@ -909,38 +909,38 @@
     "18145917775611145": {
       "t": "2026-11-08T18:40:57+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 94
+      "a": 84,
+      "v": 98
     },
     "17972824299190030": {
       "t": "2026-11-08T21:01:48+0000",
       "tipo": "VIDEO",
       "a": 64,
-      "v": 78
+      "v": 82
     },
     "17913397452663694": {
       "t": "2026-11-08T23:02:50+0000",
       "tipo": "VIDEO",
       "a": 52,
-      "v": 60
+      "v": 63
     },
     "18084908906741197": {
       "t": "2026-11-08T23:01:38+0000",
       "tipo": "IMAGE",
       "a": 59,
-      "v": 63
+      "v": 67
     },
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 23
+      "a": 25,
+      "v": 33
     },
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 5,
+      "v": 15
     }
   },
   "seguidores": {
@@ -979,17 +979,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 646,
-    "media_count": 646,
+    "media_count": 647,
     "id": "28888466970748824",
-    "el": "2026-11-09T16:00:20.625Z"
+    "el": "2026-11-09T17:02:08.364Z"
   },
   "res30": {
-    "reach": 5181,
-    "views": 30075,
+    "reach": 5186,
+    "views": 30089,
     "profile_views": 93,
     "accounts_engaged": 284
   },
   "posts": [
+    {
+      "id": "18029823956698425",
+      "timestamp": "2026-11-09T17:01:59+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dfh0f9WljX6/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17964618345231804",
       "timestamp": "2026-11-09T11:01:58+0000",
@@ -1141,7 +1154,7 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 210,
+      "reach": 211,
       "views": 80,
       "saved": 1,
       "shares": 17
@@ -1810,7 +1823,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T16:00:30.106Z",
+  "actualizado": "2026-11-09T17:02:18.809Z",
   "aud": {
     "edad": [
       {
