@@ -99,7 +99,7 @@
     "mvl58j5fvs0",
     "mw98rdxdik0"
   ],
-  "statsEl": "2026-11-10T18:01:46.609Z",
+  "statsEl": "2026-11-10T19:01:42.806Z",
   "stUltima": {
     "cuando": "2026-11-10T15:26:45.363Z",
     "franja": "12:00",
@@ -107,7 +107,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-10T18:01:35.999Z",
+    "cuando": "2026-11-10T19:01:31.934Z",
     "cola": 169,
     "enRepo": 168,
     "pendientes": []
@@ -582,7 +582,7 @@
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
   "provUlt": {
-    "cuando": "2026-11-10T15:01:36.718Z",
-    "n": 2
+    "cuando": "2026-11-10T19:01:31.872Z",
+    "n": 1
   }
 }
