@@ -939,26 +939,26 @@
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 87,
-      "v": 102
+      "a": 91,
+      "v": 108
     },
     "18137816839669921": {
       "t": "2026-11-09T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 76
+      "a": 76,
+      "v": 82
     },
     "17888591625501690": {
       "t": "2026-11-09T23:02:49+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 68
+      "a": 66,
+      "v": 71
     },
     "18053452574817400": {
       "t": "2026-11-10T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 17,
-      "v": 25
+      "a": 23,
+      "v": 32
     }
   },
   "seguidores": {
@@ -997,15 +997,15 @@
   "cuenta": {
     "username": "agenciaalbor",
     "followers_count": 1399,
-    "follows_count": 646,
+    "follows_count": 647,
     "media_count": 648,
     "id": "28888466970748824",
-    "el": "2026-11-10T14:01:40.295Z"
+    "el": "2026-11-10T15:01:43.265Z"
   },
   "res30": {
     "reach": 4891,
-    "views": 30428,
-    "profile_views": 93,
+    "views": 30463,
+    "profile_views": 94,
     "accounts_engaged": 283
   },
   "posts": [
@@ -1017,8 +1017,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 69,
+      "reach": 33,
+      "views": 72,
       "saved": 0,
       "shares": 0
     },
@@ -1030,8 +1030,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 38,
-      "views": 50,
+      "reach": 41,
+      "views": 55,
       "saved": 0,
       "shares": 0
     },
@@ -1083,7 +1083,7 @@
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 39,
-      "views": 62,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -1147,8 +1147,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
-      "views": 89,
+      "reach": 54,
+      "views": 91,
       "saved": 0,
       "shares": 0
     },
@@ -1186,8 +1186,8 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 223,
-      "views": 98,
+      "reach": 225,
+      "views": 99,
       "saved": 1,
       "shares": 19
     },
@@ -1855,7 +1855,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-10T14:01:50.677Z",
+  "actualizado": "2026-11-10T15:01:53.464Z",
   "aud": {
     "edad": [
       {

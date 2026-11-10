@@ -2,7 +2,10 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-10 09:00": "ok"
+    "2026-11-10 09:00": "ok",
+    "2026-11-10 12:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -97,18 +100,20 @@
     "mvax2wxh88x",
     "mvl58j5fvs0"
   ],
-  "statsEl": "2026-11-10T14:01:50.677Z",
+  "statsEl": "2026-11-10T15:01:53.464Z",
   "stUltima": {
-    "cuando": "2026-11-10T12:01:48.829Z",
-    "franja": "09:00",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-10T15:01:41.814Z",
+    "franja": "12:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-10T14:01:38.995Z",
+    "cuando": "2026-11-10T15:01:36.926Z",
     "cola": 169,
     "enRepo": 168,
-    "pendientes": []
+    "pendientes": [
+      "12:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -572,7 +577,8 @@
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
   "provUlt": {
-    "cuando": "2026-11-10T14:01:38.823Z",
-    "n": 1
-  }
+    "cuando": "2026-11-10T15:01:36.718Z",
+    "n": 2
+  },
+  "stError": "The media with 18,135,789,430,670,222 cannot be found. (código 24)"
 }
