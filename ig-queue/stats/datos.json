@@ -933,26 +933,26 @@
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 59,
+      "a": 60,
       "v": 65
     },
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 53,
+      "a": 54,
       "v": 65
     },
     "18137816839669921": {
       "t": "2026-11-09T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 31
+      "a": 34,
+      "v": 36
     },
     "17888591625501690": {
       "t": "2026-11-09T23:02:49+0000",
       "tipo": "VIDEO",
-      "a": 9,
-      "v": 13
+      "a": 15,
+      "v": 18
     }
   },
   "seguidores": {
@@ -991,17 +991,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 646,
-    "media_count": 647,
+    "media_count": 648,
     "id": "28888466970748824",
-    "el": "2026-11-10T00:02:00.862Z"
+    "el": "2026-11-10T01:02:06.077Z"
   },
   "res30": {
     "reach": 5205,
-    "views": 30377,
+    "views": 30401,
     "profile_views": 93,
-    "accounts_engaged": 284
+    "accounts_engaged": 285
   },
   "posts": [
+    {
+      "id": "18063138677807189",
+      "timestamp": "2026-11-10T01:01:57+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DfirdhsmN5b/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18029823956698425",
       "timestamp": "2026-11-09T17:01:59+0000",
@@ -1010,8 +1023,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 25,
+      "reach": 20,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -1023,8 +1036,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener otra vez en casa las figuras de Snoopy, Charlie Brown y toda la barra es posible para llenar tus espacios favoritos de ternura. 🏡✨\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor y empezá a completar las 6 entregas de esta hermosa serie.\n\n#snoopy #peanuts #carloscasares #lucy\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 27,
+      "reach": 15,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -1166,10 +1179,10 @@
       "like_count": 4,
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 216,
+      "reach": 217,
       "views": 82,
       "saved": 1,
-      "shares": 17
+      "shares": 19
     },
     {
       "id": "18104251202367725",
@@ -1218,8 +1231,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 58,
+      "reach": 29,
+      "views": 59,
       "saved": 0,
       "shares": 0
     },
@@ -1835,7 +1848,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-10T00:02:11.143Z",
+  "actualizado": "2026-11-10T01:02:14.203Z",
   "aud": {
     "edad": [
       {

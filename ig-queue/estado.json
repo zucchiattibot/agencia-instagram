@@ -99,7 +99,7 @@
     "mvid6ws6pz1",
     "mvax2wxh88x"
   ],
-  "statsEl": "2026-11-10T00:02:11.143Z",
+  "statsEl": "2026-11-10T01:02:14.203Z",
   "stUltima": {
     "cuando": "2026-11-09T23:03:51.482Z",
     "franja": "20:00",
@@ -107,7 +107,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-10T00:01:31.979Z",
+    "cuando": "2026-11-10T01:01:34.453Z",
     "cola": 169,
     "enRepo": 168,
     "pendientes": []
@@ -115,7 +115,8 @@
   "fdig": {
     "franjas": {
       "2026-11-09 08:00": "ok",
-      "2026-11-09 13:15": "ok"
+      "2026-11-09 13:15": "ok",
+      "2026-11-09 22:00": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -152,11 +153,12 @@
       "mrcmvwe03pm947brj-ig",
       "mrcmvvax283ikddiz-ig",
       "mrcmw86hsbj7n8ive-ig",
-      "mrcmw9fkmriqoji2f-ig"
+      "mrcmw9fkmriqoji2f-ig",
+      "cmw86s655-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-09T17:02:06.190Z",
-      "franja": "13:15",
+      "cuando": "2026-11-10T01:02:04.855Z",
+      "franja": "22:00",
       "ok": 1,
       "fallos": 0
     },
@@ -190,11 +192,13 @@
       "mrcmvwe03pm947brj-ig": "2026-11-07T14:02:22.323Z",
       "mrcmvvax283ikddiz-ig": "2026-11-08T01:02:01.508Z",
       "mrcmw86hsbj7n8ive-ig": "2026-11-09T11:02:05.236Z",
-      "mrcmw9fkmriqoji2f-ig": "2026-11-09T17:02:06.189Z"
+      "mrcmw9fkmriqoji2f-ig": "2026-11-09T17:02:06.189Z",
+      "cmw86s655-ig": "2026-11-10T01:02:04.854Z"
     },
     "usadosDia": {
       "mrcmw86hsbj7n8ive-ig": "2026-11-09",
-      "mrcmw9fkmriqoji2f-ig": "2026-11-09"
+      "mrcmw9fkmriqoji2f-ig": "2026-11-09",
+      "cmw86s655-ig": "2026-11-09"
     },
     "carga": {
       "nivel": 0,
@@ -314,7 +318,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-09",
