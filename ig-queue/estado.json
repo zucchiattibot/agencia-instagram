@@ -4,7 +4,8 @@
   "stFranjas": {
     "2026-11-10 09:00": "ok",
     "2026-11-10 12:00": "ok",
-    "2026-11-10 16:15": "ok"
+    "2026-11-10 16:15": "ok",
+    "2026-11-10 19:45": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -99,20 +100,23 @@
     "mvax2wxh88x",
     "mvl58j5fvs0",
     "mw98rdxdik0",
-    "mw9bfos8yli"
+    "mw9bfos8yli",
+    "mvkcsw7yxc9"
   ],
-  "statsEl": "2026-11-10T22:02:01.772Z",
+  "statsEl": "2026-11-10T23:02:12.017Z",
   "stUltima": {
-    "cuando": "2026-11-10T20:01:50.673Z",
-    "franja": "16:15",
+    "cuando": "2026-11-10T23:01:54.825Z",
+    "franja": "19:45",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-10T22:01:41.949Z",
-    "cola": 169,
-    "enRepo": 168,
-    "pendientes": []
+    "cuando": "2026-11-10T23:01:42.000Z",
+    "cola": 170,
+    "enRepo": 169,
+    "pendientes": [
+      "19:45"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -229,7 +233,8 @@
   "fdfb": {
     "franjas": {
       "2026-11-10 08:00": "ok",
-      "2026-11-10 17:15": "ok"
+      "2026-11-10 17:15": "ok",
+      "2026-11-10 20:00": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -268,11 +273,12 @@
       "mrcmw9fkmriqoji2f-fb",
       "mrcmw86hsbj7n8ive-fb",
       "mrcmw5ayjilcqvfnd-fb",
-      "mrcmwb24lnrs3g3ge-fb"
+      "mrcmwb24lnrs3g3ge-fb",
+      "mrcmwatfr3zfx4d4r-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-10T21:01:53.919Z",
-      "franja": "17:15",
+      "cuando": "2026-11-10T23:01:58.111Z",
+      "franja": "20:00",
       "ok": 1,
       "fallos": 0
     },
@@ -308,11 +314,13 @@
       "mrcmw9fkmriqoji2f-fb": "2026-11-09T20:02:01.809Z",
       "mrcmw86hsbj7n8ive-fb": "2026-11-10T00:01:58.543Z",
       "mrcmw5ayjilcqvfnd-fb": "2026-11-10T11:02:09.041Z",
-      "mrcmwb24lnrs3g3ge-fb": "2026-11-10T21:01:53.918Z"
+      "mrcmwb24lnrs3g3ge-fb": "2026-11-10T21:01:53.918Z",
+      "mrcmwatfr3zfx4d4r-fb": "2026-11-10T23:01:58.111Z"
     },
     "usadosDia": {
       "mrcmw5ayjilcqvfnd-fb": "2026-11-10",
-      "mrcmwb24lnrs3g3ge-fb": "2026-11-10"
+      "mrcmwb24lnrs3g3ge-fb": "2026-11-10",
+      "mrcmwatfr3zfx4d4r-fb": "2026-11-10"
     },
     "carga": {
       "nivel": 0,
@@ -320,8 +328,8 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
-    "ultimaProv": "Clarin",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
+    "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-10",
       "h": "08:00",
@@ -341,7 +349,7 @@
     "pruebaUlt": "2026-11-10"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mw9bfos8yli",
+  "stUltimaId": "mvkcsw7yxc9",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -398,12 +406,14 @@
     "mvax2wxh88x": "2026-11-09T23:03:51.482Z",
     "mvl58j5fvs0": "2026-11-10T12:01:48.829Z",
     "mw98rdxdik0": "2026-11-10T15:26:45.363Z",
-    "mw9bfos8yli": "2026-11-10T20:01:50.673Z"
+    "mw9bfos8yli": "2026-11-10T20:01:50.673Z",
+    "mvkcsw7yxc9": "2026-11-10T23:01:54.825Z"
   },
   "stUsadosDia": {
     "mvl58j5fvs0": "2026-11-10",
     "mw98rdxdik0": "2026-11-10",
-    "mw9bfos8yli": "2026-11-10"
+    "mw9bfos8yli": "2026-11-10",
+    "mvkcsw7yxc9": "2026-11-10"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -594,7 +604,7 @@
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
   "provUlt": {
-    "cuando": "2026-11-10T20:01:35.366Z",
+    "cuando": "2026-11-10T23:01:41.679Z",
     "n": 1
   }
 }
