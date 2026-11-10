@@ -933,26 +933,26 @@
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 82
+      "a": 79,
+      "v": 84
     },
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 80
+      "a": 70,
+      "v": 81
     },
     "18137816839669921": {
       "t": "2026-11-09T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 53,
-      "v": 55
+      "a": 54,
+      "v": 56
     },
     "17888591625501690": {
       "t": "2026-11-09T23:02:49+0000",
       "tipo": "VIDEO",
-      "a": 40,
-      "v": 43
+      "a": 41,
+      "v": 44
     }
   },
   "seguidores": {
@@ -994,13 +994,13 @@
     "follows_count": 646,
     "media_count": 648,
     "id": "28888466970748824",
-    "el": "2026-11-10T05:01:30.596Z"
+    "el": "2026-11-10T06:01:31.792Z"
   },
   "res30": {
     "reach": 5205,
-    "views": 30607,
+    "views": 30615,
     "profile_views": 94,
-    "accounts_engaged": 285
+    "accounts_engaged": 286
   },
   "posts": [
     {
@@ -1024,8 +1024,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 42,
+      "reach": 33,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -1103,7 +1103,7 @@
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 22,
-      "views": 31,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -1128,7 +1128,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 86,
+      "reach": 87,
       "views": 106,
       "saved": 0,
       "shares": 0
@@ -1206,7 +1206,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
+      "reach": 19,
       "views": 27,
       "saved": 0,
       "shares": 0
@@ -1849,7 +1849,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-10T05:01:42.455Z",
+  "actualizado": "2026-11-10T06:01:42.623Z",
   "aud": {
     "edad": [
       {
