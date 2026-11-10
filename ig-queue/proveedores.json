@@ -1,0 +1,15 @@
+{
+  "on": true,
+  "lista": [
+    {
+      "u": "coleccioneslanacion",
+      "n": "La Nación",
+      "rss": "https://rss.app/feeds/C9G2aA1om04Dd4ps.xml"
+    },
+    {
+      "u": "coleccionesclarin",
+      "n": "Clarin",
+      "rss": "https://rss.app/feeds/nvNFKzjEOiIsekJP.xml"
+    }
+  ]
+}
