@@ -1,4 +1,4 @@
-// ig-motor-v49
+// ig-motor-v50
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -954,6 +954,8 @@ function armarItemFeed(id, link, fecha, titulo, html, meds) {
     for (const m of h.matchAll(/<video[^>]*\ssrc=["']([^"']+)["']/gi)) if (!vistos.has(xmlDec(m[1]))) { vistos.add(xmlDec(m[1])); lista.push({ url: xmlDec(m[1]), video: true }); }
     for (const m of h.matchAll(/<img[^>]*\ssrc=["']([^"']+)["']/gi)) if (!vistos.has(xmlDec(m[1]))) { vistos.add(xmlDec(m[1])); lista.push({ url: xmlDec(m[1]), video: false }); }
   }
+  // v50: un video con UNA sola foto al lado es video + portada: se queda solo el video (la portada no se baja como publicación aparte).
+  { const vids = lista.filter((m) => m.video), imgs = lista.filter((m) => !m.video); if (vids.length && imgs.length <= 1) lista.splice(0, lista.length, ...vids); }
   const texto = xmlDec(h.replace(/<br\s*\/?>/gi, '\n').replace(/<\/p>/gi, '\n').replace(/<[^>]+>/g, '')).replace(/[ \t]+\n/g, '\n').trim();
   let ts = ''; try { const d = new Date(fecha); if (!isNaN(d.getTime())) ts = d.toISOString(); } catch (e) {}
   return { id: String(id || link || ''), link: link || '', ts, caption: (texto || titulo || '').slice(0, 900), medias: lista };
