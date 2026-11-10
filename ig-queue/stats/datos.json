@@ -933,26 +933,26 @@
     "17874309444641750": {
       "t": "2026-11-09T12:01:49+0000",
       "tipo": "IMAGE",
-      "a": 56,
-      "v": 62
+      "a": 59,
+      "v": 65
     },
     "18114560071890086": {
       "t": "2026-11-09T16:00:03+0000",
       "tipo": "IMAGE",
-      "a": 48,
-      "v": 62
+      "a": 53,
+      "v": 65
     },
     "18137816839669921": {
       "t": "2026-11-09T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 19,
-      "v": 24
+      "a": 28,
+      "v": 31
     },
     "17888591625501690": {
       "t": "2026-11-09T23:02:49+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 1
+      "a": 9,
+      "v": 13
     }
   },
   "seguidores": {
@@ -993,11 +993,11 @@
     "follows_count": 646,
     "media_count": 647,
     "id": "28888466970748824",
-    "el": "2026-11-09T23:03:53.466Z"
+    "el": "2026-11-10T00:02:00.862Z"
   },
   "res30": {
-    "reach": 5198,
-    "views": 30333,
+    "reach": 5205,
+    "views": 30377,
     "profile_views": 93,
     "accounts_engaged": 284
   },
@@ -1010,8 +1010,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 21,
+      "reach": 18,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -1023,8 +1023,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener otra vez en casa las figuras de Snoopy, Charlie Brown y toda la barra es posible para llenar tus espacios favoritos de ternura. 🏡✨\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor y empezá a completar las 6 entregas de esta hermosa serie.\n\n#snoopy #peanuts #carloscasares #lucy\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 24,
+      "reach": 14,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -1218,7 +1218,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansada de renegar cuando desmoldás tus tortas? Esta asadera de silicona premium de 33.5 x 30 cm es un antes y un después para tus preparaciones 🍰 Plegable, súper práctica de guardar y con el tamaño justo para hornear sin que se pegue nada. Reservala en Agencia Albor, Carlos Casares. Comentá SILICONA y te mandamos la info.\n#moldesdesilicona #repostería #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
+      "reach": 28,
       "views": 58,
       "saved": 0,
       "shares": 0
@@ -1835,7 +1835,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-09T23:04:05.477Z",
+  "actualizado": "2026-11-10T00:02:11.143Z",
   "aud": {
     "edad": [
       {
