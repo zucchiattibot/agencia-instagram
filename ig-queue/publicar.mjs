@@ -1,4 +1,4 @@
-// ig-motor-v48
+// ig-motor-v49
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -939,10 +939,128 @@ async function estadisticas(estado, token, uid) {
   if (errs.length) estado.errorStats = errs.slice(0, 2).join(' | '); else delete estado.errorStats;
 }
 
+// ---- v49: publicidad de proveedores (rss.app) → "para revisar" ----
+// Lee ig-queue/proveedores.json (lo escribe el panel). Cada publicación NUEVA de un proveedor se baja a la rama
+// ig-media-prog (sin historial) y deja un aviso en ig-queue/revision/<id>.json. No se publica nada hasta que
+// la apruebes en el panel (Publicidad › Proveedores › Para revisar). La primera vez solo toma nota de lo que ya había.
+const xmlDec = (s) => String(s || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#(\d+);/g, (m, n) => { try { return String.fromCodePoint(+n); } catch (e) { return ''; } }).replace(/&amp;/g, '&');
+const xmlTag = (b, nombres) => { for (const n of nombres) { const m = b.match(new RegExp('<' + n + '(?:\\s[^>]*)?>([\\s\\S]*?)</' + n + '>', 'i')); if (m && m[1].trim()) return xmlDec(m[1]).trim(); } return ''; };
+const esVideoUrl = (u, tipo, medium) => /video/i.test(tipo || '') || /video/i.test(medium || '') || /\.(mp4|mov|m4v|webm)(\?|$)/i.test(u || '');
+function armarItemFeed(id, link, fecha, titulo, html, meds) {
+  const vistos = new Set(), lista = [];
+  for (const m of meds) if (m && m.url && !vistos.has(m.url)) { vistos.add(m.url); lista.push(m); }
+  const h = String(html || '');
+  if (!lista.length) {
+    for (const m of h.matchAll(/<video[^>]*\ssrc=["']([^"']+)["']/gi)) if (!vistos.has(xmlDec(m[1]))) { vistos.add(xmlDec(m[1])); lista.push({ url: xmlDec(m[1]), video: true }); }
+    for (const m of h.matchAll(/<img[^>]*\ssrc=["']([^"']+)["']/gi)) if (!vistos.has(xmlDec(m[1]))) { vistos.add(xmlDec(m[1])); lista.push({ url: xmlDec(m[1]), video: false }); }
+  }
+  const texto = xmlDec(h.replace(/<br\s*\/?>/gi, '\n').replace(/<\/p>/gi, '\n').replace(/<[^>]+>/g, '')).replace(/[ \t]+\n/g, '\n').trim();
+  let ts = ''; try { const d = new Date(fecha); if (!isNaN(d.getTime())) ts = d.toISOString(); } catch (e) {}
+  return { id: String(id || link || ''), link: link || '', ts, caption: (texto || titulo || '').slice(0, 900), medias: lista };
+}
+function parseFeedProv(txt) {
+  const t = String(txt || '').trim(), out = [];
+  if (!t) throw new Error('el feed llegó vacío');
+  if (t[0] === '{') {
+    const j = JSON.parse(t);
+    for (const it of (j.items || [])) {
+      const med = [];
+      for (const a of (it.attachments || [])) if (a && a.url) med.push({ url: a.url, video: esVideoUrl(a.url, a.mime_type, '') });
+      if (!med.length && it.image) med.push({ url: it.image, video: false });
+      out.push(armarItemFeed(it.id || it.url, it.url, it.date_published || it.date_modified, it.title, it.content_html || it.content_text || '', med));
+    }
+    return out;
+  }
+  const bloques = t.match(/<item[\s>][\s\S]*?<\/item>|<entry[\s>][\s\S]*?<\/entry>/gi) || [];
+  if (!bloques.length) throw new Error('el link no devolvió un feed válido');
+  for (const b of bloques) {
+    const med = [];
+    for (const m of b.matchAll(/<(?:enclosure|media:content|content)\b([^>]*)>/gi)) {
+      const at = m[1], u = (at.match(/\burl=["']([^"']+)["']/i) || [])[1]; if (!u) continue;
+      med.push({ url: xmlDec(u), video: esVideoUrl(u, (at.match(/\btype=["']([^"']+)["']/i) || [])[1], (at.match(/\bmedium=["']([^"']+)["']/i) || [])[1]) });
+    }
+    for (const m of b.matchAll(/<link\b([^>]*rel=["']enclosure["'][^>]*)>/gi)) { const u = (m[1].match(/\bhref=["']([^"']+)["']/i) || [])[1]; if (u) med.push({ url: xmlDec(u), video: esVideoUrl(u, (m[1].match(/\btype=["']([^"']+)["']/i) || [])[1], '') }); }
+    let link = xmlTag(b, ['link']); if (!link) link = xmlDec((b.match(/<link\b[^>]*\bhref=["']([^"']+)["']/i) || [])[1] || '');
+    out.push(armarItemFeed(xmlTag(b, ['guid', 'id']) || link, link, xmlTag(b, ['pubDate', 'published', 'updated', 'dc:date']), xmlTag(b, ['title']), xmlTag(b, ['content:encoded', 'description', 'content', 'summary']), med));
+  }
+  return out;
+}
+async function bajarArchivoProv(url, destino) {
+  const r = await fetch(url, { signal: AbortSignal.timeout(120000), headers: { 'User-Agent': 'Mozilla/5.0' } });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const b = Buffer.from(await r.arrayBuffer());
+  if (!b.length) throw new Error('archivo vacío');
+  if (b.length > 90 * 1048576) throw new Error('archivo muy pesado');
+  const ct = String(r.headers.get('content-type') || '').toLowerCase();
+  fs.mkdirSync(path.dirname(destino), { recursive: true });
+  fs.writeFileSync(destino, b);
+  return ct;
+}
+async function traerProveedores(estado) {
+  const cfg = leer(path.join(BASE, 'proveedores.json'), null);
+  if (!cfg || cfg.on === false || !Array.isArray(cfg.lista) || !cfg.lista.length) return;
+  if (!fs.existsSync(PROG)) { estado.provAviso = 'Para traer publicidad de proveedores falta la rama ig-media-prog: en el panel tocá Proveedores › Traer solos.'; return; }
+  delete estado.provAviso;
+  const visF = path.join(BASE, 'proveedores-visto.json'), visto0 = leer(visF, {}), visto = JSON.parse(JSON.stringify(visto0));
+  let cupo = 6; const nuevos = [];
+  for (const pr of cfg.lista) {
+    if (!pr || !pr.u || !pr.rss || !/^https?:\/\//i.test(pr.rss)) continue;
+    let items;
+    try {
+      const r = await fetch(pr.rss, { signal: AbortSignal.timeout(30000), headers: { 'User-Agent': 'Mozilla/5.0' } });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      items = parseFeedProv(await r.text());
+    } catch (e) { console.log('Proveedor', pr.u, 'no se pudo leer:', e.message); continue; }
+    const primera = !Array.isArray(visto[pr.u]);
+    const ya = new Set(visto[pr.u] || []);
+    const fallos = (visto._fallos = visto._fallos || {});
+    if (primera) { visto[pr.u] = items.map((x) => x.id || x.link).filter(Boolean); console.log('Proveedor', pr.u, 'primera lectura: se anotan', visto[pr.u].length, 'publicaciones ya existentes'); continue; }
+    const frescos = items.filter((x) => (x.id || x.link) && !ya.has(x.id || x.link)).sort((a, b) => String(a.ts).localeCompare(String(b.ts)));
+    for (const it of frescos) {
+      const clave = it.id || it.link;
+      if (!it.medias.length) { ya.add(clave); continue; }
+      if (cupo <= 0) break;
+      const idb = ahoraAR().dia.replace(/-/g, '') + '-' + hashTxt(pr.u + '|' + clave).toString(36);
+      const id = 'prov-' + idb, medias = [], escritos = [];
+      try {
+        let k = 0;
+        for (const m of it.medias.slice(0, 10)) {
+          k++;
+          const tmp = path.join(PROG, BASE, 'media', id + '-' + k + '.tmp');
+          const ct = await bajarArchivoProv(m.url, tmp);
+          const esV = m.video || /video/.test(ct);
+          const ext = esV ? (/quicktime/.test(ct) || /\.mov(\?|$)/i.test(m.url) ? 'mov' : 'mp4') : (/png/.test(ct) ? 'png' : /webp/.test(ct) ? 'webp' : 'jpg');
+          const fin = path.join(PROG, BASE, 'media', id + '-' + k + '.' + ext);
+          fs.renameSync(tmp, fin); escritos.push(fin);
+          medias.push({ ruta: BASE + '/media/' + id + '-' + k + '.' + ext, video: !!esV });
+        }
+        escribir(path.join(BASE, 'revision', id + '.json'), { id, prov: pr.u, nombre: pr.n || pr.u, caption: it.caption, permalink: it.link, ts: it.ts, tipo: medias.length > 1 ? 'carousel' : (medias[0].video ? 'video' : 'image'), medias, creado: new Date().toISOString(), estado: 'revisar' });
+        ya.add(clave); cupo--; nuevos.push(pr.n || pr.u);
+        console.log('Proveedor', pr.u, 'publicación nueva lista para revisar', id);
+      } catch (e) {
+        for (const f of escritos) { try { fs.unlinkSync(f); } catch (e2) {} }
+        console.log('Proveedor', pr.u, 'no se pudo bajar', clave, e.message);
+        fallos[clave] = (fallos[clave] || 0) + 1;
+        if (fallos[clave] >= 6) { ya.add(clave); delete fallos[clave]; console.log('Proveedor', pr.u, 'se deja de intentar con', clave); }
+      }
+    }
+    visto[pr.u] = Array.from(ya).slice(-300);
+  }
+  if (JSON.stringify(visto) !== JSON.stringify(visto0)) escribir(visF, visto);
+  if (nuevos.length) {
+    estado.provUlt = { cuando: new Date().toISOString(), n: nuevos.length };
+    try {
+      const topic = String(process.env.NTFY_TOPIC || '').replace(/[^A-Za-z0-9_-]/g, '');
+      if (topic) await fetch('https://ntfy.sh/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(10000), body: JSON.stringify({ topic, title: 'Publicidad de proveedores para revisar', message: nuevos.length + ' publicación' + (nuevos.length > 1 ? 'es' : '') + ' nueva' + (nuevos.length > 1 ? 's' : '') + ' (' + Array.from(new Set(nuevos)).join(', ') + '). Abrí el panel: Publicidad › Proveedores › Para revisar.', priority: 3, tags: ['inbox_tray'] }) });
+    } catch (e) {}
+  }
+}
+
 export async function main() {
   const estadoF = path.join(BASE, 'estado.json');
   const estado0 = leer(estadoF, {});
   const estado = { ...estado0 };
+  try { await traerProveedores(estado); } catch (e) { estado.provError = String(e.message).slice(0, 200); }
   const pendDir = path.join(BASE, 'pending');
   const archivos = fs.existsSync(pendDir) ? fs.readdirSync(pendDir).filter((f) => f.endsWith('.json')) : [];
   const ahora = Date.now();
