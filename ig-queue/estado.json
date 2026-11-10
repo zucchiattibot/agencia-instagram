@@ -97,7 +97,7 @@
     "mvax2wxh88x",
     "mvl58j5fvs0"
   ],
-  "statsEl": "2026-11-10T13:01:48.323Z",
+  "statsEl": "2026-11-10T14:01:50.677Z",
   "stUltima": {
     "cuando": "2026-11-10T12:01:48.829Z",
     "franja": "09:00",
@@ -105,7 +105,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-10T13:01:36.642Z",
+    "cuando": "2026-11-10T14:01:38.995Z",
     "cola": 169,
     "enRepo": 168,
     "pendientes": []
@@ -570,5 +570,9 @@
     "feed-fb/config.json": "ya-tenia"
   },
   "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01"
+  "stRepruebaUlt": "2026-11-01",
+  "provUlt": {
+    "cuando": "2026-11-10T14:01:38.823Z",
+    "n": 1
+  }
 }
