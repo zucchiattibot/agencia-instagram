@@ -99,7 +99,7 @@
     "mvl58j5fvs0",
     "mw98rdxdik0"
   ],
-  "statsEl": "2026-11-10T15:01:53.464Z",
+  "statsEl": "2026-11-10T16:01:57.985Z",
   "stUltima": {
     "cuando": "2026-11-10T15:26:45.363Z",
     "franja": "12:00",
@@ -107,15 +107,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-10T15:26:32.399Z",
+    "cuando": "2026-11-10T16:01:32.389Z",
     "cola": 169,
     "enRepo": 168,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-10 12:45": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -152,11 +152,12 @@
       "mrcmvvax283ikddiz-ig",
       "mrcmw86hsbj7n8ive-ig",
       "mrcmw9fkmriqoji2f-ig",
-      "cmw86s655-ig"
+      "cmw86s655-ig",
+      "mrcmwatfr3zfx4d4r-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-10T01:02:04.855Z",
-      "franja": "22:00",
+      "cuando": "2026-11-10T16:01:43.075Z",
+      "franja": "12:45",
       "ok": 1,
       "fallos": 0
     },
@@ -191,17 +192,20 @@
       "mrcmvvax283ikddiz-ig": "2026-11-08T01:02:01.508Z",
       "mrcmw86hsbj7n8ive-ig": "2026-11-09T11:02:05.236Z",
       "mrcmw9fkmriqoji2f-ig": "2026-11-09T17:02:06.189Z",
-      "cmw86s655-ig": "2026-11-10T01:02:04.854Z"
+      "cmw86s655-ig": "2026-11-10T01:02:04.854Z",
+      "mrcmwatfr3zfx4d4r-ig": "2026-11-10T16:01:43.075Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwatfr3zfx4d4r-ig": "2026-11-10"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-10",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Clarín",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-10",
       "h": "",
@@ -306,7 +310,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-10",
