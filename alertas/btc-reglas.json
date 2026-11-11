@@ -1,3 +1,13 @@
 {
-  "reglas": []
+  "reglas": [
+    {
+      "id": "amwcnedh1le",
+      "moneda": "BTC",
+      "dir": "up",
+      "precio": 75500,
+      "rev": 1,
+      "activa": true,
+      "creada": "2026-11-11T21:45:40.789Z"
+    }
+  ]
 }
