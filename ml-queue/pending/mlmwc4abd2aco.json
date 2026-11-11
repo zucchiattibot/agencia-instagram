@@ -1,0 +1,41 @@
+{
+  "id": "mlmwc4abd2aco",
+  "fotos": 0,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Coleccion Thundercats La Nacion Figuras Con Fascinantes",
+  "precio": 40000,
+  "cantidad": 2,
+  "listing": "gold_special",
+  "categoria": "MLA455430",
+  "marca": "Thundercats",
+  "modelo": "",
+  "descripcion": "Coleccion de figuras de Thundercats con fasciculos editada por La Nacion para coleccionistas.\n\nCaracteristicas:\n- Figuras de alta calidad basadas en la clasica serie animada\n- Cada entrega incluye una figura detallada con base y su correspondiente fasciculo coleccionable\n- Excelente nivel de esculpido y pintura en cada personaje\n- Producto oficial de la coleccion de La Nacion\n\nIncluye:\n- Figuras de personajes de Thundercats\n- Fasciculos coleccionables\n\nIdeal para: Fanaticos y coleccionistas de Thundercats\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "MANUFACTURER",
+      "value_name": "La Nación"
+    },
+    {
+      "id": "LINE",
+      "value_name": "ThunderCats"
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "value_id": "25158434"
+    },
+    {
+      "id": "FRANCHISE",
+      "value_name": "ThunderCats"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "value_id": "1359391"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
