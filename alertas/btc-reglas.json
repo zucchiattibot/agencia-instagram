@@ -8,6 +8,15 @@
       "rev": 1,
       "activa": true,
       "creada": "2026-11-11T21:45:40.789Z"
+    },
+    {
+      "id": "amwcneiwak1",
+      "moneda": "BTC",
+      "dir": "down",
+      "precio": 74000,
+      "rev": 1,
+      "activa": true,
+      "creada": "2026-11-11T21:45:47.818Z"
     }
   ]
 }
