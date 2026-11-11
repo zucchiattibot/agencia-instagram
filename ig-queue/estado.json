@@ -103,7 +103,7 @@
     "mw9bfos8yli",
     "mvkcsw7yxc9"
   ],
-  "statsEl": "2026-11-11T01:02:17.371Z",
+  "statsEl": "2026-11-11T02:01:52.517Z",
   "stUltima": {
     "cuando": "2026-11-10T23:01:54.825Z",
     "franja": "19:45",
@@ -111,7 +111,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T01:01:34.969Z",
+    "cuando": "2026-11-11T02:01:39.181Z",
     "cola": 170,
     "enRepo": 169,
     "pendientes": []
@@ -216,7 +216,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-10",
