@@ -101,7 +101,7 @@
     "mvkcsw7yxc9",
     "mvcdremxre9"
   ],
-  "statsEl": "2026-11-11T13:02:00.530Z",
+  "statsEl": "2026-11-11T14:01:51.280Z",
   "stUltima": {
     "cuando": "2026-11-11T13:01:47.819Z",
     "franja": "09:45",
@@ -109,12 +109,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T13:01:33.188Z",
+    "cuando": "2026-11-11T14:01:38.281Z",
     "cola": 172,
     "enRepo": 171,
-    "pendientes": [
-      "09:45"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
