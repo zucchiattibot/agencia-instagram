@@ -103,7 +103,7 @@
     "mvcdremxre9",
     "mvav23euybu"
   ],
-  "statsEl": "2026-11-11T17:01:48.143Z",
+  "statsEl": "2026-11-11T18:01:44.897Z",
   "stUltima": {
     "cuando": "2026-11-11T16:01:52.380Z",
     "franja": "13:00",
@@ -111,7 +111,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T17:01:36.094Z",
+    "cuando": "2026-11-11T18:01:31.545Z",
     "cola": 172,
     "enRepo": 171,
     "pendientes": []
@@ -410,13 +410,13 @@
   },
   "autoBase": {
     "feed-ig/config.json": {
-      "t": "2026-10-28T16:02:32.519Z",
-      "med": 43,
+      "t": "2026-11-11T18:01:44.898Z",
+      "med": 40.5,
       "franjas": [
         {
           "h": "13:00",
           "n": 1,
-          "f": "feed",
+          "f": "reel",
           "d": [
             1,
             3,
@@ -478,97 +478,15 @@
           ]
         }
       ]
-    },
-    "stories/config.json": {
-      "t": "2026-10-28T16:02:32.519Z",
-      "med": 121,
-      "franjas": [
-        {
-          "h": "09:00",
-          "n": 1,
-          "d": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "h": "12:30",
-          "n": 1,
-          "d": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "h": "17:00",
-          "n": 1,
-          "d": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "h": "20:30",
-          "n": 1,
-          "d": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "h": "19:30",
-          "n": 1,
-          "d": [
-            0,
-            6
-          ]
-        },
-        {
-          "h": "15:30",
-          "n": 1,
-          "d": [
-            0,
-            6
-          ]
-        },
-        {
-          "h": "18:00",
-          "n": 1,
-          "d": [
-            0,
-            6
-          ]
-        },
-        {
-          "h": "20:00",
-          "n": 1,
-          "d": [
-            0,
-            6
-          ]
-        }
-      ]
     }
   },
   "autoPausa": {},
-  "autoOptimizacionUltimoChequeo": "2026-11-04T17:03:14.996Z",
+  "autoOptimizacionUltimoChequeo": "2026-11-11T18:01:44.898Z",
   "autoOptimizacionUltimoResultado": [
     {
       "red": "Instagram Feed/Reels",
-      "estado": "en-observacion",
-      "detalle": "Último ajuste hace 7 días: espero 14 para medir el efecto."
+      "estado": "ajustado",
+      "detalle": "Formato de la franja 13:00: feed → reel; diferencia mediana de al menos 40% con 33 videos y 29 fotos."
     },
     {
       "red": "Facebook Feed/Reels",
@@ -577,11 +495,11 @@
     },
     {
       "red": "Historias",
-      "estado": "en-observacion",
-      "detalle": "Último ajuste hace 7 días: espero 14 para medir el efecto."
+      "estado": "sin-cambio",
+      "detalle": "La muestra no justifica un cambio seguro en horarios, formato o cantidad."
     }
   ],
-  "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
+  "autoOptimizacionUltimoAjuste": "2026-11-11T18:01:44.898Z",
   "stPrueba": {
     "dia": "2026-11-11",
     "h": "",

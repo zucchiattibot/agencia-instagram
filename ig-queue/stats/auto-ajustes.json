@@ -1,6 +1,1749 @@
 {
   "cambios": [
     {
+      "fecha": "2026-11-11T18:01:44.925Z",
+      "ruta": "feed-ig/config.json",
+      "detalle": "Formato de la franja 13:00: feed → reel; diferencia mediana de al menos 40% con 33 videos y 29 fotos.",
+      "anterior": {
+        "franjas": [
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "19:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "11:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              6
+            ]
+          },
+          {
+            "h": "18:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "reciclar": false,
+        "pausada": false,
+        "orden": "nuevo",
+        "autoNuevas": true,
+        "autoBase": true,
+        "autoOmitidas": [
+          "rcmvjhi6z4x3wo3s",
+          "rcmvjhhx7if449t0",
+          "rcmvig0f8ann6pgx",
+          "rcmvifznsgp098xg",
+          "rcmvi71n9hhfspk8",
+          "rcmvgwj3gj2a3230",
+          "rcmvgsxia418twkt",
+          "rcmvfdnf1z46k96g",
+          "rcmvci9pceylop46",
+          "rcmvci9ksis1jatx",
+          "rcmvcdczttdxm808",
+          "rcmvcdcuzl013ln0",
+          "rcmvcdcpgzwgwo60",
+          "rcmvcdcjl6wja6hx",
+          "rcmvcdcfi8g1lj0k",
+          "rcmvbcvfrt01zsjb",
+          "rcmvb6hky9qq9ff6",
+          "rcmvb365xu9yk6wt",
+          "rcmvb35y3pklyd9c",
+          "rcmv9rmtxtjcqwi6",
+          "rcmv9n2oavee95vd",
+          "rcmv9n2jdnjt394s",
+          "rcmv9fvoxgd6t2zw",
+          "rcmv8eda0vv3hhhl",
+          "rcmv7ex8d580yz8k",
+          "rcmv6wqadaqyx5vu",
+          "rcmv58yv729hctfj",
+          "rcmv36143fdosign",
+          "rcmv2x2z35zuzmp6",
+          "rcmv2ft88gjwzd2s",
+          "rcmv19l73osu7uks",
+          "rcmv169awfl060gg",
+          "rcmv15hd0xitk11n",
+          "rcmv0yeda3fa6j6z",
+          "rcmv0ye5xx7hjzhk",
+          "rcmv0vtegyc1bdtl",
+          "rcmv0vgkomryb65e",
+          "rcmuzvf2vhr68rer",
+          "rcmuzgczy9it3ekp",
+          "rcmuzgcs1ampp0gu",
+          "rcmuyes5fg0eb6x1",
+          "rcmuyerx6ghl7lge",
+          "rcmuy7plq3kj057s",
+          "rcmuy7pe88r36qcc",
+          "rcmuy7p6n52xx31k",
+          "rcmuy7p0k17bxqdn",
+          "rcmuy7ou332y9d45",
+          "rcmuy733pxpz9y2j",
+          "rcmuy246wcnwfxkw",
+          "rcmuy23qnasellqq",
+          "rcmuwpiaecyhot9q",
+          "rcmuvlkgukjkhbp3",
+          "rcmusbnv3ebt1r6k",
+          "rcmuqwhe55bj2pdl",
+          "rcmuqwh8hyey22nr",
+          "rcmuqwgxhsglcmex",
+          "rcmupugkmve8adaj",
+          "rcmupudno7frb73y",
+          "rcmupihw3ltlkkmw",
+          "rcmuo0aq97f2ezx0",
+          "rcmumz7woqdzqsv9",
+          "rcmumz7p1mq3pouj",
+          "rcmumxkvto6vefxs",
+          "rcmuh1e9kbsbjg5x",
+          "rcmuh1a460rmcun5",
+          "rcmuh12u3jlpd1ui",
+          "rcmugz8fpzwuf9vo",
+          "rcmufxmgi09dzmg2",
+          "rcmue5cosl8rqs6o",
+          "rcmue0bqsshyo7s3",
+          "rcmubcams5gn0s09",
+          "rcmubcagxrtoe07u",
+          "rcmu7dqsq6216qlc",
+          "rcmu7baspw3u542y",
+          "rcmu5l1i8ew5zket",
+          "rcmu5hf82bk8sqnz",
+          "rcmu5hbnhvr2wn56",
+          "rcmu38rxo3yas4bv",
+          "rcmu32j46en5za9r",
+          "rcmu2rr89dfr29y8",
+          "rcmu2rr3nfpamtux",
+          "rcmu2oa3rw138rcj",
+          "rcmtxfktdxemfjh5",
+          "rcmtwx48xxiienzr",
+          "rcmtvqkbcv0n02yt",
+          "rcmtuhpmspae48a9",
+          "rcmtsx7lndeprm9e",
+          "rcmtrl999pknj8za",
+          "rcmtnjj0nttvejkx",
+          "rcmtk5jadiuc33i0",
+          "rcmthjuwpesqte1h",
+          "rcmth5aeqa40x5ey",
+          "rcmtgbd74373prfs",
+          "rcmtelrw3lg8k85q",
+          "rcmtelrqbwidwwwn",
+          "rcmtelrho7zjwspg",
+          "rcmtec2k24y8a1zf",
+          "rcmtd970q8dt2u8w",
+          "rcmta286xb7uyoo4",
+          "rcmt8yv0ggjfakbg",
+          "rcmt8yuur5sz9xpy",
+          "rcmt8ktyl9phiqpg",
+          "rcmt8krg53od8077",
+          "rcmt8km9ijgk10r3",
+          "rcmt3hqeymkaytsb",
+          "rcmt27xorzf4d4w1",
+          "rcmt1l8cfypbyoe7",
+          "rcmt1l7wf2k8f14y",
+          "rcmt1l7lk7fz1zb1",
+          "rcmt1l79rnchm1bb",
+          "rcmt1l71t5zy1t6z",
+          "rcmujbgut4bqvf1m",
+          "rcmujav55iczvcwv",
+          "rcmth3k4rcisyk1u"
+        ],
+        "pool": [
+          {
+            "id": "mrcmvjw60jjyli615-ig",
+            "matId": "rcmvjw60jjyli615",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw60jjyli615.mp4",
+            "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696868956
+          },
+          {
+            "id": "mrcmvjw5vgqq1prmt-ig",
+            "matId": "rcmvjw5vgqq1prmt",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw5vgqq1prmt.mp4",
+            "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696881111
+          },
+          {
+            "id": "mrcmvig01i5uxqlqa-ig",
+            "matId": "rcmvig01i5uxqlqa",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvig01i5uxqlqa.mp4",
+            "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610600619
+          },
+          {
+            "id": "cmvk4x12s-ig",
+            "matId": "rcmvify7ezmygp4k",
+            "matIds": [
+              "rcmvify7ezmygp4k",
+              "rcmvifylpsyhmmbm",
+              "rcmvifyv1f4jeqtk",
+              "rcmvifzartv8ax9n"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+              "ig-queue/feed/media/rcmvifylpsyhmmbm.jpg",
+              "ig-queue/feed/media/rcmvifyv1f4jeqtk.jpg",
+              "ig-queue/feed/media/rcmvifzartv8ax9n.jpg"
+            ],
+            "caption": "Para que las tardes en casa se transformen en una aventura salvaje, nada mejor que armar las piezas y recorrer la selva con los chicos. 🐘🌴\n\nPasá por Agencia Albor y reservá tu set de Topa para empezar a jugar.\n\n#diegotopa #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610658202
+          },
+          {
+            "id": "cmvk52c23-ig",
+            "matId": "rcmvk22n2tbhwzkv",
+            "matIds": [
+              "rcmvk22n2tbhwzkv",
+              "rcmvk22hky3wautu"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+              "ig-queue/feed/media/rcmvk22hky3wautu.jpg"
+            ],
+            "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792704773998
+          },
+          {
+            "id": "cmvk5ixvr-ig",
+            "matId": "rcmvjhhrsrwt9zig",
+            "matIds": [
+              "rcmvjhhrsrwt9zig",
+              "rcmvjhi1vvlousc8",
+              "rcmvjhib1k494xhz"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+              "ig-queue/feed/media/rcmvjhi1vvlousc8.jpg",
+              "ig-queue/feed/media/rcmvjhib1k494xhz.jpg"
+            ],
+            "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696936589
+          },
+          {
+            "id": "mrcmvi6y6jv2e815k-ig",
+            "matId": "rcmvi6y6jv2e815k",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvi6y6jv2e815k.jpg",
+            "caption": "Empezá a armar tu propia vajilla de diseño con este primer fascículo. ☕ El tazón de porcelana de 450cc ya está disponible para que lo sumes a tus desayunos. Pasá a retirarlo por Agencia Albor, en Carlos Casares. \n\n#tazasvolf #porcelana #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625365637
+          },
+          {
+            "id": "mrcmvgo0q2mooqf73-ig",
+            "matId": "rcmvgo0q2mooqf73",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvgo0q2mooqf73.mp4",
+            "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792539063912
+          },
+          {
+            "id": "mrcmvfvlsvkwcj6fc-ig",
+            "matId": "rcmvfvlsvkwcj6fc",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvfvlsvkwcj6fc.mp4",
+            "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792452679848
+          },
+          {
+            "id": "mrcmvcdd41hhbt44q-ig",
+            "matId": "rcmvcdd41hhbt44q",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvcdd41hhbt44q.jpg",
+            "caption": "Para armar peinados divertidos y cambiar de look todos los días sin pisar la peluquería, este maletín trae cuentas, accesorios y la herramienta especial para crear diseños únicos. 💜\nPasá por Agencia Albor y reservalo.\nComentá LOOK y te lo guardamos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279936803
+          },
+          {
+            "id": "cmvk6hltk-ig",
+            "matId": "rcmvifxz57qi6da3",
+            "matIds": [
+              "rcmvifxz57qi6da3",
+              "rcmvifxs6ll8kcok",
+              "rcmvifxm87mxdh88",
+              "rcmvifxawbtb8gnw",
+              "rcmvifyzwq66sikh"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+              "ig-queue/feed/media/rcmvifxs6ll8kcok.jpg",
+              "ig-queue/feed/media/rcmvifxm87mxdh88.jpg",
+              "ig-queue/feed/media/rcmvifxawbtb8gnw.jpg",
+              "ig-queue/feed/media/rcmvifyzwq66sikh.jpg"
+            ],
+            "caption": "¿Querés revivir las aventuras del océano y armar el set completo de la película en casa? 🌊\n\nEstas figuras de Moana y su familia son ideales para que los chicos dejen volar la imaginación y creen sus propias historias de navegación. \n\nPasá por Agencia Albor y reservá la colección completa antes de que se agote. 🏝️\n\nComentá MOANA y te mando toda la info por mensaje.\n\n#moana #disney #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625294716
+          },
+          {
+            "id": "cmvk6hxn5-ig",
+            "matId": "rcmvci9gcg9fb3h3",
+            "matIds": [
+              "rcmvci9gcg9fb3h3",
+              "rcmvci9b9wxht7er"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+              "ig-queue/feed/media/rcmvci9b9wxht7er.jpg"
+            ],
+            "caption": "Para las que ya se leyeron todo y se quedaron con ganas de más drama, romance y épica histórica. 📖✨ Las seis novelas de Florencia Bonelli juntas en una edición coleccionable que te va a ocupar un lugar de honor en la mesa de luz. \n\nPasá a encargarla por Agencia Albor y empezá a armar tu propia biblioteca romántica. ☕\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279915679
+          },
+          {
+            "id": "cmvlrphwz-ig",
+            "matId": "rcmvkz2tgsn2keeu",
+            "matIds": [
+              "rcmvkz2tgsn2keeu",
+              "rcmvkz37g3wp0bqm",
+              "rcmvkz30k7sqkjju",
+              "rcmvkz3deonkqaj8"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+              "ig-queue/feed/media/rcmvkz37g3wp0bqm.jpg",
+              "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
+              "ig-queue/feed/media/rcmvkz3deonkqaj8.jpg"
+            ],
+            "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792761562382
+          },
+          {
+            "id": "cmvlrq0ss-ig",
+            "matId": "rcmvkca9ddre2bbm",
+            "matIds": [
+              "rcmvkca9ddre2bbm",
+              "rcmvi71sfpuj3uka"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+              "ig-queue/feed/media/rcmvi71sfpuj3uka.jpg"
+            ],
+            "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792722094888
+          },
+          {
+            "id": "mrcmvp3dmrgv06grk-ig",
+            "matId": "rcmvp3dmrgv06grk",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3dmrgv06grk.mp4",
+            "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793009433841
+          },
+          {
+            "id": "mrcmvph4b9mok297a-ig",
+            "matId": "rcmvph4b9mok297a",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvph4b9mok297a.mp4",
+            "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793037963781
+          },
+          {
+            "id": "mrcmvpmo3uzx0q0bp-ig",
+            "matId": "rcmvpmo3uzx0q0bp",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvpmo3uzx0q0bp.mp4",
+            "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041920252
+          },
+          {
+            "id": "cmvpmxan2-ig",
+            "matId": "rcmvpmp8sh4556i0",
+            "matIds": [
+              "rcmvpmp8sh4556i0",
+              "rcmvpmp2c7ea4bhb",
+              "rcmvpmpgcwtrr132"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+              "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
+              "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg"
+            ],
+            "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041870679
+          },
+          {
+            "id": "mrcmvp3e1oalc1fe5-ig",
+            "matId": "rcmvp3e1oalc1fe5",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3e1oalc1fe5.mp4",
+            "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793016488933
+          },
+          {
+            "id": "mrcmvl9fodfhb7wl7-ig",
+            "matId": "rcmvl9fodfhb7wl7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fodfhb7wl7.mp4",
+            "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757307950
+          },
+          {
+            "id": "mrcmvl9fcivg188e4-ig",
+            "matId": "rcmvl9fcivg188e4",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fcivg188e4.mp4",
+            "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757364584
+          },
+          {
+            "id": "mrcmvl9ewp8zu938d-ig",
+            "matId": "rcmvl9ewp8zu938d",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9ewp8zu938d.mp4",
+            "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757376685
+          },
+          {
+            "id": "mrcmvl9eh2gjav6ib-ig",
+            "matId": "rcmvl9eh2gjav6ib",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9eh2gjav6ib.mp4",
+            "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757387832
+          },
+          {
+            "id": "cmvqnd634-ig",
+            "matId": "rcmvqm1lzy8g3pod",
+            "matIds": [
+              "rcmvqm1lzy8g3pod",
+              "rcmvqm1wgtmobmxo"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+              "ig-queue/feed/media/rcmvqm1wgtmobmxo.jpg"
+            ],
+            "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793102873354
+          },
+          {
+            "id": "mrcmvqqgjigs4t5n3-ig",
+            "matId": "rcmvqqgjigs4t5n3",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqqgjigs4t5n3.jpg",
+            "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793108532325
+          },
+          {
+            "id": "mrcmvqsm5x4etos0t-ig",
+            "matId": "rcmvqsm5x4etos0t",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqsm5x4etos0t.jpg",
+            "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793112171206
+          },
+          {
+            "id": "mrcmvqw5xq2695pzc-ig",
+            "matId": "rcmvqw5xq2695pzc",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqw5xq2695pzc.jpg",
+            "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118245645
+          },
+          {
+            "id": "mrcmvqw4j9ncuo4l7-ig",
+            "matId": "rcmvqw4j9ncuo4l7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvqw4j9ncuo4l7.mp4",
+            "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118266524
+          },
+          {
+            "id": "mrcmvr08nxeykj1h9-ig",
+            "matId": "rcmvr08nxeykj1h9",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvr08nxeykj1h9.mp4",
+            "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793125517243
+          },
+          {
+            "id": "mrcmvs17yshc98yg6-ig",
+            "matId": "rcmvs17yshc98yg6",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvs17yshc98yg6.jpg",
+            "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793187177114
+          },
+          {
+            "id": "mrcmvv4ugay58g2am-ig",
+            "matId": "rcmvv4ugay58g2am",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvv4ugay58g2am.mp4",
+            "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793374847354,
+            "prov": "Clarín"
+          },
+          {
+            "id": "mrcmvvax283ikddiz-ig",
+            "matId": "rcmvvax283ikddiz",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvvax283ikddiz.mp4",
+            "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793384694153,
+            "prov": "Clarín"
+          },
+          {
+            "id": "mrcmvwe03pm947brj-ig",
+            "matId": "rcmvwe03pm947brj",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvwe03pm947brj.mp4",
+            "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793450498917,
+            "prov": "Clarín"
+          },
+          {
+            "id": "mrcmvwlruqb8nsl0v-ig",
+            "matId": "rcmvwlruqb8nsl0v",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvwlruqb8nsl0v.mp4",
+            "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793463381661,
+            "prov": "Clarín",
+            "shas": [
+              "4dfc6e23d55a3ca40e6265f8001ba36be1db16a7"
+            ]
+          },
+          {
+            "id": "mrcmvzbmi68xxlvdo-ig",
+            "matId": "rcmvzbmi68xxlvdo",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvzbmi68xxlvdo.jpg",
+            "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793629180566,
+            "prov": "Silmar",
+            "shas": [
+              "4a706f9eddadd418434a6d47cdbc2abf1bbde647"
+            ]
+          },
+          {
+            "id": "mrcmvzjh8k3r238ie-ig",
+            "matId": "rcmvzjh8k3r238ie",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvzjh8k3r238ie.mp4",
+            "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793642063615,
+            "prov": "Clarín",
+            "shas": [
+              "06b592db1e8beaa131dd8ca628e811c87a613c50"
+            ]
+          },
+          {
+            "id": "mrcmvzjfzmhmra97n-ig",
+            "matId": "rcmvzjfzmhmra97n",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvzjfzmhmra97n.jpg",
+            "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793642077278,
+            "prov": "Clarín",
+            "shas": [
+              "efe3a720b702af0b49eb3a95f97aa310403cd81f"
+            ]
+          },
+          {
+            "id": "mrcmw0067ism3yzn9-ig",
+            "matId": "rcmw0067ism3yzn9",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw0067ism3yzn9.mp4",
+            "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793668982668,
+            "prov": "Clarín",
+            "shas": [
+              "bfd1c1ef59919263a4cfdcd1c7a4f8268429a91c"
+            ]
+          },
+          {
+            "id": "mrcmw0m77zomyubui-ig",
+            "matId": "rcmw0m77zomyubui",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw0m77zomyubui.jpg",
+            "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793707414011,
+            "prov": "La nación",
+            "shas": [
+              "bbb50b9fc98d59ec0d258630b9f6f37136a4f8fd"
+            ]
+          },
+          {
+            "id": "mrcmw14r34wwjrrzf-ig",
+            "matId": "rcmw14r34wwjrrzf",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw14r34wwjrrzf.mp4",
+            "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793737117472,
+            "prov": "Clarín",
+            "shas": [
+              "35153d0ea2e2aa4b9aa62f2bb69b0424461b0277"
+            ]
+          },
+          {
+            "id": "mrcmw2fesseg7i1d1-ig",
+            "matId": "rcmw2fesseg7i1d1",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw2fesseg7i1d1.jpg",
+            "caption": "Volver a ver las historietas de la infancia dibujadas en la mesita de luz o armando un lugarcito especial en el living tiene ese encanto de las cosas simples que nos hacían bien de chicos. ☕📖\n\nLa entrañable pandilla creada por Charles Schulz vuelve a juntarse en esta nueva colección que nos trae figuras coleccionables de gran calidad junto a fascículos ilustrados para disfrutar despacito. 💛\n\nLa primera entrega ya está disponible en Maipú 175, Agencia Albor, e incluye el fascículo junto a las figuras de Snoopy y Charlie Brown por $24.990. 🐶👦\n\nAdemás, en las próximas entregas vas a poder sumar a Snoopy aviador, Charlie Brown solo, Snoopy y Woodstock, Lucy y la edición de Snoopy navideño para completar los 6 números. 🏡✨\n\n¿Qué figura de toda la banda era tu preferida cuando leías las tiras diarias? Contanos abajo y pasá a buscar la tuya.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #charloscasares #charlesulz\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793806718759,
+            "prov": "La nación",
+            "medias": [
+              "ig-queue/feed/media/rcmw2fesseg7i1d1.jpg",
+              "ig-queue/feed/media/rcmw3mk2ublpzlot.jpg"
+            ],
+            "matIds": [
+              "rcmw2fesseg7i1d1",
+              "rcmw3mk2ublpzlot"
+            ],
+            "shas": [
+              "03dda198bcfa12d5e980fd212fca705265a8d5b5",
+              "7a7d3926ea4b2e9f4df30c3fe957d0aecc416c14"
+            ]
+          },
+          {
+            "id": "mrcmw4z6257c7gmcn-ig",
+            "matId": "rcmw4z6257c7gmcn",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw4z6257c7gmcn.jpg",
+            "caption": "¿Te acordás de ver este furgón repartiendo por los barrios en otra época? 🚐\n\nEl Volkswagen Furgón modelo 1982 ya tiene fecha para sumarse a la vitrina de los fierreros. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, antes de que vuele.\n\n#volkswagen #autosinolvidables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793969617216,
+            "prov": "Silmar",
+            "shas": [
+              "d1d0e79ae3a5ba32608cb64e4a9bfc118412420e"
+            ]
+          },
+          {
+            "id": "mrcmw5ayjilcqvfnd-ig",
+            "matId": "rcmw5ayjilcqvfnd",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw5ayjilcqvfnd.mp4",
+            "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793989427128,
+            "prov": "Clarín",
+            "shas": [
+              "6c7bdfb19b800f6e40495ad960e555cb2fb483a8"
+            ]
+          },
+          {
+            "id": "mrcmw86hsbj7n8ive-ig",
+            "matId": "rcmw86hsbj7n8ive",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw86hsbj7n8ive.mp4",
+            "caption": "Tener otra vez en casa las figuras de Snoopy, Charlie Brown y toda la barra es posible para llenar tus espacios favoritos de ternura. 🏡✨\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor y empezá a completar las 6 entregas de esta hermosa serie.\n\n#snoopy #peanuts #carloscasares #lucy\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794163305991,
+            "prov": "La nación",
+            "shas": [
+              "d1e613b347235356362da0db6ec55ff52a713455"
+            ]
+          },
+          {
+            "id": "cmw86s655-ig",
+            "matId": "rcmw86pwrt30u3di",
+            "matIds": [
+              "rcmw86pwrt30u3di",
+              "rcmw86h3db6rewoh",
+              "rcmw86hao8voei05"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw86pwrt30u3di.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmw86pwrt30u3di.jpg",
+              "ig-queue/feed/media/rcmw86h3db6rewoh.jpg",
+              "ig-queue/feed/media/rcmw86hao8voei05.jpg"
+            ],
+            "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794163736274
+          },
+          {
+            "id": "mrcmw9fkmriqoji2f-ig",
+            "matId": "rcmw9fkmriqoji2f",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw9fkmriqoji2f.mp4",
+            "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794239047823,
+            "prov": "Clarín",
+            "shas": [
+              "2544b9553bde71d8fb5099117b996624b91195a6"
+            ]
+          },
+          {
+            "id": "mrcmwatfr3zfx4d4r-ig",
+            "matId": "rcmwatfr3zfx4d4r",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwatfr3zfx4d4r.jpg",
+            "caption": "¿Te acordás de las tardes viendo a Charlie Brown y a su inseparable beagle? 🐾\n\nVolvé a conectar con esa ternura sumando a tu estantería las figuras oficiales de la tira más famosa.\n \n\nLa propuesta de La Nación ya arrancó con todo y cada semana tenés una excusa perfecta para volver a sonreír. 💛\n\nEsta primera entrega viene con el fascículo ilustrado y la tierna dupla de Snoopy y Charlie Brown juntos por $24.990. 📚✨\n\nEn total son 6 entregas semanales para completar toda la banda: desde Snoopy aviador y la clásica Lucy hasta Snoopy navideño y con Woodstock. 🏡\n\n¿Cuál de todos estos personajes querés tener primero en tu casa? \n\nMandanos un mensaje o pasá a buscar tu ejemplar por Maipú 175, Agencia Albor.\n\n#snoopy #charliebrown #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794324426140,
+            "prov": "La Nación",
+            "shas": [
+              "7472b602494a6f2a893f51345126a9cd40017c7a"
+            ]
+          },
+          {
+            "id": "mrcmwb24lnrs3g3ge-ig",
+            "matId": "rcmwb24lnrs3g3ge",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwb24lnrs3g3ge.jpg",
+            "caption": "Hacer un budín casero sin renegar para que se desmolde sano y salvo ya dejó de ser un milagro 🍰✨ Con este molde cuadrado de silicona premium de la colección Super Repostería te ahorrás los dolores de cabeza de que se pegue todo. Te esperamos en Maipú 175, Agencia Albor para que te lo lleves. Comentá MOLDE y te guardamos el tuyo.\n#moldesdesilicona #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794337385862,
+            "prov": "Clarin",
+            "shas": [
+              "fde0534be2ab3bdf8633ede1d5a368fbe979f788"
+            ]
+          },
+          {
+            "id": "mrcmwba3w8i3doj45-ig",
+            "matId": "rcmwba3w8i3doj45",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmwba3w8i3doj45.mp4",
+            "caption": "Reviví la magia de las tardes de lectura con las figuras oficiales de La Familia Peanuts. 🌼📚\nArrancá la colección con el primer fascículo y la dupla clásica por solo $24.990.\nTe esperamos en Maipú 175, Agencia Albor, Maipú 175 para encargar la tuya antes de que vuelen. 🏃‍♂️💨\n¿Qué personaje te gustaría que sea el próximo en sumarse a tu vitrina? 💬\n#charliebrown #carloscasares #peanuts\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794350799632,
+            "prov": "La Nación",
+            "shas": [
+              "fa24194259e2470c7c979fcf5e74f19ee4b7b338"
+            ]
+          },
+          {
+            "id": "mrcmwc3dla0legjug-ig",
+            "matId": "rcmwc3dla0legjug",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwc3dla0legjug.jpg",
+            "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794399940359,
+            "prov": "La nación",
+            "shas": [
+              "b9c7265566bdba591d07009c12add313cf82dd5a"
+            ]
+          },
+          {
+            "id": "mrcmwc3g3lahafrpk-ig",
+            "matId": "rcmwc3g3lahafrpk",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwc3g3lahafrpk.jpg",
+            "caption": "¿Te acordás de esas tardes de domingo pegados a la tele escuchando el rugido de los motores y sintiendo esa pasión inconfundible del automovilismo nacional? 🏁📻\n\nLos fierros y la velocidad vuelven a estar bien cerca con la llegada de la colección oficial de autos a escala de Turismo Carretera de La Nación. 🏎️✨\n\nEsta propuesta imperdible cuenta con 15 modelos detallados para coleccionar y revivir los hitos que marcaron la historia grande de la categoría en cada época. 🏆\n\nLa primera entrega arranca con toda la gloria: el icónico Chevy 1995 de Juan María Traverso acompañado de su respectivo fascículo coleccionable a un precio de $34.990. 📖🔥\n\nEntre los 15 modelos que forman parte de la obra vas a encontrar joyas inolvidables como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon del “Gurí” Martínez y la máquina de Marcos Di Palma que se ve en la imagen. 🚗💨\n\nSumá esta pieza única a tu vitrina pasando a buscarla por Maipú 175, Agencia Albor, Carlos Casares. 📍👋\n\nSi querés asegurar tu ejemplar de esta edición quincenal, mandanos un mensaje directo y te contamos cómo reservarlo. 📩💬\n\n#turismocarretera #marcosdipalma #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794400067642,
+            "prov": "La Nación",
+            "shas": [
+              "b0c6385265119fed3410421f949c5a1ccdaca0c4"
+            ]
+          }
+        ],
+        "publicadas": [
+          "rcmvig0klfnulc2i",
+          "rcmvl2gs4nrjsef0",
+          "rcmvl2g3jjkky6r1",
+          "rcmvi6xv6sez428q",
+          "rcmvs1sk7afqgvg4",
+          "rcmw0u98qf4qv2l4",
+          "rcmvwdzj83jcceeo",
+          "rcmvwdzj9x7t2hv8",
+          "rcmujsmu82vt76e8",
+          "rcmujsmu2smvhtyg",
+          "rcmujbgv0xqo9upm",
+          "rcmth8ctg5o91185",
+          "rcmth8ctedidn46u",
+          "rcmth7vpg0oze6gl",
+          "rcmth3pb4f9ifij4",
+          "rcmth3pb2muyrdtl",
+          "rcmth3kicu62ycfq",
+          "rcmth3kiba9y4v5d",
+          "rcmth3k4sai3f0yo",
+          "rcmwba3v3x4x90cc"
+        ],
+        "borradas": [
+          "rcmw0u98qf4qv2l4",
+          "rcmvwdzj83jcceeo",
+          "rcmvwdzj9x7t2hv8",
+          "rcmujsmu82vt76e8",
+          "rcmujsmu2smvhtyg",
+          "rcmujbgv0xqo9upm",
+          "rcmth8ctg5o91185",
+          "rcmth8ctedidn46u",
+          "rcmth7vpg0oze6gl",
+          "rcmth3pb4f9ifij4",
+          "rcmth3pb2muyrdtl",
+          "rcmth3kicu62ycfq",
+          "rcmth3kiba9y4v5d",
+          "rcmth3k4sai3f0yo",
+          "rcmwba3v3x4x90cc"
+        ]
+      },
+      "nueva": {
+        "franjas": [
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "h": "13:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "19:00",
+            "n": 1,
+            "f": "feed",
+            "d": [
+              2,
+              4
+            ]
+          },
+          {
+            "h": "11:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              6
+            ]
+          },
+          {
+            "h": "18:00",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              1,
+              5
+            ]
+          },
+          {
+            "h": "21:30",
+            "n": 1,
+            "f": "reel",
+            "d": [
+              2,
+              4,
+              6
+            ]
+          }
+        ],
+        "reciclar": false,
+        "pausada": false,
+        "orden": "nuevo",
+        "autoNuevas": true,
+        "autoBase": true,
+        "autoOmitidas": [
+          "rcmvjhi6z4x3wo3s",
+          "rcmvjhhx7if449t0",
+          "rcmvig0f8ann6pgx",
+          "rcmvifznsgp098xg",
+          "rcmvi71n9hhfspk8",
+          "rcmvgwj3gj2a3230",
+          "rcmvgsxia418twkt",
+          "rcmvfdnf1z46k96g",
+          "rcmvci9pceylop46",
+          "rcmvci9ksis1jatx",
+          "rcmvcdczttdxm808",
+          "rcmvcdcuzl013ln0",
+          "rcmvcdcpgzwgwo60",
+          "rcmvcdcjl6wja6hx",
+          "rcmvcdcfi8g1lj0k",
+          "rcmvbcvfrt01zsjb",
+          "rcmvb6hky9qq9ff6",
+          "rcmvb365xu9yk6wt",
+          "rcmvb35y3pklyd9c",
+          "rcmv9rmtxtjcqwi6",
+          "rcmv9n2oavee95vd",
+          "rcmv9n2jdnjt394s",
+          "rcmv9fvoxgd6t2zw",
+          "rcmv8eda0vv3hhhl",
+          "rcmv7ex8d580yz8k",
+          "rcmv6wqadaqyx5vu",
+          "rcmv58yv729hctfj",
+          "rcmv36143fdosign",
+          "rcmv2x2z35zuzmp6",
+          "rcmv2ft88gjwzd2s",
+          "rcmv19l73osu7uks",
+          "rcmv169awfl060gg",
+          "rcmv15hd0xitk11n",
+          "rcmv0yeda3fa6j6z",
+          "rcmv0ye5xx7hjzhk",
+          "rcmv0vtegyc1bdtl",
+          "rcmv0vgkomryb65e",
+          "rcmuzvf2vhr68rer",
+          "rcmuzgczy9it3ekp",
+          "rcmuzgcs1ampp0gu",
+          "rcmuyes5fg0eb6x1",
+          "rcmuyerx6ghl7lge",
+          "rcmuy7plq3kj057s",
+          "rcmuy7pe88r36qcc",
+          "rcmuy7p6n52xx31k",
+          "rcmuy7p0k17bxqdn",
+          "rcmuy7ou332y9d45",
+          "rcmuy733pxpz9y2j",
+          "rcmuy246wcnwfxkw",
+          "rcmuy23qnasellqq",
+          "rcmuwpiaecyhot9q",
+          "rcmuvlkgukjkhbp3",
+          "rcmusbnv3ebt1r6k",
+          "rcmuqwhe55bj2pdl",
+          "rcmuqwh8hyey22nr",
+          "rcmuqwgxhsglcmex",
+          "rcmupugkmve8adaj",
+          "rcmupudno7frb73y",
+          "rcmupihw3ltlkkmw",
+          "rcmuo0aq97f2ezx0",
+          "rcmumz7woqdzqsv9",
+          "rcmumz7p1mq3pouj",
+          "rcmumxkvto6vefxs",
+          "rcmuh1e9kbsbjg5x",
+          "rcmuh1a460rmcun5",
+          "rcmuh12u3jlpd1ui",
+          "rcmugz8fpzwuf9vo",
+          "rcmufxmgi09dzmg2",
+          "rcmue5cosl8rqs6o",
+          "rcmue0bqsshyo7s3",
+          "rcmubcams5gn0s09",
+          "rcmubcagxrtoe07u",
+          "rcmu7dqsq6216qlc",
+          "rcmu7baspw3u542y",
+          "rcmu5l1i8ew5zket",
+          "rcmu5hf82bk8sqnz",
+          "rcmu5hbnhvr2wn56",
+          "rcmu38rxo3yas4bv",
+          "rcmu32j46en5za9r",
+          "rcmu2rr89dfr29y8",
+          "rcmu2rr3nfpamtux",
+          "rcmu2oa3rw138rcj",
+          "rcmtxfktdxemfjh5",
+          "rcmtwx48xxiienzr",
+          "rcmtvqkbcv0n02yt",
+          "rcmtuhpmspae48a9",
+          "rcmtsx7lndeprm9e",
+          "rcmtrl999pknj8za",
+          "rcmtnjj0nttvejkx",
+          "rcmtk5jadiuc33i0",
+          "rcmthjuwpesqte1h",
+          "rcmth5aeqa40x5ey",
+          "rcmtgbd74373prfs",
+          "rcmtelrw3lg8k85q",
+          "rcmtelrqbwidwwwn",
+          "rcmtelrho7zjwspg",
+          "rcmtec2k24y8a1zf",
+          "rcmtd970q8dt2u8w",
+          "rcmta286xb7uyoo4",
+          "rcmt8yv0ggjfakbg",
+          "rcmt8yuur5sz9xpy",
+          "rcmt8ktyl9phiqpg",
+          "rcmt8krg53od8077",
+          "rcmt8km9ijgk10r3",
+          "rcmt3hqeymkaytsb",
+          "rcmt27xorzf4d4w1",
+          "rcmt1l8cfypbyoe7",
+          "rcmt1l7wf2k8f14y",
+          "rcmt1l7lk7fz1zb1",
+          "rcmt1l79rnchm1bb",
+          "rcmt1l71t5zy1t6z",
+          "rcmujbgut4bqvf1m",
+          "rcmujav55iczvcwv",
+          "rcmth3k4rcisyk1u"
+        ],
+        "pool": [
+          {
+            "id": "mrcmvjw60jjyli615-ig",
+            "matId": "rcmvjw60jjyli615",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw60jjyli615.mp4",
+            "caption": "¿Te imaginás cocinar sin que se te pegue absolutamente nada y limpiar en dos segundos cuando terminás? 🍳 Esta batería de cocina viene con tapas de vidrio templado y borde de silicona para que te dure años en la mesada. Pasá por Agencia Albor, Carlos Casares y llevatela.\n#bateria #carloscasares #cocina\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696868956
+          },
+          {
+            "id": "mrcmvjw5vgqq1prmt-ig",
+            "matId": "rcmvjw5vgqq1prmt",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvjw5vgqq1prmt.mp4",
+            "caption": "Juntar las espadas del augurio ya no es cosa de la tele, ahora te las armás vos mismo y encima a $36.990. ⚡ Si querés revivir las tardes viendo a León-O y los muchachos, pasate por Agencia Albor, Carlos Casares. ⚔️ ¿Qué figura era tu favorita de bajarte de la bici para ver la serie?\n#thundercats #figura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696881111
+          },
+          {
+            "id": "mrcmvig01i5uxqlqa-ig",
+            "matId": "rcmvig01i5uxqlqa",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvig01i5uxqlqa.mp4",
+            "caption": "El sonido de los motores y el olor a nafta en las rutas de antes no se olvidan más. 🏎️💨 Si te apasiona el Turismo Carretera y querés revivir esa época dorada, cada detalle de estos autos a escala te va a encantar. Pasá por Agencia Albor, Carlos Casares y asegurá tu ejemplar.\n#turismocarretera #traverso #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610600619
+          },
+          {
+            "id": "cmvk4x12s-ig",
+            "matId": "rcmvify7ezmygp4k",
+            "matIds": [
+              "rcmvify7ezmygp4k",
+              "rcmvifylpsyhmmbm",
+              "rcmvifyv1f4jeqtk",
+              "rcmvifzartv8ax9n"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvify7ezmygp4k.jpg",
+              "ig-queue/feed/media/rcmvifylpsyhmmbm.jpg",
+              "ig-queue/feed/media/rcmvifyv1f4jeqtk.jpg",
+              "ig-queue/feed/media/rcmvifzartv8ax9n.jpg"
+            ],
+            "caption": "Para que las tardes en casa se transformen en una aventura salvaje, nada mejor que armar las piezas y recorrer la selva con los chicos. 🐘🌴\n\nPasá por Agencia Albor y reservá tu set de Topa para empezar a jugar.\n\n#diegotopa #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792610658202
+          },
+          {
+            "id": "cmvk52c23-ig",
+            "matId": "rcmvk22n2tbhwzkv",
+            "matIds": [
+              "rcmvk22n2tbhwzkv",
+              "rcmvk22hky3wautu"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvk22n2tbhwzkv.jpg",
+              "ig-queue/feed/media/rcmvk22hky3wautu.jpg"
+            ],
+            "caption": "Cortar verduras sin renegar y preparar recetas ricas ahora es mucho más fácil con el cuchillo multiuso y el recetario que trae la entrega de Santiago Giorgini. Pasá por Agencia Albor, Carlos Casares, y reservala antes de que vuele.\n\n#santiagogiorgini #recetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792704773998
+          },
+          {
+            "id": "cmvk5ixvr-ig",
+            "matId": "rcmvjhhrsrwt9zig",
+            "matIds": [
+              "rcmvjhhrsrwt9zig",
+              "rcmvjhi1vvlousc8",
+              "rcmvjhib1k494xhz"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvjhhrsrwt9zig.jpg",
+              "ig-queue/feed/media/rcmvjhi1vvlousc8.jpg",
+              "ig-queue/feed/media/rcmvjhib1k494xhz.jpg"
+            ],
+            "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792696936589
+          },
+          {
+            "id": "mrcmvi6y6jv2e815k-ig",
+            "matId": "rcmvi6y6jv2e815k",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvi6y6jv2e815k.jpg",
+            "caption": "Empezá a armar tu propia vajilla de diseño con este primer fascículo. ☕ El tazón de porcelana de 450cc ya está disponible para que lo sumes a tus desayunos. Pasá a retirarlo por Agencia Albor, en Carlos Casares. \n\n#tazasvolf #porcelana #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625365637
+          },
+          {
+            "id": "mrcmvgo0q2mooqf73-ig",
+            "matId": "rcmvgo0q2mooqf73",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvgo0q2mooqf73.mp4",
+            "caption": "Preparate para armar pieza por pieza la armadura del Vengador más icónico en tu propia casa. 🦾\n¿Te imaginas tener esta mole de metal detallada al milímetro en tu repisa? \nEscribinos por WhatsApp para enterarte cómo empezar la colección de Iron Man.\n#ironman #planeta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792539063912
+          },
+          {
+            "id": "mrcmvfvlsvkwcj6fc-ig",
+            "matId": "rcmvfvlsvkwcj6fc",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvfvlsvkwcj6fc.mp4",
+            "caption": "¿Querés que tus platos de todos los días salgan con ese sabor bien casero que le gusta a todos en casa? 🥘 Mirá cómo se luce cada pieza de esta colección pensada para simplificar tus almuerzos y cenas sin complicaciones. Escribinos un mensaje para encargar la tuya y pasá a buscarla por Agencia Albor, Carlos Casares. \n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792452679848
+          },
+          {
+            "id": "mrcmvcdd41hhbt44q-ig",
+            "matId": "rcmvcdd41hhbt44q",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvcdd41hhbt44q.jpg",
+            "caption": "Para armar peinados divertidos y cambiar de look todos los días sin pisar la peluquería, este maletín trae cuentas, accesorios y la herramienta especial para crear diseños únicos. 💜\nPasá por Agencia Albor y reservalo.\nComentá LOOK y te lo guardamos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279936803
+          },
+          {
+            "id": "cmvk6hltk-ig",
+            "matId": "rcmvifxz57qi6da3",
+            "matIds": [
+              "rcmvifxz57qi6da3",
+              "rcmvifxs6ll8kcok",
+              "rcmvifxm87mxdh88",
+              "rcmvifxawbtb8gnw",
+              "rcmvifyzwq66sikh"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvifxz57qi6da3.jpg",
+              "ig-queue/feed/media/rcmvifxs6ll8kcok.jpg",
+              "ig-queue/feed/media/rcmvifxm87mxdh88.jpg",
+              "ig-queue/feed/media/rcmvifxawbtb8gnw.jpg",
+              "ig-queue/feed/media/rcmvifyzwq66sikh.jpg"
+            ],
+            "caption": "¿Querés revivir las aventuras del océano y armar el set completo de la película en casa? 🌊\n\nEstas figuras de Moana y su familia son ideales para que los chicos dejen volar la imaginación y creen sus propias historias de navegación. \n\nPasá por Agencia Albor y reservá la colección completa antes de que se agote. 🏝️\n\nComentá MOANA y te mando toda la info por mensaje.\n\n#moana #disney #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792625294716
+          },
+          {
+            "id": "cmvk6hxn5-ig",
+            "matId": "rcmvci9gcg9fb3h3",
+            "matIds": [
+              "rcmvci9gcg9fb3h3",
+              "rcmvci9b9wxht7er"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvci9gcg9fb3h3.jpg",
+              "ig-queue/feed/media/rcmvci9b9wxht7er.jpg"
+            ],
+            "caption": "Para las que ya se leyeron todo y se quedaron con ganas de más drama, romance y épica histórica. 📖✨ Las seis novelas de Florencia Bonelli juntas en una edición coleccionable que te va a ocupar un lugar de honor en la mesa de luz. \n\nPasá a encargarla por Agencia Albor y empezá a armar tu propia biblioteca romántica. ☕\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792279915679
+          },
+          {
+            "id": "cmvlrphwz-ig",
+            "matId": "rcmvkz2tgsn2keeu",
+            "matIds": [
+              "rcmvkz2tgsn2keeu",
+              "rcmvkz37g3wp0bqm",
+              "rcmvkz30k7sqkjju",
+              "rcmvkz3deonkqaj8"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkz2tgsn2keeu.jpg",
+              "ig-queue/feed/media/rcmvkz37g3wp0bqm.jpg",
+              "ig-queue/feed/media/rcmvkz30k7sqkjju.jpg",
+              "ig-queue/feed/media/rcmvkz3deonkqaj8.jpg"
+            ],
+            "caption": "¿Sentís que a veces hay señales que no estás sabiendo leer? 🔮 \n\nPara quienes buscan conectar con otro plano y entender los mensajes que nos rodean, este nuevo libro de Noelia Pace trae respuestas claras y directas. \n\nReservá tu ejemplar en Agencia Albor y empezá a leerlo.\n\n#noeliapace #sesionabierta #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792761562382
+          },
+          {
+            "id": "cmvlrq0ss-ig",
+            "matId": "rcmvkca9ddre2bbm",
+            "matIds": [
+              "rcmvkca9ddre2bbm",
+              "rcmvi71sfpuj3uka"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvkca9ddre2bbm.jpg",
+              "ig-queue/feed/media/rcmvi71sfpuj3uka.jpg"
+            ],
+            "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792722094888
+          },
+          {
+            "id": "mrcmvp3dmrgv06grk-ig",
+            "matId": "rcmvp3dmrgv06grk",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3dmrgv06grk.mp4",
+            "caption": "Para las que guardan cada libro como un tesoro y leen hasta que baje la última pestaña, estas páginas de Florencia Bonelli son un cable a tierra. 📚 Mandanos un mensaje para reservar la tuya en Agencia Albor, Carlos Casares.\n\n#florenciabonelli #lectura #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793009433841
+          },
+          {
+            "id": "mrcmvph4b9mok297a-ig",
+            "matId": "rcmvph4b9mok297a",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvph4b9mok297a.mp4",
+            "caption": "Poné el tocadiscos a todo volumen porque la reina del pop vuelve a sonar como corresponde 🎶 Si creías que ya lo habías visto todo, escuchá los grandes éxitos de Madonna en este formato que te vuela la cabeza. Pasá por Agencia Albor, Carlos Casares y asegurá tu música preferida.\n#madonnavinilos #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793037963781
+          },
+          {
+            "id": "mrcmvpmo3uzx0q0bp-ig",
+            "matId": "rcmvpmo3uzx0q0bp",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvpmo3uzx0q0bp.mp4",
+            "caption": "Para las que disfrutan de perderse entre páginas y personajes inolvidables, armar esta biblioteca es un viaje de ida. Contanos, ¿cuál es tu novela favorita de la autora? ☕📖 Escribinos por mensaje y reservá tus ejemplares en Agencia Albor, Carlos Casares.\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041920252
+          },
+          {
+            "id": "cmvpmxan2-ig",
+            "matId": "rcmvpmp8sh4556i0",
+            "matIds": [
+              "rcmvpmp8sh4556i0",
+              "rcmvpmp2c7ea4bhb",
+              "rcmvpmpgcwtrr132"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvpmp8sh4556i0.jpg",
+              "ig-queue/feed/media/rcmvpmp2c7ea4bhb.jpg",
+              "ig-queue/feed/media/rcmvpmpgcwtrr132.jpg"
+            ],
+            "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793041870679
+          },
+          {
+            "id": "mrcmvp3e1oalc1fe5-ig",
+            "matId": "rcmvp3e1oalc1fe5",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvp3e1oalc1fe5.mp4",
+            "caption": "¿Quién no tiene un disco de esta banda que marcó una época para escuchar a todo volumen en su casa? 🎸 Ponete en contacto para reservar tu ejemplar en Agencia Albor y empezá a armar la discografía completa de los creadores del heavy metal. \n#ironmaiden #vinilo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793016488933
+          },
+          {
+            "id": "mrcmvl9fodfhb7wl7-ig",
+            "matId": "rcmvl9fodfhb7wl7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fodfhb7wl7.mp4",
+            "caption": "Si querés comer rico y casero todos los días sin volverete loca pensando qué cocinar, esto te salva la semana 👨‍🍳 Pasá por Agencia Albor y reservá tu ejemplar.\n#cocinaenfamilia #santiagogiorgini #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757307950
+          },
+          {
+            "id": "mrcmvl9fcivg188e4-ig",
+            "matId": "rcmvl9fcivg188e4",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9fcivg188e4.mp4",
+            "caption": "Renová las hornallas de tu casa con piezas que combinan diseño antiadherente y máxima durabilidad para cocinar sin que se pegue nada. 🍳 \n\n¿Qué receta estrenarías primero con este set? \n\nPasá por Agencia Albor y reservalo.\n\n#neroessenza #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757364584
+          },
+          {
+            "id": "mrcmvl9ewp8zu938d-ig",
+            "matId": "rcmvl9ewp8zu938d",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9ewp8zu938d.mp4",
+            "caption": "¿Querés cocinar más rico y sin renegar con las comidas que se pegan? 🍳 Encontrá el secreto para simplificar tus mediodías pasando por Agencia Albor, Carlos Casares.\n\n#ollasysartenes #cocina #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757376685
+          },
+          {
+            "id": "mrcmvl9eh2gjav6ib-ig",
+            "matId": "rcmvl9eh2gjav6ib",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvl9eh2gjav6ib.mp4",
+            "caption": "¿Quién dijo que armar una granja con los chicos no puede terminar con piezas volando por la sala? 🚜😅 Si querés divertirte construyendo con los más chicos, reservá tu ejemplar en Agencia Albor.\n#migranjadewood #granja #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1792757387832
+          },
+          {
+            "id": "cmvqnd634-ig",
+            "matId": "rcmvqm1lzy8g3pod",
+            "matIds": [
+              "rcmvqm1lzy8g3pod",
+              "rcmvqm1wgtmobmxo"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmvqm1lzy8g3pod.jpg",
+              "ig-queue/feed/media/rcmvqm1wgtmobmxo.jpg"
+            ],
+            "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793102873354
+          },
+          {
+            "id": "mrcmvqqgjigs4t5n3-ig",
+            "matId": "rcmvqqgjigs4t5n3",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqqgjigs4t5n3.jpg",
+            "caption": "Para sentir bien de cerca el rugido de los motores que hicieron historia en el automovilismo argentino, nada como tener los autos más emblemáticos en una escala perfecta.\n\nLa colección de Turismo Carretera trae quince modelos imperdibles para revivir la pasión de cada época, con réplicas súper detalladas de los ídolos de siempre.\n\nLa primera entrega arranca con el clásico Chevy 1995 de Juan María Traverso acompañado de su fascículo, un verdadero hito para los fanáticos de las picadas y las rutas.\n\nLa serie incluye además a leyendas como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon de Omar “Gurí” Martínez y la máquina de Guillermo Ortelli, entre otros grandes pilotos.\n\nCada salida quincenal suma una nueva pieza clave para completar esta edición imperdible que todo coleccionista quiere tener en la vitrina.\n\nPasá por Agencia Albor para encargar tus entregas y asegurar cada modelo antes de que se agoten.\n\nComentá TC y te pasamos toda la info por mensaje.\n\n#guillermoortelli #turismocarretera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793108532325
+          },
+          {
+            "id": "mrcmvqsm5x4etos0t-ig",
+            "matId": "rcmvqsm5x4etos0t",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqsm5x4etos0t.jpg",
+            "caption": "¿Querés que tus domingos de asado tengan el corte perfecto y la técnica justa de los que saben? 🥩🔪 Este set de cubiertos Soklingen con diseño alemán y el fascículo práctico son el equipamiento que le faltaba a tu mesa para lucirte en cada picada o reunión. Reservá tu ejemplar en Agencia Albor y empezá a disfrutar de una tradición bien nuestra. Comentá ASADO y te pasamos toda la info.\n#soklingen #asado #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793112171206
+          },
+          {
+            "id": "mrcmvqw5xq2695pzc-ig",
+            "matId": "rcmvqw5xq2695pzc",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvqw5xq2695pzc.jpg",
+            "caption": "Para regalarle ese disco que le vuela la cabeza a cualquier fanático del buen rock, la cuarta entrega de The Rolling Stones Vinyl Collection ya tiene su joya en camino 🎸\n\nSe trata de *Their Satanic Majesties Request* en edición especial por los 50 años, prensado en vinilo de 180 gramos directamente en Francia 🇫🇷\n\nIdeal para sorprender en ese cumple o fecha especial con un objeto de colección de primer nivel. Hacé tu encargo hoy mismo pasando por Agencia Albor, Carlos Casares.\n\n#theroundingstones #vinilos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118245645
+          },
+          {
+            "id": "mrcmvqw4j9ncuo4l7-ig",
+            "matId": "rcmvqw4j9ncuo4l7",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvqw4j9ncuo4l7.mp4",
+            "caption": "Para cocinar rico todos los días y olvidarte de que la comida se pegue, este set de ollas y sartenes con titanio te cambia la cocina 🍳 Pasá por Agencia Albor para encargar tus piezas.\n#soklingen #ollas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793118266524
+          },
+          {
+            "id": "mrcmvr08nxeykj1h9-ig",
+            "matId": "rcmvr08nxeykj1h9",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvr08nxeykj1h9.mp4",
+            "caption": "Los personajes que alegran todas las tardes en casa ahora pueden ser parte de los juegos de los chicos. 🐮🐥 Encontrá tus entregas preferidas y reservalas en Agencia Albor, Carlos Casares. \n#granjazenon #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793125517243
+          },
+          {
+            "id": "mrcmvs17yshc98yg6-ig",
+            "matId": "rcmvs17yshc98yg6",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvs17yshc98yg6.jpg",
+            "caption": "Hay discos que marcaron una época entera y suenan mejor que nunca cuando bajan a formato físico. 💿\n\nDisfrutá de cada acorde de *El cielo puede esperar* con la calidad que este clásico de nuestra música se merece. Pasá a buscarlo por Agencia Albor y sumalo a tu discoteca.\n\nComentá DISCO y te guardamos tu ejemplar.\n\n#elcielopuedesperar #coleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793187177114
+          },
+          {
+            "id": "mrcmvv4ugay58g2am-ig",
+            "matId": "rcmvv4ugay58g2am",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvv4ugay58g2am.mp4",
+            "caption": "Para armar tu cocina de primera sin descuidar el bolsillo, las ventas por mayor son la clave que estabas buscando. 🍳 Conseguí todo lo necesario para equipar tu negocio o renovarte por completo. Pasá a vernos por Maipú 175, Agencia Albor.\n#bateriadecocina #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793374847354,
+            "prov": "Clarín"
+          },
+          {
+            "id": "mrcmvvax283ikddiz-ig",
+            "matId": "rcmvvax283ikddiz",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvvax283ikddiz.mp4",
+            "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793384694153,
+            "prov": "Clarín"
+          },
+          {
+            "id": "mrcmvwe03pm947brj-ig",
+            "matId": "rcmvwe03pm947brj",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvwe03pm947brj.mp4",
+            "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793450498917,
+            "prov": "Clarín"
+          },
+          {
+            "id": "mrcmvwlruqb8nsl0v-ig",
+            "matId": "rcmvwlruqb8nsl0v",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvwlruqb8nsl0v.mp4",
+            "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793463381661,
+            "prov": "Clarín",
+            "shas": [
+              "4dfc6e23d55a3ca40e6265f8001ba36be1db16a7"
+            ]
+          },
+          {
+            "id": "mrcmvzbmi68xxlvdo-ig",
+            "matId": "rcmvzbmi68xxlvdo",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvzbmi68xxlvdo.jpg",
+            "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793629180566,
+            "prov": "Silmar",
+            "shas": [
+              "4a706f9eddadd418434a6d47cdbc2abf1bbde647"
+            ]
+          },
+          {
+            "id": "mrcmvzjh8k3r238ie-ig",
+            "matId": "rcmvzjh8k3r238ie",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmvzjh8k3r238ie.mp4",
+            "caption": "¿Te acordás de los moldes pesados que eran un dolor de cabeza para desmoldar? 👵🏼 La repostería cambió posta y llegó la hora de pasar a la silicona premium para tus tortas y budines. \n\nPasá por Agencia Albor, Carlos Casares, y reservá los tuyos. \n#SuperRepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793642063615,
+            "prov": "Clarín",
+            "shas": [
+              "06b592db1e8beaa131dd8ca628e811c87a613c50"
+            ]
+          },
+          {
+            "id": "mrcmvzjfzmhmra97n-ig",
+            "matId": "rcmvzjfzmhmra97n",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmvzjfzmhmra97n.jpg",
+            "caption": "Olvidate de las deformaciones y de renegar con preparaciones que se pegan. 🥧 \nLa nueva colección de moldes plegables llegó para hacerte la vida más fácil en cada receta que prepares. \n\nMandanos un WhatsApp y asegurá tu entrega en Agencia Albor, Carlos Casares.\n\n#reposteria #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793642077278,
+            "prov": "Clarín",
+            "shas": [
+              "efe3a720b702af0b49eb3a95f97aa310403cd81f"
+            ]
+          },
+          {
+            "id": "mrcmw0067ism3yzn9-ig",
+            "matId": "rcmw0067ism3yzn9",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw0067ism3yzn9.mp4",
+            "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793668982668,
+            "prov": "Clarín",
+            "shas": [
+              "bfd1c1ef59919263a4cfdcd1c7a4f8268429a91c"
+            ]
+          },
+          {
+            "id": "mrcmw0m77zomyubui-ig",
+            "matId": "rcmw0m77zomyubui",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw0m77zomyubui.jpg",
+            "caption": "El poder de los Thundercats vuelve a la estantería con esta figura de Tigro que detalla cada rasgo del guerrero felino. Una pieza clave para quienes crecieron mirando la serie y hoy disfrutan coleccionando su infancia. Encontrala en Agencia Albor, Carlos Casares. \n\nComentá TIGRO y te paso la info por privado.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793707414011,
+            "prov": "La nación",
+            "shas": [
+              "bbb50b9fc98d59ec0d258630b9f6f37136a4f8fd"
+            ]
+          },
+          {
+            "id": "mrcmw14r34wwjrrzf-ig",
+            "matId": "rcmw14r34wwjrrzf",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw14r34wwjrrzf.mp4",
+            "caption": "Cuando el molde antiadherente acompaña el ritmo de la semana, todo sale más rico y sin renegar. 👩‍🍳\nEscribinos por WhatsApp y coordinamos para que la pases a buscar por Agencia Albor, Carlos Casares.\n\n#superrepostería #siliconapremium #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793737117472,
+            "prov": "Clarín",
+            "shas": [
+              "35153d0ea2e2aa4b9aa62f2bb69b0424461b0277"
+            ]
+          },
+          {
+            "id": "mrcmw2fesseg7i1d1-ig",
+            "matId": "rcmw2fesseg7i1d1",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw2fesseg7i1d1.jpg",
+            "caption": "Volver a ver las historietas de la infancia dibujadas en la mesita de luz o armando un lugarcito especial en el living tiene ese encanto de las cosas simples que nos hacían bien de chicos. ☕📖\n\nLa entrañable pandilla creada por Charles Schulz vuelve a juntarse en esta nueva colección que nos trae figuras coleccionables de gran calidad junto a fascículos ilustrados para disfrutar despacito. 💛\n\nLa primera entrega ya está disponible en Maipú 175, Agencia Albor, e incluye el fascículo junto a las figuras de Snoopy y Charlie Brown por $24.990. 🐶👦\n\nAdemás, en las próximas entregas vas a poder sumar a Snoopy aviador, Charlie Brown solo, Snoopy y Woodstock, Lucy y la edición de Snoopy navideño para completar los 6 números. 🏡✨\n\n¿Qué figura de toda la banda era tu preferida cuando leías las tiras diarias? Contanos abajo y pasá a buscar la tuya.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #charloscasares #charlesulz\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793806718759,
+            "prov": "La nación",
+            "medias": [
+              "ig-queue/feed/media/rcmw2fesseg7i1d1.jpg",
+              "ig-queue/feed/media/rcmw3mk2ublpzlot.jpg"
+            ],
+            "matIds": [
+              "rcmw2fesseg7i1d1",
+              "rcmw3mk2ublpzlot"
+            ],
+            "shas": [
+              "03dda198bcfa12d5e980fd212fca705265a8d5b5",
+              "7a7d3926ea4b2e9f4df30c3fe957d0aecc416c14"
+            ]
+          },
+          {
+            "id": "mrcmw4z6257c7gmcn-ig",
+            "matId": "rcmw4z6257c7gmcn",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw4z6257c7gmcn.jpg",
+            "caption": "¿Te acordás de ver este furgón repartiendo por los barrios en otra época? 🚐\n\nEl Volkswagen Furgón modelo 1982 ya tiene fecha para sumarse a la vitrina de los fierreros. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, antes de que vuele.\n\n#volkswagen #autosinolvidables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793969617216,
+            "prov": "Silmar",
+            "shas": [
+              "d1d0e79ae3a5ba32608cb64e4a9bfc118412420e"
+            ]
+          },
+          {
+            "id": "mrcmw5ayjilcqvfnd-ig",
+            "matId": "rcmw5ayjilcqvfnd",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw5ayjilcqvfnd.mp4",
+            "caption": "Basta de renegar con que se peguen las tortas en el fondo del molde viejo. 🍰\nConseguí los nuevos moldes de silicona premium de Maipú 175, Agencia Albor, Maipú 175 y hacé tus preparaciones sin dramas.\n¿Qué receta vas a estrenar primero? \n\n#superrepostería #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1793989427128,
+            "prov": "Clarín",
+            "shas": [
+              "6c7bdfb19b800f6e40495ad960e555cb2fb483a8"
+            ]
+          },
+          {
+            "id": "mrcmw86hsbj7n8ive-ig",
+            "matId": "rcmw86hsbj7n8ive",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw86hsbj7n8ive.mp4",
+            "caption": "Tener otra vez en casa las figuras de Snoopy, Charlie Brown y toda la barra es posible para llenar tus espacios favoritos de ternura. 🏡✨\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor y empezá a completar las 6 entregas de esta hermosa serie.\n\n#snoopy #peanuts #carloscasares #lucy\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794163305991,
+            "prov": "La nación",
+            "shas": [
+              "d1e613b347235356362da0db6ec55ff52a713455"
+            ]
+          },
+          {
+            "id": "cmw86s655-ig",
+            "matId": "rcmw86pwrt30u3di",
+            "matIds": [
+              "rcmw86pwrt30u3di",
+              "rcmw86h3db6rewoh",
+              "rcmw86hao8voei05"
+            ],
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmw86pwrt30u3di.jpg",
+            "medias": [
+              "ig-queue/feed/media/rcmw86pwrt30u3di.jpg",
+              "ig-queue/feed/media/rcmw86h3db6rewoh.jpg",
+              "ig-queue/feed/media/rcmw86hao8voei05.jpg"
+            ],
+            "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794163736274
+          },
+          {
+            "id": "mrcmw9fkmriqoji2f-ig",
+            "matId": "rcmw9fkmriqoji2f",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmw9fkmriqoji2f.mp4",
+            "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794239047823,
+            "prov": "Clarín",
+            "shas": [
+              "2544b9553bde71d8fb5099117b996624b91195a6"
+            ]
+          },
+          {
+            "id": "mrcmwatfr3zfx4d4r-ig",
+            "matId": "rcmwatfr3zfx4d4r",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwatfr3zfx4d4r.jpg",
+            "caption": "¿Te acordás de las tardes viendo a Charlie Brown y a su inseparable beagle? 🐾\n\nVolvé a conectar con esa ternura sumando a tu estantería las figuras oficiales de la tira más famosa.\n \n\nLa propuesta de La Nación ya arrancó con todo y cada semana tenés una excusa perfecta para volver a sonreír. 💛\n\nEsta primera entrega viene con el fascículo ilustrado y la tierna dupla de Snoopy y Charlie Brown juntos por $24.990. 📚✨\n\nEn total son 6 entregas semanales para completar toda la banda: desde Snoopy aviador y la clásica Lucy hasta Snoopy navideño y con Woodstock. 🏡\n\n¿Cuál de todos estos personajes querés tener primero en tu casa? \n\nMandanos un mensaje o pasá a buscar tu ejemplar por Maipú 175, Agencia Albor.\n\n#snoopy #charliebrown #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794324426140,
+            "prov": "La Nación",
+            "shas": [
+              "7472b602494a6f2a893f51345126a9cd40017c7a"
+            ]
+          },
+          {
+            "id": "mrcmwb24lnrs3g3ge-ig",
+            "matId": "rcmwb24lnrs3g3ge",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwb24lnrs3g3ge.jpg",
+            "caption": "Hacer un budín casero sin renegar para que se desmolde sano y salvo ya dejó de ser un milagro 🍰✨ Con este molde cuadrado de silicona premium de la colección Super Repostería te ahorrás los dolores de cabeza de que se pegue todo. Te esperamos en Maipú 175, Agencia Albor para que te lo lleves. Comentá MOLDE y te guardamos el tuyo.\n#moldesdesilicona #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794337385862,
+            "prov": "Clarin",
+            "shas": [
+              "fde0534be2ab3bdf8633ede1d5a368fbe979f788"
+            ]
+          },
+          {
+            "id": "mrcmwba3w8i3doj45-ig",
+            "matId": "rcmwba3w8i3doj45",
+            "tipo": "video",
+            "fmt": "reel",
+            "media": "ig-queue/feed/media/rcmwba3w8i3doj45.mp4",
+            "caption": "Reviví la magia de las tardes de lectura con las figuras oficiales de La Familia Peanuts. 🌼📚\nArrancá la colección con el primer fascículo y la dupla clásica por solo $24.990.\nTe esperamos en Maipú 175, Agencia Albor, Maipú 175 para encargar la tuya antes de que vuelen. 🏃‍♂️💨\n¿Qué personaje te gustaría que sea el próximo en sumarse a tu vitrina? 💬\n#charliebrown #carloscasares #peanuts\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794350799632,
+            "prov": "La Nación",
+            "shas": [
+              "fa24194259e2470c7c979fcf5e74f19ee4b7b338"
+            ]
+          },
+          {
+            "id": "mrcmwc3dla0legjug-ig",
+            "matId": "rcmwc3dla0legjug",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwc3dla0legjug.jpg",
+            "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794399940359,
+            "prov": "La nación",
+            "shas": [
+              "b9c7265566bdba591d07009c12add313cf82dd5a"
+            ]
+          },
+          {
+            "id": "mrcmwc3g3lahafrpk-ig",
+            "matId": "rcmwc3g3lahafrpk",
+            "tipo": "image",
+            "fmt": "feed",
+            "media": "ig-queue/feed/media/rcmwc3g3lahafrpk.jpg",
+            "caption": "¿Te acordás de esas tardes de domingo pegados a la tele escuchando el rugido de los motores y sintiendo esa pasión inconfundible del automovilismo nacional? 🏁📻\n\nLos fierros y la velocidad vuelven a estar bien cerca con la llegada de la colección oficial de autos a escala de Turismo Carretera de La Nación. 🏎️✨\n\nEsta propuesta imperdible cuenta con 15 modelos detallados para coleccionar y revivir los hitos que marcaron la historia grande de la categoría en cada época. 🏆\n\nLa primera entrega arranca con toda la gloria: el icónico Chevy 1995 de Juan María Traverso acompañado de su respectivo fascículo coleccionable a un precio de $34.990. 📖🔥\n\nEntre los 15 modelos que forman parte de la obra vas a encontrar joyas inolvidables como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon del “Gurí” Martínez y la máquina de Marcos Di Palma que se ve en la imagen. 🚗💨\n\nSumá esta pieza única a tu vitrina pasando a buscarla por Maipú 175, Agencia Albor, Carlos Casares. 📍👋\n\nSi querés asegurar tu ejemplar de esta edición quincenal, mandanos un mensaje directo y te contamos cómo reservarlo. 📩💬\n\n#turismocarretera #marcosdipalma #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+            "ord": 1794400067642,
+            "prov": "La Nación",
+            "shas": [
+              "b0c6385265119fed3410421f949c5a1ccdaca0c4"
+            ]
+          }
+        ],
+        "publicadas": [
+          "rcmvig0klfnulc2i",
+          "rcmvl2gs4nrjsef0",
+          "rcmvl2g3jjkky6r1",
+          "rcmvi6xv6sez428q",
+          "rcmvs1sk7afqgvg4",
+          "rcmw0u98qf4qv2l4",
+          "rcmvwdzj83jcceeo",
+          "rcmvwdzj9x7t2hv8",
+          "rcmujsmu82vt76e8",
+          "rcmujsmu2smvhtyg",
+          "rcmujbgv0xqo9upm",
+          "rcmth8ctg5o91185",
+          "rcmth8ctedidn46u",
+          "rcmth7vpg0oze6gl",
+          "rcmth3pb4f9ifij4",
+          "rcmth3pb2muyrdtl",
+          "rcmth3kicu62ycfq",
+          "rcmth3kiba9y4v5d",
+          "rcmth3k4sai3f0yo",
+          "rcmwba3v3x4x90cc"
+        ],
+        "borradas": [
+          "rcmw0u98qf4qv2l4",
+          "rcmvwdzj83jcceeo",
+          "rcmvwdzj9x7t2hv8",
+          "rcmujsmu82vt76e8",
+          "rcmujsmu2smvhtyg",
+          "rcmujbgv0xqo9upm",
+          "rcmth8ctg5o91185",
+          "rcmth8ctedidn46u",
+          "rcmth7vpg0oze6gl",
+          "rcmth3pb4f9ifij4",
+          "rcmth3pb2muyrdtl",
+          "rcmth3kicu62ycfq",
+          "rcmth3kiba9y4v5d",
+          "rcmth3k4sai3f0yo",
+          "rcmwba3v3x4x90cc"
+        ]
+      }
+    },
+    {
       "fecha": "2026-10-28T16:02:32.535Z",
       "ruta": "stories/config.json",
       "detalle": "Moví una franja 09:00 del día 4 al 6 según medianas normalizadas (56%; muestras 11/14).",
