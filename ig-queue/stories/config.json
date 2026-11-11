@@ -1269,6 +1269,20 @@
       "tipo": "video",
       "nombre": "coleccioneslanacion-2026-11-08-2.mp4",
       "origen": "rcmwba3w8i3doj45"
+    },
+    {
+      "id": "mwbhvyjvxia",
+      "media": "ig-queue/stories/pool-p/mwbhvyjvxia.jpg",
+      "tipo": "image",
+      "nombre": "coleccionesclarin-2026-11-10.webp",
+      "origen": "rcmwb24lnrs3g3ge"
+    },
+    {
+      "id": "mwbhw30jqu6",
+      "media": "ig-queue/stories/pool-p/mwbhw30jqu6.jpg",
+      "tipo": "image",
+      "nombre": "coleccioneslanacion-2026-11-10.jpg",
+      "origen": "rcmwatfr3zfx4d4r"
     }
   ],
   "autoNuevas": true,
