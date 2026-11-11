@@ -1,0 +1,49 @@
+{
+  "id": "mlmwc3stg2zx2",
+  "fotos": 0,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Auto Coleccion Turismo Carretera Chevrolet 1999 Marcos Di Pa",
+  "precio": 40000,
+  "cantidad": 2,
+  "listing": "gold_special",
+  "categoria": "MLA3398",
+  "marca": "Turismo carretera",
+  "modelo": "",
+  "descripcion": "Vehiculo a escala de coleccion de la categoria Turismo Carretera para fanaticos del automovilismo.\n\nCaracteristicas:\n- Modelo a escala del Chevrolet 1999 conducido por Marcos Di Palma\n- Producto oficial de la coleccion de La Nacion\n- Presentacion en blister protector de plastico y fasciculo impreso\n- Fiel reproduccion de los detalles y sponsor del auto original\n\nQue incluye:\n- Un auto miniatura de coleccion\n- Fasciculo coleccionable con historia y detalles del vehiculo\n\nIdeal para coleccionistas de autos historicos y fanaticos del Turismo Carretera.\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "SCALE",
+      "value_id": "2936408"
+    },
+    {
+      "id": "VEHICLE_BRAND",
+      "value_name": "Chevrolet"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "value_name": "1"
+    },
+    {
+      "id": "IS_COLLECTIBLE",
+      "value_id": "242085"
+    },
+    {
+      "id": "VEHICLE_SERIE",
+      "value_name": "Turismo Carretera"
+    },
+    {
+      "id": "VEHICLE_RELEASE_YEAR",
+      "value_name": "1999"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "value_id": "1359391"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
