@@ -1,0 +1,25 @@
+{
+  "id": "mlmwc3xcfose8",
+  "fotos": 0,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Coleccion Figuras Thundercats La Nacion",
+  "precio": 40000,
+  "cantidad": 2,
+  "listing": "gold_special",
+  "categoria": "MLA3398",
+  "marca": "Thundercats",
+  "modelo": "",
+  "descripcion": "Coleccion de figuras de la serie Thundercats editada por La Nacion para coleccionistas.\n\nCaracteristicas:\n- Figuras de coleccion de los personajes de Thundercats\n- Incluye base soporte para cada figura\n- Presentacion en caja con ventana\n- Edicion oficial de coleccion\n\nIdeal para fanaticos de Thundercats y coleccionistas de la saga.\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "IS_COLLECTIBLE",
+      "value_id": "242085"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": false,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
