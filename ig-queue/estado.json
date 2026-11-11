@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-10 09:00": "ok",
-    "2026-11-10 12:00": "ok",
-    "2026-11-10 16:15": "ok",
-    "2026-11-10 19:45": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvav42tkyqy",
     "mvax9m4tpz1",
@@ -103,7 +98,7 @@
     "mw9bfos8yli",
     "mvkcsw7yxc9"
   ],
-  "statsEl": "2026-11-11T02:01:52.517Z",
+  "statsEl": "2026-11-11T03:01:43.813Z",
   "stUltima": {
     "cuando": "2026-11-10T23:01:54.825Z",
     "franja": "19:45",
@@ -111,17 +106,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T02:01:39.181Z",
-    "cola": 170,
-    "enRepo": 169,
+    "cuando": "2026-11-11T03:01:30.443Z",
+    "cola": 172,
+    "enRepo": 171,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-11-10 12:45": "ok",
-      "2026-11-10 19:00": "ok",
-      "2026-11-10 21:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -205,24 +196,20 @@
       "mrcmwb24lnrs3g3ge-ig": "2026-11-10T22:01:51.033Z",
       "mrcmwba3w8i3doj45-ig": "2026-11-11T01:02:06.582Z"
     },
-    "usadosDia": {
-      "mrcmwatfr3zfx4d4r-ig": "2026-11-10",
-      "mrcmwb24lnrs3g3ge-ig": "2026-11-10",
-      "mrcmwba3w8i3doj45-ig": "2026-11-10"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-10",
+      "dia": "2026-11-11",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 17:00 (tarde) en lugar de 12:15.",
     "ultimaProv": "La Nación",
     "prueba": {
-      "dia": "2026-11-10",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-11",
+      "h": "17:00",
+      "de": "12:15",
+      "tramo": "tarde"
     },
     "pruebaRec": [
       {
@@ -230,14 +217,11 @@
         "tramo": "primera mañana"
       }
     ],
-    "pruebaUlt": "2026-11-09"
+    "pruebaUlt": "2026-11-11",
+    "repruebaUlt": "2026-11-11"
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-10 08:00": "ok",
-      "2026-11-10 17:15": "ok",
-      "2026-11-10 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -319,24 +303,20 @@
       "mrcmwb24lnrs3g3ge-fb": "2026-11-10T21:01:53.918Z",
       "mrcmwatfr3zfx4d4r-fb": "2026-11-10T23:01:58.111Z"
     },
-    "usadosDia": {
-      "mrcmw5ayjilcqvfnd-fb": "2026-11-10",
-      "mrcmwb24lnrs3g3ge-fb": "2026-11-10",
-      "mrcmwatfr3zfx4d4r-fb": "2026-11-10"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-10",
+      "dia": "2026-11-11",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La Nación",
     "prueba": {
-      "dia": "2026-11-10",
-      "h": "08:00",
-      "de": "12:15",
-      "tramo": "primera mañana"
+      "dia": "2026-11-11",
+      "h": "",
+      "de": "",
+      "tramo": ""
     },
     "pruebaRec": [
       {
@@ -411,12 +391,7 @@
     "mw9bfos8yli": "2026-11-10T20:01:50.673Z",
     "mvkcsw7yxc9": "2026-11-10T23:01:54.825Z"
   },
-  "stUsadosDia": {
-    "mvl58j5fvs0": "2026-11-10",
-    "mw98rdxdik0": "2026-11-10",
-    "mw9bfos8yli": "2026-11-10",
-    "mvkcsw7yxc9": "2026-11-10"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-10-28T16:02:32.519Z",
@@ -592,7 +567,7 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-10-28T16:02:32.519Z",
   "stPrueba": {
-    "dia": "2026-11-10",
+    "dia": "2026-11-11",
     "h": "",
     "de": "",
     "tramo": ""
