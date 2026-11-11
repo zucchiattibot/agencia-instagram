@@ -109,7 +109,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T15:01:34.446Z",
+    "cuando": "2026-11-11T15:39:08.135Z",
     "cola": 172,
     "enRepo": 171,
     "pendientes": []
@@ -319,7 +319,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-11",
