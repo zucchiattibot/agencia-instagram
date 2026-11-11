@@ -975,20 +975,26 @@
     "17874331392643297": {
       "t": "2026-11-10T23:01:48+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 104
+      "a": 97,
+      "v": 105
     },
     "18109180505194037": {
       "t": "2026-11-11T13:01:40+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 75
+      "a": 66,
+      "v": 76
     },
     "18142901749617376": {
       "t": "2026-11-11T16:01:44+0000",
       "tipo": "IMAGE",
-      "a": 33,
-      "v": 41
+      "a": 36,
+      "v": 46
+    },
+    "18137095528671428": {
+      "t": "2026-11-11T20:59:15+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1031,11 +1037,11 @@
     "follows_count": 648,
     "media_count": 653,
     "id": "28888466970748824",
-    "el": "2026-11-11T20:02:10.934Z"
+    "el": "2026-11-11T20:59:25.645Z"
   },
   "res30": {
     "reach": 4902,
-    "views": 30703,
+    "views": 30717,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1048,8 +1054,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos aprendan jugando y estimulen su creatividad todos los días. 🎨✏️\nReservá tu ejemplar en Maipú 175, Agencia Albor.\n#preescolar #carloscasares #editorialclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 1,
+      "views": 1,
       "saved": 0,
       "shares": 0
     },
@@ -1061,8 +1067,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Autos de Turismo Carretera! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 10,
+      "reach": 12,
+      "views": 19,
       "saved": 0,
       "shares": 0
     },
@@ -1951,7 +1957,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-11T20:02:24.798Z",
+  "actualizado": "2026-11-11T20:59:36.783Z",
   "aud": {
     "edad": [
       {

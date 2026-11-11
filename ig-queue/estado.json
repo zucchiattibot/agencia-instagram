@@ -3,7 +3,8 @@
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-11 09:45": "ok",
-    "2026-11-11 13:00": "ok"
+    "2026-11-11 13:00": "ok",
+    "2026-11-11 17:30": "ok"
   },
   "stUsados": [
     "mvav42tkyqy",
@@ -101,20 +102,23 @@
     "mw9bfos8yli",
     "mvkcsw7yxc9",
     "mvcdremxre9",
-    "mvav23euybu"
+    "mvav23euybu",
+    "mw9bfwxlisb"
   ],
-  "statsEl": "2026-11-11T20:02:24.798Z",
+  "statsEl": "2026-11-11T20:59:36.783Z",
   "stUltima": {
-    "cuando": "2026-11-11T16:01:52.380Z",
-    "franja": "13:00",
+    "cuando": "2026-11-11T20:59:23.229Z",
+    "franja": "17:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T20:01:32.422Z",
+    "cuando": "2026-11-11T20:59:08.634Z",
     "cola": 174,
     "enRepo": 172,
-    "pendientes": []
+    "pendientes": [
+      "17:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -214,7 +218,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 17:00 (tarde) en lugar de 12:15.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 17:00 (tarde) en lugar de 12:15.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-11",
@@ -331,7 +335,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-11",
@@ -352,7 +356,7 @@
     "pruebaUlt": "2026-11-10"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvav23euybu",
+  "stUltimaId": "mw9bfwxlisb",
   "stPublicadoEn": {
     "mvaxcc00g0u": "2026-10-26T20:01:58.997Z",
     "mvav2qo0aoq": "2026-10-27T00:02:44.757Z",
@@ -412,11 +416,13 @@
     "mw9bfos8yli": "2026-11-10T20:01:50.673Z",
     "mvkcsw7yxc9": "2026-11-10T23:01:54.825Z",
     "mvcdremxre9": "2026-11-11T13:01:47.819Z",
-    "mvav23euybu": "2026-11-11T16:01:52.380Z"
+    "mvav23euybu": "2026-11-11T16:01:52.380Z",
+    "mw9bfwxlisb": "2026-11-11T20:59:23.229Z"
   },
   "stUsadosDia": {
     "mvcdremxre9": "2026-11-11",
-    "mvav23euybu": "2026-11-11"
+    "mvav23euybu": "2026-11-11",
+    "mw9bfwxlisb": "2026-11-11"
   },
   "autoBase": {
     "feed-ig/config.json": {
