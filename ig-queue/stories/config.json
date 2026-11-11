@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "reciclar": true,
+  "reciclar": false,
   "pausada": false,
   "pool": [
     {
