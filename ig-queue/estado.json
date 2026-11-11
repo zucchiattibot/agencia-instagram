@@ -103,7 +103,7 @@
     "mvcdremxre9",
     "mvav23euybu"
   ],
-  "statsEl": "2026-11-11T18:01:44.897Z",
+  "statsEl": "2026-11-11T19:01:52.516Z",
   "stUltima": {
     "cuando": "2026-11-11T16:01:52.380Z",
     "franja": "13:00",
@@ -111,7 +111,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-11T18:01:31.545Z",
+    "cuando": "2026-11-11T19:01:40.714Z",
     "cola": 172,
     "enRepo": 171,
     "pendientes": []
@@ -208,7 +208,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 17:00 (tarde) en lugar de 12:15.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 17:00 (tarde) en lugar de 12:15.",
     "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-11",
@@ -321,7 +321,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-11",
