@@ -999,20 +999,20 @@
     "17916858135497555": {
       "t": "2026-11-12T00:07:44+0000",
       "tipo": "IMAGE",
-      "a": 85,
-      "v": 93
+      "a": 88,
+      "v": 98
     },
     "17911726038584936": {
       "t": "2026-11-12T13:06:18+0000",
       "tipo": "VIDEO",
-      "a": 24,
-      "v": 32
+      "a": 36,
+      "v": 41
     },
     "18465947824137971": {
       "t": "2026-11-12T13:04:11+0000",
       "tipo": "VIDEO",
-      "a": 27,
-      "v": 33
+      "a": 39,
+      "v": 43
     }
   },
   "seguidores": {
@@ -1054,17 +1054,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 648,
-    "media_count": 653,
+    "media_count": 654,
     "id": "28888466970748824",
-    "el": "2026-11-12T16:01:48.204Z"
+    "el": "2026-11-12T17:02:08.426Z"
   },
   "res30": {
     "reach": 4946,
-    "views": 30463,
+    "views": 30495,
     "profile_views": 100,
     "accounts_engaged": 280
   },
   "posts": [
+    {
+      "id": "18081479828740446",
+      "timestamp": "2026-11-12T17:02:00+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Dfpi4xXjiW8/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Para sorprender a los chicos con un mimo que los mantenga alejados de las pantallas y estimule su ingenio. Reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. 🎁🧠\n#juegosdemesa #carloscasares #genios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18038005313854415",
       "timestamp": "2026-11-11T20:02:00+0000",
@@ -1073,8 +1086,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos aprendan jugando y estimulen su creatividad todos los días. 🎨✏️\nReservá tu ejemplar en Maipú 175, Agencia Albor.\n#preescolar #carloscasares #editorialclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 14,
+      "reach": 12,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -1086,8 +1099,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Autos de Turismo Carretera! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 37,
+      "reach": 26,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -1976,7 +1989,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-12T16:02:00.406Z",
+  "actualizado": "2026-11-12T17:02:19.931Z",
   "aud": {
     "edad": [
       {
