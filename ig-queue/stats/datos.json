@@ -999,26 +999,32 @@
     "17916858135497555": {
       "t": "2026-11-12T00:07:44+0000",
       "tipo": "IMAGE",
-      "a": 116,
-      "v": 126
+      "a": 120,
+      "v": 131
     },
     "17911726038584936": {
       "t": "2026-11-12T13:06:18+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 79
+      "a": 75,
+      "v": 82
     },
     "18465947824137971": {
       "t": "2026-11-12T13:04:11+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 88
+      "a": 82,
+      "v": 92
     },
     "18060900086562590": {
       "t": "2026-11-12T20:01:56+0000",
       "tipo": "VIDEO",
-      "a": 44,
-      "v": 45
+      "a": 47,
+      "v": 52
+    },
+    "17990694177089285": {
+      "t": "2026-11-12T23:57:42+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1062,11 +1068,11 @@
     "follows_count": 648,
     "media_count": 655,
     "id": "28888466970748824",
-    "el": "2026-11-12T23:01:42.074Z"
+    "el": "2026-11-12T23:58:19.795Z"
   },
   "res30": {
     "reach": 5120,
-    "views": 30693,
+    "views": 30716,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1079,8 +1085,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 15,
+      "reach": 13,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1092,8 +1098,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sorprender a los chicos con un mimo que los mantenga alejados de las pantallas y estimule su ingenio. Reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. 🎁🧠\n#juegosdemesa #carloscasares #genios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 6,
+      "reach": 7,
+      "views": 9,
       "saved": 0,
       "shares": 0
     },
@@ -1170,8 +1176,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 56,
-      "views": 137,
+      "reach": 57,
+      "views": 138,
       "saved": 0,
       "shares": 0
     },
@@ -1209,8 +1215,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 38,
+      "reach": 34,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -1300,8 +1306,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 65,
-      "views": 106,
+      "reach": 66,
+      "views": 107,
       "saved": 0,
       "shares": 0
     },
@@ -2008,7 +2014,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-12T23:01:50.928Z",
+  "actualizado": "2026-11-12T23:58:30.748Z",
   "aud": {
     "edad": [
       {
