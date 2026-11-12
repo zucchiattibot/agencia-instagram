@@ -981,14 +981,14 @@
     "18109180505194037": {
       "t": "2026-11-11T13:01:40+0000",
       "tipo": "IMAGE",
-      "a": 94,
-      "v": 106
+      "a": 97,
+      "v": 110
     },
     "18142901749617376": {
       "t": "2026-11-11T16:01:44+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 87
+      "a": 78,
+      "v": 92
     },
     "18137095528671428": {
       "t": "2026-11-11T20:59:15+0000",
@@ -999,8 +999,8 @@
     "17916858135497555": {
       "t": "2026-11-12T00:07:44+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 52
+      "a": 53,
+      "v": 60
     }
   },
   "seguidores": {
@@ -1035,7 +1035,8 @@
     "2026-11-08": 1399,
     "2026-11-09": 1399,
     "2026-11-10": 1399,
-    "2026-11-11": 1399
+    "2026-11-11": 1399,
+    "2026-11-12": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1043,11 +1044,11 @@
     "follows_count": 648,
     "media_count": 653,
     "id": "28888466970748824",
-    "el": "2026-11-12T02:01:31.012Z"
+    "el": "2026-11-12T03:01:30.410Z"
   },
   "res30": {
     "reach": 4913,
-    "views": 30900,
+    "views": 30932,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1060,8 +1061,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos aprendan jugando y estimulen su creatividad todos los días. 🎨✏️\nReservá tu ejemplar en Maipú 175, Agencia Albor.\n#preescolar #carloscasares #editorialclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 11,
+      "reach": 9,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -1138,8 +1139,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 59,
-      "views": 77,
+      "reach": 60,
+      "views": 78,
       "saved": 0,
       "shares": 0
     },
@@ -1151,8 +1152,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Tener otra vez en casa las figuras de Snoopy, Charlie Brown y toda la barra es posible para llenar tus espacios favoritos de ternura. 🏡✨\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor y empezá a completar las 6 entregas de esta hermosa serie.\n\n#snoopy #peanuts #carloscasares #lucy\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 36,
+      "reach": 22,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -1242,8 +1243,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensando qué regalar para renovar la cocina o armar un buen presente? 🍳 Con las piezas de Cocina fácil y casera vas a quedar de diez. \n\nPasá a verlas por Agencia Albor, Carlos Casares y llevate la tuya. 🎁\n\n#cocinafacilycasera #regalos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 108,
-      "views": 142,
+      "reach": 109,
+      "views": 143,
       "saved": 0,
       "shares": 0
     },
@@ -1255,8 +1256,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 62,
-      "views": 102,
+      "reach": 63,
+      "views": 104,
       "saved": 0,
       "shares": 0
     },
@@ -1963,7 +1964,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-12T02:01:42.304Z",
+  "actualizado": "2026-11-12T03:01:40.974Z",
   "aud": {
     "edad": [
       {
@@ -2726,6 +2727,10 @@
     "2026-11-10": {
       "a": 183,
       "v": 724
+    },
+    "2026-11-11": {
+      "a": 158,
+      "v": 600
     }
   }
 }
