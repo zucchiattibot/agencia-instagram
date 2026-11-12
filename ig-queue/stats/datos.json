@@ -999,26 +999,26 @@
     "17916858135497555": {
       "t": "2026-11-12T00:07:44+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 117
+      "a": 109,
+      "v": 122
     },
     "17911726038584936": {
       "t": "2026-11-12T13:06:18+0000",
       "tipo": "VIDEO",
-      "a": 62,
-      "v": 73
+      "a": 69,
+      "v": 75
     },
     "18465947824137971": {
       "t": "2026-11-12T13:04:11+0000",
       "tipo": "VIDEO",
-      "a": 66,
-      "v": 79
+      "a": 74,
+      "v": 82
     },
     "18060900086562590": {
       "t": "2026-11-12T20:01:56+0000",
       "tipo": "VIDEO",
-      "a": 23,
-      "v": 26
+      "a": 34,
+      "v": 42
     }
   },
   "seguidores": {
@@ -1060,17 +1060,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 648,
-    "media_count": 654,
+    "media_count": 655,
     "id": "28888466970748824",
-    "el": "2026-11-12T21:01:39.641Z"
+    "el": "2026-11-12T22:01:46.947Z"
   },
   "res30": {
     "reach": 5120,
-    "views": 30611,
+    "views": 30647,
     "profile_views": 100,
     "accounts_engaged": 280
   },
   "posts": [
+    {
+      "id": "18084639644529129",
+      "timestamp": "2026-11-12T22:01:41+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfqFNmqo3tV/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18081479828740446",
       "timestamp": "2026-11-12T17:02:00+0000",
@@ -1105,8 +1118,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Autos de Turismo Carretera! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 38,
+      "reach": 27,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -1222,7 +1235,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 44,
+      "reach": 45,
       "views": 69,
       "saved": 0,
       "shares": 0
@@ -1995,7 +2008,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-12T21:01:49.078Z",
+  "actualizado": "2026-11-12T22:01:59.797Z",
   "aud": {
     "edad": [
       {
