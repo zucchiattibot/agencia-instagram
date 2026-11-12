@@ -981,14 +981,14 @@
     "18109180505194037": {
       "t": "2026-11-11T13:01:40+0000",
       "tipo": "IMAGE",
-      "a": 107,
-      "v": 121
+      "a": 111,
+      "v": 126
     },
     "18142901749617376": {
       "t": "2026-11-11T16:01:44+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 102
+      "a": 91,
+      "v": 105
     },
     "18137095528671428": {
       "t": "2026-11-11T20:59:15+0000",
@@ -999,8 +999,8 @@
     "17916858135497555": {
       "t": "2026-11-12T00:07:44+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 72
+      "a": 69,
+      "v": 78
     }
   },
   "seguidores": {
@@ -1044,11 +1044,11 @@
     "follows_count": 648,
     "media_count": 653,
     "id": "28888466970748824",
-    "el": "2026-11-12T10:01:27.776Z"
+    "el": "2026-11-12T11:01:40.090Z"
   },
   "res30": {
-    "reach": 4924,
-    "views": 30339,
+    "reach": 4935,
+    "views": 30354,
     "profile_views": 99,
     "accounts_engaged": 280
   },
@@ -1140,7 +1140,7 @@
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 60,
-      "views": 78,
+      "views": 79,
       "saved": 0,
       "shares": 0
     },
@@ -1256,8 +1256,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 63,
-      "views": 104,
+      "reach": 64,
+      "views": 105,
       "saved": 0,
       "shares": 0
     },
@@ -1296,7 +1296,7 @@
       "comments_count": 0,
       "caption": "Los personajes más tiernos de la historieta ya tienen lugar asegurado en casa con esta primera entrega del clásico que marcó a varias generaciones. 🐶 Mandanos un mensaje con la palabra SNOOPY y pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#snoopy #carloscasares #charliebrown\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 237,
-      "views": 110,
+      "views": 111,
       "saved": 1,
       "shares": 19
     },
@@ -1964,7 +1964,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-12T10:01:36.503Z",
+  "actualizado": "2026-11-12T11:01:50.395Z",
   "aud": {
     "edad": [
       {
@@ -2118,19 +2118,13 @@
     "ciudades": [
       {
         "d": [
-          "Santiago de Cali, Valle del Cauca"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Merlo, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
-          "Gobernador Ingeniero Valentín Virasoro, Corrientes"
+          "Chivilcoy, Buenos Aires"
         ],
         "v": 1
       },
@@ -2148,6 +2142,12 @@
       },
       {
         "d": [
+          "Villa La Angostura, Neuquén"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
@@ -2160,12 +2160,6 @@
       },
       {
         "d": [
-          "Berazategui, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Junín, Buenos Aires"
         ],
         "v": 2
@@ -2174,13 +2168,19 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 23
+        "v": 22
       },
       {
         "d": [
           "General Villegas, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Akure, Ondo State"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2196,33 +2196,9 @@
       },
       {
         "d": [
-          "Ingeniero Budge, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Estanislao Severo Zeballos, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Luján, Buenos Aires"
         ],
         "v": 3
-      },
-      {
-        "d": [
-          "La Carlota, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Las Toscas, Buenos Aires"
-        ],
-        "v": 5
       },
       {
         "d": [
@@ -2232,9 +2208,27 @@
       },
       {
         "d": [
+          "Las Toscas, Buenos Aires"
+        ],
+        "v": 5
+      },
+      {
+        "d": [
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 28
+      },
+      {
+        "d": [
+          "Azul, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Paraná, Entre Rios"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2256,15 +2250,15 @@
       },
       {
         "d": [
-          "Quiroga, Buenos Aires"
+          "Pergamino, Buenos Aires"
         ],
-        "v": 5
+        "v": 1
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
+          "Quiroga, Buenos Aires"
         ],
-        "v": 2
+        "v": 6
       },
       {
         "d": [
@@ -2274,9 +2268,9 @@
       },
       {
         "d": [
-          "Tlajomulco de Zúñiga, Jalisco"
+          "González Catán, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -2294,7 +2288,13 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1075
+        "v": 1073
+      },
+      {
+        "d": [
+          "Cañuelas, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2306,13 +2306,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 16
-      },
-      {
-        "d": [
-          "Los Toldos, Buenos Aires"
-        ],
-        "v": 1
+        "v": 18
       },
       {
         "d": [
@@ -2340,13 +2334,13 @@
       },
       {
         "d": [
-          "Venado Tuerto, Santa Fe"
+          "San Gregorio, Santa Fe"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Venado Tuerto, Santa Fe"
         ],
         "v": 2
       },
@@ -2358,21 +2352,27 @@
       },
       {
         "d": [
+          "Chos Malal, Neuquén"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
       },
       {
         "d": [
-          "Pimocha, Los Ríos Province"
+          "San Vicente, Buenos Aires"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Bustarviejo, Comunidad de Madrid"
+          "Pimocha, Los Ríos Province"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -2485,7 +2485,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-11T14:01:47.201Z"
+    "el": "2026-11-12T11:01:48.061Z"
   },
   "dias": {
     "2026-10-11": {
