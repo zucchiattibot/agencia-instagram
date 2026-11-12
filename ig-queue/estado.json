@@ -5,9 +5,7 @@
     "2026-11-11 09:45": "ok",
     "2026-11-11 13:00": "ok",
     "2026-11-11 17:30": "ok",
-    "2026-11-11 20:45": {
-      "intentos": 1
-    }
+    "2026-11-11 20:45": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -22,19 +20,20 @@
     "mw2fnb7trf9",
     "mvjo1jeecnu",
     "mvr0j1osn65",
-    "mvl58j5fvs0"
+    "mvl58j5fvs0",
+    "mw9hpqeww4f"
   ],
   "statsEl": "2026-11-12T00:01:46.494Z",
   "stUltima": {
-    "cuando": "2026-11-12T00:01:37.837Z",
+    "cuando": "2026-11-12T00:07:54.297Z",
     "franja": "20:45",
-    "ok": 0,
-    "fallos": 1
+    "ok": 1,
+    "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-12T00:01:34.364Z",
-    "cola": 26,
-    "enRepo": 25,
+    "cuando": "2026-11-12T00:07:39.084Z",
+    "cola": 27,
+    "enRepo": 26,
     "pendientes": [
       "20:45"
     ]
@@ -275,7 +274,7 @@
     "pruebaUlt": "2026-11-10"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mw9bfwxlisb",
+  "stUltimaId": "mw9hpqeww4f",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -286,12 +285,14 @@
     "mw2fnb7trf9": "2026-11-07T23:01:51.024Z",
     "mvjo1jeecnu": "2026-11-08T16:01:47.691Z",
     "mvr0j1osn65": "2026-11-09T16:00:09.763Z",
-    "mvl58j5fvs0": "2026-11-10T12:01:48.829Z"
+    "mvl58j5fvs0": "2026-11-10T12:01:48.829Z",
+    "mw9hpqeww4f": "2026-11-12T00:07:54.296Z"
   },
   "stUsadosDia": {
     "mvcdremxre9": "2026-11-11",
     "mvav23euybu": "2026-11-11",
-    "mw9bfwxlisb": "2026-11-11"
+    "mw9bfwxlisb": "2026-11-11",
+    "mw9hpqeww4f": "2026-11-11"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -402,6 +403,5 @@
   "provUlt": {
     "cuando": "2026-11-11T20:01:32.326Z",
     "n": 1
-  },
-  "stError": "The media with 18,135,930,022,670,222 cannot be found. (código 24)"
+  }
 }
