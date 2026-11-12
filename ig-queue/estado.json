@@ -4,7 +4,10 @@
   "stFranjas": {
     "2026-11-11 09:45": "ok",
     "2026-11-11 13:00": "ok",
-    "2026-11-11 17:30": "ok"
+    "2026-11-11 17:30": "ok",
+    "2026-11-11 20:45": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -21,18 +24,20 @@
     "mvr0j1osn65",
     "mvl58j5fvs0"
   ],
-  "statsEl": "2026-11-11T23:01:48.307Z",
+  "statsEl": "2026-11-12T00:01:46.494Z",
   "stUltima": {
-    "cuando": "2026-11-11T20:59:23.229Z",
-    "franja": "17:30",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-12T00:01:37.837Z",
+    "franja": "20:45",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-11T23:01:37.393Z",
+    "cuando": "2026-11-12T00:01:34.364Z",
     "cola": 26,
     "enRepo": 25,
-    "pendientes": []
+    "pendientes": [
+      "20:45"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -397,5 +402,6 @@
   "provUlt": {
     "cuando": "2026-11-11T20:01:32.326Z",
     "n": 1
-  }
+  },
+  "stError": "The media with 18,135,930,022,670,222 cannot be found. (código 24)"
 }
