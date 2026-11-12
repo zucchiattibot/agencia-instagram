@@ -999,20 +999,26 @@
     "17916858135497555": {
       "t": "2026-11-12T00:07:44+0000",
       "tipo": "IMAGE",
-      "a": 94,
-      "v": 102
+      "a": 97,
+      "v": 105
     },
     "17911726038584936": {
       "t": "2026-11-12T13:06:18+0000",
       "tipo": "VIDEO",
-      "a": 45,
-      "v": 52
+      "a": 52,
+      "v": 57
     },
     "18465947824137971": {
       "t": "2026-11-12T13:04:11+0000",
       "tipo": "VIDEO",
-      "a": 50,
-      "v": 54
+      "a": 56,
+      "v": 62
+    },
+    "18060900086562590": {
+      "t": "2026-11-12T20:01:56+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1056,11 +1062,11 @@
     "follows_count": 648,
     "media_count": 654,
     "id": "28888466970748824",
-    "el": "2026-11-12T19:01:33.965Z"
+    "el": "2026-11-12T20:02:36.201Z"
   },
   "res30": {
     "reach": 5120,
-    "views": 30527,
+    "views": 30555,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1151,8 +1157,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 54,
-      "views": 132,
+      "reach": 56,
+      "views": 134,
       "saved": 0,
       "shares": 0
     },
@@ -1164,8 +1170,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Renová tus utensilios de cocina con estos moldes de silicona súper prácticos que te hacen la vida más fácil. 🧁 Pasá a verlos por Maipú 175, Agencia Albor.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 63,
-      "views": 88,
+      "reach": 64,
+      "views": 89,
       "saved": 0,
       "shares": 0
     },
@@ -1281,8 +1287,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 64,
-      "views": 105,
+      "reach": 65,
+      "views": 106,
       "saved": 0,
       "shares": 0
     },
@@ -1989,7 +1995,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-12T19:01:43.516Z",
+  "actualizado": "2026-11-12T20:02:47.144Z",
   "aud": {
     "edad": [
       {
