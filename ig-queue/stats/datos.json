@@ -1017,26 +1017,26 @@
     "18060900086562590": {
       "t": "2026-11-12T20:01:56+0000",
       "tipo": "VIDEO",
-      "a": 118,
-      "v": 125
+      "a": 120,
+      "v": 128
     },
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
-      "a": 99,
-      "v": 106
+      "a": 102,
+      "v": 109
     },
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 81
+      "a": 73,
+      "v": 84
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 32,
-      "v": 35
+      "a": 41,
+      "v": 44
     }
   },
   "seguidores": {
@@ -1081,11 +1081,11 @@
     "follows_count": 648,
     "media_count": 657,
     "id": "28888466970748824",
-    "el": "2026-11-13T18:01:32.334Z"
+    "el": "2026-11-13T19:01:35.285Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30561,
+    "views": 30584,
     "profile_views": 100,
     "accounts_engaged": 279
   },
@@ -1098,8 +1098,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 6,
+      "reach": 8,
+      "views": 9,
       "saved": 0,
       "shares": 0
     },
@@ -2053,7 +2053,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T18:01:41.476Z",
+  "actualizado": "2026-11-13T19:01:47.183Z",
   "aud": {
     "edad": [
       {
