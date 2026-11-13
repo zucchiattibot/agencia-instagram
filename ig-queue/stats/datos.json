@@ -1005,26 +1005,26 @@
     "17911726038584936": {
       "t": "2026-11-12T13:06:18+0000",
       "tipo": "VIDEO",
-      "a": 87,
-      "v": 95
+      "a": 92,
+      "v": 102
     },
     "18465947824137971": {
       "t": "2026-11-12T13:04:11+0000",
       "tipo": "VIDEO",
-      "a": 95,
-      "v": 108
+      "a": 101,
+      "v": 113
     },
     "18060900086562590": {
       "t": "2026-11-12T20:01:56+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 67
+      "a": 69,
+      "v": 76
     },
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 35
+      "a": 42,
+      "v": 48
     }
   },
   "seguidores": {
@@ -1060,7 +1060,8 @@
     "2026-11-09": 1399,
     "2026-11-10": 1399,
     "2026-11-11": 1399,
-    "2026-11-12": 1399
+    "2026-11-12": 1399,
+    "2026-11-13": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1068,11 +1069,11 @@
     "follows_count": 648,
     "media_count": 656,
     "id": "28888466970748824",
-    "el": "2026-11-13T02:01:44.611Z"
+    "el": "2026-11-13T03:01:34.609Z"
   },
   "res30": {
     "reach": 5120,
-    "views": 30817,
+    "views": 30875,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1085,8 +1086,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 5,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -1098,8 +1099,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 32,
+      "reach": 22,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -1319,7 +1320,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "El E-50 Standardpanzer en escala 1:72 ya forma parte de esta entrega para los fanáticos de la historia bélica 🪖 Si te apasiona armar y conocer cada detalle de estos vehículos blindados, esta maqueta no te puede faltar en la repisa. Te esperamos en Agencia Albor, Carlos Casares para sumarlo a tus vitrinas. Mandanos un mensaje para asegurarte el tuyo.\n#tanquesdecombate #maquetas #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 66,
+      "reach": 68,
       "views": 109,
       "saved": 0,
       "shares": 0
@@ -2027,7 +2028,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T02:01:53.210Z",
+  "actualizado": "2026-11-13T03:01:45.531Z",
   "aud": {
     "edad": [
       {
@@ -2794,6 +2795,10 @@
     "2026-11-11": {
       "a": 158,
       "v": 600
+    },
+    "2026-11-12": {
+      "a": 168,
+      "v": 548
     }
   }
 }
