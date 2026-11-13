@@ -281,7 +281,7 @@ jobs:
                 R=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "{\"status\":\"$NS\"}")
                 jq -n --arg id "$IT" --arg a "$ACC" --arg r "$(printf '%s' "$R" | head -c 300)" '{ok:true,id:$id,accion:$a,resp:$r}' > "ml-queue/done/cmd-$CID.json" ;;
               editar)
-                B2=$(jq -c '(if .precio then {price:(.precio|tonumber)} else {} end) + (if .stock != null then {available_quantity:(.stock|tonumber)} else {} end) + (if (.titulo // "") != "" then {title:.titulo} else {} end)' "$f")
+                B2=$(jq -c '(if .precio then {price:(.precio|tonumber)} else {} end) + (if .stock != null then {available_quantity:(.stock|tonumber)} else {} end) + (if (.titulo // "") != "" then {title:.titulo} else {} end) + (if .envioGratis != null then {shipping:{free_shipping:(.envioGratis == true),mode:"me2",local_pick_up:false}} else {} end)' "$f")
                 R1="{}"; R2="{}"
                 if [ "$B2" != "{}" ]; then R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d "$B2"); fi
                 if [ -n "$(jq -r '.descripcion // empty' "$f")" ]; then R2=$(jq '{plain_text:.descripcion}' "$f" | curl -sS -X PUT "https://api.mercadolibre.com/items/$IT/description?api_version=2" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @-); fi
@@ -301,14 +301,18 @@ jobs:
                 NIV=$(printf '%s' "$UM" | jq -r '.seller_reputation.level_id // "sin_reputacion"')
                 PW=$(printf '%s' "$UM" | jq -r '.seller_reputation.power_seller_status // ""')
                 VT=$(printf '%s' "$UM" | jq -r '.seller_reputation.transactions.completed // 0')
-                PR=$(jq -r '.precio // empty' "$f"); DM=$(jq -r '.dim // empty' "$f"); LT=$(jq -r '.lt // "gold_special"' "$f")
-                COSTO=null; RAW=""
-                if [ -n "$PR" ] && [ -n "$MEID" ]; then
-                  RAW=$(curl -sS -G "https://api.mercadolibre.com/users/$MEID/shipping_options/free" -H "Authorization: Bearer $TOKEN" --data-urlencode "dimensions=$DM" --data-urlencode "item_price=$PR" --data-urlencode "listing_type_id=$LT" --data-urlencode "mode=me2" --data-urlencode "condition=new" --data-urlencode "logistic_type=drop_off" --data-urlencode "verbose=true")
-                  COSTO=$(printf '%s' "$RAW" | jq -c '(.coverage.all_country.list_cost // null)' 2>/dev/null || echo null)
-                  [ -z "$COSTO" ] && COSTO=null
+                PR=$(jq -r '.precio // empty' "$f"); DM=$(jq -r '.dim // empty' "$f"); LT=$(jq -r '.lt // "gold_special"' "$f"); OBL=$(jq -r '.obligatorio // false' "$f")
+                COSTO=0; RAW='{"nota":"Envío a cargo del comprador: no se indicó obligación de envío gratis para este precio."}'; OK=true
+                if [ "$OBL" = "true" ]; then
+                  COSTO=null; RAW=""
+                  if [ -n "$PR" ] && [ -n "$DM" ] && [ -n "$MEID" ]; then
+                    RAW=$(curl -sS -G "https://api.mercadolibre.com/users/$MEID/shipping_options/free" -H "Authorization: Bearer $TOKEN" --data-urlencode "dimensions=$DM" --data-urlencode "item_price=$PR" --data-urlencode "listing_type_id=$LT" --data-urlencode "mode=me2" --data-urlencode "condition=new" --data-urlencode "logistic_type=drop_off" --data-urlencode "verbose=true")
+                    COSTO=$(printf '%s' "$RAW" | jq -c '(.coverage.all_country.list_cost // null)' 2>/dev/null || echo null)
+                    [ -z "$COSTO" ] && COSTO=null
+                  fi
+                  if [ "$COSTO" = "null" ]; then OK=false; fi
                 fi
-                jq -n --argjson ts "$TS" --arg n "$NIV" --arg p "$PW" --argjson v "${VT:-0}" --argjson c "$COSTO" --arg raw "$(printf '%s' "$RAW" | head -c 300)" '{ok:true,pedido:$ts,nivel:$n,power:$p,ventas:$v,envio:$c,detalle:$raw}' > "ml-queue/done/costos-$TS.json" ;;
+                jq -n --argjson ts "$TS" --arg n "$NIV" --arg p "$PW" --argjson v "${VT:-0}" --argjson c "$COSTO" --argjson ok "$OK" --argjson ob "$OBL" --arg raw "$(printf '%s' "$RAW" | head -c 1000)" '{ok:$ok,pedido:$ts,nivel:$n,power:$p,ventas:$v,envio:$c,envioObligatorio:$ob,detalle:$raw,error:(if $ok then null else "Mercado Libre no devolvió el costo real del envío obligatorio para estas medidas y precio; no se debe estimar." end)}' > "ml-queue/done/costos-$TS.json" ;;
               comisiones)
                 CT=$(jq -r '.cat // empty' "$f"); echo '[]' > /tmp/fees.json
                 for LTX in $(jq -r '.lts[]?' "$f"); do
