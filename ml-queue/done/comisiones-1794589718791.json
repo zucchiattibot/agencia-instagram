@@ -1,0 +1,108 @@
+{
+  "ok": true,
+  "pedido": 1794589718791,
+  "cat": "MLA403078",
+  "filas": [
+    {
+      "lt": "gold_special",
+      "precio": 28290,
+      "fee": 7422.05
+    },
+    {
+      "lt": "gold_special",
+      "precio": 42440,
+      "fee": 6153.8
+    },
+    {
+      "lt": "gold_special",
+      "precio": 56590,
+      "fee": 8205.55
+    },
+    {
+      "lt": "gold_special",
+      "precio": 70740,
+      "fee": 10257.3
+    },
+    {
+      "lt": "gold_special",
+      "precio": 90540,
+      "fee": 13128.3
+    },
+    {
+      "lt": "gold_special",
+      "precio": 113180,
+      "fee": 16411.1
+    },
+    {
+      "lt": "gold_special",
+      "precio": 147130,
+      "fee": 21333.85
+    },
+    {
+      "lt": "gold_special",
+      "precio": 198060,
+      "fee": 28718.7
+    },
+    {
+      "lt": "gold_special",
+      "precio": 282940,
+      "fee": 41026.3
+    },
+    {
+      "lt": "gold_special",
+      "precio": 452710,
+      "fee": 65642.95
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 28290,
+      "fee": 11071.46
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 42440,
+      "fee": 11628.56
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 56590,
+      "fee": 15505.66
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 70740,
+      "fee": 19382.76
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 90540,
+      "fee": 24807.96
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 113180,
+      "fee": 31011.32
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 147130,
+      "fee": 40313.62
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 198060,
+      "fee": 54268.44
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 282940,
+      "fee": 77525.56
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 452710,
+      "fee": 124042.54
+    }
+  ],
+  "error": null
+}
