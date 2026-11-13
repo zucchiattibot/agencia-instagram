@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "pedido": 1794608750140,
+  "cat": "MLA375459",
+  "filas": [
+    {
+      "lt": "gold_special",
+      "precio": 14999,
+      "fee": 3482.36
+    },
+    {
+      "lt": "gold_special",
+      "precio": 15000,
+      "fee": 4892.5
+    },
+    {
+      "lt": "gold_special",
+      "precio": 23999,
+      "fee": 6183.86
+    },
+    {
+      "lt": "gold_special",
+      "precio": 24000,
+      "fee": 6764
+    },
+    {
+      "lt": "gold_special",
+      "precio": 25290,
+      "fee": 6949.12
+    },
+    {
+      "lt": "gold_special",
+      "precio": 32999,
+      "fee": 8055.36
+    },
+    {
+      "lt": "gold_special",
+      "precio": 33000,
+      "fee": 4735.5
+    },
+    {
+      "lt": "gold_special",
+      "precio": 37940,
+      "fee": 5444.39
+    },
+    {
+      "lt": "gold_special",
+      "precio": 49999,
+      "fee": 7174.86
+    },
+    {
+      "lt": "gold_special",
+      "precio": 50000,
+      "fee": 7175
+    },
+    {
+      "lt": "gold_special",
+      "precio": 50590,
+      "fee": 7259.66
+    },
+    {
+      "lt": "gold_special",
+      "precio": 63240,
+      "fee": 9074.94
+    },
+    {
+      "lt": "gold_special",
+      "precio": 80940,
+      "fee": 11614.89
+    },
+    {
+      "lt": "gold_special",
+      "precio": 101180,
+      "fee": 14519.33
+    },
+    {
+      "lt": "gold_special",
+      "precio": 131530,
+      "fee": 18874.56
+    },
+    {
+      "lt": "gold_special",
+      "precio": 177060,
+      "fee": 25408.11
+    },
+    {
+      "lt": "gold_special",
+      "precio": 252940,
+      "fee": 36296.89
+    },
+    {
+      "lt": "gold_special",
+      "precio": 404710,
+      "fee": 58075.88
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 14999,
+      "fee": 5417.23
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 15000,
+      "fee": 6827.5
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 23999,
+      "fee": 9279.73
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 24000,
+      "fee": 9860
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 25290,
+      "fee": 10211.53
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 32999,
+      "fee": 12312.23
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 33000,
+      "fee": 8992.5
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 37940,
+      "fee": 10338.65
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 49999,
+      "fee": 13624.73
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 50000,
+      "fee": 13625
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 50590,
+      "fee": 13785.77
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 63240,
+      "fee": 17232.9
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 80940,
+      "fee": 22056.15
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 101180,
+      "fee": 27571.55
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 131530,
+      "fee": 35841.93
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 177060,
+      "fee": 48248.85
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 252940,
+      "fee": 68926.15
+    },
+    {
+      "lt": "gold_pro",
+      "precio": 404710,
+      "fee": 110283.47
+    }
+  ],
+  "error": null
+}
