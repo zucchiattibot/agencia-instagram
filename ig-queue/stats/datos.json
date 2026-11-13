@@ -1023,26 +1023,26 @@
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
-      "a": 107,
-      "v": 114
+      "a": 108,
+      "v": 116
     },
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 80,
-      "v": 92
+      "a": 81,
+      "v": 94
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 52,
-      "v": 62
+      "a": 55,
+      "v": 65
     },
     "18205796230376162": {
       "t": "2026-11-13T20:01:40+0000",
       "tipo": "IMAGE",
-      "a": 15,
-      "v": 17
+      "a": 23,
+      "v": 28
     }
   },
   "seguidores": {
@@ -1085,17 +1085,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 648,
-    "media_count": 657,
+    "media_count": 658,
     "id": "28888466970748824",
-    "el": "2026-11-13T21:01:37.860Z"
+    "el": "2026-11-13T22:01:47.099Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30638,
+    "views": 30659,
     "profile_views": 100,
     "accounts_engaged": 279
   },
   "posts": [
+    {
+      "id": "18120579274970443",
+      "timestamp": "2026-11-13T22:01:43+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DfsqBCnFC_l/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18639625396043310",
       "timestamp": "2026-11-13T16:02:16+0000",
@@ -1104,8 +1117,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 10,
+      "reach": 10,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -1117,8 +1130,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 19,
+      "reach": 12,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -1130,8 +1143,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 38,
+      "reach": 26,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -1222,7 +1235,7 @@
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 62,
-      "views": 145,
+      "views": 146,
       "saved": 0,
       "shares": 0
     },
@@ -2059,7 +2072,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T21:01:46.308Z",
+  "actualizado": "2026-11-13T22:01:55.083Z",
   "aud": {
     "edad": [
       {
