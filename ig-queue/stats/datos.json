@@ -1017,20 +1017,20 @@
     "18060900086562590": {
       "t": "2026-11-12T20:01:56+0000",
       "tipo": "VIDEO",
-      "a": 97,
-      "v": 105
+      "a": 108,
+      "v": 117
     },
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 85
+      "a": 85,
+      "v": 95
     },
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 38
+      "a": 41,
+      "v": 55
     }
   },
   "seguidores": {
@@ -1075,12 +1075,12 @@
     "follows_count": 648,
     "media_count": 656,
     "id": "28888466970748824",
-    "el": "2026-11-13T14:01:50.281Z"
+    "el": "2026-11-13T15:01:38.955Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30409,
-    "profile_views": 99,
+    "views": 30446,
+    "profile_views": 100,
     "accounts_engaged": 279
   },
   "posts": [
@@ -1093,7 +1093,7 @@
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 6,
-      "views": 11,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -1196,8 +1196,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 60,
-      "views": 142,
+      "reach": 61,
+      "views": 144,
       "saved": 0,
       "shares": 0
     },
@@ -2034,7 +2034,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T14:02:01.207Z",
+  "actualizado": "2026-11-13T15:01:51.468Z",
   "aud": {
     "edad": [
       {

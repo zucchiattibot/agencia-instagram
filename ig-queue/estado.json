@@ -2,7 +2,10 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-13 09:00": "ok"
+    "2026-11-13 09:00": "ok",
+    "2026-11-13 12:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -23,18 +26,20 @@
     "mvwm6in8xad",
     "mvjo17zj610"
   ],
-  "statsEl": "2026-11-13T14:02:01.207Z",
+  "statsEl": "2026-11-13T15:01:51.468Z",
   "stUltima": {
-    "cuando": "2026-11-13T12:01:50.662Z",
-    "franja": "09:00",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-13T15:01:37.086Z",
+    "franja": "12:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-13T14:01:48.977Z",
+    "cuando": "2026-11-13T15:01:31.356Z",
     "cola": 31,
     "enRepo": 31,
-    "pendientes": []
+    "pendientes": [
+      "12:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -395,5 +400,6 @@
   "provUlt": {
     "cuando": "2026-11-13T14:01:48.761Z",
     "n": 1
-  }
+  },
+  "stError": "The media with 18,136,099,072,670,222 cannot be found. (código 24)"
 }
