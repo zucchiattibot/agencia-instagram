@@ -20,7 +20,7 @@
     "mvwe5eyky2j",
     "mvwm6in8xad"
   ],
-  "statsEl": "2026-11-13T10:01:43.755Z",
+  "statsEl": "2026-11-13T11:01:44.766Z",
   "stUltima": {
     "cuando": "2026-11-12T23:58:12.189Z",
     "franja": "20:15",
@@ -28,9 +28,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-13T10:01:33.843Z",
-    "cola": 27,
-    "enRepo": 27,
+    "cuando": "2026-11-13T11:01:33.088Z",
+    "cola": 29,
+    "enRepo": 29,
     "pendientes": []
   },
   "fdig": {
