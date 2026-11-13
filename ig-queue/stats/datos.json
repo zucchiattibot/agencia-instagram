@@ -1011,20 +1011,20 @@
     "18465947824137971": {
       "t": "2026-11-12T13:04:11+0000",
       "tipo": "VIDEO",
-      "a": 110,
-      "v": 120
+      "a": 111,
+      "v": 122
     },
     "18060900086562590": {
       "t": "2026-11-12T20:01:56+0000",
       "tipo": "VIDEO",
       "a": 76,
-      "v": 80
+      "v": 81
     },
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
       "a": 50,
-      "v": 54
+      "v": 55
     }
   },
   "seguidores": {
@@ -1069,11 +1069,11 @@
     "follows_count": 648,
     "media_count": 656,
     "id": "28888466970748824",
-    "el": "2026-11-13T08:01:29.524Z"
+    "el": "2026-11-13T09:01:36.925Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30265,
+    "views": 30266,
     "profile_views": 98,
     "accounts_engaged": 279
   },
@@ -1230,7 +1230,7 @@
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 34,
-      "views": 39,
+      "views": 0,
       "saved": 0,
       "shares": 0
     },
@@ -1243,7 +1243,7 @@
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 171,
-      "views": 204,
+      "views": 0,
       "saved": 1,
       "shares": 0
     },
@@ -1282,7 +1282,7 @@
       "comments_count": 0,
       "caption": "Los chicos construyen lo que imaginan sin pantallas de por medio. 🧩 Pasá por Agencia Albor y reservá tu set antes de que vuelen.\n#magnetix #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 39,
-      "views": 65,
+      "views": 0,
       "saved": 0,
       "shares": 0
     },
@@ -2028,7 +2028,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T08:01:37.908Z",
+  "actualizado": "2026-11-13T09:01:45.551Z",
   "aud": {
     "edad": [
       {
