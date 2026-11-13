@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "pedido": 1794590659740,
+  "nivel": "sin_reputacion",
+  "power": "",
+  "ventas": 5,
+  "envio": null,
+  "detalle": "{\"status\":403,\"blocked_by\":\"PolicyAgent\",\"code\":\"PA_UNAUTHORIZED_RESULT_FROM_POLICIES\",\"message\":\"At least one policy returned UNAUTHORIZED.\"}"
+}
