@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "pedido": 1794613611476,
+  "nivel": "sin_reputacion",
+  "power": "",
+  "ventas": 5,
+  "envio": 0,
+  "envioObligatorio": false,
+  "detalle": "{\"nota\":\"Envío a cargo del comprador: no se indicó obligación de envío gratis para este precio.\"}",
+  "error": null
+}
