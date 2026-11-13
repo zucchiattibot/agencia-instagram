@@ -164,9 +164,9 @@ jobs:
           for f in ml-queue/cmd/*.json; do
             [ -e "$f" ] || continue
             CID=$(basename "$f" .json); ACC=$(jq -r '.accion // empty' "$f"); IT=$(jq -r '.id // empty' "$f"); TS=$(jq -r '.ts // 0' "$f")
-            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && [ "$ACC" != "mercado" ] && [ "$ACC" != "snapshot" ] && [ "$ACC" != "costos" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
+            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && [ "$ACC" != "mercado" ] && [ "$ACC" != "snapshot" ] && [ "$ACC" != "costos" ] && [ "$ACC" != "comisiones" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
             if [ -z "$TOKEN" ]; then
-              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; elif [ "$ACC" = "mercado" ]; then OUTF="ml-queue/done/mercado-$TS.json"; elif [ "$ACC" = "snapshot" ]; then OUTF="ml-queue/done/snapshot-$TS.json"; elif [ "$ACC" = "costos" ]; then OUTF="ml-queue/done/costos-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
+              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; elif [ "$ACC" = "mercado" ]; then OUTF="ml-queue/done/mercado-$TS.json"; elif [ "$ACC" = "snapshot" ]; then OUTF="ml-queue/done/snapshot-$TS.json"; elif [ "$ACC" = "costos" ]; then OUTF="ml-queue/done/costos-$TS.json"; elif [ "$ACC" = "comisiones" ]; then OUTF="ml-queue/done/comisiones-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
               jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,error:"No pude renovar el acceso a Mercado Libre"}' > "$OUTF"
               git rm -q --ignore-unmatch -- "$f"; continue
             fi
@@ -189,7 +189,7 @@ jobs:
                 while [ $# -gt 0 ]; do
                   CH=""; N=0
                   while [ $# -gt 0 ] && [ $N -lt 20 ]; do CH="$CH,$1"; shift; N=$((N+1)); done
-                  R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,title,price,status,available_quantity,sold_quantity,permalink,thumbnail,start_time,date_created" -H "Authorization: Bearer $TOKEN")
+                  R=$(curl -sS "https://api.mercadolibre.com/items?ids=${CH#,}&attributes=id,title,price,status,available_quantity,sold_quantity,permalink,thumbnail,start_time,date_created,category_id,listing_type_id" -H "Authorization: Bearer $TOKEN")
                   jq -c --argjson r "$R" '. + [$r[]? | select(.code==200) | .body]' /tmp/items.json > /tmp/i2.json && mv /tmp/i2.json /tmp/items.json
                 done
                 echo '{}' > /tmp/v.json; echo '{}' > /tmp/w.json
@@ -309,6 +309,17 @@ jobs:
                   [ -z "$COSTO" ] && COSTO=null
                 fi
                 jq -n --argjson ts "$TS" --arg n "$NIV" --arg p "$PW" --argjson v "${VT:-0}" --argjson c "$COSTO" --arg raw "$(printf '%s' "$RAW" | head -c 300)" '{ok:true,pedido:$ts,nivel:$n,power:$p,ventas:$v,envio:$c,detalle:$raw}' > "ml-queue/done/costos-$TS.json" ;;
+              comisiones)
+                CT=$(jq -r '.cat // empty' "$f"); echo '[]' > /tmp/fees.json
+                for LTX in $(jq -r '.lts[]?' "$f"); do
+                  for PX in $(jq -r '.precios[]?' "$f"); do
+                    FR=$(curl -sS -G "https://api.mercadolibre.com/sites/MLA/listing_prices" -H "Authorization: Bearer $TOKEN" --data-urlencode "price=$PX" --data-urlencode "category_id=$CT" --data-urlencode "listing_type_id=$LTX")
+                    FEE=$(printf '%s' "$FR" | jq -c 'if type=="array" then .[0] else . end | (.sale_fee_amount // null)' 2>/dev/null || echo null)
+                    [ -z "$FEE" ] && FEE=null
+                    jq -c --arg lt "$LTX" --argjson p "$PX" --argjson fee "$FEE" '. + [{lt:$lt,precio:$p,fee:$fee}]' /tmp/fees.json > /tmp/fees2.json && mv /tmp/fees2.json /tmp/fees.json
+                  done
+                done
+                jq -n --argjson ts "$TS" --arg c "$CT" --slurpfile fl /tmp/fees.json '($fl[0] | map(select(.fee != null)) | length) as $n | {ok:($n > 0),pedido:$ts,cat:$c,filas:$fl[0],error:(if $n > 0 then null else "Mercado Libre no devolvió comisiones para esa categoría" end)}' > "ml-queue/done/comisiones-$TS.json" ;;
             esac
             git rm -q --ignore-unmatch -- "$f"
           done
