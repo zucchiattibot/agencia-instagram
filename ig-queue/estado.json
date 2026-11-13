@@ -27,7 +27,7 @@
     "mwezromh0kg",
     "mwbhw30jqu6"
   ],
-  "statsEl": "2026-11-13T20:02:20.352Z",
+  "statsEl": "2026-11-13T21:01:46.308Z",
   "stUltima": {
     "cuando": "2026-11-13T20:01:48.850Z",
     "franja": "16:30",
@@ -35,12 +35,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-13T20:01:33.494Z",
+    "cuando": "2026-11-13T21:01:36.146Z",
     "cola": 31,
     "enRepo": 31,
-    "pendientes": [
-      "16:30"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
@@ -263,7 +261,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-13",
