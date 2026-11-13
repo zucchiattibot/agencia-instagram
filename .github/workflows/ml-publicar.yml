@@ -164,9 +164,9 @@ jobs:
           for f in ml-queue/cmd/*.json; do
             [ -e "$f" ] || continue
             CID=$(basename "$f" .json); ACC=$(jq -r '.accion // empty' "$f"); IT=$(jq -r '.id // empty' "$f"); TS=$(jq -r '.ts // 0' "$f")
-            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && [ "$ACC" != "mercado" ] && [ "$ACC" != "snapshot" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
+            if [ "$ACC" != "listar" ] && [ "$ACC" != "precios" ] && [ "$ACC" != "mercado" ] && [ "$ACC" != "snapshot" ] && [ "$ACC" != "costos" ] && ! printf '%s' "$IT" | grep -Eq '^MLA[0-9]+$'; then git rm -q --ignore-unmatch -- "$f"; continue; fi
             if [ -z "$TOKEN" ]; then
-              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; elif [ "$ACC" = "mercado" ]; then OUTF="ml-queue/done/mercado-$TS.json"; elif [ "$ACC" = "snapshot" ]; then OUTF="ml-queue/done/snapshot-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
+              if [ "$ACC" = "precios" ]; then OUTF="ml-queue/done/precios-$TS.json"; elif [ "$ACC" = "mercado" ]; then OUTF="ml-queue/done/mercado-$TS.json"; elif [ "$ACC" = "snapshot" ]; then OUTF="ml-queue/done/snapshot-$TS.json"; elif [ "$ACC" = "costos" ]; then OUTF="ml-queue/done/costos-$TS.json"; else OUTF="ml-queue/done/lista.json"; fi
               jq -n --argjson ts "$TS" '{ok:false,pedido:$ts,error:"No pude renovar el acceso a Mercado Libre"}' > "$OUTF"
               git rm -q --ignore-unmatch -- "$f"; continue
             fi
@@ -295,6 +295,20 @@ jobs:
                 R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
                 R2=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"deleted":"true"}')
                 jq -n --arg id "$IT" --arg a "$(printf '%s' "$R1" | head -c 200)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,accion:"borrar",cerrar:$a,borrar:$b}' > "ml-queue/done/cmd-$CID.json" ;;
+              costos)
+                UM=$(curl -sS https://api.mercadolibre.com/users/me -H "Authorization: Bearer $TOKEN")
+                MEID=$(printf '%s' "$UM" | jq -r '.id // empty')
+                NIV=$(printf '%s' "$UM" | jq -r '.seller_reputation.level_id // "sin_reputacion"')
+                PW=$(printf '%s' "$UM" | jq -r '.seller_reputation.power_seller_status // ""')
+                VT=$(printf '%s' "$UM" | jq -r '.seller_reputation.transactions.completed // 0')
+                PR=$(jq -r '.precio // empty' "$f"); DM=$(jq -r '.dim // empty' "$f"); LT=$(jq -r '.lt // "gold_special"' "$f")
+                COSTO=null; RAW=""
+                if [ -n "$PR" ] && [ -n "$MEID" ]; then
+                  RAW=$(curl -sS -G "https://api.mercadolibre.com/users/$MEID/shipping_options/free" -H "Authorization: Bearer $TOKEN" --data-urlencode "dimensions=$DM" --data-urlencode "item_price=$PR" --data-urlencode "listing_type_id=$LT" --data-urlencode "mode=me2" --data-urlencode "condition=new" --data-urlencode "logistic_type=drop_off" --data-urlencode "verbose=true")
+                  COSTO=$(printf '%s' "$RAW" | jq -c '(.coverage.all_country.list_cost // null)' 2>/dev/null || echo null)
+                  [ -z "$COSTO" ] && COSTO=null
+                fi
+                jq -n --argjson ts "$TS" --arg n "$NIV" --arg p "$PW" --argjson v "${VT:-0}" --argjson c "$COSTO" --arg raw "$(printf '%s' "$RAW" | head -c 300)" '{ok:true,pedido:$ts,nivel:$n,power:$p,ventas:$v,envio:$c,detalle:$raw}' > "ml-queue/done/costos-$TS.json" ;;
             esac
             git rm -q --ignore-unmatch -- "$f"
           done
