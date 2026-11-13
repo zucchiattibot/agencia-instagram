@@ -3,7 +3,8 @@
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
     "2026-11-13 09:00": "ok",
-    "2026-11-13 12:00": "ok"
+    "2026-11-13 12:00": "ok",
+    "2026-11-13 16:30": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -23,20 +24,23 @@
     "mvwe5eyky2j",
     "mvwm6in8xad",
     "mvjo17zj610",
-    "mwezromh0kg"
+    "mwezromh0kg",
+    "mwbhw30jqu6"
   ],
-  "statsEl": "2026-11-13T19:01:47.183Z",
+  "statsEl": "2026-11-13T20:02:20.352Z",
   "stUltima": {
-    "cuando": "2026-11-13T15:32:43.310Z",
-    "franja": "12:00",
+    "cuando": "2026-11-13T20:01:48.850Z",
+    "franja": "16:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-13T19:01:33.655Z",
+    "cuando": "2026-11-13T20:01:33.494Z",
     "cola": 31,
     "enRepo": 31,
-    "pendientes": []
+    "pendientes": [
+      "16:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -160,7 +164,9 @@
     "repruebaUlt": "2026-11-11"
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-13 16:15": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -201,11 +207,12 @@
       "mrcmwc3dla0legjug-fb",
       "mrcmwclosdvzhb8ry-fb",
       "mrcmwdo5aespu9d36-fb",
-      "mrcmwe2dopzkbcmkv-fb"
+      "mrcmwe2dopzkbcmkv-fb",
+      "mrcmwf0q3t2d9n4ay-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-12T23:58:17.538Z",
-      "franja": "20:45",
+      "cuando": "2026-11-13T20:02:08.076Z",
+      "franja": "16:15",
       "ok": 1,
       "fallos": 0
     },
@@ -244,9 +251,12 @@
       "mrcmwc3dla0legjug-fb": "2026-11-11T15:01:40.866Z",
       "mrcmwclosdvzhb8ry-fb": "2026-11-12T14:01:42.158Z",
       "mrcmwdo5aespu9d36-fb": "2026-11-12T21:01:37.804Z",
-      "mrcmwe2dopzkbcmkv-fb": "2026-11-12T23:58:17.538Z"
+      "mrcmwe2dopzkbcmkv-fb": "2026-11-12T23:58:17.538Z",
+      "mrcmwf0q3t2d9n4ay-fb": "2026-11-13T20:02:08.075Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwf0q3t2d9n4ay-fb": "2026-11-13"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-13",
@@ -254,7 +264,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "2 salidas hoy, separadas al menos 2 h; 16 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Clarin",
+    "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-13",
       "h": "",
@@ -274,7 +284,7 @@
     "pruebaUlt": "2026-11-12"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwezromh0kg",
+  "stUltimaId": "mwbhw30jqu6",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -290,11 +300,13 @@
     "mvwe5eyky2j": "2026-11-12T20:02:34.271Z",
     "mvwm6in8xad": "2026-11-12T23:58:12.189Z",
     "mvjo17zj610": "2026-11-13T12:01:50.662Z",
-    "mwezromh0kg": "2026-11-13T15:32:43.310Z"
+    "mwezromh0kg": "2026-11-13T15:32:43.310Z",
+    "mwbhw30jqu6": "2026-11-13T20:01:48.850Z"
   },
   "stUsadosDia": {
     "mvjo17zj610": "2026-11-13",
-    "mwezromh0kg": "2026-11-13"
+    "mwezromh0kg": "2026-11-13",
+    "mwbhw30jqu6": "2026-11-13"
   },
   "autoBase": {
     "feed-ig/config.json": {

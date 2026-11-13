@@ -1023,20 +1023,26 @@
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
-      "a": 102,
-      "v": 109
+      "a": 105,
+      "v": 113
     },
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 84
+      "a": 78,
+      "v": 91
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 41,
-      "v": 44
+      "a": 47,
+      "v": 56
+    },
+    "18205796230376162": {
+      "t": "2026-11-13T20:01:40+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1081,11 +1087,11 @@
     "follows_count": 648,
     "media_count": 657,
     "id": "28888466970748824",
-    "el": "2026-11-13T19:01:35.285Z"
+    "el": "2026-11-13T20:02:09.753Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30584,
+    "views": 30610,
     "profile_views": 100,
     "accounts_engaged": 279
   },
@@ -1098,8 +1104,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 9,
+      "reach": 9,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -1280,8 +1286,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 45,
-      "views": 69,
+      "reach": 46,
+      "views": 70,
       "saved": 0,
       "shares": 0
     },
@@ -2053,7 +2059,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T19:01:47.183Z",
+  "actualizado": "2026-11-13T20:02:20.352Z",
   "aud": {
     "edad": [
       {
