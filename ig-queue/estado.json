@@ -25,7 +25,7 @@
     "mvjo17zj610",
     "mwezromh0kg"
   ],
-  "statsEl": "2026-11-13T15:01:51.468Z",
+  "statsEl": "2026-11-13T16:02:33.268Z",
   "stUltima": {
     "cuando": "2026-11-13T15:32:43.310Z",
     "franja": "12:00",
@@ -33,15 +33,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-13T15:31:26.231Z",
+    "cuando": "2026-11-13T16:01:49.282Z",
     "cola": 31,
     "enRepo": 31,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-13 13:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -84,11 +84,12 @@
       "mrcmwcics0dh3xbu3-ig",
       "mrcmwcicymcarkzuz-ig",
       "mrcmwdo5aespu9d36-ig",
-      "mrcmwe2dopzkbcmkv-ig"
+      "mrcmwe2dopzkbcmkv-ig",
+      "mrcmwf0q3t2d9n4ay-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-13T02:01:43.409Z",
-      "franja": "22:15",
+      "cuando": "2026-11-13T16:02:22.501Z",
+      "franja": "13:00",
       "ok": 1,
       "fallos": 0
     },
@@ -129,9 +130,12 @@
       "mrcmwcics0dh3xbu3-ig": "2026-11-11T20:02:08.987Z",
       "mrcmwcicymcarkzuz-ig": "2026-11-12T17:02:07.409Z",
       "mrcmwdo5aespu9d36-ig": "2026-11-12T22:01:45.251Z",
-      "mrcmwe2dopzkbcmkv-ig": "2026-11-13T02:01:43.406Z"
+      "mrcmwe2dopzkbcmkv-ig": "2026-11-13T02:01:43.406Z",
+      "mrcmwf0q3t2d9n4ay-ig": "2026-11-13T16:02:22.500Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwf0q3t2d9n4ay-ig": "2026-11-13"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-13",
@@ -139,7 +143,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
-    "ultimaProv": "Clarin",
+    "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-13",
       "h": "",
@@ -399,7 +403,7 @@
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
   "provUlt": {
-    "cuando": "2026-11-13T14:01:48.761Z",
-    "n": 1
+    "cuando": "2026-11-13T16:01:49.037Z",
+    "n": 2
   }
 }
