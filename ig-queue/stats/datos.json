@@ -1069,11 +1069,11 @@
     "follows_count": 648,
     "media_count": 656,
     "id": "28888466970748824",
-    "el": "2026-11-13T07:01:32.373Z"
+    "el": "2026-11-13T08:01:29.524Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30264,
+    "views": 30265,
     "profile_views": 98,
     "accounts_engaged": 279
   },
@@ -1086,8 +1086,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 10,
+      "reach": 6,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -2028,7 +2028,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T07:01:40.326Z",
+  "actualizado": "2026-11-13T08:01:37.908Z",
   "aud": {
     "edad": [
       {
@@ -2120,14 +2120,14 @@
           "55-64",
           "M"
         ],
-        "v": 67
+        "v": 66
       },
       {
         "d": [
           "65+",
           "M"
         ],
-        "v": 23
+        "v": 24
       },
       {
         "d": [
@@ -2182,15 +2182,15 @@
     "ciudades": [
       {
         "d": [
-          "Merlo, Buenos Aires"
+          "La Islita, Santiago Metropolitan Region"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Chivilcoy, Buenos Aires"
+          "Merlo, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -2206,12 +2206,6 @@
       },
       {
         "d": [
-          "Villa La Angostura, Neuquén"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
@@ -2224,6 +2218,18 @@
       },
       {
         "d": [
+          "Lagos, Lagos State"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Marbella, Andalusia"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Junín, Buenos Aires"
         ],
         "v": 2
@@ -2232,7 +2238,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 22
+        "v": 23
       },
       {
         "d": [
@@ -2242,21 +2248,9 @@
       },
       {
         "d": [
-          "Akure, Ondo State"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
-      },
-      {
-        "d": [
-          "Longchamps, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2290,12 +2284,6 @@
       },
       {
         "d": [
-          "Paraná, Entre Rios"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 2
@@ -2314,21 +2302,15 @@
       },
       {
         "d": [
-          "Pergamino, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Quiroga, Buenos Aires"
         ],
         "v": 6
       },
       {
         "d": [
-          "Panama City, Panamá Province"
+          "General La Madrid, Buenos Aires"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
@@ -2338,9 +2320,33 @@
       },
       {
         "d": [
+          "Panama City, Panamá Province"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "López Mateos, State of Mexico"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Necochea, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Tegucigalpa, Francisco Morazán Department"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2352,7 +2358,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1073
+        "v": 1071
       },
       {
         "d": [
@@ -2370,7 +2376,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 18
+        "v": 17
       },
       {
         "d": [
@@ -2398,19 +2404,7 @@
       },
       {
         "d": [
-          "San Gregorio, Santa Fe"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Venado Tuerto, Santa Fe"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -2422,13 +2416,19 @@
       },
       {
         "d": [
+          "Bragado, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
       },
       {
         "d": [
-          "San Vicente, Buenos Aires"
+          "Sáenz Peña, Buenos Aires"
         ],
         "v": 1
       },
@@ -2442,7 +2442,7 @@
         "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 12
+        "v": 14
       },
       {
         "d": [
@@ -2549,7 +2549,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-12T11:01:48.061Z"
+    "el": "2026-11-13T08:01:34.947Z"
   },
   "dias": {
     "2026-10-11": {
