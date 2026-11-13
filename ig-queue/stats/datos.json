@@ -1023,26 +1023,32 @@
     "17990694177089285": {
       "t": "2026-11-12T23:57:42+0000",
       "tipo": "VIDEO",
-      "a": 108,
-      "v": 116
+      "a": 110,
+      "v": 117
     },
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 94
+      "a": 83,
+      "v": 96
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 65
+      "a": 58,
+      "v": 68
     },
     "18205796230376162": {
       "t": "2026-11-13T20:01:40+0000",
       "tipo": "IMAGE",
-      "a": 23,
-      "v": 28
+      "a": 32,
+      "v": 33
+    },
+    "18018245693951431": {
+      "t": "2026-11-13T23:01:51+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1087,11 +1093,11 @@
     "follows_count": 648,
     "media_count": 658,
     "id": "28888466970748824",
-    "el": "2026-11-13T22:01:47.099Z"
+    "el": "2026-11-13T23:02:02.886Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30659,
+    "views": 30689,
     "profile_views": 100,
     "accounts_engaged": 279
   },
@@ -1104,8 +1110,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 6,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -1117,8 +1123,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 11,
+      "reach": 11,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -1130,8 +1136,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 20,
+      "reach": 13,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1287,7 +1293,7 @@
       "comments_count": 0,
       "caption": "Volver a comer en casa como cuando éramos chicos y las ollas duraban toda la vida hoy es posible 🍳🍳 Mirá cómo se luce esta batería en el video y contanos: ¿cuál de todas es la hornalla que más usás?\nReservá la tuya en Agencia Albor\n#bateria #carloscasares #clarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 171,
-      "views": 204,
+      "views": 205,
       "saved": 1,
       "shares": 0
     },
@@ -2072,7 +2078,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-13T22:01:55.083Z",
+  "actualizado": "2026-11-13T23:02:13.085Z",
   "aud": {
     "edad": [
       {
