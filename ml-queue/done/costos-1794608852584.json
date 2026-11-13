@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "pedido": 1794608852584,
+  "nivel": "sin_reputacion",
+  "power": "",
+  "ventas": 5,
+  "envio": null,
+  "envioObligatorio": true,
+  "detalle": "{\"code\":\"PA_UNAUTHORIZED_RESULT_FROM_POLICIES\",\"blocked_by\":\"PolicyAgent\",\"status\":403,\"message\":\"At least one policy returned UNAUTHORIZED.\"}",
+  "error": "Mercado Libre no devolvió el costo real del envío obligatorio para estas medidas y precio; no se debe estimar."
+}
