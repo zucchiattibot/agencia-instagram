@@ -1036,13 +1036,13 @@
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
       "a": 80,
-      "v": 92
+      "v": 93
     },
     "18205796230376162": {
       "t": "2026-11-13T20:01:40+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 64
+      "a": 65,
+      "v": 65
     },
     "18018245693951431": {
       "t": "2026-11-13T23:01:51+0000",
@@ -1094,11 +1094,11 @@
     "follows_count": 648,
     "media_count": 659,
     "id": "28888466970748824",
-    "el": "2026-11-14T09:01:29.198Z"
+    "el": "2026-11-14T10:01:26.124Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 30014,
+    "views": 30016,
     "profile_views": 96,
     "accounts_engaged": 279
   },
@@ -1112,7 +1112,7 @@
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 17,
-      "views": 30,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -1124,8 +1124,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 26,
+      "reach": 20,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -1294,7 +1294,7 @@
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 35,
-      "views": 40,
+      "views": 41,
       "saved": 0,
       "shares": 0
     },
@@ -2092,7 +2092,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-14T09:01:37.598Z",
+  "actualizado": "2026-11-14T10:01:37.369Z",
   "aud": {
     "edad": [
       {
