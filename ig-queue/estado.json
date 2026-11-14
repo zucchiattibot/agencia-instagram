@@ -1,7 +1,9 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-14 09:00": "ok"
+  },
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -22,20 +24,23 @@
     "mvjo17zj610",
     "mwezromh0kg",
     "mwbhw30jqu6",
-    "mw9hq0a7jll"
+    "mw9hq0a7jll",
+    "mw9hq4ldr0a"
   ],
-  "statsEl": "2026-11-14T11:01:47.849Z",
+  "statsEl": "2026-11-14T12:01:49.881Z",
   "stUltima": {
-    "cuando": "2026-11-13T23:02:01.012Z",
-    "franja": "19:45",
+    "cuando": "2026-11-14T12:01:39.828Z",
+    "franja": "09:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-14T11:01:32.192Z",
-    "cola": 33,
-    "enRepo": 33,
-    "pendientes": []
+    "cuando": "2026-11-14T12:01:26.534Z",
+    "cola": 34,
+    "enRepo": 34,
+    "pendientes": [
+      "09:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -262,7 +267,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:45.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:45.",
     "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-14",
@@ -283,7 +288,7 @@
     "pruebaUlt": "2026-11-14"
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mw9hq0a7jll",
+  "stUltimaId": "mw9hq4ldr0a",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -301,9 +306,12 @@
     "mvjo17zj610": "2026-11-13T12:01:50.662Z",
     "mwezromh0kg": "2026-11-13T15:32:43.310Z",
     "mwbhw30jqu6": "2026-11-13T20:01:48.850Z",
-    "mw9hq0a7jll": "2026-11-13T23:02:01.012Z"
+    "mw9hq0a7jll": "2026-11-13T23:02:01.012Z",
+    "mw9hq4ldr0a": "2026-11-14T12:01:39.828Z"
   },
-  "stUsadosDia": {},
+  "stUsadosDia": {
+    "mw9hq4ldr0a": "2026-11-14"
+  },
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-11-11T18:01:44.898Z",
