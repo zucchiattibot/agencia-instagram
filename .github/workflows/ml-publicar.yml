@@ -290,7 +290,27 @@ jobs:
                   if [ -z "$VA" ]; then VA=$(jq -r '.accion // "borrar"' "ml-queue/vence/$IT.json" 2>/dev/null || echo borrar); fi
                   if [ "$VD" -gt 0 ] 2>/dev/null; then jq -n --arg id "$IT" --arg v "$(date -u -d "+$VD days" +%F)" --arg a "$VA" '{id:$id,vence:$v,accion:$a}' > "ml-queue/vence/$IT.json"; else git rm -q --ignore-unmatch -f -- "ml-queue/vence/$IT.json"; rm -f "ml-queue/vence/$IT.json"; fi
                 fi
-                jq -n --arg id "$IT" --arg a "$(printf '%s' "$R1" | head -c 300)" --arg b "$(printf '%s' "$R2" | head -c 300)" '{ok:true,id:$id,accion:"editar",item:$a,descripcion:$b}' > "ml-queue/done/cmd-$CID.json" ;;
+                NFE=$(jq -r '.fotosNuevas // 0' "$f"); FID=$(jq -r '.fotosId // empty' "$f" | tr -cd 'a-z0-9'); R3="{}"
+                if [ "$NFE" -gt 0 ] 2>/dev/null && [ -n "$FID" ]; then
+                  CUR=$(curl -sS "https://api.mercadolibre.com/items/$IT?attributes=pictures" -H "Authorization: Bearer $TOKEN" | jq -c '[.pictures[]?.id]' 2>/dev/null)
+                  [ -n "$CUR" ] || CUR='[]'
+                  PICSN='[]'
+                  for i in $(seq 1 "$NFE"); do
+                    if [ -e "ml-queue/media/$FID-$i.jpg" ]; then
+                      P2=$(curl -sS -X POST https://api.mercadolibre.com/pictures/items/upload -H "Authorization: Bearer $TOKEN" -F "file=@ml-queue/media/$FID-$i.jpg")
+                      PI=$(printf '%s' "$P2" | jq -r '.id // empty')
+                      if [ -n "$PI" ]; then PICSN=$(printf '%s' "$PICSN" | jq -c --arg p "$PI" '. + [$p]'); fi
+                    fi
+                  done
+                  if [ "$(printf '%s' "$PICSN" | jq 'length')" -gt 0 ]; then
+                    jq -cn --argjson a "$CUR" --argjson b "$PICSN" '{pictures:(reduce (($a + $b)[]) as $x ([]; if (index($x) != null) then . else . + [$x] end) | .[:12] | map({id:.}))}' > /tmp/pics.json
+                    R3=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d @/tmp/pics.json)
+                  else
+                    R3='{"error":"No se pudo subir ninguna foto a Mercado Libre"}'
+                  fi
+                  git rm -q --ignore-unmatch -- ml-queue/media/$FID-*.jpg
+                fi
+                jq -n --arg id "$IT" --arg a "$(printf '%s' "$R1" | head -c 300)" --arg b "$(printf '%s' "$R2" | head -c 300)" --arg c "$(printf '%s' "$R3" | head -c 300)" '{ok:true,id:$id,accion:"editar",item:$a,descripcion:$b,fotos:$c}' > "ml-queue/done/cmd-$CID.json" ;;
               borrar)
                 R1=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"status":"closed"}')
                 R2=$(curl -sS -X PUT "https://api.mercadolibre.com/items/$IT" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' -d '{"deleted":"true"}')
