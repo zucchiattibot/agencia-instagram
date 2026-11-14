@@ -29,7 +29,7 @@
     "mwbhw30jqu6",
     "mw9hq0a7jll"
   ],
-  "statsEl": "2026-11-14T00:02:05.707Z",
+  "statsEl": "2026-11-14T00:59:55.583Z",
   "stUltima": {
     "cuando": "2026-11-13T23:02:01.012Z",
     "franja": "19:45",
@@ -37,7 +37,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-14T00:01:34.115Z",
+    "cuando": "2026-11-14T00:59:29.132Z",
     "cola": 31,
     "enRepo": 31,
     "pendientes": []
@@ -45,7 +45,8 @@
   "fdig": {
     "franjas": {
       "2026-11-13 13:00": "ok",
-      "2026-11-13 18:30": "ok"
+      "2026-11-13 18:30": "ok",
+      "2026-11-13 21:45": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -91,11 +92,12 @@
       "mrcmwdo5aespu9d36-ig",
       "mrcmwe2dopzkbcmkv-ig",
       "mrcmwf0q3t2d9n4ay-ig",
-      "mrcmwclosdvzhb8ry-ig"
+      "mrcmwclosdvzhb8ry-ig",
+      "mrcmwcgig6hy2giju-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-13T22:01:45.977Z",
-      "franja": "18:30",
+      "cuando": "2026-11-14T00:59:41.006Z",
+      "franja": "21:45",
       "ok": 1,
       "fallos": 0
     },
@@ -138,11 +140,13 @@
       "mrcmwdo5aespu9d36-ig": "2026-11-12T22:01:45.251Z",
       "mrcmwe2dopzkbcmkv-ig": "2026-11-13T02:01:43.406Z",
       "mrcmwf0q3t2d9n4ay-ig": "2026-11-13T16:02:22.500Z",
-      "mrcmwclosdvzhb8ry-ig": "2026-11-13T22:01:45.976Z"
+      "mrcmwclosdvzhb8ry-ig": "2026-11-13T22:01:45.976Z",
+      "mrcmwcgig6hy2giju-ig": "2026-11-14T00:59:41.005Z"
     },
     "usadosDia": {
       "mrcmwf0q3t2d9n4ay-ig": "2026-11-13",
-      "mrcmwclosdvzhb8ry-ig": "2026-11-13"
+      "mrcmwclosdvzhb8ry-ig": "2026-11-13",
+      "mrcmwcgig6hy2giju-ig": "2026-11-13"
     },
     "carga": {
       "nivel": 0,
@@ -151,7 +155,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
-    "ultimaProv": "Clarin",
+    "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-13",
       "h": "",
@@ -271,7 +275,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 15 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 14 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-13",

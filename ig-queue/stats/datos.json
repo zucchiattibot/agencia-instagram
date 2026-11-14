@@ -1029,26 +1029,26 @@
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 101
+      "a": 90,
+      "v": 103
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 76
+      "a": 65,
+      "v": 77
     },
     "18205796230376162": {
       "t": "2026-11-13T20:01:40+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 41
+      "a": 43,
+      "v": 43
     },
     "18018245693951431": {
       "t": "2026-11-13T23:01:51+0000",
       "tipo": "IMAGE",
-      "a": 14,
-      "v": 18
+      "a": 23,
+      "v": 25
     }
   },
   "seguidores": {
@@ -1091,17 +1091,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 648,
-    "media_count": 658,
+    "media_count": 659,
     "id": "28888466970748824",
-    "el": "2026-11-14T00:01:56.748Z"
+    "el": "2026-11-14T00:59:43.490Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30731,
+    "views": 30763,
     "profile_views": 100,
     "accounts_engaged": 279
   },
   "posts": [
+    {
+      "id": "17945915901090913",
+      "timestamp": "2026-11-14T00:59:37+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Dfs-Xz-Efaq/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18120579274970443",
       "timestamp": "2026-11-13T22:01:43+0000",
@@ -1110,8 +1123,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 14,
+      "reach": 13,
+      "views": 19,
       "saved": 0,
       "shares": 0
     },
@@ -1137,7 +1150,7 @@
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 14,
-      "views": 23,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -1149,8 +1162,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 39,
+      "reach": 28,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -1163,7 +1176,7 @@
       "comments_count": 0,
       "caption": "Para sorprender a los chicos con un mimo que los mantenga alejados de las pantallas y estimule su ingenio. Reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. 🎁🧠\n#juegosdemesa #carloscasares #genios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 13,
-      "views": 14,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -1188,8 +1201,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Autos de Turismo Carretera! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 39,
+      "reach": 29,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -1241,7 +1254,7 @@
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 62,
-      "views": 146,
+      "views": 152,
       "saved": 0,
       "shares": 0
     },
@@ -1279,7 +1292,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cansado de que el churrasco se te pegue hasta en los mejores pensamientos? 🥩 Pasate al nivel pro con esta línea de cuchillos y utensilios que cortan solos.\n\nEncargá los tuyos escribiéndonos por WhatsApp o pasando por Agencia Albor, Carlos Casares. \n\n#cuchillos #carloscasares #cocinafacil\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
+      "reach": 35,
       "views": 40,
       "saved": 0,
       "shares": 0
@@ -2078,7 +2091,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-14T00:02:05.707Z",
+  "actualizado": "2026-11-14T00:59:55.583Z",
   "aud": {
     "edad": [
       {
