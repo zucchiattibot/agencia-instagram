@@ -1,0 +1,61 @@
+{
+  "id": "mlmwgbdmzj4vl",
+  "fotos": 0,
+  "pausar": false,
+  "iva": "0 %",
+  "titulo": "Figura De Coleccion He-man Masters Of The Universe",
+  "precio": 48000,
+  "cantidad": 2,
+  "listing": "gold_special",
+  "categoria": "MLA455430",
+  "marca": "Master of universo",
+  "modelo": "He-man",
+  "descripcion": "Figura de coleccion de He-Man de Masters of the Universe ideal para exhibir y coleccionar.\n\nCaracteristicas:\n- Figura de accion detallada del personaje He-Man\n- Incluye accesorio de espada\n- Presentacion en caja con ventana\n- Edicion coleccionista\n\nIncluye:\n- 1 figura de He-Man con accesorio\n\nIdeal para:\n- Fanaticos y coleccionistas de Masters of the Universe\n\nCualquier duda, consultanos por esta publicacion.",
+  "atributos": [
+    {
+      "id": "CHARACTER",
+      "value_name": "He-Man"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "value_name": "1"
+    },
+    {
+      "id": "LINE",
+      "value_name": "Masters Of The Universe"
+    },
+    {
+      "id": "PRODUCT_TYPE",
+      "value_id": "25158434"
+    },
+    {
+      "id": "FRANCHISE",
+      "value_name": "Masters of the Universe"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "value_id": "1359391"
+    },
+    {
+      "id": "MIN_RECOMMENDED_AGE",
+      "value_name": "14 años"
+    },
+    {
+      "id": "INCLUDES_ACCESSORIES",
+      "value_id": "242085"
+    },
+    {
+      "id": "IS_ARTICULATED",
+      "value_id": "242085"
+    },
+    {
+      "id": "RECOMMENDED_AGE_GROUP",
+      "value_id": "28417229"
+    }
+  ],
+  "gtin": "",
+  "envioGratis": true,
+  "venceDias": 0,
+  "venceAccion": "borrar",
+  "paquete": ""
+}
