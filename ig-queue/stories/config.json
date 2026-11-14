@@ -310,6 +310,13 @@
       "tipo": "video",
       "nombre": "coleccionesclarin-2026-11-13.mp4",
       "origen": "rcmwfq9bj2qcprdz"
+    },
+    {
+      "id": "mwgbhcuvdb0",
+      "media": "ig-queue/stories/pool-p/mwgbhcuvdb0.jpg",
+      "tipo": "image",
+      "nombre": "camera_17946550215201687967533574956778.jpg",
+      "origen": "rcmwgbb6kcf5epba"
     }
   ],
   "autoNuevas": true,
