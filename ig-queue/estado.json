@@ -35,7 +35,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-14T14:01:32.909Z",
+    "cuando": "2026-11-14T14:26:11.195Z",
     "cola": 34,
     "enRepo": 34,
     "pendientes": []
@@ -150,7 +150,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-14",
@@ -423,7 +423,7 @@
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
   "provUlt": {
-    "cuando": "2026-11-14T14:01:32.650Z",
+    "cuando": "2026-11-14T14:26:11.114Z",
     "n": 1
   }
 }
