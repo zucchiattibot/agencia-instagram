@@ -1029,26 +1029,26 @@
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 95,
-      "v": 109
+      "a": 100,
+      "v": 113
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 74,
-      "v": 86
+      "a": 77,
+      "v": 89
     },
     "18205796230376162": {
       "t": "2026-11-13T20:01:40+0000",
       "tipo": "IMAGE",
-      "a": 53,
-      "v": 53
+      "a": 60,
+      "v": 60
     },
     "18018245693951431": {
       "t": "2026-11-13T23:01:51+0000",
       "tipo": "IMAGE",
-      "a": 32,
-      "v": 36
+      "a": 42,
+      "v": 46
     }
   },
   "seguidores": {
@@ -1094,11 +1094,11 @@
     "follows_count": 648,
     "media_count": 659,
     "id": "28888466970748824",
-    "el": "2026-11-14T03:01:43.479Z"
+    "el": "2026-11-14T04:01:38.240Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30839,
+    "views": 30867,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1111,8 +1111,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 26,
+      "reach": 15,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -1125,7 +1125,7 @@
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 19,
-      "views": 24,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -1137,8 +1137,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 13,
+      "reach": 13,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -2092,7 +2092,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-14T03:01:58.530Z",
+  "actualizado": "2026-11-14T04:01:47.160Z",
   "aud": {
     "edad": [
       {
@@ -2121,7 +2121,7 @@
           "35-44",
           "F"
         ],
-        "v": 263
+        "v": 262
       },
       {
         "d": [
@@ -2170,7 +2170,7 @@
           "35-44",
           "M"
         ],
-        "v": 149
+        "v": 150
       },
       {
         "d": [
@@ -2246,15 +2246,15 @@
     "ciudades": [
       {
         "d": [
-          "La Islita, Santiago Metropolitan Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Merlo, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Dudignac, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2270,6 +2270,12 @@
       },
       {
         "d": [
+          "Turin, Piedmont"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
@@ -2282,13 +2288,13 @@
       },
       {
         "d": [
-          "Lagos, Lagos State"
+          "Caburé-i, Misiones"
         ],
         "v": 1
       },
       {
         "d": [
-          "Marbella, Andalusia"
+          "Tijuana, Baja California"
         ],
         "v": 1
       },
@@ -2302,7 +2308,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 23
+        "v": 22
       },
       {
         "d": [
@@ -2312,9 +2318,27 @@
       },
       {
         "d": [
+          "Akure, Ondo State"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "9 de Julio, Buenos Aires"
         ],
         "v": 11
+      },
+      {
+        "d": [
+          "Río Cuarto, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Ingeniero Budge, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2342,12 +2366,6 @@
       },
       {
         "d": [
-          "Azul, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 2
@@ -2366,21 +2384,27 @@
       },
       {
         "d": [
-          "Quiroga, Buenos Aires"
-        ],
-        "v": 6
-      },
-      {
-        "d": [
-          "General La Madrid, Buenos Aires"
+          "La Lucila, Buenos Aires"
         ],
         "v": 1
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
+          "La Rioja, La Rioja"
         ],
-        "v": 2
+        "v": 1
+      },
+      {
+        "d": [
+          "Pergamino, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Quiroga, Buenos Aires"
+        ],
+        "v": 6
       },
       {
         "d": [
@@ -2390,15 +2414,9 @@
       },
       {
         "d": [
-          "López Mateos, State of Mexico"
+          "González Catán, Buenos Aires"
         ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Necochea, Buenos Aires"
-        ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -2408,7 +2426,7 @@
       },
       {
         "d": [
-          "Tegucigalpa, Francisco Morazán Department"
+          "Manuel Ocampo, Buenos Aires"
         ],
         "v": 1
       },
@@ -2422,13 +2440,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1071
-      },
-      {
-        "d": [
-          "Cañuelas, Buenos Aires"
-        ],
-        "v": 1
+        "v": 1072
       },
       {
         "d": [
@@ -2440,7 +2452,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 17
+        "v": 16
       },
       {
         "d": [
@@ -2482,25 +2494,13 @@
         "d": [
           "Bragado, Buenos Aires"
         ],
-        "v": 2
+        "v": 3
       },
       {
         "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
-      },
-      {
-        "d": [
-          "Sáenz Peña, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Pimocha, Los Ríos Province"
-        ],
-        "v": 2
       },
       {
         "d": [
@@ -2613,7 +2613,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-13T08:01:34.947Z"
+    "el": "2026-11-14T04:01:44.434Z"
   },
   "dias": {
     "2026-10-11": {
