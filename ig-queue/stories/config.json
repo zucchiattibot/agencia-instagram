@@ -352,13 +352,6 @@
       "tipo": "image",
       "nombre": "1000912803.jpg",
       "origen": "rcmwgi9n0hi5ye26"
-    },
-    {
-      "id": "mwgic0rge1o",
-      "media": "ig-queue/stories/pool-p/mwgic0rge1o.jpg",
-      "tipo": "image",
-      "nombre": "1000912802.jpg",
-      "origen": "rcmwgi9bga14j8oj"
     }
   ],
   "autoNuevas": true,
@@ -557,7 +550,8 @@
     "rcmth3pb4f9ifij4",
     "rcmw9fkmriqoji2f",
     "rcmwba3w8i3doj45",
-    "rcmwcics0dh3xbu3"
+    "rcmwcics0dh3xbu3",
+    "rcmwgi9bga14j8oj"
   ],
   "rotar": {
     "ids": [
@@ -863,6 +857,7 @@
     "rcmth3pb4f9ifij4",
     "rcmw9fkmriqoji2f",
     "rcmwba3w8i3doj45",
-    "rcmwcics0dh3xbu3"
+    "rcmwcics0dh3xbu3",
+    "rcmwgi9bga14j8oj"
   ]
 }
