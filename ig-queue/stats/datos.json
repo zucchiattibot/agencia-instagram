@@ -1029,26 +1029,26 @@
     "18099560633438919": {
       "t": "2026-11-13T12:01:41+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 106
+      "a": 95,
+      "v": 109
     },
     "18273315976307218": {
       "t": "2026-11-13T15:31:52+0000",
       "tipo": "VIDEO",
-      "a": 67,
-      "v": 80
+      "a": 74,
+      "v": 86
     },
     "18205796230376162": {
       "t": "2026-11-13T20:01:40+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 48
+      "a": 53,
+      "v": 53
     },
     "18018245693951431": {
       "t": "2026-11-13T23:01:51+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 30
+      "a": 32,
+      "v": 36
     }
   },
   "seguidores": {
@@ -1085,7 +1085,8 @@
     "2026-11-10": 1399,
     "2026-11-11": 1399,
     "2026-11-12": 1399,
-    "2026-11-13": 1399
+    "2026-11-13": 1399,
+    "2026-11-14": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1093,11 +1094,11 @@
     "follows_count": 648,
     "media_count": 659,
     "id": "28888466970748824",
-    "el": "2026-11-14T02:01:38.436Z"
+    "el": "2026-11-14T03:01:43.479Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 30796,
+    "views": 30839,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1110,8 +1111,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 7,
-      "views": 18,
+      "reach": 14,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -1162,8 +1163,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 43,
+      "reach": 30,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -1202,7 +1203,7 @@
       "comments_count": 0,
       "caption": "¡Ya llegó Autos de Turismo Carretera! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 30,
-      "views": 40,
+      "views": 41,
       "saved": 1,
       "shares": 0
     },
@@ -2091,7 +2092,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-14T02:01:49.936Z",
+  "actualizado": "2026-11-14T03:01:58.530Z",
   "aud": {
     "edad": [
       {
@@ -2862,6 +2863,10 @@
     "2026-11-12": {
       "a": 168,
       "v": 548
+    },
+    "2026-11-13": {
+      "a": 162,
+      "v": 574
     }
   }
 }
