@@ -27,7 +27,7 @@
     "mw9hq0a7jll",
     "mw9hq4ldr0a"
   ],
-  "statsEl": "2026-11-14T13:01:42.504Z",
+  "statsEl": "2026-11-14T14:02:22.068Z",
   "stUltima": {
     "cuando": "2026-11-14T12:01:39.828Z",
     "franja": "09:00",
@@ -35,13 +35,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-14T13:01:28.444Z",
+    "cuando": "2026-11-14T14:01:32.909Z",
     "cola": 34,
     "enRepo": 34,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-14 11:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -87,11 +89,12 @@
       "mrcmwe2dopzkbcmkv-ig",
       "mrcmwf0q3t2d9n4ay-ig",
       "mrcmwclosdvzhb8ry-ig",
-      "mrcmwcgig6hy2giju-ig"
+      "mrcmwcgig6hy2giju-ig",
+      "mrcmwfq9bj2qcprdz-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-14T00:59:41.006Z",
-      "franja": "21:45",
+      "cuando": "2026-11-14T14:02:10.092Z",
+      "franja": "11:00",
       "ok": 1,
       "fallos": 0
     },
@@ -135,9 +138,12 @@
       "mrcmwe2dopzkbcmkv-ig": "2026-11-13T02:01:43.406Z",
       "mrcmwf0q3t2d9n4ay-ig": "2026-11-13T16:02:22.500Z",
       "mrcmwclosdvzhb8ry-ig": "2026-11-13T22:01:45.976Z",
-      "mrcmwcgig6hy2giju-ig": "2026-11-14T00:59:41.005Z"
+      "mrcmwcgig6hy2giju-ig": "2026-11-14T00:59:41.005Z",
+      "mrcmwfq9bj2qcprdz-ig": "2026-11-14T14:02:10.091Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwfq9bj2qcprdz-ig": "2026-11-14"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-14",
@@ -145,7 +151,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "2 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "La Nación",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-14",
       "h": "",
@@ -417,7 +423,7 @@
   "stPruebaUlt": "2026-11-01",
   "stRepruebaUlt": "2026-11-01",
   "provUlt": {
-    "cuando": "2026-11-13T22:01:37.384Z",
+    "cuando": "2026-11-14T14:01:32.650Z",
     "n": 1
   }
 }
