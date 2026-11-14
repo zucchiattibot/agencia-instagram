@@ -1047,20 +1047,26 @@
     "18018245693951431": {
       "t": "2026-11-13T23:01:51+0000",
       "tipo": "IMAGE",
-      "a": 69,
-      "v": 76
+      "a": 74,
+      "v": 80
     },
     "17975342166175552": {
       "t": "2026-11-14T12:01:32+0000",
       "tipo": "IMAGE",
-      "a": 37,
-      "v": 45
+      "a": 41,
+      "v": 50
     },
     "18643587985022785": {
       "t": "2026-11-14T18:57:29+0000",
       "tipo": "IMAGE",
-      "a": 9,
-      "v": 16
+      "a": 17,
+      "v": 26
+    },
+    "18037096346670690": {
+      "t": "2026-11-14T21:01:27+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1103,14 +1109,14 @@
   "cuenta": {
     "username": "agenciaalbor",
     "followers_count": 1398,
-    "follows_count": 648,
+    "follows_count": 664,
     "media_count": 661,
     "id": "28888466970748824",
-    "el": "2026-11-14T20:01:24.836Z"
+    "el": "2026-11-14T21:01:37.357Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 30217,
+    "views": 30248,
     "profile_views": 100,
     "accounts_engaged": 280
   },
@@ -1124,7 +1130,7 @@
       "comments_count": 0,
       "caption": "¿Quién iba a decir que ibas a poder tener de nuevo a Orko, He-Man, Skeletor y Battle Cat en la repisa de tu casa? 🗡️ Volvieron esos personajes que marcaron las tardes de los 80 con un nivel de detalle que da gusto. Pasá por Agencia Albor y reservalos antes de que vuelen.\n\nComentá HE-MAN y te paso toda la info.\n\n#heman #mastersoftheuniverse #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 8,
-      "views": 18,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -1201,8 +1207,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 36,
-      "views": 53,
+      "reach": 37,
+      "views": 54,
       "saved": 0,
       "shares": 0
     },
@@ -2130,7 +2136,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-14T20:01:34.633Z",
+  "actualizado": "2026-11-14T21:01:49.734Z",
   "aud": {
     "edad": [
       {
