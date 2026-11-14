@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "pedido": 1794653341759,
+  "nivel": "sin_reputacion",
+  "power": "",
+  "ventas": 5,
+  "envio": 9590,
+  "envioObligatorio": true,
+  "detalle": "{\"coverage\":{\"all_country\":{\"list_cost\":9590,\"currency_id\":\"ARS\",\"billable_weight\":2250,\"discount\":{\"rate\":0.5,\"type\":\"mandatory\",\"promoted_amount\":19180}}}}",
+  "error": null
+}
