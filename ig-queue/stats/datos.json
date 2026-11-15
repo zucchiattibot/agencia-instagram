@@ -1071,26 +1071,32 @@
     "17986274777902502": {
       "t": "2026-11-14T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 79
+      "a": 74,
+      "v": 82
     },
     "18468413176189824": {
       "t": "2026-11-14T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 75,
-      "v": 78
+      "a": 77,
+      "v": 81
     },
     "18120680810063106": {
       "t": "2026-11-15T12:01:49+0000",
       "tipo": "VIDEO",
-      "a": 55,
-      "v": 61
+      "a": 58,
+      "v": 65
     },
     "18094047185217852": {
       "t": "2026-11-15T18:01:32+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 32
+      "a": 31,
+      "v": 37
+    },
+    "17930522307427374": {
+      "t": "2026-11-15T21:01:51+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1137,11 +1143,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-15T20:01:23.195Z"
+    "el": "2026-11-15T21:02:25.881Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 30070,
+    "views": 30086,
     "profile_views": 101,
     "accounts_engaged": 283
   },
@@ -1155,7 +1161,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 121,
-      "views": 142,
+      "views": 143,
       "saved": 0,
       "shares": 0
     },
@@ -2174,7 +2180,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-15T20:01:32.250Z",
+  "actualizado": "2026-11-15T21:02:35.500Z",
   "aud": {
     "edad": [
       {
@@ -2695,7 +2701,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-15T01:02:09.636Z"
+    "el": "2026-11-15T21:02:32.716Z"
   },
   "dias": {
     "2026-10-11": {
