@@ -1,4 +1,4 @@
-// ig-motor-v50
+// ig-motor-v57
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -326,6 +326,7 @@ async function colaHistorias(estado, token, uid) {
   let franjas = franjasHoy;
   if (cfg.variarMinutos !== false && autoAjusteOn()) { try { variarMinutosMotor(franjasHoy, dia, 'st'); } catch (er) { console.log('Minutos variables (historias) falló', er.message); } }
   try { franjas = pruebaHistorias(cfg, estado, dia, min, hechas, franjasHoy); } catch (er) { console.log('Prueba de horario (historias) falló', er.message); }
+  try { franjas = pruebaMenosHistorias(cfg, estado, dia, min, hechas, franjas); } catch (er) { console.log('Prueba de una tanda menos (historias) falló', er.message); }
   franjas = franjas.sort((a, b) => String(a.h).localeCompare(String(b.h)));
   const existe = (p) => fs.existsSync(fsm(p.media));
   const enRepo = cfg.pool.filter(existe).length;
@@ -481,6 +482,26 @@ function primerasTandaMotor(a) {
   for (const p of o) { const ms = Date.parse(p.t); if (ms - ult > 45 * 60000) r.push(p); ult = ms; }
   return r;
 }
+// v57: HISTORIAS — PRUEBA DE «UNA TANDA MENOS». Igual que en los feeds: cada DIAS_ENTRE_MENOS días publica una tanda menos (rota entre las que faltan más de 30 min, nunca la que ya
+// se está probando por horario) para tener datos de menos vs. más tandas por día. Solo corre si hay al menos pisoDia+1 tandas (pisoDia: 2 por defecto en Historias).
+// El optimizador semanal compara después los días de prueba con los normales y decide si conviene quitar o sumar una tanda. Se apaga con el autoajuste o con "pruebaMenos": false.
+function pruebaMenosHistorias(cfg, estado, dia, min, hechas, franjas) {
+  if (cfg.pruebas === false || cfg.pruebaMenos === false || !autoAjusteOn()) return franjas;
+  const S = (estado.stM = estado.stM || {}), m = (estado.stMenos = estado.stMenos || {});
+  franjas.sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  if (m.dia !== dia) {
+    const ult = m.ult ? Math.round((Date.parse(dia) - Date.parse(m.ult)) / 86400000) : 99, piso = Math.max(1, Number(cfg.pisoDia) || 2);
+    if (ult < DIAS_ENTRE_MENOS || franjas.length - 1 < piso || (S.pausa && dia < S.pausa) || (estado.stPrueba && estado.stPrueba.dia === dia && estado.stPrueba.h)) return franjas;
+    const el = franjas.map((s, i) => i).filter((i) => frMin(franjas[i].h) > min + 30 && !hechas[dia + ' ' + franjas[i].h] && !franjas[i].prueba);
+    if (!el.length) return franjas;
+    const pos = el[(S.rot || 0) % el.length]; S.rot = (S.rot || 0) + 1;
+    m.dia = dia; m.ult = dia; m.pos = pos; m.len = franjas.length; S.dias = (S.dias || []).concat(dia).slice(-60);
+  }
+  if (franjas.length !== m.len || !franjas[m.pos]) return franjas;
+  m.h = franjas[m.pos].h; franjas.splice(m.pos, 1);
+  estado.stInfoPrueba = (estado.stInfoPrueba ? estado.stInfoPrueba + ' ' : '') + 'Prueba de cantidad hoy: una tanda menos (' + m.h + ') para comparar el alcance.';
+  return franjas;
+}
 function pruebaHistorias(cfg, estado, dia, min, hechas, franjas) {
   if (cfg.pruebas === false || !autoAjusteOn()) { delete estado.stInfoPrueba; return franjas; }
   const p = (estado.stPrueba = estado.stPrueba || {});
@@ -575,6 +596,33 @@ function repruebaCands(items, trDe, ocupados, ultima, dia) {
   const cands = TRAMOS_PRUEBA.filter(([tr]) => !ocupados.some((s) => trDe(s) === tr)).sort((a, b) => (ult[a[0]] || 0) - (ult[b[0]] || 0));
   return { cands, media: (tr) => (cnt[tr] ? sum[tr] / cnt[tr] : 0) };
 }
+const DIAS_ENTRE_MENOS = 4;
+// v53: rendimiento por tramo del día (mediana del alcance de cada tramo con al menos MIN_MUESTRA_TRAMO publicaciones). Si hay menos de 2 tramos con datos devuelve {} (no hay con qué elegir).
+function rendTramosMotor(red) {
+  const g = {}; for (const p of itemsCargaMotor(red)) { const h = horaLocalMotor(p.t), t = h === null ? '' : tramoMotor(h); if (t && p.score > 0) (g[t] ||= []).push(p.score); }
+  const o = {}; for (const [t, a] of Object.entries(g)) if (a.length >= MIN_MUESTRA_TRAMO) o[t] = medianaMotor(a);
+  return Object.keys(o).length >= 2 ? o : {};
+}
+function diaStrMotor(t) { return new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date(t)); }
+// v51: PRUEBA DE «UNA MENOS». Cada DIAS_ENTRE_MENOS días publica una salida menos (rota entre las del día que faltan más de 30 min, así no siempre es la misma hora) para tener datos de menos vs. más.
+// No toca tu configuración. Solo corre si hay al menos pisoDia+1 salidas (pisoDia: 1 por defecto, o sea que puede bajar de 2 a 1 por día) y sin extras sumadas. Se apaga con el autoajuste o con "pruebaMenos": false.
+function pruebaMenos(cfg, e, dia, min, out, c) {
+  if (cfg.pruebas === false || cfg.pruebaMenos === false || !autoAjusteOn()) return;
+  const m = (e.menos = e.menos || {});
+  out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
+  if (m.dia !== dia) {
+    const ult = m.ult ? Math.round((Date.parse(dia) - Date.parse(m.ult)) / 86400000) : 99, piso = Math.max(1, Number(cfg.pisoDia) || 1);
+    if (ult < DIAS_ENTRE_MENOS || (c && (c.nivel > 0 || (c.extras || []).length)) || out.length - 1 < piso) return;
+    if ((e.menosPausaHasta && dia < e.menosPausaHasta) || (e.prueba && e.prueba.dia === dia && e.prueba.h)) return; // v54: en pausa, o ese día ya hay una prueba de horario (no se mezclan dos pruebas)
+    const el = out.map((s, i) => i).filter((i) => frMin(out[i].h) > min + 30 && !e.franjas[dia + ' ' + out[i].h] && !out[i].prueba);
+    if (!el.length) return;
+    const pos = el[(e.menosRot || 0) % el.length]; e.menosRot = (e.menosRot || 0) + 1;
+    m.dia = dia; m.ult = dia; m.pos = pos; m.len = out.length; e.menosDias = (e.menosDias || []).concat(dia).slice(-60);
+  }
+  if (out.length !== m.len || !out[m.pos]) return;
+  m.h = out[m.pos].h; out.splice(m.pos, 1);
+  e.infoMenos = 'Prueba de cantidad hoy: una salida menos (' + m.h + ') para comparar el alcance por publicación.';
+}
 function slotsHoy(cfg, e, dia, diaSem, pend, red) {
   const tope = red === 'fb' ? 3 : 4, SEP = 150, out = [];
   for (const fr of cfg.franjas) {
@@ -600,21 +648,24 @@ function slotsHoy(cfg, e, dia, diaSem, pend, red) {
     else if (ratio >= 0.90 && pend > total * 2 && total < tope) { if (espera >= 3) { paso = 1; motivo = 'hay material acumulado y publicar más no baja el alcance por publicación (' + Math.round(ratio * 100) + '%)'; } else motivo = 'esperando que maduren las publicaciones del último cambio'; }
     else motivo = 'las estadísticas no justifican cambiar la cantidad';
     if (paso !== 0 && paso > 0 && espera < 3) paso = 0;
+    if (paso > 0 && e.sinExtrasHasta && dia < e.sinExtrasHasta) { paso = 0; motivo = 'sin sumar extras hasta el ' + e.sinExtrasHasta + ' (se mide el efecto de la franja quitada)'; }
     if (paso !== 0 && !autoAjusteOn()) { motivo = 'propuesta: ' + (paso > 0 ? 'sumar' : 'quitar') + ' una salida extra (' + motivo + '). Autoajuste apagado: no lo aplico solo'; paso = 0; }
     c.nivel = Math.max(0, nivel0 + paso);
     if (paso !== 0) c.cambio = dia;
     c.motivo = motivo;
-    c.extras = [];
+    c.extras = []; const rend = rendTramosMotor(red); // v53: las extras van al tramo que mejor rinde (si hay datos); sin datos, al hueco más grande
     for (let i = 0; i < c.nivel; i++) {
-      let mejor = null, dm = 0; const ocup = out.map((s) => frMin(s.h)).concat(c.extras.map(frMin));
-      for (let m = 8 * 60; m <= 22 * 60; m += 30) { const d = ocup.length ? Math.min(...ocup.map((x) => Math.abs(x - m))) : 999; if (d > dm) { dm = d; mejor = m; } }
+      let mejor = null, dm = 0, bs = -1; const ocup = out.map((s) => frMin(s.h)).concat(c.extras.map(frMin));
+      for (let m = 8 * 60; m <= 22 * 60; m += 30) { const d = ocup.length ? Math.min(...ocup.map((x) => Math.abs(x - m))) : 999; if (d < 120) continue; const sc = rend[tramoMotor(m / 60)] || 0; if (mejor === null || sc > bs || (sc === bs && d > dm)) { dm = d; mejor = m; bs = sc; } }
       if (mejor !== null && dm >= 120) c.extras.push(frTxt(mejor));
     }
   }
   const reelsHoy = out.filter((s) => s.f === 'reel').length; // cuenta antes de sumar extras
   for (const h of c.extras || []) if (!out.some((s) => s.h === h)) out.push({ h, n: 1, f: reelsHoy >= MAX_REELS_DIA ? 'feed' : '', extra: true });
+  delete e.infoMenos; try { pruebaMenos(cfg, e, dia, ahoraAR().min, out, c); } catch (er) { console.log('Prueba de una menos falló', er.message); }
   e.infoCarga = out.length + ' salida' + (out.length === 1 ? '' : 's') + ' hoy' + (c.extras && c.extras.length ? ' (' + c.extras.length + ' sumada' + (c.extras.length === 1 ? '' : 's') + ' por estadísticas)' : '') + ', separadas al menos 2 h; ' + pend + ' esperando' + (c.motivo ? ' (' + c.motivo + ')' : '') + '.' + (recortadas ? ' Tus franjas suman más del tope de ' + tope + ' por día: ' + recortadas + ' no se usan.' : '') + (reelsHoy > MAX_REELS_DIA ? ' Hay ' + reelsHoy + ' Reels programados hoy (recomendado hasta ' + MAX_REELS_DIA + ').' : '');
   if (e.prueba && e.prueba.dia === dia && e.prueba.h) e.infoCarga += ' Prueba de horario hoy: ' + e.prueba.h + ' (' + e.prueba.tramo + ') en lugar de ' + e.prueba.de + '.';
+  if (e.infoMenos) e.infoCarga += ' ' + e.infoMenos;
   return out.sort((a, b) => String(a.h).localeCompare(String(b.h)));
 }
 async function colaFeed(estado, token, uid, red) {
@@ -728,7 +779,7 @@ function datosDiaMotor(items) {
   validos.sort((a, b) => b.med - a.med);
   const mejor = validos[0], peor = validos[validos.length - 1];
   if (!(peor.med > 0) || mejor.med / peor.med < 1.4) return null;
-  return { mejor: mejor.d, peor: peor.d, diferencia: Math.round((mejor.med / peor.med - 1) * 100), nMejor: mejor.n, nPeor: peor.n };
+  return { mejor: mejor.d, peor: peor.d, diferencia: Math.round((mejor.med / peor.med - 1) * 100), nMejor: mejor.n, nPeor: peor.n, aMejor: grupos[mejor.d], aPeor: grupos[peor.d] };
 }
 // Registro y respaldo antes de cada ajuste automático. Permite auditar el cambio y recuperar la configuración anterior.
 function guardarRespaldoAuto(ruta, cfgAnterior, cfgNueva, detalle) {
@@ -744,15 +795,55 @@ function escribirConfigOptimizada(ruta, cfgAntes, cfgDespues, detalle) {
   escribir(path.join(BASE, ruta), cfgDespues);
 }
 
+const NOMBRES_DIA = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+// v56: PASAR UNA SALIDA DE UN DÍA FLOJO A UNO BUENO, aunque las franjas corran todos los días. Antes solo se podía con franjas que ya tuvieran días puestos.
+// Se saca una franja (la de un tramo flojo, de 1 salida) del peor día y se suma una franja nueva solo para el mejor día, en el tramo que mejor rinde y a 2 h o más de las demás.
+// La cantidad semanal NO cambia. Respeta pisoDia (1 por defecto) en el día flojo y el tope por día (4 en Instagram, 3 en Facebook) en el día bueno. Solo en feeds (no historias).
+// Necesita datos de al menos 2 tramos del día; si no hay con qué elegir una hora, no hace nada.
+function partirFranjaDiaria(ruta, cfg, items, res, estado, etiqueta) {
+  const corre = (f, d) => !(Array.isArray(f.d) && f.d.length) || f.d.includes(d);
+  const esSt = ruta.startsWith('stories/'); // en Historias la unidad es la TANDA (una franja), no cada historia
+  const cuenta = (d) => cfg.franjas.reduce((a, f) => a + (corre(f, d) ? (esSt ? 1 : Math.min(Number(f.n) || 1, 5)) : 0), 0);
+  const piso = Math.max(1, Number(cfg.pisoDia) || (esSt ? 2 : 1)), tope = esSt ? 5 : (ruta.startsWith('feed-fb') ? 3 : 4);
+  if (cuenta(res.peor) - 1 < piso || cuenta(res.mejor) + 1 > tope) return null;
+  const grupos = {};
+  const baseN = normalizarContextoMotor(items);
+  for (const p of (esSt ? primerasTandaMotor(baseN) : baseN)) { const h = horaLocalMotor(p.t), t = h === null ? '' : tramoMotor(h); if (t) (grupos[t] ||= []).push({ h, n: p.norm }); }
+  const med = {}; for (const [t, a] of Object.entries(grupos)) if (a.length >= MIN_MUESTRA_TRAMO) med[t] = medianaMotor(a.map((x) => x.n));
+  const orden = Object.keys(med).sort((a, b) => med[b] - med[a]);
+  if (orden.length < 2) return null;
+  const sacar = cfg.franjas.map((f, i) => ({ f, i, t: tramoMotor(horaNumMotor(f.h)) })).filter((x) => med[x.t] != null && x.t !== orden[0] && (esSt || (Number(x.f.n) || 1) === 1) && corre(x.f, res.peor) && corre(x.f, res.mejor)).sort((a, b) => med[a.t] - med[b.t])[0];
+  if (!sacar) return null;
+  const activas = cfg.franjas.filter((f) => corre(f, res.mejor)).map((f) => frMin(f.h));
+  let hNueva = null, tramoNuevo = '';
+  for (const t of orden) {
+    const medH = medianaMotor(grupos[t].map((x) => x.h)) * 60, cands = [];
+    for (let m = 8 * 60; m <= 22 * 60; m += 30) if (tramoMotor(m / 60) === t && activas.every((x) => Math.abs(x - m) >= 120)) cands.push(m);
+    cands.sort((a, b) => Math.abs(a - medH) - Math.abs(b - medH));
+    if (cands.length) { hNueva = frTxt(cands[0]); tramoNuevo = t; break; }
+  }
+  if (!hNueva) return null;
+  const cfgAntes = JSON.parse(JSON.stringify(cfg)), F = sacar.f, antesH = F.h;
+  F.d = (Array.isArray(F.d) && F.d.length ? F.d : [0, 1, 2, 3, 4, 5, 6]).filter((d) => d !== res.peor);
+  cfg.franjas.push(esSt ? { h: hNueva, n: Number(F.n) || 1, d: [res.mejor] } : { h: hNueva, n: 1, f: '', d: [res.mejor] });
+  const detalle = `Pasé ${esSt ? 'una tanda' : 'una salida'} del ${NOMBRES_DIA[res.peor]} al ${NOMBRES_DIA[res.mejor]}: el ${NOMBRES_DIA[res.mejor]} rinde ${res.diferencia}% más por publicación (muestras ${res.nMejor}/${res.nPeor}). Saqué la franja ${antesH} (tramo ${sacar.t}) del ${NOMBRES_DIA[res.peor]} y sumé una a las ${hNueva} (tramo ${tramoNuevo}) los ${NOMBRES_DIA[res.mejor]}. La cantidad semanal no cambia.`;
+  escribirConfigOptimizada(ruta, cfgAntes, cfg, detalle);
+  if (esSt) { const S = (estado.stM = estado.stM || {}); S.dias = []; S.desde = diaStrMotor(Date.now()); return { red: etiqueta, estado: 'ajustado', detalle }; }
+  const K = ruta.startsWith('feed-fb') ? 'fdfb' : 'fdig', E = (estado[K] = estado[K] || {});
+  E.menosDias = []; E.menosDesde = diaStrMotor(Date.now()); // cambió la cantidad por día: la prueba de «una menos» empieza de cero
+  return { red: etiqueta, estado: 'ajustado', detalle };
+}
 function optimizarDiasCola(ruta, items, estado, etiqueta) {
   const cfgPath = path.join(BASE, ruta);
   const cfg = leer(cfgPath, null);
   if (!cfg || cfg.pausada || !Array.isArray(cfg.franjas) || !cfg.franjas.length) return null;
   const res = datosDiaMotor(items);
   if (!res) return { red: etiqueta, estado: 'sin-muestra', detalle: 'No hay muestra suficiente o la diferencia entre días es menor al 40%; no se cambia la agenda.' };
+  if (ventajaParesMotor(res.aMejor, res.aPeor) < 0.65) return { red: etiqueta, estado: 'sin-muestra', detalle: 'La diferencia entre el mejor y el peor día no es consistente (el mejor le gana en menos del 65% de los cruces); no se cambia la agenda.' };
   // Solo mover franjas configuradas explícitamente por día. Una franja sin "d" corre todos los días;
   // convertirla automáticamente alteraría la frecuencia semanal y no es seguro.
   const idx = cfg.franjas.findIndex(f => Array.isArray(f.d) && f.d.length && f.d.includes(res.peor) && !f.d.includes(res.mejor));
+  if (idx < 0) { const rp = partirFranjaDiaria(ruta, cfg, items, res, estado, etiqueta); if (rp) return rp; }
   if (idx < 0) return { red: etiqueta, estado: 'sin-franja-compatible', detalle: `Mejor ${res.mejor}, más flojo ${res.peor} (${res.diferencia}%, muestra ${res.nMejor}/${res.nPeor}); no hay una franja con días explícitos que pueda moverse sin cambiar la frecuencia general.` };
   const cfgAntes = JSON.parse(JSON.stringify(cfg));
   const anterior = cfg.franjas[idx].d.slice();
@@ -770,7 +861,7 @@ function horaLocalMotor(fecha) {
 function horaNumMotor(s) { const [a, b] = String(s).split(':').map(Number); return a + (b || 0) / 60; }
 function tramoMotor(h) { return h >= 6 && h < 9 ? 'primera mañana' : h >= 9 && h < 12 ? 'mañana' : h >= 12 && h < 15 ? 'mediodía' : h >= 15 && h < 19 ? 'tarde' : h >= 19 && h < 21 ? 'noche temprana' : h >= 21 ? 'noche' : ''; }
 function horaTextoMotor(h) { h = Math.max(6, Math.min(23.5, Math.round(h * 2) / 2)); const hh = Math.floor(h), mm = h - hh ? '30' : '00'; return String(hh).padStart(2, '0') + ':' + mm; }
-function optimizarRestoCola(ruta, items, etiqueta) {
+function optimizarRestoCola(ruta, items, etiqueta, estado) {
   const cfgPath = path.join(BASE, ruta), cfg = leer(cfgPath, null);
   if (!cfg || cfg.pausada || !Array.isArray(cfg.franjas) || !cfg.franjas.length) return null;
   const cfgInicial = JSON.parse(JSON.stringify(cfg));
@@ -805,6 +896,86 @@ function optimizarRestoCola(ruta, items, etiqueta) {
     if (vs.length >= 6 && fscores.length >= 6) {
       const mv = medianaMotor(vs), mf = medianaMotor(fscores), mejor = mv >= mf*1.4 ? 'reel' : (mf >= mv*1.4 ? 'feed' : '');
       if (mejor && ventajaParesMotor(mejor === 'reel' ? vs : fscores, mejor === 'reel' ? fscores : vs) >= 0.65) { const peor = mejor === 'reel' ? 'feed' : 'reel', fr = mejor === 'reel' ? cfg.franjas.find(x => x.f === peor && reelsDia(cfg.franjas, x) <= MAX_REELS_DIA) : cfg.franjas.find(x => x.f === peor); if (fr) { fr.f = mejor; const detalle = `Formato de la franja ${fr.h}: ${peor} → ${mejor}; diferencia mediana de al menos 40% con ${vs.length} videos y ${fscores.length} fotos.`; escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle); return {red:etiqueta,estado:'ajustado',detalle}; } }
+    }
+  }
+  // v57: HISTORIAS — CANTIDAD DE TANDAS POR DÍA (quitar o sumar una tanda). Compara los días de la prueba de «una tanda menos» con los normales (5 y 5, desde el primer día de prueba):
+  // por tanda = alcance de la primera historia de cada tanda (mediana del día); total = alcance de todas las historias del día.
+  // QUITAR si por tanda los días normales rinden <70% de los de prueba, los de prueba le ganan en 70% de los cruces y el total del día no cae más de 15%; saca la tanda del tramo más flojo.
+  // SUMAR si sumar una tanda casi no diluye (por tanda >=90%) y el total del día normal le gana al de prueba en 70% de los cruces; la suma va al tramo que mejor rinde, a 2 h o más de las demás.
+  // Respeta mínimo 2 tandas y máximo 5 por día, y que la cola tenga material para al menos 2 días. Si con 8 días de prueba no conviene ni quitar ni sumar, la prueba se pausa 45 días.
+  if (ruta.startsWith('stories/') && cfg.pruebaMenos !== false && estado) {
+    const S = (estado.stM = estado.stM || {}), td = new Set(S.dias || []), desde = S.desde || [...td].sort()[0] || '9999';
+    const tot = {}, por = {};
+    for (const p of usable) { const k = diaStrMotor(p.t); if (k >= desde) tot[k] = (tot[k] || 0) + p.score; }
+    for (const p of primerasTandaMotor(usable)) { const k = diaStrMotor(p.t); if (k >= desde) (por[k] ||= []).push(p.score); }
+    const pr = [], no = [], sPr = [], sNo = [];
+    for (const [k, v] of Object.entries(por)) { const esP = td.has(k); (esP ? pr : no).push(medianaMotor(v)); (esP ? sPr : sNo).push(tot[k] || 0); }
+    let hecho = false;
+    if (pr.length >= 5 && no.length >= 5 && medianaMotor(pr) > 0 && medianaMotor(sNo) > 0 && medianaMotor(sPr) > 0) {
+      const rPieza = medianaMotor(no) / medianaMotor(pr), rTotal = medianaMotor(sPr) / medianaMotor(sNo);
+      const piso = Math.max(1, Number(cfg.pisoDia) || 2), tope = 5, corre = (f, d) => !(Array.isArray(f.d) && f.d.length) || f.d.includes(d);
+      const tandas = (lista, d) => lista.reduce((a, f) => a + (corre(f, d) ? 1 : 0), 0);
+      const hoy = diaStrMotor(Date.now());
+      if (rPieza < .70 && ventajaParesMotor(pr, no) >= .70 && rTotal >= .85) {
+        const cand = cfg.franjas.map((f, i) => ({ f, i, v: bmed[tramoMotor(horaNumMotor(f.h))] })).filter((x) => x.v != null).sort((a, b) => a.v - b.v).find((x) => { const resto = cfg.franjas.filter((_, j) => j !== x.i); for (let d = 0; d < 7; d++) if (corre(x.f, d) && tandas(resto, d) < piso) return false; return true; });
+        if (cand) {
+          const q = cfg.franjas.splice(cand.i, 1)[0], detalle = `Quité la tanda de las ${q.h}: con una tanda menos cada una rindió más (los días normales rinden ${Math.round(rPieza * 100)}% de los de prueba por tanda) y el alcance total del día se mantuvo (${Math.round(rTotal * 100)}% de un día normal); muestras ${pr.length}/${no.length}. Mínimo: ${piso} tandas por día.`;
+          escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle);
+          S.dias = []; S.desde = hoy;
+          return { red: etiqueta, estado: 'ajustado', detalle };
+        }
+      } else if (rPieza >= .90 && ventajaParesMotor(sNo, sPr) >= .70) {
+        const nNueva = Math.max(1, Math.round(medianaMotor(cfg.franjas.map((f) => Number(f.n) || 1)))), hs = cfg.franjas.map((f) => frMin(f.h));
+        const storiesDia = Math.max(...[0, 1, 2, 3, 4, 5, 6].map((d) => cfg.franjas.reduce((a, f) => a + (corre(f, d) ? Number(f.n) || 1 : 0), 0)));
+        if ([0, 1, 2, 3, 4, 5, 6].every((d) => tandas(cfg.franjas, d) + 1 <= tope) && (cfg.pool || []).length >= 2 * (storiesDia + nNueva)) {
+          let hNueva = null, tr = '';
+          for (const t of Object.keys(bmed).sort((a, b) => bmed[b] - bmed[a])) {
+            const medH = medianaMotor(bloques[t].map((p) => p.h)) * 60, cands = [];
+            for (let mm = 8 * 60; mm <= 22 * 60; mm += 30) if (tramoMotor(mm / 60) === t && hs.every((x) => Math.abs(x - mm) >= 120)) cands.push(mm);
+            cands.sort((a, b) => Math.abs(a - medH) - Math.abs(b - medH));
+            if (cands.length) { hNueva = frTxt(cands[0]); tr = t; break; }
+          }
+          if (hNueva) {
+            cfg.franjas.push({ h: hNueva, n: nNueva });
+            const detalle = `Sumé una tanda a las ${hNueva} (tramo ${tr}, ${nNueva} historia${nNueva === 1 ? '' : 's'}): con una tanda menos el total del día fue menor y cada tanda rindió casi igual (${Math.round(rPieza * 100)}% por tanda); muestras ${pr.length}/${no.length}. Máximo: ${tope} tandas por día.`;
+            escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle);
+            S.dias = []; S.desde = hoy; S.pausa = diaStrMotor(Date.now() + 28 * 86400000); // 28 días sin probar «una menos» para medir el efecto limpio
+            return { red: etiqueta, estado: 'ajustado', detalle };
+          }
+        }
+      }
+    }
+    if (pr.length >= 8) { S.pausa = diaStrMotor(Date.now() + 45 * 86400000); S.desde = S.pausa; S.dias = []; } // evidencia suficiente y no conviene cambiar: pausa de 45 días
+  }
+  // v51/v54: QUITAR UNA FRANJA. Solo si ninguna franja tiene más de 1 salida (esas bajan primero, abajo) y la prueba de «una menos» lo respalda con TRES condiciones a la vez:
+  // (1) por pieza, los días normales rinden <70% de los de prueba; (2) los días de prueba le ganan a los normales en al menos 70% de los cruces (no solo en la mediana);
+  // (3) el alcance TOTAL del día con una salida menos no cae más de 15% (con 2→1 por día eso exige que la pieza sola rinda ~1,7 veces más: la prueba de «una menos» ya no puede engañar con el promedio por pieza). Se compara solo dentro del mismo período (desde el primer día de prueba), con 5 días de prueba y 5 normales.
+  // Quita la franja del tramo más flojo (con datos del tramo) y nunca deja menos de pisoDia salidas (1 por defecto) en ningún día. Frenos: los de siempre (1 cambio por semana, 14 días, reversión).
+  // Si con 8 días de prueba no conviene quitar nada, la prueba se pausa 45 días: no se sigue sacrificando una publicación cada 4 días sin necesidad.
+  if (!ruta.startsWith('stories/') && cfg.pruebaMenos !== false && estado && !cfg.franjas.some((x) => (+x.n || 1) >= 2)) {
+    const K = ruta.startsWith('feed-fb') ? 'fdfb' : 'fdig', E = estado[K] || {}, td = new Set(E.menosDias || []);
+    const desde = E.menosDesde || [...td].sort()[0] || '9999';
+    const dd = {}; for (const p of usable) { const k = diaStrMotor(p.t); if (k >= desde) (dd[k] ||= []).push(p.score); }
+    const pr = [], no = [], sPr = [], sNo = [];
+    for (const [k, v] of Object.entries(dd)) { const esP = td.has(k); (esP ? pr : no).push(medianaMotor(v)); (esP ? sPr : sNo).push(v.reduce((a, x) => a + x, 0)); }
+    let quitada = false;
+    if (pr.length >= 5 && no.length >= 5 && medianaMotor(pr) > 0 && medianaMotor(sNo) > 0) {
+      const rPieza = medianaMotor(no) / medianaMotor(pr), rTotal = medianaMotor(sPr) / medianaMotor(sNo), cruces = ventajaParesMotor(pr, no);
+      if (rPieza < .70 && cruces >= .70 && rTotal >= .85) {
+        const piso = Math.max(1, Number(cfg.pisoDia) || 1), corre = (f, d) => !(Array.isArray(f.d) && f.d.length) || f.d.includes(d);
+        const cuenta = (lista, d) => lista.reduce((a, f) => a + (corre(f, d) ? Math.min(Number(f.n) || 1, 5) : 0), 0);
+        const cand = cfg.franjas.map((f, i) => ({ f, i, v: bmed[tramoMotor(horaNumMotor(f.h))] })).filter((x) => x.v != null).sort((a, b) => a.v - b.v).find((x) => { const resto = cfg.franjas.filter((_, j) => j !== x.i); for (let d = 0; d < 7; d++) if (corre(x.f, d) && cuenta(resto, d) < piso) return false; return true; });
+        if (cand) {
+          const q = cfg.franjas.splice(cand.i, 1)[0], detalle = `Quité la franja ${q.h}${q.f ? ' (' + q.f + ')' : ''}: con una salida menos cada publicación rindió más (los días normales rinden ${Math.round(rPieza * 100)}% de los de prueba por pieza; ganan en ${Math.round(cruces * 100)}% de los cruces) y el alcance total del día se mantuvo (${Math.round(rTotal * 100)}% de un día normal); muestras ${pr.length}/${no.length}. Piso: ${piso} por día.`;
+          escribirConfigOptimizada(ruta, cfgInicial, cfg, detalle);
+          estado[K] = E; E.menosDias = []; E.menosDesde = diaStrMotor(Date.now()); E.sinExtrasHasta = diaStrMotor(Date.now() + 28 * 86400000);
+          if (E.carga) { E.carga.nivel = 0; E.carga.extras = []; } // v53: tras quitar una franja no se suman extras por 28 días, para medir el efecto limpio
+          return { red: etiqueta, estado: 'ajustado', detalle };
+        }
+      }
+    }
+    if (pr.length >= 8) { // v54: evidencia suficiente y no conviene quitar nada: pausa de 45 días y la medición empieza de cero al volver
+      estado[K] = E; E.menosPausaHasta = diaStrMotor(Date.now() + 45 * 86400000); E.menosDesde = E.menosPausaHasta; E.menosDias = [];
     }
   }
   // 3) Cantidad de posts: solo reduce si los días con 2+ publicaciones rinden <70% por pieza.
@@ -864,7 +1035,7 @@ function optimizarSemanaAutomatica(estado) {
       }
       const antes = JSON.parse(JSON.stringify((leer(path.join(BASE, ruta), {}) || {}).franjas || []));
       let r = optimizarDiasCola(ruta, items, estado, etiqueta);
-      if (!r || r.estado !== 'ajustado') r = optimizarRestoCola(ruta, items, etiqueta) || r;
+      if (!r || r.estado !== 'ajustado') r = optimizarRestoCola(ruta, items, etiqueta, estado) || r;
       if (r && r.estado === 'ajustado') {
         const rec = items.slice().sort((a, b) => Date.parse(b.t) - Date.parse(a.t)).slice(0, 12).map(p => p.score).filter(Number.isFinite);
         base[ruta] = { t: new Date(ahora).toISOString(), med: medianaMotor(rec), franjas: antes };
