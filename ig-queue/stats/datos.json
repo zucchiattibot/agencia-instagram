@@ -1053,32 +1053,32 @@
     "17975342166175552": {
       "t": "2026-11-14T12:01:32+0000",
       "tipo": "IMAGE",
-      "a": 56,
-      "v": 66
+      "a": 59,
+      "v": 70
     },
     "18643587985022785": {
       "t": "2026-11-14T18:57:29+0000",
       "tipo": "IMAGE",
-      "a": 39,
-      "v": 47
+      "a": 41,
+      "v": 52
     },
     "18037096346670690": {
       "t": "2026-11-14T21:01:27+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 31
+      "a": 25,
+      "v": 35
     },
     "17986274777902502": {
       "t": "2026-11-14T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 15,
-      "v": 18
+      "a": 20,
+      "v": 23
     },
     "18468413176189824": {
       "t": "2026-11-14T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 16,
-      "v": 18
+      "a": 20,
+      "v": 22
     }
   },
   "seguidores": {
@@ -1124,11 +1124,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-15T01:02:01.256Z"
+    "el": "2026-11-15T02:01:30.137Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 30377,
+    "views": 30422,
     "profile_views": 101,
     "accounts_engaged": 280
   },
@@ -1138,11 +1138,11 @@
       "timestamp": "2026-11-15T01:01:52+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfvjZSlAd3q/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 12,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -1180,8 +1180,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 46,
+      "reach": 24,
+      "views": 47,
       "saved": 0,
       "shares": 0
     },
@@ -1193,8 +1193,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
-      "views": 31,
+      "reach": 23,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -1219,8 +1219,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 28,
+      "reach": 20,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -1297,8 +1297,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacer un budín casero sin renegar para que se desmolde sano y salvo ya dejó de ser un milagro 🍰✨ Con este molde cuadrado de silicona premium de la colección Super Repostería te ahorrás los dolores de cabeza de que se pegue todo. Te esperamos en Maipú 175, Agencia Albor para que te lo lleves. Comentá MOLDE y te guardamos el tuyo.\n#moldesdesilicona #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 31,
+      "reach": 17,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -2161,7 +2161,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-15T01:02:12.685Z",
+  "actualizado": "2026-11-15T02:01:41.090Z",
   "aud": {
     "edad": [
       {
