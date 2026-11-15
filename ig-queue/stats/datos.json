@@ -1059,26 +1059,32 @@
     "18643587985022785": {
       "t": "2026-11-14T18:57:29+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 70
+      "a": 64,
+      "v": 71
     },
     "18037096346670690": {
       "t": "2026-11-14T21:01:27+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 60
+      "a": 53,
+      "v": 61
     },
     "17986274777902502": {
       "t": "2026-11-14T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 42,
-      "v": 47
+      "a": 44,
+      "v": 49
     },
     "18468413176189824": {
       "t": "2026-11-14T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 46
+      "a": 47,
+      "v": 48
+    },
+    "18120680810063106": {
+      "t": "2026-11-15T12:01:49+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1125,11 +1131,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-15T11:01:39.595Z"
+    "el": "2026-11-15T12:02:25.162Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 29826,
+    "views": 29836,
     "profile_views": 101,
     "accounts_engaged": 283
   },
@@ -1156,7 +1162,7 @@
       "comments_count": 0,
       "caption": "¿Quién iba a decir que ibas a poder tener de nuevo a Orko, He-Man, Skeletor y Battle Cat en la repisa de tu casa? 🗡️ Volvieron esos personajes que marcaron las tardes de los 80 con un nivel de detalle que da gusto. Pasá por Agencia Albor y reservalos antes de que vuelen.\n\nComentá HE-MAN y te paso toda la info.\n\n#heman #mastersoftheuniverse #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 9,
-      "views": 29,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -1207,8 +1213,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 19,
+      "reach": 18,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -2162,7 +2168,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-15T11:01:48.012Z",
+  "actualizado": "2026-11-15T12:02:36.676Z",
   "aud": {
     "edad": [
       {
