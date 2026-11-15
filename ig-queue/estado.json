@@ -29,7 +29,7 @@
     "mwdmob3sgr9",
     "mwcsg5jadoh"
   ],
-  "statsEl": "2026-11-15T07:01:33.426Z",
+  "statsEl": "2026-11-15T08:01:29.006Z",
   "stUltima": {
     "cuando": "2026-11-14T23:01:51.169Z",
     "franja": "20:00",
@@ -37,7 +37,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-15T07:01:23.375Z",
+    "cuando": "2026-11-15T08:01:20.502Z",
     "cola": 34,
     "enRepo": 34,
     "pendientes": []
