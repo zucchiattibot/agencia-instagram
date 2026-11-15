@@ -1053,32 +1053,32 @@
     "17975342166175552": {
       "t": "2026-11-14T12:01:32+0000",
       "tipo": "IMAGE",
-      "a": 59,
-      "v": 70
+      "a": 63,
+      "v": 76
     },
     "18643587985022785": {
       "t": "2026-11-14T18:57:29+0000",
       "tipo": "IMAGE",
-      "a": 41,
-      "v": 52
+      "a": 48,
+      "v": 57
     },
     "18037096346670690": {
       "t": "2026-11-14T21:01:27+0000",
       "tipo": "IMAGE",
-      "a": 25,
-      "v": 35
+      "a": 32,
+      "v": 41
     },
     "17986274777902502": {
       "t": "2026-11-14T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 23
+      "a": 26,
+      "v": 29
     },
     "18468413176189824": {
       "t": "2026-11-14T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 22
+      "a": 26,
+      "v": 29
     }
   },
   "seguidores": {
@@ -1116,7 +1116,8 @@
     "2026-11-11": 1399,
     "2026-11-12": 1399,
     "2026-11-13": 1399,
-    "2026-11-14": 1398
+    "2026-11-14": 1398,
+    "2026-11-15": 1398
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1124,13 +1125,13 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-15T02:01:30.137Z"
+    "el": "2026-11-15T03:01:27.584Z"
   },
   "res30": {
-    "reach": 4880,
-    "views": 30422,
+    "reach": 5147,
+    "views": 30538,
     "profile_views": 101,
-    "accounts_engaged": 280
+    "accounts_engaged": 283
   },
   "posts": [
     {
@@ -1138,11 +1139,11 @@
       "timestamp": "2026-11-15T01:01:52+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/DfvjZSlAd3q/",
-      "like_count": 1,
+      "like_count": 2,
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 25,
+      "reach": 97,
+      "views": 116,
       "saved": 0,
       "shares": 0
     },
@@ -1167,8 +1168,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 22,
+      "reach": 16,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1180,8 +1181,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
-      "views": 47,
+      "reach": 25,
+      "views": 50,
       "saved": 0,
       "shares": 0
     },
@@ -1193,8 +1194,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 33,
+      "reach": 25,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -1220,7 +1221,7 @@
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 20,
-      "views": 30,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1245,8 +1246,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sorprender a los chicos con un mimo que los mantenga alejados de las pantallas y estimule su ingenio. Reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. 🎁🧠\n#juegosdemesa #carloscasares #genios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 18,
+      "reach": 15,
+      "views": 20,
       "saved": 0,
       "shares": 0
     },
@@ -1258,8 +1259,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos aprendan jugando y estimulen su creatividad todos los días. 🎨✏️\nReservá tu ejemplar en Maipú 175, Agencia Albor.\n#preescolar #carloscasares #editorialclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 21,
+      "reach": 19,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1271,8 +1272,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¡Ya llegó Autos de Turismo Carretera! 📚✨ Pasá por la agencia o comentá QUIERO y te la reservamos. Agencia Albor, Carlos Casares 📍 #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 43,
+      "reach": 33,
+      "views": 44,
       "saved": 1,
       "shares": 0
     },
@@ -1284,8 +1285,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Reviví la magia de las tardes de lectura con las figuras oficiales de La Familia Peanuts. 🌼📚\nArrancá la colección con el primer fascículo y la dupla clásica por solo $24.990.\nTe esperamos en Maipú 175, Agencia Albor, Maipú 175 para encargar la tuya antes de que vuelen. 🏃‍♂️💨\n¿Qué personaje te gustaría que sea el próximo en sumarse a tu vitrina? 💬\n#charliebrown #carloscasares #peanuts\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 49,
-      "views": 58,
+      "reach": 50,
+      "views": 59,
       "saved": 0,
       "shares": 0
     },
@@ -1297,7 +1298,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hacer un budín casero sin renegar para que se desmolde sano y salvo ya dejó de ser un milagro 🍰✨ Con este molde cuadrado de silicona premium de la colección Super Repostería te ahorrás los dolores de cabeza de que se pegue todo. Te esperamos en Maipú 175, Agencia Albor para que te lo lleves. Comentá MOLDE y te guardamos el tuyo.\n#moldesdesilicona #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
+      "reach": 18,
       "views": 32,
       "saved": 0,
       "shares": 0
@@ -1311,7 +1312,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de las tardes viendo a Charlie Brown y a su inseparable beagle? 🐾\n\nVolvé a conectar con esa ternura sumando a tu estantería las figuras oficiales de la tira más famosa.\n \n\nLa propuesta de La Nación ya arrancó con todo y cada semana tenés una excusa perfecta para volver a sonreír. 💛\n\nEsta primera entrega viene con el fascículo ilustrado y la tierna dupla de Snoopy y Charlie Brown juntos por $24.990. 📚✨\n\nEn total son 6 entregas semanales para completar toda la banda: desde Snoopy aviador y la clásica Lucy hasta Snoopy navideño y con Woodstock. 🏡\n\n¿Cuál de todos estos personajes querés tener primero en tu casa? \n\nMandanos un mensaje o pasá a buscar tu ejemplar por Maipú 175, Agencia Albor.\n\n#snoopy #charliebrown #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 17,
-      "views": 21,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -1388,8 +1389,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuántas horas de entretenimiento sano y sin pantallas te salvan una tarde lluviosa en casa? 🌧️ Con este balde de 240 piezas de Bloquis, los más chicos arman torres, vehículos y casitas mientras desarrollan la motricidad y la imaginación. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para asegurarlo antes de que vuelen.\n\nRealizamos ventas por mayor: 38000$$ por mayor!!!\n\n#bloques #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 46,
-      "views": 70,
+      "reach": 47,
+      "views": 71,
       "saved": 0,
       "shares": 0
     },
@@ -2161,7 +2162,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-15T02:01:41.090Z",
+  "actualizado": "2026-11-15T03:01:35.764Z",
   "aud": {
     "edad": [
       {
@@ -2936,6 +2937,10 @@
     "2026-11-13": {
       "a": 162,
       "v": 574
+    },
+    "2026-11-14": {
+      "a": 188,
+      "v": 526
     }
   }
 }

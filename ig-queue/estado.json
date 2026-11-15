@@ -1,13 +1,7 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-14 09:00": "ok",
-    "2026-11-14 15:30": "ok",
-    "2026-11-14 17:30": "ok",
-    "2026-11-14 19:30": "ok",
-    "2026-11-14 20:00": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -35,7 +29,7 @@
     "mwdmob3sgr9",
     "mwcsg5jadoh"
   ],
-  "statsEl": "2026-11-15T02:01:41.090Z",
+  "statsEl": "2026-11-15T03:01:35.764Z",
   "stUltima": {
     "cuando": "2026-11-14T23:01:51.169Z",
     "franja": "20:00",
@@ -43,16 +37,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-15T02:38:58.234Z",
+    "cuando": "2026-11-15T03:01:25.519Z",
     "cola": 34,
     "enRepo": 34,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-11-14 11:00": "ok",
-      "2026-11-14 21:15": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -152,38 +143,27 @@
       "mrcmwfq9bj2qcprdz-ig": "2026-11-14T14:02:10.091Z",
       "mrcmwezr7g7je100z-ig": "2026-11-15T01:01:59.057Z"
     },
-    "usadosDia": {
-      "mrcmwfq9bj2qcprdz-ig": "2026-11-14",
-      "mrcmwezr7g7je100z-ig": "2026-11-14"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-14",
+      "dia": "2026-11-15",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarin",
     "prueba": {
-      "dia": "2026-11-14",
+      "dia": "2026-11-15",
       "h": "",
       "de": "",
       "tramo": ""
     },
-    "pruebaRec": [
-      {
-        "t": "2026-11-11T20:02:08.988Z",
-        "tramo": "tarde"
-      }
-    ],
+    "pruebaRec": [],
     "pruebaUlt": "2026-11-11",
     "repruebaUlt": "2026-11-11"
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-14 08:00": "ok",
-      "2026-11-14 19:45": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -277,23 +257,20 @@
       "mrcmwcgig6hy2giju-fb": "2026-11-14T11:01:38.125Z",
       "mrcmw0ngf5wgivdho-fb": "2026-11-14T23:01:55.856Z"
     },
-    "usadosDia": {
-      "mrcmwcgig6hy2giju-fb": "2026-11-14",
-      "mrcmw0ngf5wgivdho-fb": "2026-11-14"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-14",
+      "dia": "2026-11-15",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 16:45.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Silmar",
     "prueba": {
-      "dia": "2026-11-14",
-      "h": "08:00",
-      "de": "16:45",
-      "tramo": "primera mañana"
+      "dia": "2026-11-15",
+      "h": "",
+      "de": "",
+      "tramo": ""
     },
     "pruebaRec": [
       {
@@ -333,13 +310,7 @@
     "mwdmob3sgr9": "2026-11-14T23:01:39.674Z",
     "mwcsg5jadoh": "2026-11-14T23:01:51.169Z"
   },
-  "stUsadosDia": {
-    "mw9hq4ldr0a": "2026-11-14",
-    "mwbhvyjvxia": "2026-11-14",
-    "mwgbhcuvdb0": "2026-11-14",
-    "mwdmob3sgr9": "2026-11-14",
-    "mwcsg5jadoh": "2026-11-14"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-11-11T18:01:44.898Z",
@@ -433,10 +404,10 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-11-11T18:01:44.898Z",
   "stPrueba": {
-    "dia": "2026-11-14",
-    "h": "",
-    "de": "",
-    "tramo": ""
+    "dia": "2026-11-15",
+    "h": "08:00",
+    "de": "12:45",
+    "tramo": "primera mañana"
   },
   "stPruebaRec": [],
   "agendaInicial": {
@@ -444,10 +415,11 @@
     "feed-ig/config.json": "ya-tenia",
     "feed-fb/config.json": "ya-tenia"
   },
-  "stPruebaUlt": "2026-11-01",
-  "stRepruebaUlt": "2026-11-01",
+  "stPruebaUlt": "2026-11-15",
+  "stRepruebaUlt": "2026-11-15",
   "provUlt": {
     "cuando": "2026-11-14T14:26:11.114Z",
     "n": 1
-  }
+  },
+  "stInfoPrueba": "Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45."
 }
