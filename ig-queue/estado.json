@@ -5,9 +5,7 @@
     "2026-11-15 08:00": "ok",
     "2026-11-15 15:00": "ok",
     "2026-11-15 18:00": "ok",
-    "2026-11-15 19:30": {
-      "intentos": 1
-    },
+    "2026-11-15 19:30": "ok",
     "2026-11-15 20:00": "ok"
   },
   "stUsados": [
@@ -39,22 +37,22 @@
     "mwf0qmmpll8",
     "mvr0jg7ros9",
     "mwfq9hkkpel",
-    "mwfq8o72718"
+    "mwfq8o72718",
+    "mweub8xgwzj"
   ],
   "statsEl": "2026-11-15T23:02:25.791Z",
   "stUltima": {
-    "cuando": "2026-11-15T23:02:15.900Z",
-    "franja": "20:00",
+    "cuando": "2026-11-15T23:49:26.680Z",
+    "franja": "19:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-15T23:01:37.289Z",
+    "cuando": "2026-11-15T23:49:10.915Z",
     "cola": 35,
     "enRepo": 35,
     "pendientes": [
-      "19:30",
-      "20:00"
+      "19:30"
     ]
   },
   "fdig": {
@@ -308,7 +306,7 @@
     "menos": {}
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwfq8o72718",
+  "stUltimaId": "mweub8xgwzj",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -335,13 +333,15 @@
     "mwf0qmmpll8": "2026-11-15T12:02:22.742Z",
     "mvr0jg7ros9": "2026-11-15T18:01:42.458Z",
     "mwfq9hkkpel": "2026-11-15T21:02:23.525Z",
-    "mwfq8o72718": "2026-11-15T23:02:15.900Z"
+    "mwfq8o72718": "2026-11-15T23:02:15.900Z",
+    "mweub8xgwzj": "2026-11-15T23:49:26.680Z"
   },
   "stUsadosDia": {
     "mwf0qmmpll8": "2026-11-15",
     "mvr0jg7ros9": "2026-11-15",
     "mwfq9hkkpel": "2026-11-15",
-    "mwfq8o72718": "2026-11-15"
+    "mwfq8o72718": "2026-11-15",
+    "mweub8xgwzj": "2026-11-15"
   },
   "autoBase": {
     "feed-ig/config.json": {
