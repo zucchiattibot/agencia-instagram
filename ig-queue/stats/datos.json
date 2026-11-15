@@ -1059,32 +1059,38 @@
     "18643587985022785": {
       "t": "2026-11-14T18:57:29+0000",
       "tipo": "IMAGE",
-      "a": 79,
-      "v": 91
+      "a": 81,
+      "v": 95
     },
     "18037096346670690": {
       "t": "2026-11-14T21:01:27+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 79
+      "a": 71,
+      "v": 82
     },
     "17986274777902502": {
       "t": "2026-11-14T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 71
+      "a": 65,
+      "v": 73
     },
     "18468413176189824": {
       "t": "2026-11-14T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 70
+      "a": 67,
+      "v": 72
     },
     "18120680810063106": {
       "t": "2026-11-15T12:01:49+0000",
       "tipo": "VIDEO",
-      "a": 41,
-      "v": 44
+      "a": 44,
+      "v": 53
+    },
+    "18094047185217852": {
+      "t": "2026-11-15T18:01:32+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1131,11 +1137,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-15T17:01:27.337Z"
+    "el": "2026-11-15T18:01:44.596Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 29972,
+    "views": 29990,
     "profile_views": 101,
     "accounts_engaged": 283
   },
@@ -1174,8 +1180,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 28,
+      "reach": 21,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -2168,7 +2174,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-15T17:01:37.153Z",
+  "actualizado": "2026-11-15T18:01:53.631Z",
   "aud": {
     "edad": [
       {
