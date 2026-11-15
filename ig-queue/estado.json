@@ -1,7 +1,11 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-15 08:00": {
+      "intentos": 1
+    }
+  },
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -29,18 +33,20 @@
     "mwdmob3sgr9",
     "mwcsg5jadoh"
   ],
-  "statsEl": "2026-11-15T10:01:29.219Z",
+  "statsEl": "2026-11-15T11:01:48.012Z",
   "stUltima": {
-    "cuando": "2026-11-14T23:01:51.169Z",
-    "franja": "20:00",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-15T11:01:38.066Z",
+    "franja": "08:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-15T10:01:19.024Z",
+    "cuando": "2026-11-15T11:01:27.410Z",
     "cola": 34,
     "enRepo": 34,
-    "pendientes": []
+    "pendientes": [
+      "08:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -421,5 +427,6 @@
     "cuando": "2026-11-14T14:26:11.114Z",
     "n": 1
   },
-  "stInfoPrueba": "Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45."
+  "stInfoPrueba": "Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:45.",
+  "stError": "Instagram no pudo procesar el archivo (ERROR)."
 }
