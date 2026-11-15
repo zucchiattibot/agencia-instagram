@@ -1053,32 +1053,32 @@
     "17975342166175552": {
       "t": "2026-11-14T12:01:32+0000",
       "tipo": "IMAGE",
-      "a": 54,
+      "a": 56,
       "v": 66
     },
     "18643587985022785": {
       "t": "2026-11-14T18:57:29+0000",
       "tipo": "IMAGE",
-      "a": 35,
-      "v": 44
+      "a": 39,
+      "v": 47
     },
     "18037096346670690": {
       "t": "2026-11-14T21:01:27+0000",
       "tipo": "IMAGE",
-      "a": 19,
-      "v": 27
+      "a": 22,
+      "v": 31
     },
     "17986274777902502": {
       "t": "2026-11-14T23:01:45+0000",
       "tipo": "IMAGE",
-      "a": 7,
-      "v": 11
+      "a": 15,
+      "v": 18
     },
     "18468413176189824": {
       "t": "2026-11-14T23:01:33+0000",
       "tipo": "IMAGE",
-      "a": 6,
-      "v": 12
+      "a": 16,
+      "v": 18
     }
   },
   "seguidores": {
@@ -1122,17 +1122,30 @@
     "username": "agenciaalbor",
     "followers_count": 1398,
     "follows_count": 664,
-    "media_count": 661,
+    "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-15T00:01:28.052Z"
+    "el": "2026-11-15T01:02:01.256Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 30344,
+    "views": 30377,
     "profile_views": 101,
     "accounts_engaged": 280
   },
   "posts": [
+    {
+      "id": "18094701125294347",
+      "timestamp": "2026-11-15T01:01:52+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DfvjZSlAd3q/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18108372146360305",
       "timestamp": "2026-11-14T14:40:41+0000",
@@ -1154,7 +1167,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
+      "reach": 15,
       "views": 22,
       "saved": 0,
       "shares": 0
@@ -1168,7 +1181,7 @@
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 43,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -1285,7 +1298,7 @@
       "comments_count": 0,
       "caption": "Hacer un budín casero sin renegar para que se desmolde sano y salvo ya dejó de ser un milagro 🍰✨ Con este molde cuadrado de silicona premium de la colección Super Repostería te ahorrás los dolores de cabeza de que se pegue todo. Te esperamos en Maipú 175, Agencia Albor para que te lo lleves. Comentá MOLDE y te guardamos el tuyo.\n#moldesdesilicona #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 16,
-      "views": 30,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -2148,7 +2161,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-15T00:01:38.055Z",
+  "actualizado": "2026-11-15T01:02:12.685Z",
   "aud": {
     "edad": [
       {
@@ -2219,7 +2232,7 @@
           "25-34",
           "M"
         ],
-        "v": 80
+        "v": 79
       },
       {
         "d": [
@@ -2302,13 +2315,25 @@
     "ciudades": [
       {
         "d": [
+          "La Islita, Santiago Metropolitan Region"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Merlo, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
-          "Dudignac, Buenos Aires"
+          "Chivilcoy, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Santa Ana, Corrientes"
         ],
         "v": 1
       },
@@ -2326,12 +2351,6 @@
       },
       {
         "d": [
-          "Turin, Piedmont"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
@@ -2345,12 +2364,6 @@
       {
         "d": [
           "Caburé-i, Misiones"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Tijuana, Baja California"
         ],
         "v": 1
       },
@@ -2374,25 +2387,19 @@
       },
       {
         "d": [
-          "Akure, Ondo State"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "9 de Julio, Buenos Aires"
         ],
-        "v": 11
-      },
-      {
-        "d": [
-          "Río Cuarto, Córdoba"
-        ],
-        "v": 1
+        "v": 12
       },
       {
         "d": [
           "Ingeniero Budge, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Río Cuarto, Córdoba"
         ],
         "v": 1
       },
@@ -2404,13 +2411,13 @@
       },
       {
         "d": [
-          "Mar del Plata, Buenos Aires"
+          "Las Toscas, Buenos Aires"
         ],
-        "v": 5
+        "v": 4
       },
       {
         "d": [
-          "Las Toscas, Buenos Aires"
+          "Mar del Plata, Buenos Aires"
         ],
         "v": 5
       },
@@ -2419,6 +2426,12 @@
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 28
+      },
+      {
+        "d": [
+          "Paraná, Entre Rios"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2440,19 +2453,7 @@
       },
       {
         "d": [
-          "La Lucila, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "La Rioja, La Rioja"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Pergamino, Buenos Aires"
+          "Munro, Buenos Aires"
         ],
         "v": 1
       },
@@ -2460,13 +2461,7 @@
         "d": [
           "Quiroga, Buenos Aires"
         ],
-        "v": 6
-      },
-      {
-        "d": [
-          "Panama City, Panamá Province"
-        ],
-        "v": 2
+        "v": 5
       },
       {
         "d": [
@@ -2476,15 +2471,21 @@
       },
       {
         "d": [
-          "Villa de la Quebrada, San Luis"
+          "Panama City, Panamá Province"
         ],
         "v": 2
       },
       {
         "d": [
-          "Manuel Ocampo, Buenos Aires"
+          "Lobos, Buenos Aires"
         ],
         "v": 1
+      },
+      {
+        "d": [
+          "Villa de la Quebrada, San Luis"
+        ],
+        "v": 2
       },
       {
         "d": [
@@ -2494,9 +2495,15 @@
       },
       {
         "d": [
+          "Olavarría, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1072
+        "v": 1070
       },
       {
         "d": [
@@ -2557,6 +2564,12 @@
           "Rosario, Santa Fe"
         ],
         "v": 4
+      },
+      {
+        "d": [
+          "Sáenz Peña, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2642,7 +2655,7 @@
         "d": [
           "AR"
         ],
-        "v": 1339
+        "v": 1338
       },
       {
         "d": [
@@ -2669,7 +2682,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-14T04:01:44.434Z"
+    "el": "2026-11-15T01:02:09.636Z"
   },
   "dias": {
     "2026-10-11": {
