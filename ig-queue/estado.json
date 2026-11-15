@@ -32,7 +32,7 @@
     "mwcsg5jadoh",
     "mwf0qmmpll8"
   ],
-  "statsEl": "2026-11-15T15:01:37.506Z",
+  "statsEl": "2026-11-15T16:01:32.215Z",
   "stUltima": {
     "cuando": "2026-11-15T12:02:22.742Z",
     "franja": "08:00",
@@ -40,9 +40,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-15T15:01:23.064Z",
-    "cola": 34,
-    "enRepo": 34,
+    "cuando": "2026-11-15T16:01:21.562Z",
+    "cola": 35,
+    "enRepo": 35,
     "pendientes": []
   },
   "fdig": {
@@ -274,7 +274,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 13 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 12 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-15",
