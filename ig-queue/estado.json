@@ -34,7 +34,7 @@
     "mwfq8o72718",
     "mweub8xgwzj"
   ],
-  "statsEl": "2026-11-16T11:01:33.801Z",
+  "statsEl": "2026-11-16T12:01:36.691Z",
   "stUltima": {
     "cuando": "2026-11-15T23:49:26.680Z",
     "franja": "19:30",
@@ -42,7 +42,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-16T11:01:25.552Z",
+    "cuando": "2026-11-16T12:01:26.168Z",
     "cola": 35,
     "enRepo": 35,
     "pendientes": []
