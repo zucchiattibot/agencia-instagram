@@ -39,7 +39,7 @@
     "mwhzbofe18y",
     "mw6vt3ed2vg"
   ],
-  "statsEl": "2026-11-16T20:02:27.048Z",
+  "statsEl": "2026-11-16T21:01:45.414Z",
   "stUltima": {
     "cuando": "2026-11-16T20:01:42.016Z",
     "franja": "16:45",
@@ -47,12 +47,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-16T20:01:24.041Z",
+    "cuando": "2026-11-16T21:01:34.884Z",
     "cola": 34,
     "enRepo": 34,
-    "pendientes": [
-      "16:45"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -300,7 +298,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:45.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:45.",
     "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-16",
