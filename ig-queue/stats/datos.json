@@ -1102,25 +1102,31 @@
       "t": "2026-11-15T23:02:08+0000",
       "tipo": "IMAGE",
       "a": 68,
-      "v": 72
+      "v": 76
     },
     "18156292303543283": {
       "t": "2026-11-15T23:49:18+0000",
       "tipo": "IMAGE",
       "a": 64,
-      "v": 67
+      "v": 70
     },
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
       "a": 37,
-      "v": 43
+      "v": 46
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 21,
-      "v": 26
+      "a": 24,
+      "v": 32
+    },
+    "18100019840112019": {
+      "t": "2026-11-16T23:01:34+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1168,11 +1174,11 @@
     "follows_count": 664,
     "media_count": 663,
     "id": "28888466970748824",
-    "el": "2026-11-16T22:01:34.279Z"
+    "el": "2026-11-16T23:01:44.581Z"
   },
   "res30": {
     "reach": 4764,
-    "views": 29165,
+    "views": 29183,
     "profile_views": 97,
     "accounts_engaged": 279
   },
@@ -1185,8 +1191,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 7,
+      "views": 15,
       "saved": 0,
       "shares": 0
     },
@@ -1237,7 +1243,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 37,
+      "reach": 38,
       "views": 74,
       "saved": 0,
       "shares": 0
@@ -2218,7 +2224,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-16T22:01:42.972Z",
+  "actualizado": "2026-11-16T23:01:55.733Z",
   "aud": {
     "edad": [
       {
