@@ -1089,26 +1089,26 @@
     "18094047185217852": {
       "t": "2026-11-15T18:01:32+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 76
+      "a": 69,
+      "v": 78
     },
     "17930522307427374": {
       "t": "2026-11-15T21:01:51+0000",
       "tipo": "VIDEO",
-      "a": 50,
-      "v": 60
+      "a": 53,
+      "v": 61
     },
     "17967403884248704": {
       "t": "2026-11-15T23:02:08+0000",
       "tipo": "IMAGE",
-      "a": 41,
-      "v": 44
+      "a": 43,
+      "v": 45
     },
     "18156292303543283": {
       "t": "2026-11-15T23:49:18+0000",
       "tipo": "IMAGE",
-      "a": 35,
-      "v": 37
+      "a": 37,
+      "v": 39
     }
   },
   "seguidores": {
@@ -1156,11 +1156,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-16T13:01:30.731Z"
+    "el": "2026-11-16T13:59:42.621Z"
   },
   "res30": {
     "reach": 4754,
-    "views": 28960,
+    "views": 28973,
     "profile_views": 97,
     "accounts_engaged": 279
   },
@@ -1173,8 +1173,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 122,
-      "views": 143,
+      "reach": 123,
+      "views": 144,
       "saved": 0,
       "shares": 0
     },
@@ -1199,8 +1199,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 31,
+      "reach": 24,
+      "views": 32,
       "saved": 0,
       "shares": 0
     },
@@ -2193,7 +2193,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-16T13:01:40.364Z",
+  "actualizado": "2026-11-16T13:59:49.933Z",
   "aud": {
     "edad": [
       {
