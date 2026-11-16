@@ -1089,32 +1089,32 @@
     "18094047185217852": {
       "t": "2026-11-15T18:01:32+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 87
+      "a": 77,
+      "v": 90
     },
     "17930522307427374": {
       "t": "2026-11-15T21:01:51+0000",
       "tipo": "VIDEO",
-      "a": 63,
-      "v": 71
+      "a": 65,
+      "v": 76
     },
     "17967403884248704": {
       "t": "2026-11-15T23:02:08+0000",
       "tipo": "IMAGE",
-      "a": 54,
-      "v": 57
+      "a": 58,
+      "v": 63
     },
     "18156292303543283": {
       "t": "2026-11-15T23:49:18+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 49
+      "a": 50,
+      "v": 54
     },
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 5,
+      "v": 12
     }
   },
   "seguidores": {
@@ -1162,11 +1162,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-16T17:01:45.037Z"
+    "el": "2026-11-16T18:01:31.155Z"
   },
   "res30": {
     "reach": 4754,
-    "views": 29022,
+    "views": 29048,
     "profile_views": 97,
     "accounts_engaged": 279
   },
@@ -1193,7 +1193,7 @@
       "comments_count": 0,
       "caption": "¿Quién iba a decir que ibas a poder tener de nuevo a Orko, He-Man, Skeletor y Battle Cat en la repisa de tu casa? 🗡️ Volvieron esos personajes que marcaron las tardes de los 80 con un nivel de detalle que da gusto. Pasá por Agencia Albor y reservalos antes de que vuelen.\n\nComentá HE-MAN y te paso toda la info.\n\n#heman #mastersoftheuniverse #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 11,
-      "views": 34,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -1218,8 +1218,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
-      "views": 65,
+      "reach": 36,
+      "views": 70,
       "saved": 0,
       "shares": 0
     },
@@ -1244,8 +1244,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
-      "views": 23,
+      "reach": 21,
+      "views": 25,
       "saved": 0,
       "shares": 0
     },
@@ -2199,7 +2199,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-16T17:01:55.868Z",
+  "actualizado": "2026-11-16T18:01:40.517Z",
   "aud": {
     "edad": [
       {
@@ -2270,14 +2270,14 @@
           "25-34",
           "M"
         ],
-        "v": 79
+        "v": 78
       },
       {
         "d": [
           "35-44",
           "M"
         ],
-        "v": 150
+        "v": 151
       },
       {
         "d": [
@@ -2365,18 +2365,6 @@
       },
       {
         "d": [
-          "Chivilcoy, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Santa Ana, Corrientes"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -2415,7 +2403,13 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 22
+        "v": 20
+      },
+      {
+        "d": [
+          "Lincoln, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2431,13 +2425,7 @@
       },
       {
         "d": [
-          "Ingeniero Budge, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Río Cuarto, Córdoba"
+          "Colonia San Bartolomé, Córdoba"
         ],
         "v": 1
       },
@@ -2449,13 +2437,13 @@
       },
       {
         "d": [
-          "Las Toscas, Buenos Aires"
+          "Mar del Plata, Buenos Aires"
         ],
-        "v": 4
+        "v": 5
       },
       {
         "d": [
-          "Mar del Plata, Buenos Aires"
+          "Las Toscas, Buenos Aires"
         ],
         "v": 5
       },
@@ -2467,7 +2455,7 @@
       },
       {
         "d": [
-          "Paraná, Entre Rios"
+          "Azul, Buenos Aires"
         ],
         "v": 1
       },
@@ -2491,7 +2479,7 @@
       },
       {
         "d": [
-          "Munro, Buenos Aires"
+          "San Antonio Oeste, Río Negro"
         ],
         "v": 1
       },
@@ -2515,15 +2503,15 @@
       },
       {
         "d": [
-          "Lobos, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Pinamar, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2541,7 +2529,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1070
+        "v": 1072
       },
       {
         "d": [
@@ -2553,7 +2541,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 16
+        "v": 15
       },
       {
         "d": [
@@ -2569,6 +2557,12 @@
       },
       {
         "d": [
+          "Salliqueló, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Bellocq, Buenos Aires"
         ],
         "v": 2
@@ -2578,6 +2572,12 @@
           "San Carlos de Bolívar, Buenos Aires"
         ],
         "v": 9
+      },
+      {
+        "d": [
+          "Ayacucho, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2605,7 +2605,7 @@
       },
       {
         "d": [
-          "Sáenz Peña, Buenos Aires"
+          "San Vicente, Buenos Aires"
         ],
         "v": 1
       },
@@ -2720,7 +2720,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-15T21:02:32.716Z"
+    "el": "2026-11-16T18:01:37.953Z"
   },
   "dias": {
     "2026-10-11": {
