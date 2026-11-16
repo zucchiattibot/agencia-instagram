@@ -1,7 +1,11 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-16 12:15": {
+      "intentos": 1
+    }
+  },
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -34,18 +38,20 @@
     "mwfq8o72718",
     "mweub8xgwzj"
   ],
-  "statsEl": "2026-11-16T15:01:38.224Z",
+  "statsEl": "2026-11-16T16:02:01.488Z",
   "stUltima": {
-    "cuando": "2026-11-15T23:49:26.680Z",
-    "franja": "19:30",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-16T16:01:48.431Z",
+    "franja": "12:15",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-16T15:01:28.056Z",
+    "cuando": "2026-11-16T16:01:22.439Z",
     "cola": 35,
     "enRepo": 35,
-    "pendientes": []
+    "pendientes": [
+      "12:15"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -470,5 +476,6 @@
     "len": 4,
     "h": "09:00"
   },
-  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (09:00) para comparar el alcance."
+  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (09:00) para comparar el alcance.",
+  "stError": "Instagram no pudo procesar el archivo (ERROR)."
 }
