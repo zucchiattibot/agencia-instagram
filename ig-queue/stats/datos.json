@@ -1089,26 +1089,32 @@
     "18094047185217852": {
       "t": "2026-11-15T18:01:32+0000",
       "tipo": "IMAGE",
-      "a": 75,
+      "a": 76,
       "v": 87
     },
     "17930522307427374": {
       "t": "2026-11-15T21:01:51+0000",
       "tipo": "VIDEO",
-      "a": 59,
-      "v": 68
+      "a": 63,
+      "v": 71
     },
     "17967403884248704": {
       "t": "2026-11-15T23:02:08+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 53
+      "a": 54,
+      "v": 57
     },
     "18156292303543283": {
       "t": "2026-11-15T23:49:18+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 47
+      "a": 49,
+      "v": 49
+    },
+    "18141900226710948": {
+      "t": "2026-11-16T17:01:33+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1156,11 +1162,11 @@
     "follows_count": 664,
     "media_count": 662,
     "id": "28888466970748824",
-    "el": "2026-11-16T16:01:50.299Z"
+    "el": "2026-11-16T17:01:45.037Z"
   },
   "res30": {
     "reach": 4754,
-    "views": 29008,
+    "views": 29022,
     "profile_views": 97,
     "accounts_engaged": 279
   },
@@ -1213,7 +1219,7 @@
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 34,
-      "views": 64,
+      "views": 65,
       "saved": 0,
       "shares": 0
     },
@@ -1238,8 +1244,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 22,
+      "reach": 20,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -2193,7 +2199,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-16T16:02:01.488Z",
+  "actualizado": "2026-11-16T17:01:55.868Z",
   "aud": {
     "edad": [
       {
