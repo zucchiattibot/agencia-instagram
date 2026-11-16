@@ -1101,26 +1101,26 @@
     "17967403884248704": {
       "t": "2026-11-15T23:02:08+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 70
+      "a": 68,
+      "v": 72
     },
     "18156292303543283": {
       "t": "2026-11-15T23:49:18+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 64
+      "a": 64,
+      "v": 67
     },
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 32,
-      "v": 39
+      "a": 37,
+      "v": 43
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 11,
-      "v": 18
+      "a": 21,
+      "v": 26
     }
   },
   "seguidores": {
@@ -1166,17 +1166,30 @@
     "username": "agenciaalbor",
     "followers_count": 1398,
     "follows_count": 664,
-    "media_count": 662,
+    "media_count": 663,
     "id": "28888466970748824",
-    "el": "2026-11-16T21:01:36.723Z"
+    "el": "2026-11-16T22:01:34.279Z"
   },
   "res30": {
-    "reach": 4754,
-    "views": 29138,
+    "reach": 4764,
+    "views": 29165,
     "profile_views": 97,
     "accounts_engaged": 279
   },
   "posts": [
+    {
+      "id": "18098498678146700",
+      "timestamp": "2026-11-16T22:01:29+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Df0YYDwFmiW/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18094701125294347",
       "timestamp": "2026-11-15T01:01:52+0000",
@@ -1225,7 +1238,7 @@
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 37,
-      "views": 73,
+      "views": 74,
       "saved": 0,
       "shares": 0
     },
@@ -1277,7 +1290,7 @@
       "comments_count": 0,
       "caption": "Arranquemos el año sabiendo qué energías\n se vienen, porque andar a ciegas con los planetas no es negocio. 🌟 Si ya estás pensando en cómo organizarte los próximos meses, pasá a encargar el tuyo por Maipú 175, Agencia Albor.\n\n#jimenalatorre #horoscopo2027 #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 38,
-      "views": 55,
+      "views": 57,
       "saved": 0,
       "shares": 0
     },
@@ -2205,7 +2218,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-16T21:01:45.414Z",
+  "actualizado": "2026-11-16T22:01:42.972Z",
   "aud": {
     "edad": [
       {
