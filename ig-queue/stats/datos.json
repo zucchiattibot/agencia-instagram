@@ -1113,26 +1113,32 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 86,
+      "a": 87,
       "v": 103
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 85
+      "a": 76,
+      "v": 86
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 71
+      "a": 66,
+      "v": 74
     },
     "18122052760991294": {
       "t": "2026-11-17T12:01:35+0000",
       "tipo": "IMAGE",
-      "a": 26,
-      "v": 29
+      "a": 28,
+      "v": 32
+    },
+    "18110864450243811": {
+      "t": "2026-11-17T15:01:55+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1181,11 +1187,11 @@
     "follows_count": 664,
     "media_count": 664,
     "id": "28888466970748824",
-    "el": "2026-11-17T14:01:31.144Z"
+    "el": "2026-11-17T15:02:30.720Z"
   },
   "res30": {
     "reach": 4694,
-    "views": 27998,
+    "views": 28010,
     "profile_views": 92,
     "accounts_engaged": 275
   },
@@ -1198,7 +1204,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
+      "reach": 16,
       "views": 36,
       "saved": 0,
       "shares": 0
@@ -2244,7 +2250,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T14:01:43.844Z",
+  "actualizado": "2026-11-17T15:02:40.935Z",
   "aud": {
     "edad": [
       {
@@ -2273,14 +2279,14 @@
           "35-44",
           "F"
         ],
-        "v": 262
+        "v": 261
       },
       {
         "d": [
           "45-54",
           "F"
         ],
-        "v": 192
+        "v": 193
       },
       {
         "d": [
@@ -2398,12 +2404,6 @@
     "ciudades": [
       {
         "d": [
-          "La Islita, Santiago Metropolitan Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Merlo, Buenos Aires"
         ],
         "v": 2
@@ -2422,6 +2422,12 @@
       },
       {
         "d": [
+          "Palma de Mallorca, Balearic Islands"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Macaé, Rio de Janeiro (state)"
         ],
         "v": 2
@@ -2434,12 +2440,6 @@
       },
       {
         "d": [
-          "Caburé-i, Misiones"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Junín, Buenos Aires"
         ],
         "v": 2
@@ -2448,13 +2448,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 20
-      },
-      {
-        "d": [
-          "Lincoln, Buenos Aires"
-        ],
-        "v": 1
+        "v": 19
       },
       {
         "d": [
@@ -2470,7 +2464,7 @@
       },
       {
         "d": [
-          "Colonia San Bartolomé, Córdoba"
+          "Coronel Granada, Buenos Aires"
         ],
         "v": 1
       },
@@ -2500,12 +2494,6 @@
       },
       {
         "d": [
-          "Azul, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 2
@@ -2520,11 +2508,23 @@
         "d": [
           "Moctezuma, Buenos Aires"
         ],
-        "v": 17
+        "v": 16
       },
       {
         "d": [
-          "San Antonio Oeste, Río Negro"
+          "La Rioja, La Rioja"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Ciudadela, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Pergamino, Buenos Aires"
         ],
         "v": 1
       },
@@ -2533,6 +2533,12 @@
           "Quiroga, Buenos Aires"
         ],
         "v": 5
+      },
+      {
+        "d": [
+          "General La Madrid, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2548,13 +2554,31 @@
       },
       {
         "d": [
+          "Villa Gobernador Gálvez, Santa Fe"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
+          "Remedios de Escalada de San Martín, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Pinamar, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Aarhus, Central Denmark Region"
         ],
         "v": 1
       },
@@ -2574,7 +2598,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1072
+        "v": 1073
       },
       {
         "d": [
@@ -2586,7 +2610,7 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 15
+        "v": 17
       },
       {
         "d": [
@@ -2602,12 +2626,6 @@
       },
       {
         "d": [
-          "Salliqueló, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Bellocq, Buenos Aires"
         ],
         "v": 2
@@ -2620,13 +2638,13 @@
       },
       {
         "d": [
-          "Ayacucho, Buenos Aires"
+          "Venado Tuerto, Santa Fe"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
-          "Venado Tuerto, Santa Fe"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -2638,27 +2656,15 @@
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Rosario, Santa Fe"
         ],
         "v": 3
       },
       {
         "d": [
-          "Rosario, Santa Fe"
-        ],
-        "v": 4
-      },
-      {
-        "d": [
-          "San Vicente, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 14
+        "v": 13
       },
       {
         "d": [
@@ -2765,7 +2771,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-16T18:01:37.953Z"
+    "el": "2026-11-17T15:02:37.276Z"
   },
   "dias": {
     "2026-10-11": {
