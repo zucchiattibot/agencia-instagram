@@ -1113,20 +1113,20 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 72
+      "a": 65,
+      "v": 76
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 45,
-      "v": 53
+      "a": 48,
+      "v": 55
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 34
+      "a": 31,
+      "v": 37
     }
   },
   "seguidores": {
@@ -1166,19 +1166,20 @@
     "2026-11-13": 1399,
     "2026-11-14": 1398,
     "2026-11-15": 1398,
-    "2026-11-16": 1398
+    "2026-11-16": 1398,
+    "2026-11-17": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1398,
+    "followers_count": 1399,
     "follows_count": 664,
     "media_count": 664,
     "id": "28888466970748824",
-    "el": "2026-11-17T02:01:25.241Z"
+    "el": "2026-11-17T03:01:36.330Z"
   },
   "res30": {
     "reach": 4775,
-    "views": 29297,
+    "views": 29322,
     "profile_views": 98,
     "accounts_engaged": 279
   },
@@ -1191,8 +1192,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 12,
+      "reach": 11,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -1204,7 +1205,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
+      "reach": 16,
       "views": 27,
       "saved": 0,
       "shares": 0
@@ -1256,8 +1257,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 38,
-      "views": 74,
+      "reach": 39,
+      "views": 77,
       "saved": 0,
       "shares": 0
     },
@@ -2237,7 +2238,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T02:01:36.481Z",
+  "actualizado": "2026-11-17T03:01:44.978Z",
   "aud": {
     "edad": [
       {
@@ -3020,6 +3021,10 @@
     "2026-11-15": {
       "a": 109,
       "v": 468
+    },
+    "2026-11-16": {
+      "a": 113,
+      "v": 394
     }
   }
 }
