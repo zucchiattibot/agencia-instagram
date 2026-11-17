@@ -1113,20 +1113,26 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 82
+      "a": 76,
+      "v": 89
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 66
+      "a": 64,
+      "v": 73
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 43,
-      "v": 50
+      "a": 51,
+      "v": 59
+    },
+    "18122052760991294": {
+      "t": "2026-11-17T12:01:35+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1175,11 +1181,11 @@
     "follows_count": 664,
     "media_count": 664,
     "id": "28888466970748824",
-    "el": "2026-11-17T11:01:26.152Z"
+    "el": "2026-11-17T12:01:45.446Z"
   },
   "res30": {
-    "reach": 4684,
-    "views": 27899,
+    "reach": 4694,
+    "views": 27929,
     "profile_views": 92,
     "accounts_engaged": 275
   },
@@ -1192,8 +1198,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 27,
+      "reach": 14,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1244,7 +1250,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
+      "reach": 25,
       "views": 32,
       "saved": 0,
       "shares": 0
@@ -2238,7 +2244,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T11:01:36.901Z",
+  "actualizado": "2026-11-17T12:01:55.430Z",
   "aud": {
     "edad": [
       {
