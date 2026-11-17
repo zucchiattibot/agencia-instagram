@@ -41,7 +41,7 @@
     "mw6vt3ed2vg",
     "mweubd1si44"
   ],
-  "statsEl": "2026-11-16T23:01:55.733Z",
+  "statsEl": "2026-11-17T00:01:46.110Z",
   "stUltima": {
     "cuando": "2026-11-16T23:01:42.946Z",
     "franja": "20:00",
@@ -49,12 +49,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-16T23:01:27.310Z",
+    "cuando": "2026-11-17T00:01:27.817Z",
     "cola": 34,
     "enRepo": 34,
-    "pendientes": [
-      "20:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
@@ -197,7 +195,8 @@
   "fdfb": {
     "franjas": {
       "2026-11-16 10:30": "ok",
-      "2026-11-16 16:30": "ok"
+      "2026-11-16 16:30": "ok",
+      "2026-11-16 20:30": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -246,11 +245,12 @@
       "mrcmw0ngf5wgivdho-fb",
       "mrcmwc3g3lahafrpk-fb",
       "mrcmwcicymcarkzuz-fb",
-      "mrcmwba3w8i3doj45-fb"
+      "mrcmwba3w8i3doj45-fb",
+      "mrcmwfq9bj2qcprdz-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-16T20:02:12.900Z",
-      "franja": "16:30",
+      "cuando": "2026-11-17T00:01:36.170Z",
+      "franja": "20:30",
       "ok": 1,
       "fallos": 0
     },
@@ -296,11 +296,13 @@
       "mrcmw0ngf5wgivdho-fb": "2026-11-14T23:01:55.856Z",
       "mrcmwc3g3lahafrpk-fb": "2026-11-15T15:01:28.189Z",
       "mrcmwcicymcarkzuz-fb": "2026-11-16T13:59:40.998Z",
-      "mrcmwba3w8i3doj45-fb": "2026-11-16T20:02:12.898Z"
+      "mrcmwba3w8i3doj45-fb": "2026-11-16T20:02:12.898Z",
+      "mrcmwfq9bj2qcprdz-fb": "2026-11-17T00:01:36.169Z"
     },
     "usadosDia": {
       "mrcmwcicymcarkzuz-fb": "2026-11-16",
-      "mrcmwba3w8i3doj45-fb": "2026-11-16"
+      "mrcmwba3w8i3doj45-fb": "2026-11-16",
+      "mrcmwfq9bj2qcprdz-fb": "2026-11-16"
     },
     "carga": {
       "nivel": 0,
@@ -309,7 +311,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:45.",
-    "ultimaProv": "La Nación",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-16",
       "h": "10:30",
