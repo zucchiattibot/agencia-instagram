@@ -906,58 +906,6 @@
       ]
     },
     {
-      "id": "mrcmwgiacmp4wlg4k-fb",
-      "matId": "rcmwgiacmp4wlg4k",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgiacmp4wlg4k.jpg",
-      "caption": "¿Te acordás de las tardes enteras jugando con los muñecos de Eternia en el suelo de tu casa?\n\nAhora podés revivir esos momentos sumando a Sorceress, Man-At-Arms y Ram Man en una edición de colección impecable.\n\nCada entrega viene acompañada por un fascículo exclusivo con bocetos originales, fichas técnicas y toda la historia del mundo de He-Man.\n\nTe esperamos en Maipú 175, Agencia Albor, Maipú 175, para que reserves tus entregas o nos mandes un mensaje privado.\n\n#heman #carloscasares #juguetes\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615542177,
-      "prov": "La nación",
-      "shas": [
-        "c8dd898ab6a11096929ee65fb64dc39eaffecc2b"
-      ]
-    },
-    {
-      "id": "mrcmwgia8bgkxhaqa-fb",
-      "matId": "rcmwgia8bgkxhaqa",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgia8bgkxhaqa.jpg",
-      "caption": "¿Te imaginabas de chico poder juntar a todos los personajes que hoy vuelven en esta edición de lujo para grandes coleccionistas?\n\nDesde He-Man y Skeletor hasta Battle Cat, Orko y Teela, cada número trae una pieza única acompañada por contenido exclusivo para fanáticos.\n\nArrancá la serie llevándote la primera entrega con la figura y el fascículo a solo $34.990.\n\nTe esperamos para hacer tu reserva en Maipú 175, Agencia Albor.\n\n#heman #carloscasares #juguetes\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615554119,
-      "prov": "La nación",
-      "shas": [
-        "0a0ceb1a37e661ad07ae8393318d7c66fa0e8c64"
-      ]
-    },
-    {
-      "id": "mrcmwgi9sicb1gto8-fb",
-      "matId": "rcmwgi9sicb1gto8",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgi9sicb1gto8.jpg",
-      "caption": "Volver a ver a Evil-Lyn, Trap Jaw, Beast Man y Mer-Man formados en la repisa es la mejor excusa para repasar los viejos sábados frente a la tele.\n\nLa colección oficial de Masters of the Universe de Colecciones La Nación trae las estatuillas de los héroes y villanos de Eternia con un nivel de detalle excelente.\n\nCada entrega incluye un fascículo coleccionable de gran calidad con fichas técnicas, bocetos originales e historias imperdibles de todo el universo de la serie.\n\nSi te faltan estas figuras o querés empezar a armar la vitrina completa con los personajes clás\nicos, pasá a ver cómo viene la entrega.\n\nTe esperamos en Maipú 175, Agencia Albor, para consultarnos por la disponibilidad y reservar la tuya antes de que vuelen.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#mastersoftheuniverse #figurasdecoleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615573735,
-      "prov": "La nación",
-      "shas": [
-        "6aac2eefc56a4b8f69c5dbc5b52423f948817ccf"
-      ]
-    },
-    {
-      "id": "mrcmwgi9n0hi5ye26-fb",
-      "matId": "rcmwgi9n0hi5ye26",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgi9n0hi5ye26.jpg",
-      "caption": "Aquellos domingos frente a la tele esperando las aventuras de Eternia ahora se transforman en una serie de estatuillas oficiales con un nivel de diseño que sorprende a cualquiera.\n\nLa propuesta abarca un total de trece entregas imperdibles que reúnen a He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn.\n\nEl primer número con He-Man y su respectivo fascículo coleccionable está a $34.990 para empezar a armar la colección desde cero.\n\nPodés consultar lo que necesites o hacer tu encargo mandándonos un mensaje o pasando directamente por Maipú 175, Agencia Albor, Carlos Casares.\n\n#juguetes #carloscasares #mastersoftheuniverse\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794620790019,
-      "prov": "La nación",
-      "shas": [
-        "19eddf2d5b23f4196895b9852adfc389c9f3ce35"
-      ]
-    },
-    {
       "id": "mrcmwk23qz3myhqof-fb",
       "matId": "rcmwk23qz3myhqof",
       "tipo": "video",
@@ -969,6 +917,27 @@
       "shas": [
         "7e749aada2f609948169b60ebcc0282389bca878"
       ]
+    },
+    {
+      "id": "cmwk3gxh6-fb",
+      "matId": "rcmwgiacmp4wlg4k",
+      "matIds": [
+        "rcmwgiacmp4wlg4k",
+        "rcmwgia8bgkxhaqa",
+        "rcmwgi9n0hi5ye26",
+        "rcmwgi9sicb1gto8"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmwgiacmp4wlg4k.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmwgiacmp4wlg4k.jpg",
+        "ig-queue/feed/media/rcmwgia8bgkxhaqa.jpg",
+        "ig-queue/feed/media/rcmwgi9n0hi5ye26.jpg",
+        "ig-queue/feed/media/rcmwgi9sicb1gto8.jpg"
+      ],
+      "caption": "¿Te acordás de las tardes enteras jugando con los muñecos de Eternia en el suelo de tu casa?\n\nAhora podés revivir esos momentos sumando a Sorceress, Man-At-Arms y Ram Man en una edición de colección impecable.\n\nCada entrega viene acompañada por un fascículo exclusivo con bocetos originales, fichas técnicas y toda la historia del mundo de He-Man.\n\nTe esperamos en Maipú 175, Agencia Albor, Maipú 175, para que reserves tus entregas o nos mandes un mensaje privado.\n\n#heman #carloscasares #juguetes\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1794620790019
     }
   ],
   "publicadas": [
