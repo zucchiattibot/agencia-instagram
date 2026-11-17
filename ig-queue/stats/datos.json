@@ -1113,32 +1113,32 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 87,
-      "v": 103
+      "a": 90,
+      "v": 108
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 86
+      "a": 79,
+      "v": 93
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 74
+      "a": 71,
+      "v": 78
     },
     "18122052760991294": {
       "t": "2026-11-17T12:01:35+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 32
+      "a": 36,
+      "v": 38
     },
     "18110864450243811": {
       "t": "2026-11-17T15:01:55+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 9,
+      "v": 15
     }
   },
   "seguidores": {
@@ -1185,17 +1185,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 664,
-    "media_count": 664,
+    "media_count": 665,
     "id": "28888466970748824",
-    "el": "2026-11-17T15:02:30.720Z"
+    "el": "2026-11-17T16:02:09.326Z"
   },
   "res30": {
     "reach": 4694,
-    "views": 28010,
+    "views": 28042,
     "profile_views": 92,
     "accounts_engaged": 275
   },
   "posts": [
+    {
+      "id": "17921222967526783",
+      "timestamp": "2026-11-17T16:01:59+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Df2T_aGDfn3/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18124585651926795",
       "timestamp": "2026-11-17T01:01:48+0000",
@@ -1412,8 +1425,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 64,
-      "views": 155,
+      "reach": 65,
+      "views": 156,
       "saved": 0,
       "shares": 0
     },
@@ -2250,7 +2263,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T15:02:40.935Z",
+  "actualizado": "2026-11-17T16:02:22.389Z",
   "aud": {
     "edad": [
       {

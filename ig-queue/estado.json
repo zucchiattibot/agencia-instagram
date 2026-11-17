@@ -41,7 +41,7 @@
     "mweubd1si44",
     "mwcieh6nv8x"
   ],
-  "statsEl": "2026-11-17T15:02:40.935Z",
+  "statsEl": "2026-11-17T16:02:22.389Z",
   "stUltima": {
     "cuando": "2026-11-17T15:02:29.136Z",
     "franja": "12:00",
@@ -49,15 +49,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-17T15:01:28.726Z",
+    "cuando": "2026-11-17T16:01:30.960Z",
     "cola": 35,
     "enRepo": 35,
-    "pendientes": [
-      "12:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-17 12:45": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -107,11 +107,12 @@
       "mrcmwfq9bj2qcprdz-ig",
       "mrcmwezr7g7je100z-ig",
       "mrcmwc3dla0legjug-ig",
-      "cmvqnd634-ig"
+      "cmvqnd634-ig",
+      "mrcmwk23qz3myhqof-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-17T01:01:53.237Z",
-      "franja": "22:00",
+      "cuando": "2026-11-17T16:02:06.571Z",
+      "franja": "12:45",
       "ok": 1,
       "fallos": 0
     },
@@ -159,9 +160,12 @@
       "mrcmwfq9bj2qcprdz-ig": "2026-11-14T14:02:10.091Z",
       "mrcmwezr7g7je100z-ig": "2026-11-15T01:01:59.057Z",
       "mrcmwc3dla0legjug-ig": "2026-11-16T22:01:32.836Z",
-      "cmvqnd634-ig": "2026-11-17T01:01:53.236Z"
+      "cmvqnd634-ig": "2026-11-17T01:01:53.236Z",
+      "mrcmwk23qz3myhqof-ig": "2026-11-17T16:02:06.571Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwk23qz3myhqof-ig": "2026-11-17"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-17",
@@ -169,7 +173,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "La nación",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-17",
       "h": "",
@@ -480,8 +484,8 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-17T01:54:43.716Z",
-    "n": 1
+    "cuando": "2026-11-17T16:01:30.808Z",
+    "n": 2
   },
   "stM": {
     "rot": 1,
