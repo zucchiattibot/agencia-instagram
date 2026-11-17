@@ -1113,19 +1113,19 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 66,
+      "a": 67,
       "v": 77
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 51,
+      "a": 52,
       "v": 58
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 36,
+      "a": 37,
       "v": 40
     }
   },
@@ -1175,12 +1175,12 @@
     "follows_count": 664,
     "media_count": 664,
     "id": "28888466970748824",
-    "el": "2026-11-17T04:01:26.577Z"
+    "el": "2026-11-17T05:01:26.964Z"
   },
   "res30": {
     "reach": 4775,
-    "views": 29342,
-    "profile_views": 98,
+    "views": 29354,
+    "profile_views": 99,
     "accounts_engaged": 279
   },
   "posts": [
@@ -1192,8 +1192,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 22,
+      "reach": 13,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -1202,11 +1202,11 @@
       "timestamp": "2026-11-16T22:01:29+0000",
       "media_type": "IMAGE",
       "permalink": "https://www.instagram.com/p/Df0YYDwFmiW/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 29,
+      "reach": 19,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1231,8 +1231,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién iba a decir que ibas a poder tener de nuevo a Orko, He-Man, Skeletor y Battle Cat en la repisa de tu casa? 🗡️ Volvieron esos personajes que marcaron las tardes de los 80 con un nivel de detalle que da gusto. Pasá por Agencia Albor y reservalos antes de que vuelen.\n\nComentá HE-MAN y te paso toda la info.\n\n#heman #mastersoftheuniverse #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 40,
+      "reach": 14,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -2238,7 +2238,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T04:01:35.761Z",
+  "actualizado": "2026-11-17T05:01:35.469Z",
   "aud": {
     "edad": [
       {
