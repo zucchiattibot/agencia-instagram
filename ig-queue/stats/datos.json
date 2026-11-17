@@ -1113,20 +1113,20 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 76
+      "a": 66,
+      "v": 77
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 48,
-      "v": 55
+      "a": 51,
+      "v": 58
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 31,
-      "v": 37
+      "a": 36,
+      "v": 40
     }
   },
   "seguidores": {
@@ -1175,11 +1175,11 @@
     "follows_count": 664,
     "media_count": 664,
     "id": "28888466970748824",
-    "el": "2026-11-17T03:01:36.330Z"
+    "el": "2026-11-17T04:01:26.577Z"
   },
   "res30": {
     "reach": 4775,
-    "views": 29322,
+    "views": 29342,
     "profile_views": 98,
     "accounts_engaged": 279
   },
@@ -1192,8 +1192,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 21,
+      "reach": 12,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -1205,8 +1205,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 27,
+      "reach": 18,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -2238,7 +2238,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T03:01:44.978Z",
+  "actualizado": "2026-11-17T04:01:35.761Z",
   "aud": {
     "edad": [
       {
