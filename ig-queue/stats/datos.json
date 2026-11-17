@@ -1125,26 +1125,26 @@
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 118
+      "a": 106,
+      "v": 124
     },
     "18122052760991294": {
       "t": "2026-11-17T12:01:35+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 84
+      "a": 83,
+      "v": 92
     },
     "18110864450243811": {
       "t": "2026-11-17T15:01:55+0000",
       "tipo": "VIDEO",
-      "a": 58,
-      "v": 78
+      "a": 68,
+      "v": 85
     },
     "17995258776060066": {
       "t": "2026-11-17T20:01:44+0000",
       "tipo": "IMAGE",
-      "a": 21,
-      "v": 30
+      "a": 31,
+      "v": 40
     }
   },
   "seguidores": {
@@ -1191,17 +1191,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 664,
-    "media_count": 665,
+    "media_count": 666,
     "id": "28888466970748824",
-    "el": "2026-11-17T21:01:38.469Z"
+    "el": "2026-11-17T22:02:08.023Z"
   },
   "res30": {
     "reach": 4714,
-    "views": 28279,
+    "views": 28323,
     "profile_views": 92,
     "accounts_engaged": 275
   },
   "posts": [
+    {
+      "id": "17978972040150900",
+      "timestamp": "2026-11-17T22:02:00+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Df29Oj8IKI-/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Sorceress, Man-At-Arms y Ram Man se suman para completar el universo de Eternia en tu repisa. 🦅🛡️\n\nLa colección de Masters of the Universe te trae las figuras oficiales de los héroes y villanos que marcaron una época, acompañadas de un fascículo exclusivo con fichas técnicas, bocetos originales y toda la historia secreta. 📖✨\n\nSon 13 personajes imperdibles para revivir la infancia: He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn. ⚔️\n\nCada entrega viene detallada al milímetro para los fanáticos que guardan los mejores recuerdos de la serie. \n\nPasá a reservar la tuya en Maipú 175, Agencia Albor, Carlos Casares. 📍\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17921222967526783",
       "timestamp": "2026-11-17T16:01:59+0000",
@@ -1210,8 +1223,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 18,
+      "reach": 17,
+      "views": 19,
       "saved": 0,
       "shares": 0
     },
@@ -1328,7 +1341,7 @@
       "comments_count": 0,
       "caption": "¿Pensaste en regalarle a esa persona especial el secreto para cortar el pan crocante sin esfuerzo y disfrutar un desayuno increíble? 🍞✨ \n\nUn detalle práctico y elegante que luce en cualquier cocina y transforma cada tostada en un momento único. \n\nPodés pasar a buscarlo por Maipú 175, Agencia Albor.\n\n#soklingen #carloscasares #historiasalamesa\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 22,
-      "views": 32,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -1392,7 +1405,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Reviví la magia de las tardes de lectura con las figuras oficiales de La Familia Peanuts. 🌼📚\nArrancá la colección con el primer fascículo y la dupla clásica por solo $24.990.\nTe esperamos en Maipú 175, Agencia Albor, Maipú 175 para encargar la tuya antes de que vuelen. 🏃‍♂️💨\n¿Qué personaje te gustaría que sea el próximo en sumarse a tu vitrina? 💬\n#charliebrown #carloscasares #peanuts\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 52,
+      "reach": 53,
       "views": 63,
       "saved": 0,
       "shares": 0
@@ -2269,7 +2282,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T21:01:47.799Z",
+  "actualizado": "2026-11-17T22:02:17.921Z",
   "aud": {
     "edad": [
       {

@@ -42,7 +42,7 @@
     "mweubd1si44",
     "mwcieh6nv8x"
   ],
-  "statsEl": "2026-11-17T21:01:47.799Z",
+  "statsEl": "2026-11-17T22:02:17.921Z",
   "stUltima": {
     "cuando": "2026-11-17T20:01:54.306Z",
     "franja": "16:15",
@@ -50,14 +50,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-17T21:01:23.661Z",
-    "cola": 35,
-    "enRepo": 35,
+    "cuando": "2026-11-17T22:01:26.584Z",
+    "cola": 41,
+    "enRepo": 41,
     "pendientes": []
   },
   "fdig": {
     "franjas": {
-      "2026-11-17 12:45": "ok"
+      "2026-11-17 12:45": "ok",
+      "2026-11-17 19:00": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -109,11 +110,12 @@
       "mrcmwezr7g7je100z-ig",
       "mrcmwc3dla0legjug-ig",
       "cmvqnd634-ig",
-      "mrcmwk23qz3myhqof-ig"
+      "mrcmwk23qz3myhqof-ig",
+      "cmwk3gxh6-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-17T16:02:06.571Z",
-      "franja": "12:45",
+      "cuando": "2026-11-17T22:02:06.391Z",
+      "franja": "19:00",
       "ok": 1,
       "fallos": 0
     },
@@ -162,10 +164,12 @@
       "mrcmwezr7g7je100z-ig": "2026-11-15T01:01:59.057Z",
       "mrcmwc3dla0legjug-ig": "2026-11-16T22:01:32.836Z",
       "cmvqnd634-ig": "2026-11-17T01:01:53.236Z",
-      "mrcmwk23qz3myhqof-ig": "2026-11-17T16:02:06.571Z"
+      "mrcmwk23qz3myhqof-ig": "2026-11-17T16:02:06.571Z",
+      "cmwk3gxh6-ig": "2026-11-17T22:02:06.389Z"
     },
     "usadosDia": {
-      "mrcmwk23qz3myhqof-ig": "2026-11-17"
+      "mrcmwk23qz3myhqof-ig": "2026-11-17",
+      "cmwk3gxh6-ig": "2026-11-17"
     },
     "carga": {
       "nivel": 0,
@@ -312,7 +316,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (12:15) para comparar el alcance por publicación.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (12:15) para comparar el alcance por publicación.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-17",
