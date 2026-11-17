@@ -1113,32 +1113,32 @@
     "18141900226710948": {
       "t": "2026-11-16T17:01:33+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 108
+      "a": 95,
+      "v": 118
     },
     "17958299598297295": {
       "t": "2026-11-16T20:01:32+0000",
       "tipo": "IMAGE",
-      "a": 79,
-      "v": 93
+      "a": 83,
+      "v": 105
     },
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 78
+      "a": 74,
+      "v": 91
     },
     "18122052760991294": {
       "t": "2026-11-17T12:01:35+0000",
       "tipo": "IMAGE",
-      "a": 36,
-      "v": 38
+      "a": 41,
+      "v": 49
     },
     "18110864450243811": {
       "t": "2026-11-17T15:01:55+0000",
       "tipo": "VIDEO",
-      "a": 9,
-      "v": 15
+      "a": 18,
+      "v": 31
     }
   },
   "seguidores": {
@@ -1187,11 +1187,11 @@
     "follows_count": 664,
     "media_count": 665,
     "id": "28888466970748824",
-    "el": "2026-11-17T16:02:09.326Z"
+    "el": "2026-11-17T17:01:32.366Z"
   },
   "res30": {
-    "reach": 4694,
-    "views": 28042,
+    "reach": 4704,
+    "views": 28077,
     "profile_views": 92,
     "accounts_engaged": 275
   },
@@ -1204,8 +1204,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 6,
+      "views": 8,
       "saved": 0,
       "shares": 0
     },
@@ -2263,7 +2263,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T16:02:22.389Z",
+  "actualizado": "2026-11-17T17:01:40.993Z",
   "aud": {
     "edad": [
       {
