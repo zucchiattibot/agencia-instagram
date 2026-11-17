@@ -882,58 +882,6 @@
       ]
     },
     {
-      "id": "mrcmwgiacmp4wlg4k-ig",
-      "matId": "rcmwgiacmp4wlg4k",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgiacmp4wlg4k.jpg",
-      "caption": "Sorceress, Man-At-Arms y Ram Man se suman para completar el universo de Eternia en tu repisa. 🦅🛡️\n\nLa colección de Masters of the Universe te trae las figuras oficiales de los héroes y villanos que marcaron una época, acompañadas de un fascículo exclusivo con fichas técnicas, bocetos originales y toda la historia secreta. 📖✨\n\nSon 13 personajes imperdibles para revivir la infancia: He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn. ⚔️\n\nCada entrega viene detallada al milímetro para los fanáticos que guardan los mejores recuerdos de la serie. \n\nPasá a reservar la tuya en Maipú 175, Agencia Albor, Carlos Casares. 📍\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615392327,
-      "prov": "La nación",
-      "shas": [
-        "c8dd898ab6a11096929ee65fb64dc39eaffecc2b"
-      ]
-    },
-    {
-      "id": "mrcmwgia8bgkxhaqa-ig",
-      "matId": "rcmwgia8bgkxhaqa",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgia8bgkxhaqa.jpg",
-      "caption": "Los muñecos de Eternia que te comprabas con los ahorros del colegio ahora vuelven en tamaño de colección seria. \n\nHe-Man arranca esta serie imperdible con su espada lista, el escudo y un fascículo cargado de fichas técnicas y bocetos que te van a\n volar la cabeza. \n\nLa entrega 1 viene con la figura y la revista oficial a $34.990 para arrancar el estante con el número uno indiscutido. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, Carlos Casares antes de que vuele del mostrador.\n\n#heman #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615419976,
-      "prov": "La nación",
-      "shas": [
-        "0a0ceb1a37e661ad07ae8393318d7c66fa0e8c64"
-      ]
-    },
-    {
-      "id": "mrcmwgi9sicb1gto8-ig",
-      "matId": "rcmwgi9sicb1gto8",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgi9sicb1gto8.jpg",
-      "caption": "Evil-Lyn, Trap Jaw, Beast Man y Mer-Man listos para ocupar su lugar en tu vitrina junto al resto de los guerreros de Eternia. 🔮⚔️\n\nEsta colección oficial de figuras de alta calidad revive la época\n dorada de los dibujos animados y te trae a cada personaje con su respectiva base y un fascículo detallado lleno de fichas técnicas y bocetos de la época. 📖✨\n\nPodés encargar la entrega que te falte o empezar a armar toda la serie completa consultando por tus personajes preferidos antes de que se agoten. 🛒\n\nTe esperamos en Maipú 175, Agencia Albor, para mostrarte todo lo que va llegando. 📍\n\n¿Cuál de todos los villanos era tu favorito de chico? Contanos abajo 👇\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615439518,
-      "prov": "La nación",
-      "shas": [
-        "6aac2eefc56a4b8f69c5dbc5b52423f948817ccf"
-      ]
-    },
-    {
-      "id": "mrcmwgi9n0hi5ye26-ig",
-      "matId": "rcmwgi9n0hi5ye26",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwgi9n0hi5ye26.jpg",
-      "caption": "Para los que crecimos en los ochenta, tener de nuevo a los defensores y villanos de Eternia en la repisa es una debilidad difícil de dejar pasar. 🏰\n\nEsta colección oficial de figuras trae a todos los clásicos: desde He-Man y Skeletor hasta Evil-Lyn, Trap Jaw, Mer-Man y Ram Man. \n\nCada número incluye un fascículo imperdible con la historia del universo Eternia, bocetos y fichas técnicas detalladas para coleccionistas exigentes. ⚔️📖\n\nPasá a buscar tu ejemplar por Maipú 175, Agencia Albor, y animate a completar toda la saga en tu vitrina.\n\n¿Cuál era tu personaje favorito cuando eras chico? Te leemos en los comentarios. 👇\n\n#heman #figurasdecoleccion #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1794615518215,
-      "prov": "La nación",
-      "shas": [
-        "19eddf2d5b23f4196895b9852adfc389c9f3ce35"
-      ]
-    },
-    {
       "id": "mrcmwk23qz3myhqof-ig",
       "matId": "rcmwk23qz3myhqof",
       "tipo": "video",
@@ -945,6 +893,27 @@
       "shas": [
         "7e749aada2f609948169b60ebcc0282389bca878"
       ]
+    },
+    {
+      "id": "cmwk3gxh6-ig",
+      "matId": "rcmwgiacmp4wlg4k",
+      "matIds": [
+        "rcmwgiacmp4wlg4k",
+        "rcmwgia8bgkxhaqa",
+        "rcmwgi9n0hi5ye26",
+        "rcmwgi9sicb1gto8"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmwgiacmp4wlg4k.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmwgiacmp4wlg4k.jpg",
+        "ig-queue/feed/media/rcmwgia8bgkxhaqa.jpg",
+        "ig-queue/feed/media/rcmwgi9n0hi5ye26.jpg",
+        "ig-queue/feed/media/rcmwgi9sicb1gto8.jpg"
+      ],
+      "caption": "Sorceress, Man-At-Arms y Ram Man se suman para completar el universo de Eternia en tu repisa. 🦅🛡️\n\nLa colección de Masters of the Universe te trae las figuras oficiales de los héroes y villanos que marcaron una época, acompañadas de un fascículo exclusivo con fichas técnicas, bocetos originales y toda la historia secreta. 📖✨\n\nSon 13 personajes imperdibles para revivir la infancia: He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn. ⚔️\n\nCada entrega viene detallada al milímetro para los fanáticos que guardan los mejores recuerdos de la serie. \n\nPasá a reservar la tuya en Maipú 175, Agencia Albor, Carlos Casares. 📍\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1794615518215
     }
   ],
   "publicadas": [
