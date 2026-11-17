@@ -1125,26 +1125,26 @@
     "18100019840112019": {
       "t": "2026-11-16T23:01:34+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 106
+      "a": 96,
+      "v": 118
     },
     "18122052760991294": {
       "t": "2026-11-17T12:01:35+0000",
       "tipo": "IMAGE",
-      "a": 68,
-      "v": 72
+      "a": 73,
+      "v": 84
     },
     "18110864450243811": {
       "t": "2026-11-17T15:01:55+0000",
       "tipo": "VIDEO",
-      "a": 50,
-      "v": 66
+      "a": 58,
+      "v": 78
     },
     "17995258776060066": {
       "t": "2026-11-17T20:01:44+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 21,
+      "v": 30
     }
   },
   "seguidores": {
@@ -1193,11 +1193,11 @@
     "follows_count": 664,
     "media_count": 665,
     "id": "28888466970748824",
-    "el": "2026-11-17T20:01:56.586Z"
+    "el": "2026-11-17T21:01:38.469Z"
   },
   "res30": {
-    "reach": 4704,
-    "views": 28219,
+    "reach": 4714,
+    "views": 28279,
     "profile_views": 92,
     "accounts_engaged": 275
   },
@@ -1210,8 +1210,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 15,
+      "reach": 16,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -1431,7 +1431,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Cuál de los dos elegirías para arrancar la tarde con unos mates? ☕ Sea cual sea tu debilidad, este molde te resuelve cualquier receta sin que se pegue nada. Pasá a buscar el tuyo por Maipú 175, Agencia Albor. Mandanos un mensaje para reservarlo antes de que se agoten.\n#budinera #soklingen #carloscasares #superrepostería\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 65,
+      "reach": 66,
       "views": 156,
       "saved": 0,
       "shares": 0
@@ -2269,7 +2269,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-17T20:02:08.643Z",
+  "actualizado": "2026-11-17T21:01:47.799Z",
   "aud": {
     "edad": [
       {
