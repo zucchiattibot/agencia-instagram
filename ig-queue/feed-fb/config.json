@@ -951,6 +951,40 @@
       "shas": [
         "855f38f8b851ff449b1d193cd5ddb5c488e2bb23"
       ]
+    },
+    {
+      "id": "mrcmwm7l8lch3orni-fb",
+      "matId": "rcmwm7l8lch3orni",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmwm7l8lch3orni.jpg",
+      "caption": "¿Alguna vez sentiste que querés cambiar algo en tu vida pero no sabés bien por dónde arrancar a enfocar la energía? Con el libro de Anto Bian vas a encontrar herramientas prácticas para alinear tus objetivos, aprender a manifestar lo que realmente deseás y disfrutar el camino sin frustrarte en el intento. Pasá a buscar tu ejemplar por Maipú 175, Agencia Albor, Maipú 175, o mandanos un mensaje privado para reservarlo y empezar a leerlo esta misma semana.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1795011818533,
+      "prov": "La nación",
+      "medias": [
+        "ig-queue/feed/media/rcmwm7l8lch3orni.jpg",
+        "ig-queue/feed/media/rcmwm7lib9hk7735.jpg",
+        "ig-queue/feed/media/rcmwm7lsykmd3wp4.jpg",
+        "ig-queue/feed/media/rcmwm7m1pc8g89rd.jpg",
+        "ig-queue/feed/media/rcmwm7mhg3ubuo7s.jpg",
+        "ig-queue/feed/media/rcmwm7mrs2xv696m.jpg"
+      ],
+      "matIds": [
+        "rcmwm7l8lch3orni",
+        "rcmwm7lib9hk7735",
+        "rcmwm7lsykmd3wp4",
+        "rcmwm7m1pc8g89rd",
+        "rcmwm7mhg3ubuo7s",
+        "rcmwm7mrs2xv696m"
+      ],
+      "shas": [
+        "1590a602f385ff17bc44c892b40a9514db5b5256",
+        "3fb6cd8fcfcebd69ead03c288cf069ef994bb6dc",
+        "3cde1b0b2701c272ce483e59119c5c1a201afca6",
+        "6b0c4a604c6f999d330d8d4a01915760542ef681",
+        "9272546035bf5fec370d7fab6127e0d387087f89",
+        "6cbc143d9beff1b7cdf669837df11e7049c55406"
+      ]
     }
   ],
   "publicadas": [
