@@ -39,7 +39,7 @@
     "mwcieh6nv8x",
     "mwl7as14exr"
   ],
-  "statsEl": "2026-11-18T11:02:05.429Z",
+  "statsEl": "2026-11-18T12:01:41.263Z",
   "stUltima": {
     "cuando": "2026-11-17T23:02:32.950Z",
     "franja": "19:45",
@@ -47,7 +47,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T11:01:27.026Z",
+    "cuando": "2026-11-18T12:01:28.525Z",
     "cola": 41,
     "enRepo": 41,
     "pendientes": []
@@ -313,7 +313,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 8 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-18",
