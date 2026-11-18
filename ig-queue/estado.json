@@ -4,7 +4,8 @@
   "stFranjas": {
     "2026-11-18 09:45": "ok",
     "2026-11-18 13:00": "ok",
-    "2026-11-18 17:30": "ok"
+    "2026-11-18 17:30": "ok",
+    "2026-11-18 20:45": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -44,20 +45,23 @@
     "mwl7as14exr",
     "mwl7awh0ddv",
     "mwl7ag3dzls",
-    "mwl7b5s6o4e"
+    "mwl7b5s6o4e",
+    "mwl7a6ds58r"
   ],
   "statsEl": "2026-11-18T23:01:44.739Z",
   "stUltima": {
-    "cuando": "2026-11-18T21:00:07.890Z",
-    "franja": "17:30",
+    "cuando": "2026-11-18T23:53:02.846Z",
+    "franja": "20:45",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T23:01:33.609Z",
+    "cuando": "2026-11-18T23:52:48.456Z",
     "cola": 47,
     "enRepo": 47,
-    "pendientes": []
+    "pendientes": [
+      "20:45"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -358,7 +362,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwl7b5s6o4e",
+  "stUltimaId": "mwl7a6ds58r",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -396,12 +400,14 @@
     "mwl7as14exr": "2026-11-17T23:02:32.950Z",
     "mwl7awh0ddv": "2026-11-18T13:02:45.737Z",
     "mwl7ag3dzls": "2026-11-18T16:01:41.715Z",
-    "mwl7b5s6o4e": "2026-11-18T21:00:07.889Z"
+    "mwl7b5s6o4e": "2026-11-18T21:00:07.889Z",
+    "mwl7a6ds58r": "2026-11-18T23:53:02.846Z"
   },
   "stUsadosDia": {
     "mwl7awh0ddv": "2026-11-18",
     "mwl7ag3dzls": "2026-11-18",
-    "mwl7b5s6o4e": "2026-11-18"
+    "mwl7b5s6o4e": "2026-11-18",
+    "mwl7a6ds58r": "2026-11-18"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -510,7 +516,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-18T20:59:05.460Z",
+    "cuando": "2026-11-18T23:52:48.387Z",
     "n": 1
   },
   "stM": {
