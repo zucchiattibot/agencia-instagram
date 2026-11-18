@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {
-    "2026-11-17 09:00": "ok",
-    "2026-11-17 12:00": "ok",
-    "2026-11-17 16:15": "ok",
-    "2026-11-17 19:45": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -44,7 +39,7 @@
     "mwcieh6nv8x",
     "mwl7as14exr"
   ],
-  "statsEl": "2026-11-18T02:01:31.772Z",
+  "statsEl": "2026-11-18T03:01:43.730Z",
   "stUltima": {
     "cuando": "2026-11-17T23:02:32.950Z",
     "franja": "19:45",
@@ -52,17 +47,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T02:01:20.582Z",
+    "cuando": "2026-11-18T03:01:30.230Z",
     "cola": 41,
     "enRepo": 41,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-11-17 12:45": "ok",
-      "2026-11-17 19:00": "ok",
-      "2026-11-17 21:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -172,21 +163,17 @@
       "cmwk3gxh6-ig": "2026-11-17T22:02:06.389Z",
       "mrcmwc3g3lahafrpk-ig": "2026-11-18T01:01:42.577Z"
     },
-    "usadosDia": {
-      "mrcmwk23qz3myhqof-ig": "2026-11-17",
-      "cmwk3gxh6-ig": "2026-11-17",
-      "mrcmwc3g3lahafrpk-ig": "2026-11-17"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-17",
+      "dia": "2026-11-18",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La Nación",
     "prueba": {
-      "dia": "2026-11-17",
+      "dia": "2026-11-18",
       "h": "",
       "de": "",
       "tramo": ""
@@ -207,10 +194,7 @@
     ]
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-17 17:15": "ok",
-      "2026-11-17 20:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -316,35 +300,28 @@
       "cmwk3gxh6-fb": "2026-11-17T21:01:36.686Z",
       "mrcmwl20941lmiwo4-fb": "2026-11-17T23:02:37.377Z"
     },
-    "usadosDia": {
-      "cmwk3gxh6-fb": "2026-11-17",
-      "mrcmwl20941lmiwo4-fb": "2026-11-17"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-17",
+      "dia": "2026-11-18",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (12:15) para comparar el alcance por publicación.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
     "ultimaProv": "Clarin",
     "prueba": {
-      "dia": "2026-11-17",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-18",
+      "h": "08:00",
+      "de": "12:00",
+      "tramo": "primera mañana"
     },
     "pruebaRec": [
-      {
-        "t": "2026-11-14T11:01:38.125Z",
-        "tramo": "primera mañana"
-      },
       {
         "t": "2026-11-16T13:59:41.001Z",
         "tramo": "mañana"
       }
     ],
-    "pruebaUlt": "2026-11-16",
+    "pruebaUlt": "2026-11-18",
     "menos": {
       "dia": "2026-11-17",
       "ult": "2026-11-17",
@@ -355,8 +332,7 @@
     "menosRot": 1,
     "menosDias": [
       "2026-11-17"
-    ],
-    "infoMenos": "Prueba de cantidad hoy: una salida menos (12:15) para comparar el alcance por publicación."
+    ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
   "stUltimaId": "mwl7as14exr",
@@ -396,12 +372,7 @@
     "mvjo0vz4xbo": "2026-11-17T20:01:54.306Z",
     "mwl7as14exr": "2026-11-17T23:02:32.950Z"
   },
-  "stUsadosDia": {
-    "mvl585tgtgr": "2026-11-17",
-    "mwcieh6nv8x": "2026-11-17",
-    "mvjo0vz4xbo": "2026-11-17",
-    "mwl7as14exr": "2026-11-17"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-11-11T18:01:44.898Z",
@@ -495,7 +466,7 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-11-11T18:01:44.898Z",
   "stPrueba": {
-    "dia": "2026-11-17",
+    "dia": "2026-11-18",
     "h": "",
     "de": "",
     "tramo": ""
