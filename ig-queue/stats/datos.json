@@ -1143,26 +1143,26 @@
     "17995258776060066": {
       "t": "2026-11-17T20:01:44+0000",
       "tipo": "IMAGE",
-      "a": 119,
-      "v": 137
+      "a": 122,
+      "v": 141
     },
     "18435201874147707": {
       "t": "2026-11-17T23:01:58+0000",
       "tipo": "VIDEO",
-      "a": 96,
-      "v": 109
+      "a": 103,
+      "v": 113
     },
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 52,
-      "v": 62
+      "a": 64,
+      "v": 69
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 46
+      "a": 46,
+      "v": 54
     }
   },
   "seguidores": {
@@ -1212,11 +1212,11 @@
     "follows_count": 665,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-18T19:01:28.956Z"
+    "el": "2026-11-18T20:01:24.467Z"
   },
   "res30": {
-    "reach": 4880,
-    "views": 27291,
+    "reach": 4891,
+    "views": 27337,
     "profile_views": 87,
     "accounts_engaged": 277
   },
@@ -1229,8 +1229,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 20,
+      "reach": 9,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1268,8 +1268,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 222,
-      "views": 248,
+      "reach": 229,
+      "views": 257,
       "saved": 0,
       "shares": 1
     },
@@ -2327,7 +2327,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-18T19:01:37.945Z",
+  "actualizado": "2026-11-18T20:01:30.933Z",
   "aud": {
     "edad": [
       {

@@ -44,7 +44,7 @@
     "mwl7awh0ddv",
     "mwl7ag3dzls"
   ],
-  "statsEl": "2026-11-18T19:01:37.945Z",
+  "statsEl": "2026-11-18T20:01:30.933Z",
   "stUltima": {
     "cuando": "2026-11-18T16:01:41.715Z",
     "franja": "13:00",
@@ -52,7 +52,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T19:01:27.574Z",
+    "cuando": "2026-11-18T20:01:23.516Z",
     "cola": 47,
     "enRepo": 47,
     "pendientes": []
@@ -506,7 +506,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-18T19:01:27.470Z",
+    "cuando": "2026-11-18T20:01:23.323Z",
     "n": 1
   },
   "stM": {
