@@ -44,7 +44,7 @@
     "mwl7awh0ddv",
     "mwl7ag3dzls"
   ],
-  "statsEl": "2026-11-18T17:56:51.976Z",
+  "statsEl": "2026-11-18T19:01:37.945Z",
   "stUltima": {
     "cuando": "2026-11-18T16:01:41.715Z",
     "franja": "13:00",
@@ -52,7 +52,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T17:56:42.825Z",
+    "cuando": "2026-11-18T19:01:27.574Z",
     "cola": 47,
     "enRepo": 47,
     "pendientes": []
@@ -472,12 +472,12 @@
     }
   },
   "autoPausa": {},
-  "autoOptimizacionUltimoChequeo": "2026-11-11T18:01:44.898Z",
+  "autoOptimizacionUltimoChequeo": "2026-11-18T19:01:37.946Z",
   "autoOptimizacionUltimoResultado": [
     {
       "red": "Instagram Feed/Reels",
-      "estado": "ajustado",
-      "detalle": "Formato de la franja 13:00: feed → reel; diferencia mediana de al menos 40% con 33 videos y 29 fotos."
+      "estado": "en-observacion",
+      "detalle": "Último ajuste hace 7 días: espero 14 para medir el efecto."
     },
     {
       "red": "Facebook Feed/Reels",
@@ -506,7 +506,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-17T18:55:09.106Z",
+    "cuando": "2026-11-18T19:01:27.470Z",
     "n": 1
   },
   "stM": {
