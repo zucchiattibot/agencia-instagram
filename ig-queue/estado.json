@@ -44,7 +44,7 @@
     "mwl7awh0ddv",
     "mwl7ag3dzls"
   ],
-  "statsEl": "2026-11-18T17:01:37.424Z",
+  "statsEl": "2026-11-18T17:56:51.976Z",
   "stUltima": {
     "cuando": "2026-11-18T16:01:41.715Z",
     "franja": "13:00",
@@ -52,7 +52,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T17:01:27.435Z",
+    "cuando": "2026-11-18T17:56:42.825Z",
     "cola": 47,
     "enRepo": 47,
     "pendientes": []
