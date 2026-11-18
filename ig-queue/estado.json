@@ -44,7 +44,7 @@
     "mwcieh6nv8x",
     "mwl7as14exr"
   ],
-  "statsEl": "2026-11-18T01:01:52.438Z",
+  "statsEl": "2026-11-18T02:01:31.772Z",
   "stUltima": {
     "cuando": "2026-11-17T23:02:32.950Z",
     "franja": "19:45",
@@ -52,7 +52,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-18T01:01:29.332Z",
+    "cuando": "2026-11-18T02:01:20.582Z",
     "cola": 41,
     "enRepo": 41,
     "pendientes": []
@@ -183,7 +183,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 8 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "La Nación",
     "prueba": {
       "dia": "2026-11-17",
