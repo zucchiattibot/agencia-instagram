@@ -1149,26 +1149,26 @@
     "18435201874147707": {
       "t": "2026-11-17T23:01:58+0000",
       "tipo": "VIDEO",
-      "a": 105,
-      "v": 118
+      "a": 110,
+      "v": 120
     },
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 68,
-      "v": 76
+      "a": 76,
+      "v": 80
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 51,
-      "v": 63
+      "a": 61,
+      "v": 70
     },
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 16,
+      "v": 15
     }
   },
   "seguidores": {
@@ -1218,11 +1218,11 @@
     "follows_count": 665,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-18T21:00:08.940Z"
+    "el": "2026-11-18T22:01:27.991Z"
   },
   "res30": {
     "reach": 4924,
-    "views": 27365,
+    "views": 27414,
     "profile_views": 87,
     "accounts_engaged": 277
   },
@@ -1274,8 +1274,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 236,
-      "views": 266,
+      "reach": 242,
+      "views": 277,
       "saved": 0,
       "shares": 1
     },
@@ -1313,8 +1313,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 128,
-      "views": 153,
+      "reach": 129,
+      "views": 154,
       "saved": 0,
       "shares": 1
     },
@@ -1326,8 +1326,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién iba a decir que ibas a poder tener de nuevo a Orko, He-Man, Skeletor y Battle Cat en la repisa de tu casa? 🗡️ Volvieron esos personajes que marcaron las tardes de los 80 con un nivel de detalle que da gusto. Pasá por Agencia Albor y reservalos antes de que vuelen.\n\nComentá HE-MAN y te paso toda la info.\n\n#heman #mastersoftheuniverse #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 44,
+      "reach": 16,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -2333,7 +2333,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-18T21:00:14.945Z",
+  "actualizado": "2026-11-18T22:01:37.126Z",
   "aud": {
     "edad": [
       {
