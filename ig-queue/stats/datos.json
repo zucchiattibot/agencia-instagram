@@ -1149,26 +1149,26 @@
     "18435201874147707": {
       "t": "2026-11-17T23:01:58+0000",
       "tipo": "VIDEO",
-      "a": 110,
-      "v": 120
+      "a": 111,
+      "v": 121
     },
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 80
+      "a": 78,
+      "v": 82
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 70
+      "a": 63,
+      "v": 72
     },
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 16,
-      "v": 15
+      "a": 23,
+      "v": 25
     }
   },
   "seguidores": {
@@ -1218,11 +1218,11 @@
     "follows_count": 665,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-18T22:01:27.991Z"
+    "el": "2026-11-18T23:01:35.441Z"
   },
   "res30": {
-    "reach": 4924,
-    "views": 27414,
+    "reach": 4935,
+    "views": 27441,
     "profile_views": 87,
     "accounts_engaged": 277
   },
@@ -1274,8 +1274,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 242,
-      "views": 277,
+      "reach": 251,
+      "views": 282,
       "saved": 0,
       "shares": 1
     },
@@ -1313,8 +1313,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 129,
-      "views": 154,
+      "reach": 130,
+      "views": 155,
       "saved": 0,
       "shares": 1
     },
@@ -1339,8 +1339,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 33,
+      "reach": 27,
+      "views": 35,
       "saved": 0,
       "shares": 0
     },
@@ -1365,8 +1365,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Seguimos sumando los títulos que tanto esperás para tu biblioteca. 📚 Ya podés encargar tu ejemplar de La casa Neville para continuar la colección de Florencia Bonelli y disfrutar otra gran historia de romance e intriga. Te esperamos en Maipú 175, Agencia Albor.\n\nComentá NEVILLE y te guardamos la entrega.\n\n#florenciabonelli #lacasaneville #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 40,
+      "reach": 29,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -2333,7 +2333,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-18T22:01:37.126Z",
+  "actualizado": "2026-11-18T23:01:44.739Z",
   "aud": {
     "edad": [
       {
