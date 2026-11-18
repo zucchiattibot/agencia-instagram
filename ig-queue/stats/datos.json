@@ -1143,20 +1143,26 @@
     "17995258776060066": {
       "t": "2026-11-17T20:01:44+0000",
       "tipo": "IMAGE",
-      "a": 102,
-      "v": 114
+      "a": 105,
+      "v": 118
     },
     "18435201874147707": {
       "t": "2026-11-17T23:01:58+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 89
+      "a": 85,
+      "v": 91
     },
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 20,
-      "v": 23
+      "a": 29,
+      "v": 31
+    },
+    "18114059189222257": {
+      "t": "2026-11-18T16:01:34+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 1
     }
   },
   "seguidores": {
@@ -1204,17 +1210,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 665,
-    "media_count": 667,
+    "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-18T15:01:31.999Z"
+    "el": "2026-11-18T16:02:27.409Z"
   },
   "res30": {
-    "reach": 4816,
-    "views": 27075,
-    "profile_views": 85,
+    "reach": 4827,
+    "views": 27115,
+    "profile_views": 86,
     "accounts_engaged": 277
   },
   "posts": [
+    {
+      "id": "18123595997470155",
+      "timestamp": "2026-11-18T16:02:20+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/Df443NboMs0/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17957802210289431",
       "timestamp": "2026-11-18T01:01:38+0000",
@@ -1249,8 +1268,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 160,
-      "views": 184,
+      "reach": 178,
+      "views": 198,
       "saved": 0,
       "shares": 1
     },
@@ -2308,7 +2327,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-18T15:01:40.708Z",
+  "actualizado": "2026-11-18T16:02:35.944Z",
   "aud": {
     "edad": [
       {
