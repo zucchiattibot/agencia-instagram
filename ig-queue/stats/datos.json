@@ -1155,26 +1155,26 @@
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 78,
-      "v": 82
+      "a": 81,
+      "v": 87
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 72
+      "a": 66,
+      "v": 77
     },
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 27,
-      "v": 28
+      "a": 31,
+      "v": 35
     },
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 1
+      "a": 10,
+      "v": 12
     }
   },
   "seguidores": {
@@ -1224,12 +1224,12 @@
     "follows_count": 665,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-19T00:01:33.169Z"
+    "el": "2026-11-19T01:01:31.148Z"
   },
   "res30": {
-    "reach": 4935,
-    "views": 27455,
-    "profile_views": 87,
+    "reach": 5120,
+    "views": 27500,
+    "profile_views": 88,
     "accounts_engaged": 277
   },
   "posts": [
@@ -1241,8 +1241,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 25,
+      "reach": 11,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -1254,8 +1254,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de esas tardes de domingo pegados a la tele escuchando el rugido de los motores y sintiendo esa pasión inconfundible del automovilismo nacional? 🏁📻\n\nLos fierros y la velocidad vuelven a estar bien cerca con la llegada de la colección oficial de autos a escala de Turismo Carretera de La Nación. 🏎️✨\n\nEsta propuesta imperdible cuenta con 15 modelos detallados para coleccionar y revivir los hitos que marcaron la historia grande de la categoría en cada época. 🏆\n\nLa primera entrega arranca con toda la gloria: el icónico Chevy 1995 de Juan María Traverso acompañado de su respectivo fascículo coleccionable a un precio de $34.990. 📖🔥\n\nEntre los 15 modelos que forman parte de la obra vas a encontrar joyas inolvidables como el Torino Liebre de Rubén Luis Di Palma, el Ford Falcon del “Gurí” Martínez y la máquina de Marcos Di Palma que se ve en la imagen. 🚗💨\n\nSumá esta pieza única a tu vitrina pasando a buscarla por Maipú 175, Agencia Albor, Carlos Casares. 📍👋\n\nSi querés asegurar tu ejemplar de esta edición quincenal, mandanos un mensaje directo y te contamos cómo reservarlo. 📩💬\n\n#turismocarretera #marcosdipalma #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 30,
+      "reach": 16,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1280,8 +1280,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 256,
-      "views": 296,
+      "reach": 273,
+      "views": 320,
       "saved": 0,
       "shares": 1
     },
@@ -1359,7 +1359,7 @@
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 44,
-      "views": 85,
+      "views": 87,
       "saved": 0,
       "shares": 0
     },
@@ -2339,7 +2339,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T00:01:44.156Z",
+  "actualizado": "2026-11-19T01:01:37.928Z",
   "aud": {
     "edad": [
       {
