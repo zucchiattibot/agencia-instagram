@@ -43,7 +43,7 @@
     "mwl7b5s6o4e",
     "mwl7a6ds58r"
   ],
-  "statsEl": "2026-11-19T17:02:24.088Z",
+  "statsEl": "2026-11-19T18:01:46.931Z",
   "stUltima": {
     "cuando": "2026-11-18T23:53:02.846Z",
     "franja": "20:45",
@@ -51,7 +51,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-19T17:01:38.160Z",
+    "cuando": "2026-11-19T18:01:38.257Z",
     "cola": 48,
     "enRepo": 48,
     "pendientes": []
@@ -182,7 +182,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 8 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-19",
@@ -508,7 +508,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-19T02:01:28.897Z",
+    "cuando": "2026-11-19T18:01:38.013Z",
     "n": 1
   },
   "stM": {
