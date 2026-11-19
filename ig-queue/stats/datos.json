@@ -1173,7 +1173,7 @@
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 35,
+      "a": 36,
       "v": 37
     }
   },
@@ -1225,13 +1225,13 @@
     "follows_count": 666,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-19T06:01:27.196Z"
+    "el": "2026-11-19T07:01:30.192Z"
   },
   "res30": {
-    "reach": 5156,
-    "views": 27625,
-    "profile_views": 88,
-    "accounts_engaged": 277
+    "reach": 4869,
+    "views": 25606,
+    "profile_views": 83,
+    "accounts_engaged": 273
   },
   "posts": [
     {
@@ -2340,7 +2340,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T06:01:36.058Z",
+  "actualizado": "2026-11-19T07:01:37.607Z",
   "aud": {
     "edad": [
       {
