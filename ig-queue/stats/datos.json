@@ -1167,20 +1167,20 @@
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 79,
-      "v": 88
+      "a": 83,
+      "v": 96
     },
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 77
+      "a": 70,
+      "v": 86
     },
     "18132207412871517": {
       "t": "2026-11-19T14:47:51+0000",
       "tipo": "IMAGE",
-      "a": 26,
-      "v": 30
+      "a": 35,
+      "v": 39
     }
   },
   "seguidores": {
@@ -1231,13 +1231,13 @@
     "follows_count": 666,
     "media_count": 669,
     "id": "28888466970748824",
-    "el": "2026-11-19T18:01:39.363Z"
+    "el": "2026-11-19T19:01:41.719Z"
   },
   "res30": {
-    "reach": 4902,
-    "views": 25790,
+    "reach": 4935,
+    "views": 25898,
     "profile_views": 83,
-    "accounts_engaged": 273
+    "accounts_engaged": 276
   },
   "posts": [
     {
@@ -1248,9 +1248,9 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te acordás del olor a tarta recién horneada en la cocina de casa los domingos al mediodía? 🥧 Con este molde antiadherente para tarteletas volvés a cocinar rico sin renegar con el fondo pegado. Pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\n#tarteletas #carloscasares #recetasclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 45,
-      "saved": 0,
+      "reach": 90,
+      "views": 126,
+      "saved": 1,
       "shares": 0
     },
     {
@@ -2359,7 +2359,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T18:01:46.931Z",
+  "actualizado": "2026-11-19T19:01:52.000Z",
   "aud": {
     "edad": [
       {
