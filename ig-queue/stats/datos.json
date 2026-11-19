@@ -1173,20 +1173,20 @@
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 77,
+      "a": 78,
       "v": 92
     },
     "18132207412871517": {
       "t": "2026-11-19T14:47:51+0000",
       "tipo": "IMAGE",
-      "a": 42,
-      "v": 51
+      "a": 45,
+      "v": 52
     },
     "18171763501484293": {
       "t": "2026-11-19T20:01:55+0000",
       "tipo": "VIDEO",
-      "a": 11,
-      "v": 15
+      "a": 18,
+      "v": 24
     }
   },
   "seguidores": {
@@ -1235,17 +1235,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 666,
-    "media_count": 669,
+    "media_count": 670,
     "id": "28888466970748824",
-    "el": "2026-11-19T21:01:33.993Z"
+    "el": "2026-11-19T22:01:41.428Z"
   },
   "res30": {
     "reach": 4957,
-    "views": 25961,
+    "views": 25981,
     "profile_views": 83,
     "accounts_engaged": 276
   },
   "posts": [
+    {
+      "id": "18170564992419283",
+      "timestamp": "2026-11-19T22:01:36+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/Df8GxNNoPlT/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Te acordás de ver este furgón repartiendo por los barrios en otra época? 🚐\n\nEl Volkswagen Furgón modelo 1982 ya tiene fecha para sumarse a la vitrina de los fierreros. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, antes de que vuele.\n\n#volkswagen #autosinolvidables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17968932258233667",
       "timestamp": "2026-11-19T17:02:05+0000",
@@ -1268,7 +1281,7 @@
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 12,
-      "views": 28,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -2365,7 +2378,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T21:01:41.868Z",
+  "actualizado": "2026-11-19T22:01:52.424Z",
   "aud": {
     "edad": [
       {
