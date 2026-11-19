@@ -1167,20 +1167,20 @@
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 72,
-      "v": 79
+      "a": 76,
+      "v": 85
     },
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 58,
-      "v": 65
+      "a": 63,
+      "v": 71
     },
     "18132207412871517": {
       "t": "2026-11-19T14:47:51+0000",
       "tipo": "IMAGE",
-      "a": 12,
-      "v": 16
+      "a": 22,
+      "v": 25
     }
   },
   "seguidores": {
@@ -1229,17 +1229,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 666,
-    "media_count": 668,
+    "media_count": 669,
     "id": "28888466970748824",
-    "el": "2026-11-19T16:01:26.833Z"
+    "el": "2026-11-19T17:02:14.705Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 25727,
+    "views": 25752,
     "profile_views": 83,
     "accounts_engaged": 273
   },
   "posts": [
+    {
+      "id": "17968932258233667",
+      "timestamp": "2026-11-19T17:02:05+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/Df7kdgGk82Q/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Te acordás del olor a tarta recién horneada en la cocina de casa los domingos al mediodía? 🥧 Con este molde antiadherente para tarteletas volvés a cocinar rico sin renegar con el fondo pegado. Pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\n#tarteletas #carloscasares #recetasclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18123595997470155",
       "timestamp": "2026-11-18T16:02:20+0000",
@@ -1274,7 +1287,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Sorceress, Man-At-Arms y Ram Man se suman para completar el universo de Eternia en tu repisa. 🦅🛡️\n\nLa colección de Masters of the Universe te trae las figuras oficiales de los héroes y villanos que marcaron una época, acompañadas de un fascículo exclusivo con fichas técnicas, bocetos originales y toda la historia secreta. 📖✨\n\nSon 13 personajes imperdibles para revivir la infancia: He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn. ⚔️\n\nCada entrega viene detallada al milímetro para los fanáticos que guardan los mejores recuerdos de la serie. \n\nPasá a reservar la tuya en Maipú 175, Agencia Albor, Carlos Casares. 📍\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
+      "reach": 15,
       "views": 41,
       "saved": 0,
       "shares": 0
@@ -1430,7 +1443,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para sorprender a los chicos con un mimo que los mantenga alejados de las pantallas y estimule su ingenio. Reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. 🎁🧠\n#juegosdemesa #carloscasares #genios\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
+      "reach": 18,
       "views": 26,
       "saved": 0,
       "shares": 0
@@ -2346,7 +2359,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T16:01:37.628Z",
+  "actualizado": "2026-11-19T17:02:24.088Z",
   "aud": {
     "edad": [
       {
