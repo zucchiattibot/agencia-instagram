@@ -1167,8 +1167,14 @@
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 23,
-      "v": 25
+      "a": 27,
+      "v": 28
+    },
+    "18092283731275670": {
+      "t": "2026-11-18T23:52:55+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 1
     }
   },
   "seguidores": {
@@ -1218,11 +1224,11 @@
     "follows_count": 665,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-18T23:01:35.441Z"
+    "el": "2026-11-19T00:01:33.169Z"
   },
   "res30": {
     "reach": 4935,
-    "views": 27441,
+    "views": 27455,
     "profile_views": 87,
     "accounts_engaged": 277
   },
@@ -1274,8 +1280,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 251,
-      "views": 282,
+      "reach": 256,
+      "views": 296,
       "saved": 0,
       "shares": 1
     },
@@ -1352,8 +1358,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 43,
-      "views": 84,
+      "reach": 44,
+      "views": 85,
       "saved": 0,
       "shares": 0
     },
@@ -2333,7 +2339,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-18T23:01:44.739Z",
+  "actualizado": "2026-11-19T00:01:44.156Z",
   "aud": {
     "edad": [
       {
