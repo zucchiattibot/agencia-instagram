@@ -1155,26 +1155,26 @@
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 94,
-      "v": 103
+      "a": 99,
+      "v": 108
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 80,
-      "v": 94
+      "a": 86,
+      "v": 98
     },
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 56,
-      "v": 61
+      "a": 60,
+      "v": 67
     },
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 41,
-      "v": 47
+      "a": 46,
+      "v": 50
     }
   },
   "seguidores": {
@@ -1225,11 +1225,11 @@
     "follows_count": 666,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-19T11:01:32.930Z"
+    "el": "2026-11-19T12:01:31.579Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 25637,
+    "views": 25666,
     "profile_views": 83,
     "accounts_engaged": 273
   },
@@ -1281,8 +1281,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 324,
-      "views": 367,
+      "reach": 328,
+      "views": 370,
       "saved": 0,
       "shares": 1
     },
@@ -2340,7 +2340,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T11:01:40.318Z",
+  "actualizado": "2026-11-19T12:01:40.951Z",
   "aud": {
     "edad": [
       {
