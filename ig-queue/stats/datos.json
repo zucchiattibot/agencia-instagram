@@ -1155,26 +1155,26 @@
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 88,
-      "v": 94
+      "a": 89,
+      "v": 95
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
       "a": 75,
-      "v": 85
+      "v": 86
     },
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
       "a": 50,
-      "v": 52
+      "v": 53
     },
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 36,
-      "v": 37
+      "a": 37,
+      "v": 38
     }
   },
   "seguidores": {
@@ -1225,11 +1225,11 @@
     "follows_count": 666,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-19T08:01:27.957Z"
+    "el": "2026-11-19T09:01:30.484Z"
   },
   "res30": {
     "reach": 4869,
-    "views": 25606,
+    "views": 25608,
     "profile_views": 83,
     "accounts_engaged": 273
   },
@@ -2340,7 +2340,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T08:01:36.931Z",
+  "actualizado": "2026-11-19T09:01:40.209Z",
   "aud": {
     "edad": [
       {
@@ -2383,7 +2383,7 @@
           "55-64",
           "F"
         ],
-        "v": 101
+        "v": 100
       },
       {
         "d": [
@@ -2481,7 +2481,7 @@
           "55-64",
           "U"
         ],
-        "v": 8
+        "v": 9
       },
       {
         "d": [
@@ -2497,6 +2497,12 @@
           "Merlo, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Chivilcoy, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2548,7 +2554,7 @@
       },
       {
         "d": [
-          "Bogotá, Distrito Especial"
+          "Longchamps, Buenos Aires"
         ],
         "v": 1
       },
@@ -2560,13 +2566,13 @@
       },
       {
         "d": [
-          "Las Toscas, Buenos Aires"
+          "Mar del Plata, Buenos Aires"
         ],
         "v": 5
       },
       {
         "d": [
-          "Mar del Plata, Buenos Aires"
+          "Las Toscas, Buenos Aires"
         ],
         "v": 5
       },
@@ -2575,12 +2581,6 @@
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
         "v": 28
-      },
-      {
-        "d": [
-          "Paraná, Entre Rios"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2602,9 +2602,15 @@
       },
       {
         "d": [
+          "Ciudadela, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Quiroga, Buenos Aires"
         ],
-        "v": 5
+        "v": 4
       },
       {
         "d": [
@@ -2617,6 +2623,12 @@
           "Panama City, Panamá Province"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "López Mateos, State of Mexico"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2638,13 +2650,19 @@
       },
       {
         "d": [
-          "Tegucigalpa, Francisco Morazán Department"
+          "San Martín de los Andes, Neuquén"
         ],
         "v": 1
       },
       {
         "d": [
-          "Manuel Ocampo, Buenos Aires"
+          "Timon, Maranhão"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Pinamar, Buenos Aires"
         ],
         "v": 1
       },
@@ -2664,7 +2682,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1075
+        "v": 1076
       },
       {
         "d": [
@@ -2692,12 +2710,6 @@
       },
       {
         "d": [
-          "Tucuruí, Pará"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Bellocq, Buenos Aires"
         ],
         "v": 2
@@ -2710,19 +2722,7 @@
       },
       {
         "d": [
-          "San Gregorio, Santa Fe"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Venado Tuerto, Santa Fe"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -2734,27 +2734,27 @@
       },
       {
         "d": [
+          "Bragado, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 3
       },
       {
         "d": [
-          "Castelar, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Los Cóndores, Córdoba"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 12
+        "v": 11
+      },
+      {
+        "d": [
+          "Valentín Alsina, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2861,7 +2861,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-18T12:01:38.700Z"
+    "el": "2026-11-19T09:01:37.102Z"
   },
   "dias": {
     "2026-10-11": {
