@@ -43,7 +43,7 @@
     "mwl7b5s6o4e",
     "mwl7a6ds58r"
   ],
-  "statsEl": "2026-11-19T14:01:38.132Z",
+  "statsEl": "2026-11-19T15:01:51.755Z",
   "stUltima": {
     "cuando": "2026-11-18T23:53:02.846Z",
     "franja": "20:45",
@@ -51,7 +51,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-19T14:43:22.244Z",
+    "cuando": "2026-11-19T15:01:29.841Z",
     "cola": 48,
     "enRepo": 48,
     "pendientes": []
@@ -200,7 +200,9 @@
     ]
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-19 12:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -252,11 +254,12 @@
       "mrcmwfq9bj2qcprdz-fb",
       "cmwk3gxh6-fb",
       "mrcmwl20941lmiwo4-fb",
-      "mrcmw0067ism3yzn9-fb"
+      "mrcmw0067ism3yzn9-fb",
+      "mrcmwm7l8lch3orni-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-18T11:01:51.898Z",
-      "franja": "08:00",
+      "cuando": "2026-11-19T15:01:42.346Z",
+      "franja": "12:00",
       "ok": 1,
       "fallos": 0
     },
@@ -306,9 +309,12 @@
       "mrcmwfq9bj2qcprdz-fb": "2026-11-17T00:01:36.169Z",
       "cmwk3gxh6-fb": "2026-11-17T21:01:36.686Z",
       "mrcmwl20941lmiwo4-fb": "2026-11-17T23:02:37.377Z",
-      "mrcmw0067ism3yzn9-fb": "2026-11-18T11:01:51.896Z"
+      "mrcmw0067ism3yzn9-fb": "2026-11-18T11:01:51.896Z",
+      "mrcmwm7l8lch3orni-fb": "2026-11-19T15:01:42.345Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwm7l8lch3orni-fb": "2026-11-19"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-19",
@@ -316,7 +322,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 11 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Clarín",
+    "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-19",
       "h": "",
