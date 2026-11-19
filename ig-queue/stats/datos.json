@@ -1179,14 +1179,20 @@
     "18132207412871517": {
       "t": "2026-11-19T14:47:51+0000",
       "tipo": "IMAGE",
-      "a": 50,
-      "v": 58
+      "a": 52,
+      "v": 61
     },
     "18171763501484293": {
       "t": "2026-11-19T20:01:55+0000",
       "tipo": "VIDEO",
-      "a": 27,
-      "v": 33
+      "a": 30,
+      "v": 38
+    },
+    "18151786603483383": {
+      "t": "2026-11-19T23:56:29+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1237,11 +1243,11 @@
     "follows_count": 666,
     "media_count": 670,
     "id": "28888466970748824",
-    "el": "2026-11-19T23:01:33.948Z"
+    "el": "2026-11-19T23:57:03.320Z"
   },
   "res30": {
     "reach": 4957,
-    "views": 26010,
+    "views": 26032,
     "profile_views": 83,
     "accounts_engaged": 276
   },
@@ -1254,8 +1260,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de ver este furgón repartiendo por los barrios en otra época? 🚐\n\nEl Volkswagen Furgón modelo 1982 ya tiene fecha para sumarse a la vitrina de los fierreros. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, antes de que vuele.\n\n#volkswagen #autosinolvidables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 7,
-      "views": 13,
+      "reach": 13,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -1267,8 +1273,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te acordás del olor a tarta recién horneada en la cocina de casa los domingos al mediodía? 🥧 Con este molde antiadherente para tarteletas volvés a cocinar rico sin renegar con el fondo pegado. Pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\n#tarteletas #carloscasares #recetasclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 115,
-      "views": 131,
+      "reach": 117,
+      "views": 133,
       "saved": 1,
       "shares": 0
     },
@@ -1358,8 +1364,8 @@
       "like_count": 2,
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 130,
-      "views": 155,
+      "reach": 131,
+      "views": 156,
       "saved": 0,
       "shares": 1
     },
@@ -2378,7 +2384,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T23:01:42.093Z",
+  "actualizado": "2026-11-19T23:57:13.032Z",
   "aud": {
     "edad": [
       {
