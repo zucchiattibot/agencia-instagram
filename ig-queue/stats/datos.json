@@ -1155,26 +1155,26 @@
     "17919703929265796": {
       "t": "2026-11-18T13:01:53+0000",
       "tipo": "VIDEO",
-      "a": 83,
-      "v": 90
+      "a": 87,
+      "v": 93
     },
     "18114059189222257": {
       "t": "2026-11-18T16:01:34+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 81
+      "a": 74,
+      "v": 84
     },
     "18129851494893923": {
       "t": "2026-11-18T20:59:37+0000",
       "tipo": "VIDEO",
-      "a": 37,
-      "v": 39
+      "a": 43,
+      "v": 47
     },
     "18092283731275670": {
       "t": "2026-11-18T23:52:55+0000",
       "tipo": "IMAGE",
-      "a": 18,
-      "v": 20
+      "a": 25,
+      "v": 28
     }
   },
   "seguidores": {
@@ -1216,19 +1216,20 @@
     "2026-11-15": 1398,
     "2026-11-16": 1398,
     "2026-11-17": 1399,
-    "2026-11-18": 1399
+    "2026-11-18": 1399,
+    "2026-11-19": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
     "followers_count": 1399,
-    "follows_count": 665,
+    "follows_count": 666,
     "media_count": 668,
     "id": "28888466970748824",
-    "el": "2026-11-19T02:01:31.071Z"
+    "el": "2026-11-19T03:01:27.866Z"
   },
   "res30": {
-    "reach": 5145,
-    "views": 27553,
+    "reach": 5148,
+    "views": 27589,
     "profile_views": 88,
     "accounts_engaged": 277
   },
@@ -1280,8 +1281,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Sonar ese disco en la winco del living era otra cosa, y tenerlo hoy en formato vinilo es revivir ese ritual exacto 🎶\n\nMaipú 175, Agencia Albor\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 296,
-      "views": 339,
+      "reach": 309,
+      "views": 353,
       "saved": 0,
       "shares": 1
     },
@@ -2339,7 +2340,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-19T02:01:38.857Z",
+  "actualizado": "2026-11-19T03:01:37.357Z",
   "aud": {
     "edad": [
       {
@@ -3130,6 +3131,10 @@
     "2026-11-17": {
       "a": 174,
       "v": 708
+    },
+    "2026-11-18": {
+      "a": 406,
+      "v": 765
     }
   }
 }
