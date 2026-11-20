@@ -1191,14 +1191,20 @@
     "18151786603483383": {
       "t": "2026-11-19T23:56:29+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 88
+      "a": 83,
+      "v": 92
     },
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 22,
-      "v": 27
+      "a": 28,
+      "v": 36
+    },
+    "17917069107555727": {
+      "t": "2026-11-20T23:01:42+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1250,11 +1256,11 @@
     "follows_count": 668,
     "media_count": 672,
     "id": "28888466970748824",
-    "el": "2026-11-20T22:01:32.333Z"
+    "el": "2026-11-20T23:01:51.565Z"
   },
   "res30": {
     "reach": 4795,
-    "views": 25172,
+    "views": 25183,
     "profile_views": 81,
     "accounts_engaged": 275
   },
@@ -1268,7 +1274,7 @@
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 14,
-      "views": 29,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1280,8 +1286,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 20,
+      "reach": 18,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -1345,8 +1351,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Sorceress, Man-At-Arms y Ram Man se suman para completar el universo de Eternia en tu repisa. 🦅🛡️\n\nLa colección de Masters of the Universe te trae las figuras oficiales de los héroes y villanos que marcaron una época, acompañadas de un fascículo exclusivo con fichas técnicas, bocetos originales y toda la historia secreta. 📖✨\n\nSon 13 personajes imperdibles para revivir la infancia: He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn. ⚔️\n\nCada entrega viene detallada al milímetro para los fanáticos que guardan los mejores recuerdos de la serie. \n\nPasá a reservar la tuya en Maipú 175, Agencia Albor, Carlos Casares. 📍\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 48,
+      "reach": 20,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -1424,7 +1430,7 @@
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 30,
-      "views": 38,
+      "views": 39,
       "saved": 0,
       "shares": 0
     },
@@ -1463,7 +1469,7 @@
       "comments_count": 0,
       "caption": "¿Te imaginás armar pieza por pieza esta impresionante figura de los Masters of the Universe en tu propia casa? ⚡ Encontrala en Maipú 175, Agencia Albor. ¿Qué personaje de Eternia querés armar primero?\n#princeadam #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 25,
-      "views": 28,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -2417,7 +2423,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-20T22:01:39.169Z",
+  "actualizado": "2026-11-20T23:02:00.470Z",
   "aud": {
     "edad": [
       {
