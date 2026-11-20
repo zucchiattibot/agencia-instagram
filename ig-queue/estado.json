@@ -1,7 +1,9 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-20 09:00": "omitida"
+  },
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -45,7 +47,7 @@
     "mwl7ajjxtgw",
     "mwk2anzsjni"
   ],
-  "statsEl": "2026-11-20T14:02:27.357Z",
+  "statsEl": "2026-11-20T15:01:45.875Z",
   "stUltima": {
     "cuando": "2026-11-19T23:56:56.624Z",
     "franja": "20:15",
@@ -53,12 +55,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-20T14:01:44.933Z",
+    "cuando": "2026-11-20T15:01:35.940Z",
     "cola": 49,
     "enRepo": 49,
-    "pendientes": [
-      "09:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -339,7 +339,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 16:15.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 16:15.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-20",
