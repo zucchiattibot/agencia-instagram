@@ -1191,14 +1191,14 @@
     "18151786603483383": {
       "t": "2026-11-19T23:56:29+0000",
       "tipo": "VIDEO",
-      "a": 76,
-      "v": 81
+      "a": 80,
+      "v": 87
     },
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 13,
+      "v": 17
     }
   },
   "seguidores": {
@@ -1250,11 +1250,11 @@
     "follows_count": 668,
     "media_count": 672,
     "id": "28888466970748824",
-    "el": "2026-11-20T20:01:44.164Z"
+    "el": "2026-11-20T21:01:30.178Z"
   },
   "res30": {
     "reach": 4795,
-    "views": 25128,
+    "views": 25161,
     "profile_views": 81,
     "accounts_engaged": 275
   },
@@ -1267,8 +1267,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 24,
+      "reach": 14,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -1306,8 +1306,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te acordás del olor a tarta recién horneada en la cocina de casa los domingos al mediodía? 🥧 Con este molde antiadherente para tarteletas volvés a cocinar rico sin renegar con el fondo pegado. Pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\n#tarteletas #carloscasares #recetasclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 123,
-      "views": 141,
+      "reach": 124,
+      "views": 143,
       "saved": 1,
       "shares": 0
     },
@@ -2417,7 +2417,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-20T20:01:54.100Z",
+  "actualizado": "2026-11-20T21:01:37.701Z",
   "aud": {
     "edad": [
       {
