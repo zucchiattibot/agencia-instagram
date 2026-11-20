@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-01T02:36:09.096Z",
   "stFranjas": {
-    "2026-11-20 09:00": "omitida"
+    "2026-11-20 09:00": "omitida",
+    "2026-11-20 16:30": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -45,20 +46,23 @@
     "mwl7b5s6o4e",
     "mwl7a6ds58r",
     "mwl7ajjxtgw",
-    "mwk2anzsjni"
+    "mwk2anzsjni",
+    "mwmbo7gocyz"
   ],
-  "statsEl": "2026-11-20T19:01:52.044Z",
+  "statsEl": "2026-11-20T20:01:54.100Z",
   "stUltima": {
-    "cuando": "2026-11-19T23:56:56.624Z",
-    "franja": "20:15",
+    "cuando": "2026-11-20T20:01:42.723Z",
+    "franja": "16:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-20T19:01:43.332Z",
-    "cola": 49,
-    "enRepo": 49,
-    "pendientes": []
+    "cuando": "2026-11-20T20:01:27.938Z",
+    "cola": 50,
+    "enRepo": 50,
+    "pendientes": [
+      "16:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -377,7 +381,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwk2anzsjni",
+  "stUltimaId": "mwmbo7gocyz",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -418,9 +422,12 @@
     "mwl7b5s6o4e": "2026-11-18T21:00:07.889Z",
     "mwl7a6ds58r": "2026-11-18T23:53:02.846Z",
     "mwl7ajjxtgw": "2026-11-19T20:02:33.100Z",
-    "mwk2anzsjni": "2026-11-19T23:56:56.624Z"
+    "mwk2anzsjni": "2026-11-19T23:56:56.624Z",
+    "mwmbo7gocyz": "2026-11-20T20:01:42.723Z"
   },
-  "stUsadosDia": {},
+  "stUsadosDia": {
+    "mwmbo7gocyz": "2026-11-20"
+  },
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-11-11T18:01:44.898Z",
@@ -545,6 +552,5 @@
     "len": 4,
     "h": "12:00"
   },
-  "stAviso": "Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.",
   "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (12:00) para comparar el alcance."
 }
