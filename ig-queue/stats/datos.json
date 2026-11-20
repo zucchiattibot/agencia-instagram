@@ -1179,20 +1179,20 @@
     "18132207412871517": {
       "t": "2026-11-19T14:47:51+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 78
+      "a": 73,
+      "v": 85
     },
     "18171763501484293": {
       "t": "2026-11-19T20:01:55+0000",
       "tipo": "VIDEO",
-      "a": 50,
-      "v": 58
+      "a": 54,
+      "v": 62
     },
     "18151786603483383": {
       "t": "2026-11-19T23:56:29+0000",
       "tipo": "VIDEO",
-      "a": 32,
-      "v": 36
+      "a": 38,
+      "v": 41
     }
   },
   "seguidores": {
@@ -1235,7 +1235,8 @@
     "2026-11-16": 1398,
     "2026-11-17": 1399,
     "2026-11-18": 1399,
-    "2026-11-19": 1399
+    "2026-11-19": 1399,
+    "2026-11-20": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1243,11 +1244,11 @@
     "follows_count": 666,
     "media_count": 671,
     "id": "28888466970748824",
-    "el": "2026-11-20T02:01:35.383Z"
+    "el": "2026-11-20T03:01:28.010Z"
   },
   "res30": {
     "reach": 4957,
-    "views": 26147,
+    "views": 26173,
     "profile_views": 83,
     "accounts_engaged": 276
   },
@@ -1260,8 +1261,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 6,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -1300,7 +1301,7 @@
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 15,
-      "views": 36,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -1365,7 +1366,7 @@
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 26,
-      "views": 40,
+      "views": 42,
       "saved": 0,
       "shares": 0
     },
@@ -1417,7 +1418,7 @@
       "comments_count": 0,
       "caption": "¿Pensabas que el famoso perrito volador se iba a quedar en la tele? 🛩️🐶\n\nEl\n querido Snoopy aviador ya está listo para despegar directo hacia tu repisa con esta nueva entrega de la colección que trae toda la ternura de Charlie Brown y su pandilla. Cada salida semanal incluye un fascículo ilustrado ideal para revivir las mejores historias sobre amistad y familia por $24.990.\n\nPasá a verla y reservá tu ejemplar en Maipú 175, Agencia Albor, Carlos Casares. \n\n#snoopy #charlesschulz #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 46,
-      "views": 88,
+      "views": 89,
       "saved": 0,
       "shares": 0
     },
@@ -2397,7 +2398,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-20T02:01:44.525Z",
+  "actualizado": "2026-11-20T03:01:39.725Z",
   "aud": {
     "edad": [
       {
@@ -3192,6 +3193,10 @@
     "2026-11-18": {
       "a": 406,
       "v": 765
+    },
+    "2026-11-19": {
+      "a": 224,
+      "v": 567
     }
   }
 }
