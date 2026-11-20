@@ -1192,7 +1192,7 @@
       "t": "2026-11-19T23:56:29+0000",
       "tipo": "VIDEO",
       "a": 45,
-      "v": 49
+      "v": 50
     }
   },
   "seguidores": {
@@ -1244,7 +1244,7 @@
     "follows_count": 666,
     "media_count": 671,
     "id": "28888466970748824",
-    "el": "2026-11-20T05:01:29.680Z"
+    "el": "2026-11-20T06:01:25.273Z"
   },
   "res30": {
     "reach": 4957,
@@ -2398,7 +2398,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-20T05:01:40.114Z",
+  "actualizado": "2026-11-20T06:01:37.265Z",
   "aud": {
     "edad": [
       {
@@ -2462,14 +2462,14 @@
           "18-24",
           "M"
         ],
-        "v": 16
+        "v": 15
       },
       {
         "d": [
           "25-34",
           "M"
         ],
-        "v": 78
+        "v": 80
       },
       {
         "d": [
@@ -2483,14 +2483,14 @@
           "45-54",
           "M"
         ],
-        "v": 141
+        "v": 140
       },
       {
         "d": [
           "55-64",
           "M"
         ],
-        "v": 67
+        "v": 68
       },
       {
         "d": [
@@ -2518,7 +2518,7 @@
           "25-34",
           "U"
         ],
-        "v": 45
+        "v": 44
       },
       {
         "d": [
@@ -2558,7 +2558,7 @@
       },
       {
         "d": [
-          "Chivilcoy, Buenos Aires"
+          "Monteros, Tucuman"
         ],
         "v": 1
       },
@@ -2618,6 +2618,12 @@
       },
       {
         "d": [
+          "Río Cuarto, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Luján, Buenos Aires"
         ],
         "v": 3
@@ -2642,6 +2648,12 @@
       },
       {
         "d": [
+          "Elsmere, Delaware"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 2
@@ -2654,13 +2666,19 @@
       },
       {
         "d": [
+          "Esperanza, Santa Fe"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Moctezuma, Buenos Aires"
         ],
         "v": 16
       },
       {
         "d": [
-          "Ciudadela, Buenos Aires"
+          "Llavallol, Buenos Aires"
         ],
         "v": 1
       },
@@ -2672,19 +2690,25 @@
       },
       {
         "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "Panama City, Panamá Province"
         ],
         "v": 2
       },
       {
         "d": [
-          "López Mateos, State of Mexico"
+          "González Catán, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Tlajomulco de Zúñiga, Jalisco"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "San José de Fray Mamerto Esquiú, Catamarca"
         ],
         "v": 1
       },
@@ -2696,31 +2720,7 @@
       },
       {
         "d": [
-          "Villa Leloir, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Alta Floresta, Mato Grosso"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "San Martín de los Andes, Neuquén"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Timon, Maranhão"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Pinamar, Buenos Aires"
+          "Remedios de Escalada de San Martín, Buenos Aires"
         ],
         "v": 1
       },
@@ -2729,6 +2729,12 @@
           "Coronel Martínez de Hoz, Buenos Aires"
         ],
         "v": 8
+      },
+      {
+        "d": [
+          "Colonia Seré, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2807,12 +2813,6 @@
           "La Plata, Buenos Aires"
         ],
         "v": 11
-      },
-      {
-        "d": [
-          "Valentín Alsina, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2919,7 +2919,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-19T09:01:37.102Z"
+    "el": "2026-11-20T06:01:32.313Z"
   },
   "dias": {
     "2026-10-11": {
