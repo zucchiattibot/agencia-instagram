@@ -45,7 +45,7 @@
     "mwl7ajjxtgw",
     "mwk2anzsjni"
   ],
-  "statsEl": "2026-11-20T12:01:40.617Z",
+  "statsEl": "2026-11-20T13:01:47.241Z",
   "stUltima": {
     "cuando": "2026-11-19T23:56:56.624Z",
     "franja": "20:15",
@@ -53,7 +53,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-20T12:01:33.084Z",
+    "cuando": "2026-11-20T13:01:38.030Z",
     "cola": 49,
     "enRepo": 49,
     "pendientes": [
@@ -529,6 +529,6 @@
     "len": 4,
     "h": "12:00"
   },
-  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (12:00) para comparar el alcance.",
-  "stAviso": "Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir."
+  "stAviso": "Ya salieron todas las historias de la cola: no se publica nada hasta que agregues más o actives repetir.",
+  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (12:00) para comparar el alcance."
 }
