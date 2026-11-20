@@ -47,7 +47,7 @@
     "mwl7ajjxtgw",
     "mwk2anzsjni"
   ],
-  "statsEl": "2026-11-20T16:02:03.961Z",
+  "statsEl": "2026-11-20T17:01:46.043Z",
   "stUltima": {
     "cuando": "2026-11-19T23:56:56.624Z",
     "franja": "20:15",
@@ -55,7 +55,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-20T16:01:33.971Z",
+    "cuando": "2026-11-20T17:01:35.309Z",
     "cola": 49,
     "enRepo": 49,
     "pendientes": []
@@ -192,7 +192,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de cantidad hoy: una salida menos (18:30) para comparar el alcance por publicación.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2). Prueba de cantidad hoy: una salida menos (18:30) para comparar el alcance por publicación.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-20",
