@@ -1,7 +1,9 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-21T03:01:27.235Z",
-  "stFranjas": {},
+  "stFranjas": {
+    "2026-11-21 09:00": "ok"
+  },
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -45,20 +47,23 @@
     "mwl7ajjxtgw",
     "mwk2anzsjni",
     "mwmbo7gocyz",
-    "mwmbo0ohztf"
+    "mwmbo0ohztf",
+    "mwo7v34sj8d"
   ],
-  "statsEl": "2026-11-21T11:01:39.308Z",
+  "statsEl": "2026-11-21T12:01:53.134Z",
   "stUltima": {
-    "cuando": "2026-11-20T23:01:50.131Z",
-    "franja": "19:45",
+    "cuando": "2026-11-21T12:01:41.657Z",
+    "franja": "09:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T11:01:29.575Z",
+    "cuando": "2026-11-21T12:01:27.333Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": []
+    "pendientes": [
+      "09:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -374,7 +379,7 @@
     "infoMenos": "Prueba de cantidad hoy: una salida menos (19:45) para comparar el alcance por publicación."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwmbo0ohztf",
+  "stUltimaId": "mwo7v34sj8d",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -417,9 +422,12 @@
     "mwl7ajjxtgw": "2026-11-19T20:02:33.100Z",
     "mwk2anzsjni": "2026-11-19T23:56:56.624Z",
     "mwmbo7gocyz": "2026-11-20T20:01:42.723Z",
-    "mwmbo0ohztf": "2026-11-20T23:01:50.131Z"
+    "mwmbo0ohztf": "2026-11-20T23:01:50.131Z",
+    "mwo7v34sj8d": "2026-11-21T12:01:41.657Z"
   },
-  "stUsadosDia": {},
+  "stUsadosDia": {
+    "mwo7v34sj8d": "2026-11-21"
+  },
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-11-11T18:01:44.898Z",
