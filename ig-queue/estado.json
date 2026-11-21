@@ -4,7 +4,9 @@
   "stFranjas": {
     "2026-11-21 09:00": "ok",
     "2026-11-21 15:30": "ok",
-    "2026-11-21 17:30": "ok"
+    "2026-11-21 17:30": "ok",
+    "2026-11-21 19:30": "ok",
+    "2026-11-21 20:00": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -52,20 +54,25 @@
     "mwmbo0ohztf",
     "mwo7v34sj8d",
     "mwmbnx425rp",
-    "mwmbo3ygh0c"
+    "mwmbo3ygh0c",
+    "mwmbnpgsvun",
+    "mwmsskmj1ie"
   ],
-  "statsEl": "2026-11-21T22:01:43.349Z",
+  "statsEl": "2026-11-21T23:02:54.721Z",
   "stUltima": {
-    "cuando": "2026-11-21T21:01:39.264Z",
-    "franja": "17:30",
+    "cuando": "2026-11-21T23:02:44.684Z",
+    "franja": "20:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T22:01:32.506Z",
+    "cuando": "2026-11-21T23:01:31.207Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": []
+    "pendientes": [
+      "19:30",
+      "20:00"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -393,7 +400,7 @@
     "infoMenos": "Prueba de cantidad hoy: una salida menos (19:45) para comparar el alcance por publicación."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwmbo3ygh0c",
+  "stUltimaId": "mwmsskmj1ie",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -439,12 +446,16 @@
     "mwmbo0ohztf": "2026-11-20T23:01:50.131Z",
     "mwo7v34sj8d": "2026-11-21T12:01:41.657Z",
     "mwmbnx425rp": "2026-11-21T19:01:41.986Z",
-    "mwmbo3ygh0c": "2026-11-21T21:01:39.264Z"
+    "mwmbo3ygh0c": "2026-11-21T21:01:39.264Z",
+    "mwmbnpgsvun": "2026-11-21T23:01:45.532Z",
+    "mwmsskmj1ie": "2026-11-21T23:02:44.684Z"
   },
   "stUsadosDia": {
     "mwo7v34sj8d": "2026-11-21",
     "mwmbnx425rp": "2026-11-21",
-    "mwmbo3ygh0c": "2026-11-21"
+    "mwmbo3ygh0c": "2026-11-21",
+    "mwmbnpgsvun": "2026-11-21",
+    "mwmsskmj1ie": "2026-11-21"
   },
   "autoBase": {
     "feed-ig/config.json": {
