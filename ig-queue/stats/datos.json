@@ -1197,20 +1197,20 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 100,
-      "v": 118
+      "a": 105,
+      "v": 125
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 94
+      "a": 90,
+      "v": 104
     },
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 14,
-      "v": 22
+      "a": 30,
+      "v": 37
     }
   },
   "seguidores": {
@@ -1261,17 +1261,30 @@
     "username": "agenciaalbor",
     "followers_count": 1399,
     "follows_count": 668,
-    "media_count": 673,
+    "media_count": 674,
     "id": "28888466970748824",
-    "el": "2026-11-21T13:01:30.499Z"
+    "el": "2026-11-21T14:01:52.211Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 24503,
+    "views": 24540,
     "profile_views": 81,
     "accounts_engaged": 278
   },
   "posts": [
+    {
+      "id": "18099002915554552",
+      "timestamp": "2026-11-21T14:01:47+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DgAZc-9FDCo/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18134720980606410",
       "timestamp": "2026-11-21T01:02:05+0000",
@@ -1281,7 +1294,7 @@
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 115,
-      "views": 129,
+      "views": 131,
       "saved": 3,
       "shares": 0
     },
@@ -1293,8 +1306,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
-      "views": 39,
+      "reach": 18,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -1410,8 +1423,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
-      "views": 46,
+      "reach": 32,
+      "views": 47,
       "saved": 0,
       "shares": 0
     },
@@ -1450,7 +1463,7 @@
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 31,
-      "views": 40,
+      "views": 41,
       "saved": 0,
       "shares": 0
     },
@@ -2443,7 +2456,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T13:01:42.276Z",
+  "actualizado": "2026-11-21T14:01:59.384Z",
   "aud": {
     "edad": [
       {
