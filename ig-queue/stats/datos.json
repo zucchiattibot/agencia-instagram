@@ -1197,26 +1197,26 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 119,
-      "v": 139
+      "a": 125,
+      "v": 146
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 105,
-      "v": 120
+      "a": 110,
+      "v": 131
     },
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 77
+      "a": 79,
+      "v": 88
     },
     "18497803159110163": {
       "t": "2026-11-21T19:01:34+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 20,
+      "v": 24
     }
   },
   "seguidores": {
@@ -1269,11 +1269,11 @@
     "follows_count": 668,
     "media_count": 674,
     "id": "28888466970748824",
-    "el": "2026-11-21T19:01:43.576Z"
+    "el": "2026-11-21T20:01:33.291Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 24658,
+    "views": 24709,
     "profile_views": 81,
     "accounts_engaged": 278
   },
@@ -1286,8 +1286,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 15,
-      "views": 38,
+      "reach": 16,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -1312,8 +1312,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 43,
+      "reach": 19,
+      "views": 44,
       "saved": 0,
       "shares": 0
     },
@@ -1339,7 +1339,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de ver este furgón repartiendo por los barrios en otra época? 🚐\n\nEl Volkswagen Furgón modelo 1982 ya tiene fecha para sumarse a la vitrina de los fierreros. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, antes de que vuele.\n\n#volkswagen #autosinolvidables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 25,
-      "views": 38,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -2462,7 +2462,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T19:01:52.762Z",
+  "actualizado": "2026-11-21T20:01:40.630Z",
   "aud": {
     "edad": [
       {
