@@ -1197,14 +1197,14 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 51,
-      "v": 69
+      "a": 63,
+      "v": 76
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 32,
-      "v": 45
+      "a": 46,
+      "v": 56
     }
   },
   "seguidores": {
@@ -1256,13 +1256,13 @@
     "follows_count": 668,
     "media_count": 673,
     "id": "28888466970748824",
-    "el": "2026-11-21T01:02:14.418Z"
+    "el": "2026-11-21T02:01:29.733Z"
   },
   "res30": {
-    "reach": 4795,
-    "views": 25264,
+    "reach": 4891,
+    "views": 25387,
     "profile_views": 83,
-    "accounts_engaged": 275
+    "accounts_engaged": 281
   },
   "posts": [
     {
@@ -1270,12 +1270,12 @@
       "timestamp": "2026-11-21T01:02:05+0000",
       "media_type": "VIDEO",
       "permalink": "https://www.instagram.com/reel/Df_AL_igfpH/",
-      "like_count": 0,
+      "like_count": 6,
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
-      "saved": 0,
+      "reach": 81,
+      "views": 115,
+      "saved": 3,
       "shares": 0
     },
     {
@@ -1300,7 +1300,7 @@
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 18,
-      "views": 21,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -1338,8 +1338,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 47,
+      "reach": 22,
+      "views": 48,
       "saved": 0,
       "shares": 0
     },
@@ -1403,7 +1403,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 30,
+      "reach": 31,
       "views": 46,
       "saved": 0,
       "shares": 0
@@ -1417,7 +1417,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de la emoción con la que esperabas cada nuevo libro de Florencia Bonelli? 📚 Pasá a encargar los tuyos por Agencia Albor, Maipú 175, Agencia Albor y llená tu estantería de clásicos.\n#florenciabonelli #carlosc\nasares #novelas\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 133,
-      "views": 158,
+      "views": 159,
       "saved": 0,
       "shares": 1
     },
@@ -1430,7 +1430,7 @@
       "comments_count": 0,
       "caption": "¿Quién iba a decir que ibas a poder tener de nuevo a Orko, He-Man, Skeletor y Battle Cat en la repisa de tu casa? 🗡️ Volvieron esos personajes que marcaron las tardes de los 80 con un nivel de detalle que da gusto. Pasá por Agencia Albor y reservalos antes de que vuelen.\n\nComentá HE-MAN y te paso toda la info.\n\n#heman #mastersoftheuniverse #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 19,
-      "views": 55,
+      "views": 56,
       "saved": 0,
       "shares": 0
     },
@@ -2436,7 +2436,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T01:02:25.090Z",
+  "actualizado": "2026-11-21T02:01:41.893Z",
   "aud": {
     "edad": [
       {
