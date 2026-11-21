@@ -50,7 +50,7 @@
     "mwmbo0ohztf",
     "mwo7v34sj8d"
   ],
-  "statsEl": "2026-11-21T12:01:53.134Z",
+  "statsEl": "2026-11-21T13:01:42.276Z",
   "stUltima": {
     "cuando": "2026-11-21T12:01:41.657Z",
     "franja": "09:00",
@@ -58,12 +58,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T12:01:27.333Z",
+    "cuando": "2026-11-21T13:01:29.483Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": [
-      "09:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
