@@ -3,7 +3,8 @@
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
     "2026-11-21 09:00": "ok",
-    "2026-11-21 15:30": "ok"
+    "2026-11-21 15:30": "ok",
+    "2026-11-21 17:30": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -50,20 +51,23 @@
     "mwmbo7gocyz",
     "mwmbo0ohztf",
     "mwo7v34sj8d",
-    "mwmbnx425rp"
+    "mwmbnx425rp",
+    "mwmbo3ygh0c"
   ],
-  "statsEl": "2026-11-21T20:01:40.630Z",
+  "statsEl": "2026-11-21T21:01:51.097Z",
   "stUltima": {
-    "cuando": "2026-11-21T19:01:41.987Z",
-    "franja": "15:30",
+    "cuando": "2026-11-21T21:01:39.264Z",
+    "franja": "17:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T20:01:24.833Z",
+    "cuando": "2026-11-21T21:01:26.137Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": []
+    "pendientes": [
+      "17:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -357,7 +361,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:45) para comparar el alcance por publicación.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 8 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:45) para comparar el alcance por publicación.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-21",
@@ -391,7 +395,7 @@
     "infoMenos": "Prueba de cantidad hoy: una salida menos (19:45) para comparar el alcance por publicación."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwmbnx425rp",
+  "stUltimaId": "mwmbo3ygh0c",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -436,11 +440,13 @@
     "mwmbo7gocyz": "2026-11-20T20:01:42.723Z",
     "mwmbo0ohztf": "2026-11-20T23:01:50.131Z",
     "mwo7v34sj8d": "2026-11-21T12:01:41.657Z",
-    "mwmbnx425rp": "2026-11-21T19:01:41.986Z"
+    "mwmbnx425rp": "2026-11-21T19:01:41.986Z",
+    "mwmbo3ygh0c": "2026-11-21T21:01:39.264Z"
   },
   "stUsadosDia": {
     "mwo7v34sj8d": "2026-11-21",
-    "mwmbnx425rp": "2026-11-21"
+    "mwmbnx425rp": "2026-11-21",
+    "mwmbo3ygh0c": "2026-11-21"
   },
   "autoBase": {
     "feed-ig/config.json": {
