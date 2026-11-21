@@ -1197,14 +1197,14 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 76
+      "a": 68,
+      "v": 86
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 56
+      "a": 53,
+      "v": 64
     }
   },
   "seguidores": {
@@ -1248,7 +1248,8 @@
     "2026-11-17": 1399,
     "2026-11-18": 1399,
     "2026-11-19": 1399,
-    "2026-11-20": 1399
+    "2026-11-20": 1399,
+    "2026-11-21": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1256,11 +1257,11 @@
     "follows_count": 668,
     "media_count": 673,
     "id": "28888466970748824",
-    "el": "2026-11-21T02:01:29.733Z"
+    "el": "2026-11-21T03:01:28.268Z"
   },
   "res30": {
-    "reach": 4891,
-    "views": 25387,
+    "reach": 4924,
+    "views": 25444,
     "profile_views": 83,
     "accounts_engaged": 281
   },
@@ -1273,8 +1274,8 @@
       "like_count": 6,
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 81,
-      "views": 115,
+      "reach": 111,
+      "views": 126,
       "saved": 3,
       "shares": 0
     },
@@ -1299,8 +1300,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 22,
+      "reach": 20,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -2436,7 +2437,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T02:01:41.893Z",
+  "actualizado": "2026-11-21T03:01:36.628Z",
   "aud": {
     "edad": [
       {
@@ -2957,7 +2958,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-20T06:01:32.313Z"
+    "el": "2026-11-21T03:01:34.710Z"
   },
   "dias": {
     "2026-10-11": {
@@ -3235,6 +3236,10 @@
     "2026-11-19": {
       "a": 224,
       "v": 567
+    },
+    "2026-11-20": {
+      "a": 209,
+      "v": 503
     }
   }
 }
