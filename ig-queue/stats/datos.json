@@ -1197,20 +1197,20 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 109,
-      "v": 127
+      "a": 112,
+      "v": 130
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 93,
-      "v": 107
+      "a": 97,
+      "v": 110
     },
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 52
+      "a": 55,
+      "v": 58
     }
   },
   "seguidores": {
@@ -1263,11 +1263,11 @@
     "follows_count": 668,
     "media_count": 674,
     "id": "28888466970748824",
-    "el": "2026-11-21T15:01:37.672Z"
+    "el": "2026-11-21T16:01:25.654Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 24575,
+    "views": 24609,
     "profile_views": 81,
     "accounts_engaged": 278
   },
@@ -1280,8 +1280,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 11,
+      "reach": 11,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -1293,7 +1293,7 @@
       "like_count": 6,
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 116,
+      "reach": 117,
       "views": 133,
       "saved": 3,
       "shares": 0
@@ -2456,7 +2456,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T15:01:46.613Z",
+  "actualizado": "2026-11-21T16:01:34.410Z",
   "aud": {
     "edad": [
       {
