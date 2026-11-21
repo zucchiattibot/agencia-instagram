@@ -51,7 +51,7 @@
     "mwmbo7gocyz",
     "mwmbo0ohztf"
   ],
-  "statsEl": "2026-11-21T00:01:58.809Z",
+  "statsEl": "2026-11-21T01:02:25.090Z",
   "stUltima": {
     "cuando": "2026-11-20T23:01:50.131Z",
     "franja": "19:45",
@@ -59,14 +59,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T00:01:37.976Z",
+    "cuando": "2026-11-21T01:01:37.113Z",
     "cola": 50,
     "enRepo": 50,
     "pendientes": []
   },
   "fdig": {
     "franjas": {
-      "2026-11-20 13:00": "ok"
+      "2026-11-20 13:00": "ok",
+      "2026-11-20 21:45": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -125,11 +126,12 @@
       "mrcmwmsjcnlpm9o6y-ig",
       "mrcmw4z6257c7gmcn-ig",
       "mrcmwnx3bsxbivj41-ig",
-      "cmwp18t7a-ig"
+      "cmwp18t7a-ig",
+      "mrcmwpagjdal320um-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-20T16:01:53.559Z",
-      "franja": "13:00",
+      "cuando": "2026-11-21T01:02:13.498Z",
+      "franja": "21:45",
       "ok": 1,
       "fallos": 0
     },
@@ -185,10 +187,12 @@
       "mrcmwmsjcnlpm9o6y-ig": "2026-11-19T17:02:13.634Z",
       "mrcmw4z6257c7gmcn-ig": "2026-11-19T22:01:39.782Z",
       "mrcmwnx3bsxbivj41-ig": "2026-11-20T02:01:34.502Z",
-      "cmwp18t7a-ig": "2026-11-20T16:01:53.559Z"
+      "cmwp18t7a-ig": "2026-11-20T16:01:53.559Z",
+      "mrcmwpagjdal320um-ig": "2026-11-21T01:02:13.498Z"
     },
     "usadosDia": {
-      "cmwp18t7a-ig": "2026-11-20"
+      "cmwp18t7a-ig": "2026-11-20",
+      "mrcmwpagjdal320um-ig": "2026-11-20"
     },
     "carga": {
       "nivel": 0,
@@ -353,7 +357,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 10 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 16:15.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 9 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 16:15.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-20",
