@@ -1197,20 +1197,26 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 117,
-      "v": 137
+      "a": 119,
+      "v": 139
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 102,
-      "v": 117
+      "a": 105,
+      "v": 120
     },
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 70
+      "a": 70,
+      "v": 77
+    },
+    "18497803159110163": {
+      "t": "2026-11-21T19:01:34+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1263,11 +1269,11 @@
     "follows_count": 668,
     "media_count": 674,
     "id": "28888466970748824",
-    "el": "2026-11-21T18:01:29.312Z"
+    "el": "2026-11-21T19:01:43.576Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 24641,
+    "views": 24658,
     "profile_views": 81,
     "accounts_engaged": 278
   },
@@ -1280,8 +1286,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
-      "views": 34,
+      "reach": 15,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -1307,7 +1313,7 @@
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 18,
-      "views": 40,
+      "views": 43,
       "saved": 0,
       "shares": 0
     },
@@ -2456,7 +2462,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T18:01:37.121Z",
+  "actualizado": "2026-11-21T19:01:52.762Z",
   "aud": {
     "edad": [
       {

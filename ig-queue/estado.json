@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
-    "2026-11-21 09:00": "ok"
+    "2026-11-21 09:00": "ok",
+    "2026-11-21 15:30": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -48,20 +49,23 @@
     "mwk2anzsjni",
     "mwmbo7gocyz",
     "mwmbo0ohztf",
-    "mwo7v34sj8d"
+    "mwo7v34sj8d",
+    "mwmbnx425rp"
   ],
-  "statsEl": "2026-11-21T18:01:37.121Z",
+  "statsEl": "2026-11-21T19:01:52.762Z",
   "stUltima": {
-    "cuando": "2026-11-21T12:01:41.657Z",
-    "franja": "09:00",
+    "cuando": "2026-11-21T19:01:41.987Z",
+    "franja": "15:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T18:01:27.702Z",
+    "cuando": "2026-11-21T19:01:29.380Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": []
+    "pendientes": [
+      "15:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -383,7 +387,7 @@
     "infoMenos": "Prueba de cantidad hoy: una salida menos (19:45) para comparar el alcance por publicación."
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwo7v34sj8d",
+  "stUltimaId": "mwmbnx425rp",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-10-28T20:02:11.079Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
@@ -427,10 +431,12 @@
     "mwk2anzsjni": "2026-11-19T23:56:56.624Z",
     "mwmbo7gocyz": "2026-11-20T20:01:42.723Z",
     "mwmbo0ohztf": "2026-11-20T23:01:50.131Z",
-    "mwo7v34sj8d": "2026-11-21T12:01:41.657Z"
+    "mwo7v34sj8d": "2026-11-21T12:01:41.657Z",
+    "mwmbnx425rp": "2026-11-21T19:01:41.986Z"
   },
   "stUsadosDia": {
-    "mwo7v34sj8d": "2026-11-21"
+    "mwo7v34sj8d": "2026-11-21",
+    "mwmbnx425rp": "2026-11-21"
   },
   "autoBase": {
     "feed-ig/config.json": {
@@ -539,7 +545,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-20T21:01:29.346Z",
+    "cuando": "2026-11-21T19:01:29.335Z",
     "n": 1
   },
   "stM": {
