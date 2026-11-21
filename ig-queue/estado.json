@@ -47,7 +47,7 @@
     "mwmbo7gocyz",
     "mwmbo0ohztf"
   ],
-  "statsEl": "2026-11-21T04:01:35.785Z",
+  "statsEl": "2026-11-21T05:01:39.838Z",
   "stUltima": {
     "cuando": "2026-11-20T23:01:50.131Z",
     "franja": "19:45",
@@ -55,7 +55,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T04:01:24.248Z",
+    "cuando": "2026-11-21T05:01:30.226Z",
     "cola": 52,
     "enRepo": 52,
     "pendientes": []
