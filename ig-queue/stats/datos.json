@@ -1197,20 +1197,20 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 105,
-      "v": 125
+      "a": 109,
+      "v": 127
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 104
+      "a": 93,
+      "v": 107
     },
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 30,
-      "v": 37
+      "a": 46,
+      "v": 52
     }
   },
   "seguidores": {
@@ -1263,11 +1263,11 @@
     "follows_count": 668,
     "media_count": 674,
     "id": "28888466970748824",
-    "el": "2026-11-21T14:01:52.211Z"
+    "el": "2026-11-21T15:01:37.672Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 24540,
+    "views": 24575,
     "profile_views": 81,
     "accounts_engaged": 278
   },
@@ -1277,11 +1277,11 @@
       "timestamp": "2026-11-21T14:01:47+0000",
       "media_type": "CAROUSEL_ALBUM",
       "permalink": "https://www.instagram.com/p/DgAZc-9FDCo/",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 5,
+      "views": 11,
       "saved": 0,
       "shares": 0
     },
@@ -1293,8 +1293,8 @@
       "like_count": 6,
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 115,
-      "views": 131,
+      "reach": 116,
+      "views": 133,
       "saved": 3,
       "shares": 0
     },
@@ -1462,7 +1462,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Buscás un regalo original que los entrene y divierta un rato largo sin pantallas de por medio? 🧩 🦁 Mirá cómo se arman estos animales en 3D con piezas magnéticas y elegí el favorito para sorprender en su cumple o visita, pasá a buscar el tuyo en Maipú 175, Agencia Albor.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#magnetix #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 31,
+      "reach": 32,
       "views": 41,
       "saved": 0,
       "shares": 0
@@ -2456,7 +2456,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T14:01:59.384Z",
+  "actualizado": "2026-11-21T15:01:46.613Z",
   "aud": {
     "edad": [
       {
