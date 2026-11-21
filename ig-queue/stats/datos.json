@@ -1197,20 +1197,20 @@
     "18079013987767634": {
       "t": "2026-11-20T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 112,
-      "v": 130
+      "a": 114,
+      "v": 135
     },
     "17917069107555727": {
       "t": "2026-11-20T23:01:42+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 110
+      "a": 101,
+      "v": 116
     },
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 55,
-      "v": 58
+      "a": 62,
+      "v": 67
     }
   },
   "seguidores": {
@@ -1255,19 +1255,19 @@
     "2026-11-18": 1399,
     "2026-11-19": 1399,
     "2026-11-20": 1399,
-    "2026-11-21": 1399
+    "2026-11-21": 1398
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1399,
+    "followers_count": 1398,
     "follows_count": 668,
     "media_count": 674,
     "id": "28888466970748824",
-    "el": "2026-11-21T16:01:25.654Z"
+    "el": "2026-11-21T17:01:28.612Z"
   },
   "res30": {
     "reach": 4880,
-    "views": 24609,
+    "views": 24625,
     "profile_views": 81,
     "accounts_engaged": 278
   },
@@ -1280,8 +1280,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 24,
+      "reach": 13,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -2456,7 +2456,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-21T16:01:34.410Z",
+  "actualizado": "2026-11-21T17:01:41.425Z",
   "aud": {
     "edad": [
       {
