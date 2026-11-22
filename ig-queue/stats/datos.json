@@ -1209,32 +1209,32 @@
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 117,
-      "v": 131
+      "a": 122,
+      "v": 135
     },
     "18497803159110163": {
       "t": "2026-11-21T19:01:34+0000",
       "tipo": "IMAGE",
-      "a": 90,
-      "v": 111
+      "a": 99,
+      "v": 118
     },
     "18071579564685832": {
       "t": "2026-11-21T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 92
+      "a": 84,
+      "v": 101
     },
     "18287973187289664": {
       "t": "2026-11-21T23:02:11+0000",
       "tipo": "VIDEO",
-      "a": 36,
-      "v": 46
+      "a": 53,
+      "v": 58
     },
     "18222847786353454": {
       "t": "2026-11-21T23:01:37+0000",
       "tipo": "IMAGE",
-      "a": 47,
-      "v": 57
+      "a": 64,
+      "v": 70
     }
   },
   "seguidores": {
@@ -1287,11 +1287,11 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-22T01:02:03.467Z"
+    "el": "2026-11-22T02:01:26.015Z"
   },
   "res30": {
-    "reach": 4880,
-    "views": 25078,
+    "reach": 4891,
+    "views": 25149,
     "profile_views": 83,
     "accounts_engaged": 279
   },
@@ -1304,8 +1304,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 3,
+      "views": 9,
       "saved": 0,
       "shares": 0
     },
@@ -2493,7 +2493,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-22T01:02:16.003Z",
+  "actualizado": "2026-11-22T02:01:31.818Z",
   "aud": {
     "edad": [
       {
