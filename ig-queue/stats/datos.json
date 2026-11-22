@@ -1209,32 +1209,32 @@
     "17911686735600042": {
       "t": "2026-11-21T12:01:34+0000",
       "tipo": "IMAGE",
-      "a": 122,
-      "v": 135
+      "a": 127,
+      "v": 142
     },
     "18497803159110163": {
       "t": "2026-11-21T19:01:34+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 118
+      "a": 104,
+      "v": 126
     },
     "18071579564685832": {
       "t": "2026-11-21T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 84,
-      "v": 101
+      "a": 90,
+      "v": 106
     },
     "18287973187289664": {
       "t": "2026-11-21T23:02:11+0000",
       "tipo": "VIDEO",
-      "a": 53,
-      "v": 58
+      "a": 58,
+      "v": 67
     },
     "18222847786353454": {
       "t": "2026-11-21T23:01:37+0000",
       "tipo": "IMAGE",
-      "a": 64,
-      "v": 70
+      "a": 71,
+      "v": 77
     }
   },
   "seguidores": {
@@ -1279,7 +1279,8 @@
     "2026-11-18": 1399,
     "2026-11-19": 1399,
     "2026-11-20": 1399,
-    "2026-11-21": 1399
+    "2026-11-21": 1399,
+    "2026-11-22": 1399
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1287,12 +1288,12 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-22T02:01:26.015Z"
+    "el": "2026-11-22T03:01:36.134Z"
   },
   "res30": {
-    "reach": 4891,
-    "views": 25149,
-    "profile_views": 83,
+    "reach": 4913,
+    "views": 25184,
+    "profile_views": 84,
     "accounts_engaged": 279
   },
   "posts": [
@@ -1304,8 +1305,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 3,
-      "views": 9,
+      "reach": 9,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -2493,7 +2494,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-22T02:01:31.818Z",
+  "actualizado": "2026-11-22T03:01:46.048Z",
   "aud": {
     "edad": [
       {
@@ -3296,6 +3297,10 @@
     "2026-11-20": {
       "a": 209,
       "v": 503
+    },
+    "2026-11-21": {
+      "a": 165,
+      "v": 725
     }
   }
 }
