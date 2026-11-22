@@ -2,7 +2,10 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
-    "2026-11-22 08:45": "ok"
+    "2026-11-22 08:45": "ok",
+    "2026-11-22 15:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -54,18 +57,20 @@
     "mwmbnpgsvun",
     "mwmsskmj1ie"
   ],
-  "statsEl": "2026-11-22T17:01:47.183Z",
+  "statsEl": "2026-11-22T18:01:44.260Z",
   "stUltima": {
-    "cuando": "2026-11-22T13:02:10.015Z",
-    "franja": "08:45",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-22T18:01:33.035Z",
+    "franja": "15:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-22T17:01:37.385Z",
+    "cuando": "2026-11-22T18:01:29.628Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": []
+    "pendientes": [
+      "15:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -201,7 +206,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "0 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-22",
@@ -359,7 +364,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
+    "infoCarga": "2 salidas hoy, separadas al menos 2 h; 8 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-22",
@@ -569,5 +574,6 @@
     "pos": 1,
     "len": 4,
     "h": "12:00"
-  }
+  },
+  "stError": "The media with 18,136,945,636,670,222 cannot be found. (código 24)"
 }
