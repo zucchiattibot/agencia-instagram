@@ -1215,32 +1215,32 @@
     "18497803159110163": {
       "t": "2026-11-21T19:01:34+0000",
       "tipo": "IMAGE",
-      "a": 124,
-      "v": 147
+      "a": 126,
+      "v": 148
     },
     "18071579564685832": {
       "t": "2026-11-21T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 108,
-      "v": 128
+      "a": 111,
+      "v": 131
     },
     "18287973187289664": {
       "t": "2026-11-21T23:02:11+0000",
       "tipo": "VIDEO",
-      "a": 83,
-      "v": 89
+      "a": 87,
+      "v": 93
     },
     "18222847786353454": {
       "t": "2026-11-21T23:01:37+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 105
+      "a": 101,
+      "v": 109
     },
     "18434857429149924": {
       "t": "2026-11-22T13:01:56+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 11,
+      "v": 20
     }
   },
   "seguidores": {
@@ -1294,11 +1294,11 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-22T13:02:11.849Z"
+    "el": "2026-11-22T14:01:36.809Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 24003,
+    "views": 24031,
     "profile_views": 82,
     "accounts_engaged": 275
   },
@@ -1312,7 +1312,7 @@
       "comments_count": 0,
       "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 10,
-      "views": 19,
+      "views": 21,
       "saved": 0,
       "shares": 0
     },
@@ -1351,7 +1351,7 @@
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 21,
-      "views": 45,
+      "views": 46,
       "saved": 0,
       "shares": 0
     },
@@ -2500,7 +2500,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-22T13:02:19.218Z",
+  "actualizado": "2026-11-22T14:01:45.202Z",
   "aud": {
     "edad": [
       {
