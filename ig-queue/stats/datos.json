@@ -1215,32 +1215,32 @@
     "18497803159110163": {
       "t": "2026-11-21T19:01:34+0000",
       "tipo": "IMAGE",
-      "a": 131,
-      "v": 153
+      "a": 135,
+      "v": 160
     },
     "18071579564685832": {
       "t": "2026-11-21T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 114,
-      "v": 134
+      "a": 116,
+      "v": 142
     },
     "18287973187289664": {
       "t": "2026-11-21T23:02:11+0000",
       "tipo": "VIDEO",
-      "a": 92,
-      "v": 99
+      "a": 99,
+      "v": 109
     },
     "18222847786353454": {
       "t": "2026-11-21T23:01:37+0000",
       "tipo": "IMAGE",
-      "a": 103,
-      "v": 111
+      "a": 107,
+      "v": 119
     },
     "18434857429149924": {
       "t": "2026-11-22T13:01:56+0000",
       "tipo": "VIDEO",
-      "a": 30,
-      "v": 43
+      "a": 42,
+      "v": 57
     }
   },
   "seguidores": {
@@ -1286,21 +1286,21 @@
     "2026-11-19": 1399,
     "2026-11-20": 1399,
     "2026-11-21": 1399,
-    "2026-11-22": 1399
+    "2026-11-22": 1400
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1399,
+    "followers_count": 1400,
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-22T16:01:35.891Z"
+    "el": "2026-11-22T17:01:39.206Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 24076,
-    "profile_views": 82,
-    "accounts_engaged": 275
+    "views": 24110,
+    "profile_views": 83,
+    "accounts_engaged": 276
   },
   "posts": [
     {
@@ -1325,7 +1325,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 21,
-      "views": 49,
+      "views": 50,
       "saved": 0,
       "shares": 0
     },
@@ -1402,7 +1402,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
+      "reach": 25,
       "views": 54,
       "saved": 0,
       "shares": 0
@@ -2500,7 +2500,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-22T16:01:43.343Z",
+  "actualizado": "2026-11-22T17:01:47.183Z",
   "aud": {
     "edad": [
       {
