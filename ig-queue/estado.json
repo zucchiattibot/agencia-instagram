@@ -4,7 +4,9 @@
   "stFranjas": {
     "2026-11-22 08:45": "ok",
     "2026-11-22 15:00": "ok",
-    "2026-11-22 18:00": "ok"
+    "2026-11-22 18:00": "ok",
+    "2026-11-22 19:30": "ok",
+    "2026-11-22 20:00": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -56,20 +58,24 @@
     "mwmbnpgsvun",
     "mwmsskmj1ie",
     "mwmbntv6859",
-    "mwps50n86mb"
+    "mwps50n86mb",
+    "mwps4vqk9gm"
   ],
-  "statsEl": "2026-11-22T22:01:41.954Z",
+  "statsEl": "2026-11-22T23:02:12.190Z",
   "stUltima": {
-    "cuando": "2026-11-22T21:01:47.760Z",
-    "franja": "18:00",
+    "cuando": "2026-11-22T23:02:02.126Z",
+    "franja": "20:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-22T22:01:30.765Z",
+    "cuando": "2026-11-22T23:01:36.845Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": []
+    "pendientes": [
+      "19:30",
+      "20:00"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -400,9 +406,9 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwps50n86mb",
+  "stUltimaId": "mvl599jl55g",
   "stPublicadoEn": {
-    "mvl599jl55g": "2026-10-28T20:02:11.079Z",
+    "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-01T11:02:00.454Z",
     "mvzk7tbtj4y": "2026-11-03T12:03:34.951Z",
     "mvjo1c6w48j": "2026-11-03T23:02:14.352Z",
@@ -451,12 +457,15 @@
     "mwmsskmj1ie": "2026-11-21T23:02:44.684Z",
     "mvig7p62n3p": "2026-11-22T13:02:10.015Z",
     "mwmbntv6859": "2026-11-22T19:01:52.447Z",
-    "mwps50n86mb": "2026-11-22T21:01:47.760Z"
+    "mwps50n86mb": "2026-11-22T21:01:47.760Z",
+    "mwps4vqk9gm": "2026-11-22T23:01:51.579Z"
   },
   "stUsadosDia": {
     "mvig7p62n3p": "2026-11-22",
     "mwmbntv6859": "2026-11-22",
-    "mwps50n86mb": "2026-11-22"
+    "mwps50n86mb": "2026-11-22",
+    "mwps4vqk9gm": "2026-11-22",
+    "mvl599jl55g": "2026-11-22"
   },
   "autoBase": {
     "feed-ig/config.json": {
