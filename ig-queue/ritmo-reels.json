@@ -1,5 +1,5 @@
 {
-  "on": true,
+  "on": false,
   "min": 3,
   "max": 9,
   "maxDia": 2,
