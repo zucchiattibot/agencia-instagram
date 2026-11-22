@@ -1,0 +1,8 @@
+{
+  "on": true,
+  "min": 3,
+  "max": 9,
+  "maxDia": 2,
+  "esperaBajar": 7,
+  "espera": 14
+}
