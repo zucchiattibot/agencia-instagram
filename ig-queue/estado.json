@@ -58,7 +58,7 @@
     "mwmbnpgsvun",
     "mwmsskmj1ie"
   ],
-  "statsEl": "2026-11-21T23:02:54.721Z",
+  "statsEl": "2026-11-22T00:01:38.471Z",
   "stUltima": {
     "cuando": "2026-11-21T23:02:44.684Z",
     "franja": "20:00",
@@ -66,13 +66,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-21T23:01:31.207Z",
+    "cuando": "2026-11-22T00:01:29.415Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": [
-      "19:30",
-      "20:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
