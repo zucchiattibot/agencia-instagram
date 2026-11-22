@@ -1221,32 +1221,32 @@
     "18071579564685832": {
       "t": "2026-11-21T21:01:32+0000",
       "tipo": "IMAGE",
-      "a": 128,
-      "v": 151
+      "a": 130,
+      "v": 153
     },
     "18287973187289664": {
       "t": "2026-11-21T23:02:11+0000",
       "tipo": "VIDEO",
-      "a": 112,
-      "v": 122
+      "a": 115,
+      "v": 125
     },
     "18222847786353454": {
       "t": "2026-11-21T23:01:37+0000",
       "tipo": "IMAGE",
-      "a": 119,
-      "v": 128
+      "a": 121,
+      "v": 130
     },
     "18434857429149924": {
       "t": "2026-11-22T13:01:56+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 80
+      "a": 70,
+      "v": 84
     },
     "18136311955667794": {
       "t": "2026-11-22T19:01:44+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 12,
+      "v": 18
     }
   },
   "seguidores": {
@@ -1300,11 +1300,11 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-22T19:01:54.264Z"
+    "el": "2026-11-22T20:02:02.325Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 24194,
+    "views": 24229,
     "profile_views": 83,
     "accounts_engaged": 276
   },
@@ -1330,8 +1330,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 21,
-      "views": 50,
+      "reach": 22,
+      "views": 51,
       "saved": 0,
       "shares": 0
     },
@@ -1356,7 +1356,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
+      "reach": 24,
       "views": 48,
       "saved": 0,
       "shares": 0
@@ -1473,7 +1473,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
+      "reach": 33,
       "views": 48,
       "saved": 0,
       "shares": 0
@@ -2506,7 +2506,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-22T19:02:01.986Z",
+  "actualizado": "2026-11-22T20:02:12.204Z",
   "aud": {
     "edad": [
       {
@@ -2598,7 +2598,7 @@
           "55-64",
           "M"
         ],
-        "v": 68
+        "v": 67
       },
       {
         "d": [
@@ -2666,6 +2666,12 @@
       },
       {
         "d": [
+          "Santa Ana, Corrientes"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -2690,7 +2696,7 @@
       },
       {
         "d": [
-          "Tijuana, Baja California"
+          "Pilar, Buenos Aires"
         ],
         "v": 1
       },
@@ -2710,13 +2716,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 42
-      },
-      {
-        "d": [
-          "Lincoln, Buenos Aires"
-        ],
-        "v": 1
+        "v": 39
       },
       {
         "d": [
@@ -2729,6 +2729,12 @@
           "9 de Julio, Buenos Aires"
         ],
         "v": 9
+      },
+      {
+        "d": [
+          "San Isidro, Catamarca"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2762,18 +2768,6 @@
       },
       {
         "d": [
-          "Azul, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Elsmere, Delaware"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 3
@@ -2782,7 +2776,13 @@
         "d": [
           "Córdoba, Córdoba"
         ],
-        "v": 6
+        "v": 5
+      },
+      {
+        "d": [
+          "Esperanza, Santa Fe"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2792,9 +2792,21 @@
       },
       {
         "d": [
+          "Murphy, Santa Fe"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "La Lucila, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Pergamino, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2816,15 +2828,15 @@
       },
       {
         "d": [
-          "López Mateos, State of Mexico"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Remedios de Escalada de San Martín, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2836,7 +2848,7 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1065
+        "v": 1068
       },
       {
         "d": [
@@ -2848,37 +2860,19 @@
         "d": [
           "Pehuajó, Buenos Aires"
         ],
-        "v": 15
+        "v": 14
       },
       {
         "d": [
           "Santiago, Santiago Metropolitan Region"
         ],
-        "v": 4
-      },
-      {
-        "d": [
-          "Florida, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Tucuruí, Pará"
-        ],
-        "v": 1
+        "v": 3
       },
       {
         "d": [
           "Lanús, Buenos Aires"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Patricios, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2900,13 +2894,13 @@
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
@@ -2915,6 +2909,12 @@
           "Rosario, Santa Fe"
         ],
         "v": 4
+      },
+      {
+        "d": [
+          "Mojón de Fierro, Formosa"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -3000,7 +3000,7 @@
         "d": [
           "AR"
         ],
-        "v": 1340
+        "v": 1339
       },
       {
         "d": [
@@ -3027,7 +3027,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-21T23:02:51.775Z"
+    "el": "2026-11-22T20:02:09.150Z"
   },
   "dias": {
     "2026-10-11": {

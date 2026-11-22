@@ -56,7 +56,7 @@
     "mwmsskmj1ie",
     "mwmbntv6859"
   ],
-  "statsEl": "2026-11-22T19:02:01.986Z",
+  "statsEl": "2026-11-22T20:02:12.204Z",
   "stUltima": {
     "cuando": "2026-11-22T19:01:52.447Z",
     "franja": "15:00",
@@ -64,12 +64,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-22T19:01:38.568Z",
+    "cuando": "2026-11-22T20:01:35.385Z",
     "cola": 52,
     "enRepo": 52,
-    "pendientes": [
-      "15:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {},
@@ -231,7 +229,8 @@
   },
   "fdfb": {
     "franjas": {
-      "2026-11-22 08:00": "ok"
+      "2026-11-22 08:00": "ok",
+      "2026-11-22 17:00": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -291,11 +290,12 @@
       "mrcmwmsjcnlpm9o6y-fb",
       "mrcmvzjh8k3r238ie-fb",
       "cmwp18t7a-fb",
-      "mrcmwpagjdal320um-fb"
+      "mrcmwpagjdal320um-fb",
+      "mrcmvwlruqb8nsl0v-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-22T11:01:49.456Z",
-      "franja": "08:00",
+      "cuando": "2026-11-22T20:02:00.391Z",
+      "franja": "17:00",
       "ok": 1,
       "fallos": 0
     },
@@ -352,10 +352,12 @@
       "mrcmwmsjcnlpm9o6y-fb": "2026-11-20T14:02:15.236Z",
       "mrcmvzjh8k3r238ie-fb": "2026-11-21T00:01:48.265Z",
       "cmwp18t7a-fb": "2026-11-21T20:01:31.961Z",
-      "mrcmwpagjdal320um-fb": "2026-11-22T11:01:49.455Z"
+      "mrcmwpagjdal320um-fb": "2026-11-22T11:01:49.455Z",
+      "mrcmvwlruqb8nsl0v-fb": "2026-11-22T20:02:00.391Z"
     },
     "usadosDia": {
-      "mrcmwpagjdal320um-fb": "2026-11-22"
+      "mrcmwpagjdal320um-fb": "2026-11-22",
+      "mrcmvwlruqb8nsl0v-fb": "2026-11-22"
     },
     "carga": {
       "nivel": 0,
@@ -364,7 +366,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "2 salidas hoy, separadas al menos 2 h; 8 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
-    "ultimaProv": "Clarin",
+    "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-22",
       "h": "08:00",
