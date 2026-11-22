@@ -1,4 +1,4 @@
-// ig-motor-v57
+// ig-motor-v59
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -408,7 +408,8 @@ function itemsCargaMotor(red) {
   return recientesMotor((D.posts || []).filter((p) => maduro(p.timestamp)).map((p) => ({ t: p.timestamp, score: +(p.reach || 0) })));
 }
 // v37: tope de Reels para no saturar la cuenta. Cuenta las salidas diarias de las franjas fijadas en 'reel'; el motor no pasa más franjas a Reel ni suma extras de Reel sobre ese tope.
-const MAX_REELS_DIA = 2;
+let MAX_REELS_DIA = 2; // v58: configurable en ig-queue/ritmo-reels.json (maxDia, de 1 a 4)
+try { const v0 = Math.round(Number(JSON.parse(fs.readFileSync(path.join(BASE, 'ritmo-reels.json'), 'utf8')).maxDia)); if (v0 >= 1 && v0 <= 4) MAX_REELS_DIA = v0; } catch (e) {}
 // Reels por día: máximo de Reels que caen el mismo día de la semana (0 = domingo ... 6 = sábado). Con 'extra' (una franja que pasaría a Reel) mira solo los días en que esa franja corre.
 function reelsDia(franjas, extra) {
   const lista = (franjas || []).filter((f) => f && f.f === 'reel'); if (extra) lista.push(extra);
@@ -996,6 +997,84 @@ function optimizarRestoCola(ruta, items, etiqueta, estado) {
   return {red:etiqueta,estado:'sin-cambio',detalle:'La muestra no justifica un cambio seguro en horarios, formato o cantidad.'};
 }
 
+// v58: RITMO SEMANAL DE REELS. Cada semana mira si los Reels recientes (últimas 3 semanas) rinden menos que los de las 5-6 semanas anteriores.
+// Si el alcance mediano cae 30% o más (y le pierde a los anteriores en la mayoría de los cruces), QUITA una salida de Reel de la semana (2 si cae más del 50%),
+// sin bajar del mínimo semanal (ritmo-reels.json, 2 por defecto). Si después se recuperan, SUMA una salida de Reel (en el mejor día y a 2 h o más de las demás)
+// hasta el máximo (7 por defecto), respetando 2 Reels por día y el tope de salidas por día. Usa el mismo freno de siempre: un ajuste cada 14 días y reversión si el alcance cae.
+// Se apaga con el autoajuste o con { "on": false } en ig-queue/ritmo-reels.json. Otros números de ese archivo: maxDia (Reels por día, 2), esperaBajar (7) y espera (14). El mínimo puede dejar días sin publicar (es lo que se pide: menos Reels cuando no andan).
+function corrFr(f, d) { return !(Array.isArray(f.d) && f.d.length) || f.d.includes(d); }
+function cfgRitmoReels() {
+  const r = leer(path.join(BASE, 'ritmo-reels.json'), null) || {};
+  const num = (v, d) => (v !== null && v !== undefined && v !== '' && Number.isFinite(Number(v)) ? Number(v) : d);
+  const min = Math.max(0, Math.min(14, Math.round(num(r.min, 2))));
+  const max = Math.max(min, Math.min(14, Math.round(num(r.max, 7))));
+  return { on: r.on !== false, min, max, esperaBajar: Math.max(3, Math.min(14, Math.round(num(r.esperaBajar, 7)))), espera: Math.max(7, Math.min(28, Math.round(num(r.espera, 14)))) };
+}
+function reelsPorDia(franjas, d) { return (franjas || []).reduce((a, f) => a + (f && f.f === 'reel' && corrFr(f, d) ? Math.min(Number(f.n) || 1, 5) : 0), 0); }
+function salidasPorDia(franjas, d) { return (franjas || []).reduce((a, f) => a + (f && corrFr(f, d) ? Math.min(Number(f.n) || 1, 5) : 0), 0); }
+function reelsSemana(franjas) { let t = 0; for (let d = 0; d < 7; d++) t += reelsPorDia(franjas, d); return t; }
+function optimizarRitmoReels(ruta, items, etiqueta, estado, soloBajar) {
+  if (!ruta.startsWith('feed-') || !autoAjusteOn()) return null;
+  const R = cfgRitmoReels(); if (!R.on) return null;
+  const cfg = leer(path.join(BASE, ruta), null);
+  if (!cfg || cfg.pausada || !Array.isArray(cfg.franjas) || !cfg.franjas.length) return null;
+  const ahora = Date.now(), DIA = 86400000, cfgAntes = JSON.parse(JSON.stringify(cfg));
+  const rl = items.filter((p) => p.fmt === 'video' && p.score > 0 && Number.isFinite(Date.parse(p.t)));
+  const rec = rl.filter((p) => Date.parse(p.t) >= ahora - 21 * DIA), ant = rl.filter((p) => Date.parse(p.t) < ahora - 21 * DIA);
+  if (rec.length < 4 || ant.length < 6) return { red: etiqueta, estado: 'sin-muestra', detalle: 'Ritmo de Reels: faltan Reels con métricas (hacen falta 4 de las últimas 3 semanas y 6 de antes) para decidir si conviene bajar o subir.' };
+  const mr = medianaMotor(rec.map((p) => p.score)), ma = medianaMotor(ant.map((p) => p.score));
+  if (!(ma > 0)) return null;
+  const ratio = mr / ma, ventaja = ventajaParesMotor(rec.map((p) => p.score), ant.map((p) => p.score));
+  const sem = reelsSemana(cfg.franjas), pct = Math.round(Math.abs(1 - ratio) * 100);
+  const est = ((estado.ritmoReels = estado.ritmoReels || {})[ruta] = estado.ritmoReels[ruta] || {});
+  const porDia = {};
+  for (const p of rl) { const d = diaLocal(p.t); if (d >= 0) (porDia[d] ||= []).push(p.score); }
+  const medDia = (d) => (porDia[d] && porDia[d].length >= 2 ? medianaMotor(porDia[d]) : null);
+  // BAJAR
+  if (ratio < 0.7 && ventaja <= 0.35 && sem > R.min) {
+    let quitar = Math.min(ratio < 0.5 ? 2 : 1, sem - R.min), hechas = 0;
+    while (quitar-- > 0) {
+      const dias = [0, 1, 2, 3, 4, 5, 6].filter((d) => reelsPorDia(cfg.franjas, d) > 0).sort((a, b) => reelsPorDia(cfg.franjas, b) - reelsPorDia(cfg.franjas, a) || (medDia(a) ?? 1e15) - (medDia(b) ?? 1e15));
+      if (!dias.length) break;
+      const d = dias[0], cand = cfg.franjas.filter((f) => f.f === 'reel' && corrFr(f, d)).sort((a, b) => (Number(a.n) || 1) - (Number(b.n) || 1))[0];
+      const n = Math.min(Number(cand.n) || 1, 5), todos = Array.isArray(cand.d) && cand.d.length ? cand.d.slice() : [0, 1, 2, 3, 4, 5, 6], resto = todos.filter((x) => x !== d);
+      const copia = n > 1 ? { ...cand, n: n - 1, d: [d] } : null, i = cfg.franjas.indexOf(cand);
+      if (resto.length) cand.d = resto; else cfg.franjas.splice(i, 1);
+      if (copia) cfg.franjas.push(copia);
+      hechas++;
+    }
+    if (!hechas || !cfg.franjas.length) return null;
+    const nuevo = reelsSemana(cfg.franjas);
+    est.bajado = true; est.antes = Math.max(est.antes || 0, sem); est.t = new Date(ahora).toISOString();
+    const detalle = `Ritmo de Reels: de ${sem} a ${nuevo} por semana. Los Reels de las últimas 3 semanas rindieron ${pct}% menos (alcance mediano ${Math.round(mr)} contra ${Math.round(ma)} antes, ${rec.length} y ${ant.length} Reels). Saqué la salida del día con más Reels / peor alcance. Mínimo configurado: ${R.min} por semana. Si se recuperan, vuelvo a sumar de a uno.`;
+    escribirConfigOptimizada(ruta, cfgAntes, cfg, detalle);
+    return { red: etiqueta, estado: 'ajustado', detalle, reelBaja: true };
+  }
+  if (soloBajar) return null;
+  // SUBIR: solo para recuperar lo que se bajó (o si los Reels crecen mucho), con material y sin pasar el máximo.
+  const recupero = est.bajado && ratio >= 0.9 && ventaja >= 0.45, crece = ratio >= 1.25 && ventaja >= 0.65;
+  if ((recupero || crece) && sem < R.max && (cfg.pool || []).length >= 6) {
+    const tope = ruta.startsWith('feed-fb') ? 3 : 4;
+    const dias = [0, 1, 2, 3, 4, 5, 6].filter((d) => reelsPorDia(cfg.franjas, d) < MAX_REELS_DIA && salidasPorDia(cfg.franjas, d) < tope)
+      .sort((a, b) => (medDia(b) ?? 0) - (medDia(a) ?? 0) || reelsPorDia(cfg.franjas, a) - reelsPorDia(cfg.franjas, b));
+    const horas = rec.concat(ant).map((p) => horaLocalMotor(p.t)).filter((h) => h !== null);
+    const medH = (horas.length ? medianaMotor(horas) : 19) * 60;
+    for (const d of dias) {
+      const act = cfg.franjas.filter((f) => corrFr(f, d)).map((f) => frMin(f.h)), cands = [];
+      for (let m = 9 * 60; m <= 21 * 60; m += 30) if (act.every((x) => Math.abs(x - m) >= 120)) cands.push(m);
+      cands.sort((a, b) => Math.abs(a - medH) - Math.abs(b - medH));
+      if (!cands.length) continue;
+      cfg.franjas.push({ h: frTxt(cands[0]), n: 1, f: 'reel', d: [d] });
+      const nuevo = reelsSemana(cfg.franjas);
+      if (est.bajado && nuevo >= (est.antes || 0)) delete est.bajado;
+      const detalle = `Ritmo de Reels: de ${sem} a ${nuevo} por semana. ${recupero ? 'Los Reels se recuperaron' : 'Los Reels crecieron'}: alcance mediano ${Math.round(mr)} contra ${Math.round(ma)} antes (${pct}% ${ratio >= 1 ? 'más' : 'menos'}). Sumé un Reel el ${NOMBRES_DIA[d]} a las ${frTxt(cands[0])}. Máximo configurado: ${R.max} por semana.`;
+      escribirConfigOptimizada(ruta, cfgAntes, cfg, detalle);
+      return { red: etiqueta, estado: 'ajustado', detalle };
+    }
+  }
+  return { red: etiqueta, estado: 'sin-cambios', detalle: `Ritmo de Reels: se mantiene en ${sem} por semana (los Reels recientes rinden ${Math.round(ratio * 100)}% de los anteriores).` };
+}
+
 function optimizarSemanaAutomatica(estado) {
   const ahora = Date.now(), DIA = 86400000;
   if (estado.autoOptimizacionUltimoChequeo && ahora - Date.parse(estado.autoOptimizacionUltimoChequeo) < 7 * DIA) return;
@@ -1015,10 +1094,15 @@ function optimizarSemanaAutomatica(estado) {
   ]) {
     try {
       if (pausa[ruta] && ahora < Date.parse(pausa[ruta])) { resultados.push({ red: etiqueta, estado: 'en-pausa', detalle: 'En pausa hasta ' + pausa[ruta].slice(0, 10) + ' por una reversión reciente.' }); continue; }
-      const bl = base[ruta];
+      const bl = base[ruta], RR = cfgRitmoReels();
       if (bl) {
         const dias = (ahora - Date.parse(bl.t)) / DIA;
-        if (dias < 14) { resultados.push({ red: etiqueta, estado: 'en-observacion', detalle: 'Último ajuste hace ' + Math.floor(dias) + ' días: espero 14 para medir el efecto.' }); continue; }
+        // v58: si el último ajuste fue BAJAR Reels, y siguen cayendo, puede bajar otro paso antes (esperaBajar, 7 días por defecto) sin esperar los 14 de medir el efecto.
+        if (bl.reelBaja && ruta.startsWith('feed-') && RR.on && autoAjusteOn() && dias >= RR.esperaBajar && dias < RR.espera) {
+          const rr = optimizarRitmoReels(ruta, items, etiqueta, estado, true);
+          if (rr && rr.estado === 'ajustado') { bl.t = new Date(ahora).toISOString(); resultados.push(rr); continue; }
+        }
+        if (dias < RR.espera) { resultados.push({ red: etiqueta, estado: 'en-observacion', detalle: 'Último ajuste hace ' + Math.floor(dias) + ' días: espero ' + RR.espera + ' para medir el efecto' + (bl.reelBaja ? ' (si los Reels siguen cayendo, puedo bajar otro paso a los ' + RR.esperaBajar + ').' : '.') }); continue; }
         const despues = items.filter(p => Date.parse(p.t) > Date.parse(bl.t) + 3600000).map(p => p.score).filter(Number.isFinite);
         if (despues.length < 6 && dias < 28) { resultados.push({ red: etiqueta, estado: 'en-observacion', detalle: 'Faltan publicaciones con datos para medir el ajuste anterior.' }); continue; }
         if (despues.length >= 6 && bl.med > 0 && medianaMotor(despues) < bl.med * 0.7) {
@@ -1036,9 +1120,10 @@ function optimizarSemanaAutomatica(estado) {
       const antes = JSON.parse(JSON.stringify((leer(path.join(BASE, ruta), {}) || {}).franjas || []));
       let r = optimizarDiasCola(ruta, items, estado, etiqueta);
       if (!r || r.estado !== 'ajustado') r = optimizarRestoCola(ruta, items, etiqueta, estado) || r;
+      if (!r || r.estado !== 'ajustado') { try { const rr = optimizarRitmoReels(ruta, items, etiqueta, estado); if (rr && (rr.estado === 'ajustado' || !r)) r = rr; } catch (e) { console.log('Ritmo de Reels falló', e.message); } }
       if (r && r.estado === 'ajustado') {
         const rec = items.slice().sort((a, b) => Date.parse(b.t) - Date.parse(a.t)).slice(0, 12).map(p => p.score).filter(Number.isFinite);
-        base[ruta] = { t: new Date(ahora).toISOString(), med: medianaMotor(rec), franjas: antes };
+        base[ruta] = { t: new Date(ahora).toISOString(), med: medianaMotor(rec), franjas: antes, reelBaja: !!(r && r.reelBaja) };
       }
       if (r) resultados.push(r);
     } catch (e) { resultados.push({ red: etiqueta, estado: 'error', detalle: e.message }); }
