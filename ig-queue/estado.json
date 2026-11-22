@@ -58,7 +58,7 @@
     "mwmbntv6859",
     "mwps50n86mb"
   ],
-  "statsEl": "2026-11-22T21:01:55.875Z",
+  "statsEl": "2026-11-22T22:01:41.954Z",
   "stUltima": {
     "cuando": "2026-11-22T21:01:47.760Z",
     "franja": "18:00",
@@ -66,7 +66,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-22T21:45:19.274Z",
+    "cuando": "2026-11-22T22:01:30.765Z",
     "cola": 52,
     "enRepo": 52,
     "pendientes": []
