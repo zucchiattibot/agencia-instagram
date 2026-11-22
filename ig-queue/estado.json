@@ -52,7 +52,7 @@
     "mwmbnpgsvun",
     "mwmsskmj1ie"
   ],
-  "statsEl": "2026-11-22T05:01:40.357Z",
+  "statsEl": "2026-11-22T06:01:37.250Z",
   "stUltima": {
     "cuando": "2026-11-21T23:02:44.684Z",
     "franja": "20:00",
@@ -60,7 +60,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-22T05:01:27.170Z",
+    "cuando": "2026-11-22T06:01:23.141Z",
     "cola": 52,
     "enRepo": 52,
     "pendientes": []
