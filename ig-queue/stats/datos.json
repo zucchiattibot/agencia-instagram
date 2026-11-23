@@ -1245,38 +1245,38 @@
     "18136311955667794": {
       "t": "2026-11-22T19:01:44+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 84
+      "a": 71,
+      "v": 87
     },
     "17928608730442526": {
       "t": "2026-11-22T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 58,
-      "v": 67
+      "a": 61,
+      "v": 70
     },
     "17939829924406555": {
       "t": "2026-11-22T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 50,
-      "v": 55
+      "a": 52,
+      "v": 57
     },
     "18121651010079849": {
       "t": "2026-11-22T23:01:43+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 58
+      "a": 54,
+      "v": 60
     },
     "18129199603897689": {
       "t": "2026-11-23T10:38:19+0000",
       "tipo": "IMAGE",
-      "a": 27,
-      "v": 30
+      "a": 32,
+      "v": 39
     },
     "17916740190283541": {
       "t": "2026-11-23T12:01:57+0000",
       "tipo": "VIDEO",
-      "a": 19,
-      "v": 24
+      "a": 28,
+      "v": 31
     }
   },
   "seguidores": {
@@ -1331,11 +1331,11 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-23T15:01:44.103Z"
+    "el": "2026-11-23T16:01:40.169Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 23600,
+    "views": 23628,
     "profile_views": 84,
     "accounts_engaged": 263
   },
@@ -1349,7 +1349,7 @@
       "comments_count": 0,
       "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 14,
-      "views": 28,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -1362,7 +1362,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 24,
-      "views": 56,
+      "views": 59,
       "saved": 0,
       "shares": 0
     },
@@ -2537,7 +2537,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T15:01:51.178Z",
+  "actualizado": "2026-11-23T16:01:46.685Z",
   "aud": {
     "edad": [
       {

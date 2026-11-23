@@ -59,7 +59,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-23T15:01:51.178Z",
+  "statsEl": "2026-11-23T16:01:46.685Z",
   "stUltima": {
     "cuando": "2026-11-23T12:02:31.629Z",
     "franja": "09:00",
@@ -67,7 +67,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-23T15:01:42.246Z",
+    "cuando": "2026-11-23T16:01:33.631Z",
     "cola": 52,
     "enRepo": 52,
     "pendientes": []
@@ -231,7 +231,9 @@
     ]
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-23 12:45": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -291,11 +293,12 @@
       "mrcmvzjh8k3r238ie-fb",
       "cmwp18t7a-fb",
       "mrcmwpagjdal320um-fb",
-      "mrcmvwlruqb8nsl0v-fb"
+      "mrcmvwlruqb8nsl0v-fb",
+      "mrcmwrzunewbghrtg-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-22T20:02:00.391Z",
-      "franja": "17:00",
+      "cuando": "2026-11-23T16:01:38.477Z",
+      "franja": "12:45",
       "ok": 1,
       "fallos": 0
     },
@@ -353,9 +356,12 @@
       "mrcmvzjh8k3r238ie-fb": "2026-11-21T00:01:48.265Z",
       "cmwp18t7a-fb": "2026-11-21T20:01:31.961Z",
       "mrcmwpagjdal320um-fb": "2026-11-22T11:01:49.455Z",
-      "mrcmvwlruqb8nsl0v-fb": "2026-11-22T20:02:00.391Z"
+      "mrcmvwlruqb8nsl0v-fb": "2026-11-22T20:02:00.391Z",
+      "mrcmwrzunewbghrtg-fb": "2026-11-23T16:01:38.477Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwrzunewbghrtg-fb": "2026-11-23"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-23",
@@ -363,7 +369,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 7 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Clarín",
+    "ultimaProv": "Rba",
     "prueba": {
       "dia": "2026-11-23",
       "h": "",
