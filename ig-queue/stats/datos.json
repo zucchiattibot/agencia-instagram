@@ -1257,8 +1257,8 @@
     "17939829924406555": {
       "t": "2026-11-22T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 74
+      "a": 72,
+      "v": 77
     },
     "18121651010079849": {
       "t": "2026-11-22T23:01:43+0000",
@@ -1269,20 +1269,20 @@
     "18129199603897689": {
       "t": "2026-11-23T10:38:19+0000",
       "tipo": "IMAGE",
-      "a": 57,
-      "v": 62
+      "a": 59,
+      "v": 65
     },
     "17916740190283541": {
       "t": "2026-11-23T12:01:57+0000",
       "tipo": "VIDEO",
-      "a": 57,
-      "v": 62
+      "a": 59,
+      "v": 65
     },
     "18111943886247275": {
       "t": "2026-11-23T20:02:02+0000",
       "tipo": "VIDEO",
-      "a": 26,
-      "v": 29
+      "a": 30,
+      "v": 33
     }
   },
   "seguidores": {
@@ -1337,12 +1337,12 @@
     "follows_count": 668,
     "media_count": 677,
     "id": "28888466970748824",
-    "el": "2026-11-23T22:02:09.080Z"
+    "el": "2026-11-23T23:01:44.324Z"
   },
   "res30": {
-    "reach": 4664,
-    "views": 23833,
-    "profile_views": 85,
+    "reach": 4674,
+    "views": 23864,
+    "profile_views": 86,
     "accounts_engaged": 263
   },
   "posts": [
@@ -1354,8 +1354,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Entender a fondo cómo se planeó el frente oriental en el frente de batalla es clave para los que estudian la historia bélica moderna 📖\nPodes encargar tu ejemplar pasando por Maipú 175, Agencia Albor.\n#robertkirchubel #historia #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 7,
+      "views": 9,
       "saved": 0,
       "shares": 0
     },
@@ -1367,8 +1367,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Todavía te emociona recordar los partidos interminables en la canchera del barrio? ⚽ Volvé a sentir esa magia sumando a tu repisa la figura de Tsubasa, porque crecer es obligatorio pero fanático se es para siempre. Pasá a buscar la tuya por Maipú 175, Agencia Albor.\n#tsubasa #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
-      "views": 18,
+      "reach": 14,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -1380,7 +1380,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 14,
+      "reach": 15,
       "views": 29,
       "saved": 0,
       "shares": 0
@@ -1433,7 +1433,7 @@
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 28,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -2569,7 +2569,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T22:02:14.889Z",
+  "actualizado": "2026-11-23T23:01:53.341Z",
   "aud": {
     "edad": [
       {

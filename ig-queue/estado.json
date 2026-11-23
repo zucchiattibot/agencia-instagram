@@ -4,7 +4,10 @@
   "stFranjas": {
     "2026-11-23 07:15": "ok",
     "2026-11-23 09:00": "ok",
-    "2026-11-23 16:45": "ok"
+    "2026-11-23 16:45": "ok",
+    "2026-11-23 20:00": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -60,18 +63,20 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-23T22:02:14.889Z",
+  "statsEl": "2026-11-23T23:01:53.341Z",
   "stUltima": {
-    "cuando": "2026-11-23T20:02:39.743Z",
-    "franja": "16:45",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-23T23:01:42.634Z",
+    "franja": "20:00",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-23T22:01:34.507Z",
+    "cuando": "2026-11-23T23:01:39.232Z",
     "cola": 54,
     "enRepo": 54,
-    "pendientes": []
+    "pendientes": [
+      "20:00"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -217,7 +222,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
     "ultimaProv": "Rba",
     "prueba": {
       "dia": "2026-11-23",
@@ -599,5 +604,6 @@
     "pos": 1,
     "len": 4,
     "h": "12:00"
-  }
+  },
+  "stError": "The media with 18,137,043,406,670,222 cannot be found. (código 24)"
 }
