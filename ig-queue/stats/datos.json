@@ -1245,38 +1245,38 @@
     "18136311955667794": {
       "t": "2026-11-22T19:01:44+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 95
+      "a": 81,
+      "v": 99
     },
     "17928608730442526": {
       "t": "2026-11-22T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 67,
-      "v": 76
+      "a": 70,
+      "v": 80
     },
     "17939829924406555": {
       "t": "2026-11-22T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 60,
-      "v": 65
+      "a": 64,
+      "v": 69
     },
     "18121651010079849": {
       "t": "2026-11-22T23:01:43+0000",
       "tipo": "IMAGE",
-      "a": 62,
-      "v": 68
+      "a": 65,
+      "v": 71
     },
     "18129199603897689": {
       "t": "2026-11-23T10:38:19+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 50
+      "a": 49,
+      "v": 54
     },
     "17916740190283541": {
       "t": "2026-11-23T12:01:57+0000",
       "tipo": "VIDEO",
-      "a": 42,
-      "v": 46
+      "a": 46,
+      "v": 50
     }
   },
   "seguidores": {
@@ -1331,11 +1331,11 @@
     "follows_count": 668,
     "media_count": 676,
     "id": "28888466970748824",
-    "el": "2026-11-23T18:01:38.660Z"
+    "el": "2026-11-23T19:01:42.499Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 23699,
+    "views": 23733,
     "profile_views": 85,
     "accounts_engaged": 263
   },
@@ -1348,8 +1348,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Todavía te emociona recordar los partidos interminables en la canchera del barrio? ⚽ Volvé a sentir esa magia sumando a tu repisa la figura de Tsubasa, porque crecer es obligatorio pero fanático se es para siempre. Pasá a buscar la tuya por Maipú 175, Agencia Albor.\n#tsubasa #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 4,
-      "views": 6,
+      "reach": 6,
+      "views": 10,
       "saved": 0,
       "shares": 0
     },
@@ -1413,7 +1413,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 22,
+      "reach": 23,
       "views": 28,
       "saved": 0,
       "shares": 0
@@ -1439,7 +1439,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "¿Te acordás del olor a tarta recién horneada en la cocina de casa los domingos al mediodía? 🥧 Con este molde antiadherente para tarteletas volvés a cocinar rico sin renegar con el fondo pegado. Pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\n#tarteletas #carloscasares #recetasclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 125,
+      "reach": 126,
       "views": 146,
       "saved": 1,
       "shares": 0
@@ -2550,7 +2550,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T18:01:45.236Z",
+  "actualizado": "2026-11-23T19:01:54.210Z",
   "aud": {
     "edad": [
       {
