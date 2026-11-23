@@ -1258,13 +1258,19 @@
       "t": "2026-11-22T23:01:55+0000",
       "tipo": "IMAGE",
       "a": 39,
-      "v": 43
+      "v": 44
     },
     "18121651010079849": {
       "t": "2026-11-22T23:01:43+0000",
       "tipo": "IMAGE",
       "a": 41,
-      "v": 46
+      "v": 47
+    },
+    "18129199603897689": {
+      "t": "2026-11-23T10:38:19+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 1
     }
   },
   "seguidores": {
@@ -1319,11 +1325,11 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-23T10:01:31.111Z"
+    "el": "2026-11-23T11:01:46.026Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 23503,
+    "views": 23505,
     "profile_views": 84,
     "accounts_engaged": 263
   },
@@ -1492,8 +1498,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Para los que guardan como un tesoro cada personaje de los dibujos que marcaron una época. 🗡️🌿 Reptilio se suma al estante de los recuerdos para devolverle vida a tu infancia.\n\nMandanos un WhatsApp para apartarla y retirarla por Maipú 175, Agencia Albor.\n\n#thundercats #figurascoleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 34,
-      "views": 49,
+      "reach": 35,
+      "views": 50,
       "saved": 0,
       "shares": 0
     },
@@ -2525,7 +2531,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T10:01:38.069Z",
+  "actualizado": "2026-11-23T11:01:53.993Z",
   "aud": {
     "edad": [
       {
