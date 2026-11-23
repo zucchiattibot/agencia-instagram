@@ -1245,38 +1245,38 @@
     "18136311955667794": {
       "t": "2026-11-22T19:01:44+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 87
+      "a": 74,
+      "v": 90
     },
     "17928608730442526": {
       "t": "2026-11-22T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 70
+      "a": 63,
+      "v": 73
     },
     "17939829924406555": {
       "t": "2026-11-22T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 52,
-      "v": 57
+      "a": 55,
+      "v": 61
     },
     "18121651010079849": {
       "t": "2026-11-22T23:01:43+0000",
       "tipo": "IMAGE",
-      "a": 54,
-      "v": 60
+      "a": 56,
+      "v": 64
     },
     "18129199603897689": {
       "t": "2026-11-23T10:38:19+0000",
       "tipo": "IMAGE",
-      "a": 32,
-      "v": 39
+      "a": 41,
+      "v": 46
     },
     "17916740190283541": {
       "t": "2026-11-23T12:01:57+0000",
       "tipo": "VIDEO",
-      "a": 28,
-      "v": 31
+      "a": 37,
+      "v": 39
     }
   },
   "seguidores": {
@@ -1329,17 +1329,30 @@
     "username": "agenciaalbor",
     "followers_count": 1400,
     "follows_count": 668,
-    "media_count": 675,
+    "media_count": 676,
     "id": "28888466970748824",
-    "el": "2026-11-23T16:01:40.169Z"
+    "el": "2026-11-23T17:01:44.765Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 23628,
+    "views": 23662,
     "profile_views": 84,
     "accounts_engaged": 263
   },
   "posts": [
+    {
+      "id": "18109696802370662",
+      "timestamp": "2026-11-23T17:01:39+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DgF3nuklBoQ/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Todavía te emociona recordar los partidos interminables en la canchera del barrio? ⚽ Volvé a sentir esa magia sumando a tu repisa la figura de Tsubasa, porque crecer es obligatorio pero fanático se es para siempre. Pasá a buscar la tuya por Maipú 175, Agencia Albor.\n#tsubasa #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18437425387149666",
       "timestamp": "2026-11-22T01:01:54+0000",
@@ -1361,7 +1374,7 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
+      "reach": 25,
       "views": 59,
       "saved": 0,
       "shares": 0
@@ -2537,7 +2550,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T16:01:46.685Z",
+  "actualizado": "2026-11-23T17:01:53.919Z",
   "aud": {
     "edad": [
       {
@@ -2559,7 +2572,7 @@
           "25-34",
           "F"
         ],
-        "v": 118
+        "v": 119
       },
       {
         "d": [
@@ -2664,14 +2677,14 @@
           "35-44",
           "U"
         ],
-        "v": 54
+        "v": 52
       },
       {
         "d": [
           "45-54",
           "U"
         ],
-        "v": 27
+        "v": 29
       },
       {
         "d": [
@@ -2697,7 +2710,7 @@
       },
       {
         "d": [
-          "Santa Ana, Corrientes"
+          "Monteros, Tucuman"
         ],
         "v": 1
       },
@@ -2727,15 +2740,15 @@
       },
       {
         "d": [
-          "Pilar, Buenos Aires"
+          "Marbella, Andalusia"
         ],
         "v": 1
       },
       {
         "d": [
-          "Eva Perón, Buenos Aires"
+          "Junín, Mendoza"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
@@ -2747,7 +2760,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 39
+        "v": 43
       },
       {
         "d": [
@@ -2760,18 +2773,6 @@
           "9 de Julio, Buenos Aires"
         ],
         "v": 9
-      },
-      {
-        "d": [
-          "San Isidro, Catamarca"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Boulogne Sur Mer, Buenos Aires"
-        ],
-        "v": 2
       },
       {
         "d": [
@@ -2811,39 +2812,15 @@
       },
       {
         "d": [
-          "Esperanza, Santa Fe"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Moctezuma, Buenos Aires"
         ],
         "v": 16
       },
       {
         "d": [
-          "Murphy, Santa Fe"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "La Lucila, Buenos Aires"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Pergamino, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Quiroga, Buenos Aires"
         ],
-        "v": 3
+        "v": 4
       },
       {
         "d": [
@@ -2859,13 +2836,31 @@
       },
       {
         "d": [
+          "Talca, Maule Region"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
-          "Remedios de Escalada de San Martín, Buenos Aires"
+          "Villa Leloir, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Daireaux, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Manuel Ocampo, Buenos Aires"
         ],
         "v": 1
       },
@@ -2879,7 +2874,13 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1068
+        "v": 1064
+      },
+      {
+        "d": [
+          "Risskov, Central Denmark Region"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2895,9 +2896,21 @@
       },
       {
         "d": [
+          "La Falda, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Santiago, Santiago Metropolitan Region"
         ],
         "v": 3
+      },
+      {
+        "d": [
+          "Florida, Buenos Aires"
+        ],
+        "v": 2
       },
       {
         "d": [
@@ -2925,13 +2938,13 @@
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
+          "Bragado, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
@@ -2943,7 +2956,7 @@
       },
       {
         "d": [
-          "Mojón de Fierro, Formosa"
+          "General Daniel Cerri, Buenos Aires"
         ],
         "v": 1
       },
@@ -2951,7 +2964,7 @@
         "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 10
+        "v": 11
       },
       {
         "d": [
@@ -3031,7 +3044,7 @@
         "d": [
           "AR"
         ],
-        "v": 1339
+        "v": 1340
       },
       {
         "d": [
@@ -3058,7 +3071,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-22T20:02:09.150Z"
+    "el": "2026-11-23T17:01:50.570Z"
   },
   "dias": {
     "2026-10-11": {
