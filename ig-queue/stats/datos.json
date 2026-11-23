@@ -1269,20 +1269,20 @@
     "18129199603897689": {
       "t": "2026-11-23T10:38:19+0000",
       "tipo": "IMAGE",
-      "a": 56,
+      "a": 57,
       "v": 62
     },
     "17916740190283541": {
       "t": "2026-11-23T12:01:57+0000",
       "tipo": "VIDEO",
-      "a": 54,
+      "a": 57,
       "v": 62
     },
     "18111943886247275": {
       "t": "2026-11-23T20:02:02+0000",
       "tipo": "VIDEO",
-      "a": 11,
-      "v": 18
+      "a": 26,
+      "v": 29
     }
   },
   "seguidores": {
@@ -1335,17 +1335,30 @@
     "username": "agenciaalbor",
     "followers_count": 1400,
     "follows_count": 668,
-    "media_count": 676,
+    "media_count": 677,
     "id": "28888466970748824",
-    "el": "2026-11-23T21:01:31.183Z"
+    "el": "2026-11-23T22:02:09.080Z"
   },
   "res30": {
     "reach": 4664,
-    "views": 23798,
+    "views": 23833,
     "profile_views": 85,
     "accounts_engaged": 263
   },
   "posts": [
+    {
+      "id": "18172867240475160",
+      "timestamp": "2026-11-23T22:02:01+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DgGZ9n3Ca4h/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Entender a fondo cómo se planeó el frente oriental en el frente de batalla es clave para los que estudian la historia bélica moderna 📖\nPodes encargar tu ejemplar pasando por Maipú 175, Agencia Albor.\n#robertkirchubel #historia #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18109696802370662",
       "timestamp": "2026-11-23T17:01:39+0000",
@@ -1354,8 +1367,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Todavía te emociona recordar los partidos interminables en la canchera del barrio? ⚽ Volvé a sentir esa magia sumando a tu repisa la figura de Tsubasa, porque crecer es obligatorio pero fanático se es para siempre. Pasá a buscar la tuya por Maipú 175, Agencia Albor.\n#tsubasa #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 10,
-      "views": 14,
+      "reach": 12,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -1393,8 +1406,8 @@
       "like_count": 6,
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 121,
-      "views": 137,
+      "reach": 122,
+      "views": 138,
       "saved": 3,
       "shares": 0
     },
@@ -1459,7 +1472,7 @@
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 28,
-      "views": 58,
+      "views": 61,
       "saved": 0,
       "shares": 0
     },
@@ -1510,8 +1523,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Hay historias que nos atrapan de la primera a la última página, ideal para esas tardes donde lo único que querés es descansar y desconectar. 📖☕\n\nPasá por Agencia Albor en Carlos Casares y descubrila.\n\n#atrapadaenlasvacaciones #elamorcontratodo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 23,
-      "views": 48,
+      "reach": 24,
+      "views": 49,
       "saved": 0,
       "shares": 0
     },
@@ -2556,7 +2569,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T21:01:37.434Z",
+  "actualizado": "2026-11-23T22:02:14.889Z",
   "aud": {
     "edad": [
       {
