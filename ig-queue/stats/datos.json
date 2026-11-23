@@ -1239,32 +1239,32 @@
     "18434857429149924": {
       "t": "2026-11-22T13:01:56+0000",
       "tipo": "VIDEO",
-      "a": 88,
-      "v": 111
+      "a": 91,
+      "v": 114
     },
     "18136311955667794": {
       "t": "2026-11-22T19:01:44+0000",
       "tipo": "IMAGE",
-      "a": 50,
-      "v": 63
+      "a": 53,
+      "v": 65
     },
     "17928608730442526": {
       "t": "2026-11-22T21:01:38+0000",
       "tipo": "IMAGE",
-      "a": 35,
-      "v": 44
+      "a": 39,
+      "v": 47
     },
     "17939829924406555": {
       "t": "2026-11-22T23:01:55+0000",
       "tipo": "IMAGE",
-      "a": 26,
-      "v": 32
+      "a": 31,
+      "v": 36
     },
     "18121651010079849": {
       "t": "2026-11-22T23:01:43+0000",
       "tipo": "IMAGE",
-      "a": 28,
-      "v": 35
+      "a": 31,
+      "v": 39
     }
   },
   "seguidores": {
@@ -1319,12 +1319,12 @@
     "follows_count": 668,
     "media_count": 675,
     "id": "28888466970748824",
-    "el": "2026-11-23T03:01:36.678Z"
+    "el": "2026-11-23T04:01:35.070Z"
   },
   "res30": {
     "reach": 4704,
-    "views": 24443,
-    "profile_views": 83,
+    "views": 24466,
+    "profile_views": 85,
     "accounts_engaged": 276
   },
   "posts": [
@@ -1415,7 +1415,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás del olor a tarta recién horneada en la cocina de casa los domingos al mediodía? 🥧 Con este molde antiadherente para tarteletas volvés a cocinar rico sin renegar con el fondo pegado. Pasá a buscar el tuyo por Maipú 175, Agencia Albor.\n\n#tarteletas #carloscasares #recetasclarin\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 125,
-      "views": 144,
+      "views": 145,
       "saved": 1,
       "shares": 0
     },
@@ -2525,7 +2525,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-23T03:01:47.342Z",
+  "actualizado": "2026-11-23T04:01:44.989Z",
   "aud": {
     "edad": [
       {
