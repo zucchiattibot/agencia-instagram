@@ -450,6 +450,13 @@
       "tipo": "image",
       "nombre": "rba_argentina-2026-11-22.jpg",
       "origen": "rcmwrzunewbghrtg"
+    },
+    {
+      "id": "mwtqdmauicz",
+      "media": "ig-queue/stories/pool-p/mwtqdmauicz.mp4",
+      "tipo": "video",
+      "nombre": "rba_argentina-2026-11-23.mp4",
+      "origen": "rcmwtpfw5i91k6ss"
     }
   ],
   "autoNuevas": true,
