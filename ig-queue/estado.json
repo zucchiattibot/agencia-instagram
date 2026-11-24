@@ -59,7 +59,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-24T21:01:55.741Z",
+  "statsEl": "2026-11-24T22:01:48.947Z",
   "stUltima": {
     "cuando": "2026-11-24T12:01:55.160Z",
     "franja": "09:00",
@@ -67,7 +67,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T21:01:40.042Z",
+    "cuando": "2026-11-24T22:01:37.378Z",
     "cola": 54,
     "enRepo": 54,
     "pendientes": []
@@ -212,7 +212,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-24",
