@@ -1281,26 +1281,26 @@
     "18111943886247275": {
       "t": "2026-11-23T20:02:02+0000",
       "tipo": "VIDEO",
-      "a": 77,
-      "v": 83
+      "a": 78,
+      "v": 86
     },
     "17915723355489106": {
       "t": "2026-11-23T23:39:45+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 82
+      "a": 74,
+      "v": 84
     },
     "18081617540755478": {
       "t": "2026-11-24T11:01:40+0000",
       "tipo": "IMAGE",
-      "a": 20,
-      "v": 20
+      "a": 26,
+      "v": 29
     },
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 7,
-      "v": 8
+      "a": 13,
+      "v": 15
     }
   },
   "seguidores": {
@@ -1356,11 +1356,11 @@
     "follows_count": 668,
     "media_count": 678,
     "id": "28888466970748824",
-    "el": "2026-11-24T13:01:39.635Z"
+    "el": "2026-11-24T14:02:09.941Z"
   },
   "res30": {
     "reach": 4597,
-    "views": 23146,
+    "views": 23165,
     "profile_views": 88,
     "accounts_engaged": 259
   },
@@ -2601,7 +2601,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-24T13:01:46.843Z",
+  "actualizado": "2026-11-24T14:02:17.801Z",
   "aud": {
     "edad": [
       {
@@ -2679,7 +2679,7 @@
           "35-44",
           "M"
         ],
-        "v": 151
+        "v": 152
       },
       {
         "d": [
@@ -2755,15 +2755,15 @@
     "ciudades": [
       {
         "d": [
-          "Merlo, Buenos Aires"
+          "Santiago de Cali, Valle del Cauca"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Monteros, Tucuman"
+          "Merlo, Buenos Aires"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -2791,13 +2791,7 @@
       },
       {
         "d": [
-          "Marbella, Andalusia"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Junín, Mendoza"
+          "Osogbo, Osun State"
         ],
         "v": 1
       },
@@ -2827,6 +2821,12 @@
       },
       {
         "d": [
+          "Colonia San Bartolomé, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Luján, Buenos Aires"
         ],
         "v": 3
@@ -2847,7 +2847,7 @@
         "d": [
           "Buenos Aires, Ciudad Autónoma de Buenos Aires"
         ],
-        "v": 27
+        "v": 28
       },
       {
         "d": [
@@ -2887,19 +2887,13 @@
       },
       {
         "d": [
-          "Talca, Maule Region"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Villa de la Quebrada, San Luis"
         ],
         "v": 2
       },
       {
         "d": [
-          "Villa Leloir, Buenos Aires"
+          "Timon, Maranhão"
         ],
         "v": 1
       },
@@ -2911,15 +2905,15 @@
       },
       {
         "d": [
-          "Manuel Ocampo, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Coronel Martínez de Hoz, Buenos Aires"
         ],
         "v": 9
+      },
+      {
+        "d": [
+          "Olavarría, Buenos Aires"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2929,7 +2923,7 @@
       },
       {
         "d": [
-          "Risskov, Central Denmark Region"
+          "Salta, Salta"
         ],
         "v": 1
       },
@@ -2944,12 +2938,6 @@
           "Pehuajó, Buenos Aires"
         ],
         "v": 14
-      },
-      {
-        "d": [
-          "La Falda, Córdoba"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2983,9 +2971,21 @@
       },
       {
         "d": [
+          "Santiago del Estero, Santiago del Estero"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Venado Tuerto, Santa Fe"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Santo Tomé, Santa Fe"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -3007,7 +3007,7 @@
       },
       {
         "d": [
-          "General Daniel Cerri, Buenos Aires"
+          "Los Cóndores, Córdoba"
         ],
         "v": 1
       },
@@ -3095,7 +3095,7 @@
         "d": [
           "AR"
         ],
-        "v": 1340
+        "v": 1341
       },
       {
         "d": [
@@ -3122,7 +3122,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-23T17:01:50.570Z"
+    "el": "2026-11-24T14:02:15.527Z"
   },
   "dias": {
     "2026-10-11": {

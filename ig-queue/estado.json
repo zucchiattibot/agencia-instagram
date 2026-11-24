@@ -59,7 +59,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-24T13:01:46.843Z",
+  "statsEl": "2026-11-24T14:02:17.801Z",
   "stUltima": {
     "cuando": "2026-11-24T12:01:55.160Z",
     "franja": "09:00",
@@ -67,7 +67,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T13:01:38.457Z",
+    "cuando": "2026-11-24T14:01:36.286Z",
     "cola": 54,
     "enRepo": 54,
     "pendientes": []
@@ -239,7 +239,9 @@
     "infoMenos": "Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación."
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-24 10:30": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -302,11 +304,12 @@
       "mrcmvwlruqb8nsl0v-fb",
       "mrcmwrzunewbghrtg-fb",
       "mrcmwk23qz3myhqof-fb",
-      "mrcmwtpfw5i91k6ss-fb"
+      "mrcmwtpfw5i91k6ss-fb",
+      "mrcmvwe03pm947brj-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-23T23:40:12.949Z",
-      "franja": "20:30",
+      "cuando": "2026-11-24T14:02:08.871Z",
+      "franja": "10:30",
       "ok": 1,
       "fallos": 0
     },
@@ -367,9 +370,12 @@
       "mrcmvwlruqb8nsl0v-fb": "2026-11-22T20:02:00.391Z",
       "mrcmwrzunewbghrtg-fb": "2026-11-23T16:01:38.477Z",
       "mrcmwk23qz3myhqof-fb": "2026-11-23T20:03:05.694Z",
-      "mrcmwtpfw5i91k6ss-fb": "2026-11-23T23:40:12.948Z"
+      "mrcmwtpfw5i91k6ss-fb": "2026-11-23T23:40:12.948Z",
+      "mrcmvwe03pm947brj-fb": "2026-11-24T14:02:08.868Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmvwe03pm947brj-fb": "2026-11-24"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-24",
@@ -377,7 +383,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:15.",
-    "ultimaProv": "Rba",
+    "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-24",
       "h": "10:30",
@@ -388,6 +394,10 @@
       {
         "t": "2026-11-22T11:01:49.456Z",
         "tramo": "primera mañana"
+      },
+      {
+        "t": "2026-11-24T14:02:08.871Z",
+        "tramo": "mañana"
       }
     ],
     "pruebaUlt": "2026-11-24",
