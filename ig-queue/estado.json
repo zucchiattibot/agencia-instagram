@@ -59,7 +59,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-24T19:01:36.621Z",
+  "statsEl": "2026-11-24T20:01:36.771Z",
   "stUltima": {
     "cuando": "2026-11-24T12:01:55.160Z",
     "franja": "09:00",
@@ -67,7 +67,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T19:01:28.944Z",
+    "cuando": "2026-11-24T20:01:27.338Z",
     "cola": 54,
     "enRepo": 54,
     "pendientes": []
@@ -581,7 +581,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-24T17:01:34.576Z",
+    "cuando": "2026-11-24T20:01:27.258Z",
     "n": 1
   },
   "stM": {
