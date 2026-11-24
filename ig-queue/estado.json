@@ -1,12 +1,7 @@
 {
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-21T03:01:27.235Z",
-  "stFranjas": {
-    "2026-11-23 07:15": "ok",
-    "2026-11-23 09:00": "ok",
-    "2026-11-23 16:45": "ok",
-    "2026-11-23 20:00": "ok"
-  },
+  "stFranjas": {},
   "stUsados": [
     "mvig7p62n3p",
     "mvl585tgtgr",
@@ -61,7 +56,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-24T02:01:42.298Z",
+  "statsEl": "2026-11-24T03:01:43.217Z",
   "stUltima": {
     "cuando": "2026-11-23T23:39:54.240Z",
     "franja": "20:00",
@@ -69,17 +64,13 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T02:01:32.953Z",
+    "cuando": "2026-11-24T03:01:35.177Z",
     "cola": 54,
     "enRepo": 54,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {
-      "2026-11-23 13:15": "ok",
-      "2026-11-23 18:45": "ok",
-      "2026-11-23 22:00": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -211,21 +202,17 @@
       "mrcmwtpfw5i91k6ss-ig": "2026-11-23T22:02:08.010Z",
       "mrcmwl20941lmiwo4-ig": "2026-11-24T01:01:50.169Z"
     },
-    "usadosDia": {
-      "mrcmwrzunewbghrtg-ig": "2026-11-23",
-      "mrcmwtpfw5i91k6ss-ig": "2026-11-23",
-      "mrcmwl20941lmiwo4-ig": "2026-11-23"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-23",
+      "dia": "2026-11-24",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 3 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 3 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
     "ultimaProv": "Clarin",
     "prueba": {
-      "dia": "2026-11-23",
+      "dia": "2026-11-24",
       "h": "",
       "de": "",
       "tramo": ""
@@ -234,24 +221,22 @@
     "pruebaUlt": "2026-11-11",
     "repruebaUlt": "2026-11-11",
     "menos": {
-      "dia": "2026-11-20",
-      "ult": "2026-11-20",
-      "pos": 1,
-      "len": 3,
-      "h": "18:30"
+      "dia": "2026-11-24",
+      "ult": "2026-11-24",
+      "pos": 0,
+      "len": 2,
+      "h": "19:00"
     },
-    "menosRot": 2,
+    "menosRot": 3,
     "menosDias": [
       "2026-11-16",
-      "2026-11-20"
-    ]
+      "2026-11-20",
+      "2026-11-24"
+    ],
+    "infoMenos": "Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación."
   },
   "fdfb": {
-    "franjas": {
-      "2026-11-23 12:45": "ok",
-      "2026-11-23 16:30": "ok",
-      "2026-11-23 20:30": "ok"
-    },
+    "franjas": {},
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -381,36 +366,28 @@
       "mrcmwk23qz3myhqof-fb": "2026-11-23T20:03:05.694Z",
       "mrcmwtpfw5i91k6ss-fb": "2026-11-23T23:40:12.948Z"
     },
-    "usadosDia": {
-      "mrcmwrzunewbghrtg-fb": "2026-11-23",
-      "mrcmwk23qz3myhqof-fb": "2026-11-23",
-      "mrcmwtpfw5i91k6ss-fb": "2026-11-23"
-    },
+    "usadosDia": {},
     "carga": {
       "nivel": 0,
-      "dia": "2026-11-23",
+      "dia": "2026-11-24",
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:15.",
     "ultimaProv": "Rba",
     "prueba": {
-      "dia": "2026-11-23",
-      "h": "",
-      "de": "",
-      "tramo": ""
+      "dia": "2026-11-24",
+      "h": "10:30",
+      "de": "12:15",
+      "tramo": "mañana"
     },
     "pruebaRec": [
-      {
-        "t": "2026-11-20T14:02:15.239Z",
-        "tramo": "mañana"
-      },
       {
         "t": "2026-11-22T11:01:49.456Z",
         "tramo": "primera mañana"
       }
     ],
-    "pruebaUlt": "2026-11-22",
+    "pruebaUlt": "2026-11-24",
     "menos": {
       "dia": "2026-11-21",
       "ult": "2026-11-21",
@@ -480,12 +457,7 @@
     "mwps4vqk9gm": "2026-11-22T23:01:51.579Z",
     "mwpcszvz298": "2026-11-23T12:02:31.629Z"
   },
-  "stUsadosDia": {
-    "mvjo13ej29y": "2026-11-23",
-    "mwpcszvz298": "2026-11-23",
-    "mvzk7tbtj4y": "2026-11-23",
-    "mvjo1c6w48j": "2026-11-23"
-  },
+  "stUsadosDia": {},
   "autoBase": {
     "feed-ig/config.json": {
       "t": "2026-11-11T18:01:44.898Z",
@@ -579,7 +551,7 @@
   ],
   "autoOptimizacionUltimoAjuste": "2026-11-11T18:01:44.898Z",
   "stPrueba": {
-    "dia": "2026-11-23",
+    "dia": "2026-11-24",
     "h": "",
     "de": "",
     "tramo": ""
@@ -597,17 +569,19 @@
     "n": 1
   },
   "stM": {
-    "rot": 2,
+    "rot": 3,
     "dias": [
       "2026-11-16",
-      "2026-11-20"
+      "2026-11-20",
+      "2026-11-24"
     ]
   },
   "stMenos": {
-    "dia": "2026-11-20",
-    "ult": "2026-11-20",
-    "pos": 1,
+    "dia": "2026-11-24",
+    "ult": "2026-11-24",
+    "pos": 2,
     "len": 4,
-    "h": "12:00"
-  }
+    "h": "16:15"
+  },
+  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (16:15) para comparar el alcance."
 }
