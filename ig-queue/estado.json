@@ -59,7 +59,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-24T16:01:35.175Z",
+  "statsEl": "2026-11-24T17:01:44.636Z",
   "stUltima": {
     "cuando": "2026-11-24T12:01:55.160Z",
     "franja": "09:00",
@@ -67,7 +67,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T16:01:27.481Z",
+    "cuando": "2026-11-24T17:01:34.619Z",
     "cola": 54,
     "enRepo": 54,
     "pendientes": []
@@ -212,7 +212,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 3 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-24",
@@ -382,7 +382,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:15.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:15.",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-24",
@@ -581,7 +581,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-23T18:01:36.587Z",
+    "cuando": "2026-11-24T17:01:34.576Z",
     "n": 1
   },
   "stM": {
