@@ -3,7 +3,8 @@
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
     "2026-11-24 07:45": "ok",
-    "2026-11-24 09:00": "ok"
+    "2026-11-24 09:00": "ok",
+    "2026-11-24 19:45": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -57,20 +58,23 @@
     "mwmbntv6859",
     "mwps50n86mb",
     "mwps4vqk9gm",
-    "mwpcszvz298"
+    "mwpcszvz298",
+    "mwvafebjzfb"
   ],
-  "statsEl": "2026-11-24T22:01:48.947Z",
+  "statsEl": "2026-11-24T23:02:57.934Z",
   "stUltima": {
-    "cuando": "2026-11-24T12:01:55.160Z",
-    "franja": "09:00",
+    "cuando": "2026-11-24T23:02:42.419Z",
+    "franja": "19:45",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T22:01:37.378Z",
-    "cola": 54,
-    "enRepo": 54,
-    "pendientes": []
+    "cuando": "2026-11-24T23:01:39.865Z",
+    "cola": 55,
+    "enRepo": 55,
+    "pendientes": [
+      "19:45"
+    ]
   },
   "fdig": {
     "franjas": {},
@@ -212,7 +216,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-24",
@@ -241,7 +245,8 @@
   "fdfb": {
     "franjas": {
       "2026-11-24 10:30": "ok",
-      "2026-11-24 17:15": "ok"
+      "2026-11-24 17:15": "ok",
+      "2026-11-24 20:00": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -307,11 +312,12 @@
       "mrcmwk23qz3myhqof-fb",
       "mrcmwtpfw5i91k6ss-fb",
       "mrcmvwe03pm947brj-fb",
-      "mrcmwuv9omzh4pk7a-fb"
+      "mrcmwuv9omzh4pk7a-fb",
+      "mrcmwvad6ymlh8u5z-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-24T21:01:45.642Z",
-      "franja": "17:15",
+      "cuando": "2026-11-24T23:02:48.160Z",
+      "franja": "20:00",
       "ok": 1,
       "fallos": 0
     },
@@ -374,11 +380,13 @@
       "mrcmwk23qz3myhqof-fb": "2026-11-23T20:03:05.694Z",
       "mrcmwtpfw5i91k6ss-fb": "2026-11-23T23:40:12.948Z",
       "mrcmvwe03pm947brj-fb": "2026-11-24T14:02:08.868Z",
-      "mrcmwuv9omzh4pk7a-fb": "2026-11-24T21:01:45.641Z"
+      "mrcmwuv9omzh4pk7a-fb": "2026-11-24T21:01:45.641Z",
+      "mrcmwvad6ymlh8u5z-fb": "2026-11-24T23:02:48.160Z"
     },
     "usadosDia": {
       "mrcmvwe03pm947brj-fb": "2026-11-24",
-      "mrcmwuv9omzh4pk7a-fb": "2026-11-24"
+      "mrcmwuv9omzh4pk7a-fb": "2026-11-24",
+      "mrcmwvad6ymlh8u5z-fb": "2026-11-24"
     },
     "carga": {
       "nivel": 0,
@@ -386,8 +394,8 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:15.",
-    "ultimaProv": "Clarín",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 10:30 (mañana) en lugar de 12:15.",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-24",
       "h": "10:30",
@@ -419,7 +427,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvr0jkpawqo",
+  "stUltimaId": "mwvafebjzfb",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -472,11 +480,13 @@
     "mwmbntv6859": "2026-11-22T19:01:52.447Z",
     "mwps50n86mb": "2026-11-22T21:01:47.760Z",
     "mwps4vqk9gm": "2026-11-22T23:01:51.579Z",
-    "mwpcszvz298": "2026-11-23T12:02:31.629Z"
+    "mwpcszvz298": "2026-11-23T12:02:31.629Z",
+    "mwvafebjzfb": "2026-11-24T23:02:42.419Z"
   },
   "stUsadosDia": {
     "mvl58w2y9lx": "2026-11-24",
-    "mvr0jkpawqo": "2026-11-24"
+    "mvr0jkpawqo": "2026-11-24",
+    "mwvafebjzfb": "2026-11-24"
   },
   "autoBase": {
     "feed-ig/config.json": {
