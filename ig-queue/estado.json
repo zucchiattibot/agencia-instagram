@@ -61,7 +61,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-24T00:01:39.695Z",
+  "statsEl": "2026-11-24T01:01:57.119Z",
   "stUltima": {
     "cuando": "2026-11-23T23:39:54.240Z",
     "franja": "20:00",
@@ -69,7 +69,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-24T00:01:32.392Z",
+    "cuando": "2026-11-24T01:01:39.594Z",
     "cola": 54,
     "enRepo": 54,
     "pendientes": []
@@ -77,7 +77,8 @@
   "fdig": {
     "franjas": {
       "2026-11-23 13:15": "ok",
-      "2026-11-23 18:45": "ok"
+      "2026-11-23 18:45": "ok",
+      "2026-11-23 22:00": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -141,11 +142,12 @@
       "cmvpmxan2-ig",
       "cmvlrq0ss-ig",
       "mrcmwrzunewbghrtg-ig",
-      "mrcmwtpfw5i91k6ss-ig"
+      "mrcmwtpfw5i91k6ss-ig",
+      "mrcmwl20941lmiwo4-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-23T22:02:08.011Z",
-      "franja": "18:45",
+      "cuando": "2026-11-24T01:01:50.169Z",
+      "franja": "22:00",
       "ok": 1,
       "fallos": 0
     },
@@ -206,11 +208,13 @@
       "cmvpmxan2-ig": "2026-11-21T14:01:51.112Z",
       "cmvlrq0ss-ig": "2026-11-22T01:01:59.982Z",
       "mrcmwrzunewbghrtg-ig": "2026-11-23T17:01:43.072Z",
-      "mrcmwtpfw5i91k6ss-ig": "2026-11-23T22:02:08.010Z"
+      "mrcmwtpfw5i91k6ss-ig": "2026-11-23T22:02:08.010Z",
+      "mrcmwl20941lmiwo4-ig": "2026-11-24T01:01:50.169Z"
     },
     "usadosDia": {
       "mrcmwrzunewbghrtg-ig": "2026-11-23",
-      "mrcmwtpfw5i91k6ss-ig": "2026-11-23"
+      "mrcmwtpfw5i91k6ss-ig": "2026-11-23",
+      "mrcmwl20941lmiwo4-ig": "2026-11-23"
     },
     "carga": {
       "nivel": 0,
@@ -219,7 +223,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
-    "ultimaProv": "Rba",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-23",
       "h": "",
