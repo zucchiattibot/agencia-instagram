@@ -61,7 +61,7 @@
     "mwps4vqk9gm",
     "mwpcszvz298"
   ],
-  "statsEl": "2026-11-23T23:01:53.341Z",
+  "statsEl": "2026-11-24T00:01:39.695Z",
   "stUltima": {
     "cuando": "2026-11-23T23:39:54.240Z",
     "franja": "20:00",
@@ -69,12 +69,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-23T23:39:38.768Z",
+    "cuando": "2026-11-24T00:01:32.392Z",
     "cola": 54,
     "enRepo": 54,
-    "pendientes": [
-      "20:00"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
@@ -390,7 +388,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Rba",
     "prueba": {
       "dia": "2026-11-23",
