@@ -1281,32 +1281,32 @@
     "18111943886247275": {
       "t": "2026-11-23T20:02:02+0000",
       "tipo": "VIDEO",
-      "a": 86,
-      "v": 94
+      "a": 88,
+      "v": 99
     },
     "17915723355489106": {
       "t": "2026-11-23T23:39:45+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 93
+      "a": 85,
+      "v": 101
     },
     "18081617540755478": {
       "t": "2026-11-24T11:01:40+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 56
+      "a": 54,
+      "v": 61
     },
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 38,
-      "v": 47
+      "a": 44,
+      "v": 52
     },
     "18126411100899801": {
       "t": "2026-11-24T16:17:28+0000",
       "tipo": "IMAGE",
-      "a": 11,
-      "v": 14
+      "a": 17,
+      "v": 26
     }
   },
   "seguidores": {
@@ -1362,11 +1362,11 @@
     "follows_count": 668,
     "media_count": 678,
     "id": "28888466970748824",
-    "el": "2026-11-24T17:01:36.456Z"
+    "el": "2026-11-24T18:01:35.531Z"
   },
   "res30": {
     "reach": 4597,
-    "views": 23252,
+    "views": 23295,
     "profile_views": 89,
     "accounts_engaged": 259
   },
@@ -1405,8 +1405,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Todavía te emociona recordar los partidos interminables en la canchera del barrio? ⚽ Volvé a sentir esa magia sumando a tu repisa la figura de Tsubasa, porque crecer es obligatorio pero fanático se es para siempre. Pasá a buscar la tuya por Maipú 175, Agencia Albor.\n#tsubasa #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 27,
+      "reach": 20,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -1432,7 +1432,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 29,
-      "views": 66,
+      "views": 67,
       "saved": 0,
       "shares": 0
     },
@@ -2607,7 +2607,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-24T17:01:44.636Z",
+  "actualizado": "2026-11-24T18:01:42.990Z",
   "aud": {
     "edad": [
       {
