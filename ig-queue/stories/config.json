@@ -485,6 +485,13 @@
       "tipo": "image",
       "nombre": "1000923011.jpg",
       "origen": "rcmwuv9omzh4pk7a"
+    },
+    {
+      "id": "mwwh4blphqp",
+      "media": "ig-queue/stories/pool-p/mwwh4blphqp.mp4",
+      "tipo": "video",
+      "nombre": "coleccionesclarin-2026-11-25.mp4",
+      "origen": "rcmwwgkcp42wpzyf"
     }
   ],
   "autoNuevas": true,
@@ -620,7 +627,8 @@
     "rcmt8krg53od8077",
     "rcmt1l8cfypbyoe7",
     "rcmt1l7lk7fz1zb1",
-    "rcmt1l71t5zy1t6z"
+    "rcmt1l71t5zy1t6z",
+    "rcmwwgkcm6qdlsds"
   ],
   "rotar": {
     "ids": [
