@@ -62,7 +62,7 @@
     "mwtqdmauicz",
     "mwtl7lfy032"
   ],
-  "statsEl": "2026-11-25T18:01:44.011Z",
+  "statsEl": "2026-11-25T19:01:54.716Z",
   "stUltima": {
     "cuando": "2026-11-25T13:01:53.533Z",
     "franja": "09:45",
@@ -70,8 +70,8 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-25T18:01:37.695Z",
-    "cola": 58,
+    "cuando": "2026-11-25T19:01:43.751Z",
+    "cola": 59,
     "enRepo": 58,
     "pendientes": []
   },
@@ -223,7 +223,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:15.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-25",
@@ -403,7 +403,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Rba",
     "prueba": {
       "dia": "2026-11-25",
@@ -500,8 +500,8 @@
   },
   "autoBase": {
     "feed-ig/config.json": {
-      "t": "2026-11-11T18:01:44.898Z",
-      "med": 40.5,
+      "t": "2026-11-25T19:01:54.718Z",
+      "med": 29,
       "franjas": [
         {
           "h": "13:00",
@@ -516,10 +516,10 @@
         {
           "h": "13:00",
           "n": 1,
-          "f": "feed",
+          "f": "reel",
           "d": [
-            2,
-            4
+            4,
+            5
           ]
         },
         {
@@ -567,16 +567,18 @@
             6
           ]
         }
-      ]
+      ],
+      "reelBaja": true
     }
   },
   "autoPausa": {},
-  "autoOptimizacionUltimoChequeo": "2026-11-18T19:01:37.946Z",
+  "autoOptimizacionUltimoChequeo": "2026-11-25T19:01:54.718Z",
   "autoOptimizacionUltimoResultado": [
     {
       "red": "Instagram Feed/Reels",
-      "estado": "en-observacion",
-      "detalle": "Último ajuste hace 7 días: espero 14 para medir el efecto."
+      "estado": "ajustado",
+      "detalle": "Ritmo de Reels: de 13 a 11 por semana. Los Reels de las últimas 3 semanas rindieron 55% menos (alcance mediano 47 contra 106 antes, 18 y 26 Reels). Saqué la salida del día con más Reels / peor alcance. Mínimo configurado: 3 por semana. Si se recuperan, vuelvo a sumar de a uno.",
+      "reelBaja": true
     },
     {
       "red": "Facebook Feed/Reels",
@@ -589,7 +591,7 @@
       "detalle": "La muestra no justifica un cambio seguro en horarios, formato o cantidad."
     }
   ],
-  "autoOptimizacionUltimoAjuste": "2026-11-11T18:01:44.898Z",
+  "autoOptimizacionUltimoAjuste": "2026-11-25T19:01:54.718Z",
   "stPrueba": {
     "dia": "2026-11-25",
     "h": "",
@@ -605,7 +607,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-25T16:01:39.874Z",
+    "cuando": "2026-11-25T19:01:43.480Z",
     "n": 1
   },
   "stM": {
@@ -622,5 +624,12 @@
     "pos": 2,
     "len": 4,
     "h": "16:15"
+  },
+  "ritmoReels": {
+    "feed-ig/config.json": {
+      "bajado": true,
+      "antes": 13,
+      "t": "2026-11-25T19:01:54.749Z"
+    }
   }
 }
