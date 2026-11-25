@@ -1293,26 +1293,26 @@
     "18081617540755478": {
       "t": "2026-11-24T11:01:40+0000",
       "tipo": "IMAGE",
-      "a": 101,
-      "v": 110
+      "a": 106,
+      "v": 117
     },
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 103
+      "a": 97,
+      "v": 110
     },
     "18126411100899801": {
       "t": "2026-11-24T16:17:28+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 92
+      "a": 84,
+      "v": 99
     },
     "18086262566527088": {
       "t": "2026-11-24T23:02:09+0000",
       "tipo": "VIDEO",
-      "a": 52,
-      "v": 63
+      "a": 64,
+      "v": 75
     }
   },
   "seguidores": {
@@ -1360,7 +1360,8 @@
     "2026-11-21": 1399,
     "2026-11-22": 1400,
     "2026-11-23": 1400,
-    "2026-11-24": 1400
+    "2026-11-24": 1400,
+    "2026-11-25": 1400
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1368,11 +1369,11 @@
     "follows_count": 668,
     "media_count": 679,
     "id": "28888466970748824",
-    "el": "2026-11-25T02:01:32.256Z"
+    "el": "2026-11-25T03:01:35.934Z"
   },
   "res30": {
     "reach": 4607,
-    "views": 23613,
+    "views": 23656,
     "profile_views": 90,
     "accounts_engaged": 259
   },
@@ -1385,8 +1386,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 17,
+      "reach": 13,
+      "views": 22,
       "saved": 0,
       "shares": 0
     },
@@ -1476,8 +1477,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 50,
+      "reach": 27,
+      "views": 51,
       "saved": 0,
       "shares": 0
     },
@@ -2626,7 +2627,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T02:01:38.719Z",
+  "actualizado": "2026-11-25T03:01:42.924Z",
   "aud": {
     "edad": [
       {
@@ -3441,6 +3442,10 @@
     "2026-11-23": {
       "a": 115,
       "v": 533
+    },
+    "2026-11-24": {
+      "a": 139,
+      "v": 598
     }
   }
 }
