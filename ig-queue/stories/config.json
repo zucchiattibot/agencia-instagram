@@ -464,6 +464,27 @@
       "tipo": "video",
       "nombre": "coleccionesclarin-2026-11-24.mp4",
       "origen": "rcmwvadjsia7ldj2"
+    },
+    {
+      "id": "mwvgvhvnfy2",
+      "media": "ig-queue/stories/pool-p/mwvgvhvnfy2.jpg",
+      "tipo": "image",
+      "nombre": "coleccionesclarin-2026-11-24.jpg",
+      "origen": "rcmwvad6ymlh8u5z"
+    },
+    {
+      "id": "mwvgvm0gx9i",
+      "media": "ig-queue/stories/pool-p/mwvgvm0gx9i.jpg",
+      "tipo": "image",
+      "nombre": "rba_argentina-2026-11-24.jpg",
+      "origen": "rcmwv05q1swqbvdv"
+    },
+    {
+      "id": "mwvgvrqbg6a",
+      "media": "ig-queue/stories/pool-p/mwvgvrqbg6a.jpg",
+      "tipo": "image",
+      "nombre": "1000923011.jpg",
+      "origen": "rcmwuv9omzh4pk7a"
     }
   ],
   "autoNuevas": true,
