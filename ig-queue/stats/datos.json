@@ -1311,20 +1311,26 @@
     "18086262566527088": {
       "t": "2026-11-24T23:02:09+0000",
       "tipo": "VIDEO",
-      "a": 122,
-      "v": 145
+      "a": 128,
+      "v": 154
     },
     "18126997984711360": {
       "t": "2026-11-25T10:25:07+0000",
       "tipo": "VIDEO",
-      "a": 79,
-      "v": 89
+      "a": 82,
+      "v": 95
     },
     "18137956543657578": {
       "t": "2026-11-25T13:01:42+0000",
       "tipo": "IMAGE",
-      "a": 59,
-      "v": 68
+      "a": 66,
+      "v": 75
+    },
+    "18647270131058036": {
+      "t": "2026-11-25T21:01:42+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1381,11 +1387,11 @@
     "follows_count": 669,
     "media_count": 680,
     "id": "28888466970748824",
-    "el": "2026-11-25T20:00:42.805Z"
+    "el": "2026-11-25T21:01:53.139Z"
   },
   "res30": {
     "reach": 3197,
-    "views": 21415,
+    "views": 21432,
     "profile_views": 85,
     "accounts_engaged": 136
   },
@@ -1412,7 +1418,7 @@
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 23,
-      "views": 36,
+      "views": 37,
       "saved": 0,
       "shares": 0
     },
@@ -2652,7 +2658,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T20:00:48.645Z",
+  "actualizado": "2026-11-25T21:02:00.442Z",
   "aud": {
     "edad": [
       {

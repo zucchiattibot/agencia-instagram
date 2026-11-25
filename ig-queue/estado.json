@@ -3,7 +3,8 @@
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
     "2026-11-25 07:15": "ok",
-    "2026-11-25 09:45": "ok"
+    "2026-11-25 09:45": "ok",
+    "2026-11-25 17:30": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -62,18 +63,20 @@
     "mwtqdmauicz",
     "mwtl7lfy032"
   ],
-  "statsEl": "2026-11-25T20:00:48.645Z",
+  "statsEl": "2026-11-25T21:02:00.442Z",
   "stUltima": {
-    "cuando": "2026-11-25T13:01:53.533Z",
-    "franja": "09:45",
+    "cuando": "2026-11-25T21:01:51.776Z",
+    "franja": "17:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-25T20:00:41.398Z",
+    "cuando": "2026-11-25T21:01:36.553Z",
     "cola": 59,
     "enRepo": 58,
-    "pendientes": []
+    "pendientes": [
+      "17:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -332,7 +335,6 @@
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvpmo3uzx0q0bp-fb": "2026-10-26T20:02:23.957Z",
       "mrcmvph4b9mok297a-fb": "2026-10-26T23:02:03.335Z",
       "mrcmvqsm5x4etos0t-fb": "2026-10-27T15:02:06.962Z",
       "mrcmvqw5xq2695pzc-fb": "2026-10-27T21:02:12.650Z",
@@ -436,7 +438,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwtl7lfy032",
+  "stUltimaId": "mw2fnb7trf9",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -444,7 +446,7 @@
     "mvjo1c6w48j": "2026-11-23T23:39:54.240Z",
     "mvl58w2y9lx": "2026-11-24T11:01:50.308Z",
     "mvr0jkpawqo": "2026-11-24T12:01:55.160Z",
-    "mw2fnb7trf9": "2026-11-07T23:01:51.024Z",
+    "mw2fnb7trf9": "2026-11-25T21:01:51.776Z",
     "mvjo1jeecnu": "2026-11-08T16:01:47.691Z",
     "mvr0j1osn65": "2026-11-09T16:00:09.763Z",
     "mvl58j5fvs0": "2026-11-10T12:01:48.829Z",
@@ -496,7 +498,8 @@
   },
   "stUsadosDia": {
     "mwtqdmauicz": "2026-11-25",
-    "mwtl7lfy032": "2026-11-25"
+    "mwtl7lfy032": "2026-11-25",
+    "mw2fnb7trf9": "2026-11-25"
   },
   "autoBase": {
     "feed-ig/config.json": {
