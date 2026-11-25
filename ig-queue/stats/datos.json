@@ -1293,26 +1293,26 @@
     "18081617540755478": {
       "t": "2026-11-24T11:01:40+0000",
       "tipo": "IMAGE",
-      "a": 86,
-      "v": 94
+      "a": 95,
+      "v": 105
     },
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 75,
-      "v": 87
+      "a": 84,
+      "v": 97
     },
     "18126411100899801": {
       "t": "2026-11-24T16:17:28+0000",
       "tipo": "IMAGE",
-      "a": 61,
-      "v": 73
+      "a": 68,
+      "v": 84
     },
     "18086262566527088": {
       "t": "2026-11-24T23:02:09+0000",
       "tipo": "VIDEO",
-      "a": 22,
-      "v": 29
+      "a": 37,
+      "v": 46
     }
   },
   "seguidores": {
@@ -1366,17 +1366,30 @@
     "username": "agenciaalbor",
     "followers_count": 1400,
     "follows_count": 668,
-    "media_count": 678,
+    "media_count": 679,
     "id": "28888466970748824",
-    "el": "2026-11-25T00:01:33.628Z"
+    "el": "2026-11-25T01:01:44.820Z"
   },
   "res30": {
     "reach": 4607,
-    "views": 23505,
+    "views": 23553,
     "profile_views": 90,
     "accounts_engaged": 259
   },
   "posts": [
+    {
+      "id": "18470330617184612",
+      "timestamp": "2026-11-25T01:01:38+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DgJTWNIo7Je/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17974653024188485",
       "timestamp": "2026-11-24T01:01:46+0000",
@@ -1476,8 +1489,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 26,
-      "views": 33,
+      "reach": 27,
+      "views": 36,
       "saved": 0,
       "shares": 0
     },
@@ -1489,8 +1502,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de ver este furgón repartiendo por los barrios en otra época? 🚐\n\nEl Volkswagen Furgón modelo 1982 ya tiene fecha para sumarse a la vitrina de los fierreros. \n\nPasá a reservarlo por Maipú 175, Agencia Albor, antes de que vuele.\n\n#volkswagen #autosinolvidables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 32,
-      "views": 51,
+      "reach": 33,
+      "views": 52,
       "saved": 0,
       "shares": 0
     },
@@ -1542,7 +1555,7 @@
       "comments_count": 0,
       "caption": "Sorceress, Man-At-Arms y Ram Man se suman para completar el universo de Eternia en tu repisa. 🦅🛡️\n\nLa colección de Masters of the Universe te trae las figuras oficiales de los héroes y villanos que marcaron una época, acompañadas de un fascículo exclusivo con fichas técnicas, bocetos originales y toda la historia secreta. 📖✨\n\nSon 13 personajes imperdibles para revivir la infancia: He-Man, Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn. ⚔️\n\nCada entrega viene detallada al milímetro para los fanáticos que guardan los mejores recuerdos de la serie. \n\nPasá a reservar la tuya en Maipú 175, Agencia Albor, Carlos Casares. 📍\n\n#mastersoftheuniverse #coleccionables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 25,
-      "views": 61,
+      "views": 65,
       "saved": 0,
       "shares": 0
     },
@@ -2613,7 +2626,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T00:01:38.305Z",
+  "actualizado": "2026-11-25T01:01:54.167Z",
   "aud": {
     "edad": [
       {

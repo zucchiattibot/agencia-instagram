@@ -61,7 +61,7 @@
     "mwpcszvz298",
     "mwvafebjzfb"
   ],
-  "statsEl": "2026-11-25T00:01:38.305Z",
+  "statsEl": "2026-11-25T01:01:54.167Z",
   "stUltima": {
     "cuando": "2026-11-24T23:02:42.419Z",
     "franja": "19:45",
@@ -69,13 +69,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-25T00:01:32.668Z",
+    "cuando": "2026-11-25T01:01:30.046Z",
     "cola": 55,
     "enRepo": 55,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-24 21:30": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -139,11 +141,12 @@
       "cmvlrq0ss-ig",
       "mrcmwrzunewbghrtg-ig",
       "mrcmwtpfw5i91k6ss-ig",
-      "mrcmwl20941lmiwo4-ig"
+      "mrcmwl20941lmiwo4-ig",
+      "mrcmwv05q1swqbvdv-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-24T01:01:50.169Z",
-      "franja": "22:00",
+      "cuando": "2026-11-25T01:01:42.804Z",
+      "franja": "21:30",
       "ok": 1,
       "fallos": 0
     },
@@ -205,9 +208,12 @@
       "cmvlrq0ss-ig": "2026-11-22T01:01:59.982Z",
       "mrcmwrzunewbghrtg-ig": "2026-11-23T17:01:43.072Z",
       "mrcmwtpfw5i91k6ss-ig": "2026-11-23T22:02:08.010Z",
-      "mrcmwl20941lmiwo4-ig": "2026-11-24T01:01:50.169Z"
+      "mrcmwl20941lmiwo4-ig": "2026-11-24T01:01:50.169Z",
+      "mrcmwv05q1swqbvdv-ig": "2026-11-25T01:01:42.804Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwv05q1swqbvdv-ig": "2026-11-24"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-24",
@@ -215,7 +221,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "1 salida hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
-    "ultimaProv": "Clarin",
+    "ultimaProv": "Rba",
     "prueba": {
       "dia": "2026-11-24",
       "h": "",
