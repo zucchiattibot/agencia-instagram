@@ -1299,26 +1299,26 @@
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 113,
-      "v": 130
+      "a": 121,
+      "v": 136
     },
     "18126411100899801": {
       "t": "2026-11-24T16:17:28+0000",
       "tipo": "IMAGE",
-      "a": 103,
-      "v": 123
+      "a": 107,
+      "v": 126
     },
     "18086262566527088": {
       "t": "2026-11-24T23:02:09+0000",
       "tipo": "VIDEO",
-      "a": 88,
-      "v": 112
+      "a": 94,
+      "v": 117
     },
     "18126997984711360": {
       "t": "2026-11-25T10:25:07+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 13
+      "a": 22,
+      "v": 23
     }
   },
   "seguidores": {
@@ -1375,11 +1375,11 @@
     "follows_count": 668,
     "media_count": 680,
     "id": "28888466970748824",
-    "el": "2026-11-25T11:01:48.783Z"
+    "el": "2026-11-25T12:01:41.489Z"
   },
   "res30": {
     "reach": 3192,
-    "views": 21153,
+    "views": 21198,
     "profile_views": 84,
     "accounts_engaged": 136
   },
@@ -1393,7 +1393,7 @@
       "comments_count": 0,
       "caption": "Para los que disfrutan preparando cosas ricas en casa, tener los utensilios justos hace toda la diferencia en la cocina 🧁\nEste molde para seis muffins de silicona premium es antiadherente y súper práctico para tus recetas de todos los días. \nReservalo hoy en Maipú 175, Agencia Albor.\nComentá MUFFINS y te pasamos toda la info.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#siliconapremium #superreposteria #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 0,
-      "views": 0,
+      "views": 2,
       "saved": 0,
       "shares": 0
     },
@@ -1406,7 +1406,7 @@
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 20,
-      "views": 29,
+      "views": 31,
       "saved": 0,
       "shares": 0
     },
@@ -1431,7 +1431,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Entender a fondo cómo se planeó el frente oriental en el frente de batalla es clave para los que estudian la historia bélica moderna 📖\nPodes encargar tu ejemplar pasando por Maipú 175, Agencia Albor.\n#robertkirchubel #historia #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
+      "reach": 25,
       "views": 30,
       "saved": 0,
       "shares": 0
@@ -2646,7 +2646,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T11:01:56.212Z",
+  "actualizado": "2026-11-25T12:01:50.065Z",
   "aud": {
     "edad": [
       {
