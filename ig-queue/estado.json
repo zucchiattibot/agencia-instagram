@@ -61,7 +61,7 @@
     "mwpcszvz298",
     "mwvafebjzfb"
   ],
-  "statsEl": "2026-11-25T01:01:54.167Z",
+  "statsEl": "2026-11-25T02:01:38.719Z",
   "stUltima": {
     "cuando": "2026-11-24T23:02:42.419Z",
     "franja": "19:45",
@@ -69,9 +69,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-25T01:33:42.402Z",
-    "cola": 55,
-    "enRepo": 55,
+    "cuando": "2026-11-25T02:01:30.466Z",
+    "cola": 58,
+    "enRepo": 58,
     "pendientes": []
   },
   "fdig": {
