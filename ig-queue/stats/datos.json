@@ -1299,20 +1299,26 @@
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 107,
-      "v": 121
+      "a": 113,
+      "v": 130
     },
     "18126411100899801": {
       "t": "2026-11-24T16:17:28+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 115
+      "a": 103,
+      "v": 123
     },
     "18086262566527088": {
       "t": "2026-11-24T23:02:09+0000",
       "tipo": "VIDEO",
-      "a": 81,
-      "v": 102
+      "a": 88,
+      "v": 112
+    },
+    "18126997984711360": {
+      "t": "2026-11-25T10:25:07+0000",
+      "tipo": "VIDEO",
+      "a": 0,
+      "v": 13
     }
   },
   "seguidores": {
@@ -1367,17 +1373,30 @@
     "username": "agenciaalbor",
     "followers_count": 1401,
     "follows_count": 668,
-    "media_count": 679,
+    "media_count": 680,
     "id": "28888466970748824",
-    "el": "2026-11-25T10:01:34.586Z"
+    "el": "2026-11-25T11:01:48.783Z"
   },
   "res30": {
-    "reach": 3187,
-    "views": 21116,
+    "reach": 3192,
+    "views": 21153,
     "profile_views": 84,
     "accounts_engaged": 136
   },
   "posts": [
+    {
+      "id": "18135657634787024",
+      "timestamp": "2026-11-25T11:01:43+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DgKYBgsm8y5/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Para los que disfrutan preparando cosas ricas en casa, tener los utensilios justos hace toda la diferencia en la cocina 🧁\nEste molde para seis muffins de silicona premium es antiadherente y súper práctico para tus recetas de todos los días. \nReservalo hoy en Maipú 175, Agencia Albor.\nComentá MUFFINS y te pasamos toda la info.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#siliconapremium #superreposteria #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18470330617184612",
       "timestamp": "2026-11-25T01:01:38+0000",
@@ -1386,8 +1405,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 27,
+      "reach": 20,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -1413,7 +1432,7 @@
       "comments_count": 0,
       "caption": "Entender a fondo cómo se planeó el frente oriental en el frente de batalla es clave para los que estudian la historia bélica moderna 📖\nPodes encargar tu ejemplar pasando por Maipú 175, Agencia Albor.\n#robertkirchubel #historia #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 24,
-      "views": 29,
+      "views": 30,
       "saved": 0,
       "shares": 0
     },
@@ -2627,7 +2646,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T10:01:39.927Z",
+  "actualizado": "2026-11-25T11:01:56.212Z",
   "aud": {
     "edad": [
       {
@@ -2642,21 +2661,21 @@
           "18-24",
           "F"
         ],
-        "v": 10
+        "v": 9
       },
       {
         "d": [
           "25-34",
           "F"
         ],
-        "v": 119
+        "v": 120
       },
       {
         "d": [
           "35-44",
           "F"
         ],
-        "v": 261
+        "v": 262
       },
       {
         "d": [
@@ -2754,7 +2773,7 @@
           "35-44",
           "U"
         ],
-        "v": 52
+        "v": 51
       },
       {
         "d": [
@@ -2781,15 +2800,15 @@
     "ciudades": [
       {
         "d": [
-          "Santiago de Cali, Valle del Cauca"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Merlo, Buenos Aires"
         ],
         "v": 2
+      },
+      {
+        "d": [
+          "Palhoça, Santa Catarina"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2817,7 +2836,13 @@
       },
       {
         "d": [
-          "Osogbo, Osun State"
+          "Montevideo, Montevideo Department"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Eva Perón, Buenos Aires"
         ],
         "v": 1
       },
@@ -2835,6 +2860,12 @@
       },
       {
         "d": [
+          "Lincoln, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "General Villegas, Buenos Aires"
         ],
         "v": 2
@@ -2844,12 +2875,6 @@
           "9 de Julio, Buenos Aires"
         ],
         "v": 9
-      },
-      {
-        "d": [
-          "Colonia San Bartolomé, Córdoba"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2877,6 +2902,12 @@
       },
       {
         "d": [
+          "Babahoyo, Los Ríos Province"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 3
@@ -2886,6 +2917,12 @@
           "Córdoba, Córdoba"
         ],
         "v": 5
+      },
+      {
+        "d": [
+          "Melincué, Santa Fe"
+        ],
+        "v": 1
       },
       {
         "d": [
@@ -2919,12 +2956,6 @@
       },
       {
         "d": [
-          "Timon, Maranhão"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Daireaux, Buenos Aires"
         ],
         "v": 2
@@ -2937,19 +2968,13 @@
       },
       {
         "d": [
-          "Olavarría, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Carlos Casares, Buenos Aires"
         ],
         "v": 1064
       },
       {
         "d": [
-          "Salta, Salta"
+          "Ituzaingó, Buenos Aires"
         ],
         "v": 1
       },
@@ -2991,6 +3016,12 @@
       },
       {
         "d": [
+          "Quimilí, Santiago del Estero"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "San Carlos de Bolívar, Buenos Aires"
         ],
         "v": 9
@@ -3009,9 +3040,9 @@
       },
       {
         "d": [
-          "Santo Tomé, Santa Fe"
+          "Chos Malal, Neuquén"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -3021,21 +3052,9 @@
       },
       {
         "d": [
-          "Chos Malal, Neuquén"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
-      },
-      {
-        "d": [
-          "Los Cóndores, Córdoba"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -3148,7 +3167,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-24T14:02:15.527Z"
+    "el": "2026-11-25T11:01:54.466Z"
   },
   "dias": {
     "2026-10-11": {
