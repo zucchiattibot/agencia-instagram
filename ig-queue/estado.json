@@ -69,7 +69,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-25T01:01:30.046Z",
+    "cuando": "2026-11-25T01:33:42.402Z",
     "cola": 55,
     "enRepo": 55,
     "pendientes": []
@@ -220,7 +220,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "1 salida hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
+    "infoCarga": "1 salida hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de cantidad hoy: una salida menos (19:00) para comparar el alcance por publicación.",
     "ultimaProv": "Rba",
     "prueba": {
       "dia": "2026-11-24",
