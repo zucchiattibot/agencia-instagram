@@ -1293,26 +1293,26 @@
     "18081617540755478": {
       "t": "2026-11-24T11:01:40+0000",
       "tipo": "IMAGE",
-      "a": 106,
-      "v": 117
+      "a": 107,
+      "v": 118
     },
     "18078055091727727": {
       "t": "2026-11-24T12:01:47+0000",
       "tipo": "IMAGE",
-      "a": 97,
-      "v": 110
+      "a": 98,
+      "v": 111
     },
     "18126411100899801": {
       "t": "2026-11-24T16:17:28+0000",
       "tipo": "IMAGE",
-      "a": 84,
-      "v": 99
+      "a": 86,
+      "v": 100
     },
     "18086262566527088": {
       "t": "2026-11-24T23:02:09+0000",
       "tipo": "VIDEO",
-      "a": 64,
-      "v": 75
+      "a": 67,
+      "v": 79
     }
   },
   "seguidores": {
@@ -1361,19 +1361,19 @@
     "2026-11-22": 1400,
     "2026-11-23": 1400,
     "2026-11-24": 1400,
-    "2026-11-25": 1400
+    "2026-11-25": 1401
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1400,
+    "followers_count": 1401,
     "follows_count": 668,
     "media_count": 679,
     "id": "28888466970748824",
-    "el": "2026-11-25T03:01:35.934Z"
+    "el": "2026-11-25T04:01:32.885Z"
   },
   "res30": {
     "reach": 4607,
-    "views": 23656,
+    "views": 23674,
     "profile_views": 90,
     "accounts_engaged": 259
   },
@@ -1386,8 +1386,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 13,
-      "views": 22,
+      "reach": 17,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -2627,7 +2627,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T03:01:42.924Z",
+  "actualizado": "2026-11-25T04:01:39.533Z",
   "aud": {
     "edad": [
       {
