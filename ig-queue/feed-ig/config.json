@@ -1109,45 +1109,6 @@
       ]
     },
     {
-      "id": "mrcmwxmyhdv0mp18w-ig",
-      "matId": "rcmwxmyhdv0mp18w",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwxmyhdv0mp18w.jpg",
-      "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1795709760737,
-      "prov": "Más Logistica",
-      "shas": [
-        "b9a79c9262441e08e79d3d687775efdf4369f531"
-      ]
-    },
-    {
-      "id": "mrcmwxmxr7vnu5xe1-ig",
-      "matId": "rcmwxmxr7vnu5xe1",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwxmxr7vnu5xe1.jpg",
-      "caption": "¿Pensaste en cómo cambia el ambiente de tu dormitorio cuando el aire deja de estar seco y además tenés una luz suave que te acompaña a descansar? 🪐 Este humidificador en forma de planeta Saturno suma humedad al ambiente sin hacer ruido, mientras su luz LED cálida decora cualquier rincón con un toque diferente. \n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#humidificador #saturnhumidifier #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1795702826884,
-      "prov": "Más Logistica",
-      "shas": [
-        "9190003cc0832dfbc242efb9abc4be87db5189ba"
-      ]
-    },
-    {
-      "id": "mrcmwxmxjf8ks9q8y-ig",
-      "matId": "rcmwxmxjf8ks9q8y",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwxmxjf8ks9q8y.jpg",
-      "caption": "¿Cansado de esperar que rompa el hervor para prepararte unos mates o un té? Con los 1800 ml de esta pava eléctrica vas a tener el agua lista en un ratito, sin vueltas y directo en la base. Pasá a conocerla por Maipú 175, Agencia Albor, Carlos Casares y sumala a tus mañanas. \n\n#pavaelectrica #electrodomesticos #carloscasares #mangproducts\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1795702798833,
-      "prov": "Más Logistica",
-      "shas": [
-        "aab7b0b5362cda080daedda383166f6de3385ef4"
-      ]
-    },
-    {
       "id": "mrcmwxr779vnr847i-ig",
       "matId": "rcmwxr779vnr847i",
       "tipo": "image",
@@ -1159,6 +1120,25 @@
       "shas": [
         "0601bc7e9490e98b98c65dda3a4ab53d0ab5c2df"
       ]
+    },
+    {
+      "id": "cmwxr95t2-ig",
+      "matId": "rcmwxmyhdv0mp18w",
+      "matIds": [
+        "rcmwxmyhdv0mp18w",
+        "rcmwxmxjf8ks9q8y",
+        "rcmwxmxr7vnu5xe1"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmwxmyhdv0mp18w.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmwxmyhdv0mp18w.jpg",
+        "ig-queue/feed/media/rcmwxmxjf8ks9q8y.jpg",
+        "ig-queue/feed/media/rcmwxmxr7vnu5xe1.jpg"
+      ],
+      "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1795709760737
     }
   ],
   "publicadas": [
