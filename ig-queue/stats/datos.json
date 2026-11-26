@@ -1317,26 +1317,26 @@
     "18126997984711360": {
       "t": "2026-11-25T10:25:07+0000",
       "tipo": "VIDEO",
-      "a": 116,
-      "v": 132
+      "a": 117,
+      "v": 133
     },
     "18137956543657578": {
       "t": "2026-11-25T13:01:42+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 113
+      "a": 97,
+      "v": 115
     },
     "18647270131058036": {
       "t": "2026-11-25T21:01:42+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 73
+      "a": 66,
+      "v": 76
     },
     "17959414101081971": {
       "t": "2026-11-26T00:01:40+0000",
       "tipo": "IMAGE",
       "a": 48,
-      "v": 52
+      "v": 54
     }
   },
   "seguidores": {
@@ -1394,11 +1394,11 @@
     "follows_count": 669,
     "media_count": 680,
     "id": "28888466970748824",
-    "el": "2026-11-26T07:01:27.764Z"
+    "el": "2026-11-26T08:01:31.304Z"
   },
   "res30": {
-    "reach": 2761,
-    "views": 20446,
+    "reach": 2765,
+    "views": 20454,
     "profile_views": 82,
     "accounts_engaged": 104
   },
@@ -2665,7 +2665,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-26T07:01:34.643Z",
+  "actualizado": "2026-11-26T08:01:36.987Z",
   "aud": {
     "edad": [
       {
@@ -2778,7 +2778,7 @@
           "18-24",
           "U"
         ],
-        "v": 19
+        "v": 20
       },
       {
         "d": [
@@ -2825,12 +2825,6 @@
       },
       {
         "d": [
-          "Palhoça, Santa Catarina"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Trenque Lauquen, Buenos Aires"
         ],
         "v": 2
@@ -2855,13 +2849,7 @@
       },
       {
         "d": [
-          "Montevideo, Montevideo Department"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
-          "Eva Perón, Buenos Aires"
+          "Osogbo, Osun State"
         ],
         "v": 1
       },
@@ -2875,7 +2863,7 @@
         "d": [
           "C. Casares, Buenos Aires"
         ],
-        "v": 43
+        "v": 42
       },
       {
         "d": [
@@ -2921,12 +2909,6 @@
       },
       {
         "d": [
-          "Babahoyo, Los Ríos Province"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 3
@@ -2939,15 +2921,15 @@
       },
       {
         "d": [
-          "Melincué, Santa Fe"
+          "Moctezuma, Buenos Aires"
         ],
-        "v": 1
+        "v": 17
       },
       {
         "d": [
-          "Moctezuma, Buenos Aires"
+          "La Rioja, La Rioja"
         ],
-        "v": 16
+        "v": 1
       },
       {
         "d": [
@@ -2957,19 +2939,31 @@
       },
       {
         "d": [
-          "Panama City, Panamá Province"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
           "González Catán, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
+          "Panama City, Panamá Province"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Villa de la Quebrada, San Luis"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Villa María, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "San Miguel de Tucumán, Tucuman"
         ],
         "v": 2
       },
@@ -2989,11 +2983,11 @@
         "d": [
           "Carlos Casares, Buenos Aires"
         ],
-        "v": 1064
+        "v": 1063
       },
       {
         "d": [
-          "Ituzaingó, Buenos Aires"
+          "Salta, Salta"
         ],
         "v": 1
       },
@@ -3035,31 +3029,13 @@
       },
       {
         "d": [
-          "Quimilí, Santiago del Estero"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "San Carlos de Bolívar, Buenos Aires"
         ],
         "v": 9
       },
       {
         "d": [
-          "Santiago del Estero, Santiago del Estero"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Venado Tuerto, Santa Fe"
-        ],
-        "v": 2
-      },
-      {
-        "d": [
-          "Chos Malal, Neuquén"
         ],
         "v": 2
       },
@@ -3071,15 +3047,39 @@
       },
       {
         "d": [
+          "Chos Malal, Neuquén"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
       },
       {
         "d": [
+          "San Vicente, Buenos Aires"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Pimocha, Los Ríos Province"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
+          "Los Cóndores, Córdoba"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "La Plata, Buenos Aires"
         ],
-        "v": 11
+        "v": 12
       },
       {
         "d": [
@@ -3159,7 +3159,7 @@
         "d": [
           "AR"
         ],
-        "v": 1341
+        "v": 1342
       },
       {
         "d": [
@@ -3186,7 +3186,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-25T11:01:54.466Z"
+    "el": "2026-11-26T08:01:35.006Z"
   },
   "dias": {
     "2026-10-11": {
