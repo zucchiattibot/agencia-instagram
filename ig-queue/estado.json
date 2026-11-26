@@ -60,7 +60,7 @@
     "mwtl7lfy032",
     "mwvgvrqbg6a"
   ],
-  "statsEl": "2026-11-26T15:01:41.272Z",
+  "statsEl": "2026-11-26T16:01:45.293Z",
   "stUltima": {
     "cuando": "2026-11-26T00:01:48.525Z",
     "franja": "20:45",
@@ -68,7 +68,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-26T15:01:34.125Z",
+    "cuando": "2026-11-26T16:01:38.237Z",
     "cola": 59,
     "enRepo": 58,
     "pendientes": []
@@ -325,7 +325,6 @@
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvqsm5x4etos0t-fb": "2026-10-27T15:02:06.962Z",
       "mrcmvqw5xq2695pzc-fb": "2026-10-27T21:02:12.650Z",
       "mrcmvr08nxeykj1h9-fb": "2026-10-27T23:02:23.133Z",
       "mrcmvs17yshc98yg6-fb": "2026-10-29T15:02:05.241Z",
@@ -597,8 +596,8 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-25T19:01:43.480Z",
-    "n": 1
+    "cuando": "2026-11-26T16:01:38.098Z",
+    "n": 2
   },
   "stM": {
     "rot": 3,
