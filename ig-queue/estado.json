@@ -63,7 +63,7 @@
     "mwvgvrqbg6a",
     "mwvgvm0gx9i"
   ],
-  "statsEl": "2026-11-26T22:02:08.183Z",
+  "statsEl": "2026-11-26T23:01:44.533Z",
   "stUltima": {
     "cuando": "2026-11-26T20:01:41.566Z",
     "franja": "17:00",
@@ -71,7 +71,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-26T22:01:29.798Z",
+    "cuando": "2026-11-26T23:01:36.384Z",
     "cola": 59,
     "enRepo": 58,
     "pendientes": []
@@ -157,7 +157,6 @@
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvqw5xq2695pzc-ig": "2026-10-27T22:02:01.400Z",
       "mrcmvr08nxeykj1h9-ig": "2026-10-28T01:02:24.597Z",
       "mrcmvs17yshc98yg6-ig": "2026-10-29T16:01:56.609Z",
       "mrcmvqqgjigs4t5n3-ig": "2026-10-29T22:01:59.001Z",
@@ -227,7 +226,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 6 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-26",
