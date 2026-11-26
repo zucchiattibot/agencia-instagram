@@ -60,7 +60,7 @@
     "mwtl7lfy032",
     "mwvgvrqbg6a"
   ],
-  "statsEl": "2026-11-26T10:01:31.166Z",
+  "statsEl": "2026-11-26T11:02:06.090Z",
   "stUltima": {
     "cuando": "2026-11-26T00:01:48.525Z",
     "franja": "20:45",
@@ -68,7 +68,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-26T10:01:25.402Z",
+    "cuando": "2026-11-26T11:01:32.107Z",
     "cola": 59,
     "enRepo": 58,
     "pendientes": []
@@ -246,7 +246,9 @@
     ]
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-26 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -313,11 +315,12 @@
       "mrcmvwe03pm947brj-fb",
       "mrcmwuv9omzh4pk7a-fb",
       "mrcmwvad6ymlh8u5z-fb",
-      "mrcmwv05q1swqbvdv-fb"
+      "mrcmwv05q1swqbvdv-fb",
+      "mrcmwwgkcp42wpzyf-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-25T15:01:48.183Z",
-      "franja": "12:00",
+      "cuando": "2026-11-26T11:01:58.757Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -380,9 +383,12 @@
       "mrcmvwe03pm947brj-fb": "2026-11-24T14:02:08.868Z",
       "mrcmwuv9omzh4pk7a-fb": "2026-11-24T21:01:45.641Z",
       "mrcmwvad6ymlh8u5z-fb": "2026-11-24T23:02:48.160Z",
-      "mrcmwv05q1swqbvdv-fb": "2026-11-25T15:01:48.182Z"
+      "mrcmwv05q1swqbvdv-fb": "2026-11-25T15:01:48.182Z",
+      "mrcmwwgkcp42wpzyf-fb": "2026-11-26T11:01:58.756Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwwgkcp42wpzyf-fb": "2026-11-26"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-26",
@@ -390,7 +396,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
-    "ultimaProv": "Rba",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-26",
       "h": "08:00",
@@ -401,6 +407,10 @@
       {
         "t": "2026-11-24T14:02:08.871Z",
         "tramo": "mañana"
+      },
+      {
+        "t": "2026-11-26T11:01:58.757Z",
+        "tramo": "primera mañana"
       }
     ],
     "pruebaUlt": "2026-11-26",
