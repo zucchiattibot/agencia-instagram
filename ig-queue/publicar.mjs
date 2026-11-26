@@ -1,4 +1,4 @@
-// ig-motor-v59
+// ig-motor-v60
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -399,12 +399,32 @@ function ratioCargaMotor(items) {
   if (uno.length < 5 || varios.length < 5) return null;
   return medianaMotor(varios) / (medianaMotor(uno) || 1);
 }
+// v60: Facebook con el CSV de Meta Business Suite (alcance real), igual que Instagram.
+// El panel sube el CSV importado a ig-queue/stats/fb-csv.json. Si trae 12 o más publicaciones maduras y la más nueva tiene menos de
+// 30 días, el autoajuste y la carga del día de Facebook usan ESE alcance; si no, siguen con reacciones + comentarios×2 + compartidos×3
+// que trae la página (sin alcance real). Devuelve null cuando no hay que usarlo.
+function fbCsvItems(horasMadurez) {
+  const j = leer(path.join(BASE, 'stats', 'fb-csv.json'), null);
+  if (!j || !Array.isArray(j.posts)) return null;
+  const lim = Date.now() - (horasMadurez || 72) * 3600000;
+  const items = j.posts
+    .map((p) => ({ t: p.t, score: +(p.m || 0), fmt: /reel|video/i.test(p.tipo || '') ? 'video' : 'foto' }))
+    .filter((p) => { const ms = Date.parse(p.t); return Number.isFinite(ms) && ms < lim && p.score > 0; });
+  if (items.length < 12) return null;
+  const ultimo = Math.max(...items.map((p) => Date.parse(p.t)));
+  if (Date.now() - ultimo > 30 * 86400000) return null;
+  return items;
+}
 // Publicaciones con métricas maduras (más de 72 h) de la red, tal como las usa el optimizador.
 function itemsCargaMotor(red) {
   const D = leer(path.join(BASE, 'stats', 'datos.json'), null);
   if (!D) return [];
   const lim = Date.now() - 72 * 3600000, maduro = (t) => { const ms = Date.parse(t); return Number.isFinite(ms) && ms < lim; };
-  if (red === 'fb') return recientesMotor((D.fbposts || []).filter((p) => maduro(p.t)).map((p) => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)) })));
+  if (red === 'fb') {
+    const csv = fbCsvItems(72);
+    if (csv) return recientesMotor(csv.map((p) => ({ t: p.t, score: p.score })));
+    return recientesMotor((D.fbposts || []).filter((p) => maduro(p.t)).map((p) => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)) })));
+  }
   return recientesMotor((D.posts || []).filter((p) => maduro(p.timestamp)).map((p) => ({ t: p.timestamp, score: +(p.reach || 0) })));
 }
 // v37: tope de Reels para no saturar la cuenta. Cuenta las salidas diarias de las franjas fijadas en 'reel'; el motor no pasa más franjas a Reel ni suma extras de Reel sobre ese tope.
@@ -1082,18 +1102,22 @@ function optimizarSemanaAutomatica(estado) {
   if (!D) return;
   const maduro = (t, h) => { const ms = Date.parse(t); return Number.isFinite(ms) && ms < ahora - h * 3600000; };
   const igItems = recientesMotor((D.posts || []).filter(p => maduro(p.timestamp, 72)).map(p => ({ t: p.timestamp, score: +(p.reach || 0), fmt: /VIDEO|REEL/i.test(p.media_type || '') ? 'video' : 'foto' })));
-  const fbItems = recientesMotor((D.fbposts || []).filter(p => maduro(p.t, 72)).map(p => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)), fmt: /video|reel/i.test(p.tipo || '') ? 'video' : 'foto' })));
+  const fbCsv = fbCsvItems(72); // v60: alcance real del CSV de Meta si está al día; si no, lo que trae la página
+  const fbItems = fbCsv ? recientesMotor(fbCsv) : recientesMotor((D.fbposts || []).filter(p => maduro(p.t, 72)).map(p => ({ t: p.t, score: +(p.r || 0) + 2 * (+(p.c || 0)) + 3 * (+(p.s || 0)), fmt: /video|reel/i.test(p.tipo || '') ? 'video' : 'foto' })));
+  estado.fbFuente = { fuente: fbCsv ? 'csv' : 'motor', n: fbItems.length, revisado: new Date(ahora).toISOString() };
   const stItems = recientesMotor(Object.values(D.historias || {}).filter(p => maduro(p.t, 26)).map(p => ({ t: p.t, score: +(p.a || 0), fmt: /VIDEO/i.test(p.tipo || '') ? 'video' : 'foto' })));
   // v27: un ajuste por cola, pausa de 14 días para medir el efecto, y reversión si el alcance mediano cae más de 30%.
   const base = (estado.autoBase = estado.autoBase || {}), pausa = (estado.autoPausa = estado.autoPausa || {});
   const resultados = [];
-  for (const [ruta, items, etiqueta] of [
-    ['feed-ig/config.json', igItems, 'Instagram Feed/Reels'],
-    ['feed-fb/config.json', fbItems, 'Facebook Feed/Reels'],
-    ['stories/config.json', stItems, 'Historias']
+  for (const [ruta, items, etiqueta, src] of [
+    ['feed-ig/config.json', igItems, 'Instagram Feed/Reels', 'motor'],
+    ['feed-fb/config.json', fbItems, 'Facebook Feed/Reels', fbCsv ? 'csv' : 'motor'],
+    ['stories/config.json', stItems, 'Historias', 'motor']
   ]) {
     try {
       if (pausa[ruta] && ahora < Date.parse(pausa[ruta])) { resultados.push({ red: etiqueta, estado: 'en-pausa', detalle: 'En pausa hasta ' + pausa[ruta].slice(0, 10) + ' por una reversión reciente.' }); continue; }
+      // v60: si cambió la fuente de datos (por ejemplo Facebook pasó de reacciones a alcance del CSV), las medianas no se pueden comparar: se cierra el control anterior.
+      if (base[ruta] && (base[ruta].src || 'motor') !== src) delete base[ruta];
       const bl = base[ruta], RR = cfgRitmoReels();
       if (bl) {
         const dias = (ahora - Date.parse(bl.t)) / DIA;
@@ -1123,7 +1147,7 @@ function optimizarSemanaAutomatica(estado) {
       if (!r || r.estado !== 'ajustado') { try { const rr = optimizarRitmoReels(ruta, items, etiqueta, estado); if (rr && (rr.estado === 'ajustado' || !r)) r = rr; } catch (e) { console.log('Ritmo de Reels falló', e.message); } }
       if (r && r.estado === 'ajustado') {
         const rec = items.slice().sort((a, b) => Date.parse(b.t) - Date.parse(a.t)).slice(0, 12).map(p => p.score).filter(Number.isFinite);
-        base[ruta] = { t: new Date(ahora).toISOString(), med: medianaMotor(rec), franjas: antes, reelBaja: !!(r && r.reelBaja) };
+        base[ruta] = { t: new Date(ahora).toISOString(), med: medianaMotor(rec), franjas: antes, reelBaja: !!(r && r.reelBaja), src };
       }
       if (r) resultados.push(r);
     } catch (e) { resultados.push({ red: etiqueta, estado: 'error', detalle: e.message }); }
