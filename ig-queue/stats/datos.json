@@ -1329,32 +1329,32 @@
     "18647270131058036": {
       "t": "2026-11-25T21:01:42+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 102
+      "a": 92,
+      "v": 110
     },
     "17959414101081971": {
       "t": "2026-11-26T00:01:40+0000",
       "tipo": "IMAGE",
-      "a": 74,
-      "v": 85
+      "a": 81,
+      "v": 95
     },
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 17,
-      "v": 19
+      "a": 23,
+      "v": 26
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 18,
-      "v": 19
+      "a": 25,
+      "v": 29
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 18,
-      "v": 20
+      "a": 30,
+      "v": 32
     }
   },
   "seguidores": {
@@ -1410,17 +1410,30 @@
     "username": "agenciaalbor",
     "followers_count": 1401,
     "follows_count": 669,
-    "media_count": 680,
+    "media_count": 681,
     "id": "28888466970748824",
-    "el": "2026-11-26T16:01:40.245Z"
+    "el": "2026-11-26T17:01:59.869Z"
   },
   "res30": {
     "reach": 2765,
-    "views": 20586,
+    "views": 20632,
     "profile_views": 82,
     "accounts_engaged": 104
   },
   "posts": [
+    {
+      "id": "18360983641222574",
+      "timestamp": "2026-11-26T17:01:52+0000",
+      "media_type": "VIDEO",
+      "permalink": "https://www.instagram.com/reel/DgNmACdhCLH/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18135657634787024",
       "timestamp": "2026-11-25T11:01:43+0000",
@@ -1521,7 +1534,7 @@
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 123,
-      "views": 142,
+      "views": 144,
       "saved": 3,
       "shares": 0
     },
@@ -1534,7 +1547,7 @@
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 33,
-      "views": 60,
+      "views": 62,
       "saved": 0,
       "shares": 0
     },
@@ -2683,7 +2696,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-26T16:01:45.293Z",
+  "actualizado": "2026-11-26T17:02:04.573Z",
   "aud": {
     "edad": [
       {
