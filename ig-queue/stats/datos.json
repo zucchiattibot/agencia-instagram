@@ -1329,32 +1329,38 @@
     "18647270131058036": {
       "t": "2026-11-25T21:01:42+0000",
       "tipo": "IMAGE",
-      "a": 100,
-      "v": 117
+      "a": 102,
+      "v": 121
     },
     "17959414101081971": {
       "t": "2026-11-26T00:01:40+0000",
       "tipo": "IMAGE",
-      "a": 89,
-      "v": 102
+      "a": 90,
+      "v": 104
     },
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 47
+      "a": 50,
+      "v": 57
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 44,
-      "v": 51
+      "a": 55,
+      "v": 60
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 55
+      "a": 58,
+      "v": 63
+    },
+    "17958281622038478": {
+      "t": "2026-11-26T20:01:34+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1412,11 +1418,11 @@
     "follows_count": 669,
     "media_count": 681,
     "id": "28888466970748824",
-    "el": "2026-11-26T19:01:36.702Z"
+    "el": "2026-11-26T20:01:44.522Z"
   },
   "res30": {
     "reach": 2880,
-    "views": 20868,
+    "views": 20913,
     "profile_views": 83,
     "accounts_engaged": 104
   },
@@ -1429,8 +1435,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 128,
-      "views": 145,
+      "reach": 130,
+      "views": 149,
       "saved": 0,
       "shares": 0
     },
@@ -1546,8 +1552,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 35,
-      "views": 70,
+      "reach": 37,
+      "views": 72,
       "saved": 0,
       "shares": 0
     },
@@ -2696,7 +2702,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-26T19:01:44.881Z",
+  "actualizado": "2026-11-26T20:01:50.642Z",
   "aud": {
     "edad": [
       {
