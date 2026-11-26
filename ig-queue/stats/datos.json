@@ -1329,32 +1329,32 @@
     "18647270131058036": {
       "t": "2026-11-25T21:01:42+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 110
+      "a": 98,
+      "v": 115
     },
     "17959414101081971": {
       "t": "2026-11-26T00:01:40+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 95
+      "a": 85,
+      "v": 100
     },
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 23,
-      "v": 26
+      "a": 32,
+      "v": 38
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 25,
-      "v": 29
+      "a": 35,
+      "v": 42
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 30,
-      "v": 32
+      "a": 39,
+      "v": 46
     }
   },
   "seguidores": {
@@ -1412,11 +1412,11 @@
     "follows_count": 669,
     "media_count": 681,
     "id": "28888466970748824",
-    "el": "2026-11-26T17:01:59.869Z"
+    "el": "2026-11-26T18:01:31.552Z"
   },
   "res30": {
-    "reach": 2765,
-    "views": 20632,
+    "reach": 2835,
+    "views": 20773,
     "profile_views": 82,
     "accounts_engaged": 104
   },
@@ -1429,8 +1429,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 81,
+      "views": 120,
       "saved": 0,
       "shares": 0
     },
@@ -1546,8 +1546,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 33,
-      "views": 62,
+      "reach": 34,
+      "views": 63,
       "saved": 0,
       "shares": 0
     },
@@ -2696,7 +2696,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-26T17:02:04.573Z",
+  "actualizado": "2026-11-26T18:01:38.451Z",
   "aud": {
     "edad": [
       {
