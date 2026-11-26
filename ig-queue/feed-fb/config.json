@@ -1148,45 +1148,6 @@
       ]
     },
     {
-      "id": "mrcmwxmxr7vnu5xe1-fb",
-      "matId": "rcmwxmxr7vnu5xe1",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwxmxr7vnu5xe1.jpg",
-      "caption": "Transformar la atmósfera de tu casa en un rincón relajante y lleno de magia es más fácil cuando la iluminación y la frescura se combinan en un solo objeto. Este humidificador con diseño de planeta y luz LED cálida le da un toque único a cualquier habitación mientras cuida el aire que respirás. Pasá a conocerlo por Maipú 175, Agencia Albor, o mandanos un mensaje para saber más.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1795702826884,
-      "prov": "Más Logistica",
-      "shas": [
-        "9190003cc0832dfbc242efb9abc4be87db5189ba"
-      ]
-    },
-    {
-      "id": "mrcmwxmyhdv0mp18w-fb",
-      "matId": "rcmwxmyhdv0mp18w",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwxmyhdv0mp18w.jpg",
-      "caption": "Para sorprender a esa persona que siempre anda con una canción en la cabeza y armar una picada o una reunión con buena música, este parlante portátil es un verdadero golazo. Tiene luces LED, sonido potente y batería recargable para llevarlo a todos lados sin renegar con los cables. \n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje directo por acá o escribinos por WhatsApp para reservarlo antes de que vuelen.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1795709760737,
-      "prov": "Más Logistica",
-      "shas": [
-        "b9a79c9262441e08e79d3d687775efdf4369f531"
-      ]
-    },
-    {
-      "id": "mrcmwxmxjf8ks9q8y-fb",
-      "matId": "rcmwxmxjf8ks9q8y",
-      "tipo": "image",
-      "fmt": "feed",
-      "media": "ig-queue/feed/media/rcmwxmxjf8ks9q8y.jpg",
-      "caption": "¿Cuántas veces te quedaste esperando con el agua tibia porque la hornalla tarda una eternidad? ☕ Con los 1800 ml de capacidad de esta pava eléctrica vas a tener el agua lista en un abrir y cerrar de ojos para arrancar el día o compartir unos buenos mates. Encontrala disponible en Maipú 175, Agencia Albor. Mandanos un mensaje privado o escribinos por WhatsApp para coordinar tu pedido.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "ord": 1795702798833,
-      "prov": "Más Logistica",
-      "shas": [
-        "aab7b0b5362cda080daedda383166f6de3385ef4"
-      ]
-    },
-    {
       "id": "mrcmwxr779vnr847i-fb",
       "matId": "rcmwxr779vnr847i",
       "tipo": "image",
@@ -1198,6 +1159,25 @@
       "shas": [
         "0601bc7e9490e98b98c65dda3a4ab53d0ab5c2df"
       ]
+    },
+    {
+      "id": "cmwxr95t2-fb",
+      "matId": "rcmwxmyhdv0mp18w",
+      "matIds": [
+        "rcmwxmyhdv0mp18w",
+        "rcmwxmxjf8ks9q8y",
+        "rcmwxmxr7vnu5xe1"
+      ],
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmwxmyhdv0mp18w.jpg",
+      "medias": [
+        "ig-queue/feed/media/rcmwxmyhdv0mp18w.jpg",
+        "ig-queue/feed/media/rcmwxmxjf8ks9q8y.jpg",
+        "ig-queue/feed/media/rcmwxmxr7vnu5xe1.jpg"
+      ],
+      "caption": "Para sorprender a esa persona que siempre anda con una canción en la cabeza y armar una picada o una reunión con buena música, este parlante portátil es un verdadero golazo. Tiene luces LED, sonido potente y batería recargable para llevarlo a todos lados sin renegar con los cables. \n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje directo por acá o escribinos por WhatsApp para reservarlo antes de que vuelen.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1795709760737
     }
   ],
   "publicadas": [
