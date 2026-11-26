@@ -1317,20 +1317,26 @@
     "18126997984711360": {
       "t": "2026-11-25T10:25:07+0000",
       "tipo": "VIDEO",
-      "a": 94,
-      "v": 107
+      "a": 96,
+      "v": 109
     },
     "18137956543657578": {
       "t": "2026-11-25T13:01:42+0000",
       "tipo": "IMAGE",
-      "a": 76,
-      "v": 88
+      "a": 77,
+      "v": 89
     },
     "18647270131058036": {
       "t": "2026-11-25T21:01:42+0000",
       "tipo": "IMAGE",
-      "a": 24,
-      "v": 35
+      "a": 34,
+      "v": 41
+    },
+    "17959414101081971": {
+      "t": "2026-11-26T00:01:40+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1387,12 +1393,12 @@
     "follows_count": 669,
     "media_count": 680,
     "id": "28888466970748824",
-    "el": "2026-11-25T23:01:37.948Z"
+    "el": "2026-11-26T00:01:50.824Z"
   },
   "res30": {
     "reach": 3197,
-    "views": 21510,
-    "profile_views": 85,
+    "views": 21535,
+    "profile_views": 86,
     "accounts_engaged": 136
   },
   "posts": [
@@ -1417,8 +1423,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 25,
-      "views": 38,
+      "reach": 26,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -1431,7 +1437,7 @@
       "comments_count": 0,
       "caption": "¿Hacer bizcochuelos perfectos y que no se pegue nada sin renegar con el molde viejo? Con este molde redondo de silicona premium de la entrega Nº3 de Super Repostería te olvidás de andar renegando con el fondo. 🧁 Reservalo hoy mismo y pasá a buscarlo por Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#superreposteria #moldesdesilicona #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 15,
-      "views": 23,
+      "views": 24,
       "saved": 0,
       "shares": 0
     },
@@ -1469,7 +1475,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para que los chicos armen sus propias historias y jueguen sin pantallas, esta colección de madera es un golazo 🪵🚜\n\nVienen los personajes y los escenarios para armar paso a paso en familia. \n\nReservala hoy en Agencia Albor, Carlos Casares. Mandanos un mensaje para asegurarla.\n\n#granjazenon #juguetesdemadera #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 17,
+      "reach": 18,
       "views": 33,
       "saved": 0,
       "shares": 0
@@ -1483,7 +1489,7 @@
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 32,
-      "views": 71,
+      "views": 72,
       "saved": 0,
       "shares": 0
     },
@@ -1521,8 +1527,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 38,
+      "reach": 30,
+      "views": 40,
       "saved": 0,
       "shares": 0
     },
@@ -2658,7 +2664,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-25T23:01:43.621Z",
+  "actualizado": "2026-11-26T00:01:58.123Z",
   "aud": {
     "edad": [
       {

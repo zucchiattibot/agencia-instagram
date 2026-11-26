@@ -4,7 +4,8 @@
   "stFranjas": {
     "2026-11-25 07:15": "ok",
     "2026-11-25 09:45": "ok",
-    "2026-11-25 17:30": "ok"
+    "2026-11-25 17:30": "ok",
+    "2026-11-25 20:45": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -61,20 +62,23 @@
     "mwpcszvz298",
     "mwvafebjzfb",
     "mwtqdmauicz",
-    "mwtl7lfy032"
+    "mwtl7lfy032",
+    "mwvgvrqbg6a"
   ],
-  "statsEl": "2026-11-25T23:01:43.621Z",
+  "statsEl": "2026-11-26T00:01:58.123Z",
   "stUltima": {
-    "cuando": "2026-11-25T21:01:51.776Z",
-    "franja": "17:30",
+    "cuando": "2026-11-26T00:01:48.525Z",
+    "franja": "20:45",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-25T23:01:36.681Z",
+    "cuando": "2026-11-26T00:01:34.288Z",
     "cola": 59,
     "enRepo": 58,
-    "pendientes": []
+    "pendientes": [
+      "20:45"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -332,7 +336,6 @@
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvph4b9mok297a-fb": "2026-10-26T23:02:03.335Z",
       "mrcmvqsm5x4etos0t-fb": "2026-10-27T15:02:06.962Z",
       "mrcmvqw5xq2695pzc-fb": "2026-10-27T21:02:12.650Z",
       "mrcmvr08nxeykj1h9-fb": "2026-10-27T23:02:23.133Z",
@@ -435,7 +438,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mw2fnb7trf9",
+  "stUltimaId": "mwvgvrqbg6a",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -491,12 +494,14 @@
     "mwpcszvz298": "2026-11-23T12:02:31.629Z",
     "mwvafebjzfb": "2026-11-24T23:02:42.419Z",
     "mwtqdmauicz": "2026-11-25T10:25:39.496Z",
-    "mwtl7lfy032": "2026-11-25T13:01:53.533Z"
+    "mwtl7lfy032": "2026-11-25T13:01:53.533Z",
+    "mwvgvrqbg6a": "2026-11-26T00:01:48.525Z"
   },
   "stUsadosDia": {
     "mwtqdmauicz": "2026-11-25",
     "mwtl7lfy032": "2026-11-25",
-    "mw2fnb7trf9": "2026-11-25"
+    "mw2fnb7trf9": "2026-11-25",
+    "mwvgvrqbg6a": "2026-11-25"
   },
   "autoBase": {
     "feed-ig/config.json": {
