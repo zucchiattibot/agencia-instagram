@@ -1329,14 +1329,32 @@
     "18647270131058036": {
       "t": "2026-11-25T21:01:42+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 96
+      "a": 85,
+      "v": 100
     },
     "17959414101081971": {
       "t": "2026-11-26T00:01:40+0000",
       "tipo": "IMAGE",
-      "a": 65,
-      "v": 77
+      "a": 69,
+      "v": 81
+    },
+    "18127127188935645": {
+      "t": "2026-11-26T14:45:47+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 7
+    },
+    "18122393774470501": {
+      "t": "2026-11-26T14:45:00+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 8
+    },
+    "17895908457616529": {
+      "t": "2026-11-26T14:44:14+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 9
     }
   },
   "seguidores": {
@@ -1394,11 +1412,11 @@
     "follows_count": 669,
     "media_count": 680,
     "id": "28888466970748824",
-    "el": "2026-11-26T14:01:32.359Z"
+    "el": "2026-11-26T15:01:35.602Z"
   },
   "res30": {
     "reach": 2765,
-    "views": 20512,
+    "views": 20520,
     "profile_views": 82,
     "accounts_engaged": 104
   },
@@ -1568,7 +1586,7 @@
       "comments_count": 0,
       "caption": "Pensar en ese regalo especial para alguien que busca cambiar el rumbo a veces cuesta, pero este libro tiene justo las herramientas para aprender a manifestar lo que uno quiere y disfrutar el proceso 🎁\n\nPasá a buscarlo por Maipú 175, Agencia Albor.\n\n#antobian #manifestadoras #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 31,
-      "views": 65,
+      "views": 67,
       "saved": 0,
       "shares": 0
     },
@@ -2665,7 +2683,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-26T14:01:37.649Z",
+  "actualizado": "2026-11-26T15:01:41.272Z",
   "aud": {
     "edad": [
       {
