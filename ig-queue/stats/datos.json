@@ -1365,26 +1365,26 @@
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 91,
-      "v": 99
+      "a": 94,
+      "v": 101
     },
     "17979288116938517": {
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
-      "a": 57,
-      "v": 66
+      "a": 60,
+      "v": 68
     },
     "18126221380987884": {
       "t": "2026-11-27T12:01:42+0000",
       "tipo": "IMAGE",
-      "a": 49,
-      "v": 56
+      "a": 53,
+      "v": 59
     },
     "18120121301585688": {
       "t": "2026-11-27T20:01:36+0000",
       "tipo": "IMAGE",
-      "a": 6,
-      "v": 10
+      "a": 19,
+      "v": 25
     }
   },
   "seguidores": {
@@ -1441,17 +1441,30 @@
     "username": "agenciaalbor",
     "followers_count": 1400,
     "follows_count": 668,
-    "media_count": 684,
+    "media_count": 685,
     "id": "28888466970748824",
-    "el": "2026-11-27T21:01:27.150Z"
+    "el": "2026-11-27T22:02:04.345Z"
   },
   "res30": {
-    "reach": 2674,
-    "views": 20490,
+    "reach": 2678,
+    "views": 20519,
     "profile_views": 82,
     "accounts_engaged": 94
   },
   "posts": [
+    {
+      "id": "18102457526422463",
+      "timestamp": "2026-11-27T22:01:58+0000",
+      "media_type": "CAROUSEL_ALBUM",
+      "permalink": "https://www.instagram.com/p/DgQtLLFliV-/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "Las tardes de taller en casa tienen otra emoción cuando hay que ajustar cada tuerca y dar forma a este clásico de siempre. 🔧\n\nNo te quedes sin tu kit: reservalo mandándonos un mensaje directo y pasá a retirarlo por Maipú 175, Agencia Albor. \n\n#MeccanoMasters #armables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "17920991235536006",
       "timestamp": "2026-11-27T16:01:40+0000",
@@ -1474,7 +1487,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de esa noche inolvidable donde Boca hizo historia y levantó la copa? 🏆 Toda la emoción de los festejos, el color y los protagonistas quedó plasmada en esta revista premium de edición limitada para hojear mil veces. Te esperamos en Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#bocajuniors #ole #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 15,
-      "views": 26,
+      "views": 27,
       "saved": 0,
       "shares": 0
     },
@@ -2766,7 +2779,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T21:01:34.574Z",
+  "actualizado": "2026-11-27T22:02:10.881Z",
   "aud": {
     "edad": [
       {
