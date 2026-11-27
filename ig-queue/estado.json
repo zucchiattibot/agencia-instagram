@@ -65,7 +65,7 @@
     "mwvgvm0gx9i",
     "mwvgvhvnfy2"
   ],
-  "statsEl": "2026-11-27T01:01:42.510Z",
+  "statsEl": "2026-11-27T02:01:48.401Z",
   "stUltima": {
     "cuando": "2026-11-27T00:01:40.365Z",
     "franja": "20:15",
@@ -73,7 +73,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T01:01:34.514Z",
+    "cuando": "2026-11-27T02:01:28.219Z",
     "cola": 59,
     "enRepo": 58,
     "pendientes": []
@@ -81,7 +81,8 @@
   "fdig": {
     "franjas": {
       "2026-11-26 13:30": "ok",
-      "2026-11-26 19:00": "ok"
+      "2026-11-26 19:00": "ok",
+      "2026-11-26 22:15": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -150,16 +151,16 @@
       "mrcmwv05q1swqbvdv-ig",
       "mrcmwvad6ymlh8u5z-ig",
       "mrcmwwgkcp42wpzyf-ig",
-      "cmwxr95t2-ig"
+      "cmwxr95t2-ig",
+      "mrcmwuv9omzh4pk7a-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-26T22:01:59.130Z",
-      "franja": "19:00",
+      "cuando": "2026-11-27T02:01:40.275Z",
+      "franja": "22:15",
       "ok": 1,
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvr08nxeykj1h9-ig": "2026-10-28T01:02:24.597Z",
       "mrcmvs17yshc98yg6-ig": "2026-10-29T16:01:56.609Z",
       "mrcmvqqgjigs4t5n3-ig": "2026-10-29T22:01:59.001Z",
       "mrcmvqw4j9ncuo4l7-ig": "2026-10-30T01:02:18.629Z",
@@ -216,11 +217,13 @@
       "mrcmwv05q1swqbvdv-ig": "2026-11-25T01:01:42.804Z",
       "mrcmwvad6ymlh8u5z-ig": "2026-11-25T11:01:47.216Z",
       "mrcmwwgkcp42wpzyf-ig": "2026-11-26T17:01:58.425Z",
-      "cmwxr95t2-ig": "2026-11-26T22:01:59.129Z"
+      "cmwxr95t2-ig": "2026-11-26T22:01:59.129Z",
+      "mrcmwuv9omzh4pk7a-ig": "2026-11-27T02:01:40.274Z"
     },
     "usadosDia": {
       "mrcmwwgkcp42wpzyf-ig": "2026-11-26",
-      "cmwxr95t2-ig": "2026-11-26"
+      "cmwxr95t2-ig": "2026-11-26",
+      "mrcmwuv9omzh4pk7a-ig": "2026-11-26"
     },
     "carga": {
       "nivel": 0,
@@ -229,7 +232,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo).",
-    "ultimaProv": "Clarin",
+    "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-26",
       "h": "",
