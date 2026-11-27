@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
-    "2026-11-27 08:00": "ok"
+    "2026-11-27 08:00": "ok",
+    "2026-11-27 09:00": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -65,19 +66,19 @@
     "mwvgvhvnfy2",
     "mwyclsje1kk"
   ],
-  "statsEl": "2026-11-27T11:03:09.805Z",
+  "statsEl": "2026-11-27T12:02:02.150Z",
   "stUltima": {
-    "cuando": "2026-11-27T11:02:40.640Z",
-    "franja": "08:00",
+    "cuando": "2026-11-27T12:01:54.052Z",
+    "franja": "09:00",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T11:01:39.835Z",
+    "cuando": "2026-11-27T12:01:35.611Z",
     "cola": 64,
     "enRepo": 63,
     "pendientes": [
-      "08:00"
+      "09:00"
     ]
   },
   "fdig": {
@@ -411,7 +412,7 @@
       "motivo": "hay material acumulado y publicar más no baja el alcance por publicación (120%)",
       "cambio": "2026-11-27"
     },
-    "infoCarga": "2 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 4 esperando (hay material acumulado y publicar más no baja el alcance por publicación (120%)).",
+    "infoCarga": "2 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 3 esperando (hay material acumulado y publicar más no baja el alcance por publicación (120%)).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-27",
@@ -444,7 +445,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwyclsje1kk",
+  "stUltimaId": "mvjo1jeecnu",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -453,7 +454,7 @@
     "mvl58w2y9lx": "2026-11-24T11:01:50.308Z",
     "mvr0jkpawqo": "2026-11-24T12:01:55.160Z",
     "mw2fnb7trf9": "2026-11-25T21:01:51.776Z",
-    "mvjo1jeecnu": "2026-11-08T16:01:47.691Z",
+    "mvjo1jeecnu": "2026-11-27T12:01:54.052Z",
     "mvr0j1osn65": "2026-11-09T16:00:09.763Z",
     "mvl58j5fvs0": "2026-11-10T12:01:48.829Z",
     "mw9hpqeww4f": "2026-11-12T00:07:54.296Z",
@@ -507,7 +508,8 @@
     "mwyclsje1kk": "2026-11-27T11:02:40.640Z"
   },
   "stUsadosDia": {
-    "mwyclsje1kk": "2026-11-27"
+    "mwyclsje1kk": "2026-11-27",
+    "mvjo1jeecnu": "2026-11-27"
   },
   "autoBase": {
     "feed-ig/config.json": {

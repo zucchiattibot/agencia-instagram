@@ -1341,36 +1341,42 @@
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 115
+      "a": 101,
+      "v": 119
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 104,
-      "v": 118
+      "a": 106,
+      "v": 120
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 109,
-      "v": 120
+      "a": 113,
+      "v": 125
     },
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 88
+      "a": 83,
+      "v": 91
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 63,
-      "v": 64
+      "a": 69,
+      "v": 71
     },
     "17979288116938517": {
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
+      "a": 14,
+      "v": 14
+    },
+    "18126221380987884": {
+      "t": "2026-11-27T12:01:42+0000",
+      "tipo": "IMAGE",
       "a": 0,
       "v": 0
     }
@@ -1431,12 +1437,12 @@
     "follows_count": 669,
     "media_count": 683,
     "id": "28888466970748824",
-    "el": "2026-11-27T11:03:05.029Z"
+    "el": "2026-11-27T12:01:55.587Z"
   },
   "res30": {
     "reach": 2670,
-    "views": 20226,
-    "profile_views": 81,
+    "views": 20256,
+    "profile_views": 82,
     "accounts_engaged": 93
   },
   "posts": [
@@ -1500,8 +1506,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Buscando el regalo perfecto para ese fanático de los Super Campeones que tiene en la cabeza cada jugada de Oliver y Benji? ⚽ Conseguí la figura coleccionable de Tom Misaki de la colección Oliver y Benji Figuras y sorprendelo en su día. Pasá a buscarla por Maipú 17\n5, Agencia Albor, Carlos Casares. 🎁\n\nComentá REGALO y te paso toda la info.\n\n#tommisaki #coleccionables #carloscasares #oliveriybenji\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 28,
-      "views": 44,
+      "reach": 29,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -2741,7 +2747,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T11:03:09.805Z",
+  "actualizado": "2026-11-27T12:02:02.150Z",
   "aud": {
     "edad": [
       {
