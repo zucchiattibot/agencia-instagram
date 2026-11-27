@@ -62,7 +62,7 @@
     "mwvgvm0gx9i",
     "mwvgvhvnfy2"
   ],
-  "statsEl": "2026-11-27T07:01:41.770Z",
+  "statsEl": "2026-11-27T08:01:50.500Z",
   "stUltima": {
     "cuando": "2026-11-27T00:01:40.365Z",
     "franja": "20:15",
@@ -70,7 +70,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T07:01:29.871Z",
+    "cuando": "2026-11-27T08:01:42.581Z",
     "cola": 64,
     "enRepo": 63,
     "pendientes": []
