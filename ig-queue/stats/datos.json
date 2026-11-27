@@ -1341,32 +1341,32 @@
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 82,
-      "v": 101
+      "a": 89,
+      "v": 105
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 104
+      "a": 94,
+      "v": 108
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 92,
-      "v": 105
+      "a": 99,
+      "v": 110
     },
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 59,
-      "v": 71
+      "a": 70,
+      "v": 76
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 38,
-      "v": 40
+      "a": 46,
+      "v": 47
     }
   },
   "seguidores": {
@@ -1416,7 +1416,8 @@
     "2026-11-23": 1400,
     "2026-11-24": 1400,
     "2026-11-25": 1401,
-    "2026-11-26": 1401
+    "2026-11-26": 1401,
+    "2026-11-27": 1401
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1424,11 +1425,11 @@
     "follows_count": 669,
     "media_count": 683,
     "id": "28888466970748824",
-    "el": "2026-11-27T02:01:41.814Z"
+    "el": "2026-11-27T03:01:32.853Z"
   },
   "res30": {
     "reach": 2884,
-    "views": 21234,
+    "views": 21296,
     "profile_views": 84,
     "accounts_engaged": 104
   },
@@ -1441,8 +1442,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de esa noche inolvidable donde Boca hizo historia y levantó la copa? 🏆 Toda la emoción de los festejos, el color y los protagonistas quedó plasmada en esta revista premium de edición limitada para hojear mil veces. Te esperamos en Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#bocajuniors #ole #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 0,
-      "views": 0,
+      "reach": 7,
+      "views": 13,
       "saved": 0,
       "shares": 0
     },
@@ -1454,8 +1455,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 15,
+      "reach": 9,
+      "views": 18,
       "saved": 0,
       "shares": 0
     },
@@ -1480,8 +1481,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que disfrutan preparando cosas ricas en casa, tener los utensilios justos hace toda la diferencia en la cocina 🧁\nEste molde para seis muffins de silicona premium es antiadherente y súper práctico para tus recetas de todos los días. \nReservalo hoy en Maipú 175, Agencia Albor.\nComentá MUFFINS y te pasamos toda la info.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#siliconapremium #superreposteria #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 16,
-      "views": 27,
+      "reach": 17,
+      "views": 28,
       "saved": 0,
       "shares": 0
     },
@@ -1585,7 +1586,7 @@
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 42,
-      "views": 85,
+      "views": 87,
       "saved": 0,
       "shares": 0
     },
@@ -2734,7 +2735,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T02:01:48.401Z",
+  "actualizado": "2026-11-27T03:01:38.618Z",
   "aud": {
     "edad": [
       {
@@ -3557,6 +3558,10 @@
     "2026-11-25": {
       "a": 148,
       "v": 563
+    },
+    "2026-11-26": {
+      "a": 260,
+      "v": 842
     }
   }
 }
