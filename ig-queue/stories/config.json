@@ -492,6 +492,34 @@
       "tipo": "video",
       "nombre": "coleccionesclarin-2026-11-25.mp4",
       "origen": "rcmwwgkcp42wpzyf"
+    },
+    {
+      "id": "mwycknpk6c7",
+      "media": "ig-queue/stories/pool-p/mwycknpk6c7.jpg",
+      "tipo": "image",
+      "nombre": "coleccionesclarin-2026-11-26.webp",
+      "origen": "rcmwxr779vnr847i"
+    },
+    {
+      "id": "mwycksqmzi3",
+      "media": "ig-queue/stories/pool-p/mwycksqmzi3.jpg",
+      "tipo": "image",
+      "nombre": "1000925866.jpg",
+      "origen": "rcmwxmyhdv0mp18w"
+    },
+    {
+      "id": "mwyckxhs1q6",
+      "media": "ig-queue/stories/pool-p/mwyckxhs1q6.jpg",
+      "tipo": "image",
+      "nombre": "1000925864.jpg",
+      "origen": "rcmwxmxr7vnu5xe1"
+    },
+    {
+      "id": "mwycl27p9cb",
+      "media": "ig-queue/stories/pool-p/mwycl27p9cb.jpg",
+      "tipo": "image",
+      "nombre": "1000925862.jpg",
+      "origen": "rcmwxmxjf8ks9q8y"
     }
   ],
   "autoNuevas": true,
