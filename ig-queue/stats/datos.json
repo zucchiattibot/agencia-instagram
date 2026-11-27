@@ -1341,32 +1341,32 @@
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 87
+      "a": 76,
+      "v": 92
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 78,
-      "v": 90
+      "a": 81,
+      "v": 96
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 81,
-      "v": 90
+      "a": 86,
+      "v": 97
     },
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 43,
-      "v": 49
+      "a": 49,
+      "v": 58
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 0,
-      "v": 0
+      "a": 15,
+      "v": 20
     }
   },
   "seguidores": {
@@ -1424,11 +1424,11 @@
     "follows_count": 669,
     "media_count": 682,
     "id": "28888466970748824",
-    "el": "2026-11-27T00:01:46.375Z"
+    "el": "2026-11-27T01:01:36.214Z"
   },
   "res30": {
     "reach": 2884,
-    "views": 21132,
+    "views": 21173,
     "profile_views": 84,
     "accounts_engaged": 104
   },
@@ -1441,8 +1441,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 3,
-      "views": 6,
+      "reach": 7,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -1454,8 +1454,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 139,
-      "views": 163,
+      "reach": 140,
+      "views": 164,
       "saved": 0,
       "shares": 0
     },
@@ -2721,7 +2721,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T00:01:50.596Z",
+  "actualizado": "2026-11-27T01:01:42.510Z",
   "aud": {
     "edad": [
       {

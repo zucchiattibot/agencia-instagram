@@ -65,7 +65,7 @@
     "mwvgvm0gx9i",
     "mwvgvhvnfy2"
   ],
-  "statsEl": "2026-11-27T00:01:50.596Z",
+  "statsEl": "2026-11-27T01:01:42.510Z",
   "stUltima": {
     "cuando": "2026-11-27T00:01:40.365Z",
     "franja": "20:15",
@@ -73,12 +73,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T00:01:28.768Z",
+    "cuando": "2026-11-27T01:01:34.514Z",
     "cola": 59,
     "enRepo": 58,
-    "pendientes": [
-      "20:15"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {
@@ -415,7 +413,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Prueba de horario hoy: 08:00 (primera mañana) en lugar de 12:00.",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-26",
@@ -622,8 +620,8 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-26T16:01:38.098Z",
-    "n": 2
+    "cuando": "2026-11-27T01:01:34.454Z",
+    "n": 1
   },
   "stM": {
     "rot": 3,
