@@ -3,7 +3,8 @@
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
     "2026-11-27 08:00": "ok",
-    "2026-11-27 09:00": "ok"
+    "2026-11-27 09:00": "ok",
+    "2026-11-27 16:30": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -66,18 +67,20 @@
     "mwvgvhvnfy2",
     "mwyclsje1kk"
   ],
-  "statsEl": "2026-11-27T19:01:41.449Z",
+  "statsEl": "2026-11-27T20:01:55.013Z",
   "stUltima": {
-    "cuando": "2026-11-27T12:01:54.052Z",
-    "franja": "09:00",
+    "cuando": "2026-11-27T20:01:44.415Z",
+    "franja": "16:30",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T19:01:31.368Z",
+    "cuando": "2026-11-27T20:01:30.118Z",
     "cola": 64,
     "enRepo": 63,
-    "pendientes": []
+    "pendientes": [
+      "16:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -230,7 +233,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
     "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-27",
@@ -416,7 +419,7 @@
       "motivo": "hay material acumulado y publicar más no baja el alcance por publicación (120%)",
       "cambio": "2026-11-27"
     },
-    "infoCarga": "2 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 4 esperando (hay material acumulado y publicar más no baja el alcance por publicación (120%)).",
+    "infoCarga": "2 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 5 esperando (hay material acumulado y publicar más no baja el alcance por publicación (120%)).",
     "ultimaProv": "Clarín",
     "prueba": {
       "dia": "2026-11-27",
@@ -449,7 +452,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvjo1jeecnu",
+  "stUltimaId": "mvr0j1osn65",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -459,7 +462,7 @@
     "mvr0jkpawqo": "2026-11-24T12:01:55.160Z",
     "mw2fnb7trf9": "2026-11-25T21:01:51.776Z",
     "mvjo1jeecnu": "2026-11-27T12:01:54.052Z",
-    "mvr0j1osn65": "2026-11-09T16:00:09.763Z",
+    "mvr0j1osn65": "2026-11-27T20:01:44.415Z",
     "mvl58j5fvs0": "2026-11-10T12:01:48.829Z",
     "mw9hpqeww4f": "2026-11-12T00:07:54.296Z",
     "mvwe5eyky2j": "2026-11-12T20:02:34.271Z",
@@ -513,7 +516,8 @@
   },
   "stUsadosDia": {
     "mwyclsje1kk": "2026-11-27",
-    "mvjo1jeecnu": "2026-11-27"
+    "mvjo1jeecnu": "2026-11-27",
+    "mvr0j1osn65": "2026-11-27"
   },
   "autoBase": {
     "feed-ig/config.json": {

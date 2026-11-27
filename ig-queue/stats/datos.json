@@ -1365,20 +1365,26 @@
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 89,
-      "v": 95
+      "a": 90,
+      "v": 96
     },
     "17979288116938517": {
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
-      "a": 52,
-      "v": 57
+      "a": 53,
+      "v": 60
     },
     "18126221380987884": {
       "t": "2026-11-27T12:01:42+0000",
       "tipo": "IMAGE",
-      "a": 43,
-      "v": 49
+      "a": 47,
+      "v": 52
+    },
+    "18120121301585688": {
+      "t": "2026-11-27T20:01:36+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1437,11 +1443,11 @@
     "follows_count": 668,
     "media_count": 684,
     "id": "28888466970748824",
-    "el": "2026-11-27T19:01:33.515Z"
+    "el": "2026-11-27T20:01:46.373Z"
   },
   "res30": {
     "reach": 2674,
-    "views": 20455,
+    "views": 20469,
     "profile_views": 82,
     "accounts_engaged": 94
   },
@@ -1454,8 +1460,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás cuando en casa se afilaban los cuchillos a mano y cada corte salía impecable? 🔪 Volvé a esa costumbre que nunca falla y dejá tus utensilios listos para preparar cualquier receta. Pasá por Maipú 175, Agencia Albor, Maipú 175, y reservá tu pieza de la colección Cocina fácil y casera. Comentá AFILADO y te paso más info por mensaje.\n\n#cocinafacilycasera #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 8,
-      "views": 12,
+      "reach": 10,
+      "views": 16,
       "saved": 0,
       "shares": 0
     },
@@ -1480,8 +1486,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
-      "views": 24,
+      "reach": 12,
+      "views": 26,
       "saved": 0,
       "shares": 0
     },
@@ -2760,7 +2766,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T19:01:41.449Z",
+  "actualizado": "2026-11-27T20:01:55.013Z",
   "aud": {
     "edad": [
       {
