@@ -1341,32 +1341,32 @@
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 89,
-      "v": 105
+      "a": 92,
+      "v": 108
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 94,
-      "v": 108
+      "a": 96,
+      "v": 110
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 99,
-      "v": 110
+      "a": 101,
+      "v": 112
     },
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 70,
-      "v": 76
+      "a": 73,
+      "v": 80
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 46,
-      "v": 47
+      "a": 51,
+      "v": 52
     }
   },
   "seguidores": {
@@ -1425,11 +1425,11 @@
     "follows_count": 669,
     "media_count": 683,
     "id": "28888466970748824",
-    "el": "2026-11-27T03:01:32.853Z"
+    "el": "2026-11-27T04:01:30.789Z"
   },
   "res30": {
     "reach": 2884,
-    "views": 21296,
+    "views": 21315,
     "profile_views": 84,
     "accounts_engaged": 104
   },
@@ -1442,8 +1442,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de esa noche inolvidable donde Boca hizo historia y levantó la copa? 🏆 Toda la emoción de los festejos, el color y los protagonistas quedó plasmada en esta revista premium de edición limitada para hojear mil veces. Te esperamos en Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#bocajuniors #ole #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 7,
-      "views": 13,
+      "reach": 9,
+      "views": 14,
       "saved": 0,
       "shares": 0
     },
@@ -1521,7 +1521,7 @@
       "comments_count": 0,
       "caption": "Entender a fondo cómo se planeó el frente oriental en el frente de batalla es clave para los que estudian la historia bélica moderna 📖\nPodes encargar tu ejemplar pasando por Maipú 175, Agencia Albor.\n#robertkirchubel #historia #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 27,
-      "views": 34,
+      "views": 36,
       "saved": 0,
       "shares": 0
     },
@@ -2735,7 +2735,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T03:01:38.618Z",
+  "actualizado": "2026-11-27T04:01:38.334Z",
   "aud": {
     "edad": [
       {
