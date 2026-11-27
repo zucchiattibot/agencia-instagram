@@ -66,7 +66,7 @@
     "mwvgvhvnfy2",
     "mwyclsje1kk"
   ],
-  "statsEl": "2026-11-27T15:01:44.538Z",
+  "statsEl": "2026-11-27T16:01:53.460Z",
   "stUltima": {
     "cuando": "2026-11-27T12:01:54.052Z",
     "franja": "09:00",
@@ -74,13 +74,15 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T15:01:36.521Z",
+    "cuando": "2026-11-27T16:01:34.848Z",
     "cola": 64,
     "enRepo": 63,
     "pendientes": []
   },
   "fdig": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-27 13:00": "ok"
+    },
     "usados": [
       "cmvk52c23-ig",
       "mrcmvjw5vgqq1prmt-ig",
@@ -149,11 +151,12 @@
       "mrcmwvad6ymlh8u5z-ig",
       "mrcmwwgkcp42wpzyf-ig",
       "cmwxr95t2-ig",
-      "mrcmwuv9omzh4pk7a-ig"
+      "mrcmwuv9omzh4pk7a-ig",
+      "mrcmwxr779vnr847i-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-27T02:01:40.275Z",
-      "franja": "22:15",
+      "cuando": "2026-11-27T16:01:44.253Z",
+      "franja": "13:00",
       "ok": 1,
       "fallos": 0
     },
@@ -215,9 +218,12 @@
       "mrcmwvad6ymlh8u5z-ig": "2026-11-25T11:01:47.216Z",
       "mrcmwwgkcp42wpzyf-ig": "2026-11-26T17:01:58.425Z",
       "cmwxr95t2-ig": "2026-11-26T22:01:59.129Z",
-      "mrcmwuv9omzh4pk7a-ig": "2026-11-27T02:01:40.274Z"
+      "mrcmwuv9omzh4pk7a-ig": "2026-11-27T02:01:40.274Z",
+      "mrcmwxr779vnr847i-ig": "2026-11-27T16:01:44.252Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwxr779vnr847i-ig": "2026-11-27"
+    },
     "carga": {
       "nivel": 0,
       "dia": "2026-11-27",
@@ -225,7 +231,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
-    "ultimaProv": "Clarín",
+    "ultimaProv": "Clarin",
     "prueba": {
       "dia": "2026-11-27",
       "h": "",

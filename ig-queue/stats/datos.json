@@ -1359,26 +1359,26 @@
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 88,
-      "v": 97
+      "a": 94,
+      "v": 101
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 83
+      "a": 86,
+      "v": 88
     },
     "17979288116938517": {
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
-      "a": 37,
-      "v": 41
+      "a": 49,
+      "v": 51
     },
     "18126221380987884": {
       "t": "2026-11-27T12:01:42+0000",
       "tipo": "IMAGE",
-      "a": 25,
-      "v": 32
+      "a": 40,
+      "v": 42
     }
   },
   "seguidores": {
@@ -1429,23 +1429,36 @@
     "2026-11-24": 1400,
     "2026-11-25": 1401,
     "2026-11-26": 1401,
-    "2026-11-27": 1401
+    "2026-11-27": 1400
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1401,
-    "follows_count": 669,
-    "media_count": 683,
+    "followers_count": 1400,
+    "follows_count": 668,
+    "media_count": 684,
     "id": "28888466970748824",
-    "el": "2026-11-27T15:01:38.151Z"
+    "el": "2026-11-27T16:01:45.540Z"
   },
   "res30": {
     "reach": 2670,
-    "views": 20348,
+    "views": 20398,
     "profile_views": 82,
     "accounts_engaged": 93
   },
   "posts": [
+    {
+      "id": "17920991235536006",
+      "timestamp": "2026-11-27T16:01:40+0000",
+      "media_type": "IMAGE",
+      "permalink": "https://www.instagram.com/p/DgQD8TmEVRR/",
+      "like_count": 0,
+      "comments_count": 0,
+      "caption": "¿Te acordás cuando en casa se afilaban los cuchillos a mano y cada corte salía impecable? 🔪 Volvé a esa costumbre que nunca falla y dejá tus utensilios listos para preparar cualquier receta. Pasá por Maipú 175, Agencia Albor, Maipú 175, y reservá tu pieza de la colección Cocina fácil y casera. Comentá AFILADO y te paso más info por mensaje.\n\n#cocinafacilycasera #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "reach": 0,
+      "views": 0,
+      "saved": 0,
+      "shares": 0
+    },
     {
       "id": "18136289668876390",
       "timestamp": "2026-11-27T02:01:36+0000",
@@ -1455,7 +1468,7 @@
       "comments_count": 0,
       "caption": "¿Te acordás de esa noche inolvidable donde Boca hizo historia y levantó la copa? 🏆 Toda la emoción de los festejos, el color y los protagonistas quedó plasmada en esta revista premium de edición limitada para hojear mil veces. Te esperamos en Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#bocajuniors #ole #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 12,
-      "views": 22,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1468,7 +1481,7 @@
       "comments_count": 0,
       "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 11,
-      "views": 21,
+      "views": 23,
       "saved": 0,
       "shares": 0
     },
@@ -1481,7 +1494,7 @@
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 143,
-      "views": 167,
+      "views": 168,
       "saved": 0,
       "shares": 0
     },
@@ -1571,8 +1584,8 @@
       "like_count": 1,
       "comments_count": 0,
       "caption": "Hay historias que te atrapan tanto que te roban las horas de sueño. 📖✨ Completá tu biblioteca personal con cada entrega de esta gran autora en Agencia Albor. \n\nComentá QUIERO y te la reservamos.\n\n#florenciabonelli #coleccionismo #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 36,
-      "views": 85,
+      "reach": 37,
+      "views": 87,
       "saved": 0,
       "shares": 0
     },
@@ -2747,7 +2760,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T15:01:44.538Z",
+  "actualizado": "2026-11-27T16:01:53.460Z",
   "aud": {
     "edad": [
       {
