@@ -1342,31 +1342,31 @@
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
       "a": 92,
-      "v": 108
+      "v": 109
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 96,
-      "v": 110
+      "a": 97,
+      "v": 111
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
       "a": 101,
-      "v": 112
+      "v": 113
     },
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 80
+      "a": 74,
+      "v": 82
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 51,
-      "v": 52
+      "a": 54,
+      "v": 56
     }
   },
   "seguidores": {
@@ -1425,11 +1425,11 @@
     "follows_count": 669,
     "media_count": 683,
     "id": "28888466970748824",
-    "el": "2026-11-27T04:01:30.789Z"
+    "el": "2026-11-27T05:01:31.667Z"
   },
   "res30": {
-    "reach": 2884,
-    "views": 21315,
+    "reach": 2888,
+    "views": 21323,
     "profile_views": 84,
     "accounts_engaged": 104
   },
@@ -1520,7 +1520,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Entender a fondo cómo se planeó el frente oriental en el frente de batalla es clave para los que estudian la historia bélica moderna 📖\nPodes encargar tu ejemplar pasando por Maipú 175, Agencia Albor.\n#robertkirchubel #historia #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 27,
+      "reach": 28,
       "views": 36,
       "saved": 0,
       "shares": 0
@@ -1585,8 +1585,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 42,
-      "views": 87,
+      "reach": 43,
+      "views": 88,
       "saved": 0,
       "shares": 0
     },
@@ -2735,7 +2735,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T04:01:38.334Z",
+  "actualizado": "2026-11-27T05:01:38.779Z",
   "aud": {
     "edad": [
       {
@@ -2919,7 +2919,13 @@
       },
       {
         "d": [
-          "Osogbo, Osun State"
+          "Lagos, Lagos State"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Junín, Mendoza"
         ],
         "v": 1
       },
@@ -2934,12 +2940,6 @@
           "C. Casares, Buenos Aires"
         ],
         "v": 42
-      },
-      {
-        "d": [
-          "Lincoln, Buenos Aires"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -2979,6 +2979,18 @@
       },
       {
         "d": [
+          "Elsmere, Delaware"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
+          "Paraná, Entre Rios"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "General Belgrano, Buenos Aires"
         ],
         "v": 3
@@ -2997,21 +3009,9 @@
       },
       {
         "d": [
-          "La Rioja, La Rioja"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Quiroga, Buenos Aires"
         ],
         "v": 4
-      },
-      {
-        "d": [
-          "González Catán, Buenos Aires"
-        ],
-        "v": 2
       },
       {
         "d": [
@@ -3021,15 +3021,15 @@
       },
       {
         "d": [
-          "Villa de la Quebrada, San Luis"
+          "González Catán, Buenos Aires"
         ],
         "v": 2
       },
       {
         "d": [
-          "Villa María, Córdoba"
+          "Villa de la Quebrada, San Luis"
         ],
-        "v": 1
+        "v": 2
       },
       {
         "d": [
@@ -3057,7 +3057,7 @@
       },
       {
         "d": [
-          "Salta, Salta"
+          "Ituzaingó, Buenos Aires"
         ],
         "v": 1
       },
@@ -3087,6 +3087,12 @@
       },
       {
         "d": [
+          "Tucuruí, Pará"
+        ],
+        "v": 1
+      },
+      {
+        "d": [
           "Lanús, Buenos Aires"
         ],
         "v": 2
@@ -3105,13 +3111,13 @@
       },
       {
         "d": [
-          "Venado Tuerto, Santa Fe"
+          "Ayacucho, Buenos Aires"
         ],
-        "v": 2
+        "v": 1
       },
       {
         "d": [
-          "Bragado, Buenos Aires"
+          "Venado Tuerto, Santa Fe"
         ],
         "v": 2
       },
@@ -3123,27 +3129,21 @@
       },
       {
         "d": [
+          "Bragado, Buenos Aires"
+        ],
+        "v": 2
+      },
+      {
+        "d": [
           "Rosario, Santa Fe"
         ],
         "v": 4
       },
       {
         "d": [
-          "San Vicente, Buenos Aires"
-        ],
-        "v": 1
-      },
-      {
-        "d": [
           "Pimocha, Los Ríos Province"
         ],
         "v": 2
-      },
-      {
-        "d": [
-          "Los Cóndores, Córdoba"
-        ],
-        "v": 1
       },
       {
         "d": [
@@ -3256,7 +3256,7 @@
         "v": 2
       }
     ],
-    "el": "2026-11-26T08:01:35.006Z"
+    "el": "2026-11-27T05:01:37.349Z"
   },
   "dias": {
     "2026-10-11": {
