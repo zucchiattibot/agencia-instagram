@@ -1359,26 +1359,26 @@
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 84,
-      "v": 93
+      "a": 88,
+      "v": 97
     },
     "18660581161031424": {
       "t": "2026-11-27T00:01:34+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 74
+      "a": 77,
+      "v": 83
     },
     "17979288116938517": {
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
-      "a": 26,
-      "v": 29
+      "a": 37,
+      "v": 41
     },
     "18126221380987884": {
       "t": "2026-11-27T12:01:42+0000",
       "tipo": "IMAGE",
-      "a": 14,
-      "v": 17
+      "a": 25,
+      "v": 32
     }
   },
   "seguidores": {
@@ -1437,11 +1437,11 @@
     "follows_count": 669,
     "media_count": 683,
     "id": "28888466970748824",
-    "el": "2026-11-27T14:01:40.358Z"
+    "el": "2026-11-27T15:01:38.151Z"
   },
   "res30": {
     "reach": 2670,
-    "views": 20311,
+    "views": 20348,
     "profile_views": 82,
     "accounts_engaged": 93
   },
@@ -1454,7 +1454,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás de esa noche inolvidable donde Boca hizo historia y levantó la copa? 🏆 Toda la emoción de los festejos, el color y los protagonistas quedó plasmada en esta revista premium de edición limitada para hojear mil veces. Te esperamos en Maipú 175, Agencia Albor.\n\nTambién hacemos ventas por mayor: consultá por cantidades y precios.\n\n#bocajuniors #ole #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 11,
+      "reach": 12,
       "views": 22,
       "saved": 0,
       "shares": 0
@@ -1480,7 +1480,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 142,
+      "reach": 143,
       "views": 167,
       "saved": 0,
       "shares": 0
@@ -2747,7 +2747,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-27T14:01:48.228Z",
+  "actualizado": "2026-11-27T15:01:44.538Z",
   "aud": {
     "edad": [
       {
