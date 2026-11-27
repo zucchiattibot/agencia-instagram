@@ -1191,6 +1191,37 @@
       "shas": [
         "8defadaa13c4b72e27da1f2da809d9362471817e"
       ]
+    },
+    {
+      "id": "mrcmwzaujndhj87op-fb",
+      "matId": "rcmwzaujndhj87op",
+      "tipo": "image",
+      "fmt": "feed",
+      "media": "ig-queue/feed/media/rcmwzaujndhj87op.jpg",
+      "caption": "Volver a armar algo con las propias manos, encastrar cada pieza metálica y ver cómo cobra forma un auto de carrera tiene ese no sé qué que nos atrapa igual que en los viejos tiempos. 🚗🔧\n\nSi querés empezar a armar tu propia colección y sentir la satisfacción de cada ajuste perfecto, pasá por Maipú 175, Agencia Albor, y reservemos tu ejemplar. Escribinos un mensaje privado para asegurarlo.\n\n#MeccanoMasters #juguetesdidacticos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
+      "ord": 1795803336276,
+      "prov": "La Nacion",
+      "medias": [
+        "ig-queue/feed/media/rcmwzaujndhj87op.jpg",
+        "ig-queue/feed/media/rcmwzauqdqtqqqlp.jpg",
+        "ig-queue/feed/media/rcmwzavl0ibte0uf.jpg",
+        "ig-queue/feed/media/rcmwzavqrhtj452u.jpg",
+        "ig-queue/feed/media/rcmwzavvzqxwzipn.jpg"
+      ],
+      "matIds": [
+        "rcmwzaujndhj87op",
+        "rcmwzauqdqtqqqlp",
+        "rcmwzavl0ibte0uf",
+        "rcmwzavqrhtj452u",
+        "rcmwzavvzqxwzipn"
+      ],
+      "shas": [
+        "cdef6e8e16a21c01c55aec169e62440a306fa0d5",
+        "62dcad03c53ad00949de779b66fc9d8b0c76ebd0",
+        "b014870888a57c4eaf2d0218c8536cf21887c8a7",
+        "41049b747fdf47ce1b96191a7d33bdc8617941eb",
+        "3254c866f1b08eff2f128e5966021422065f96e6"
+      ]
     }
   ],
   "publicadas": [
