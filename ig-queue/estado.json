@@ -4,7 +4,8 @@
   "stFranjas": {
     "2026-11-27 08:00": "ok",
     "2026-11-27 09:00": "ok",
-    "2026-11-27 16:30": "ok"
+    "2026-11-27 16:30": "ok",
+    "2026-11-27 19:45": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -65,20 +66,23 @@
     "mwvgvrqbg6a",
     "mwvgvm0gx9i",
     "mwvgvhvnfy2",
-    "mwyclsje1kk"
+    "mwyclsje1kk",
+    "mwycksqmzi3"
   ],
-  "statsEl": "2026-11-27T22:02:10.881Z",
+  "statsEl": "2026-11-27T23:02:01.356Z",
   "stUltima": {
-    "cuando": "2026-11-27T20:01:44.415Z",
-    "franja": "16:30",
+    "cuando": "2026-11-27T23:01:53.148Z",
+    "franja": "19:45",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T22:01:26.560Z",
-    "cola": 64,
-    "enRepo": 63,
-    "pendientes": []
+    "cuando": "2026-11-27T23:01:39.016Z",
+    "cola": 69,
+    "enRepo": 68,
+    "pendientes": [
+      "19:45"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -235,7 +239,7 @@
       "extras": [],
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
-    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 5 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
+    "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
     "ultimaProv": "La Nacion",
     "prueba": {
       "dia": "2026-11-27",
@@ -454,7 +458,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mvr0j1osn65",
+  "stUltimaId": "mwycksqmzi3",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -514,12 +518,14 @@
     "mwvgvrqbg6a": "2026-11-26T00:01:48.525Z",
     "mwvgvm0gx9i": "2026-11-26T20:01:41.566Z",
     "mwvgvhvnfy2": "2026-11-27T00:01:40.365Z",
-    "mwyclsje1kk": "2026-11-27T11:02:40.640Z"
+    "mwyclsje1kk": "2026-11-27T11:02:40.640Z",
+    "mwycksqmzi3": "2026-11-27T23:01:53.148Z"
   },
   "stUsadosDia": {
     "mwyclsje1kk": "2026-11-27",
     "mvjo1jeecnu": "2026-11-27",
-    "mvr0j1osn65": "2026-11-27"
+    "mvr0j1osn65": "2026-11-27",
+    "mwycksqmzi3": "2026-11-27"
   },
   "autoBase": {
     "feed-ig/config.json": {
