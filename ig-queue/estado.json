@@ -75,7 +75,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-27T21:01:25.289Z",
+    "cuando": "2026-11-27T21:28:57.822Z",
     "cola": 64,
     "enRepo": 63,
     "pendientes": []
@@ -626,7 +626,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-27T17:01:35.564Z",
+    "cuando": "2026-11-27T21:28:57.707Z",
     "n": 1
   },
   "stM": {
