@@ -2,7 +2,8 @@
   "tokenRenovado": "2026-11-06T01:01:31.066Z",
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
-    "2026-11-26 17:00": "ok"
+    "2026-11-26 17:00": "ok",
+    "2026-11-26 20:15": "ok"
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -61,20 +62,23 @@
     "mwtqdmauicz",
     "mwtl7lfy032",
     "mwvgvrqbg6a",
-    "mwvgvm0gx9i"
+    "mwvgvm0gx9i",
+    "mwvgvhvnfy2"
   ],
-  "statsEl": "2026-11-26T23:01:44.533Z",
+  "statsEl": "2026-11-27T00:01:50.596Z",
   "stUltima": {
-    "cuando": "2026-11-26T20:01:41.566Z",
-    "franja": "17:00",
+    "cuando": "2026-11-27T00:01:40.365Z",
+    "franja": "20:15",
     "ok": 1,
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-26T23:01:36.384Z",
+    "cuando": "2026-11-27T00:01:28.768Z",
     "cola": 59,
     "enRepo": 58,
-    "pendientes": []
+    "pendientes": [
+      "20:15"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -259,7 +263,8 @@
   "fdfb": {
     "franjas": {
       "2026-11-26 08:00": "ok",
-      "2026-11-26 17:30": "ok"
+      "2026-11-26 17:30": "ok",
+      "2026-11-26 20:45": "ok"
     },
     "usados": [
       "cmvk52c23-fb",
@@ -329,16 +334,16 @@
       "mrcmwvad6ymlh8u5z-fb",
       "mrcmwv05q1swqbvdv-fb",
       "mrcmwwgkcp42wpzyf-fb",
-      "cmwxr95t2-fb"
+      "cmwxr95t2-fb",
+      "mrcmwxr779vnr847i-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-26T21:01:38.565Z",
-      "franja": "17:30",
+      "cuando": "2026-11-27T00:01:45.152Z",
+      "franja": "20:45",
       "ok": 1,
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvr08nxeykj1h9-fb": "2026-10-27T23:02:23.133Z",
       "mrcmvs17yshc98yg6-fb": "2026-10-29T15:02:05.241Z",
       "mrcmvqqgjigs4t5n3-fb": "2026-10-29T21:01:42.946Z",
       "cmvqnd634-fb": "2026-10-29T23:01:54.146Z",
@@ -396,11 +401,13 @@
       "mrcmwvad6ymlh8u5z-fb": "2026-11-24T23:02:48.160Z",
       "mrcmwv05q1swqbvdv-fb": "2026-11-25T15:01:48.182Z",
       "mrcmwwgkcp42wpzyf-fb": "2026-11-26T11:01:58.756Z",
-      "cmwxr95t2-fb": "2026-11-26T21:01:38.565Z"
+      "cmwxr95t2-fb": "2026-11-26T21:01:38.565Z",
+      "mrcmwxr779vnr847i-fb": "2026-11-27T00:01:45.151Z"
     },
     "usadosDia": {
       "mrcmwwgkcp42wpzyf-fb": "2026-11-26",
-      "cmwxr95t2-fb": "2026-11-26"
+      "cmwxr95t2-fb": "2026-11-26",
+      "mrcmwxr779vnr847i-fb": "2026-11-26"
     },
     "carga": {
       "nivel": 0,
@@ -441,7 +448,7 @@
     ]
   },
   "errorStats": "facebook: Facebook: (#10) This endpoint requires the 'pages_read_user_content' permission or the 'Page Public Content Access' feature. Refer to https://developers.facebook.com/docs/apps/review/login-permissions#manage-pages and https://developers.facebook.com/docs/apps/review/feature#reference-PAGES_ACCESS for details. (código 10)",
-  "stUltimaId": "mwvgvm0gx9i",
+  "stUltimaId": "mwvgvhvnfy2",
   "stPublicadoEn": {
     "mvl599jl55g": "2026-11-22T23:02:02.126Z",
     "mvjo13ej29y": "2026-11-23T10:38:26.981Z",
@@ -499,10 +506,12 @@
     "mwtqdmauicz": "2026-11-25T10:25:39.496Z",
     "mwtl7lfy032": "2026-11-25T13:01:53.533Z",
     "mwvgvrqbg6a": "2026-11-26T00:01:48.525Z",
-    "mwvgvm0gx9i": "2026-11-26T20:01:41.566Z"
+    "mwvgvm0gx9i": "2026-11-26T20:01:41.566Z",
+    "mwvgvhvnfy2": "2026-11-27T00:01:40.365Z"
   },
   "stUsadosDia": {
-    "mwvgvm0gx9i": "2026-11-26"
+    "mwvgvm0gx9i": "2026-11-26",
+    "mwvgvhvnfy2": "2026-11-26"
   },
   "autoBase": {
     "feed-ig/config.json": {

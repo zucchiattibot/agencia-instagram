@@ -1341,26 +1341,32 @@
     "18127127188935645": {
       "t": "2026-11-26T14:45:47+0000",
       "tipo": "IMAGE",
-      "a": 66,
-      "v": 83
+      "a": 73,
+      "v": 87
     },
     "18122393774470501": {
       "t": "2026-11-26T14:45:00+0000",
       "tipo": "IMAGE",
-      "a": 72,
-      "v": 87
+      "a": 78,
+      "v": 90
     },
     "17895908457616529": {
       "t": "2026-11-26T14:44:14+0000",
       "tipo": "IMAGE",
-      "a": 77,
-      "v": 87
+      "a": 81,
+      "v": 90
     },
     "17958281622038478": {
       "t": "2026-11-26T20:01:34+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 42
+      "a": 43,
+      "v": 49
+    },
+    "18660581161031424": {
+      "t": "2026-11-27T00:01:34+0000",
+      "tipo": "IMAGE",
+      "a": 0,
+      "v": 0
     }
   },
   "seguidores": {
@@ -1418,11 +1424,11 @@
     "follows_count": 669,
     "media_count": 682,
     "id": "28888466970748824",
-    "el": "2026-11-26T23:01:37.816Z"
+    "el": "2026-11-27T00:01:46.375Z"
   },
   "res30": {
     "reach": 2884,
-    "views": 21087,
+    "views": 21132,
     "profile_views": 84,
     "accounts_engaged": 104
   },
@@ -1435,8 +1441,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 1,
-      "views": 4,
+      "reach": 3,
+      "views": 6,
       "saved": 0,
       "shares": 0
     },
@@ -1448,7 +1454,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 138,
+      "reach": 139,
       "views": 163,
       "saved": 0,
       "shares": 0
@@ -1552,7 +1558,7 @@
       "like_count": 6,
       "comments_count": 0,
       "caption": "Hay personajes que nos acompañaron siempre y verlos así en versión coleccionable es un cable a tierra hermoso. 🌸 Te esperamos en Maipú 175, Agencia Albor para que descubras cada detalle de esta edición. \n\n📲 Mandanos un mensaje y reservalo antes de que vuele.\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#mymelody #juguetes #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 127,
+      "reach": 128,
       "views": 156,
       "saved": 3,
       "shares": 0
@@ -1565,8 +1571,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Tener estacionado el icónico Renault 4S amarillo en miniatura es una tentación difícil de dejar pasar si sos fanático de los fierros clásicos 🚕\n\nCada entrega de la colección Autos Inolvidables Argentinos sorprende por el nivel de detalle en la carrocería.\n\nEncontralo en Maipú 175, Agencia Albor.\n\n#autito #carloscasares #coleccionables\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 40,
-      "views": 79,
+      "reach": 41,
+      "views": 82,
       "saved": 0,
       "shares": 0
     },
@@ -1579,7 +1585,7 @@
       "comments_count": 0,
       "caption": "¿Te pasa que querés cortar un buen corte de carne para el asado y el cuchillo mastica en vez de deslizarse? 🔪 Con la línea de cuchillos de Santiago Giorgini vas a lograr un corte prolijo, parejo y sin esfuerzo gracias a su filo y diseño pensado para la parrilla. \n\nSumalo para tu próxima picada o asada y sorprendé a todos en la mesa. Pasá a reservarlo por Maipú 175, Agencia Albor.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#santiagogiorgini #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 33,
-      "views": 44,
+      "views": 45,
       "saved": 0,
       "shares": 0
     },
@@ -2715,7 +2721,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-26T23:01:44.533Z",
+  "actualizado": "2026-11-27T00:01:50.596Z",
   "aud": {
     "edad": [
       {
