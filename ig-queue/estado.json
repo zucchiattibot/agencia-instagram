@@ -67,7 +67,7 @@
     "mwycksqmzi3",
     "mwyckxhs1q6"
   ],
-  "statsEl": "2026-11-28T17:01:34.374Z",
+  "statsEl": "2026-11-28T18:01:32.267Z",
   "stUltima": {
     "cuando": "2026-11-28T12:01:46.958Z",
     "franja": "09:00",
@@ -75,7 +75,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-28T17:01:26.220Z",
+    "cuando": "2026-11-28T18:01:24.108Z",
     "cola": 71,
     "enRepo": 70,
     "pendientes": []
