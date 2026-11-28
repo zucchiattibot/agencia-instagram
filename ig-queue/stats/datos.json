@@ -1384,19 +1384,19 @@
       "t": "2026-11-27T20:01:36+0000",
       "tipo": "IMAGE",
       "a": 69,
-      "v": 84
+      "v": 85
     },
     "18148028026721049": {
       "t": "2026-11-27T23:01:46+0000",
       "tipo": "IMAGE",
       "a": 60,
-      "v": 76
+      "v": 78
     },
     "17916834147487908": {
       "t": "2026-11-28T12:01:39+0000",
       "tipo": "IMAGE",
-      "a": 29,
-      "v": 38
+      "a": 30,
+      "v": 42
     }
   },
   "seguidores": {
@@ -1448,19 +1448,19 @@
     "2026-11-25": 1401,
     "2026-11-26": 1401,
     "2026-11-27": 1400,
-    "2026-11-28": 1400
+    "2026-11-28": 1401
   },
   "cuenta": {
     "username": "agenciaalbor",
-    "followers_count": 1400,
+    "followers_count": 1401,
     "follows_count": 668,
     "media_count": 687,
     "id": "28888466970748824",
-    "el": "2026-11-28T16:01:28.658Z"
+    "el": "2026-11-28T17:01:27.345Z"
   },
   "res30": {
     "reach": 2605,
-    "views": 20198,
+    "views": 20211,
     "profile_views": 82,
     "accounts_engaged": 91
   },
@@ -1473,8 +1473,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 9,
-      "views": 24,
+      "reach": 15,
+      "views": 33,
       "saved": 0,
       "shares": 0
     },
@@ -1486,8 +1486,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién no dijo la frase mágica levantando la espada en la infancia frente a la tele? ⚡\n\nLa colección de figuras oficiales de Masters of the Universe ya está generando nostalgia pura entre los fanáticos de Eternia.\n\nCada entrega viene con su fascículo coleccionable cargado de fichas técnicas, bocetos originales y toda la historia del universo.\n\nEsta primera entrega trae al mismísimo He-Man junto a su fascículo por $34.990.\n\nSi querés seguir completando la serie, la lista de personajes incluye a Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn.\n\nPasá a reservarla por Maipú 175, Agencia Albor.\n\n#heman #carloscasares #mastersoftheuniverse\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 18,
-      "views": 25,
+      "reach": 19,
+      "views": 29,
       "saved": 0,
       "shares": 0
     },
@@ -1512,8 +1512,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Te acordás cuando en casa se afilaban los cuchillos a mano y cada corte salía impecable? 🔪 Volvé a esa costumbre que nunca falla y dejá tus utensilios listos para preparar cualquier receta. Pasá por Maipú 175, Agencia Albor, Maipú 175, y reservá tu pieza de la colección Cocina fácil y casera. Comentá AFILADO y te paso más info por mensaje.\n\n#cocinafacilycasera #cuchillos #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 24,
-      "views": 33,
+      "reach": 25,
+      "views": 34,
       "saved": 0,
       "shares": 0
     },
@@ -1552,7 +1552,7 @@
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
       "reach": 150,
-      "views": 173,
+      "views": 174,
       "saved": 0,
       "shares": 0
     },
@@ -2818,7 +2818,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-28T16:01:33.501Z",
+  "actualizado": "2026-11-28T17:01:34.374Z",
   "aud": {
     "edad": [
       {

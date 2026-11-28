@@ -67,7 +67,7 @@
     "mwycksqmzi3",
     "mwyckxhs1q6"
   ],
-  "statsEl": "2026-11-28T16:01:33.501Z",
+  "statsEl": "2026-11-28T17:01:34.374Z",
   "stUltima": {
     "cuando": "2026-11-28T12:01:46.958Z",
     "franja": "09:00",
@@ -75,7 +75,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-28T16:01:27.822Z",
+    "cuando": "2026-11-28T17:01:26.220Z",
     "cola": 71,
     "enRepo": 70,
     "pendientes": []
@@ -165,7 +165,6 @@
       "fallos": 0
     },
     "publicadoEn": {
-      "mrcmvs17yshc98yg6-ig": "2026-10-29T16:01:56.609Z",
       "mrcmvqqgjigs4t5n3-ig": "2026-10-29T22:01:59.001Z",
       "mrcmvqw4j9ncuo4l7-ig": "2026-10-30T01:02:18.629Z",
       "mrcmvv4ugay58g2am-ig": "2026-10-30T16:02:42.578Z",
