@@ -3,7 +3,10 @@
   "latido": "2026-11-21T03:01:27.235Z",
   "stFranjas": {
     "2026-11-28 09:00": "ok",
-    "2026-11-28 15:30": "ok"
+    "2026-11-28 15:30": "ok",
+    "2026-11-28 17:30": {
+      "intentos": 1
+    }
   },
   "stUsados": [
     "mvig7p62n3p",
@@ -69,18 +72,20 @@
     "mwyckxhs1q6",
     "mx0hs9bkzh0"
   ],
-  "statsEl": "2026-11-28T20:01:31.420Z",
+  "statsEl": "2026-11-28T21:01:39.963Z",
   "stUltima": {
-    "cuando": "2026-11-28T19:02:21.375Z",
-    "franja": "15:30",
-    "ok": 1,
-    "fallos": 0
+    "cuando": "2026-11-28T21:01:30.186Z",
+    "franja": "17:30",
+    "ok": 0,
+    "fallos": 1
   },
   "stChequeo": {
-    "cuando": "2026-11-28T20:01:24.731Z",
+    "cuando": "2026-11-28T21:01:25.606Z",
     "cola": 71,
     "enRepo": 70,
-    "pendientes": []
+    "pendientes": [
+      "17:30"
+    ]
   },
   "fdig": {
     "franjas": {
@@ -662,5 +667,6 @@
       "t": "2026-11-25T19:01:54.749Z"
     }
   },
-  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (19:30) para comparar el alcance."
+  "stInfoPrueba": "Prueba de cantidad hoy: una tanda menos (19:30) para comparar el alcance.",
+  "stError": "The media with 18,137,433,685,670,222 cannot be found. (código 24)"
 }
