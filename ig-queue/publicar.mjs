@@ -1,4 +1,4 @@
-// ig-motor-v60
+// ig-motor-v61
 // Publica en Instagram lo que esté programado y ya llegó a su hora.
 // Lo ejecuta GitHub Actions cada ~10 minutos (.github/workflows/ig-publicar.yml). No usa librerías externas.
 import fs from 'node:fs';
@@ -1226,14 +1226,34 @@ async function estadisticas(estado, token, uid) {
 const xmlDec = (s) => String(s || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&#(\d+);/g, (m, n) => { try { return String.fromCodePoint(+n); } catch (e) { return ''; } }).replace(/&amp;/g, '&');
 const xmlTag = (b, nombres) => { for (const n of nombres) { const m = b.match(new RegExp('<' + n + '(?:\\s[^>]*)?>([\\s\\S]*?)</' + n + '>', 'i')); if (m && m[1].trim()) return xmlDec(m[1]).trim(); } return ''; };
 const esVideoUrl = (u, tipo, medium) => /video/i.test(tipo || '') || /video/i.test(medium || '') || /\.(mp4|mov|m4v|webm)(\?|$)/i.test(u || '');
-function armarItemFeed(id, link, fecha, titulo, html, meds) {
+function armarItemFeed(id, link, fecha, titulo, html, meds, extraHtml) {
   const vistos = new Set(), lista = [];
   for (const m of meds) if (m && m.url && !vistos.has(m.url)) { vistos.add(m.url); lista.push(m); }
   const h = String(html || '');
   if (!lista.length) {
     for (const m of h.matchAll(/<video[^>]*\ssrc=["']([^"']+)["']/gi)) if (!vistos.has(xmlDec(m[1]))) { vistos.add(xmlDec(m[1])); lista.push({ url: xmlDec(m[1]), video: true }); }
-    for (const m of h.matchAll(/<img[^>]*\ssrc=["']([^"']+)["']/gi)) if (!vistos.has(xmlDec(m[1]))) { vistos.add(xmlDec(m[1])); lista.push({ url: xmlDec(m[1]), video: false }); }
   }
+  // v61: CARRUSELES. rss.app suele mandar como adjunto solo la portada y poner TODAS las fotos como <img> dentro del contenido.
+  // Se leen las <img> de todo el contenido (descripción + content:encoded); si hay más fotos ahí que en los adjuntos, se usan esas.
+  const clave = (u) => String(u || '').split('#')[0].split('?')[0];
+  const imgsHtml = [], vi = new Set();
+  for (const bloque of [h, String(extraHtml || '')]) {
+    for (const m of bloque.matchAll(/<img\b[^>]*>/gi)) {
+      const tag = m[0];
+      const u = xmlDec((tag.match(/\s(?:src|data-src)=["']([^"']+)["']/i) || [])[1] || '');
+      if (!u || /^data:/i.test(u) || /emoji|twemoji|\/avatar|profile_pic/i.test(u)) continue;
+      const w = parseInt((tag.match(/\swidth=["']?(\d+)/i) || [])[1] || '0', 10); if (w && w < 120) continue;
+      const k = clave(u); if (vi.has(k)) continue; vi.add(k); imgsHtml.push({ url: u, video: false });
+    }
+  }
+  const fotosAdj = lista.filter((m) => !m.video);
+  if (imgsHtml.length >= 2 && imgsHtml.length > fotosAdj.length) {
+    const videos = lista.filter((m) => m.video);
+    lista.splice(0, lista.length, ...imgsHtml, ...videos);
+  } else {
+    for (const m of imgsHtml) { const k = clave(m.url); if (!lista.some((x) => clave(x.url) === k)) lista.push(m); }
+  }
+  console.log('Feed item', String(id || link || '').slice(-40), '| adjuntos:', meds.length, '| <img> en el texto:', imgsHtml.length, '| se bajan:', lista.length);
   // v50: un video con UNA sola foto al lado es video + portada: se queda solo el video (la portada no se baja como publicación aparte).
   { const vids = lista.filter((m) => m.video), imgs = lista.filter((m) => !m.video); if (vids.length && imgs.length <= 1) lista.splice(0, lista.length, ...vids); }
   const texto = xmlDec(h.replace(/<br\s*\/?>/gi, '\n').replace(/<\/p>/gi, '\n').replace(/<[^>]+>/g, '')).replace(/[ \t]+\n/g, '\n').trim();
@@ -1249,7 +1269,7 @@ function parseFeedProv(txt) {
       const med = [];
       for (const a of (it.attachments || [])) if (a && a.url) med.push({ url: a.url, video: esVideoUrl(a.url, a.mime_type, '') });
       if (!med.length && it.image) med.push({ url: it.image, video: false });
-      out.push(armarItemFeed(it.id || it.url, it.url, it.date_published || it.date_modified, it.title, it.content_html || it.content_text || '', med));
+      out.push(armarItemFeed(it.id || it.url, it.url, it.date_published || it.date_modified, it.title, it.content_html || it.content_text || '', med, (it.content_html || '') + ' ' + (it.content_text || '')));
     }
     return out;
   }
@@ -1263,7 +1283,7 @@ function parseFeedProv(txt) {
     }
     for (const m of b.matchAll(/<link\b([^>]*rel=["']enclosure["'][^>]*)>/gi)) { const u = (m[1].match(/\bhref=["']([^"']+)["']/i) || [])[1]; if (u) med.push({ url: xmlDec(u), video: esVideoUrl(u, (m[1].match(/\btype=["']([^"']+)["']/i) || [])[1], '') }); }
     let link = xmlTag(b, ['link']); if (!link) link = xmlDec((b.match(/<link\b[^>]*\bhref=["']([^"']+)["']/i) || [])[1] || '');
-    out.push(armarItemFeed(xmlTag(b, ['guid', 'id']) || link, link, xmlTag(b, ['pubDate', 'published', 'updated', 'dc:date']), xmlTag(b, ['title']), xmlTag(b, ['content:encoded', 'description', 'content', 'summary']), med));
+    out.push(armarItemFeed(xmlTag(b, ['guid', 'id']) || link, link, xmlTag(b, ['pubDate', 'published', 'updated', 'dc:date']), xmlTag(b, ['title']), xmlTag(b, ['content:encoded', 'description', 'content', 'summary']), med, ['content:encoded', 'description', 'content', 'summary'].map((n) => xmlTag(b, [n])).join(' ')));
   }
   return out;
 }
