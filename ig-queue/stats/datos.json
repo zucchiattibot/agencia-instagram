@@ -1372,25 +1372,25 @@
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
       "a": 69,
-      "v": 77
+      "v": 79
     },
     "18126221380987884": {
       "t": "2026-11-27T12:01:42+0000",
       "tipo": "IMAGE",
-      "a": 62,
-      "v": 68
+      "a": 64,
+      "v": 71
     },
     "18120121301585688": {
       "t": "2026-11-27T20:01:36+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 49
+      "a": 39,
+      "v": 53
     },
     "18148028026721049": {
       "t": "2026-11-27T23:01:46+0000",
       "tipo": "IMAGE",
-      "a": 17,
-      "v": 26
+      "a": 22,
+      "v": 31
     }
   },
   "seguidores": {
@@ -1441,7 +1441,8 @@
     "2026-11-24": 1400,
     "2026-11-25": 1401,
     "2026-11-26": 1401,
-    "2026-11-27": 1400
+    "2026-11-27": 1400,
+    "2026-11-28": 1400
   },
   "cuenta": {
     "username": "agenciaalbor",
@@ -1449,11 +1450,11 @@
     "follows_count": 668,
     "media_count": 686,
     "id": "28888466970748824",
-    "el": "2026-11-28T02:01:28.437Z"
+    "el": "2026-11-28T03:01:32.383Z"
   },
   "res30": {
-    "reach": 2681,
-    "views": 20612,
+    "reach": 2685,
+    "views": 20648,
     "profile_views": 82,
     "accounts_engaged": 95
   },
@@ -1466,8 +1467,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Quién no dijo la frase mágica levantando la espada en la infancia frente a la tele? ⚡\n\nLa colección de figuras oficiales de Masters of the Universe ya está generando nostalgia pura entre los fanáticos de Eternia.\n\nCada entrega viene con su fascículo coleccionable cargado de fichas técnicas, bocetos originales y toda la historia del universo.\n\nEsta primera entrega trae al mismísimo He-Man junto a su fascículo por $34.990.\n\nSi querés seguir completando la serie, la lista de personajes incluye a Skeletor, Battle Cat, Prince Adam, Man-At-Arms, Orko, Sorceress, Teela, Beast Man, Trap Jaw, Mer-Man, Ram Man y Evil-Lyn.\n\nPasá a reservarla por Maipú 175, Agencia Albor.\n\n#heman #carloscasares #mastersoftheuniverse\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 5,
-      "views": 8,
+      "reach": 10,
+      "views": 12,
       "saved": 0,
       "shares": 0
     },
@@ -1479,8 +1480,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Las tardes de taller en casa tienen otra emoción cuando hay que ajustar cada tuerca y dar forma a este clásico de siempre. 🔧\n\nNo te quedes sin tu kit: reservalo mandándonos un mensaje directo y pasá a retirarlo por Maipú 175, Agencia Albor. \n\n#MeccanoMasters #armables #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 6,
-      "views": 15,
+      "reach": 7,
+      "views": 16,
       "saved": 1,
       "shares": 0
     },
@@ -1518,7 +1519,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Querés llevar tu música al parque, a una juntada con amigos o simplemente escucharla fuerte mientras cocinas en casa? Con sonido potente, luces LED de colores y batería recargable, este parlante portátil es todo lo que necesitás para musicalizar cualquier momento sin depender de cables 🎶🔋\n\nPasá a buscarlo por Maipú 175, Agencia Albor. Mandanos un mensaje con la palabra RITMO y te guardamos el tuyo 🎸\n\nTambién realizamos entregas en consignación. Lo que no se vende, se devuelve. Escribinos.\n\n#parlanteportatil #sonidopotente #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 12,
+      "reach": 13,
       "views": 30,
       "saved": 0,
       "shares": 0
@@ -1544,7 +1545,7 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Para los que disfrutan preparando cosas ricas en casa, tener los utensilios justos hace toda la diferencia en la cocina 🧁\nEste molde para seis muffins de silicona premium es antiadherente y súper práctico para tus recetas de todos los días. \nReservalo hoy en Maipú 175, Agencia Albor.\nComentá MUFFINS y te pasamos toda la info.\n\n¿Tenés kiosco o comercio? Trabajamos en consignación: te dejamos los títulos y lo que no vendés se devuelve.\n\n#siliconapremium #superreposteria #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 20,
+      "reach": 21,
       "views": 33,
       "saved": 0,
       "shares": 0
@@ -2798,7 +2799,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-28T02:01:34.877Z",
+  "actualizado": "2026-11-28T03:01:40.261Z",
   "aud": {
     "edad": [
       {
@@ -3625,6 +3626,10 @@
     "2026-11-26": {
       "a": 260,
       "v": 842
+    },
+    "2026-11-27": {
+      "a": 116,
+      "v": 447
     }
   }
 }
