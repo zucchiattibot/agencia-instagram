@@ -1371,26 +1371,26 @@
     "17979288116938517": {
       "t": "2026-11-27T11:02:06+0000",
       "tipo": "VIDEO",
-      "a": 79,
-      "v": 89
+      "a": 80,
+      "v": 91
     },
     "18126221380987884": {
       "t": "2026-11-27T12:01:42+0000",
       "tipo": "IMAGE",
-      "a": 73,
-      "v": 79
+      "a": 74,
+      "v": 82
     },
     "18120121301585688": {
       "t": "2026-11-27T20:01:36+0000",
       "tipo": "IMAGE",
-      "a": 54,
-      "v": 67
+      "a": 55,
+      "v": 69
     },
     "18148028026721049": {
       "t": "2026-11-27T23:01:46+0000",
       "tipo": "IMAGE",
-      "a": 40,
-      "v": 53
+      "a": 41,
+      "v": 55
     }
   },
   "seguidores": {
@@ -1450,13 +1450,13 @@
     "follows_count": 668,
     "media_count": 686,
     "id": "28888466970748824",
-    "el": "2026-11-28T06:01:28.358Z"
+    "el": "2026-11-28T07:01:36.910Z"
   },
   "res30": {
-    "reach": 2685,
-    "views": 20736,
-    "profile_views": 82,
-    "accounts_engaged": 95
+    "reach": 2591,
+    "views": 20054,
+    "profile_views": 80,
+    "accounts_engaged": 91
   },
   "posts": [
     {
@@ -1532,8 +1532,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 148,
-      "views": 172,
+      "reach": 149,
+      "views": 173,
       "saved": 0,
       "shares": 0
     },
@@ -2799,7 +2799,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-28T06:01:32.952Z",
+  "actualizado": "2026-11-28T07:01:43.651Z",
   "aud": {
     "edad": [
       {
