@@ -69,7 +69,7 @@
     "mwyclsje1kk",
     "mwycksqmzi3"
   ],
-  "statsEl": "2026-11-28T00:01:56.005Z",
+  "statsEl": "2026-11-28T01:01:53.845Z",
   "stUltima": {
     "cuando": "2026-11-27T23:01:53.148Z",
     "franja": "19:45",
@@ -77,7 +77,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-28T00:01:28.743Z",
+    "cuando": "2026-11-28T01:01:34.917Z",
     "cola": 69,
     "enRepo": 68,
     "pendientes": []
@@ -85,7 +85,8 @@
   "fdig": {
     "franjas": {
       "2026-11-27 13:00": "ok",
-      "2026-11-27 18:30": "ok"
+      "2026-11-27 18:30": "ok",
+      "2026-11-27 21:45": "ok"
     },
     "usados": [
       "cmvk52c23-ig",
@@ -157,11 +158,12 @@
       "cmwxr95t2-ig",
       "mrcmwuv9omzh4pk7a-ig",
       "mrcmwxr779vnr847i-ig",
-      "mrcmwzaujndhj87op-ig"
+      "mrcmwzaujndhj87op-ig",
+      "mrcmwgbb6kcf5epba-ig"
     ],
     "ultima": {
-      "cuando": "2026-11-27T22:02:03.149Z",
-      "franja": "18:30",
+      "cuando": "2026-11-28T01:01:47.458Z",
+      "franja": "21:45",
       "ok": 1,
       "fallos": 0
     },
@@ -225,11 +227,13 @@
       "cmwxr95t2-ig": "2026-11-26T22:01:59.129Z",
       "mrcmwuv9omzh4pk7a-ig": "2026-11-27T02:01:40.274Z",
       "mrcmwxr779vnr847i-ig": "2026-11-27T16:01:44.252Z",
-      "mrcmwzaujndhj87op-ig": "2026-11-27T22:02:03.147Z"
+      "mrcmwzaujndhj87op-ig": "2026-11-27T22:02:03.147Z",
+      "mrcmwgbb6kcf5epba-ig": "2026-11-28T01:01:47.457Z"
     },
     "usadosDia": {
       "mrcmwxr779vnr847i-ig": "2026-11-27",
-      "mrcmwzaujndhj87op-ig": "2026-11-27"
+      "mrcmwzaujndhj87op-ig": "2026-11-27",
+      "mrcmwgbb6kcf5epba-ig": "2026-11-27"
     },
     "carga": {
       "nivel": 0,
@@ -238,7 +242,7 @@
       "motivo": "sin estadísticas suficientes: se mantiene tu ritmo"
     },
     "infoCarga": "3 salidas hoy, separadas al menos 2 h; 4 esperando (sin estadísticas suficientes: se mantiene tu ritmo). Hay 3 Reels programados hoy (recomendado hasta 2).",
-    "ultimaProv": "La Nacion",
+    "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-27",
       "h": "",
@@ -427,7 +431,7 @@
       "motivo": "hay material acumulado y publicar más no baja el alcance por publicación (120%)",
       "cambio": "2026-11-27"
     },
-    "infoCarga": "2 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 5 esperando (hay material acumulado y publicar más no baja el alcance por publicación (120%)).",
+    "infoCarga": "2 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 4 esperando (hay material acumulado y publicar más no baja el alcance por publicación (120%)).",
     "ultimaProv": "La Nacion",
     "prueba": {
       "dia": "2026-11-27",
