@@ -64,7 +64,7 @@
     "mwyclsje1kk",
     "mwycksqmzi3"
   ],
-  "statsEl": "2026-11-28T10:01:32.657Z",
+  "statsEl": "2026-11-28T11:01:40.305Z",
   "stUltima": {
     "cuando": "2026-11-27T23:01:53.148Z",
     "franja": "19:45",
@@ -72,7 +72,7 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-28T10:01:25.718Z",
+    "cuando": "2026-11-28T11:01:29.737Z",
     "cola": 69,
     "enRepo": 68,
     "pendientes": []
@@ -261,7 +261,9 @@
     "infoMenos": "Prueba de cantidad hoy: una salida menos (21:15) para comparar el alcance por publicación."
   },
   "fdfb": {
-    "franjas": {},
+    "franjas": {
+      "2026-11-28 08:00": "ok"
+    },
     "usados": [
       "cmvk52c23-fb",
       "mrcmvjw5vgqq1prmt-fb",
@@ -333,11 +335,12 @@
       "cmwxr95t2-fb",
       "mrcmwxr779vnr847i-fb",
       "mrcmvv4ugay58g2am-fb",
-      "mrcmwzaujndhj87op-fb"
+      "mrcmwzaujndhj87op-fb",
+      "mrcmwgbb6kcf5epba-fb"
     ],
     "ultima": {
-      "cuando": "2026-11-28T00:01:40.590Z",
-      "franja": "20:15",
+      "cuando": "2026-11-28T11:01:34.324Z",
+      "franja": "08:00",
       "ok": 1,
       "fallos": 0
     },
@@ -402,9 +405,12 @@
       "cmwxr95t2-fb": "2026-11-26T21:01:38.565Z",
       "mrcmwxr779vnr847i-fb": "2026-11-27T00:01:45.151Z",
       "mrcmvv4ugay58g2am-fb": "2026-11-27T11:03:03.639Z",
-      "mrcmwzaujndhj87op-fb": "2026-11-28T00:01:40.589Z"
+      "mrcmwzaujndhj87op-fb": "2026-11-28T00:01:40.589Z",
+      "mrcmwgbb6kcf5epba-fb": "2026-11-28T11:01:34.324Z"
     },
-    "usadosDia": {},
+    "usadosDia": {
+      "mrcmwgbb6kcf5epba-fb": "2026-11-28"
+    },
     "carga": {
       "nivel": 1,
       "dia": "2026-11-28",
@@ -415,7 +421,7 @@
       "cambio": "2026-11-27"
     },
     "infoCarga": "3 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 4 esperando (las estadísticas no justifican cambiar la cantidad). Prueba de horario hoy: 22:00 (noche) en lugar de 16:45.",
-    "ultimaProv": "La Nacion",
+    "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-28",
       "h": "22:00",
