@@ -67,7 +67,7 @@
     "mwycksqmzi3",
     "mwyckxhs1q6"
   ],
-  "statsEl": "2026-11-28T14:02:16.041Z",
+  "statsEl": "2026-11-28T15:01:46.360Z",
   "stUltima": {
     "cuando": "2026-11-28T12:01:46.958Z",
     "franja": "09:00",
@@ -75,9 +75,9 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-28T14:01:35.360Z",
-    "cola": 69,
-    "enRepo": 68,
+    "cuando": "2026-11-28T15:01:38.822Z",
+    "cola": 70,
+    "enRepo": 69,
     "pendientes": []
   },
   "fdig": {
@@ -429,7 +429,7 @@
       "motivo": "las estadísticas no justifican cambiar la cantidad",
       "cambio": "2026-11-27"
     },
-    "infoCarga": "3 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 3 esperando (las estadísticas no justifican cambiar la cantidad). Prueba de horario hoy: 22:00 (noche) en lugar de 16:45.",
+    "infoCarga": "3 salidas hoy (1 sumada por estadísticas), separadas al menos 2 h; 4 esperando (las estadísticas no justifican cambiar la cantidad). Prueba de horario hoy: 22:00 (noche) en lugar de 16:45.",
     "ultimaProv": "La nación",
     "prueba": {
       "dia": "2026-11-28",
@@ -634,7 +634,7 @@
   "stPruebaUlt": "2026-11-15",
   "stRepruebaUlt": "2026-11-15",
   "provUlt": {
-    "cuando": "2026-11-28T14:01:35.298Z",
+    "cuando": "2026-11-28T15:01:38.633Z",
     "n": 1
   },
   "stM": {
