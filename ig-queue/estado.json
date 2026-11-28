@@ -69,7 +69,7 @@
     "mwyckxhs1q6",
     "mx0hs9bkzh0"
   ],
-  "statsEl": "2026-11-28T19:02:27.425Z",
+  "statsEl": "2026-11-28T20:01:31.420Z",
   "stUltima": {
     "cuando": "2026-11-28T19:02:21.375Z",
     "franja": "15:30",
@@ -77,12 +77,10 @@
     "fallos": 0
   },
   "stChequeo": {
-    "cuando": "2026-11-28T19:01:25.231Z",
+    "cuando": "2026-11-28T20:01:24.731Z",
     "cola": 71,
     "enRepo": 70,
-    "pendientes": [
-      "15:30"
-    ]
+    "pendientes": []
   },
   "fdig": {
     "franjas": {

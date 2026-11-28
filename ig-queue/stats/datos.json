@@ -1383,26 +1383,26 @@
     "18120121301585688": {
       "t": "2026-11-27T20:01:36+0000",
       "tipo": "IMAGE",
-      "a": 71,
-      "v": 86
+      "a": 73,
+      "v": 90
     },
     "18148028026721049": {
       "t": "2026-11-27T23:01:46+0000",
       "tipo": "IMAGE",
-      "a": 62,
-      "v": 78
+      "a": 64,
+      "v": 84
     },
     "17916834147487908": {
       "t": "2026-11-28T12:01:39+0000",
       "tipo": "IMAGE",
-      "a": 34,
-      "v": 45
+      "a": 38,
+      "v": 53
     },
     "18084433400340989": {
       "t": "2026-11-28T19:01:51+0000",
       "tipo": "VIDEO",
-      "a": 0,
-      "v": 0
+      "a": 11,
+      "v": 12
     }
   },
   "seguidores": {
@@ -1462,11 +1462,11 @@
     "follows_count": 668,
     "media_count": 687,
     "id": "28888466970748824",
-    "el": "2026-11-28T19:02:22.524Z"
+    "el": "2026-11-28T20:01:25.938Z"
   },
   "res30": {
     "reach": 2605,
-    "views": 20237,
+    "views": 20260,
     "profile_views": 82,
     "accounts_engaged": 91
   },
@@ -1479,8 +1479,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "Volver a conectar con uno mismo y sanar los vínculos requiere herramientas claras y mucha lectura consciente. 📖 Encontrá este ejemplar de Alaleh Nejafian pasando por Agencia Albor, Carlos Casares. \n\nMandanos un mensaje con la palabra VINCULO y te lo separamos.\n\n#elamorcontratodo #alalehnejafian #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 19,
-      "views": 37,
+      "reach": 20,
+      "views": 38,
       "saved": 0,
       "shares": 0
     },
@@ -1557,8 +1557,8 @@
       "like_count": 0,
       "comments_count": 0,
       "caption": "¿Probaste ese café cortado bien espumoso que te cambia el día al primer sorbo? ☕ Pasá a buscar tu cafetera Nero Essenza por Maipú 175, Agencia Albor. \n\n#neroessenza #cafe #carloscasares\n\n📲 WhatsApp: 2395 41-7834\n🔗 Link directo en la bio",
-      "reach": 150,
-      "views": 174,
+      "reach": 151,
+      "views": 176,
       "saved": 0,
       "shares": 0
     },
@@ -2824,7 +2824,7 @@
       "shares": 0
     }
   ],
-  "actualizado": "2026-11-28T19:02:27.425Z",
+  "actualizado": "2026-11-28T20:01:31.420Z",
   "aud": {
     "edad": [
       {
